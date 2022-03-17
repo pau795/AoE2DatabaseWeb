@@ -1,0 +1,113 @@
+
+.damage-calculator-content{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.damage-calculator-images-layout{
+    display: flex;
+    flex-direction: row;
+}
+
+.damage-calculator-unit-layout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.damage-calculator-selector{
+    width: 75%;
+}
+
+.damage-calculator-gif{
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.damage-calculator-selector::part(input-field){
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.damage-calculator-results-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.damage-calculator-grid-row{
+    display: contents;
+}
+
+.damage-calculator-results-left-column{
+    text-align: left;
+    white-space: pre-line;
+}
+
+.damage-calculator-results-center-column{
+    text-align: center;
+    font-weight: bold;
+}
+
+.damage-calculator-results-right-column{
+    text-align: right;
+    white-space: pre-line;
+}
+
+.damage-calculator-results-label{
+    font-weight: bold;
+}
+
+.damage-calculator-buttons-grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    align-items: center;
+}
+
+.damage-calculator-buttons-grid2{
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    grid-gap: 10px;
+    align-items: center;
+}
+
+.damage-calculator-buttons-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.damage-calculator-buttons-label{
+    white-space: pre-line;
+    text-align: center;
+    font-weight: bold;
+}
+
+.damage-calculator-button{
+    min-width: 130px;
+    width: 75%;
+    color: white;
+    font-weight: bold;
+    background-color: var(--lumo-primary-color-50pct);
+    border: 3px solid var(--lumo-primary-color);
+    cursor: pointer;
+    margin: auto;
+}
+
+.damage-calculator-hill-checkbox{
+    display: flex;
+    justify-content: center;
+}
+
+.damage-calculator-relics{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+

@@ -1,0 +1,141 @@
+.tech-tree-box-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 135px;
+    height: 100%;
+}
+
+.tech-tree-empty-box{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    width: 135px;
+    height: 100%;
+
+}
+
+
+.tech-tree-box-vertical-line{
+    width: 2px;
+    height: 100%;
+    background-color: black;
+}
+
+.tech-tree-box-line-div{
+    display: flex;
+    width: 100%;
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tech-tree-box-horizontal-line{
+    height: 2px;
+    background-color: black;
+    flex-grow: 1;
+}
+
+.tech-tree-box-line-not-active{
+    visibility: hidden;
+}
+
+.tech-tree-box-margin{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.tech-tree-box{
+    border: 2px solid black;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+
+}
+
+.tech-tree-box-image-div{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+}
+
+.tech-tree-box-icon{
+    border: 1px solid black;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+
+}
+
+.tech-tree-box-cancel{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+}
+
+.tech-tree-box-name-div{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.tech-tree-box-name{
+    font-size: 10px;
+    text-align: center;
+    font-weight: 800;
+    color: black;
+    pointer-events: none;
+}
+
+.tech-tree-box-red{
+    background-color: red;
+}
+
+.tech-tree-box-green{
+    background-color: green;
+}
+
+.tech-tree-box-teal{
+    background-color: teal;
+}
+
+.tech-tree-box-purple{
+    background-color: purple;
+}
+
+
+
+.tech-tree-connector{
+    display: flex;
+    flex-direction: column;
+}
+
+.tech-tree-connector-half{
+    flex-grow: 1;
+    height: 110px;
+}
+
+.tech-tree-connector-bottom{
+    display: flex;
+    flex-direction: horizontal;
+
+}
+
+.tech-tree-popup-container{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: inline-block;
+}

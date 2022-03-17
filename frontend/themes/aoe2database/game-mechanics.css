@@ -1,0 +1,46 @@
+.game-mechanics-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.game-mechanics-content > hr {
+    margin: 0;
+}
+
+.game-mechanics-formula-image{
+    max-width: 600px;
+    object-fit: contain;
+    align-self: center;
+}
+
+@media (max-width: 600px){
+
+
+    .game-mechanics-formula-image{
+        max-width: 100%;
+    }
+}
+
+ol > li::marker{
+    font-weight: 600;
+}
+
+
+.game-mechanics-text{
+    text-align: justify;
+    white-space: pre-line;
+}
+
+.game-mechanics-center-text{
+    align-self: center;
+}
+
+.game-mechanics-formula-text > ul{
+    margin-top: 0;
+}
+
+.game-mechanics-title{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}

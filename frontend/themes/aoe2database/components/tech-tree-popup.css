@@ -1,0 +1,80 @@
+.tech-tree-popup-view{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--lumo-primary-color-10pct);
+    color: black;
+    padding: 10px;
+    border: 2px solid black;
+    width: 350px;
+}
+
+.tech-tree-popup-name{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    align-self: center;
+}
+
+.tech-tree-popup-image{
+    width: 100px;
+    height: 100px;
+    border: 3px solid var(--lumo-primary-color);
+    align-self: center;
+}
+
+.tech-tree-popup-description{
+    text-align: justify;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.tech-tree-popup-cost{
+    align-self: flex-start;
+    height: 30px;
+    width: 100%;
+}
+
+.tech-tree-popup-upgrade-cost{
+    align-self: flex-start;
+    height: 30px;
+    width: 100%;
+}
+
+.tech-tree-popup-button{
+    font-weight: bold;
+    border: 3px solid var(--lumo-primary-color);
+    color: black;
+    margin-top: 10px;
+    width: fit-content;
+    align-self: center;
+    cursor: pointer;
+}
+
+.tech-tree-popup-row-layout{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-self: flex-start;
+    padding-top: 5px;
+}
+
+.tech-tree-popup-res-layout{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.tech-tree-popup-icon{
+    object-fit: contain;
+    height: 30px;
+}
+
+.tech-tree-popup-res-value{
+    text-align: center;
+}
+
+.tech-tree-popup-semibold-text{
+    font-weight: 600;
+}
+

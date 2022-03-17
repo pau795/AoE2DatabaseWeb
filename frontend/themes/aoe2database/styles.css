@@ -1,3 +1,31 @@
 @import url('./main-layout.css');
 @import url('lumo-css-framework/all-classes.css');
 @import url('line-awesome/dist/line-awesome/css/line-awesome.min.css');
+html {
+    --green-theme-text-color: rgb(26, 168, 43);
+    --green-theme-primary-color: rgb(20, 150, 25);
+    --green-theme-primary-color-50pct: rgb(20, 150, 25, 0.5);
+    --green-theme-primary-color-10pct: rgb(20, 150, 25, 0.1);
+
+    --blue-theme-text-color: rgb(100, 140, 210);
+    --blue-theme-primary-color: rgb(95, 126, 198);
+    --blue-theme-primary-color-50pct: rgb(95, 126, 198, 0.5);
+    --blue-theme-primary-color-25pct: rgb(95, 126, 198, 0.25);
+    --blue-theme-primary-color-10pct: rgb(95, 126, 198, 0.1);
+
+    --red-theme-text-color: rgb(217, 90, 83);
+    --red-theme-primary-color: rgb(211, 71, 71);
+    --red-theme-primary-color-50pct: rgb(211, 71, 71, 0.5);
+    --red-theme-primary-color-10pct: rgb(211, 71, 71, 0.1);
+
+    --divider-color: rgba(222, 222, 222, 0.4);
+
+    --lumo-primary-text-color: var(--blue-theme-text-color);
+    --lumo-primary-color-50pct: var(--blue-theme-primary-color-50pct);
+    --lumo-primary-color-25pct: var(--blue-theme-primary-color-25pct);
+    --lumo-primary-color-10pct: var(--blue-theme-primary-color-10pct);
+    --lumo-primary-color: var(--blue-theme-primary-color);
+
+
+
+}

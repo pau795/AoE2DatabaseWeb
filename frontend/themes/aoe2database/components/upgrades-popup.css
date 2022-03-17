@@ -1,0 +1,43 @@
+.upgrades-list{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    max-height: 400px;
+    background-color: var(--lumo-primary-color-10pct);
+    overflow-x: hidden;
+}
+
+.upgrades-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-top: 1px solid var(--divider-color);
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.upgrades-row-disabled{
+    filter: grayscale(100%);
+    color: gray;
+}
+
+.upgrades-row:hover:not([disabled]){
+    background-color: var(--lumo-primary-color-50pct);
+    cursor: pointer;
+}
+
+.upgrades-checkbox{
+    pointer-events: none;
+}
+
+.upgrades-name{
+    font-weight: bold;
+    pointer-events: none;
+}
+
+
+.upgrades-image{
+    width: 50px;
+    height: 50px;
+    border: 3px solid var(--lumo-primary-color);
+}

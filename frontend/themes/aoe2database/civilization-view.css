@@ -1,0 +1,97 @@
+
+
+.civ-images-layout{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+
+}
+
+.civ-style{
+    text-align: center;
+    font-size: 24px;
+}
+
+.links-layout{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.civ-panel-layout{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
+.panel-hover{
+     display: flex;
+     flex-direction: column;
+     padding: 20px;
+     align-items: center;
+
+}
+
+.panel-hover:hover{
+    background-color: var(--lumo-primary-color-10pct);
+    color: var(--lumo-primary-text-color);
+    border-radius: 10px;
+}
+
+.civ-audio{
+    width: 100%;
+}
+
+.civ-label{
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    pointer-events: none;
+
+}
+
+.civ-image{
+    width: 75px;
+    height: 75px;
+}
+
+
+
+.title{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.entity_icon{
+    max-width: 50%;
+    max-height: 65%;
+    object-fit: contain;
+    padding: 15px;
+    border: 3px solid var(--lumo-primary-color);
+    background-color: var(--lumo-primary-color-50pct);
+    border-radius: 10px;
+
+}
+
+.plain-text > ul{
+    padding-left: 15px;
+}
+
+hr{
+    background-color: var(--divider-color);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

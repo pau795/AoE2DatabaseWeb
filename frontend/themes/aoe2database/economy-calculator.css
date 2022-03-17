@@ -1,0 +1,189 @@
+.economy-calculator-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.economy-calculator-unit-selection-div{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap: 30px;
+
+}
+
+
+.economy-calculator-eco-grid{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.economy-calculator-stats-div{
+    display: contents;
+}
+
+.economy-calculator-eco-grid-row{
+    display: contents;
+}
+
+
+.economy-calculator-selector-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.economy-calculator-selector{
+    flex-grow: 1;
+    min-width: 100px;
+}
+
+
+.economy-calculator-training-time-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.economy-calculator-res-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.economy-calculator-cost-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--lumo-primary-color-50pct);
+    border: 3px solid var(--lumo-primary-color);
+    border-radius: 10px;
+    padding: 5px;
+}
+.economy-calculator-unit-header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.economy-calculator-unit-image-container{
+    position: relative;
+    text-align: center;
+}
+
+.economy-calculator-text-over-image{
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px var(--lumo-primary-color);
+}
+
+.economy-calculator-white-text{
+    color: white;
+    font-weight: bold;
+}
+
+.economy-calculator-resource-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.economy-calculator-button{
+    width: fit-content;
+    color: white;
+    font-weight: bold;
+    background-color: var(--lumo-primary-color-50pct);
+    border: 3px solid var(--lumo-primary-color);
+    cursor: pointer;
+}
+
+.economy-calculator-bold-text{
+    font-weight: bold;
+    text-align: center;
+}
+
+.economy-calculator-center-text{
+    text-align: center;
+}
+
+.economy-calculator-res-image{
+    width: 30px;
+    height: 30px;
+}
+
+.economy-calculator-villager-image{
+    width: 40px;
+    height: 40px;
+}
+
+.economy-calculator-hourglass-icon{
+    object-fit: contain;
+    height: 30px;
+}
+
+
+.economy-calculator-entity-icon{
+    width: 50px;
+    height: 50px;
+    border: 3px solid var(--lumo-primary-color);
+}
+
+.economy-calculator-remove-button{
+    width: 40px;
+    height: 40px;
+}
+
+.economy-calculator-remove-button > vaadin-icon{
+    width: 30px;
+    height: 30px;
+}
+
+.economy-calculator-grid-cell-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.economy-calculator-grid-cell{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    gap: 5px;
+
+}
+
+.economy-calculator-eco-row-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.economy-calculator-grid-border{
+    border: 1px solid lightGray;
+}
+
+.economy-calculator-building-selector{
+    max-width: 110px;
+}
+
+
+
+
+

@@ -1,0 +1,24 @@
+.main-menu-view-general{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+
+.main-menu-section{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.vertical-divider{
+    width: 1px;
+    height: 100%;
+}
+
+.main-menu-category{
+    border: 3px solid var(--lumo-primary-color);
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 15px;
+}

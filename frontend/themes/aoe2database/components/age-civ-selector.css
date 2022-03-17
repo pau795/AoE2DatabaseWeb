@@ -1,0 +1,83 @@
+.selector-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.div{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.selector{
+    min-width: 150px;
+    width: 75%;
+
+}
+
+.upgrades-button{
+    min-width: 130px;
+    width: 75%;
+    color: white;
+    font-weight: bold;
+    background-color: var(--lumo-primary-color-50pct);
+    border: 3px solid var(--lumo-primary-color);
+    cursor: pointer;
+}
+
+.age-button{
+    max-width: 100%;
+    flex-grow: 1;
+    background-color: white;
+    color: grey;
+    font-weight: 900;
+    font-size: 0.7em;
+    cursor: pointer;
+
+}
+
+
+.button-inactive:hover{
+    background-color: var(--lumo-primary-color-10pct);
+    color: var(--lumo-primary-text-color);
+}
+
+.button-active{
+    background-color: var(--lumo-primary-color-25pct);
+    color: white;
+}
+
+.selector{
+    background-color: white;
+}
+
+.row > hr{
+    background-color: var(--divider-color);
+    width: 1px;
+    height: inherit;
+}
+
+.padding-row{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.selector-container > hr{
+    margin: 0;
+}
+
+
+

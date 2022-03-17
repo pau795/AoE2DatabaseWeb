@@ -1,0 +1,29 @@
+.taunt-main-view{
+    background-color: var(--lumo-primary-color-10pct);
+}
+
+.taunt-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-auto-rows: 1fr;
+    column-gap: 50px;
+    box-shadow: 3px 0 4px -2px gray, -3px 0 4px -2px gray;
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px;
+    margin: 15px;
+}
+
+.taunt-cell{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.taunt-cell-name{
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+    flex-grow: 1;
+    align-items: flex-end;
+}

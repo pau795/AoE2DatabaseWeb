@@ -1,0 +1,103 @@
+
+
+.stat-comparator-tab-layout{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.stat-comparator-tab-divider{
+    margin: 0;
+}
+
+.stat-comparator-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.stat-comparator-tab{
+    font-weight: bold;
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: center;
+}
+
+.stat-comparator-container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.stat-comparator-grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.stat-comparator-left-stat{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: left;
+    padding: 5px;
+}
+
+.stat-comparator-right-stat{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: right;
+    padding: 5px;
+}
+
+.stat-comparator-stat-name{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    border-left: 1px solid var(--divider-color);
+    border-right: 1px solid var(--divider-color);
+    padding: 5px;
+}
+
+.stat-comparator-res-layout{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.stat-comparator-res-icon{
+    width: 30px;
+    height: 30px;
+}
+
+.stat-comparator-res-value{
+    text-align: center;
+}
+
+.stat-comparator-cost-layout{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+}
+
+.stat-comparator-container > hr{
+    margin: 0;
+}
+
+.stat-comparator-unit-cost-layout{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    padding: 5px;
+}
