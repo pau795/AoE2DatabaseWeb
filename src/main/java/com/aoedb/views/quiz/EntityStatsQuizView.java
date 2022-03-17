@@ -285,6 +285,9 @@ public abstract class EntityStatsQuizView extends QuizView {
                     case 23:
                     case 39:
                     case 102:
+                    case 137:
+                    case 143:
+
                         return false;
                     default:
                         return true;

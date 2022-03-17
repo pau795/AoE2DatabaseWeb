@@ -12,6 +12,7 @@ import com.vaadin.flow.component.combobox.ComboBox;
 import com.vaadin.flow.component.html.Div;
 import com.vaadin.flow.component.html.Image;
 import com.vaadin.flow.data.renderer.ComponentRenderer;
+import com.vaadin.flow.router.BeforeEnterEvent;
 import com.vaadin.flow.router.Route;
 import com.vaadin.flow.router.RoutePrefix;
 
@@ -19,10 +20,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RoutePrefix("unit_comparator")
-@Route(value = ":language?", layout = MainLayout.class)
+@Route(value = ":entityID1?/:entityID2?/:language", layout = MainLayout.class)
 public class UnitComparatorView extends OneColumnView {
 
-    int civID1, civID2;
+    int civID1, civID2, initUnit1, initUnit2;
     Unit unit1, unit2;
     Image unit1Image, unit2Image;
     ComboBox<EntityElement> unit1Selector, unit2Selector;
@@ -42,12 +43,13 @@ public class UnitComparatorView extends OneColumnView {
             ageID = age;
             calculateStats();
         });
+        civID1 = -1;
+        civID2 = -1;
         comparator = new StatComparator(language);
+
 
         ArrayList<EntityElement> items = new ArrayList<>(Database.getList(Database.UNIT_LIST, language));
         items.sort(EntityElement.getAlphabeticalComparator());
-        civID1 = -1;
-        civID2 = -1;
         upgradesID1 = new ArrayList<>();
         upgradesID2 = new ArrayList<>();
 
@@ -77,6 +79,7 @@ public class UnitComparatorView extends OneColumnView {
             @Override
             public void onCivChanged(int civ) {
                 civID1 = civ;
+                updateURL();
                 calculateStats();
             }
 
@@ -86,7 +89,7 @@ public class UnitComparatorView extends OneColumnView {
                 calculateStats();
             }
         });
-        setUnit1(1);
+        setUnit1(initUnit1);
 
 
         //RIGHT
@@ -106,6 +109,7 @@ public class UnitComparatorView extends OneColumnView {
             @Override
             public void onCivChanged(int civ) {
                 civID2 = civ;
+                updateURL();
                 calculateStats();
             }
 
@@ -115,7 +119,7 @@ public class UnitComparatorView extends OneColumnView {
                 calculateStats();
             }
         });
-        setUnit2(1);
+        setUnit2(initUnit2);
 
 
         Div rightUnitDiv = new Div();
@@ -142,7 +146,14 @@ public class UnitComparatorView extends OneColumnView {
         upgradesID1 = unit1.getUpgradesIds();
         selector.setupUpgrade1Selector(upgradesID1);
         selector.setUnit1Civ(civList.get(0), civList);
+        updateURL();
         setupAgeLayout();
+    }
+
+    private void updateURL(){
+        parameters = Utils.changeRouteParameter(parameters, "entityID1", String.valueOf(unit1.getEntityID()));
+        parameters = Utils.changeRouteParameter(parameters, "entityID2", String.valueOf(unit2.getEntityID()));
+        getUI().ifPresent(ui -> ui.navigate(this.getClass(), parameters));
     }
 
     private void setUnit2(int id){
@@ -158,6 +169,7 @@ public class UnitComparatorView extends OneColumnView {
         upgradesID2 = unit2.getUpgradesIds();
         selector.setupUpgrade2Selector(upgradesID2);
         selector.setUnit2Civ(civList.get(0), civList);
+        updateURL();
         setupAgeLayout();
     }
 
@@ -174,6 +186,19 @@ public class UnitComparatorView extends OneColumnView {
         unit1.calculateStats(ageID, civID1, upgradesID1);
         unit2.calculateStats(ageID, civID2, upgradesID2);
         comparator.updateStats(unit1, unit2);
+    }
+
+    @Override
+    public void beforeEnter(BeforeEnterEvent beforeEnterEvent) {
+        parameters = beforeEnterEvent.getRouteParameters();
+
+        initUnit1 = Integer.parseInt(parameters.get("entityID1").orElse("1"));
+        initUnit2 = Integer.parseInt(parameters.get("entityID2").orElse("1"));
+        language = Utils.checkLanguage(parameters.get("language").orElse(Database.DEFAULT_LANGUAGE));
+        if (!init){
+            initView();
+            init = true;
+        }
     }
 
     @Override

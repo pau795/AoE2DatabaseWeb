@@ -102,7 +102,8 @@ public class CivilizationQuizView extends QuizView {
             civThemes.put(i, theme);
             civIcons.put(i,icon1);
             ++civCount;
-            civUnits.put(i, c.getUniqueUnitList());
+            if (i == 34 || i == 39) civUnits.put(i, new ArrayList<>(Collections.singletonList(c.getUniqueUnit())));
+            else civUnits.put(i, c.getUniqueUnitList());
             unitCount += c.getUniqueUnitList().size();
             ArrayList<String> a = new ArrayList<>();
             for(int b: c.getBonusList()){
@@ -167,12 +168,13 @@ public class CivilizationQuizView extends QuizView {
         int n = questionSample.get(pos);
         correctionComment = Database.getString("quiz_select_civ", language);
         updateComment();
+        civSelector.setRenderer(new ComponentRenderer<>(element -> Utils.getEntityItemRow(element, false)));
         civSelector.setValue(null);
         civSelector.focus();
         correctionComment = String.format(Database.getString("quiz_correction_civ", language), civNames.get(civID-1));
         okButton.setText(Database.getString("ok", language));
         switch (n){
-            case 0: {
+            case 0: { //bonus
                 List<String> bonuses = civBonuses.get(civID);
                 int i = r.nextInt(bonuses.size());
                 String bonus = bonuses.get(i);
@@ -182,7 +184,7 @@ public class CivilizationQuizView extends QuizView {
                 setQuestionInfoMedia(Database.getImage("quiz"), true);
                 break;
             }
-            case 1: {
+            case 1: { //unique unit
                 List<Integer> units = civUnits.get(civID);
                 int i = r.nextInt(units.size());
                 int unitID = units.get(i);
@@ -193,23 +195,22 @@ public class CivilizationQuizView extends QuizView {
                 questionString = String.format(Database.getString("quiz_civ_unique_unit_question", language), currentQuestion, numQuestions, u.getDescriptor().getNominative());
                 break;
             }
-            case 2: {
+            case 2: { //theme
                 questionString = String.format(Database.getString("quiz_civ_theme_question", language), currentQuestion, numQuestions);
                 setQuestionInfoIcon(Database.getImage("horn"), false);
                 setQuestionInfoName(Database.getString("quiz_civ_theme", language));
                 setQuestionInfoMedia(civThemes.get(civID), false);
                 break;
             }
-            case 3: {
+            case 3: { //emblem
                 questionString = String.format(Database.getString("quiz_civ_emblem_question", language), currentQuestion, numQuestions);
+                civSelector.setRenderer(new ComponentRenderer<>(element -> new Label(element.getName())));
                 setQuestionInfoIcon(Database.getImage("shield1"), false);
                 setQuestionInfoName(Database.getString("quiz_civ_emblem", language));
                 setQuestionInfoMedia(civIcons.get(civID), true);
 
                 break;
             }
-            default:
-                break;
         }
         setQuestionSymbolImage(Database.getImage("question"));
         updateQuestion();

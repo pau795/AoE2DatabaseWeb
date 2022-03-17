@@ -21,6 +21,7 @@ import com.vaadin.flow.component.html.Image;
 import com.vaadin.flow.component.html.Label;
 import com.vaadin.flow.component.textfield.IntegerField;
 import com.vaadin.flow.data.renderer.ComponentRenderer;
+import com.vaadin.flow.router.BeforeEnterEvent;
 import com.vaadin.flow.router.Route;
 import com.vaadin.flow.router.RoutePrefix;
 
@@ -31,10 +32,10 @@ import java.util.Locale;
 
 @CssImport("./themes/aoe2database/damage-calculator.css")
 @RoutePrefix("damage_calculator")
-@Route(value = ":language?", layout = MainLayout.class)
+@Route(value = ":entityID1?/:entityID2?/:language", layout = MainLayout.class)
 public class DamageCalculatorView extends OneColumnView {
 
-    int civID1, civID2;
+    int civID1, civID2, initUnit1, initUnit2;
     Unit unit1, unit2;
     Image unit1Image, unit2Image;
     ComboBox<EntityElement> unit1Selector, unit2Selector;
@@ -81,11 +82,11 @@ public class DamageCalculatorView extends OneColumnView {
             ageID = age;
             calculateStats();
         });
+        civID1 = -1;
+        civID2 = -1;
 
         ArrayList<EntityElement> items = new ArrayList<>(Database.getList(Database.UNIT_LIST, language));
         items.sort(EntityElement.getAlphabeticalComparator());
-        civID1 = -1;
-        civID2 = -1;
         upgradesID1 = new ArrayList<>();
         upgradesID2 = new ArrayList<>();
 
@@ -117,6 +118,7 @@ public class DamageCalculatorView extends OneColumnView {
             @Override
             public void onCivChanged(int civ) {
                 civID1 = civ;
+                updateURL();
                 calculateStats();
             }
 
@@ -126,7 +128,7 @@ public class DamageCalculatorView extends OneColumnView {
                 calculateStats();
             }
         });
-        setUnit1(1);
+        setUnit1(initUnit1);
         unit1Hill.addValueChangeListener(event ->{
             if (unit1Hill.getValue() && unit2Hill.getValue()) unit2Hill.setValue(false);
             calculateStats();
@@ -155,6 +157,7 @@ public class DamageCalculatorView extends OneColumnView {
             @Override
             public void onCivChanged(int civ) {
                 civID2 = civ;
+                updateURL();
                 calculateStats();
             }
 
@@ -164,7 +167,7 @@ public class DamageCalculatorView extends OneColumnView {
                 calculateStats();
             }
         });
-        setUnit2(1);
+        setUnit2(initUnit2);
         unit2Hill.addValueChangeListener(event ->{
             if (unit2Hill.getValue() && unit1Hill.getValue()) unit1Hill.setValue(false);
             calculateStats();
@@ -201,6 +204,7 @@ public class DamageCalculatorView extends OneColumnView {
         upgradesID1 = unit1.getUpgradesIds();
         selector.setupUpgrade1Selector(upgradesID1);
         selector.setUnit1Civ(civList.get(0), civList);
+        updateURL();
         setupAgeLayout();
     }
 
@@ -217,7 +221,14 @@ public class DamageCalculatorView extends OneColumnView {
         upgradesID2 = unit2.getUpgradesIds();
         selector.setupUpgrade2Selector(upgradesID2);
         selector.setUnit2Civ(civList.get(0), civList);
+        updateURL();
         setupAgeLayout();
+    }
+
+    private void updateURL(){
+        parameters = Utils.changeRouteParameter(parameters, "entityID1", String.valueOf(unit1.getEntityID()));
+        parameters = Utils.changeRouteParameter(parameters, "entityID2", String.valueOf(unit2.getEntityID()));
+        getUI().ifPresent(ui -> ui.navigate(this.getClass(), parameters));
     }
 
     private void calculateStats() {
@@ -490,6 +501,18 @@ public class DamageCalculatorView extends OneColumnView {
         selector.selectInitialAge(Utils.convertAge(ageString, language));
     }
 
+    @Override
+    public void beforeEnter(BeforeEnterEvent beforeEnterEvent) {
+        parameters = beforeEnterEvent.getRouteParameters();
+
+        initUnit1 = Integer.parseInt(parameters.get("entityID1").orElse("1"));
+        initUnit2 = Integer.parseInt(parameters.get("entityID2").orElse("1"));
+        language = Utils.checkLanguage(parameters.get("language").orElse(Database.DEFAULT_LANGUAGE));
+        if (!init){
+            initView();
+            init = true;
+        }
+    }
 
     @Override
     public String getPageTitle() {
