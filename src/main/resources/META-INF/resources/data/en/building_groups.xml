@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<list>
+	<group>
+		<category name="Dark Age" ids="1 2 3 4 34 5 6 7 8 9 10 11"/>
+		<category name="Feudal Age" ids="12 13 14 15 16 17 18 19 33"/>
+		<category name="Castle Age" ids="20 21 22 23 24 25 26 27 32"/>
+		<category name="Imperial Age" ids="28 29 30 31"/>
+	</group>
+	<group>
+		<category name="Economic Buildings" ids="1 2 3 4 34 5 6 7 12 13 19 20 21 28 29"/>
+		<category name="Military Buildings" ids="6 8 9 10 11 14 15 16 17 18 33 22 23 24 25 26 27 30 31 32"/>
+	</group>
+	<group>
+		<category name="All Buildings" ids="14 8 12 31 26 6 33 7 29 19 34 24 23 25 27 2 30 32 3 13 4 5 20 9 11 10 22 15 17 16 1 21 18 28"/>
+	</group>
+</list>

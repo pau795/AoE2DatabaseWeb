@@ -1,0 +1,658 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <!--APP STRINGS-->
+    <string name="app_name">AoE 2 Database</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="warning">Warning</string>
+    <string name="action_sort">Sort</string>
+    <string name="about_text">Age of Empires 2 Database %s\n\nApplication made by Pau795.\nContact: pau795@gmail.com\n\nApplication data has been extracted from AoE 2 Definitive Edition (update %d), making use of the Advanced Genie Editor. Extra information was obtained from AoE wiki, AoKHeaven, and doing my own research.\n\nThanks to Edutosu and Maicol for inspiring me to do this App, thanks to Peluca for helping me testing the App, and thanks to LBeleven for helping me with some research.\n\nFeel free to contact me if you want to give your feedback, it would be much appreciated.\n\nAge of Empires II: Definitive Edition \u00A9 Microsoft Corporation.\nAoE2 Database was created under Microsoft\'s Game Content Usage Rules using assets from Age of Empires II: Definitive Edition, and it is not endorsed by or affiliated with Microsoft.</string>
+    <string name="support_text">Thank you for downloading AoE 2 Database.\n\nIf you like and enjoy the app, and you want to help the development, you can consider to support me through link below.\n\nThis message will be shown only one time, but the link is always available at the top right corner.</string>
+    <string name="buy_me_a_coffee" translatable="false">Buy me a Coffee</string>
+    <string name="buy_me_a_coffee_url" translatable="false">https://www.buymeacoffee.com/pau795</string>
+	<string name="web_app_url" translatable="false">https://www.aoe2database.com</string>
+    <string name="performance_strong">Strong against</string>
+    <string name="performance_weak">Weak against</string>
+    <string name="unit_attack_values">Unit Attack Values</string>
+    <string name="building_attack_values">Building Attack Values</string>
+    <string name="projectile_attack_values">Projectile Attack Values</string>
+    <string name="unit_armor_values">Unit Armor Values</string>
+    <string name="building_armor_values">Building Armor Values</string>
+    <string name="none">None</string>
+    <string name="test">Test</string>
+    <string name="loading_app_data">Loading App Data</string>
+    <string name="search_hint">Search…</string>
+    <string name="filter_hint">Filter…</string>
+    <string name="civ_available">Available</string>
+    <string name="civ_unavailable">Unavailable</string>
+    <string name="shortcut_name">Shortcuts</string>
+    <string name="android">Android</string>
+
+
+    <!--ACTIVITIES TITLES-->
+    <string name="title_activity_unit">Units</string>
+    <string name="title_activity_building">Buildings</string>
+    <string name="title_activity_technology">Technologies</string>
+    <string name="title_activity_civilization">Civilizations</string>
+    <string name="title_activity_tech_tree">Tech Tree</string>
+    <string name="title_activity_quiz">New Quiz</string>
+    <string name="title_activity_score">Scores</string>
+    <string name="title_activity_game_mechanics">Game Mechanics</string>
+    <string name="title_tech_tree_quiz">Tech Tree</string>
+    <string name="title_civilization_quiz">Civilizations</string>
+    <string name="title_unit_building_stats_quiz">Unit &amp; Building Stats</string>
+    <string name="title_unit_recognition_quiz">Unit Recognition</string>
+    <string name="title_technology_stats_quiz">Technology Stats</string>
+    <string name="title_unique_techs_quiz">Unique Technologies</string>
+    <string name="title_loading">Loading</string>
+    <string name="title_action_settings">Settings</string>
+    <string name="title_about">About</string>
+    <string name="title_support">Support</string>
+    <string name="title_gathering_rates">Gathering Rates</string>
+    <string name="title_damage_formula">Damage Formula</string>
+    <string name="title_building_mechanics">Building Mechanics</string>
+    <string name="title_repairing_mechanics">Repairing Mechanics</string>
+    <string name="title_farm_mechanics">Farm Mechanics</string>
+    <string name="title_trade_mechanics">Trade Mechanics</string>
+    <string name="title_stats_definition">Stats Definition</string>
+    <string name="title_conversion_mechanics">Conversion Mechanics</string>
+    <string name="title_accuracy_mechanics">Accuracy Mechanics</string>
+    <string name="title_garrison_mechanics">Garrison Mechanics</string>
+    <string name="title_tools">Tools</string>
+    <string name="title_cheat_codes">Cheat Codes</string>
+    <string name="title_taunts">Taunts</string>
+    <string name="title_history">History</string>
+    <string name="title_economy_calculator">Economy Calculator</string>
+    <string name="title_miscellaneous">Miscellaneous</string>
+    <string name="title_unit_comparator">Unit Comparator</string>
+    <string name="title_test_activity">Test Activity</string>
+    <string name="title_damage_calculator_activity">Damage Calculator</string>
+    <string name="title_advanced_search_activity">Advanced Search\n(Under Construction)</string>
+
+    <!--GAME MECHANICS STRINGS-->;
+    <string name="gm_economy">Economy</string>
+    <string name="gm_military">Military</string>
+
+    <string name="gm_basics">Basics</string>
+    <string name="gm_show_table">Show Table</string>
+    <string name="gm_hide_table">Hide Table</string>
+    <string name="gm_farm_harvesting">Harvesting</string>
+    <string name="gm_farm_gathering_rates">Gathering Rates</string>
+    <string name="gm_farm">Farm</string>
+    <string name="gm_food_provided">Food</string>
+    <string name="gm_food_generated_per_wood">Food Generated per Wood</string>
+    <string name="gm_farm_table_standard">Standard</string>
+    <string name="gm_farm_table_horse_collar">Horse Collar</string>
+    <string name="gm_farm_table_heavy_plow">Heavy Plow</string>
+    <string name="gm_farm_table_crop_rotation">Crop Rotation</string>
+    <string name="gm_farm_table_teutons_standard">Teutons Standard</string>
+    <string name="gm_farm_table_teutons_horse_collar">Teutons + Horse Collar</string>
+    <string name="gm_farm_table_teutons_heavy_plow">Teutons + Heavy Plow</string>
+    <string name="gm_farm_table_teutons_crop_rotation">Teutons + Crop Rotation</string>
+    <string name="gm_farm_table_chinese_standard">Chinese Standard</string>
+    <string name="gm_farm_table_chinese_horse_collar">Chinese + Horse Collar</string>
+    <string name="gm_farm_table_chinese_heavy_plow">Chinese + Heavy Plow</string>
+    <string name="gm_farm_table_teutons_chinese_ally_crop_rotation">Teutons + Chinese Ally + Crop rotation</string>
+    <string name="gm_farm_table_sicilians_horse_collar">Sicilians + Horse Collar</string>
+    <string name="gm_farm_table_sicilians_heavy_plow">Sicilians + Heavy Plow</string>
+    <string name="gm_farm_table_sicilians_crop_rotation">Sicilians + Crop Rotation</string>
+    <string name="gm_farm_table_sicilians_crop_rotation_chinese_ally">Sicilians + Chinese Ally + Crop Rotation</string>
+    <string name="farm_mechanics_basics">Farms are a renewable source of food. They cost 60 wood, which is converted into food that can be harvested by villagers. The amount of food obtainable from farms depends on the upgrades researched, and civilization bonuses. The following table shows a comparison of the exchange between wood and food for different civilizations and researches.</string>
+    <string name="farm_mechanics_harvesting1">When a villager is tasked to harvest food from a farm, he will follow the next two rules:\n</string>
+    <string name="farm_mechanics_harvesting2">&lt;ol&gt;&lt;li&gt;Villagers can only harvest from the 2x2 tile square at the center of the farm, and there are 9 spots where villagers can harvest (as shown in the image below). This means that farms placed close to the edge of the deposit building are slightly more efficient than the ones at the diagonals.&lt;/li&gt;&lt;li&gt;Each time a villager gathers ¼ of his carry capacity, he will move to another harvest spot randomly chosen. When he is at his carry capacity or the farm is exhausted, he will move to the closest deposit building to drop off the resources (the distance to the building is calculated towards the center of it, not towards the closest edge), and he will come back to repeat the process.&lt;/li&gt;&lt;/ol&gt;</string>
+    <string name="farm_mechanics_img">Farm harvest spots</string>
+    <string name="farm_mechanics_rates">Farms have their own work rate (0.40) and carry capacity (15). Even though farms have a large supply of food, it is not harvestable initially. The farm itself works in its own to make the food harvestable, and can carry up to 15 harvestable food. Villagers can only gather food from the carry capacity of the farm, and when doing it the food supply of the farm is reduced. On top of that, Villagers’ work rate when they are collecting is faster than the work rate of the farm (0.53 against 0.4), meaning that the speed of collection is capped to the work rate of the farm. Considering these facts, the maximum gathering rate possible is 24 food per minute, except for the Slavs farming bonus.\n\nIt is useful to research Wheelbarrow and Hand Cart to speed up the farming process. By increasing the carry capacity of the Villagers, they will stay more time gathering food, and they will do less trips across the farm on average to get the same amount of food. Also the increased movement speed helps out a bit.\n\nSome civilization like the Aztecs and the Slavs have strong farming bonuses. The Aztecs have +3 carry capacity on their Villagers, which makes their early farming really fast. Furthermore, they are able to reach the maximum gathering rate of 24 food per minute when Hand Cart is researched. On the other hand, Slavic Villagers farm 10% faster on average. To achieve that, their work rate when farming is increased by 18%, and also the work rate of farms is increased by 10%. By doing so, the maximum gathering rate for the Slavs is increased to 26.4 food per minute.</string>
+
+
+    <string name="gm_gold_profit">Gold Profit</string>
+    <string name="gm_gold_income">Gold Income</string>
+    <string name="gm_map_size">Map Size</string>
+    <string name="gm_trade_table_tiny_map_2_players">Tiny Map (2 Players)</string>
+    <string name="gm_trade_table_small_map_3_players">Small Map (3 Players)</string>
+    <string name="gm_trade_table_normal_map_4_players">Medium Map (4 Players)</string>
+    <string name="gm_trade_table_medium_map_6_players">Normal Map (6 Players)</string>
+    <string name="gm_trade_table_large_map_8_players">Large Map (8 players)</string>
+    <string name="gm_trade_table_giant_map">Giant Map</string>
+    <string name="gm_trade_table_distance_tiles">Distance (Tiles)</string>
+    <string name="gm_trade_table_trade_cart_gold_min">Trade Cart Gold/min</string>
+    <string name="gm_trade_table_trade_cart_gold_min_no_bumping">Trade Cart Gold/min (No bumping)</string>
+    <string name="gm_trade_table_trade_cart_gold_min_dense_traffic">Trade Cart Gold/min (Dense Traffic)</string>
+    <string name="trade_mechanics_basics">Trading is an unlimited source of gold in team games. There are two possible ways to trade in the game, both using the same mechanics: using Trade Carts between two Markets of different players, or using Trade Cogs between two Docks of different players. The diplomacy stance does not matter in trade, it is possible to trade with enemies and allies.</string>
+    <string name="trade_mechanics_profit1">The gold profit obtained through trading depends on 4 different factors:</string>
+    <string name="trade_mechanics_profit2">&lt;ol&gt;&lt;li&gt;&lt;b&gt;Distance between the trading buildings&lt;/b&gt;: The building placement plays a big role in the gold profit. To obtain the maximum amount of gold, the buildings have to be as further apart as possible. If the player who is trading has multiple Markets or Docks, the distance is calculated through the one which is the most further apart (Definitive Edition). Furthermore, the distance between two buildings is calculated by the following formula:&lt;/li&gt;&lt;/ol&gt;</string>
+    <string name="trade_mechanics_profit3">&lt;ol start="2"&gt;&lt;li&gt;&lt;b&gt;Map Size&lt;/b&gt;: The gold profit is bigger in larger maps, but the amount of gold obtained per tile is roughly equal for all the map sizes.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Trade Cart / Trade Cog work rate&lt;/b&gt;: This is a fixed value for each unit. The gold profit increases proportionally to this value. Trade Carts have a 0.23 work rate whereas Trade Cogs have 0.299. When Caravan is researched, the rates are increased by 50% (0.345 and 0.449 respectively). In addition, the Spanish team bonus increases this rate by 25%.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Trade Cart / Trade Cog speed&lt;/b&gt;: The gold profit decreases proportionally to the unit speed. However, since the Definitive Edition came out, there are a couple of exceptions to this rule. The technology Dry Dock, and the Berber bonus which makes ships move faster, also increases the work rate of the Trade Cogs, in a similar way that Caravan technology does. Trade Carts have a speed of 1.0 tiles per second, and Trade Cogs have 1.32 tiles per second.&lt;/li&gt;&lt;/ol&gt;</string>
+    <string name="trade_mechanics_profit6">Finally, with all the parameters being explained, here is the formula that determines the gold profit between two Markets or Docks:</string>
+    <string name="trade_mechanics_formula_text">Where:&lt;ul&gt;&lt;li&gt;&lt;b&gt;G&lt;/b&gt; is the gold profit&lt;/li&gt;&lt;li&gt;&lt;b&gt;Wr&lt;/b&gt; is the unit work rate&lt;/li&gt;&lt;li&gt;&lt;b&gt;S&lt;/b&gt; is the unit speed&lt;/li&gt;&lt;li&gt;&lt;b&gt;D&lt;/b&gt; is the distance between the buildings&lt;/li&gt;&lt;li&gt;&lt;b&gt;Ms&lt;/b&gt; is the map size&lt;/li&gt;&lt;/ul&gt;</string>
+    <string name="trade_mechanics_profit7">Note that Trade Cogs have a higher work rate than Trade Carts, but since their speed is also higher, it balances out and both units have the same efficiency theoretically. However, as mentioned before, the Dry dock technology and the Berber ship movement bonus increase the work rate of Trade Cogs, making them more efficient than Trade Carts. Although, in a real game scenario, the distance between Docks is hard to maximize, because they are also used as a military production building, meaning they are going to be distributed across the shoreline, decreasing the gold profit.\n\nTo have an idea about how much gold is generated, here there is a table with the gold profit obtained between two Markets that are on opposite edges, for each map size:</string>
+    <string name="trade_mechanics_quote1">Note that the distance is calculated between the center of both buildings.</string>
+    <string name="trade_mechanics_income1">As seen before, the gold profit is bigger in larger maps, however, the gold income for Trade Carts / Trade Cogs is more or less the same for each map size. In a specific map size, gold income is bigger as gold profit increases. The following table shows the relation of distance – gold profit – gold per minute for each trade cart in a Large Map, considering maximum trade cart efficiency (no bumping):</string>
+    <string name="trade_mechanics_income2">Finally, to get an idea about how much gold is generated in a real game, the following table shows how much gold income each Trade cart generates, considering maximum efficiency and considering a dense trade route. Its assumed that the Markets are on opposite edges to maximize gold profit, and Caravan technology is researched:</string>
+
+    <string name="gm_repairing_speed">Repairing Speed</string>
+    <string name="gm_repairing_cost">Repairing cost</string>
+    <string name="gm_repair_table_unit_building">Unit/Building</string>
+    <string name="gm_repair_table_buildings">Buildings</string>
+    <string name="gm_repair_table_siege_ships">Siege / Ships</string>
+    <string name="gm_repair_table_villager">Villager</string>
+    <string name="gm_repair_table_first_villager">First Villager</string>
+    <string name="gm_repair_table_extra_villagers">Extra Villagers</string>
+    <string name="gm_repair_table_repairing_rates">Repairing Rates</string>
+    <string name="repair_mechanics_basics">Villagers are able to repair damaged buildings, ships, and siege weapons. Repairing cost resources, a fraction of the cost of the unit or building being repaired. If the player does not have resources, or the stockpile runs out, the repairing process will stop. Villagers can repair siege weapons and ships from two tiles away, but the unit being repaired should not move in order to be repaired efficiently. There is not any bonus or technology that affects repairing speed at all.</string>
+    <string name="repair_mechanics_speed1">Multiple Villagers can repair one building or unit. When doing so, the repairing process will be faster, and the cost will remain the same. When multiple Villagers are repairing, the first repairer works twice as fast as the others. In addition, repairing siege units or ships is &#188; slower than repairing buildings. The next table shows the repairing rates:</string>
+    <string name="repair_mechanics_speed2">Note that villagers have a fixed repairing speed. This means that when the HP of a building or unit is increased, it will take longer to repair it, but its cost will remain the same.</string>
+    <string name="repair_mechanics_cost">Repairing a building / unit from 1 HP to full HP cost half of its total cost. In addition, civilization bonuses or technologies that decreases the cost of the unit / building, will be taken in consideration. However, there is an exception: The Town Center. Town Centers cost 275 wood and 100 stone, but in order to be repaired, only wood is consumed but not any stone, altough the stone stockpile must not be empty. The wood consumption when repairing a Town Center is significatively high, costing twice the amount of wood (550 wood to fully repair the town center). This is due to a side effect of the building being formed by four different sub-buildings. Finally, civilization bonuses that decrease the Town Center cost do not work for repairing.</string>
+    <string name="gm_building_upgrades_and_bonuses">Upgrades and Bonuses</string>
+    <string name="gm_building_villagers">Villagers</string>
+    <string name="gm_building_time">Building Time</string>
+    <string name="gm_speedup">Speedup</string>
+    <string name="building_mechanics_basics1">Each building has an established building time, which is the time needed to construct the building with one Villager. Multiple Villagers can be used to construct a building faster. The relation between building time and the number of working Villagers can be defined with the following formula:</string>
+    <string name="building_mechanics_formula_text">Where:&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;i&gt;T&lt;/i&gt;&lt;/b&gt; is the final building time&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;i&gt;B&lt;/i&gt;&lt;/b&gt; is the building time with one villager&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;i&gt;N&lt;/i&gt;&lt;/b&gt; is the number of builders&lt;/li&gt;&lt;/ul&gt;</string>
+    <string name="building_mechanics_basics2">To have an idea about this relation, the following table shows the building time of a Castle using different amount of Villagers:</string>
+    <string name="building_mechanics_bonuses">When Treadmill Crane is researched, the Villager’s working rate is increased by 20%, which means that the building time is reduced by 20%, and the relation with multiple Villagers remain the same. All the civilization bonuses that increases the building speed work in the same way (Spanish having faster builders, Sicilian building faster TCs and Castles, Incas building farms faster, etc.).\n\nNote that the Spanish, in average, have the faster builders in the game by building 30% faster. However the bonus does not affect to Wonders at full potential, so the Spanish Wonders are built 20% faster, the same as a civilization with Treadmill Crane.</string>
+
+    <string name="gm_unit_stats">Unit Stats</string>
+    <string name="gm_hill_and_cliff_multipliers">Hill and Cliff Multipliers</string>
+    <string name="gm_accuracy_multiplier">Accuracy Multiplier</string>
+    <string name="gm_secondary_projectiles">Secondary Projectiles</string>
+    <string name="gm_minimum_damage">Minimum Damage</string>
+    <string name="gm_damage_formula">Damage Formula</string>
+    <string name="gm_practical_example">Practical Example</string>
+    <string name="gm_damage_table1_cataphract_attack_values">Cataphract Attack Values</string>
+    <string name="gm_damage_table1_halberdier_armor_values">Halberdier Armor Values</string>
+    <string name="gm_damage_table1_cata1">14 vs. Base Melee (12+2)</string>
+    <string name="gm_damage_table1_halb1">3 vs. Base Melee (0+3)</string>
+    <string name="gm_damage_table1_cata2">18 vs. Infantry (12+6)</string>
+    <string name="gm_damage_table1_halb2">0 vs. Infantry</string>
+    <string name="gm_damage_table1_cata3">0 vs. Archers</string>
+    <string name="gm_damage_table1_halb3">4 vs. Base Pierce (0+4)</string>
+    <string name="gm_damage_table1_cata4">0 vs. All Buildings</string>
+    <string name="gm_damage_table1_halb4">0 vs. Spearmen</string>
+    <string name="gm_damage_table1_cata5">0 vs. Standard Buildings</string>
+    <string name="gm_damage_table1_cata6">10 vs. Condottieros</string>
+    <string name="gm_damage_table2_halberdier_attack_values">Halberdier Attack Values</string>
+    <string name="gm_damage_table2_cataphract_armor_values">Cataphract Armor Values</string>
+    <string name="gm_damage_table2_halb1">10 vs. Base Melee (6+4)</string>
+    <string name="gm_damage_table2_cata1">5 vs. Base Melee (2+3)</string>
+    <string name="gm_damage_table2_halb2">32 vs. Cavalry</string>
+    <string name="gm_damage_table2_cata2">16 vs. Cavalry</string>
+    <string name="gm_damage_table2_halb3">1 vs. Eagle Warriors</string>
+    <string name="gm_damage_table2_cata3">5 vs. Base Pierce (1+4)</string>
+    <string name="gm_damage_table2_halb4">28 vs. Elephants</string>
+    <string name="gm_damage_table2_cata4">0 vs. Unique Units</string>
+    <string name="gm_damage_table2_halb5">26 vs. Camels</string>
+    <string name="gm_damage_table2_halb6">16 vs. Mamelukes</string>
+    <string name="gm_damage_table2_halb7">17 vs. Ships</string>
+    <string name="gm_damage_table2_halb8">17 vs. Fishing Ships</string>
+    <string name="gm_damage_table2_halb9">3 vs. Standard Buildings (1+2)</string>
+    <string name="damage_formula_basics">When two units or buildings fight each other, there are many factors that determine how much damage each one is going to do. To summarize, there are three global aspects: Unit Stats, Hill and Cliff elevations and the Accuracy multiplier.</string>
+    <string name="damage_formula_unit_stats">Units have a lot of stats. To figure out how much damage one unit does to another, the relevant stats are the set of attack values, and the set of armor values.\nNote that other stats like the reload time, range, and accuracy have an impact on the DPS (damage per second) of the unit, however the objective here is to show the potential damage done in one hit.\n\nAll the attack and armor values are associated with a category. For example, there are categories for Infantry, Cavalry or Archers, but also more specific ones like Eagle Warriors, Mamelukes or Elephants. Besides, there is a category for the base melee and base pierce. Therefore, both sets of attack and armor values use these categories to represent an attack or an armor for a specific category.\n\nThe unit attack bonuses and defenses are represented in these sets. For example, a Spearman has +15 attack bonus against Cavalry. This means that the set of attack values contains an entry of 15 attack against the Cavalry category. On the other hand, in order to make a Scout Cavalry take extra damage from a Spearman, the set of armor values contains an entry of 0 armor of the Cavalry category.\n\nThe base damage that a unit does is calculated by summing up each attack value of the attacker against the receiver unit. For each attack value that the attacker has, the receiver matches that kind of attack to their armor values. If there is a match, the attack value calculation is the subtraction of the attack value minus the armor value. If there is no match, the armor value for that category is set to 1000 by default, and the result is the same subtraction. The final result for each attack value calculation is the maximum between 0 and the subtraction. If the receiver unit has a bonus reduction multiplier, like the Sicilians, the attack value of the attacker is multiplied by this factor before the armor subtraction..Finally, the base damage is the addition of each attack value calculation.\nThere is a practical example at the end of this document for better understanding.</string>
+    <string name="damage_formula_hills">Fighting on different elevations have a big impact in the damage output. When a unit is fighting downhill, it receives a 25% attack bonus. On the other hand, a unit fighting uphill receives a 25% attack penalty. At the end, it means that when a unit is fighting downhill, it does 25% more damage and receives 25% less damage, and vice versa.\n\nFighting on cliffs also has benefits. Units fighting on top of a cliff do 25% more damage against units at the bottom. However, unlike hills, the units fighting at the bottom do not have any attack penalty against units at the top. The Tatar bonus provides an extra 25% bonus damage to units which fight in higher elevation. Note that cliff and hill bonuses do not stack.\n\nIn addition, there is a peculiar mechanic involving hills and cliffs. If a ranged unit fires a projectile, and that unit dies before the projectile impacts, that projectile will no longer have any hill or cliff bonus, if it had one beforehand. This trick can be useful in some situations, for example, in mangonel fights.\n\nFinally, there is a terrain which has a special effect; the cracked sand. Buildings placed on top of cracked sand receive 20% more damage. Note that the center of the building has to be in the terrain in order to be effective.</string>
+    <string name="damage_formula_accuracy1">This section applies mostly to ranged units. When a unit targets another one, and the projectile hits in the selected target, the accuracy multiplier is 1 and it does full damage. However, when a projectile hits a unit which was not targeted, the multiplier is reduced to 0.5. There is a exception, the Arambai, which have a multiplier of 1 even if they hit non-targeted units.\nFor melee units this multiplier is set to 1 most of the times. The exception are the units like the Battle Elephant, which have splash damage. It does full damage to the selected target, and 25% damage to the units within the splash area.\n\nThis mechanic works in a similar way for piercing units like the Scorpion. The Scorpion does full damage to the selected target, and it does 50% damage to all the units pierced through.\nOn the other hand, for units which have blast radius, like Onagers, this works a bit differently. When the projectile hits the land, all the units that are within the blast radius receive damage. The damage taken depends of the distance between the damaged unit and the center of the impact. The accuracy multiplier in this case can be obtained through the following formula:</string>
+    <string name="damage_formula_formula1_text">Where:&lt;ul&gt;&lt;li&gt;&lt;b&gt;A&lt;/b&gt; is the accuracy multiplier&lt;/li&gt;&lt;li&gt;&lt;b&gt;R&lt;/b&gt; is the blast radius&lt;/li&gt;&lt;li&gt;&lt;b&gt;D&lt;/b&gt; is the distance between the unit and the center of the impact&lt;/li&gt;&lt;/ul&gt;</string>
+    <string name="damage_formula_accuracy2">There is another exception, which is the trample damage caused by Cataphracts and Druzhina Infantry. In this case, the units within the blast radius, which are not targeted, always receive 5 damage, independently of the attacker or defender stats.</string>
+    <string name="damage_formula_projectiles">Some units like Chu Ko Nu or Organ Guns, and some buildings fire extra projectiles. These projectiles are special, because they have their own attack values. In addition, secondary projectiles are not affected by hill or cliff bonuses.</string>
+    <string name="damage_formula_min_damage">The minimum damage done in one hit is 1. If at the end of the calculation, the damage done is less than 1, its rounded up to 1.</string>
+    <string name="damage_formula_formula1">Finally, with all the factors being explained, here is the formula to calculate the damage:</string>
+    <string name="damage_formula_formula2_text">Where:&lt;ul&gt;&lt;li&gt;&lt;b&gt;D&lt;/b&gt; is the final damage&lt;/li&gt;&lt;li&gt;&lt;b&gt;i&lt;/b&gt; is a unit category&lt;/li&gt;&lt;li&gt;&lt;b&gt;n&lt;/b&gt; is the total amount of unit categories of the attacker&lt;/li&gt;&lt;li&gt;&lt;b&gt;Atk&lt;/b&gt; is the set of attack values of the attacker&lt;/li&gt;&lt;li&gt;&lt;b&gt;Arm&lt;/b&gt; is the set of armor values of the receiver&lt;/li&gt;&lt;li&gt;&lt;b&gt;B&lt;sub&gt;r&lt;/sub&gt;&lt;/b&gt; is bonus reduction multiplier of the receiver&lt;/li&gt;&lt;li&gt;&lt;b&gt;H&lt;/b&gt; is the hill or cliff multiplier&lt;/li&gt;&lt;li&gt;&lt;b&gt;A&lt;/b&gt; is the accuracy multiplier&lt;/li&gt;&lt;/ul&gt;</string>
+    <string name="damage_formula_formula2">&lt;b&gt;Disclaimer:&lt;/b&gt; This formula is an approximation made by my own research, there might be some inaccurate aspects.\n\nNote that the final damage value can be decimal. Also, when a unit receives damage, the HP is shown as an integer value, although internally it is stored as a decimal value which is rounded up to the closest integer when it is displayed.</string>
+    <string name="damage_formula_example1">To understand the previous formula a bit better, here is an example; A fully upgraded Elite Cataphract against a fully upgraded Halberdier, where the halberdier is fighting downhill.\nTo begin with, the Cataphract starts the fight. The following table shows the corresponding stats for both units:</string>
+    <string name="damage_formula_example2">When the attack values are matched to the armor values, two of them succeed; the Base Melee and the Infantry. The non-matching attack values have no practical use in the calculation, because then the armor values for those categories are set to 1000, and the subtraction is always negative, which at the end is rounded up to 0.\nTherefore, the base damage done by the Cataphract is the next one:</string>
+    <string name="damage_formula_example3">The next step is to apply the Hill bonus, and the accuracy multiplier. As said before, the Halberdier was fighting downhill, so the Cataphract is uphill, which means that his hill bonus multiplier is 0.75. On the other hand, the accuracy multiplier is set to 1 because in melee fights there are no misses. Also, the trample damage of the Cataphract have no effect in this scenario because there are no adjacent units to hit.\nSo, the final damage done by the Cataphract is the next one:</string>
+    <string name="damage_formula_example4">Moving on, now it is time for the Halberdier to attack. The next table shows the corresponding stats:</string>
+    <string name="damage_formula_example5">There are two matches; the Base Melee and the Cavalry. The remaining attack values can be discarded in this case. The base damage done by the halberdier is the next one:</string>
+    <string name="damage_formula_example6">The next step is to apply the hill bonus and the accuracy multiplier. The halberdier was fighting downhill, so the hill bonus multiplier is 1.25. Then, as said before, the accuracy multiplier is 1 in normal melee fights. At the end, the final damage done by the Halberdier is the next one:</string>
+
+    <string name="gm_unit_garrison_ability">Unit Garrison Ability</string>
+    <string name="gm_garrison_table_villagers">Villagers</string>
+    <string name="gm_garrison_table_villagers_value">Town Centers, Towers, Donjons, Castles, Kreposts, Rams, Siege Towers, Transport Ships, Houses (Khmer)</string>
+    <string name="gm_garrison_table_infantry">Infantry</string>
+    <string name="gm_garrison_table_infantry_value">Town Centers, Towers, Donjons, Castles, Kreposts, Rams, Siege Towers, Transport Ships</string>
+    <string name="gm_garrison_table_archers">Archers</string>
+    <string name="gm_garrison_table_archers_value">Town Centers, Towers, Donjons, Castles, Kreposts, Rams, Siege Towers, Transport Ships</string>
+    <string name="gm_garrison_table_monks">Monks</string>
+    <string name="gm_garrison_table_monks_value">Town Centers, Towers, Donjons, Castles, Kreposts, Transport Ships)</string>
+    <string name="gm_garrison_table_mounted_units">Mounted Units</string>
+    <string name="gm_garrison_table_mounted_units_value">Castles, Kreposts, Transport Ships</string>
+    <string name="gm_garrison_table_ships">Ships</string>
+    <string name="gm_garrison_table_remaining">Remaining Units</string>
+    <string name="gm_garrison_table_remaining_values">Transport Ships</string>
+    <string name="gm_healing_units_inside_buildings">Healing Units Inside Buildings</string>
+    <string name="gm_buildings_firing_extra_projectiles">Buildings Firing Extra Projectiles</string>
+    <string name="gm_garrison_table_building">Building</string>
+    <string name="gm_garrison_table_number_of_projectiles_empty">Number of Projectiles (Empty)</string>
+    <string name="gm_garrison_table_maximum_number_of_projectiles">Maximum Number of Projectiles</string>
+    <string name="gm_garrison_table_town_center">Town Center</string>
+    <string name="gm_garrison_table_malian_town_center_with_tigui">Malian Town Center with Tigui</string>
+    <string name="gm_garrison_table_teutonic_town_center">Teutonic Town Center</string>
+    <string name="gm_garrison_table_watch_tower_guard_tower_and_keep">Watch Tower, Guard Tower and Keep</string>
+    <string name="gm_garrison_table_teutonic_watch_tower_guard_tower_and_keep">Teutonic Watch Tower, Guard Tower and Keep</string>
+    <string name="gm_garrison_table_japanese_watch_tower_guard_tower_and_keep_with_yasama">Japanese Watch Tower, Guard Tower and Keep with Yasama</string>
+    <string name="gm_garrison_table_castle">Castle</string>
+    <string name="gm_garrison_table_krepost">Krepost</string>
+    <string name="gm_garrison_table_donjon_feudal">Donjon in the Feudal Age</string>
+    <string name="gm_garrison_table_donjon_castle">Donjon in the Castle Age</string>
+    <string name="gm_garrison_table_donjon_imp">Donjon in the Imperial Age</string>
+    <string name="gm_garrison_table_bombard_tower">Bombard Tower</string>
+    <string name="gm_garrison_table_teutonic_bombard_tower">Teutonic Bombard Tower</string>
+    <string name="garrison_basics">There are many units which can garrison inside buildings. This mechanic can be beneficial in some circumstances, and it has its own properties. First of all, when a unit is garrisoned inside a building it cannot be damaged, and even more it will be slowly healed up. Also, if a unit does pierce damage, and it is garrisoned inside a building which can attack, the unit will provide some extra damage which can result in firing extra arrows. When a building is below 20% HP or gets converted, all garrisoned units will be ejected.\n\nOn the other hand, some units can be garrisoned inside other units. There are 3 units which have garrison capacity: The Ram, the Siege Tower and the Transport Ship. In this case, garrisoned units will not take damage, but they will not be healed up. Furthermore, when infantry is garrisoned inside Rams or Siege Towers, the speed of the siege unit will be increased, and the attack against All Buildings for Rams will also be increased. The units inside will be ejected when the siege unit dies or gets converted. If units are garrisoned in a Transport Ship, and it gets sunken, the units will die. However, if it gets converted, all the garrisoned units will not change ownership and will remain inside, but the owner will no longer have the control of the ship.</string>
+    <string name="garrison_ability1">Each unit has the ability to garrison to certain buildings or other units. The following table shows where each kind of unit can garrison:</string>
+    <string name="garrison_ability2">Finally, when a unit is being trained, is it possible to set the gather point inside the training building. Then, when the unit is trained, it will be garrisoned inside. When the units are ejected, there will not be a possibility to garrison them back unless the building was a Castle, a Krepost, or a Donjon. All the buildings which can train units have this ability.</string>
+    <string name="garrison_healing">When a unit is garrisoned inside a building, it will slowly regenerate the HP. The amount of HP recovered depends on the building. For Town Centers, Towers and Donjons, units will recover 0.1 HP every second, and for Castles and Kreposts, units will recover 0.2HP every second. Khmer houses do not have any healing ability. This rates are multiplied by 6 when Herbal Medicine is researched.</string>
+    <string name="garrison_projectiles1">The buildings which can attack, have two significant stats for this topic: the number of projectiles that they shoot when they are empty (no units inside), and the maximum amount of projectiles possible. The following table shows those stats for different buildings, considering some civilization bonuses:</string>
+    <string name="garrison_projectiles2">Units which have pierce attack can provide some damage when they are inside a building by firing extra projectiles.\nFirst of all, the extra projectiles granted have their own attack values. Usually the attack values that the projectiles have are the same as the building, but there are some exceptions. For example, the extra projectiles from Towers do extra damage against All Buildings, but the main projectile does not. In addition, as mentioned in other documents, extra projectiles are not affected by hill or cliff bonuses.\n\nTo continue, there are some factors to take in consideration to know the amount of projectiles that the building is going to fire when it has units inside. Each unit provides an attack value, which is calculated by dividing its pierce attack by its reload time, considering upgrades. That attack value is added up for each unit inside the building. Then, the sum is divided by the building attack value, which is also calculated by dividing its pierce attack by its reload time, considering upgrades. That gives the amount of extra projectiles granted by the garrisoned units.\n\nIf the garrisoned unit fires multiple projectiles, like the Chu Ko Nu or de Kipchak, the attack value will be calculated by the sum of its pierce attack and ⁵⁄₄ of its secondary projectile attack times the number of secondary projectiles it fires. The reload time in all the cases is taken from the unit or building itself. In addition, there are some units which have a set attack value. Villagers have a set attack value of 2.5, and Teutonic infantry with Crenellations have 2.5 as well.\n\nFinally, the following formula shows how to calculate the number of extra arrows given a building, and a set of units garrisoned inside:</string>
+    <string name="garrison_formula_text">Where:\n&lt;ul&gt;&lt;li&gt;&lt;b&gt;A&lt;/b&gt; is the number of extra arrows fired by the building&lt;/li&gt;&lt;li&gt;&lt;b&gt;maxP&lt;/b&gt; is the maximum number of projectiles that the unit can fire&lt;/li&gt;&lt;li&gt;&lt;b&gt;P&lt;/b&gt; is the number of extra projectiles that the building fires when is empty&lt;/li&gt;&lt;li&gt;&lt;b&gt;U&lt;/b&gt; is a garrisoned unit&lt;/li&gt;&lt;li&gt;&lt;b&gt;U&lt;sub&gt;atk&lt;/sub&gt;&lt;/b&gt; is the pierce attack of a garrisoned unit&lt;/li&gt;&lt;li&gt;&lt;b&gt;U&lt;sub&gt;proj&lt;sub&gt;atk&lt;/sub&gt;&lt;/b&gt; is the pierce attack of the seconday projectile of the garrisoned unit&lt;/li&gt;&lt;li&gt;&lt;b&gt;U&lt;sub&gt;num_proj&lt;/sub&gt;&lt;/b&gt; is number of secondary projectile the garrisoned unit fires&lt;/li&gt;&lt;li&gt;&lt;b&gt;U&lt;sub&gt;rt&lt;/sub&gt;&lt;/b&gt; is the reload time of a garrisoned unit&lt;/li&gt;&lt;li&gt;&lt;b&gt;B&lt;sub&gt;atk&lt;/sub&gt;&lt;/b&gt; is the pierce attack of the building&lt;/li&gt;&lt;li&gt;&lt;b&gt;B&lt;sub&gt;rt&lt;/sub&gt;&lt;/b&gt; is the reload time of the building&lt;/li&gt;&lt;/ul&gt;</string>
+    <string name="garrison_projectiles3">&lt;b&gt;Disclaimer:&lt;/b&gt; This formula is an approximation made by my own research, there might be some inaccurate aspects.\n\nThere are a couple of exceptions worth to mention. First, The Teutonic Bombard Tower. Going a bit in depth, Bombard Towers fire 0 projectiles when empty, and have 0 maximum projectiles. However, since they have set a main projectile, they will always fire 1 cannonball regardless. Considering a Teutonic Bombard Tower, it fires 0 projectiles when empty, but can fire up to 4 with units inside. Then, if enough units are garrisoned to fire the first extra projectile, for example, with 5 Hand Cannoneers, the Bombard tower will still fire 1 projectile. If another 4 Hand Cannoneers are garrisoned to achieve the second extra projectile, then it will fire two cannonballs in total. That is due to the initial 0 projectiles that the Bombard Tower fires.\n\nThe Second exception is the Town Center. Internally, the number of projectiles when the Town Center is empty is 1. However, the Town Center itself does not have a main projectile. This is why it does not fire any arrows unless there are units garrisoned inside.</string>
+
+    <string name="gm_introduction">Introduction</string>
+    <string name="gm_stats">Stats</string>
+    <string name="stats_introduction">This document explains the meaning of the stats shown for units and buildings. For each stat that a unit or building has, its base value is shown, or a dash in case the stat is not relevant. Some stats have a second value is shown in parentheses, which is the value of the calculated stat, considering all the bonuses and technologies of the current civilization and age which is chosen.\nSimilar as in the game, some stats (like the Attack) show the calculated value as an addition to the base stat, while others (like the Hit Points) just show the final calculated value.</string>
+    <string name="stats_definition1">&lt;b&gt;Hit Points (HP):&lt;/b&gt; Amount of health that the unit has. When the HP is down to 0, the unit dies.\n\n&lt;b&gt;Attack:&lt;/b&gt; Base attack that the unit has. It can be melee or pierce attack.\n\n&lt;b&gt;Melee Armor:&lt;/b&gt; Resistance to melee attacks.\n\n&lt;b&gt;Pierce Armor:&lt;/b&gt;  Resistance to pierce attacks.\n\n&lt;b&gt;Range:&lt;/b&gt; Maximum distance which the unit can attack from. Measured in tiles.\n\n&lt;b&gt;Minimum Range:&lt;/b&gt; Minimum distance which the unit can attack from. Measured in tiles.\n\n&lt;b&gt;Line of Sight (LoS):&lt;/b&gt; Maximum distance which the unit can see. Measured in tiles.\n\n&lt;b&gt;Reload Time:&lt;/b&gt; Time required to start the next attack after finishing one. Measured in seconds.\n\n&lt;b&gt;Speed:&lt;/b&gt; Speed which the unit travels. Measured in tiles/second.\n\n&lt;b&gt;Blast Radius:&lt;/b&gt; Distance to measure the size of the area of effect of an attack. Measured in tiles.\n\n&lt;b&gt;Attack Delay:&lt;/b&gt; Time required to start attacking in the first hit. Measured in seconds.\n\n&lt;b&gt;Accuracy:&lt;/b&gt; Probability of hitting the targeted unit.\n\n&lt;b&gt;Number of Projectiles:&lt;/b&gt; Amount of projectiles that the unit shoots in one attack.\n\n&lt;b&gt;Projectile Speed:&lt;/b&gt; Speed which the projectile travels. Measured in tiles/second.\n\n&lt;b&gt;Garrison Capacity:&lt;/b&gt; Amount of units that the unit/building can handle inside.\n\n&lt;b&gt;Population Taken:&lt;/b&gt; Amount of population taken by the unit when its trained.\n\n&lt;b&gt;Population Headroom:&lt;/b&gt; Population provided by the building when its constructed.\n\n&lt;b&gt;Cost:&lt;/b&gt; Amount of resources needed to train the unit.\n\n&lt;b&gt;Work Rate:&lt;/b&gt; Rate at which the unit works. Measured in resources/second.\n\n&lt;b&gt;Healing Rate:&lt;/b&gt; Rate at which the unit heals itself, or the building heals garrisoned units. Measured in HP/second.\n\n&lt;b&gt;Training Time:&lt;/b&gt; Time required to train the unit. Measured in seconds.</string>
+
+    <string name="gm_performing_a_conversion">Performing a Conversion</string>
+    <string name="gm_conversion_table_interval">Interval</string>
+    <string name="gm_conversion_table_time">Time</string>
+    <string name="gm_conversion_table_chance">Conversion Chance</string>
+    <string name="gm_conversion_resistance">Conversion Resistance</string>
+    <string name="conversion_basics1">Monks and Missionaries have the ability to convert enemy units and buildings. Both units use the exact same mechanics to perform the conversions. Monks have the faith stat, which indicates if the Monk is able to convert. The faith increases over time, and when it is at 100%, the Monk is ready to convert. When a conversion succeeds, the Faith drops to 0%, and then there are two possibilities:</string>
+    <string name="conversion_basics2">&lt;ol&gt;&lt;li&gt;The player performing the conversion gets the control over the converted unit.&lt;/li&gt;&lt;li&gt;The targeted player has Heresy researched, so the converted units dies.&lt;/li&gt;&lt;/ol&gt;</string>
+    <string name="conversion_basics4">When a unit is converted, it maintains all the upgrades that it had until that moment. Further upgrades researched, from any of the players, will not affect converted units anymore.\n\nTo convert buildings, it is needed the Redemption technology. This technology is also required to convert Siege Weapons (including Organ Guns, but not Ballista Elephants nor Petards). In addition, to convert Rams and Trebuchets, the Monk has to be close to them in order to convert. To convert other Monks or Missionaries, the Atonement technology is required.\nThere are some buildings that cannot be converted, which are the following ones: Town Centers, Palisade Walls/Gates, Farms, Stone Walls/Gates, Fish Traps, Monasteries, Fortified Walls/Gates, Castles, Kreposts, and Wonders.</string>
+    <string name="conversion_perform1">There are three main factors to decide when a conversion succeeds: Minimum conversion time, maximum conversion time, and conversion chance.\nTo summarize, when a Monk is converting, the time is divided in intervals of 1.2 seconds. In each interval, the Monk will have a chance to convert the unit, and that chance increases over time. The minimum conversion time has to be reached in order to have a chance to convert, and when the maximum time is reached, the conversion is guaranteed. The following table shows the conversion chance for different intervals, using one Monk against a normal unit (table extracted from AoKHeaven forum):</string>
+    <string name="conversion_perform2">If multiple Monks are used to convert, each Monk will work independently, so the minimum and maximum times remain the same, but the conversion chance for each interval is increased as a group. Also, all the Monks performing the conversion will lose the faith when it succeeds, unless the Theocracy technology is researched.\n\nConverting buildings works in the same way, but the minimum and maximum times are increased. In general, converting a unit takes between 5 and 15 seconds, whereas converting a building takes between 18 and 30 seconds.\n\nIn addition, if a Monk switches a target while is converting, or if a unit gets temporarily out of range while being converted, the conversion interval is not reset. This means that if the minimum conversion time is reached before switching targets, there is going to be a chance of converting the new target right away.</string>
+    <string name="conversion_resistance">There are two units which have conversion resistance; the Scout Cavalry line and the Eagle Warrior line. For these units, the minimum conversion time is increased to the 8th interval (instead of the 4th), and the maximum conversion time and conversion chance remains equal.\n\nAlso, there are some bonuses and technologies that boosts conversion resistance. The Teutonic Team Bonus gives to all the units and buildings some extra conversion resistance. What it does is to increase the minimum conversion time by 1.2s, the maximum time by 2.5s, and halves the conversion chance.\n\nThe Faith technology have a similar effect, but its impact is far superior; min time increased by 2.5s, max time increased by 5s, and conversion chance reduced to one third.\n\nFinally, there is the Inquisition Unique Technology for the Spanish, which helps converting. This technology decreases the min and max conversion times by 1s for units, and by 7s for buildings.</string>
+
+    <string name="cheat_codes_resources">&lt;b&gt;robin hood:&lt;/b&gt; 10000 gold.\n\n&lt;b&gt;cheese steak jimmy's:&lt;/b&gt; 10000 food.\n\n&lt;b&gt;lumberjack:&lt;/b&gt; 10000 wood.\n\n&lt;b&gt;rock on:&lt;/b&gt; 10000 stone.\n\n&lt;b&gt;rowshep:&lt;/b&gt; 100000 of every resource.\n\n&lt;b&gt;ninjalui:&lt;/b&gt; 100000 of every resource.\n\n&lt;b&gt;ninjaconnor:&lt;/b&gt; 100000 of every resource.</string>
+    <string name="cheat_codes_units">&lt;b&gt;how do you turn this on:&lt;/b&gt; Cobra Car.\n\n&lt;b&gt;to smithereens:&lt;/b&gt; Saboteur.\n\n&lt;b&gt;furious the monkey boy:&lt;/b&gt; Furious the Monkey Boy.\n\n&lt;b&gt;i love the monkey head:&lt;/b&gt; VDML.\n\n&lt;b&gt;i don’t exist:&lt;/b&gt; Penguin.\n\n&lt;b&gt;catzor:&lt;/b&gt; Sharkatzor.\n\n&lt;b&gt;alpaca simulator:&lt;/b&gt; Alfred the Alpaca.</string>
+    <string name="cheat_codes_various">&lt;b&gt;aegis:&lt;/b&gt; Instant building, unit creation, and resource gathering.\n\n&lt;b&gt;natural wonders:&lt;/b&gt; Control the gaia player (animals), but it is irreversible.\n\n&lt;b&gt;marco:&lt;/b&gt; Reveal the map.\n\n&lt;b&gt;polo:&lt;/b&gt; Remove the Fog of War.\n\n&lt;b&gt;i r winner:&lt;/b&gt; Win the game.\n\n&lt;b&gt;torpedo#:&lt;/b&gt; Destroys the indicated player by #.\n\n&lt;b&gt;woof woof:&lt;/b&gt; Turns hawks into flying dogs.\n\n&lt;b&gt;wimpywimpywimpy:&lt;/b&gt; Destroy yourself.\n\n&lt;b&gt;black death:&lt;/b&gt; Destroy all the opponents</string>
+    <string name="non_cheat_codes">&lt;b&gt;!mute:&lt;/b&gt; Turns off the taunts sound.\n\n&lt;b&gt;!nomute:&lt;/b&gt; Reverts the effect of !mute.</string>
+    <string name="event_cheat_codes">&lt;b&gt;photon man:&lt;/b&gt; Creates a Photon Man (Age of Empires anniversary event).\n\n&lt;b&gt;going above and beyond:&lt;/b&gt; Stack technologies and researches up to 256 times (Greatest medieval technologies event).\n\n&lt;b&gt;tech tech one two free:&lt;/b&gt; Removes the cost of all technologies (Greatest medieval technologies event).\n\n&lt;b&gt;yes we khan:&lt;/b&gt; Turns all of your Mangudai into Genghis Khan during the Genghis Khan campaign (Mongolian civ event).\n\n&lt;b&gt;put on your capes:&lt;/b&gt; Turns all of your infantry units into Elite Teutonic Knights (Single Player only) (Teutons civ event).\n\n&lt;b&gt;grab your pitchforks:&lt;/b&gt; Turns all of your Villagers into Flemish Militia (Women of History event).\n\n&lt;b&gt;cameleon:&lt;/b&gt; Turns all of your Camel units into Flaming Camels (Celebrating the Ages event).\n\n&lt;b&gt;my cpu can handle it:&lt;/b&gt; All players’ population cap increased to 1000 (Jolly Co-operation event).\n\n&lt;b&gt;sharing is caring:&lt;/b&gt; Every player’s resource income on a team is distributed to the entire team. (Jolly Co-operation event).</string>
+
+
+    <string name="dark_age">Dark Age</string>
+    <string name="feudal_age">Feudal Age</string>
+    <string name="castle_age">Castle Age</string>
+    <string name="imperial_age">Imperial Age</string>
+
+    <!--TECH TREE STRINGS-->
+    <string name="tt_dark_age">Dark Age</string>
+    <string name="tt_feudal_age">Feudal Age</string>
+    <string name="tt_castle_age">Castle Age</string>
+    <string name="tt_imperial_age">Imperial Age</string>
+    <string name="tt_units">Units</string>
+    <string name="tt_buildings">Buildings</string>
+    <string name="tt_techs">Technologies</string>
+    <string name="tt_civilizations">Civilizations</string>
+    <string name="tt_unique_units">Unique Units</string>
+    <string name="tt_box_cost">Cost:</string>
+    <string name="tt_box_upgrade_cost">Upgrade Cost:</string>
+    <string name="loading_tech_tree">Loading Tech Tree…</string>
+    <string name="tt_popup_more_info">More Info</string>
+
+    <!--RESOURCES STRINGS-->
+    <string name="res_wood">Wood</string>
+    <string name="res_food">Food</string>
+    <string name="res_gold">Gold</string>
+    <string name="res_stone">Stone</string>
+
+
+    <!--AGE SELECT MENU-->
+    <string name="menu_dark_age">DARK</string>
+    <string name="menu_feudal_age">FEUDAL</string>
+    <string name="menu_castle_age">CASTLE</string>
+    <string name="menu_imperial_age">IMPERIAL</string>
+
+    <!--STATS STRINGS-->
+    <string name="stat_hit_points">Hit Points</string>
+    <string name="stat_attack">Attack</string>
+    <string name="stat_melee_armor">Melee Armor</string>
+    <string name="stat_range">Range</string>
+    <string name="stat_line_of_sight">Line of Sight</string>
+    <string name="stat_speed">Speed</string>
+    <string name="stat_attack_delay">Attack Delay</string>
+    <string name="stat_number_of_projectiles">Number of Projectiles</string>
+    <string name="stat_garrison_capacity">Garrison Capacity</string>
+    <string name="stat_work_rate">Work Rate</string>
+    <string name="stat_pierce_armor">Pierce Armor</string>
+    <string name="stat_minimum_range">Minimum Range</string>
+    <string name="stat_reload_time">Reload Time</string>
+    <string name="stat_blast_radius">Blast Radius</string>
+    <string name="stat_accuracy">Accuracy</string>
+    <string name="stat_projectile_speed">Projectile Speed</string>
+    <string name="stat_population_taken">Population Taken</string>
+    <string name="stat_healing_rate">Healing Rate</string>
+    <string name="stat_training_time">Training Time</string>
+    <string name="stat_population_headroom">Population Headroom</string>
+    <string name="stat_building_time">Building Time</string>
+    <string name="stat_research_time">Research Time</string>
+    <string name="stat_cost">Cost</string>
+
+
+    <!--MAIN ACTIVITY STRINGS-->
+    <string name="main_data_base">Database</string>
+    <string name="main_quiz_mode">Quiz Mode</string>
+    <string name="language">Language</string>
+    <string name="english">ENGLISH</string>
+    <string name="spanish">ESPAÑOL</string>
+    <string name="main_home">Main Menu</string>
+    <string name="main_units">Units</string>
+    <string name="main_buildings">Buildings</string>
+    <string name="main_techs">Technologies</string>
+    <string name="main_civs">Civilizations</string>
+    <string name="main_tech_tree">Tech Tree</string>
+    <string name="main_game_mechanics">Game Mechanics</string>
+    <string name="main_tools">Tools</string>
+    <string name="main_misc">Miscellaneous</string>
+    <string name="main_new_quiz">New Quiz</string>
+    <string name="main_scores">Scores</string>
+	<string name="main_web_version">Web Version</string>
+
+    <!--ENTITY STRINGS-->
+    <string name="basic_info">Basic Info</string>
+    <string name="attack_values">Attack Values</string>
+    <string name="armor_values">Armor Values</string>
+    <string name="upgrades">Upgrades</string>
+    <string name="performance">Performance</string>
+    <string name="availability">Availability</string>
+    <string name="bonuses">Bonuses</string>
+    <string name="applications">Applications</string>
+    <string name="units_and_research">Units and Research</string>
+    <string name="building_mechanics">Building</string>
+    <string name="repairing_mechanics">Repairing</string>
+	
+    <string name="entity_unit">Unit</string>
+    <string name="entity_building">Building</string>
+    <string name="entity_technology">Technology</string>
+    <string name="entity_civilization">Civilization</string>
+	
+	
+	
+
+    <string name="entity_name">Name</string>
+    <string name="entity_age">Age</string>
+    <string name="entity_class">Class</string>
+
+    <string name="required_technology">Required Technology</string>
+    <string name="required_building">Required Building</string>
+    <string name="upgraded_from">Upgraded From</string>
+    <string name="next_upgrade">Next Upgrade</string>
+	
+	<string name="type_entities_attack">%s which deal %s damage</string>
+	<string name="type_entities_armor">%s which have %s armor</string>
+	
+
+    <!--UNIT VIEW STRINGS-->
+    <string name="unit_preview">Unit Preview</string>
+    <string name="unit_description">Unit Description</string>
+    <string name="unit_stats">Unit Stats</string>
+    <string name="unit_cost">Unit Cost</string>
+    <string name="unit_development">Unit Development</string>
+    <string name="unit_training_building">Training Building</string>
+
+
+    <!--BUILDING VIEW STRINGS-->
+    <string name="building_description">Building Description</string>
+    <string name="building_stats">Building Stats</string>
+    <string name="building_cost">Building Cost</string>
+    <string name="building_development">Building Development</string>
+    <string name="building_preview">Building Preview</string>
+    <string name="builder_unit">Builder Unit</string>
+
+    <!--TECHNOLOGY VIEW STRINGS-->
+    <string name="technology_preview">Technology Preview</string>
+    <string name="research_building">Research Building</string>
+    <string name="technology_description">Technology Description</string>
+    <string name="technology_cost">Technology Cost</string>
+    <string name="technology_development">Technology Development</string>
+
+
+    <!--CIVILIZATION VIEW STRINGS-->
+    <string name="civilization_preview">Civilization Preview</string>
+    <string name="civilization_name">Name</string>
+    <string name="civilization_icon">Icon</string>
+    <string name="civilization_style">Style</string>
+    <string name="civilization_theme">Theme</string>
+    <string name="civilization_tech_tree">Tech Tree</string>
+    <string name="civilization_bonuses">Civilization Bonuses</string>
+    <string name="civilization_team_bonus">Team Bonus</string>
+    <string name="civilization_team_bonuses">Team Bonuses</string>
+    <string name="civilization_unique_units">Unique Units</string>
+    <string name="civilization_unique_technologies">Unique Technologies</string>
+    <string name="civilization_unique_buildings">Unique Buildings</string>
+
+
+    <!--CHEAT CODES STRINGS-->
+    <string name="ct_resources">Resources</string>
+    <string name="ct_units">Units</string>
+    <string name="ct_various">Various</string>
+    <string name="ct_non_cheat_codes">Non-Cheat Codes</string>
+    <string name="ct_event_cheat_codes">Event Cheat Codes</string>
+
+    <!--ECONOMY CALCULATOR STRINGS-->
+    <string name="ec_units">UNITS</string>
+    <string name="ec_total">TOTAL</string>
+    <string name="ec_lumberjacks">Lumberjacks</string>
+    <string name="ec_farmers">Farmers</string>
+    <string name="ec_gold_miners">Gold Miners</string>
+    <string name="ec_min">%s / min</string>
+    <string name="ec_add_unit">Add Unit</string>
+
+    <!--DAMAGE CALCULATOR STRINGS-->
+    <string name="dc_show_attack_values">Attack Values</string>
+    <string name="dc_show_armor_values">Armor Values</string>
+    <string name="dc_unit_calculations">Calculations</string>
+    <string name="dc_show_stats">Stats</string>
+    <string name="dc_unit_stats">UNIT STATS</string>
+    <string name="dc_damage">DAMAGE IN ONE HIT</string>
+
+    <string name="dc_calc_main_unit">Unit Damage</string>
+    <string name="dc_calc_projectile_section">Extra Projectiles Damage</string>
+    <string name="dc_calc_charge_attack">Charge Attack Damage</string>
+    <string name="dc_calc_results">Results</string>
+    <string name="dc_calc_damage_sum">Damage Sum</string>
+    <string name="dc_calc_min_damage">Minimum Damage</string>
+    <string name="dc_calc_multiplier">Multiplier</string>
+    <string name="dc_calc_projectile">Projectiles-1</string>
+    <string name="dc_calc_hill_bonus">Hill Bonus</string>
+    <string name="dc_calc_delay">Delay</string>
+    <string name="dc_calc_hits1">Hits-1</string>
+    <string name="dc_calc_attack">Attack</string>
+    <string name="dc_calc_armor">Armor</string>
+    <string name="dc_calc_charge">Charge</string>
+    <string name="dc_calc_charge_hits">Charge\nHits</string>
+    <string name="dc_calc_normal_hits">Normal\nHits</string>
+    <string name="dc_calc_unit_name">Calculation of %s vs. %s</string>
+    <string name="dc_calc_damage">Damage</string>
+    <string name="dc_calc_hp">HP</string>
+    <string name="dc_calc_hits">Hits</string>
+    <string name="dc_calc_rof">Reload</string>
+    <string name="dc_calc_cost">Cost</string>
+    <string name="dc_calc_time">Time</string>
+    <string name="dc_calc_pop">Pop</string>
+    <string name="dc_calc_unit_damage">Unit Damage</string>
+    <string name="dc_calc_projectiles_damage">Projectiles Damage</string>
+    <string name="dc_calc_damage_one_hit">Damage in one hit</string>
+    <string name="dc_calc_charge_damage_one_hit">Damage in one hit (Charge)</string>
+    <string name="dc_calc_hits_kill">Hits to kill</string>
+    <string name="dc_calc_time_kill">Time to kill</string>
+    <string name="dc_calc_hits_performed">Hits Performed</string>
+    <string name="dc_calc_remaining_hp">Remaining HP</string>
+    <string name="dc_calc_dps">Damage per second</string>
+    <string name="dc_calc_cost_ef">Cost Efficiency</string>
+    <string name="dc_calc_pop_ef">Population Efficiency</string>
+    <string name="dc_popup_armor_values">%s Armor Values</string>
+    <string name="dc_popup_attack_values">%s Attack Values</string>
+    <string name="dc_popup_stats">%s Stats</string>
+
+    <string name="dc_results">RESULTS</string>
+    <string name="dc_win">WIN</string>
+    <string name="dc_lose">LOSE</string>
+    <string name="dc_tie">TIE</string>
+    <string name="dc_hits">HITS TO KILL</string>
+    <string name="dc_hits_performed">HITS PERFORMED</string>
+    <string name="dc_time">TIME TO KILL</string>
+    <string name="dc_remaining_hp">REMAINING HP</string>
+    <string name="dc_dps">DAMAGE PER SECOND</string>
+    <string name="dc_pop_efficiency">POPULATION EFFICIENCY</string>
+    <string name="dc_cost_efficiency">COST EFFICIENCY</string>
+    <string name="dc_hill_bonus">HILL\nBONUS</string>
+    <string name="dc_upgrades">Upgrades</string>
+    <string name="dc_relics">RELICS</string>
+    <string name="dc_damage_dealt">%s damage</string>
+    <string name="dc_damage_dealt_charge">%s charge damage</string>
+    <string name="dc_hits_dealt">%d hits</string>
+    <string name="dc_time_needed">%s seconds</string>
+    <string name="dc_hp_left">%s / %s HP</string>
+    <string name="dc_dps_dealt">%s DPS</string>
+
+    <!--MENU STRINGS-->
+    <string name="sort_age">Sort by Age</string>
+    <string name="sort_building">Sort by Building</string>
+    <string name="sort_military_eco">Sort by Economic/Military</string>
+    <string name="sort_alphabetically">Sort Alphabetically</string>
+    <string name="sort_expansions">Sort by Expansions</string>
+    <string name="sort_all_content">All content</string>
+    <string name="sort_topic">Sort by Topic</string>
+    <string name="search">Search</string>
+    <string name="sort">Sort</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="compare_unit">Compare Unit</string>
+    <string name="reset_scores">Reset Scores</string>
+
+
+    <!--QUIZ STRINGS-->
+    <string name="quiz_yes">YES</string>
+    <string name="quiz_no">NO</string>
+    <string name="quiz_score">Score: %d</string>
+    <string name="quiz_correct_answers">Correct Answers: %d / %d</string>
+    <string name="quiz_multiplier">Multiplier: %s</string>
+    <string name="quiz_hp">&lt;b&gt;HP:&lt;/b&gt; %s</string>
+    <string name="quiz_attack">&lt;b&gt;Attack:&lt;/b&gt; %s</string>
+    <string name="quiz_melee_armor">&lt;b&gt;Melee Armor:&lt;/b&gt; %s</string>
+    <string name="quiz_range">&lt;b&gt;Range:&lt;/b&gt; %s</string>
+    <string name="quiz_pierce_armor">&lt;b&gt;Pierce Armor:&lt;/b&gt; %s</string>
+    <string name="quiz_next">NEXT</string>
+    <string name="quiz_restart_scores">Are you sure you want to restart all the scores?</string>
+    <string name="quiz_wrong_answer">Wrong Answer. %s</string>
+    <string name="quiz_correct_answer_points">Correct Answer. +%d points.</string>
+    <string name="quiz_warning_question">Are you sure you want to exit?</string>
+    <string name="quiz_select_answer">Please select one answer.</string>
+    <string name="quiz_finished">QUIZ FINISHED</string>
+    <string name="quiz_results">Results:</string>
+    <string name="quiz_max_streak">Max Streak: %d</string>
+    <string name="quiz_max_multiplier">Max Multiplier: %s</string>
+    <string name="quiz_finish">FINISH</string>
+    <string name="quiz_please_select_unit">Please select a unit.</string>
+    <string name="quiz_please_select_tech">Please select a technology.</string>
+    <string name="quiz_select_unit">Select a unit.</string>
+    <string name="quiz_select_tech">Select a technology.</string>
+    <string name="quiz_correction_unit">The correct unit is the %s.</string>
+    <string name="quiz_correction_tech">The correct technology is the %s.</string>
+    <string name="quiz_unit_recognition">Unit Recognition</string>
+    <string name="quiz_select_questions">Select the number of questions for the quiz:</string>
+    <string name="quiz_select_kind_questions">Select which kind of questions you want in the quiz:</string>
+    <string name="quiz_10_questions">10 questions</string>
+    <string name="quiz_20_questions">20 questions</string>
+    <string name="quiz_30_questions">30 questions</string>
+    <string name="quiz_score_times_started">Times started</string>
+    <string name="quiz_score_times_finished">Times finished</string>
+    <string name="quiz_score_answered_questions">Answered questions</string>
+    <string name="quiz_score_correct_answers">Correct answers</string>
+    <string name="quiz_score_wrong_answers">Wrong answers</string>
+    <string name="quiz_score_questions">Questions</string>
+    <string name="quiz_score_max_score">Max Score</string>
+    <string name="quiz_score_max_streak">Max Streak</string>
+    <string name="quiz_score_max_multiplier">Max Multiplier</string>
+
+    <string name="quiz_please_select_civ">Please select a civilization.</string>
+    <string name="quiz_select_civ">Select a civilization</string>
+    <string name="quiz_correction_civ">The correct civilization is the %s.</string>
+    <string name="quiz_civ_bonus">Civilization Bonus</string>
+    <string name="quiz_civ_theme">Civilization Theme</string>
+    <string name="quiz_click_play">Click here to play the theme</string>
+    <string name="quiz_click_stop">Click here to stop the theme</string>
+    <string name="quiz_civ_emblem">Civilization Emblem</string>
+    <string name="quiz_write_value">Write the answer.</string>
+    <string name="quiz_write_value_please">Please write the answer.</string>
+    <string name="quiz_tech_tree_unit_question">Question %d / %d: Do the %s have access to the %s unit?</string>
+    <string name="quiz_tech_tree_tech_question">Question %d / %d: Do the %s have access to the %s technology?</string>
+    <string name="quiz_unit_recognition_question">Question %d / %d: Which unit has the following stats?</string>
+    <string name="quiz_civ_bonus_question">Question %d / %d: Which civilization has the following bonus?\n%s</string>
+    <string name="quiz_civ_unique_unit_question">Question %d / %d: Which civilization has the %s as Unique Unit?</string>
+    <string name="quiz_civ_theme_question">Question %d / %d: Which civilization has the following theme?</string>
+    <string name="quiz_civ_emblem_question">Question %d / %d: Which civilization has the following emblem?</string>
+    <string name="quiz_tech_stats_research_time_question">Question %d / %d: How long does it take to research the %s technology?\n(in seconds, considering no upgrades)</string>
+    <string name="quiz_tech_stats_research_time_correction">It takes %s seconds to research the %s technology.</string>
+    <string name="quiz_tech_stats_cost_question">Question %d / %d: How much does the %s technology cost?\n(considering no upgrades)</string>
+    <string name="quiz_unique_techs_civ_question_tech_name">Question %d / %d: Which civilization has the Unique Technology called %s?</string>
+    <string name="quiz_unique_techs_civ_question_tech_desc">Question %d / %d: Which civilization has the following Unique Technology?\n- %s.</string>
+    <string name="quiz_unique_techs_question_desc">Question %d / %d: Which is the name of the following Unique Technology?\n- %s.</string>
+    <string name="quiz_unique_techs_question_civ_age">Question %d / %d: Which Unique Technology do the %s have in the %s?</string>
+    <string name="quiz_tech_stats_cost_correction">The %s technology costs %d %s</string>
+    <string name="quiz_unit_attack_question">Question %d / %d: How much attack against %s does the %s have?\n(considering no upgrades)</string>
+    <string name="quiz_unit_armor_question">Question %d / %d: How much %s armor does the %s have?\n(considering no upgrades)</string>
+    <string name="quiz_unit_hp_question">Question %d / %d: How much HP does the %s have?\n(considering no upgrades)</string>
+    <string name="quiz_unit_los_question">Question %d / %d: How much line of sight does the %s have?\n(considering no upgrades)</string>
+    <string name="quiz_unit_base_attack_question">Question %d / %d: How much base attack does the %s have?\n(considering no upgrades)</string>
+    <string name="quiz_unit_speed_question">Question %d / %d: How much speed does the %s have?\n(considering no upgrades)</string>
+    <string name="quiz_unit_reload_question">Question %d / %d: How much reload time does the %s have?\n(considering no upgrades)</string>
+    <string name="quiz_unit_range_question">Question %d / %d: How much range does the %s have?\n(considering no upgrades)</string>
+    <string name="quiz_unit_training_question">Question %d / %d: How long does it take to train the %s?\n(considering no upgrades)</string>
+    <string name="quiz_building_time_question">Question %d / %d: How long does it take to build the %s?\n(considering no upgrades)</string>
+    <string name="quiz_unit_cost_question">Question %d / %d: How much does the %s cost?\n(considering no upgrades)</string>
+    <string name="quiz_unit_attack_correction">The %s has %d attack against %s.</string>
+    <string name="quiz_unit_armor_correction">The %s has %d %s armor.</string>
+    <string name="quiz_unit_hp_correction">The %s has %s HP.</string>
+    <string name="quiz_unit_los_correction">The %s has %s line of sight.</string>
+    <string name="quiz_unit_base_attack_correction">The %s has %s base attack.</string>
+    <string name="quiz_unit_speed_correction">The %s has %s speed.</string>
+    <string name="quiz_unit_reload_correction">The %s has %s reload time.</string>
+    <string name="quiz_unit_range_correction">The %s has %s range.</string>
+    <string name="quiz_unit_training_correction">It takes %s seconds to train the %s.</string>
+    <string name="quiz_building_time_correction">It takes %s seconds to build the %s.</string>
+    <string name="quiz_unit_cost_correction">The %s costs %d %s</string>
+    <string name="quiz_cost_correction2">and %d %s.</string>
+	
+    <string name="as_search">SEARCH</string>
+    <string name="as_civs">Civilizations</string>
+    <string name="as_techs">Technologies</string>
+    <string name="as_buildings">Buildings</string>
+    <string name="as_units">Units</string>
+    <string name="as_search_for">Search for</string>
+    <string name="as_clear">CLEAR</string>
+    <string name="as_row_not">NOT</string>
+    <string name="as_row_and">AND</string>
+    <string name="as_row_or">OR</string>
+    <string name="as_row_condition">CONDITION</string>
+    <string name="as_results">Result: %d matches</string>
+    <string name="as_add_condition">Add Condition</string>
+    <string name="as_access_unit">Unit Available</string>
+    <string name="as_access_building">Building Available</string>
+    <string name="as_access_tech">Technology Available</string>
+    <string name="as_unit">UNIT</string>
+    <string name="as_building">BUILDING</string>
+    <string name="as_tech">TECHNOLOGY</string>
+    <string name="as_stat_operator">OPERATOR</string>
+    <string name="as_stat_number">NUMBER</string>
+    <string name="as_class">Class</string>
+    <string name="as_creation_building">Creation Building</string>
+    <string name="as_affected_upgrades">Affected by Upgrade</string>
+    <string name="as_available_civilization">Available to Civilization</string>
+    <string name="as_stats">Stats</string>
+    <string name="as_attack_value">Attack Value</string>
+    <string name="as_armor_value">Armor Value</string>
+    <string name="as_class_name">CLASS</string>
+
+    <string name="new_tech_tree_quiz_all_questions">All questions</string>
+    <string name="new_tech_tree_quiz_select_unit">Select Unit</string>
+    <string name="new_tech_tree_quiz_select_tech">Select Tech</string>
+    <string name="new_tech_tree_quiz_select_civ">Select Civ</string>
+    <string name="new_tech_tree_quiz_select_building">Select Building</string>
+    <string name="new_tech_tree_quiz_all_questions_hint">A random unit or tech will be asked for any civilization.</string>
+    <string name="new_tech_tree_quiz_unit_hint">Select a unit and find out its availability for different civilizations.</string>
+    <string name="new_tech_tree_quiz_tech_hint">Select a technology and find out its availability for different civilizations.</string>
+    <string name="new_tech_tree_quiz_civ_hint">Select a civilization, and get questions about its available units and techs.</string>
+    <string name="new_tech_tree_quiz_building_hint">Select a building, and get questions about the availability of its trainable units, and researchable technologies.</string>
+
+
+
+</resources>

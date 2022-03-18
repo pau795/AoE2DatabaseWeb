@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<list>
+	<item id="1">
+		<nominative>Town Centers</nominative>
+		<quickDescription/>
+		<briefDescription>Used to create villagers, deposit resources, advance to next age, and improve buildings and villagers. Provides +5 population headroom.</briefDescription>
+		<longDescription>Used to create Villagers, deposit resources (Food, Wood, Gold and Stone), advance to next age, and improve buildings and Villagers. Provides +5 population headroom. Units can garrison inside for protection. Cannot be converted by Monks.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="2">
+		<nominative>Houses</nominative>
+		<quickDescription/>
+		<briefDescription>Each house provides +5 population headroom.</briefDescription>
+		<longDescription>Each house provides +5 population headroom.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="3">
+		<nominative>Lumber Camps</nominative>
+		<quickDescription/>
+		<briefDescription>Used to deposit wood and research wood-gathering improvements.</briefDescription>
+		<longDescription>Used to deposit wood and research wood-gathering improvements.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="4">
+		<nominative>Mills</nominative>
+		<quickDescription/>
+		<briefDescription>Used to deposit food and research farming improvements.</briefDescription>
+		<longDescription>Used to deposit food and research farming improvements.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="5">
+		<nominative>Mining Camps</nominative>
+		<quickDescription/>
+		<briefDescription>Used to deposit stone and gold and research stone-mining and gold-mining improvements.</briefDescription>
+		<longDescription>Used to deposit stone and gold and research stone-mining and gold-mining improvements.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="6">
+		<nominative>Docks</nominative>
+		<quickDescription/>
+		<briefDescription>Used to build and improve ships, deposit fish, and trade with other players by sea.</briefDescription>
+		<longDescription>Used to build and improve ships, deposit fish, and trade with other players by sea.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="7">
+		<nominative>Farms</nominative>
+		<quickDescription/>
+		<briefDescription>A renewable source of food. Provides a limited amount of food before it goes fallow and must be rebuilt.</briefDescription>
+		<longDescription>A renewable source of food. Provides a limited amount of food before it goes fallow and must be rebuilt. Only one villager can work a Farm. Cannot be converted by enemy Monks. You can farm abandoned enemy Farms.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="8">
+		<nominative>Barracks</nominative>
+		<quickDescription/>
+		<briefDescription>Used to create and improve Infantry.</briefDescription>
+		<longDescription>Used to create and improve Infantry.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="9">
+		<nominative>Outposts</nominative>
+		<quickDescription/>
+		<briefDescription>A stationary watch point that provides advance warning of nearby enemy activity.</briefDescription>
+		<longDescription>A stationary watch point that provides advance warning of nearby enemy activity. Unlike other towers, Outposts do not attack or let you garrison units inside.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="10">
+		<nominative>Palisade Walls</nominative>
+		<quickDescription/>
+		<briefDescription>Wooden wall that is cheap and easy to build. Slows down your enemies and warns you of their approach.</briefDescription>
+		<longDescription>Wooden wall that is cheap and easy to build. Slows down your enemies and warns you of their approach. While it is being built, it has 0 melee armor.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="11">
+		<nominative>Palisade Gates</nominative>
+		<quickDescription/>
+		<briefDescription>Can be built into existing walls. You or your allies can open and close the Gate.</briefDescription>
+		<longDescription>Can be built into existing walls. You or your allies can open and close the Gate. You can lock and unlock it manually. While it is being built, it does not have any armor.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="12">
+		<nominative>Blacksmiths</nominative>
+		<quickDescription/>
+		<briefDescription>Used to improve Infantry, Archers, Cavalry, Towers, Town Centers, Castles, and Ships.</briefDescription>
+		<longDescription>Used to improve Infantry, Archers, Cavalry, Towers, Town Centers, Castles, and Ships.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="13">
+		<nominative>Markets</nominative>
+		<quickDescription/>
+		<briefDescription>Used to buy and sell resources, trade with other players by land, and research trade improvements.</briefDescription>
+		<longDescription>Used to buy and sell resources, trade with other players by land, and research trade improvements.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="14">
+		<nominative>Archery Ranges</nominative>
+		<quickDescription/>
+		<briefDescription>Used to create and improve ranged Units.</briefDescription>
+		<longDescription>Used to create and improve ranged Units.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="15">
+		<nominative>Stables</nominative>
+		<quickDescription/>
+		<briefDescription>Used to create and improve Cavalry.</briefDescription>
+		<longDescription>Used to create and improve Cavalry.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="16">
+		<nominative>Stone Walls</nominative>
+		<quickDescription/>
+		<briefDescription>Stone wall which provides a strong defense. It is more expensive and takes longer to build compared to Palisade Walls.</briefDescription>
+		<longDescription>Stone wall which provides a strong defense. It is more expensive and takes longer to build compared to Palisade Walls. When Castle Age is researched, its HP is doubled up. While it is being built, it has 0 melee armor.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="17">
+		<nominative>Stone Gates</nominative>
+		<quickDescription/>
+		<briefDescription>Can be built into existing walls. You or your allies can open and close the Gate.</briefDescription>
+		<longDescription>Can be built into existing walls. You or your allies can open and close the Gate. When reaching Castle age, its HP is doubled up. While it is being built, it does not have any armor.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="18">
+		<nominative>Watch Towers</nominative>
+		<quickDescription/>
+		<briefDescription>Basic stone tower. Automatically attacks enemy units and buildings within range.</briefDescription>
+		<longDescription>Basic stone tower. Automatically attacks enemy units and buildings within range. Units can garrison inside for protection and fire additional arrows.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="19">
+		<nominative>Fish Traps</nominative>
+		<quickDescription/>
+		<briefDescription>A renewable source of food. Similar to a Farm, but in water. Provides a limited amount of food before it collapses and must be rebuilt.</briefDescription>
+		<longDescription>A renewable source of food. Similar to a Farm, but in water. Provides a limited amount of food before it collapses and must be rebuilt. Cannot be converted by enemy Monks.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="20">
+		<nominative>Monasteries</nominative>
+		<quickDescription/>
+		<briefDescription>Used to create and improve Monks. Garrisoned relics generate gold (1G/2s). Cannot be converted by enemy Monks.</briefDescription>
+		<longDescription>Used to create and improve Monks. Garrisoned relics generate gold (1G/2s). Cannot be converted by enemy Monks.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="21">
+		<nominative>Universities</nominative>
+		<quickDescription/>
+		<briefDescription>Used to improve buildings and missile units.</briefDescription>
+		<longDescription>Used to improve buildings and missile units.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="22">
+		<nominative>Siege Workshops</nominative>
+		<quickDescription/>
+		<briefDescription>Used to build and improve Siege Weapons.</briefDescription>
+		<longDescription>Used to build and improve Siege Weapons.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="23">
+		<nominative>Fortified Walls</nominative>
+		<quickDescription/>
+		<briefDescription>Stronger than Stone Wall. Difficult to breach without Siege Weapons. Upgrading Fortified Walls also increases the hit points of your Gates.</briefDescription>
+		<longDescription>Stronger than Stone Wall. Difficult to breach without Siege Weapons. Upgrading Fortified Walls also increases the hit points of your Gates.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="24">
+		<nominative>Fortified Gates</nominative>
+		<quickDescription/>
+		<briefDescription>Can be built into existing walls. You or your allies can open and close the Gate.</briefDescription>
+		<longDescription>Can be built into existing walls. You or your allies can open and close the Gate.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="25">
+		<nominative>Guard Towers</nominative>
+		<quickDescription/>
+		<briefDescription>Basic stone tower. Automatically attacks enemy units and buildings within range.</briefDescription>
+		<longDescription>Basic stone tower. Automatically attacks enemy units and buildings within range. Units can garrison inside for protection and fire additional arrows.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="26">
+		<nominative>Castles</nominative>
+		<quickDescription/>
+		<briefDescription>Strong fortification structure. Used to create your Unique Unit, build Trebuchets, and research special technologies.</briefDescription>
+		<longDescription>Strong fortification structure. Provides +20 population headroom. Used to create your Unique Unit, build Trebuchets, and research special technologies. Cannot be converted by enemy Monks.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="27">
+		<nominative>Harbors</nominative>
+		<quickDescription>Arrow-firing Dock</quickDescription>
+		<briefDescription>Malay Unique Building. Upgraded version of the Dock which can fire arrows.</briefDescription>
+		<longDescription>Malay Unique Building. Upgraded version of the Dock which can fire arrows.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="28">
+		<nominative>Wonders</nominative>
+		<quickDescription/>
+		<briefDescription>Building that lets you win the game if it stands for a certain period of time (Standard Victory).</briefDescription>
+		<longDescription>Building a Wonder of the World demonstrates the superiority of your civilization. Constructing a Wonder that stands for a certain period of time is one way to win the game (Standard Victory). Cannot be converted by enemy Monks.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="29">
+		<nominative>Feitorias</nominative>
+		<quickDescription>Resource-generating Building, takes 20 population</quickDescription>
+		<briefDescription>Portuguese Unique Building. Generates resources without the need of villagers. Takes 20 population.</briefDescription>
+		<longDescription>Portuguese Unique Building. Generates resources without the need of villagers. Takes 20 population.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="30">
+		<nominative>Keeps</nominative>
+		<quickDescription/>
+		<briefDescription>Basic stone tower. Automatically attacks enemy units and buildings within range.</briefDescription>
+		<longDescription>Basic stone tower. Automatically attacks enemy units and buildings within range. Units can garrison inside for protection and fire additional arrows.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="31">
+		<nominative>Bombard Towers</nominative>
+		<quickDescription/>
+		<briefDescription>Strong tower which fires cannonballs. It has very high attack and range, but is very expensive.</briefDescription>
+		<longDescription>Strong tower which fires cannonballs. It has very high attack and range, but is very expensive.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="32">
+		<nominative>Kreposts</nominative>
+		<quickDescription>Small fortification used to train Konnik</quickDescription>
+		<briefDescription>Bulgarian Unique Building. Medium fortification structure. Provides +20 population headroom. Used to create Konnik. Cannot be converted by enemy Monks.</briefDescription>
+		<longDescription>Bulgarian Unique Building. Medium fortification structure. Provides +20 population headroom. Used to create Konnik. Cannot be converted by enemy Monks.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="33">
+		<nominative>Donjons</nominative>
+		<quickDescription>Small fortification used to train Serjeants</quickDescription>
+		<briefDescription>Sicilian Unique Building. Small fortification structure which replaces the Towers. Used to create Serjeants. It can also be built by Serjeants.</briefDescription>
+		<longDescription>Sicilian Unique Building. Small fortification structure which replaces the Towers. Used to create Serjeants. It can also be built by Serjeants.</longDescription>
+		<extraDescription/>
+	</item>
+		<item id="34">
+		<nominative>Folwarks</nominative>
+		<quickDescription>Replaces Mills. Collects 10% of food from nearby farms</quickDescription>
+		<briefDescription>Polish Unique Building. Immediately collects 10% of food from nearby newly constucted farms. Provides 5 population.</briefDescription>
+		<longDescription>Polish Unique Building. Used to deposit food and research farming improvements. Immediately collects 10% of food from nearby newly constucted farms. Provides 5 population.</longDescription>
+		<extraDescription/>
+	</item>
+</list>

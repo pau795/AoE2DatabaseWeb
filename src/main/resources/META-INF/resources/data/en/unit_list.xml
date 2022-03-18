@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<list>
+	<item id="1" icon="u_male_villager">Villager</item>
+	<item id="2" icon="u_fishing_ship">Fishing Ship</item>
+	<item id="3" icon="u_transport_ship">Transport Ship</item>
+	<item id="4" icon="u_militia">Militia</item>
+	<item id="5" icon="u_trade_cog">Trade Cog</item>
+	<item id="6" icon="u_galley">Galley</item>
+	<item id="7" icon="u_fire_galley">Fire Galley</item>
+	<item id="8" icon="u_demolition_raft">Demolition Raft</item>
+	<item id="9" icon="u_trade_cart">Trade Cart</item>
+	<item id="10" icon="u_man_at_arms">Man-at-Arms</item>
+	<item id="11" icon="u_spearman">Spearman</item>
+	<item id="12" icon="u_eagle_scout">Eagle Scout</item>
+	<item id="13" icon="u_archer">Archer</item>
+	<item id="14" icon="u_skirmisher">Skirmisher</item>
+	<item id="15" icon="u_scout_cavalry">Scout Cavalry</item>
+	<item id="16" icon="u_war_galley">War Galley</item>
+	<item id="17" icon="u_fire_ship">Fire Ship</item>
+	<item id="18" icon="u_demolition_ship">Demolition Ship</item>
+	<item id="19" icon="u_longboat">Longboat</item>
+	<item id="20" icon="u_turtle_ship">Turtle Ship</item>
+	<item id="21" icon="u_caravel">Caravel</item>
+	<item id="22" icon="u_monk">Monk</item>
+	<item id="23" icon="u_missionary">Missionary</item>
+	<item id="24" icon="u_long_swordsman">Long Swordsman</item>
+	<item id="25" icon="u_pikeman">Pikeman</item>
+	<item id="26" icon="u_eagle_warrior">Eagle Warrior</item>
+	<item id="27" icon="u_crossbowman">Crossbowman</item>
+	<item id="28" icon="u_elite_skirmisher">Elite Skirmisher</item>
+	<item id="29" icon="u_cavalry_archer">Cavalry Archer</item>
+	<item id="30" icon="u_genitour">Genitour</item>
+	<item id="31" icon="u_slinger">Slinger</item>
+	<item id="32" icon="u_light_cavalry">Light Cavalry</item>
+	<item id="33" icon="u_knight">Knight</item>
+	<item id="34" icon="u_camel_rider">Camel Rider</item>
+	<item id="35" icon="u_battle_elephant">Battle Elephant</item>
+	<item id="36" icon="u_battering_ram">Battering Ram</item>
+	<item id="37" icon="u_mangonel">Mangonel</item>
+	<item id="38" icon="u_scorpion">Scorpion</item>
+	<item id="39" icon="u_siege_tower">Siege Tower</item>
+	<item id="40" icon="u_petard">Petard</item>
+	<item id="41" icon="u_jaguar_warrior">Jaguar Warrior</item>
+	<item id="42" icon="u_camel_archer">Camel Archer</item>
+	<item id="43" icon="u_longbowman">Longbowman</item>
+	<item id="44" icon="u_arambai">Arambai</item>
+	<item id="45" icon="u_cataphract">Cataphract</item>
+	<item id="46" icon="u_woad_raider">Woad Raider</item>
+	<item id="47" icon="u_chu_ko_nu">Chu Ko Nu</item>
+	<item id="48" icon="u_shotel_warrior">Shotel Warrior</item>
+	<item id="49" icon="u_throwing_axeman">Throwing Axeman</item>
+	<item id="50" icon="u_huskarl">Huskarl</item>
+	<item id="51" icon="u_tarkan">Tarkan</item>
+	<item id="52" icon="u_kamayuk">Kamayuk</item>
+	<item id="53" icon="u_elephant_archer">Elephant Archer</item>
+	<item id="54" icon="u_genoese_crossbowman">Genoese Crossbowman</item>
+	<item id="55" icon="u_samurai">Samurai</item>
+	<item id="56" icon="u_ballista_elephant">Ballista Elephant</item>
+	<item id="57" icon="u_war_wagon">War Wagon</item>
+	<item id="58" icon="u_magyar_huszar">Magyar Huszar</item>
+	<item id="59" icon="u_karambit_warrior">Karambit Warrior</item>
+	<item id="60" icon="u_gbeto">Gbeto</item>
+	<item id="61" icon="u_plumed_archer">Plumed Archer</item>
+	<item id="62" icon="u_mangudai">Mangudai</item>
+	<item id="63" icon="u_war_elephant">War Elephant</item>
+	<item id="64" icon="u_organ_gun">Organ Gun</item>
+	<item id="65" icon="u_mameluke">Mameluke</item>
+	<item id="66" icon="u_boyar">Boyar</item>
+	<item id="67" icon="u_conquistador">Conquistador</item>
+	<item id="68" icon="u_teutonic_knight">Teutonic Knight</item>
+	<item id="69" icon="u_janissary">Janissary</item>
+	<item id="70" icon="u_rattan_archer">Rattan Archer</item>
+	<item id="71" icon="u_berserk">Berserk</item>
+	<item id="72" icon="u_galleon">Galleon</item>
+	<item id="73" icon="u_fast_fire_ship">Fast Fire Ship</item>
+	<item id="74" icon="u_heavy_demolition_ship">Heavy Demolition Ship</item>
+	<item id="75" icon="u_cannon_galleon">Cannon Galleon</item>
+	<item id="76" icon="u_elite_cannon_galleon">Elite Cannon Galleon</item>
+	<item id="77" icon="u_longboat">Elite Longboat</item>
+	<item id="78" icon="u_turtle_ship">Elite Turtle Ship</item>
+	<item id="79" icon="u_caravel">Elite Caravel</item>
+	<item id="80" icon="u_two_handed_swordsman">Two-Handed Swordsman</item>
+	<item id="81" icon="u_champion">Champion</item>
+	<item id="82" icon="u_halberdier">Halberdier</item>
+	<item id="83" icon="u_elite_eagle_warrior">Elite Eagle Warrior</item>
+	<item id="84" icon="u_condottiero">Condottiero</item>
+	<item id="85" icon="u_arbalester">Arbalester</item>
+	<item id="86" icon="u_imperial_skirmisher">Imperial Skirmisher</item>
+	<item id="87" icon="u_heavy_cavalry_archer">Heavy Cavalry Archer</item>
+	<item id="88" icon="u_hand_cannoneer">Hand Cannoneer</item>
+	<item id="89" icon="u_genitour">Elite Genitour</item>
+	<item id="90" icon="u_hussar">Hussar</item>
+	<item id="91" icon="u_cavalier">Cavalier</item>
+	<item id="92" icon="u_paladin">Paladin</item>
+	<item id="93" icon="u_heavy_camel_rider">Heavy Camel Rider</item>
+	<item id="94" icon="u_imperial_camel_rider">Imperial Camel Rider</item>
+	<item id="95" icon="u_elite_battle_elephant">Elite Battle Elephant</item>
+	<item id="96" icon="u_capped_ram">Capped Ram</item>
+	<item id="97" icon="u_siege_ram">Siege Ram</item>
+	<item id="98" icon="u_onager">Onager</item>
+	<item id="99" icon="u_siege_onager">Siege Onager</item>
+	<item id="100" icon="u_heavy_scorpion">Heavy Scorpion</item>
+	<item id="101" icon="u_bombard_cannon">Bombard Cannon</item>
+	<item id="102" icon="u_packed_trebuchet">Trebuchet (Packed)</item>
+	<item id="103" icon="u_trebuchet">Trebuchet</item>
+	<item id="104" icon="u_jaguar_warrior">Elite Jaguar Warrior</item>
+	<item id="105" icon="u_camel_archer">Elite Camel Archer</item>
+	<item id="106" icon="u_longbowman">Elite Longbowman</item>
+	<item id="107" icon="u_arambai">Elite Arambai</item>
+	<item id="108" icon="u_cataphract">Elite Cataphract</item>
+	<item id="109" icon="u_woad_raider">Elite Woad Raider</item>
+	<item id="110" icon="u_chu_ko_nu">Elite Chu Ko Nu</item>
+	<item id="111" icon="u_shotel_warrior">Elite Shotel Warrior</item>
+	<item id="112" icon="u_throwing_axeman">Elite Throwing Axeman</item>
+	<item id="113" icon="u_huskarl">Elite Huskarl</item>
+	<item id="114" icon="u_tarkan">Elite Tarkan</item>
+	<item id="115" icon="u_kamayuk">Elite Kamayuk</item>
+	<item id="116" icon="u_elephant_archer">Elite Elephant Archer</item>
+	<item id="117" icon="u_genoese_crossbowman">Elite Genoese Crossbowman</item>
+	<item id="118" icon="u_samurai">Elite Samurai</item>
+	<item id="119" icon="u_ballista_elephant">Elite Ballista Elephant</item>
+	<item id="120" icon="u_war_wagon">Elite War Wagon</item>
+	<item id="121" icon="u_magyar_huszar">Elite Magyar Huszar</item>
+	<item id="122" icon="u_karambit_warrior">Elite Karambit Warrior</item>
+	<item id="123" icon="u_gbeto">Elite Gbeto</item>
+	<item id="124" icon="u_plumed_archer">Elite Plumed Archer</item>
+	<item id="125" icon="u_mangudai">Elite Mangudai</item>
+	<item id="126" icon="u_war_elephant">Elite War Elephant</item>
+	<item id="127" icon="u_organ_gun">Elite Organ Gun</item>
+	<item id="128" icon="u_mameluke">Elite Mameluke</item>
+	<item id="129" icon="u_boyar">Elite Boyar</item>
+	<item id="130" icon="u_conquistador">Elite Conquistador</item>
+	<item id="131" icon="u_teutonic_knight">Elite Teutonic Knight</item>
+	<item id="132" icon="u_janissary">Elite Janissary</item>
+	<item id="133" icon="u_rattan_archer">Elite Rattan Archer</item>
+	<item id="134" icon="u_berserk">Elite Berserk</item>
+	<item id="135" icon="u_steppe_lancer">Steppe Lancer</item>
+	<item id="136" icon="u_konnik">Konnik</item>
+	<item id="137" icon="u_dismounted_konnik">Konnik (Dismounted)</item>
+	<item id="138" icon="u_kipchak">Kipchak</item>
+	<item id="139" icon="u_leitis">Leitis</item>
+	<item id="140" icon="u_keshik">Keshik</item>
+	<item id="141" icon="u_elite_steppe_lancer">Elite Steppe Lancer</item>
+	<item id="142" icon="u_konnik">Elite Konnik</item>
+	<item id="143" icon="u_dismounted_konnik">Elite Konnik (Dismounted)</item>
+	<item id="144" icon="u_kipchak">Elite Kipchak</item>
+	<item id="145" icon="u_leitis">Elite Leitis</item>
+	<item id="146" icon="u_keshik">Elite Keshik</item>
+	<item id="147" icon="u_xolotl_warrior">Xolotl Warrior</item>
+	<item id="148" icon="u_flaming_camel">Flaming Camel</item>
+	<item id="149" icon="u_coustillier">Coustillier</item>
+	<item id="150" icon="u_serjeant">Serjeant</item>
+	<item id="151" icon="u_coustillier">Elite Coustillier</item>
+	<item id="152" icon="u_serjeant">Elite Serjeant</item>
+	<item id="153" icon="u_flemish_militia">Flemish Militia</item>
+	<item id="154" icon="u_winged_hussar">Winged Hussar</item>
+	<item id="155" icon="u_hussite_wagon">Hussite Wagon</item>
+	<item id="156" icon="u_obuch">Obuch</item>
+	<item id="157" icon="u_hussite_wagon">Elite Hussite Wagon</item>
+	<item id="158" icon="u_obuch">Elite Obuch</item>
+	<item id="159" icon="u_houfnice">Houfnice</item>
+</list>

@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<list>
+	<item id="1">
+		<bonus bonusList="1 2 3 4" teamBonus="5"/>
+		<uniqueUnits>
+			<unit unitID="41" eliteUnitID="104"/>
+		</uniqueUnits>
+		<uniqueTechs castleTech="59" imperialTech="174"/>
+		<uniqueBuildings/>
+	</item>
+	<item id="2">
+		<bonus bonusList="6 7 8" teamBonus="9"/>
+		<uniqueUnits>
+			<unit unitID="42" eliteUnitID="105"/>
+			<unit unitID="30" eliteUnitID="89"/>
+		</uniqueUnits>
+		<uniqueTechs castleTech="60" imperialTech="175"/>
+		<uniqueBuildings/>
+	</item>
+	<item id="3">
+		<bonus bonusList="10 11 12" teamBonus="13"/>
+		<uniqueUnits>
+			<unit unitID="43" eliteUnitID="106"/>
+		</uniqueUnits>
+		<uniqueTechs castleTech="61" imperialTech="176"/>
+		<uniqueBuildings/>
+	</item>
+	<item id="4">
+		<bonus bonusList="14 15 16" teamBonus="17"/>
+		<uniqueUnits>
+			<unit unitID="44" eliteUnitID="107"/>
+		</uniqueUnits>
+		<uniqueTechs castleTech="62" imperialTech="177"/>
+		<uniqueBuildings/>
+	</item>
+	<item id="5">
+		<bonus bonusList="18 19 20 21 22" teamBonus="23"/>
+		<uniqueUnits>
+			<unit unitID="45" eliteUnitID="108"/>
+		</uniqueUnits>
+		<uniqueTechs castleTech="63" imperialTech="178"/>
+		<uniqueBuildings/>
+	</item>
+	<item id="6">
+		<bonus bonusList="24 25 26 27" teamBonus="28"/>
+		<uniqueUnits>
+			<unit unitID="46" eliteUnitID="109"/>
+		</uniqueUnits>
+		<uniqueTechs castleTech="64" imperialTech="179"/>
+		<uniqueBuildings/>
+	</item>
+	<item id="7">
+		<bonus bonusList="29 30 31 32 33" teamBonus="34"/>
+		<uniqueUnits>
+			<unit unitID="47" eliteUnitID="110"/>
+		</uniqueUnits>
+		<uniqueTechs castleTech="65" imperialTech="180"/>
+		<uniqueBuildings/>
+	</item>
+	<item id="8">
+		<bonus bonusList="35 36 37" teamBonus="38"/>
+		<uniqueUnits>
+			<unit unitID="48" eliteUnitID="111"/>
+		</uniqueUnits>
+		<uniqueTechs castleTech="66" imperialTech="181"/>
+		<uniqueBuildings/>
+	</item>
+	<item id="9">
+		<bonus bonusList="39 40 41 42" teamBonus="43"/>
+		<uniqueUnits>
+			<unit unitID="49" eliteUnitID="112"/>
+		</uniqueUnits>
+		<uniqueTechs castleTech="67" imperialTech="182"/>
+		<uniqueBuildings/>
+	</item>
+	<item id="10">
+		<bonus bonusList="44 45 46 47 48" teamBonus="49"/>
+		<uniqueUnits>
+			<unit unitID="50" eliteUnitID="113"/>
+		</uniqueUnits>
+		<uniqueTechs castleTech="68" imperialTech="183"/>
+		<uniqueBuildings/>
+	</item>
+	<item id="11">
+		<bonus bonusList="50 51 52" teamBonus="53"/>
+		<uniqueUnits>
+			<unit unitID="51" eliteUnitID="114"/>
+		</uniqueUnits>
+		<uniqueTechs castleTech="69" imperialTech="184"/>
+		<uniqueBuildings/>
+	</item>
+	<item id="12">
+		<bonus bonusList="54 55 56 57" teamBonus="58"/>
+		<uniqueUnits>
+			<unit unitID="52" eliteUnitID="115"/>
+			<unit unitID="31"/>
+		</uniqueUnits>
+		<uniqueTechs castleTech="70" imperialTech="185"/>
+		<uniqueBuildings/>
+	</item>
+	<item id="13">
+		<bonus bonusList="59 60 61" teamBonus="62"/>
+		<uniqueUnits>
+			<unit unitID="53" eliteUnitID="116"/>
+			<unit unitID="94"/>
+		</uniqueUnits>
+		<uniqueTechs castleTech="71" imperialTech="186"/>
+		<uniqueBuildings/>
+	</item>
+	<item id="14">
+		<bonus bonusList="63 64 65 66" teamBonus="67"/>
+		<uniqueUnits>
+			<unit unitID="54" eliteUnitID="117"/>
+			<unit unitID="84"/>
+		</uniqueUnits>
+		<uniqueTechs castleTech="72" imperialTech="187"/>
+		<uniqueBuildings/>
+	</item>
+	<item id="15">
+		<bonus bonusList="68 69 70" teamBonus="71"/>
+		<uniqueUnits>
+			<unit unitID="55" eliteUnitID="118"/>
+		</uniqueUnits>
+		<uniqueTechs castleTech="73" imperialTech="188"/>
+		<uniqueBuildings/>
+	</item>
+	<item id="16">
+		<bonus bonusList="72 73 74 75" teamBonus="76"/>
+		<uniqueUnits>
+			<unit unitID="56" eliteUnitID="119"/>
+		</uniqueUnits>
+		<uniqueTechs castleTech="74" imperialTech="189"/>
+		<uniqueBuildings/>
+	</item>
+	<item id="17">
+		<bonus bonusList="77 78 79 80 81" teamBonus="82"/>
+		<uniqueUnits>
+			<unit unitID="57" eliteUnitID="120"/>
+			<unit unitID="20" eliteUnitID="78"/>
+		</uniqueUnits>
+		<uniqueTechs castleTech="75" imperialTech="190"/>
+		<uniqueBuildings/>
+	</item>
+	<item id="18">
+		<bonus bonusList="83 84 85" teamBonus="86"/>
+		<uniqueUnits>
+			<unit unitID="58" eliteUnitID="121"/>
+		</uniqueUnits>
+		<uniqueTechs castleTech="76" imperialTech="191"/>
+		<uniqueBuildings/>
+	</item>
+	<item id="19">
+		<bonus bonusList="87 88 89 90" teamBonus="91"/>
+		<uniqueUnits>
+			<unit unitID="59" eliteUnitID="122"/>
+		</uniqueUnits>
+		<uniqueTechs castleTech="77" imperialTech="192"/>
+		<uniqueBuildings buildingID="27"/>
+	</item>
+	<item id="20">
+		<bonus bonusList="92 93 94" teamBonus="95"/>
+		<uniqueUnits>
+			<unit unitID="60" eliteUnitID="123"/>
+		</uniqueUnits>
+		<uniqueTechs castleTech="78" imperialTech="193"/>
+		<uniqueBuildings/>
+	</item>
+	<item id="21">
+		<bonus bonusList="96 97 98" teamBonus="99"/>
+		<uniqueUnits>
+			<unit unitID="61" eliteUnitID="124"/>
+		</uniqueUnits>
+		<uniqueTechs castleTech="79" imperialTech="194"/>
+		<uniqueBuildings/>
+	</item>
+	<item id="22">
+		<bonus bonusList="100 101 102" teamBonus="103"/>
+		<uniqueUnits>
+			<unit unitID="62" eliteUnitID="125"/>
+		</uniqueUnits>
+		<uniqueTechs castleTech="80" imperialTech="195"/>
+		<uniqueBuildings/>
+	</item>
+	<item id="23">
+		<bonus bonusList="104 105 106" teamBonus="107"/>
+		<uniqueUnits>
+			<unit unitID="63" eliteUnitID="126"/>
+		</uniqueUnits>
+		<uniqueTechs castleTech="81" imperialTech="196"/>
+		<uniqueBuildings/>
+	</item>
+	<item id="24">
+		<bonus bonusList="108 168 109 110" teamBonus="111"/>
+		<uniqueUnits>
+			<unit unitID="64" eliteUnitID="127"/>
+			<unit unitID="21" eliteUnitID="79"/>
+		</uniqueUnits>
+		<uniqueTechs castleTech="82" imperialTech="197"/>
+		<uniqueBuildings buildingID="29"/>
+	</item>
+	<item id="25">
+		<bonus bonusList="112 113 114 115 116" teamBonus="118"/>
+		<uniqueUnits>
+			<unit unitID="65" eliteUnitID="128"/>
+		</uniqueUnits>
+		<uniqueTechs castleTech="83" imperialTech="198"/>
+		<uniqueBuildings/>
+	</item>
+	<item id="26">
+		<bonus bonusList="119 120 121" teamBonus="122"/>
+		<uniqueUnits>
+			<unit unitID="66" eliteUnitID="129"/>
+		</uniqueUnits>
+		<uniqueTechs castleTech="84" imperialTech="199"/>
+		<uniqueBuildings/>
+	</item>
+	<item id="27">
+		<bonus bonusList="123 124 125 126" teamBonus="127"/>
+		<uniqueUnits>
+			<unit unitID="67" eliteUnitID="130"/>
+			<unit unitID="23"/>
+		</uniqueUnits>
+		<uniqueTechs castleTech="85" imperialTech="200"/>
+		<uniqueBuildings/>
+	</item>
+	<item id="28">
+		<bonus bonusList="128 129 130 131 132 133" teamBonus="134"/>
+		<uniqueUnits>
+			<unit unitID="68" eliteUnitID="131"/>
+		</uniqueUnits>
+		<uniqueTechs castleTech="86" imperialTech="201"/>
+		<uniqueBuildings/>
+	</item>
+	<item id="29">
+		<bonus bonusList="135 136 137 138 170 139" teamBonus="140"/>
+		<uniqueUnits>
+			<unit unitID="69" eliteUnitID="132"/>
+		</uniqueUnits>
+		<uniqueTechs castleTech="87" imperialTech="202"/>
+		<uniqueBuildings/>
+	</item>
+	<item id="30">
+		<bonus bonusList="141 142 143 144" teamBonus="145"/>
+		<uniqueUnits>
+			<unit unitID="70" eliteUnitID="133"/>
+			<unit unitID="86"/>
+		</uniqueUnits>
+		<uniqueTechs castleTech="88" imperialTech="203"/>
+		<uniqueBuildings/>
+	</item>
+	<item id="31">
+		<bonus bonusList="146 147 148" teamBonus="149"/>
+		<uniqueUnits>
+			<unit unitID="71" eliteUnitID="134"/>
+			<unit unitID="19" eliteUnitID="77"/>
+		</uniqueUnits>
+		<uniqueTechs castleTech="89" imperialTech="204"/>
+		<uniqueBuildings/>
+	</item>
+	<item id="32">
+		<bonus bonusList="150 167 151 152" teamBonus="153"/>
+		<uniqueUnits>
+			<unit unitID="136" eliteUnitID="142"/>
+			<unit unitID="137" eliteUnitID="143"/>
+		</uniqueUnits>
+		<uniqueTechs castleTech="210" imperialTech="214"/>
+		<uniqueBuildings buildingID="32"/>
+	</item>
+	<item id="33">
+		<bonus bonusList="154 155 156 182 157" teamBonus="158"/>
+		<uniqueUnits>
+			<unit unitID="138" eliteUnitID="144"/>
+		</uniqueUnits>
+		<uniqueTechs castleTech="211" imperialTech="215"/>
+		<uniqueBuildings/>
+	</item>
+	<item id="34">
+		<bonus bonusList="159 160 161" teamBonus="162"/>
+		<uniqueUnits>
+			<unit unitID="139" eliteUnitID="145"/>
+			<unit unitID="154"/>
+		</uniqueUnits>
+		<uniqueTechs castleTech="212" imperialTech="216"/>
+		<uniqueBuildings/>
+	</item>
+	<item id="35">
+		<bonus bonusList="163 169 164 165" teamBonus="166"/>
+		<uniqueUnits>
+			<unit unitID="140" eliteUnitID="146"/>
+			<unit unitID="148"/>
+		</uniqueUnits>
+		<uniqueTechs castleTech="213" imperialTech="217"/>
+		<uniqueBuildings/>
+	</item>
+	<item id="36">
+		<bonus bonusList="171 181 172 173 174" teamBonus="175"/>
+		<uniqueUnits>
+			<unit unitID="149" eliteUnitID="151"/>
+			<unit unitID="153"/>
+		</uniqueUnits>
+		<uniqueTechs castleTech="218" imperialTech="222"/>
+		<uniqueBuildings/>
+	</item>
+	<item id="37">
+		<bonus bonusList="183 176 177 178 179" teamBonus="180"/>
+		<uniqueUnits>
+			<unit unitID="150" eliteUnitID="152"/>
+		</uniqueUnits>
+		<uniqueTechs castleTech="219" imperialTech="223"/>
+		<uniqueBuildings buildingID="33"/>
+	</item>
+	<item id="38">
+		<bonus bonusList="184 185 186 187 188" teamBonus="189"/>
+		<uniqueUnits>
+			<unit unitID="155" eliteUnitID="157"/>
+			<unit unitID="159"/>
+		</uniqueUnits>
+		<uniqueTechs castleTech="225" imperialTech="229"/>
+		<uniqueBuildings/>
+	</item>
+	<item id="39">
+		<bonus bonusList="190 191 192" teamBonus="193"/>
+		<uniqueUnits>
+			<unit unitID="156" eliteUnitID="158"/>
+			<unit unitID="154"/>
+		</uniqueUnits>
+		<uniqueTechs castleTech="226" imperialTech="230"/>
+		<uniqueBuildings buildingID="34"/>
+	</item>
+</list>

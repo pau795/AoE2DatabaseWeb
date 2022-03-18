@@ -1,0 +1,556 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<list>
+	<item id="1"/>
+	<item id="2"/>
+	<item id="3"/>
+	<item id="4"/>
+	<item id="5"/>
+	<item id="6"/>
+	<item id="7"/>
+	<item id="8"/>
+	<item id="9"/>
+	<item id="10"/>
+	<item id="11"/>
+	<item id="12"/>
+	<item id="13"/>
+	<item id="14"/>
+	<item id="15"/>
+	<item id="16">
+		<building id="26" upgrades="141 183"/>
+	</item>
+	<item id="17">
+		<building id="26" upgrades="141"/>
+	</item>
+	<item id="18">
+		<building id="26" upgrades="141 182"/>
+	</item>
+	<item id="19"/>
+	<item id="20"/>
+	<item id="21"/>
+	<item id="22"/>
+	<item id="23"/>
+	<item id="24"/>
+	<item id="25"/>
+	<item id="26"/>
+	<item id="27"/>
+	<item id="28"/>
+	<item id="29"/>
+	<item id="30"/>
+	<item id="31"/>
+	<item id="32"/>
+	<item id="33"/>
+	<item id="34"/>
+	<item id="35"/>
+	<item id="36">
+		<building id="26" upgrades="229"/>
+	</item>
+	<item id="37">
+		<building id="26" upgrades="229"/>
+	</item>
+	<item id="38">
+		<building id="26" upgrades="229"/>
+	</item>
+	<item id="39">
+		<building id="26" upgrades="229"/>
+	</item>
+	<item id="40">
+		<building id="26" upgrades="229"/>
+	</item>
+	<item id="41">
+		<building id="26" upgrades="229"/>
+	</item>
+	<item id="42"/>
+	<item id="43"/>
+	<item id="44"/>
+	<item id="45"/>
+	<item id="46"/>
+	<item id="47"/>
+	<item id="48"/>
+	<item id="49">
+		<building id="26" upgrades="141 183"/>
+	</item>
+	<item id="50">
+		<building id="26" upgrades="141 183"/>
+	</item>
+	<item id="51">
+		<building id="26" upgrades="141"/>
+	</item>
+	<item id="52">
+		<building id="26" upgrades="141 183"/>
+	</item>
+	<item id="53">
+		<building id="26" upgrades="141"/>
+	</item>
+	<item id="54">
+		<building id="26" upgrades="141"/>
+	</item>
+	<item id="55">
+		<building id="26" upgrades="141"/>
+	</item>
+	<item id="56">
+		<building id="26" upgrades="141"/>
+	</item>
+	<item id="57">
+		<building id="26" upgrades="141 182"/>
+	</item>
+	<item id="58">
+		<building id="26" upgrades="141 182"/>
+	</item>
+	<item id="59">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="60">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="61">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="62">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="63">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="64">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="65">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="66">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="67">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="68">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="69">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="70">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="71">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="72">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="73">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="74">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="75">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="76">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="77">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="78">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="79">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="80">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="81">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="82">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="83">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="84">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="85">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="86">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="87">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="88">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="89">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="90"/>
+	<item id="91"/>
+	<item id="92"/>
+	<item id="93"/>
+	<item id="94"/>
+	<item id="95"/>
+	<item id="96"/>
+	<item id="97"/>
+	<item id="98"/>
+	<item id="99"/>
+	<item id="100"/>
+	<item id="101"/>
+	<item id="102"/>
+	<item id="103"/>
+	<item id="104"/>
+	<item id="105"/>
+	<item id="106"/>
+	<item id="107"/>
+	<item id="108"/>
+	<item id="109">
+		<building id="26" upgrades="229"/>
+	</item>
+	<item id="110">
+		<building id="26" upgrades="229"/>
+	</item>
+	<item id="111">
+		<building id="26" upgrades="229"/>
+	</item>
+	<item id="112">
+		<building id="26" upgrades="229"/>
+	</item>
+	<item id="113"/>
+	<item id="114"/>
+	<item id="115"/>
+	<item id="116"/>
+	<item id="117"/>
+	<item id="118"/>
+	<item id="119">
+		<building id="26" upgrades="141 183"/>
+	</item>
+	<item id="120">
+		<building id="26" upgrades="141 183"/>
+	</item>
+	<item id="121">
+		<building id="26" upgrades="141 183"/>
+	</item>
+	<item id="122">
+		<building id="26" upgrades="141"/>
+	</item>
+	<item id="123">
+		<building id="26" upgrades="141"/>
+	</item>
+	<item id="124">
+		<building id="26" upgrades="141"/>
+	</item>
+	<item id="125">
+		<building id="26" upgrades="141"/>
+	</item>
+	<item id="126">
+		<building id="26" upgrades="141"/>
+	</item>
+	<item id="127">
+		<building id="26" upgrades="141"/>
+	</item>
+	<item id="128">
+		<building id="26" upgrades="141"/>
+	</item>
+	<item id="129">
+		<building id="26" upgrades="141 182"/>
+	</item>
+	<item id="130">
+		<building id="26" upgrades="141 182"/>
+	</item>
+	<item id="131">
+		<building id="26" upgrades="141"/>
+	</item>
+	<item id="132">
+		<building id="26" upgrades="141"/>
+	</item>
+	<item id="133">
+		<building id="26" upgrades="141"/>
+	</item>
+	<item id="134"/>
+	<item id="135"/>
+	<item id="136"/>
+	<item id="137"/>
+	<item id="138"/>
+	<item id="139">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="140">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="141">
+		<building id="26" upgrades="60"/>
+	</item>
+	<item id="142">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="143">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="144">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="145">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="146">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="147">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="148">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="149">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="150">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="151">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="152">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="153">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="154">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="155">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="156">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="157">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="158">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="159">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="160">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="161">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="162">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="163">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="164">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="165">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="166">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="167">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="168">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="169">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="170">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="171">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="172">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="173">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="174">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="175">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="176">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="177">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="178">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="179">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="180">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="181">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="182">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="183">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="184">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="185">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="186">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="187">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="188">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="189">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="190">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="191">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="192">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="193">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="194">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="195">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="196">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="197">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="198">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="199">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="200">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="201">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="202">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="203">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="204">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="205">
+		<building id="26" upgrades="141"/>
+	</item>
+	<item id="206">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="207">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="208">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="209">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="210">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="211">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="212">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="213">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="214">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="215">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="216">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="217">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="218">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="219">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="220">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="221">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="222">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="223">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="224">
+		<building id="26" upgrades="141"/>
+	</item>
+	<item id="225">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="226">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="227">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="228">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="229">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="230">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="231"/>
+</list>

@@ -1,0 +1,325 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<list>
+	<item id="1">
+		<entry nameID="building_armor_values">
+			<value type="1">3</value>
+			<value type="2">5</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+			<value type="31">3</value>
+		</entry>
+	</item>
+	<item id="2">
+		<entry nameID="building_armor_values">
+			<value type="1">-2</value>
+			<value type="2">7</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="3">
+		<entry nameID="building_armor_values">
+			<value type="1">0</value>
+			<value type="2">7</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="4">
+		<entry nameID="building_armor_values">
+			<value type="1">0</value>
+			<value type="2">7</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="5">
+		<entry nameID="building_armor_values">
+			<value type="1">0</value>
+			<value type="2">7</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="6">
+		<entry nameID="building_armor_values">
+			<value type="1">0</value>
+			<value type="2">7</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="7">
+		<entry nameID="building_armor_values">
+			<value type="1">0</value>
+			<value type="2">0</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="8">
+		<entry nameID="building_armor_values">
+			<value type="1">0</value>
+			<value type="2">7</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="9">
+		<entry nameID="building_armor_values">
+			<value type="1">0</value>
+			<value type="2">0</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="10">
+		<entry nameID="building_armor_values">
+			<value type="1">2</value>
+			<value type="2">5</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+			<value type="23">0</value>
+			<value type="31">2</value>
+		</entry>
+	</item>
+	<item id="11">
+		<entry nameID="building_armor_values">
+			<value type="1">2</value>
+			<value type="2">2</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+			<value type="31">2</value>
+		</entry>
+	</item>
+	<item id="12">
+		<entry nameID="building_armor_values">
+			<value type="1">1</value>
+			<value type="2">8</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+			<value type="31">1</value>
+		</entry>
+	</item>
+	<item id="13">
+		<entry nameID="building_armor_values">
+			<value type="1">1</value>
+			<value type="2">8</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+			<value type="31">1</value>
+		</entry>
+	</item>
+	<item id="14">
+		<entry nameID="building_armor_values">
+			<value type="1">1</value>
+			<value type="2">8</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+			<value type="31">1</value>
+		</entry>
+	</item>
+	<item id="15">
+		<entry nameID="building_armor_values">
+			<value type="1">1</value>
+			<value type="2">8</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+			<value type="31">1</value>
+		</entry>
+	</item>
+	<item id="16">
+		<entry nameID="building_armor_values">
+			<value type="1">8</value>
+			<value type="2">10</value>
+			<value type="19">0</value>
+			<value type="20">16</value>
+			<value type="22">0</value>
+			<value type="23">0</value>
+			<value type="31">8</value>
+		</entry>
+	</item>
+	<item id="17">
+		<entry nameID="building_armor_values">
+			<value type="1">6</value>
+			<value type="2">6</value>
+			<value type="19">0</value>
+			<value type="20">20</value>
+			<value type="22">0</value>
+			<value type="23">0</value>
+			<value type="31">6</value>
+		</entry>
+	</item>
+	<item id="18">
+		<entry nameID="building_armor_values">
+			<value type="1">1</value>
+			<value type="2">7</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+			<value type="22">0</value>
+			<value type="31">1</value>
+		</entry>
+	</item>
+	<item id="19">
+		<entry nameID="building_armor_values">
+			<value type="1">0</value>
+			<value type="2">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="20">
+		<entry nameID="building_armor_values">
+			<value type="1">2</value>
+			<value type="2">9</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+			<value type="31">2</value>
+		</entry>
+	</item>
+	<item id="21">
+		<entry nameID="building_armor_values">
+			<value type="1">2</value>
+			<value type="2">9</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+			<value type="31">2</value>
+		</entry>
+	</item>
+	<item id="22">
+		<entry nameID="building_armor_values">
+			<value type="1">2</value>
+			<value type="2">9</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+			<value type="31">2</value>
+		</entry>
+	</item>
+	<item id="23">
+		<entry nameID="building_armor_values">
+			<value type="1">12</value>
+			<value type="2">12</value>
+			<value type="19">0</value>
+			<value type="20">24</value>
+			<value type="22">0</value>
+			<value type="23">0</value>
+			<value type="31">12</value>
+		</entry>
+	</item>
+	<item id="24">
+		<entry nameID="building_armor_values">
+			<value type="1">6</value>
+			<value type="2">6</value>
+			<value type="19">0</value>
+			<value type="20">20</value>
+			<value type="22">0</value>
+			<value type="23">0</value>
+			<value type="31">6</value>
+		</entry>
+	</item>
+	<item id="25">
+		<entry nameID="building_armor_values">
+			<value type="1">2</value>
+			<value type="2">8</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+			<value type="22">0</value>
+			<value type="31">2</value>
+		</entry>
+	</item>
+	<item id="26">
+		<entry nameID="building_armor_values">
+			<value type="1">8</value>
+			<value type="2">11</value>
+			<value type="19">0</value>
+			<value type="20">8</value>
+			<value type="21">0</value>
+			<value type="31">8</value>
+		</entry>
+	</item>
+	<item id="27">
+		<entry nameID="building_armor_values">
+			<value type="1">3</value>
+			<value type="2">10</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+			<value type="22">0</value>
+			<value type="31">3</value>
+		</entry>
+	</item>
+	<item id="28">
+		<entry nameID="building_armor_values">
+			<value type="1">3</value>
+			<value type="2">10</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+			<value type="31">3</value>
+		</entry>
+	</item>
+	<item id="29">
+		<entry nameID="building_armor_values">
+			<value type="1">3</value>
+			<value type="2">10</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+			<value type="31">3</value>
+		</entry>
+	</item>
+	<item id="30">
+		<entry nameID="building_armor_values">
+			<value type="1">3</value>
+			<value type="2">9</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+			<value type="22">0</value>
+			<value type="31">3</value>
+		</entry>
+	</item>
+	<item id="31">
+		<entry nameID="building_armor_values">
+			<value type="1">3</value>
+			<value type="2">9</value>
+			<value type="14">0</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+			<value type="22">0</value>
+			<value type="31">3</value>
+		</entry>
+	</item>
+	<item id="32">
+		<entry nameID="building_armor_values">
+			<value type="1">8</value>
+			<value type="2">11</value>
+			<value type="19">0</value>
+			<value type="20">8</value>
+			<value type="21">0</value>
+			<value type="31">8</value>
+		</entry>
+	</item>
+	<item id="33">
+		<entry nameID="building_armor_values">
+			<value type="1">1</value>
+			<value type="2">7</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+			<value type="22">0</value>
+			<value type="31">1</value>
+		</entry>
+	</item>
+	<item id="34">
+		<entry nameID="building_armor_values">
+			<value type="1">0</value>
+			<value type="2">7</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+</list>

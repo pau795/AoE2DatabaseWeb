@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<list>
+	<item id="1" icon="u_arbalester">Archer Line</item>
+	<item id="2" icon="u_elite_skirmisher">Skirmisher Line</item>
+	<item id="3" icon="u_heavy_cavalry_archer">Cavalry Archer Line</item>
+	<item id="4" icon="u_hand_cannoneer">Hand Cannoneers</item>
+	<item id="5" icon="u_slinger">Slingers</item>
+	<item id="6" icon="u_genitour">Genitours</item>
+	<item id="7" icon="u_halberdier">Spearman Line</item>
+	<item id="8" icon="u_champion">Swordsman Line</item>
+	<item id="9" icon="u_elite_eagle_warrior">Eagle Warriors</item>
+	<item id="10" icon="u_condottiero">Condottiero</item>
+	<item id="11" icon="u_hussar">Light Cavalry</item>
+	<item id="12" icon="u_paladin">Knight Line</item>
+	<item id="13" icon="u_heavy_camel_rider">Camel Riders</item>
+	<item id="14" icon="u_elite_battle_elephant">Battle Elephants</item>
+	<item id="15" icon="u_siege_ram">Rams</item>
+	<item id="16" icon="u_siege_onager">Onagers</item>
+	<item id="17" icon="u_scorpion">Scorpions</item>
+	<item id="18" icon="u_bombard_cannon">Bombard Cannons</item>
+	<item id="19" icon="u_petard">Petards</item>
+	<item id="20" icon="u_trebuchet">Trebuchets</item>
+	<item id="21" icon="u_galleon">Galley Line</item>
+	<item id="22" icon="u_fast_fire_ship">Fire Ships</item>
+	<item id="23" icon="u_heavy_demolition_ship">Demolition Ships</item>
+	<item id="24" icon="u_cannon_galleon">Cannon Galleons</item>
+	<item id="25" icon="u_longboat">Longboats</item>
+	<item id="26" icon="u_turtle_ship">Turtle Ships</item>
+	<item id="27" icon="u_caravel">Caravels</item>
+	<item id="28" icon="u_monk">Monks</item>
+	<item id="29" icon="b_house">Buildings</item>
+	<item id="30" icon="u_jaguar_warrior">Jaguar Warriors</item>
+	<item id="31" icon="u_camel_archer">Camel Archers</item>
+	<item id="32" icon="u_longbowman">Longbowmen</item>
+	<item id="33" icon="u_arambai">Arambai</item>
+	<item id="34" icon="u_cataphract">Cataphracts</item>
+	<item id="35" icon="u_woad_raider">Woad Raiders</item>
+	<item id="36" icon="u_chu_ko_nu">Chu Ko Nu</item>
+	<item id="37" icon="u_shotel_warrior">Shotel Warriors</item>
+	<item id="38" icon="u_throwing_axeman">Throwing Axeman</item>
+	<item id="39" icon="u_huskarl">Huskarls</item>
+	<item id="40" icon="u_tarkan">Tarkans</item>
+	<item id="41" icon="u_kamayuk">Kamayuks</item>
+	<item id="42" icon="u_elephant_archer">Elephant Archers</item>
+	<item id="43" icon="u_genoese_crossbowman">Genoese Crossbowmen</item>
+	<item id="44" icon="u_samurai">Samurai</item>
+	<item id="45" icon="u_ballista_elephant">Ballista Elephants</item>
+	<item id="46" icon="u_war_wagon">War Wagons</item>
+	<item id="47" icon="u_magyar_huszar">Magyar Huszars</item>
+	<item id="48" icon="u_karambit_warrior">Karambit Warriors</item>
+	<item id="49" icon="u_gbeto">Gbetos</item>
+	<item id="50" icon="u_plumed_archer">Plumed Archers</item>
+	<item id="51" icon="u_mangudai">Mangudai</item>
+	<item id="52" icon="u_war_elephant">War Elephants</item>
+	<item id="53" icon="u_organ_gun">Organ Guns</item>
+	<item id="54" icon="u_mameluke">Mamelukes</item>
+	<item id="55" icon="u_boyar">Boyars</item>
+	<item id="56" icon="u_conquistador">Conquistadors</item>
+	<item id="57" icon="u_teutonic_knight">Teutonic Knights</item>
+	<item id="58" icon="u_janissary">Janissaries</item>
+	<item id="59" icon="u_rattan_archer">Rattan Archers</item>
+	<item id="60" icon="u_berserk">Berserks</item>
+	<item id="61" icon="b_stone_wall">Walls</item>
+	<item id="62" icon="b_tower">Towers</item>
+	<item id="63" icon="u_champion">Land Units</item>
+	<item id="64" icon="u_steppe_lancer">Steppe Lancers</item>
+	<item id="65" icon="u_konnik">Konnik</item>
+	<item id="66" icon="u_dismounted_konnik">Dismounted Konnik</item>
+	<item id="67" icon="u_kipchak">Kipchaks</item>
+	<item id="68" icon="u_leitis">Leitis</item>
+	<item id="69" icon="u_keshik">Keshiks</item>
+	<item id="70" icon="u_flaming_camel">Flaming Camels</item>
+	<item id="71" icon="u_coustillier">Coustilliers</item>
+	<item id="72" icon="u_serjeant">Serjeants</item>
+	<item id="73" icon="u_flemish_militia">Flemish Militia</item>
+	<item id="74" icon="u_hussite_wagon">Hussite Wagons</item>
+	<item id="75" icon="u_obuch">Obuch</item>
+</list>

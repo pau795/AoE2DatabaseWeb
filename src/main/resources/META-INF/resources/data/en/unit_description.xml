@@ -1,0 +1,1116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<list>
+	<item id="1">
+		<nominative>Villagers</nominative>
+		<quickDescription/>
+		<briefDescription>Basic economic unit. Can collect resources. Can build and repair buildings. Can use a melee weapon.</briefDescription>
+		<longDescription>Basic economic unit. Can gather wood, food, stone and gold. Can build and repair buildings, and also repairs ships and siege weapons. Can attack with a melee weapon.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="2">
+		<nominative>Fishing Ships</nominative>
+		<quickDescription/>
+		<briefDescription>Naval economic unit. Gathers food from jumping fish and Fish Traps. Returns fish to the Dock automatically in the same way villagers return food to the Town Center.</briefDescription>
+		<longDescription>Naval economic unit. Gathers food from jumping fish and Fish Traps. Returns fish to the Dock automatically in the same way villagers return food to the Town Center.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="3">
+		<nominative>Transport Ships</nominative>
+		<quickDescription/>
+		<briefDescription>Naval unit used to move your units across water.</briefDescription>
+		<longDescription>Naval unit used to move your units across water.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="4">
+		<nominative>Militia</nominative>
+		<quickDescription/>
+		<briefDescription>Basic infantry swordsman. Quick and cheap to create. Effective against Buildings and trash units.</briefDescription>
+		<longDescription>Basic infantry swordsman. Quick and cheap to create. Effective against Buildings and trash units.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="5">
+		<nominative>Trade Cogs</nominative>
+		<quickDescription/>
+		<briefDescription>Naval trading unit. Used to trade with other players by sea.</briefDescription>
+		<longDescription>Naval trading unit. Used to trade with other players by sea. Carries goods from your Dock to another player's Dock and brings back gold. The farther the Dock, the higher your profit.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="6">
+		<nominative>Galleys</nominative>
+		<quickDescription/>
+		<briefDescription>Basic warship with ranged attack. Weak on his own, but powerful when grouped up.</briefDescription>
+		<longDescription>Basic warship with ranged attack. Weak on his own, but powerful when grouped up.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="7">
+		<nominative>Fire Galleys</nominative>
+		<quickDescription/>
+		<briefDescription>Warship which spews fire at other ships. Good at sinking other Ships at short range.</briefDescription>
+		<longDescription>Warship which spews fire at other ships. Good at sinking other Ships at short range.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="8">
+		<nominative>Demolition Rafts</nominative>
+		<quickDescription/>
+		<briefDescription>Warship filled with explosives. Self-destructs when used generating a big explosion. Strong against massed ships and land units.</briefDescription>
+		<longDescription>Warship filled with explosives. Self-destructs when used generating a big explosion. Strong against massed ships and land units.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="9">
+		<nominative>Trade Carts</nominative>
+		<quickDescription/>
+		<briefDescription>Land trading unit. Used to trade with other players by land.</briefDescription>
+		<longDescription>Land trading unit. Used to trade with other players by land. Carries goods from your Market to another player's Market and brings back gold. The farther the Market, the higher your profit.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="10">
+		<nominative>Men-at-Arms</nominative>
+		<quickDescription/>
+		<briefDescription>Basic infantry swordsman. Quick and cheap to create. Effective against Buildings and trash units.</briefDescription>
+		<longDescription>Basic infantry swordsman. Quick and cheap to create. Effective against Buildings and trash units.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="11">
+		<nominative>Spearmen</nominative>
+		<quickDescription/>
+		<briefDescription>Medium infantry. Strong against Cavalry.</briefDescription>
+		<longDescription>Medium infantry. Strong against Cavalry.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="12">
+		<nominative>Eagle Scouts</nominative>
+		<quickDescription/>
+		<briefDescription>Fast infantry with extensive sight. Resists conversion. Strong against Monks and Archers.</briefDescription>
+		<longDescription>Fast infantry with extensive sight. Resists conversion. Strong against Monks and Archers.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="13">
+		<nominative>Archers</nominative>
+		<quickDescription/>
+		<briefDescription>Basic ranged unit. Strong when grouped up.</briefDescription>
+		<longDescription>Basic ranged unit. Strong when grouped up.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="14">
+		<nominative>Skirmishers</nominative>
+		<quickDescription/>
+		<briefDescription>Ranged unit with high pierce armor. Strong against Archers and Spearmen.</briefDescription>
+		<longDescription>Ranged unit with high pierce armor. Strong against Archers and Spearmen.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="15">
+		<nominative>Scout Cavalry</nominative>
+		<quickDescription/>
+		<briefDescription>Fast Cavalry with extensive line of sight. Resistant to conversion. Strong against Monks.</briefDescription>
+		<longDescription>Fast Cavalry with extensive line of sight. Resistant to conversion. Strong against Monks.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="16">
+		<nominative>War Galleys</nominative>
+		<quickDescription/>
+		<briefDescription>Basic Warship with ranged attack. Powerful when grouped up.</briefDescription>
+		<longDescription>Basic Warship with ranged attack. Powerful when grouped up.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="17">
+		<nominative>Fire Ships</nominative>
+		<quickDescription/>
+		<briefDescription>Warship which spews fire at other ships. Good at sinking other Ships at short range.</briefDescription>
+		<longDescription>Warship which spews fire at other ships. Good at sinking other Ships at short range.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="18">
+		<nominative>Demolition Ships</nominative>
+		<quickDescription/>
+		<briefDescription>Filled with explosives. Self-destructs when used generating a big explosion. Strong against massed ships and land units.</briefDescription>
+		<longDescription>Filled with explosives. Self-destructs when used generating a big explosion. Strong against massed ships and land units.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="19">
+		<nominative>Longboats</nominative>
+		<quickDescription>Warship which fires multiple arrows</quickDescription>
+		<briefDescription>Viking Unique Unit. Fast warship which fires multiple arrows.</briefDescription>
+		<longDescription>Viking Unique Unit. Fast warship which fires multiple arrows.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="20">
+		<nominative>Turtle Ships</nominative>
+		<quickDescription>Heavily armored Warship</quickDescription>
+		<briefDescription>Korean Unique Unit. Slow, ironclad battleship which fires cannonballs at short range.</briefDescription>
+		<longDescription>Korean Unique Unit. Slow, ironclad battleship which fires cannonballs at short range.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="21">
+		<nominative>Caravels</nominative>
+		<quickDescription>Piercing Warship</quickDescription>
+		<briefDescription>Portuguese Unique Unit. Warship which fires piercing bolts that can damage multiple units. Strong against massed Ships and units.</briefDescription>
+		<longDescription>Portuguese Unique Unit. Warship which fires piercing bolts that can damage multiple units. Strong against massed Ships and units.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="22">
+		<nominative>Monks</nominative>
+		<quickDescription/>
+		<briefDescription>Slow and weak unit which can convert enemy units, can heal your units (2.5HP per second) and can pick up relics. Effective against expensive units.</briefDescription>
+		<longDescription>Slow and weak unit which can convert enemy units, can heal your units (2.5HP per second) and can pick up relics. Effective against expensive units.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="23">
+		<nominative>Missionaries</nominative>
+		<quickDescription>Mounted Monk</quickDescription>
+		<briefDescription>Spanish Unique Unit. Mounted Monk. Effective against expensive units.</briefDescription>
+		<longDescription>Spanish Unique Unit. Mounted Monk. Can convert enemy units, can heal your units (2.5 HP per second) but cannot pick up relics. Effective against expensive units.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="24">
+		<nominative>Long Swordsmen</nominative>
+		<quickDescription/>
+		<briefDescription>Basic infantry swordsman. Quick and cheap to create. Effective against Buildings and trash units.</briefDescription>
+		<longDescription>Basic infantry swordsman. Quick and cheap to create. Effective against Buildings and trash units.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="25">
+		<nominative>Pikemen</nominative>
+		<quickDescription/>
+		<briefDescription>Medium infantry. Strong against Cavalry.</briefDescription>
+		<longDescription>Medium infantry. Strong against Cavalry.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="26">
+		<nominative>Eagle Warriors</nominative>
+		<quickDescription/>
+		<briefDescription>Fast infantry with extensive sight. Resists conversion. Strong against Monks and Archers.</briefDescription>
+		<longDescription>Fast infantry with extensive sight. Resists conversion. Strong against Monks and Archers.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="27">
+		<nominative>Crossbowmen</nominative>
+		<quickDescription/>
+		<briefDescription>Basic ranged unit. Strong when grouped up.</briefDescription>
+		<longDescription>Basic ranged unit. Strong when grouped up.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="28">
+		<nominative>Elite Skirmishers</nominative>
+		<quickDescription/>
+		<briefDescription>Ranged unit with high pierce armor. Strong against Archers and Spearmen.</briefDescription>
+		<longDescription>Ranged unit with high pierce armor. Strong against Archers and Spearmen.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="29">
+		<nominative>Cavalry Archers</nominative>
+		<quickDescription/>
+		<briefDescription>Fast unit, with ranged attack. Ideal for hit-and-run.</briefDescription>
+		<longDescription>Fast unit, with ranged attack. Ideal for hit-and-run.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="30">
+		<nominative>Genitours</nominative>
+		<quickDescription>Mounted Skirmisher</quickDescription>
+		<briefDescription>Berber Unique Unit. Also available when teamed up with a Berber ally. Mounted skirmisher. Effective against Archers.</briefDescription>
+		<longDescription>Berber Unique Unit. Also available when teamed up with a Berber ally. Mounted skirmisher. Effective against Archers.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="31">
+		<nominative>Slingers</nominative>
+		<quickDescription>Anti-Infantry Archer</quickDescription>
+		<briefDescription>Inca Unique Unit. Ranged Unit which is strong against Infantry.</briefDescription>
+		<longDescription>Inca Unique Unit. Ranged Unit which is strong against Infantry.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="32">
+		<nominative>Light Cavalry</nominative>
+		<quickDescription/>
+		<briefDescription>Fast Cavalry with extensive line of sight. Resistant to conversion. Strong against Monks.</briefDescription>
+		<longDescription>Fast Cavalry with extensive line of sight. Resistant to conversion. Strong against Monks.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="33">
+		<nominative>Knights</nominative>
+		<quickDescription/>
+		<briefDescription>Fast and heavy Cavalry. Expensive but powerful.</briefDescription>
+		<longDescription>Fast and heavy Cavalry. Expensive but powerful.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="34">
+		<nominative>Camel Riders</nominative>
+		<quickDescription/>
+		<briefDescription>Fast mounted unit that excels at killing other mounted units.</briefDescription>
+		<longDescription>Fast mounted unit that excels at killing other mounted units.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="35">
+		<nominative>Battle Elephants</nominative>
+		<quickDescription/>
+		<briefDescription>Slow and heavy cavalry. Expensive but very powerful. Deals 25% of its damage to adjacent units.</briefDescription>
+		<longDescription>Slow and heavy cavalry. Expensive but very powerful. Deals 25% of its damage to adjacent units.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="36">
+		<nominative>Battering Rams</nominative>
+		<quickDescription/>
+		<briefDescription>Slow Siege Weapon with very high pierce armor. Used to destroy enemy buildings.</briefDescription>
+		<longDescription>Slow Siege Weapon with very high pierce armor. Used to destroy enemy buildings. Villagers, Infantry and Archer units can garrison inside. Garrisoned infantry increase movement speed and attack vs buildings(+0.05 speed and +10 attack against All Buildings for each garrisoned Infantry unit).</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="37">
+		<nominative>Mangonels</nominative>
+		<quickDescription/>
+		<briefDescription>Siege Weapon which throws rocks. It does an area of effect damage. Strong against massed units, especially Archers.</briefDescription>
+		<longDescription>Siege Weapon which throws rocks. It does an area of effect damage. Strong against massed units, especially Archers.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="38">
+		<nominative>Scorpions</nominative>
+		<quickDescription/>
+		<briefDescription>Light Siege Weapon which fires piercing bolts. Strong against massed units, especially Archers.</briefDescription>
+		<longDescription>Light Siege Weapon which fires piercing bolts. Strong against massed units, especially Archers.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="39">
+		<nominative>Siege Towers</nominative>
+		<quickDescription/>
+		<briefDescription>Slow Siege Weapon with very high pierce armor. Used to scale enemy walls.</briefDescription>
+		<longDescription>Slow Siege Weapon with very high pierce armor. Used to scale enemy walls. Villagers, Infantry and Archer units can garrison inside. Garrisoned infantry increase movement speed (+0.05 speed for each garrisoned Infantry unit).</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="40">
+		<nominative>Petards</nominative>
+		<quickDescription/>
+		<briefDescription>Unit equipped with explosives. Self-destructs when used, generating a big explosion. Devastating against buildings.</briefDescription>
+		<longDescription>Unit equipped with explosives. Self-destructs when used, generating a big explosion. Devastating against buildings, especially Walls. Not really useful against units.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="41">
+		<nominative>Jaguar Warriors</nominative>
+		<quickDescription>Anti-Infantry Infantry</quickDescription>
+		<briefDescription>Aztec Unique Unit. Infantry strong against other infantry.</briefDescription>
+		<longDescription>Aztec Unique Unit. Infantry strong against other infantry.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="42">
+		<nominative>Camel Archers</nominative>
+		<quickDescription>Anti-Cavalry Archer Cavalry Archer</quickDescription>
+		<briefDescription>Berber Unique Unit. Cavalry Archer strong against other Cavalry Archers.</briefDescription>
+		<longDescription>Berber Unique Unit. Cavalry Archer strong against other Cavalry Archers.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="43">
+		<nominative>Longbowmen</nominative>
+		<quickDescription>Long-range Archer</quickDescription>
+		<briefDescription>Briton Unique Unit. Powerful Archer with long range.</briefDescription>
+		<longDescription>Briton Unique Unit. Powerful Archer with long range.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="44">
+		<nominative>Arambai</nominative>
+		<quickDescription>Powerful ranged Cavalry</quickDescription>
+		<briefDescription>Burmese Unique Unit. Mounted dart thrower. Has high attack, but inaccurate at range.</briefDescription>
+		<longDescription>Burmese Unique Unit. Mounted dart thrower. Has high attack, but inaccurate at range. The darts that miss their target will do 100% damage if they hit another unit instead of the usual 50%.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="45">
+		<nominative>Cataphracts</nominative>
+		<quickDescription>Anti-Infantry Cavalry</quickDescription>
+		<briefDescription>Byzantine Unique Unit. Heavily armored cavalry. Strong against Infantry.</briefDescription>
+		<longDescription>Byzantine Unique Unit. Heavily armored cavalry. Strong against Infantry.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="46">
+		<nominative>Woad Raiders</nominative>
+		<quickDescription>Fast-moving Infantry</quickDescription>
+		<briefDescription>Celtic Unique Unit. Exceptionally quick infantry. Excels at raiding and destroying buildings.</briefDescription>
+		<longDescription>Celtic Unique Unit. Exceptionally quick infantry. Excels at raiding and destroying buildings.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="47">
+		<nominative>Chu Ko Nu</nominative>
+		<quickDescription>Fast-firing Archer</quickDescription>
+		<briefDescription>Chinese Unique Unit. Archer with high attack which fires a volley of arrows very quickly.</briefDescription>
+		<longDescription>Chinese Unique Unit. Archer with high attack which fires a volley of arrows very quickly.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="48">
+		<nominative>Shotel Warriors</nominative>
+		<quickDescription>Strong but vulnerable Infantry</quickDescription>
+		<briefDescription>Ethiopian Unique Unit. Fast Infantry with very high attack and quick creation time, but vulnerable. Excels at destroying buildings.</briefDescription>
+		<longDescription>Ethiopian Unique Unit. Fast Infantry with very high attack and quick creation time, but vulnerable. Excels at destroying buildings.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="49">
+		<nominative>Throwing Axemen</nominative>
+		<quickDescription>Ranged Infantry</quickDescription>
+		<briefDescription>Frankish Unique Unit. Infantry which throws axes at short range, causing melee damage.</briefDescription>
+		<longDescription>Frankish Unique Unit. Infantry which throws axes at short range, causing melee damage.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="50">
+		<nominative>Huskarls</nominative>
+		<quickDescription>Anti-Archer Infantry</quickDescription>
+		<briefDescription>Gothic Unique Unit. Infantry with very high pierce armor. Excels at killing Archers, raiding and destroying buildings.</briefDescription>
+		<longDescription>Gothic Unique Unit. Infantry with very high pierce armor. Excels at killing Archers, raiding and destroying buildings. When Anarchy is researched, it can be trained at the Barracks.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="51">
+		<nominative>Tarkans</nominative>
+		<quickDescription>Raiding Cavalry</quickDescription>
+		<briefDescription>Hun Unique Unit. Medium Cavalry with high pierce armor. Excels at destroying buildings and raiding.</briefDescription>
+		<longDescription>Hun Unique Unit. Medium Cavalry with high pierce armor. Excels at destroying buildings and raiding. When Marauders technology is researched, it can be trained at Stables, but its training time will be slower (from 14 seconds to 26).</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="52">
+		<nominative>Kamayuks</nominative>
+		<quickDescription>Anti-Cavalry Infantry</quickDescription>
+		<briefDescription>Inca Unique Unit. Infantry equipped with a long spear, which allows it to attack 1 tile away. Strong against Cavalry.</briefDescription>
+		<longDescription>Inca Unique Unit. Infantry equipped with a long spear, which allows it to attack 1 tile away. Strong against Cavalry.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="53">
+		<nominative>Elephant Archers</nominative>
+		<quickDescription>High HP Cavalry Archer</quickDescription>
+		<briefDescription>Indian Unique Unit. Slow Cavalry Archer with very high HP and pierce armor.</briefDescription>
+		<longDescription>Indian Unique Unit. Slow Cavalry Archer with very high HP and pierce armor.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="54">
+		<nominative>Genoese Crossbowmen</nominative>
+		<quickDescription>Anti-Cavalry Archer</quickDescription>
+		<briefDescription>Italian Unique Unit. Archer strong against Cavalry.</briefDescription>
+		<longDescription>Italian Unique Unit. Archer strong against Cavalry.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="55">
+		<nominative>Samurai</nominative>
+		<quickDescription>Anti-Unique Unit Infantry</quickDescription>
+		<briefDescription>Japanese Unique Unit. Infantry strong against other Unique Units.</briefDescription>
+		<longDescription>Japanese Unique Unit. Infantry strong against other Unique Units.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="56">
+		<nominative>Ballista Elephants</nominative>
+		<quickDescription>Cavalry Siege</quickDescription>
+		<briefDescription>Khmer Unique Unit. Heavy cavalry equipped with a Scorpion. Can destroy trees.</briefDescription>
+		<longDescription>Khmer Unique Unit. Heavy cavalry equipped with a Scorpion. Can destroy trees.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="57">
+		<nominative>War Wagons</nominative>
+		<quickDescription>High HP Cavalry Archer</quickDescription>
+		<briefDescription>Korean Unique Unit. Cavalry Archer with high HP and Pierce Armor.</briefDescription>
+		<longDescription>Korean Unique Unit. Cavalry Archer with high HP and Pierce Armor.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="58">
+		<nominative>Magyar Huszars</nominative>
+		<quickDescription>Light Cavalry</quickDescription>
+		<briefDescription>Magyar Unique Unit. Light Cavalry which is strong against Siege Weapons.</briefDescription>
+		<longDescription>Magyar Unique Unit. Light Cavalry which is strong against Siege Weapons.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="59">
+		<nominative>Karambit Warriors</nominative>
+		<quickDescription>Cheap Infantry</quickDescription>
+		<briefDescription>Malay Unique Unit. Cheap and weak infantry unit that only takes half a population slot.</briefDescription>
+		<longDescription>Malay Unique Unit. Cheap and weak infantry unit that only takes half a population slot.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="60">
+		<nominative>Gbetos</nominative>
+		<quickDescription>Ranged Infantry</quickDescription>
+		<briefDescription>Malian Unique Unit. Fast ranged Infantry with high attack, but very vulnerable.</briefDescription>
+		<longDescription>Malian Unique Unit. Fast ranged Infantry with high attack, but very vulnerable.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="61">
+		<nominative>Plumed Archers</nominative>
+		<quickDescription>Fast-moving Archer</quickDescription>
+		<briefDescription>Mayan Unique Unit. Fast Archer with good HP and pierce armor.</briefDescription>
+		<longDescription>Mayan Unique Unit. Fast Archer with good HP and pierce armor.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="62">
+		<nominative>Mangudai</nominative>
+		<quickDescription>Fast-firing Cavalry Archer</quickDescription>
+		<briefDescription>Mongol Unique Unit. Cavalry Archer strong against Siege Weapons.</briefDescription>
+		<longDescription>Mongol Unique Unit. Cavalry Archer strong against Siege Weapons.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="63">
+		<nominative>War Elephants</nominative>
+		<quickDescription>Slow Heavy Cavalry</quickDescription>
+		<briefDescription>Persian Unique Unit. Slow Heavy Cavalry with very high HP and attack, but very expensive. Deals 50% of its damage to adjacent units.</briefDescription>
+		<longDescription>Persian Unique Unit. Slow Heavy Cavalry with very high HP and attack, but very expensive. Deals 50% of its damage to adjacent units.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="64">
+		<nominative>Organ Guns</nominative>
+		<quickDescription>Gunpowder Siege</quickDescription>
+		<briefDescription>Portuguese Unique Unit. Siege weapon that fires a volley of bullets. Very effective against large groups of units.</briefDescription>
+		<longDescription>Portuguese Unique Unit. Siege weapon that fires a volley of bullets. Very effective against large groups of units.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="65">
+		<nominative>Mamelukes</nominative>
+		<quickDescription>Anti-Cavalry short ranged Camel</quickDescription>
+		<briefDescription>Saracen Unique Unit. Camel with a short ranged melee attack. Excels at killing mounted units, but not Camel Riders.</briefDescription>
+		<longDescription>Saracen Unique Unit. Camel with a short ranged melee attack. Excels at killing mounted units, but not Camel Riders.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="66">
+		<nominative>Boyars</nominative>
+		<quickDescription>Melee armored Cavalry</quickDescription>
+		<briefDescription>Slavic Unique Unit. Heavy Cavalry with high melee armor.</briefDescription>
+		<longDescription>Slavic Unique Unit. Heavy Cavalry with high melee armor.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="67">
+		<nominative>Conquistadors</nominative>
+		<quickDescription>Mounted Hand Cannoneer</quickDescription>
+		<briefDescription>Spanish Unique Unit. Mounted Hand Cannoneer. Has high attack, but inaccurate at range.</briefDescription>
+		<longDescription>Spanish Unique Unit. Mounted Hand Cannoneer. Has high attack, but inaccurate at range.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="68">
+		<nominative>Teutonic Knights</nominative>
+		<quickDescription>Melee armored Infantry</quickDescription>
+		<briefDescription>Teutonic Unique Unit. Slow Infantry with high melee armor and attack.</briefDescription>
+		<longDescription>Teutonic Unique Unit. Slow Infantry with high melee armor and attack.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="69">
+		<nominative>Janissaries</nominative>
+		<quickDescription>Hand Cannoneer</quickDescription>
+		<briefDescription>Turkish Unique Unit. Hand Cannoneer with long range and high attack, but inaccurate at long distance.</briefDescription>
+		<longDescription>Turkish Unique Unit. Hand Cannoneer with long range and high attack, but inaccurate at long distance.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="70">
+		<nominative>Rattan Archers</nominative>
+		<quickDescription>Pierce armored Archer</quickDescription>
+		<briefDescription>Vietnamese Unique Unit. Archer with very high pierce armor.</briefDescription>
+		<longDescription>Vietnamese Unique Unit. Archer with very high pierce armor.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="71">
+		<nominative>Berserks</nominative>
+		<quickDescription>Regenerating Infantry</quickDescription>
+		<briefDescription>Viking Unique Unit. Infantry with slow self-regeneration.</briefDescription>
+		<longDescription>Viking Unique Unit. Infantry with slow self-regeneration.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="72">
+		<nominative>Galleons</nominative>
+		<quickDescription/>
+		<briefDescription>Basic Warship with ranged attack. Powerful when grouped up.</briefDescription>
+		<longDescription>Basic Warship with ranged attack. Powerful when grouped up.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="73">
+		<nominative>Fast Fire Ships</nominative>
+		<quickDescription/>
+		<briefDescription>Warship which spews fire at other ships. Good at sinking other Ships at short range.</briefDescription>
+		<longDescription>Warship which spews fire at other ships. Good at sinking other Ships at short range.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="74">
+		<nominative>Heavy Demolition Ships</nominative>
+		<quickDescription/>
+		<briefDescription>Filled with explosives. Self-destructs when used generating a big explosion. Strong against massed ships and land units.</briefDescription>
+		<longDescription>Filled with explosives. Self-destructs when used generating a big explosion. Strong against massed ships and land units.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="75">
+		<nominative>Cannon Galleons</nominative>
+		<quickDescription/>
+		<briefDescription>Warship with long range but low fire rate. Powerful against Buildings.</briefDescription>
+		<longDescription>Warship with long range but low fire rate. Powerful against Buildings.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="76">
+		<nominative>Elite Cannon Galleons</nominative>
+		<quickDescription/>
+		<briefDescription>Warship with long range but low fire rate. Powerful against Buildings.</briefDescription>
+		<longDescription>Warship with long range but low fire rate. Powerful against Buildings.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="77">
+		<nominative>Elite Longboats</nominative>
+		<quickDescription/>
+		<briefDescription>Viking Unique Unit. Fast warship which fires multiple arrows.</briefDescription>
+		<longDescription>Viking Unique Unit. Fast warship which fires multiple arrows.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="78">
+		<nominative>Elite Turtle Ships</nominative>
+		<quickDescription/>
+		<briefDescription>Korean Unique Unit. Slow, ironclad battleship which fires cannonballs at short range.</briefDescription>
+		<longDescription>Korean Unique Unit. Slow, ironclad battleship which fires cannonballs at short range.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="79">
+		<nominative>Elite Caravels</nominative>
+		<quickDescription/>
+		<briefDescription>Portuguese Unique Unit. Warship which fires piercing bolts that can damage multiple units. Strong against massed Ships and units.</briefDescription>
+		<longDescription>Portuguese Unique Unit. Warship which fires piercing bolts that can damage multiple units. Strong against massed Ships and units.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="80">
+		<nominative>Two-Handed Swordsmen</nominative>
+		<quickDescription/>
+		<briefDescription>Basic infantry swordsman. Quick and cheap to create. Effective against Buildings and trash units.</briefDescription>
+		<longDescription>Basic infantry swordsman. Quick and cheap to create. Effective against Buildings and trash units.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="81">
+		<nominative>Champions</nominative>
+		<quickDescription/>
+		<briefDescription>Basic infantry swordsman. Quick and cheap to create. Effective against Buildings and trash units.</briefDescription>
+		<longDescription>Basic infantry swordsman. Quick and cheap to create. Effective against Buildings and trash units.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="82">
+		<nominative>Halberdiers</nominative>
+		<quickDescription/>
+		<briefDescription>Medium infantry. Strong against Cavalry.</briefDescription>
+		<longDescription>Medium infantry. Strong against Cavalry.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="83">
+		<nominative>Elite Eagle Warriors</nominative>
+		<quickDescription/>
+		<briefDescription>Fast infantry with extensive sight. Resists conversion. Strong against Monks and Archers.</briefDescription>
+		<longDescription>Fast infantry with extensive sight. Resists conversion. Strong against Monks and Archers.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="84">
+		<nominative>Condottieri</nominative>
+		<quickDescription>Anti-Gunpowder Infantry</quickDescription>
+		<briefDescription>Italian Unique Unit. Also available when teamed up with an Italian ally. Fast Infantry which excels at killing gunpowder units.</briefDescription>
+		<longDescription>Italian Unique Unit. Also available when teamed up with an Italian ally. Fast Infantry which excels at killing gunpowder units.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="85">
+		<nominative>Arbalesters</nominative>
+		<quickDescription/>
+		<briefDescription>Basic ranged unit. Strong when grouped up.</briefDescription>
+		<longDescription>Basic ranged unit. Strong when grouped up.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="86">
+		<nominative>Imperial Skirmishers</nominative>
+		<quickDescription>Extra upgrade for Skirmishers</quickDescription>
+		<briefDescription>Ranged unit with high pierce armor. Strong against Archers and Spearmen.</briefDescription>
+		<longDescription>Vietnamese Unique Unit. Also available when teamed up with a Vietnamese ally. Ranged unit with high pierce armor. Strong against Archers and Spearmen.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="87">
+		<nominative>Heavy Cavalry Archers</nominative>
+		<quickDescription/>
+		<briefDescription>Fast unit, with ranged attack. Ideal for hit-and-run.</briefDescription>
+		<longDescription>Fast unit, with ranged attack. Ideal for hit-and-run.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="88">
+		<nominative>Hand Cannoneers</nominative>
+		<quickDescription/>
+		<briefDescription>Ranged unit with high attack, but inaccurate at range. Strong against infantry.</briefDescription>
+		<longDescription>Ranged unit with high attack, but inaccurate at range. Strong against infantry.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="89">
+		<nominative>Elite Genitours</nominative>
+		<quickDescription/>
+		<briefDescription>Berber Unique Unit. Also available when teamed up with a Berber ally. Mounted skirmisher. Effective against Archers.</briefDescription>
+		<longDescription>Berber Unique Unit. Also available when teamed up with a Berber ally. Mounted skirmisher. Effective against Archers.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="90">
+		<nominative>Hussars</nominative>
+		<quickDescription/>
+		<briefDescription>Fast Cavalry with extensive line of sight. Resistant to conversion. Strong against Monks.</briefDescription>
+		<longDescription>Fast Cavalry with extensive line of sight. Resistant to conversion. Strong against Monks.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="91">
+		<nominative>Cavaliers</nominative>
+		<quickDescription/>
+		<briefDescription>Fast and heavy Cavalry. Expensive but powerful.</briefDescription>
+		<longDescription>Fast and heavy Cavalry. Expensive but powerful.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="92">
+		<nominative>Paladins</nominative>
+		<quickDescription/>
+		<briefDescription>Fast and heavy Cavalry. Expensive but powerful.</briefDescription>
+		<longDescription>Fast and heavy Cavalry. Expensive but powerful.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="93">
+		<nominative>Heavy Camel Riders</nominative>
+		<quickDescription/>
+		<briefDescription>Fast mounted unit that excels at killing other mounted units.</briefDescription>
+		<longDescription>Fast mounted unit that excels at killing other mounted units.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="94">
+		<nominative>Imperial Camel Riders</nominative>
+		<quickDescription>Extra Camel Rider upgrade</quickDescription>
+		<briefDescription>Indian Unique Unit. Fast mounted unit that excels at killing other mounted units.</briefDescription>
+		<longDescription>Indian Unique Unit. Fast mounted unit that excels at killing other mounted units.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="95">
+		<nominative>Elite Battle Elephants</nominative>
+		<quickDescription/>
+		<briefDescription>Slow and heavy cavalry. Expensive but very powerful. Deals 25% of its damage to adjacent units.</briefDescription>
+		<longDescription>Slow and heavy cavalry. Expensive but very powerful. Deals 25% of its damage to adjacent units.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="96">
+		<nominative>Capped Rams</nominative>
+		<quickDescription/>
+		<briefDescription>Slow Siege Weapon with very high pierce armor. Used to destroy enemy buildings.</briefDescription>
+		<longDescription>Slow Siege Weapon with very high pierce armor. Used to destroy enemy buildings. Villagers, Infantry and Archer units can garrison inside. Garrisoned infantry increase movement speed and attack vs buildings(+0.05 speed and +10 attack against All Buildings for each garrisoned Infantry unit).</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="97">
+		<nominative>Siege Rams</nominative>
+		<quickDescription/>
+		<briefDescription>Slow Siege Weapon with very high pierce armor. Used to destroy enemy buildings.</briefDescription>
+		<longDescription>Slow Siege Weapon with very high pierce armor. Used to destroy enemy buildings. Villagers, Infantry and Archer units can garrison inside. Garrisoned infantry increase movement speed and attack vs buildings(+0.05 speed and +10 attack against All Buildings for each garrisoned Infantry unit).</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="98">
+		<nominative>Onagers</nominative>
+		<quickDescription/>
+		<briefDescription>Siege Weapon which throws rocks. It does an area of effect damage. Strong against massed units, especially Archers.</briefDescription>
+		<longDescription>Siege Weapon which throws rocks. It does an area of effect damage. Strong against massed units, especially Archers.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="99">
+		<nominative>Siege Onagers</nominative>
+		<quickDescription/>
+		<briefDescription>Siege Weapon which throws rocks. It does an area of effect damage. Strong against massed units, especially Archers.</briefDescription>
+		<longDescription>Siege Weapon which throws rocks. It does an area of effect damage. Strong against massed units, especially Archers.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="100">
+		<nominative>Heavy Scorpions</nominative>
+		<quickDescription/>
+		<briefDescription>Light Siege Weapon which fires piercing bolts. Strong against massed units, especially Archers.</briefDescription>
+		<longDescription>Light Siege Weapon which fires piercing bolts. Strong against massed units, especially Archers.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="101">
+		<nominative>Bombard Cannons</nominative>
+		<quickDescription/>
+		<briefDescription>Powerful and mobile Siege Weapon with long range. Strong against Buildings and other Siege Weapons.</briefDescription>
+		<longDescription>Powerful and mobile Siege Weapon with long range. Strong against Buildings and other Siege Weapons.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="102">
+		<nominative>Trebuchets (Packed)</nominative>
+		<quickDescription/>
+		<briefDescription>Powerful siege weapon used to destroy buildings from long distance. Must be packed to move, unpacked to attack.</briefDescription>
+		<longDescription>Powerful siege weapon used to destroy buildings from long distance. Must be packed to move, unpacked to attack.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="103">
+		<nominative>Trebuchets</nominative>
+		<quickDescription/>
+		<briefDescription>Powerful siege weapon used to destroy buildings from long distance. Must be packed to move, unpacked to attack.</briefDescription>
+		<longDescription>Powerful siege weapon used to destroy buildings from long distance. Must be packed to move, unpacked to attack.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="104">
+		<nominative>Elite Jaguar Warriors</nominative>
+		<quickDescription>Anti-Infantry Infantry</quickDescription>
+		<briefDescription>Aztec Unique Unit. Infantry strong against other infantry.</briefDescription>
+		<longDescription>Aztec Unique Unit. Infantry strong against other infantry.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="105">
+		<nominative>Elite Camel Archers</nominative>
+		<quickDescription>Anti-Cavalry Archer Cavalry Archer</quickDescription>
+		<briefDescription>Berber Unique Unit. Cavalry Archer strong against other Cavalry Archers.</briefDescription>
+		<longDescription>Berber Unique Unit. Cavalry Archer strong against other Cavalry Archers.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="106">
+		<nominative>Elite Longbowmen</nominative>
+		<quickDescription>Long-range Archer</quickDescription>
+		<briefDescription>Briton Unique Unit. Powerful Archer with long range.</briefDescription>
+		<longDescription>Briton Unique Unit. Powerful Archer with long range.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="107">
+		<nominative>Elite Arambai</nominative>
+		<quickDescription>Powerful ranged Cavalry</quickDescription>
+		<briefDescription>Burmese Unique Unit. Mounted dart thrower. Has high attack, but inaccurate at range.</briefDescription>
+		<longDescription>Burmese Unique Unit. Mounted dart thrower. Has high attack, but inaccurate at range. The darts that miss their target will do 100% damage if they hit another unit instead of the usual 50%</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="108">
+		<nominative>Elite Cataphracts</nominative>
+		<quickDescription>Anti-Infantry Cavalry</quickDescription>
+		<briefDescription>Byzantine Unique Unit. Heavily armored cavalry. Strong against Infantry.</briefDescription>
+		<longDescription>Byzantine Unique Unit. Heavily armored cavalry. Strong against Infantry.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="109">
+		<nominative>Elite Woad Raiders</nominative>
+		<quickDescription>Fast-moving Infantry</quickDescription>
+		<briefDescription>Celtic Unique Unit. Exceptionally quick infantry. Excels at raiding and destroying buildings.</briefDescription>
+		<longDescription>Celtic Unique Unit. Exceptionally quick infantry. Excels at raiding and destroying buildings.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="110">
+		<nominative>Elite Chu Ko Nu</nominative>
+		<quickDescription>Fast-firing Archer</quickDescription>
+		<briefDescription>Chinese Unique Unit. Archer with high attack which fires a volley of arrows very quickly.</briefDescription>
+		<longDescription>Chinese Unique Unit. Archer with high attack which fires a volley of arrows very quickly.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="111">
+		<nominative>Elite Shotel Warriors</nominative>
+		<quickDescription>Strong but vulnerable Infantry</quickDescription>
+		<briefDescription>Ethiopian Unique Unit. Fast Infantry with very high attack and quick creation time, but vulnerable. Excels at destroying buildings.</briefDescription>
+		<longDescription>Ethiopian Unique Unit. Fast Infantry with very high attack and quick creation time, but vulnerable. Excels at destroying buildings.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="112">
+		<nominative>Elite Throwing Axemen</nominative>
+		<quickDescription>Ranged Infantry</quickDescription>
+		<briefDescription>Frankish Unique Unit. Infantry which throws axes at short range, causing melee damage.</briefDescription>
+		<longDescription>Frankish Unique Unit. Infantry which throws axes at short range, causing melee damage.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="113">
+		<nominative>Elite Huskarls</nominative>
+		<quickDescription>Anti-Archer Infantry</quickDescription>
+		<briefDescription>Gothic Unique Unit. Infantry with very high pierce armor. Excels at killing Archers, raiding and destroying buildings.</briefDescription>
+		<longDescription>Gothic Unique Unit. Infantry with very high pierce armor. Excels at killing Archers, raiding and destroying buildings. When Anarchy is researched, it can be trained at the Barracks.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="114">
+		<nominative>Elite Tarkans</nominative>
+		<quickDescription>Raiding Cavalry</quickDescription>
+		<briefDescription>Hun Unique Unit. Medium Cavalry with high pierce armor. Excels at destroying buildings and raiding.</briefDescription>
+		<longDescription>Hun Unique Unit. Medium Cavalry with high pierce armor. Excels at destroying buildings and raiding. When Marauders technology is researched, it can be trained at Stables, but its training time will be slower (from 14 seconds to 24).</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="115">
+		<nominative>Elite Kamayuks</nominative>
+		<quickDescription>Anti-Cavalry Infantry</quickDescription>
+		<briefDescription>Inca Unique Unit. Infantry equipped with a long spear, which allows it to attack 1 tile away. Strong against Cavalry and Infantry.</briefDescription>
+		<longDescription>Inca Unique Unit. Infantry equipped with a long spear, which allows it to attack 1 tile away. Strong against Cavalry and Infantry.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="116">
+		<nominative>Elite Elephant Archers</nominative>
+		<quickDescription>High HP Cavalry Archer</quickDescription>
+		<briefDescription>Indian Unique Unit. Slow Cavalry Archer with very high HP and pierce armor.</briefDescription>
+		<longDescription>Indian Unique Unit. Slow Cavalry Archer with very high HP and pierce armor.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="117">
+		<nominative>Elite Genoese Crossbowmen</nominative>
+		<quickDescription>Anti-Cavalry Archer</quickDescription>
+		<briefDescription>Italian Unique Unit. Archer strong against Cavalry.</briefDescription>
+		<longDescription>Italian Unique Unit. Archer strong against Cavalry.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="118">
+		<nominative>Elite Samurai</nominative>
+		<quickDescription>Anti-Unique Unit Infantry</quickDescription>
+		<briefDescription>Japanese Unique Unit. Infantry strong against other Unique Units.</briefDescription>
+		<longDescription>Japanese Unique Unit. Infantry strong against other Unique Units.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="119">
+		<nominative>Elite Ballista Elephants</nominative>
+		<quickDescription>Cavalry Siege</quickDescription>
+		<briefDescription>Khmer Unique Unit. Heavy cavalry equipped with a Scorpion. Can destroy trees.</briefDescription>
+		<longDescription>Khmer Unique Unit. Heavy cavalry equipped with a Scorpion. Can destroy trees.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="120">
+		<nominative>Elite War Wagons</nominative>
+		<quickDescription>High HP Cavalry Archer</quickDescription>
+		<briefDescription>Korean Unique Unit. Cavalry Archer with high HP and Pierce Armor.</briefDescription>
+		<longDescription>Korean Unique Unit. Cavalry Archer with high HP and Pierce Armor.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="121">
+		<nominative>Elite Magyar Huszars</nominative>
+		<quickDescription>Light Cavalry</quickDescription>
+		<briefDescription>Magyar Unique Unit. Light Cavalry which is strong against Siege Weapons.</briefDescription>
+		<longDescription>Magyar Unique Unit. Light Cavalry which is strong against Siege Weapons.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="122">
+		<nominative>Elite Karambit Warriors</nominative>
+		<quickDescription>Cheap Infantry</quickDescription>
+		<briefDescription>Malay Unique Unit. Cheap and weak infantry unit that only takes half a population slot.</briefDescription>
+		<longDescription>Malay Unique Unit. Cheap and weak infantry unit that only takes half a population slot.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="123">
+		<nominative>Elite Gbetos</nominative>
+		<quickDescription>Ranged Infantry</quickDescription>
+		<briefDescription>Malian Unique Unit. Fast ranged Infantry with high attack, but very vulnerable.</briefDescription>
+		<longDescription>Malian Unique Unit. Fast ranged Infantry with high attack, but very vulnerable.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="124">
+		<nominative>Elite Plumed Archers</nominative>
+		<quickDescription>Fast-moving Archer</quickDescription>
+		<briefDescription>Mayan Unique Unit. Fast Archer with good HP and pierce armor.</briefDescription>
+		<longDescription>Mayan Unique Unit. Fast Archer with good HP and pierce armor.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="125">
+		<nominative>Elite Mangudai</nominative>
+		<quickDescription>Fast-firing Cavalry Archer</quickDescription>
+		<briefDescription>Mongol Unique Unit. Cavalry Archer strong against Siege Weapons.</briefDescription>
+		<longDescription>Mongol Unique Unit. Cavalry Archer strong against Siege Weapons.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="126">
+		<nominative>Elite War Elephants</nominative>
+		<quickDescription>Slow Heavy Cavalry</quickDescription>
+		<briefDescription>Persian Unique Unit. Slow Heavy Cavalry with very high HP and attack, but very expensive. Deals 50% of its damage to adjacent units.</briefDescription>
+		<longDescription>Persian Unique Unit. Slow Heavy Cavalry with very high HP and attack, but very expensive. Deals 50% of its damage to adjacent units.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="127">
+		<nominative>Elite Organ Guns</nominative>
+		<quickDescription>Gunpowder Siege</quickDescription>
+		<briefDescription>Portuguese Unique Unit. Siege weapon that fires a volley of bullets. Very effective against large groups of units.</briefDescription>
+		<longDescription>Portuguese Unique Unit. Siege weapon that fires a volley of bullets. Very effective against large groups of units.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="128">
+		<nominative>Elite Mamelukes</nominative>
+		<quickDescription>Anti-Cavalry short ranged Camel</quickDescription>
+		<briefDescription>Saracen Unique Unit. Camel with a short ranged melee attack. Excels at killing mounted units, but not Camel Riders.</briefDescription>
+		<longDescription>Saracen Unique Unit. Camel with a short ranged melee attack. Excels at killing mounted units, but not Camel Riders.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="129">
+		<nominative>Elite Boyars</nominative>
+		<quickDescription>Melee armored Cavalry</quickDescription>
+		<briefDescription>Slavic Unique Unit. Heavy Cavalry with high melee armor.</briefDescription>
+		<longDescription>Slavic Unique Unit. Heavy Cavalry with high melee armor.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="130">
+		<nominative>Elite Conquistadors</nominative>
+		<quickDescription>Mounted Hand Cannoneer</quickDescription>
+		<briefDescription>Spanish Unique Unit. Mounted Hand Cannoneer. Has high attack, but inaccurate at range.</briefDescription>
+		<longDescription>Spanish Unique Unit. Mounted Hand Cannoneer. Has high attack, but inaccurate at range.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="131">
+		<nominative>Elite Teutonic Knights</nominative>
+		<quickDescription>Melee armored Infantry</quickDescription>
+		<briefDescription>Teutonic Unique Unit. Slow Infantry with high melee armor and attack.</briefDescription>
+		<longDescription>Teutonic Unique Unit. Slow Infantry with high melee armor and attack.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="132">
+		<nominative>Elite Janissaries</nominative>
+		<quickDescription>Hand Cannoneer</quickDescription>
+		<briefDescription>Turkish Unique Unit. Hand Cannoneer with long range and high attack, but inaccurate at long distance.</briefDescription>
+		<longDescription>Turkish Unique Unit. Hand Cannoneer with long range and high attack, but inaccurate at long distance.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="133">
+		<nominative>Elite Rattan Archers</nominative>
+		<quickDescription>Pierce armored Archer</quickDescription>
+		<briefDescription>Vietnamese Unique Unit. Archer with very high pierce armor.</briefDescription>
+		<longDescription>Vietnamese Unique Unit. Archer with very high pierce armor.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="134">
+		<nominative>Elite Berserks</nominative>
+		<quickDescription>Regenerating Infantry</quickDescription>
+		<briefDescription>Viking Unique Unit. Infantry with slow self-regeneration.</briefDescription>
+		<longDescription>Viking Unique Unit. Infantry with slow self-regeneration.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="135">
+		<nominative>Steppe Lancers</nominative>
+		<quickDescription/>
+		<briefDescription>Light cavalry unit with increased attack range. Strong in groups.</briefDescription>
+		<longDescription>Light cavalry unit with increased attack range. Strong in groups.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="136">
+		<nominative>Konnik</nominative>
+		<quickDescription>Cavalry</quickDescription>
+		<briefDescription>Bulgarian Unique Unit. Heavy Cavalry unit that fights on as infantry when felled.</briefDescription>
+		<longDescription>Bulgarian Unique Unit. Heavy Cavalry unit that fights on as infantry when felled.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="137">
+		<nominative>Konnik (Dismounted)</nominative>
+		<quickDescription>Infantry</quickDescription>
+		<briefDescription>Bulgarian Unique Unit. Infantry unit obtained when a Konnik is felled.</briefDescription>
+		<longDescription>Bulgarian Unique Unit. Infantry unit obtained when a Konnik is felled.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="138">
+		<nominative>Kipchaks</nominative>
+		<quickDescription>Cavalry Archer which fires multiple arrows</quickDescription>
+		<briefDescription>Cuman Unique Unit. Cavalry Archer which shoots multiple arrows with rapid-fire attack.</briefDescription>
+		<longDescription>Cuman Unique Unit. Cavalry Archer which shoots multiple arrows with rapid-fire attack.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="139">
+		<nominative>Leitis</nominative>
+		<quickDescription>Cavalry which ignores armor</quickDescription>
+		<briefDescription>Lithuanian Unique Unit. Heavy Cavalry with attack that ignores armor.</briefDescription>
+		<longDescription>Lithuanian Unique Unit. Heavy Cavalry with attack that ignores armor.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="140">
+		<nominative>Keshiks</nominative>
+		<quickDescription>Cavalry which generates gold when fighting</quickDescription>
+		<briefDescription>Tatar Unique Unit. Heavy Cavalry which generates gold while fighting other units.</briefDescription>
+		<longDescription>Tatar Unique Unit. Heavy cavalry which generates gold while fighting other units (22 gold per minute for each Keshik fighting).</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="141">
+		<nominative>Elite Steppe Lancers</nominative>
+		<quickDescription/>
+		<briefDescription>Light Cavalry unit with increased attack range. Strong in groups.</briefDescription>
+		<longDescription>Light Cavalry unit with increased attack range. Strong in groups.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="142">
+		<nominative>Elite Konnik</nominative>
+		<quickDescription>Cavalry which turns into Infantry when felled</quickDescription>
+		<briefDescription>Bulgarian Unique Unit. Heavy Cavalry unit that fights on as infantry when felled.</briefDescription>
+		<longDescription>Bulgarian Unique Unit. Heavy Cavalry unit that fights on as infantry when felled.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="143">
+		<nominative>Elite Konnik (Dismounted)</nominative>
+		<quickDescription>Infantry</quickDescription>
+		<briefDescription>Bulgarian Unique Unit. Infantry unit obtained when a Konnik is felled.</briefDescription>
+		<longDescription>Bulgarian Unique Unit. Infantry unit obtained when a Konnik is felled.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="144">
+		<nominative>Elite Kipchaks</nominative>
+		<quickDescription>Cavalry Archer which fires multiple arrows</quickDescription>
+		<briefDescription>Cuman Unique Unit. Cavalry Archer which shoots multiple arrows with rapid-fire attack.</briefDescription>
+		<longDescription>Cuman Unique Unit. Cavalry Archer which shoots multiple arrows with rapid-fire attack.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="145">
+		<nominative>Elite Leitis</nominative>
+		<quickDescription>Cavalry which ignores armor</quickDescription>
+		<briefDescription>Lithuanian Unique Unit. Heavy Cavalry with attack that ignores armor.</briefDescription>
+		<longDescription>Lithuanian Unique Unit. Heavy Cavalry with attack that ignores armor.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="146">
+		<nominative>Elite Keshiks</nominative>
+		<quickDescription>Cavalry which generates gold when fighting</quickDescription>
+		<briefDescription>Tatar Unique Unit. Heavy Cavalry which generates gold while fighting other units.</briefDescription>
+		<longDescription>Tatar Unique Unit. Heavy cavalry which generates gold while fighting other units (22 gold per minute for each Elite Keshik fighting).</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="147">
+		<nominative>Xolotl Warriors</nominative>
+		<quickDescription/>
+		<briefDescription>Heavy Cavalry unit available for Native American Civilizations (Aztecs, Mayans, Incas) if they manage to get a Stable (through conversion, for example).</briefDescription>
+		<longDescription>Heavy Cavalry unit available for Native American Civilizations (Aztecs, Mayans, Incas) if they manage to get a Stable (through conversion, for example).</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="148">
+		<nominative>Flaming Camels</nominative>
+		<quickDescription>Fast Petard anti mounted units</quickDescription>
+		<briefDescription>Tatar Unique Unit. Fast moving petard which self-destructs when used, generating a big explosion. Strong against mounted units.</briefDescription>
+		<longDescription>Tatar Unique Unit. Fast moving camel loaded with flammable hay and brush. Self-destructs when used, generating a big explosion. Strong against mounted units, escpecially Elephants.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="149">
+		<nominative>Coustilliers</nominative>
+		<quickDescription>Charging Cavalry</quickDescription>
+		<briefDescription>Burgundian Unique Unit. Heavy Cavalry with a strong charging attack. It needs 40 seconds to charge, which results in 25 additional damage in the first hit.</briefDescription>
+		<longDescription>Burgundian Unique Unit. Heavy Cavalry with a strong charging attack. It needs 40 seconds to charge, which results in 25 additional damage in the first hit.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="150">
+		<nominative>Serjeants</nominative>
+		<quickDescription>Infantry which builds Donjons</quickDescription>
+		<briefDescription>Sicilian Unique Unit. Heavy Infantry capable of building Donjons. They can be trained in Donjons (20s) and Castles (12s).</briefDescription>
+		<longDescription>Sicilian Unique Unit. Heavy Infantry capable of building Donjons. They can be trained in Donjons (20s) and Castles (12s).</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="151">
+		<nominative>Elite Coustilliers</nominative>
+		<quickDescription>Charging Cavalry</quickDescription>
+		<briefDescription>Burgundian Unique Unit. Heavy Cavalry with a strong charging attack. It needs 40 seconds to charge, which results in 30 additional damage in the first hit.</briefDescription>
+		<longDescription>Burgundian Unique Unit. Heavy Cavalry with a strong charging attack. It needs 40 seconds to charge, which results in 30 additional damage in the first hit.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="152">
+		<nominative>Elite Serjeants</nominative>
+		<quickDescription>Infantry which builds Donjons</quickDescription>
+		<briefDescription>Sicilian Unique Unit. Heavy Infantry capable of building Donjons. They can be trained in Donjons (20s) and Castles (12s).</briefDescription>
+		<longDescription>Sicilian Unique Unit. Heavy Infantry capable of building Donjons. They can be trained in Donjons (20s) and Castles (12s).</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="153">
+		<nominative>Flemish Militia</nominative>
+		<quickDescription>Infantry</quickDescription>
+		<briefDescription>Burgundian Unique Unit. Infantry unit obtained through the Flemish Revolution. Strong vs. Cavalry.</briefDescription>
+		<longDescription>Burgundian Unique Unit. Infantry unit obtained by converting Villagers through the Flemish Revolution technology. Strong vs. Cavalry. Extra Flemish Militia can be trained in the Town Center.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="154">
+		<nominative>Winged Hussars</nominative>
+		<quickDescription>Light Cavalry</quickDescription>
+		<briefDescription>Polish and Lithuanian Unique Unit. Fast Cavalry with extensive line of sight. Resistant to conversion. Strong against Monks.</briefDescription>
+		<longDescription>Polish and Lithuanian Unique Unit. Fast Cavalry with extensive line of sight. Resistant to conversion. Strong against Monks.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="155">
+		<nominative>Hussite Wagons</nominative>
+		<quickDescription>Siege Weapon</quickDescription>
+		<briefDescription>Bohemian Unique Unit. Siege Weapon with high hit points. Units which are behind receive 50% less damage from incoming projectiles. Weak against other Siege Weapons.</briefDescription>
+		<longDescription>Bohemian Unique Unit. Siege Weapon with high hit points. Units which are behind receive 50% less damage from incoming projectiles. Weak against other Siege Weapons.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="156">
+		<nominative>Obuch</nominative>
+		<quickDescription>Armor-breaking Infantry</quickDescription>
+		<briefDescription>Polish Unique Unit. Infantry which breaks enemy unit armor. Each attack reduces the melee and pierce armor of the targeted unit by 1 (until is down to 0). Strong at destroying Buildings.</briefDescription>
+		<longDescription>Polish Unique Unit. Infantry which breaks enemy unit armor. Each attack reduces the melee and pierce armor of the targeted unit by 1 (until is down to 0). Strong at destroying Buildings.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="157">
+		<nominative>Elite Hussite Wagons</nominative>
+		<quickDescription>Siege Weapon</quickDescription>
+		<briefDescription>Bohemian Unique Unit. Siege Weapon with high hit points. Units which are behind receive 50% less damage from incoming projectiles. Weak against other Siege Weapons.</briefDescription>
+		<longDescription>Bohemian Unique Unit. Siege Weapon with high hit points. Units which are behind receive 50% less damage from incoming projectiles. Weak against other Siege Weapons.</longDescription>
+		<extraDescription/>
+	</item>
+	<item id="158">
+		<nominative>Elite Obuch</nominative>
+		<quickDescription>Armor-breaking Infantry</quickDescription>
+		<briefDescription>Polish Unique Unit. Infantry which breaks enemy unit armor. Each attack reduces the melee and pierce armor of the targeted unit by 1 (until is down to 0). Strong at destroying Buildings.</briefDescription>
+		<longDescription>Polish Unique Unit. Infantry which breaks enemy unit armor. Each attack reduces the melee and pierce armor of the targeted unit by 1 (until is down to 0). Strong at destroying Buildings.</longDescription>
+		<extraDescription/>
+	</item>
+		<item id="159">
+		<nominative>Houfnice</nominative>
+		<quickDescription>Bombard Cannon Upgrade</quickDescription>
+		<briefDescription>Bohemian Unique Unit. Powerful and mobile Siege Weapon with long range. Strong against Buildings and other Siege Weapons.</briefDescription>
+		<longDescription>Bohemian Unique Unit. Powerful and mobile Siege Weapon with long range. Strong against Buildings and other Siege Weapons.</longDescription>
+		<extraDescription/>
+	</item>
+</list>

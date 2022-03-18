@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<list>
+	<item id="1" value="23.4">Lumberjack</item>
+	<item id="2" value="19.8">Shepherd</item>
+	<item id="3" value="18.6">Forager</item>
+	<item id="4" value="24.6">Hunter</item>
+	<item id="5" value="25.8">Fisherman</item>
+	<item id="6" value="20.2667">Farmer</item>
+	<item id="7" value="60">Builder</item>
+	<item id="8" value="750">Repairer</item>
+	<item id="9" value="22.8">Gold Miner</item>
+	<item id="10" value="21.6">Stone Miner</item>
+	<item id="11" value="16.8">Fishing Ship</item>
+	<item id="12" value="30">Relic</item>
+	<item id="13" value="13.8">Trade Cart</item>
+	<item id="14" value="17.9">Tarde Cog</item>
+	<item id="15" value="60">Feitoria Wood</item>
+	<item id="16" value="96">Feitoria Food</item>
+	<item id="17" value="42">Feitoria Gold</item>
+	<item id="18" value="18">Feitoria Stone</item>
+	<item id="19" value="22">Keshik</item>
+	<item id="20" value="-">Farming Gold</item>
+	<item id="21" value="-">Food Relic</item>
+	<item id="22" value="-">Gold Stone Miners</item>
+</list>

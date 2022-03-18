@@ -1,0 +1,1447 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<list>
+	<item id="1">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="2">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">4</value>
+			<value type="29">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="3">
+		<entry nameID="unit_armor_values">
+			<value type="1">4</value>
+			<value type="2">8</value>
+			<value type="16">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="4">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">1</value>
+			<value type="5">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="5">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">6</value>
+			<value type="16">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="6">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">6</value>
+			<value type="16">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="7">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">4</value>
+			<value type="16">6</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="8">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">2</value>
+			<value type="16">1</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="9">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="10">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">1</value>
+			<value type="5">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="11">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">0</value>
+			<value type="5">0</value>
+			<value type="6">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="12">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">2</value>
+			<value type="5">0</value>
+			<value type="7">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="13">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">0</value>
+			<value type="3">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="14">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">3</value>
+			<value type="3">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="15">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">2</value>
+			<value type="9">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="16">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">6</value>
+			<value type="16">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="17">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">6</value>
+			<value type="16">6</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="18">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">3</value>
+			<value type="16">3</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="19">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">6</value>
+			<value type="16">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="20">
+		<entry nameID="unit_armor_values">
+			<value type="1">6</value>
+			<value type="2">5</value>
+			<value type="14">0</value>
+			<value type="16">8</value>
+			<value type="17">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="21">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">8</value>
+			<value type="16">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="22">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">0</value>
+			<value type="15">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="23">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">0</value>
+			<value type="9">0</value>
+			<value type="15">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="24">
+		<entry nameID="unit_armor_values">
+			<value type="1">1</value>
+			<value type="2">1</value>
+			<value type="5">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="25">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">0</value>
+			<value type="5">0</value>
+			<value type="6">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="26">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">3</value>
+			<value type="5">0</value>
+			<value type="7">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="27">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">0</value>
+			<value type="3">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="28">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">4</value>
+			<value type="3">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="29">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">0</value>
+			<value type="3">0</value>
+			<value type="4">0</value>
+			<value type="9">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="30">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">4</value>
+			<value type="3">0</value>
+			<value type="4">1</value>
+			<value type="9">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="31">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">0</value>
+			<value type="3">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="32">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">2</value>
+			<value type="9">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="33">
+		<entry nameID="unit_armor_values">
+			<value type="1">2</value>
+			<value type="2">2</value>
+			<value type="9">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="34">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">0</value>
+			<value type="10">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="35">
+		<entry nameID="unit_armor_values">
+			<value type="1">1</value>
+			<value type="2">2</value>
+			<value type="9">0</value>
+			<value type="11">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="36">
+		<entry nameID="unit_armor_values">
+			<value type="1">-3</value>
+			<value type="2">180</value>
+			<value type="12">0</value>
+			<value type="13">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="37">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">6</value>
+			<value type="12">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="38">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">7</value>
+			<value type="12">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="39">
+		<entry nameID="unit_armor_values">
+			<value type="1">-2</value>
+			<value type="2">100</value>
+			<value type="12">0</value>
+			<value type="13">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="40">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">2</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="41">
+		<entry nameID="unit_armor_values">
+			<value type="1">1</value>
+			<value type="2">1</value>
+			<value type="5">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="42">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">1</value>
+			<value type="3">0</value>
+			<value type="4">0</value>
+			<value type="10">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="43">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">0</value>
+			<value type="3">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="44">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">1</value>
+			<value type="3">0</value>
+			<value type="4">0</value>
+			<value type="9">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="45">
+		<entry nameID="unit_armor_values">
+			<value type="1">2</value>
+			<value type="2">1</value>
+			<value type="9">12</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="46">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">1</value>
+			<value type="5">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="47">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">0</value>
+			<value type="3">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="48">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">0</value>
+			<value type="5">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="49">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">0</value>
+			<value type="5">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="50">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">6</value>
+			<value type="5">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="51">
+		<entry nameID="unit_armor_values">
+			<value type="1">1</value>
+			<value type="2">3</value>
+			<value type="9">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="52">
+		<entry nameID="unit_armor_values">
+			<value type="1">1</value>
+			<value type="2">0</value>
+			<value type="5">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="53">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">3</value>
+			<value type="3">0</value>
+			<value type="4">-2</value>
+			<value type="9">0</value>
+			<value type="11">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="54">
+		<entry nameID="unit_armor_values">
+			<value type="1">1</value>
+			<value type="2">0</value>
+			<value type="3">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="55">
+		<entry nameID="unit_armor_values">
+			<value type="1">1</value>
+			<value type="2">1</value>
+			<value type="5">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="56">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">3</value>
+			<value type="9">-2</value>
+			<value type="11">-2</value>
+			<value type="12">-2</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="57">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">3</value>
+			<value type="3">0</value>
+			<value type="4">0</value>
+			<value type="9">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="58">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">2</value>
+			<value type="9">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="59">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">1</value>
+			<value type="5">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="60">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">0</value>
+			<value type="5">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="61">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">1</value>
+			<value type="3">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="62">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">0</value>
+			<value type="3">0</value>
+			<value type="4">0</value>
+			<value type="9">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="63">
+		<entry nameID="unit_armor_values">
+			<value type="1">1</value>
+			<value type="2">2</value>
+			<value type="9">0</value>
+			<value type="11">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="64">
+		<entry nameID="unit_armor_values">
+			<value type="1">2</value>
+			<value type="2">4</value>
+			<value type="12">0</value>
+			<value type="14">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="65">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">0</value>
+			<value type="3">0</value>
+			<value type="10">0</value>
+			<value type="30">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="66">
+		<entry nameID="unit_armor_values">
+			<value type="1">4</value>
+			<value type="2">2</value>
+			<value type="9">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="67">
+		<entry nameID="unit_armor_values">
+			<value type="1">2</value>
+			<value type="2">2</value>
+			<value type="3">0</value>
+			<value type="4">0</value>
+			<value type="9">0</value>
+			<value type="14">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="68">
+		<entry nameID="unit_armor_values">
+			<value type="1">7</value>
+			<value type="2">2</value>
+			<value type="5">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="69">
+		<entry nameID="unit_armor_values">
+			<value type="1">1</value>
+			<value type="2">0</value>
+			<value type="3">0</value>
+			<value type="14">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="70">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">4</value>
+			<value type="3">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="71">
+		<entry nameID="unit_armor_values">
+			<value type="1">1</value>
+			<value type="2">1</value>
+			<value type="5">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="72">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">8</value>
+			<value type="16">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="73">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">8</value>
+			<value type="16">9</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="74">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">5</value>
+			<value type="16">5</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="75">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">6</value>
+			<value type="14">0</value>
+			<value type="16">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="76">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">8</value>
+			<value type="14">0</value>
+			<value type="16">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="77">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">8</value>
+			<value type="16">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="78">
+		<entry nameID="unit_armor_values">
+			<value type="1">8</value>
+			<value type="2">6</value>
+			<value type="14">0</value>
+			<value type="16">11</value>
+			<value type="17">1</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="79">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">8</value>
+			<value type="16">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="80">
+		<entry nameID="unit_armor_values">
+			<value type="1">1</value>
+			<value type="2">1</value>
+			<value type="5">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="81">
+		<entry nameID="unit_armor_values">
+			<value type="1">1</value>
+			<value type="2">1</value>
+			<value type="5">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="82">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">0</value>
+			<value type="5">0</value>
+			<value type="6">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="83">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">4</value>
+			<value type="5">0</value>
+			<value type="7">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="84">
+		<entry nameID="unit_armor_values">
+			<value type="1">1</value>
+			<value type="2">0</value>
+			<value type="5">10</value>
+			<value type="8">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="85">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">0</value>
+			<value type="3">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="86">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">5</value>
+			<value type="3">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="87">
+		<entry nameID="unit_armor_values">
+			<value type="1">1</value>
+			<value type="2">0</value>
+			<value type="3">0</value>
+			<value type="4">0</value>
+			<value type="9">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="88">
+		<entry nameID="unit_armor_values">
+			<value type="1">1</value>
+			<value type="2">0</value>
+			<value type="3">0</value>
+			<value type="14">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="89">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">4</value>
+			<value type="3">0</value>
+			<value type="4">1</value>
+			<value type="9">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="90">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">2</value>
+			<value type="9">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="91">
+		<entry nameID="unit_armor_values">
+			<value type="1">2</value>
+			<value type="2">2</value>
+			<value type="9">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="92">
+		<entry nameID="unit_armor_values">
+			<value type="1">2</value>
+			<value type="2">3</value>
+			<value type="9">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="93">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">0</value>
+			<value type="10">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="94">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">0</value>
+			<value type="10">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="95">
+		<entry nameID="unit_armor_values">
+			<value type="1">1</value>
+			<value type="2">3</value>
+			<value type="9">0</value>
+			<value type="11">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="96">
+		<entry nameID="unit_armor_values">
+			<value type="1">-3</value>
+			<value type="2">190</value>
+			<value type="12">0</value>
+			<value type="13">1</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="97">
+		<entry nameID="unit_armor_values">
+			<value type="1">-3</value>
+			<value type="2">195</value>
+			<value type="12">0</value>
+			<value type="13">2</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="98">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">7</value>
+			<value type="12">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="99">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">8</value>
+			<value type="12">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="100">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">7</value>
+			<value type="12">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="101">
+		<entry nameID="unit_armor_values">
+			<value type="1">2</value>
+			<value type="2">5</value>
+			<value type="12">0</value>
+			<value type="14">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="102">
+		<entry nameID="unit_armor_values">
+			<value type="1">2</value>
+			<value type="2">8</value>
+			<value type="12">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="103">
+		<entry nameID="unit_armor_values">
+			<value type="1">1</value>
+			<value type="2">150</value>
+			<value type="12">0</value>
+			<value type="13">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="104">
+		<entry nameID="unit_armor_values">
+			<value type="1">2</value>
+			<value type="2">1</value>
+			<value type="5">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="105">
+		<entry nameID="unit_armor_values">
+			<value type="1">1</value>
+			<value type="2">1</value>
+			<value type="3">0</value>
+			<value type="4">0</value>
+			<value type="10">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="106">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">1</value>
+			<value type="3">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="107">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">2</value>
+			<value type="3">0</value>
+			<value type="4">0</value>
+			<value type="9">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="108">
+		<entry nameID="unit_armor_values">
+			<value type="1">2</value>
+			<value type="2">1</value>
+			<value type="9">16</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="109">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">1</value>
+			<value type="5">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="110">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">0</value>
+			<value type="3">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="111">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">1</value>
+			<value type="5">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="112">
+		<entry nameID="unit_armor_values">
+			<value type="1">1</value>
+			<value type="2">0</value>
+			<value type="5">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="113">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">8</value>
+			<value type="5">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="114">
+		<entry nameID="unit_armor_values">
+			<value type="1">1</value>
+			<value type="2">4</value>
+			<value type="9">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="115">
+		<entry nameID="unit_armor_values">
+			<value type="1">1</value>
+			<value type="2">0</value>
+			<value type="5">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="116">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">3</value>
+			<value type="3">0</value>
+			<value type="4">-2</value>
+			<value type="9">0</value>
+			<value type="11">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="117">
+		<entry nameID="unit_armor_values">
+			<value type="1">1</value>
+			<value type="2">0</value>
+			<value type="3">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="118">
+		<entry nameID="unit_armor_values">
+			<value type="1">1</value>
+			<value type="2">1</value>
+			<value type="5">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="119">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">3</value>
+			<value type="9">-2</value>
+			<value type="11">-2</value>
+			<value type="12">-2</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="120">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">4</value>
+			<value type="3">0</value>
+			<value type="4">0</value>
+			<value type="9">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="121">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">2</value>
+			<value type="9">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="122">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">1</value>
+			<value type="5">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="123">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">0</value>
+			<value type="5">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="124">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">2</value>
+			<value type="3">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="125">
+		<entry nameID="unit_armor_values">
+			<value type="1">1</value>
+			<value type="2">0</value>
+			<value type="3">0</value>
+			<value type="4">0</value>
+			<value type="9">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="126">
+		<entry nameID="unit_armor_values">
+			<value type="1">1</value>
+			<value type="2">3</value>
+			<value type="9">0</value>
+			<value type="11">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="127">
+		<entry nameID="unit_armor_values">
+			<value type="1">2</value>
+			<value type="2">6</value>
+			<value type="12">0</value>
+			<value type="14">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="128">
+		<entry nameID="unit_armor_values">
+			<value type="1">1</value>
+			<value type="2">0</value>
+			<value type="3">0</value>
+			<value type="10">0</value>
+			<value type="30">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="129">
+		<entry nameID="unit_armor_values">
+			<value type="1">8</value>
+			<value type="2">3</value>
+			<value type="9">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="130">
+		<entry nameID="unit_armor_values">
+			<value type="1">2</value>
+			<value type="2">2</value>
+			<value type="3">0</value>
+			<value type="4">0</value>
+			<value type="9">0</value>
+			<value type="14">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="131">
+		<entry nameID="unit_armor_values">
+			<value type="1">10</value>
+			<value type="2">2</value>
+			<value type="5">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="132">
+		<entry nameID="unit_armor_values">
+			<value type="1">2</value>
+			<value type="2">0</value>
+			<value type="3">0</value>
+			<value type="14">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="133">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">6</value>
+			<value type="3">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="134">
+		<entry nameID="unit_armor_values">
+			<value type="1">2</value>
+			<value type="2">1</value>
+			<value type="5">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="135">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">2</value>
+			<value type="9">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="136">
+		<entry nameID="unit_armor_values">
+			<value type="1">2</value>
+			<value type="2">1</value>
+			<value type="9">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="137">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">0</value>
+			<value type="5">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="138">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">0</value>
+			<value type="3">0</value>
+			<value type="4">0</value>
+			<value type="9">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="139">
+		<entry nameID="unit_armor_values">
+			<value type="1">1</value>
+			<value type="2">1</value>
+			<value type="9">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="140">
+		<entry nameID="unit_armor_values">
+			<value type="1">1</value>
+			<value type="2">2</value>
+			<value type="9">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="141">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">1</value>
+			<value type="9">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="142">
+		<entry nameID="unit_armor_values">
+			<value type="1">2</value>
+			<value type="2">2</value>
+			<value type="9">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="143">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">1</value>
+			<value type="5">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="144">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">0</value>
+			<value type="3">0</value>
+			<value type="4">0</value>
+			<value type="9">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="145">
+		<entry nameID="unit_armor_values">
+			<value type="1">2</value>
+			<value type="2">1</value>
+			<value type="9">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="146">
+		<entry nameID="unit_armor_values">
+			<value type="1">1</value>
+			<value type="2">3</value>
+			<value type="9">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="147">
+		<entry nameID="unit_armor_values">
+			<value type="1">2</value>
+			<value type="2">2</value>
+			<value type="9">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="148">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">0</value>
+			<value type="10">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="149">
+		<entry nameID="unit_armor_values">
+			<value type="1">2</value>
+			<value type="2">2</value>
+			<value type="9">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="150">
+		<entry nameID="unit_armor_values">
+			<value type="1">2</value>
+			<value type="2">2</value>
+			<value type="5">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="151">
+		<entry nameID="unit_armor_values">
+			<value type="1">2</value>
+			<value type="2">2</value>
+			<value type="9">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="152">
+		<entry nameID="unit_armor_values">
+			<value type="1">4</value>
+			<value type="2">4</value>
+			<value type="5">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="153">
+		<entry nameID="unit_armor_values">
+			<value type="1">1</value>
+			<value type="2">1</value>
+			<value type="5">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="154">
+		<entry nameID="unit_armor_values">
+			<value type="1">1</value>
+			<value type="2">2</value>
+			<value type="9">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="155">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">7</value>
+			<value type="12">0</value>
+			<value type="14">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+			<value type="32">0</value>
+		</entry>
+	</item>
+	<item id="156">
+		<entry nameID="unit_armor_values">
+			<value type="1">2</value>
+			<value type="2">2</value>
+			<value type="5">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="157">
+		<entry nameID="unit_armor_values">
+			<value type="1">1</value>
+			<value type="2">10</value>
+			<value type="12">0</value>
+			<value type="14">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+			<value type="32">0</value>
+		</entry>
+	</item>
+	<item id="158">
+		<entry nameID="unit_armor_values">
+			<value type="1">2</value>
+			<value type="2">2</value>
+			<value type="5">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>	
+		<item id="159">
+		<entry nameID="unit_armor_values">
+			<value type="1">2</value>
+			<value type="2">6</value>
+			<value type="12">0</value>
+			<value type="14">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+</list>

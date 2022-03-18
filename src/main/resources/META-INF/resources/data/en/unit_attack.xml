@@ -1,0 +1,1438 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<list>
+	<item id="1">
+		<entry nameID="unit_attack_values">
+			<value type="1">3</value>
+			<value type="20">3</value>
+			<value type="22">6</value>
+			<value type="24">0</value>
+		</entry>
+	</item>
+	<item id="2"/>
+	<item id="3"/>
+	<item id="4">
+		<entry nameID="unit_attack_values">
+			<value type="1">4</value>
+			<value type="7">0</value>
+			<value type="9">0</value>
+			<value type="10">0</value>
+			<value type="19">0</value>
+		</entry>
+	</item>
+	<item id="5"/>
+	<item id="6">
+		<entry nameID="unit_attack_values">
+			<value type="2">6</value>
+			<value type="13">3</value>
+			<value type="16">8</value>
+			<value type="29">8</value>
+			<value type="20">6</value>
+		</entry>
+	</item>
+	<item id="7">
+		<entry nameID="unit_attack_values">
+			<value type="1">0</value>
+			<value type="2">1</value>
+			<value type="16">3</value>
+			<value type="29">1</value>
+			<value type="17">1</value>
+			<value type="20">1</value>
+		</entry>
+	</item>
+	<item id="8">
+		<entry nameID="unit_attack_values">
+			<value type="1">90</value>
+			<value type="20">180</value>
+		</entry>
+	</item>
+	<item id="9"/>
+	<item id="10">
+		<entry nameID="unit_attack_values">
+			<value type="1">6</value>
+			<value type="7">2</value>
+			<value type="9">0</value>
+			<value type="10">0</value>
+			<value type="19">2</value>
+		</entry>
+	</item>
+	<item id="11">
+		<entry nameID="unit_attack_values">
+			<value type="1">3</value>
+			<value type="7">1</value>
+			<value type="9">15</value>
+			<value type="10">12</value>
+			<value type="30">4</value>
+			<value type="11">15</value>
+			<value type="16">9</value>
+			<value type="29">9</value>
+			<value type="19">1</value>
+		</entry>
+	</item>
+	<item id="12">
+		<entry nameID="unit_attack_values">
+			<value type="1">4</value>
+			<value type="9">0</value>
+			<value type="10">0</value>
+			<value type="12">3</value>
+			<value type="15">8</value>
+			<value type="16">0</value>
+			<value type="29">0</value>
+			<value type="19">0</value>
+		</entry>
+	</item>
+	<item id="13">
+		<entry nameID="unit_attack_values">
+			<value type="2">4</value>
+			<value type="6">3</value>
+			<value type="13">0</value>
+			<value type="19">0</value>
+			<value type="22">0</value>
+		</entry>
+	</item>
+	<item id="14">
+		<entry nameID="unit_attack_values">
+			<value type="2">2</value>
+			<value type="3">3</value>
+			<value type="6">3</value>
+			<value type="13">0</value>
+			<value type="19">0</value>
+		</entry>
+		<entry nameID="projectile_attack_values">
+			<value type="2">1</value>
+		</entry>
+	</item>
+	<item id="15">
+		<entry nameID="unit_attack_values">
+			<value type="1">3</value>
+			<value type="3">0</value>
+			<value type="15">6</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+		</entry>
+	</item>
+	<item id="16">
+		<entry nameID="unit_attack_values">
+			<value type="2">7</value>
+			<value type="13">4</value>
+			<value type="16">9</value>
+			<value type="29">9</value>
+			<value type="20">7</value>
+		</entry>
+	</item>
+	<item id="17">
+		<entry nameID="unit_attack_values">
+			<value type="1">1</value>
+			<value type="2">2</value>
+			<value type="16">3</value>
+			<value type="29">3</value>
+			<value type="17">2</value>
+			<value type="20">2</value>
+		</entry>
+	</item>
+	<item id="18">
+		<entry nameID="unit_attack_values">
+			<value type="1">110</value>
+			<value type="20">220</value>
+		</entry>
+	</item>
+	<item id="19">
+		<entry nameID="unit_attack_values">
+			<value type="2">7</value>
+			<value type="13">4</value>
+			<value type="16">9</value>
+			<value type="29">9</value>
+			<value type="20">7</value>
+		</entry>
+		<entry nameID="projectile_attack_values">
+			<value type="10">1</value>
+			<value type="16">1</value>
+			<value type="29">1</value>
+		</entry>
+	</item>
+	<item id="20">
+		<entry nameID="unit_attack_values">
+			<value type="1">50</value>
+		</entry>
+	</item>
+	<item id="21">
+		<entry nameID="unit_attack_values">
+			<value type="2">6</value>
+			<value type="13">4</value>
+			<value type="16">6</value>
+			<value type="29">6</value>
+			<value type="20">8</value>
+		</entry>
+		<entry nameID="projectile_attack_values">
+			<value type="2">8</value>
+			<value type="10">1</value>
+			<value type="13">1</value>
+			<value type="16">10</value>
+			<value type="29">10</value>
+			<value type="20">2</value>
+		</entry>
+	</item>
+	<item id="22"/>
+	<item id="23"/>
+	<item id="24">
+		<entry nameID="unit_attack_values">
+			<value type="1">9</value>
+			<value type="7">6</value>
+			<value type="9">0</value>
+			<value type="10">0</value>
+			<value type="19">3</value>
+		</entry>
+	</item>
+	<item id="25">
+		<entry nameID="unit_attack_values">
+			<value type="1">4</value>
+			<value type="7">1</value>
+			<value type="9">22</value>
+			<value type="10">18</value>
+			<value type="30">11</value>
+			<value type="11">25</value>
+			<value type="16">16</value>
+			<value type="29">16</value>
+			<value type="19">1</value>
+		</entry>
+	</item>
+	<item id="26">
+		<entry nameID="unit_attack_values">
+			<value type="1">7</value>
+			<value type="9">3</value>
+			<value type="10">2</value>
+			<value type="12">3</value>
+			<value type="15">8</value>
+			<value type="16">1</value>
+			<value type="29">1</value>
+			<value type="19">0</value>
+		</entry>
+	</item>
+	<item id="27">
+		<entry nameID="unit_attack_values">
+			<value type="2">5</value>
+			<value type="6">3</value>
+			<value type="13">0</value>
+			<value type="19">0</value>
+			<value type="22">0</value>
+		</entry>
+	</item>
+	<item id="28">
+		<entry nameID="unit_attack_values">
+			<value type="2">3</value>
+			<value type="3">4</value>
+			<value type="4">2</value>
+			<value type="6">3</value>
+			<value type="13">0</value>
+			<value type="19">0</value>
+		</entry>
+		<entry nameID="projectile_attack_values">
+			<value type="2">1</value>
+		</entry>
+	</item>
+	<item id="29">
+		<entry nameID="unit_attack_values">
+			<value type="2">6</value>
+			<value type="6">2</value>
+			<value type="13">0</value>
+			<value type="19">0</value>
+		</entry>
+	</item>
+	<item id="30">
+		<entry nameID="unit_attack_values">
+			<value type="2">3</value>
+			<value type="3">4</value>
+			<value type="4">0</value>
+			<value type="6">2</value>
+			<value type="13">0</value>
+			<value type="19">0</value>
+		</entry>
+		<entry nameID="projectile_attack_values">
+			<value type="2">1</value>
+		</entry>
+	</item>
+	<item id="31">
+		<entry nameID="unit_attack_values">
+			<value type="2">4</value>
+			<value type="5">10</value>
+			<value type="6">1</value>
+			<value type="8">10</value>
+			<value type="13">3</value>
+			<value type="19">0</value>
+		</entry>
+	</item>
+	<item id="32">
+		<entry nameID="unit_attack_values">
+			<value type="1">7</value>
+			<value type="3">0</value>
+			<value type="15">10</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+		</entry>
+	</item>
+	<item id="33">
+		<entry nameID="unit_attack_values">
+			<value type="1">10</value>
+			<value type="3">0</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+		</entry>
+	</item>
+	<item id="34">
+		<entry nameID="unit_attack_values">
+			<value type="1">6</value>
+			<value type="9">9</value>
+			<value type="10">5</value>
+			<value type="16">5</value>
+			<value type="29">5</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+		</entry>
+	</item>
+	<item id="35">
+		<entry nameID="unit_attack_values">
+			<value type="1">12</value>
+			<value type="3">0</value>
+			<value type="19">0</value>
+			<value type="20">4</value>
+			<value type="22">4</value>
+		</entry>
+	</item>
+	<item id="36">
+		<entry nameID="unit_attack_values">
+			<value type="1">2</value>
+			<value type="12">40</value>
+			<value type="20">125</value>
+		</entry>
+	</item>
+	<item id="37">
+		<entry nameID="unit_attack_values">
+			<value type="1">40</value>
+			<value type="12">12</value>
+			<value type="20">35</value>
+			<value type="32">40</value>
+		</entry>
+		<entry nameID="projectile_attack_values">
+			<value type="27">0</value>
+		</entry>
+	</item>
+	<item id="38">
+		<entry nameID="unit_attack_values">
+			<value type="1">0</value>
+			<value type="2">12</value>
+			<value type="11">6</value>
+			<value type="13">1</value>
+			<value type="20">2</value>
+		</entry>
+		<entry nameID="projectile_attack_values">
+			<value type="2">6</value>
+			<value type="11">3</value>
+			<value type="20">1</value>
+		</entry>
+	</item>
+	<item id="39"/>
+	<item id="40">
+		<entry nameID="unit_attack_values">
+			<value type="1">25</value>
+			<value type="12">60</value>
+			<value type="20">500</value>
+			<value type="21">100</value>
+			<value type="22">900</value>
+		</entry>
+	</item>
+	<item id="41">
+		<entry nameID="unit_attack_values">
+			<value type="1">10</value>
+			<value type="5">10</value>
+			<value type="7">2</value>
+			<value type="8">10</value>
+			<value type="9">0</value>
+			<value type="19">2</value>
+		</entry>
+	</item>
+	<item id="42">
+		<entry nameID="unit_attack_values">
+			<value type="2">7</value>
+			<value type="4">4</value>
+			<value type="5">0</value>
+			<value type="6">1</value>
+			<value type="13">0</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+		</entry>
+	</item>
+	<item id="43">
+		<entry nameID="unit_attack_values">
+			<value type="2">6</value>
+			<value type="6">3</value>
+			<value type="13">0</value>
+			<value type="19">0</value>
+		</entry>
+	</item>
+	<item id="44">
+		<entry nameID="unit_attack_values">
+			<value type="2">12</value>
+			<value type="5">0</value>
+			<value type="6">0</value>
+			<value type="13">2</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+		</entry>
+	</item>
+	<item id="45">
+		<entry nameID="unit_attack_values">
+			<value type="1">9</value>
+			<value type="3">0</value>
+			<value type="5">9</value>
+			<value type="8">9</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+		</entry>
+	</item>
+	<item id="46">
+		<entry nameID="unit_attack_values">
+			<value type="1">10</value>
+			<value type="7">2</value>
+			<value type="9">0</value>
+			<value type="19">2</value>
+		</entry>
+	</item>
+	<item id="47">
+		<entry nameID="unit_attack_values">
+			<value type="1">0</value>
+			<value type="2">8</value>
+			<value type="6">2</value>
+			<value type="9">0</value>
+			<value type="13">0</value>
+			<value type="19">0</value>
+		</entry>
+		<entry nameID="projectile_attack_values">
+			<value type="1">0</value>
+			<value type="2">3</value>
+		</entry>
+	</item>
+	<item id="48">
+		<entry nameID="unit_attack_values">
+			<value type="1">16</value>
+			<value type="7">2</value>
+			<value type="19">0</value>
+		</entry>
+	</item>
+	<item id="49">
+		<entry nameID="unit_attack_values">
+			<value type="1">7</value>
+			<value type="3">0</value>
+			<value type="7">1</value>
+			<value type="19">1</value>
+		</entry>
+	</item>
+	<item id="50">
+		<entry nameID="unit_attack_values">
+			<value type="1">10</value>
+			<value type="3">6</value>
+			<value type="7">2</value>
+			<value type="19">2</value>
+		</entry>
+	</item>
+	<item id="51">
+		<entry nameID="unit_attack_values">
+			<value type="1">8</value>
+			<value type="3">0</value>
+			<value type="19">0</value>
+			<value type="20">8</value>
+			<value type="21">10</value>
+			<value type="22">12</value>
+			<value type="23">8</value>
+		</entry>
+	</item>
+	<item id="52">
+		<entry nameID="unit_attack_values">
+			<value type="1">7</value>
+			<value type="9">8</value>
+			<value type="10">6</value>
+			<value type="11">20</value>
+			<value type="19">0</value>
+		</entry>
+	</item>
+	<item id="53">
+		<entry nameID="unit_attack_values">
+			<value type="2">6</value>
+			<value type="6">0</value>
+			<value type="19">3</value>
+			<value type="22">3</value>
+		</entry>
+	</item>
+	<item id="54">
+		<entry nameID="unit_attack_values">
+			<value type="2">6</value>
+			<value type="9">5</value>
+			<value type="10">4</value>
+			<value type="11">5</value>
+			<value type="16">4</value>
+			<value type="29">4</value>
+			<value type="19">0</value>
+		</entry>
+	</item>
+	<item id="55">
+		<entry nameID="unit_attack_values">
+			<value type="1">10</value>
+			<value type="7">2</value>
+			<value type="18">10</value>
+			<value type="19">2</value>
+		</entry>
+	</item>
+	<item id="56">
+		<entry nameID="unit_attack_values">
+			<value type="2">8</value>
+			<value type="6">0</value>
+			<value type="16">8</value>
+			<value type="29">8</value>
+			<value type="19">3</value>
+			<value type="20">2</value>
+			<value type="22">3</value>
+			<value type="26">100</value>
+		</entry>
+		<entry nameID="projectile_attack_values">
+			<value type="2">6</value>
+			<value type="11">3</value>
+			<value type="20">1</value>
+		</entry>
+	</item>
+	<item id="57">
+		<entry nameID="unit_attack_values">
+			<value type="2">9</value>
+			<value type="19">5</value>
+		</entry>
+	</item>
+	<item id="58">
+		<entry nameID="unit_attack_values">
+			<value type="1">9</value>
+			<value type="12">5</value>
+			<value type="13">1</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+		</entry>
+	</item>
+	<item id="59">
+		<entry nameID="unit_attack_values">
+			<value type="1">7</value>
+			<value type="7">2</value>
+			<value type="19">0</value>
+		</entry>
+	</item>
+	<item id="60">
+		<entry nameID="unit_attack_values">
+			<value type="1">10</value>
+			<value type="3">0</value>
+			<value type="7">1</value>
+			<value type="19">0</value>
+		</entry>
+	</item>
+	<item id="61">
+		<entry nameID="unit_attack_values">
+			<value type="2">5</value>
+			<value type="5">1</value>
+			<value type="6">2</value>
+			<value type="8">1</value>
+			<value type="13">0</value>
+			<value type="19">0</value>
+		</entry>
+	</item>
+	<item id="62">
+		<entry nameID="unit_attack_values">
+			<value type="2">6</value>
+			<value type="6">1</value>
+			<value type="12">3</value>
+			<value type="13">0</value>
+			<value type="19">0</value>
+		</entry>
+	</item>
+	<item id="63">
+		<entry nameID="unit_attack_values">
+			<value type="1">15</value>
+			<value type="3">0</value>
+			<value type="19">0</value>
+			<value type="20">7</value>
+			<value type="22">7</value>
+		</entry>
+	</item>
+	<item id="64">
+		<entry nameID="unit_attack_values">
+			<value type="2">16</value>
+			<value type="13">1</value>
+			<value type="20">0</value>
+		</entry>
+		<entry nameID="projectile_attack_values">
+			<value type="27">1002</value>
+		</entry>
+	</item>
+	<item id="65">
+		<entry nameID="unit_attack_values">
+			<value type="1">8</value>
+			<value type="9">9</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+		</entry>
+	</item>
+	<item id="66">
+		<entry nameID="unit_attack_values">
+			<value type="1">12</value>
+			<value type="3">0</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+		</entry>
+	</item>
+	<item id="67">
+		<entry nameID="unit_attack_values">
+			<value type="2">16</value>
+			<value type="13">4</value>
+			<value type="20">0</value>
+		</entry>
+	</item>
+	<item id="68">
+		<entry nameID="unit_attack_values">
+			<value type="1">14</value>
+			<value type="7">4</value>
+			<value type="19">4</value>
+		</entry>
+	</item>
+	<item id="69">
+		<entry nameID="unit_attack_values">
+			<value type="2">17</value>
+			<value type="13">2</value>
+			<value type="20">0</value>
+		</entry>
+	</item>
+	<item id="70">
+		<entry nameID="unit_attack_values">
+			<value type="2">6</value>
+			<value type="5">0</value>
+			<value type="6">2</value>
+			<value type="13">0</value>
+			<value type="19">0</value>
+		</entry>
+	</item>
+	<item id="71">
+		<entry nameID="unit_attack_values">
+			<value type="1">12</value>
+			<value type="7">2</value>
+			<value type="9">0</value>
+			<value type="10">0</value>
+			<value type="19">2</value>
+		</entry>
+	</item>
+	<item id="72">
+		<entry nameID="unit_attack_values">
+			<value type="2">8</value>
+			<value type="13">4</value>
+			<value type="16">11</value>
+			<value type="29">11</value>
+			<value type="20">8</value>
+		</entry>
+	</item>
+	<item id="73">
+		<entry nameID="unit_attack_values">
+			<value type="1">1</value>
+			<value type="2">3</value>
+			<value type="16">4</value>
+			<value type="29">4</value>
+			<value type="17">3</value>
+			<value type="20">3</value>
+		</entry>
+	</item>
+	<item id="74">
+		<entry nameID="unit_attack_values">
+			<value type="1">140</value>
+			<value type="20">280</value>
+		</entry>
+	</item>
+	<item id="75">
+		<entry nameID="unit_attack_values">
+			<value type="1">35</value>
+			<value type="3">15</value>
+			<value type="5">15</value>
+			<value type="9">15</value>
+			<value type="30">4</value>
+			<value type="12">40</value>
+			<value type="20">200</value>
+		</entry>
+	</item>
+	<item id="76">
+		<entry nameID="unit_attack_values">
+			<value type="1">45</value>
+			<value type="3">15</value>
+			<value type="5">15</value>
+			<value type="9">15</value>
+			<value type="30">4</value>
+			<value type="12">40</value>
+			<value type="20">275</value>
+		</entry>
+	</item>
+	<item id="77">
+		<entry nameID="unit_attack_values">
+			<value type="2">8</value>
+			<value type="13">4</value>
+			<value type="16">11</value>
+			<value type="29">11</value>
+			<value type="20">8</value>
+		</entry>
+		<entry nameID="projectile_attack_values">
+			<value type="10">1</value>
+			<value type="16">1</value>
+			<value type="29">1</value>
+		</entry>
+	</item>
+	<item id="78">
+		<entry nameID="unit_attack_values">
+			<value type="1">50</value>
+		</entry>
+	</item>
+	<item id="79">
+		<entry nameID="unit_attack_values">
+			<value type="2">8</value>
+			<value type="13">4</value>
+			<value type="16">7</value>
+			<value type="29">7</value>
+			<value type="20">9</value>
+		</entry>
+		<entry nameID="projectile_attack_values">
+			<value type="2">8</value>
+			<value type="10">1</value>
+			<value type="13">1</value>
+			<value type="16">10</value>
+			<value type="29">10</value>
+			<value type="20">2</value>
+		</entry>
+	</item>
+	<item id="80">
+		<entry nameID="unit_attack_values">
+			<value type="1">12</value>
+			<value type="7">8</value>
+			<value type="9">0</value>
+			<value type="10">0</value>
+			<value type="19">4</value>
+		</entry>
+	</item>
+	<item id="81">
+		<entry nameID="unit_attack_values">
+			<value type="1">13</value>
+			<value type="7">8</value>
+			<value type="9">0</value>
+			<value type="10">0</value>
+			<value type="19">4</value>
+		</entry>
+	</item>
+	<item id="82">
+		<entry nameID="unit_attack_values">
+			<value type="1">6</value>
+			<value type="7">1</value>
+			<value type="9">32</value>
+			<value type="10">26</value>
+			<value type="30">11</value>
+			<value type="11">28</value>
+			<value type="16">16</value>
+			<value type="29">16</value>
+			<value type="19">1</value>
+		</entry>
+	</item>
+	<item id="83">
+		<entry nameID="unit_attack_values">
+			<value type="1">9</value>
+			<value type="9">4</value>
+			<value type="10">3</value>
+			<value type="12">5</value>
+			<value type="15">10</value>
+			<value type="16">2</value>
+			<value type="29">2</value>
+			<value type="19">0</value>
+		</entry>
+	</item>
+	<item id="84">
+		<entry nameID="unit_attack_values">
+			<value type="1">10</value>
+			<value type="9">0</value>
+			<value type="10">0</value>
+			<value type="14">10</value>
+			<value type="19">2</value>
+		</entry>
+	</item>
+	<item id="85">
+		<entry nameID="unit_attack_values">
+			<value type="2">6</value>
+			<value type="6">3</value>
+			<value type="13">0</value>
+			<value type="19">0</value>
+			<value type="22">0</value>
+		</entry>
+	</item>
+	<item id="86">
+		<entry nameID="unit_attack_values">
+			<value type="2">4</value>
+			<value type="3">5</value>
+			<value type="4">3</value>
+			<value type="6">3</value>
+			<value type="13">0</value>
+			<value type="19">0</value>
+		</entry>
+		<entry nameID="projectile_attack_values">
+			<value type="2">1</value>
+		</entry>
+	</item>
+	<item id="87">
+		<entry nameID="unit_attack_values">
+			<value type="2">7</value>
+			<value type="6">2</value>
+			<value type="13">0</value>
+			<value type="19">0</value>
+		</entry>
+	</item>
+	<item id="88">
+		<entry nameID="unit_attack_values">
+			<value type="2">17</value>
+			<value type="5">10</value>
+			<value type="6">1</value>
+			<value type="13">2</value>
+			<value type="19">0</value>
+		</entry>
+	</item>
+	<item id="89">
+		<entry nameID="unit_attack_values">
+			<value type="2">4</value>
+			<value type="3">5</value>
+			<value type="4">2</value>
+			<value type="6">2</value>
+			<value type="13">0</value>
+			<value type="19">0</value>
+		</entry>
+		<entry nameID="projectile_attack_values">
+			<value type="2">1</value>
+		</entry>
+	</item>
+	<item id="90">
+		<entry nameID="unit_attack_values">
+			<value type="1">7</value>
+			<value type="3">0</value>
+			<value type="15">12</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+		</entry>
+	</item>
+	<item id="91">
+		<entry nameID="unit_attack_values">
+			<value type="1">12</value>
+			<value type="3">0</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+		</entry>
+	</item>
+	<item id="92">
+		<entry nameID="unit_attack_values">
+			<value type="1">14</value>
+			<value type="3">0</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+		</entry>
+	</item>
+	<item id="93">
+		<entry nameID="unit_attack_values">
+			<value type="1">7</value>
+			<value type="9">18</value>
+			<value type="10">9</value>
+			<value type="30">7</value>
+			<value type="16">9</value>
+			<value type="29">9</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+		</entry>
+	</item>
+	<item id="94">
+		<entry nameID="unit_attack_values">
+			<value type="1">9</value>
+			<value type="9">18</value>
+			<value type="10">9</value>
+			<value type="30">7</value>
+			<value type="16">9</value>
+			<value type="29">9</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+		</entry>
+	</item>
+	<item id="95">
+		<entry nameID="unit_attack_values">
+			<value type="1">14</value>
+			<value type="3">0</value>
+			<value type="19">0</value>
+			<value type="20">7</value>
+			<value type="22">7</value>
+		</entry>
+	</item>
+	<item id="96">
+		<entry nameID="unit_attack_values">
+			<value type="1">3</value>
+			<value type="12">50</value>
+			<value type="20">150</value>
+		</entry>
+	</item>
+	<item id="97">
+		<entry nameID="unit_attack_values">
+			<value type="1">4</value>
+			<value type="12">65</value>
+			<value type="20">200</value>
+		</entry>
+	</item>
+	<item id="98">
+		<entry nameID="unit_attack_values">
+			<value type="1">50</value>
+			<value type="12">12</value>
+			<value type="20">45</value>
+			<value type="32">50</value>
+		</entry>
+		<entry nameID="projectile_attack_values">
+			<value type="27">0</value>
+		</entry>
+	</item>
+	<item id="99">
+		<entry nameID="unit_attack_values">
+			<value type="1">75</value>
+			<value type="12">12</value>
+			<value type="20">60</value>
+			<value type="32">75</value>
+		</entry>
+		<entry nameID="projectile_attack_values">
+			<value type="27">0</value>
+		</entry>
+	</item>
+	<item id="100">
+		<entry nameID="unit_attack_values">
+			<value type="1">0</value>
+			<value type="2">16</value>
+			<value type="11">8</value>
+			<value type="13">2</value>
+			<value type="20">4</value>
+		</entry>
+		<entry nameID="projectile_attack_values">
+			<value type="2">8</value>
+			<value type="11">4</value>
+			<value type="13">1</value>
+			<value type="20">2</value>
+		</entry>
+	</item>
+	<item id="101">
+		<entry nameID="unit_attack_values">
+			<value type="1">40</value>
+			<value type="12">20</value>
+			<value type="16">40</value>
+			<value type="29">40</value>
+			<value type="20">200</value>
+			<value type="22">40</value>
+			<value type="32">40</value>
+		</entry>
+	</item>
+	<item id="102"/>
+	<item id="103">
+		<entry nameID="unit_attack_values">
+			<value type="2">200</value>
+			<value type="20">250</value>
+		</entry>
+	</item>
+	<item id="104">
+		<entry nameID="unit_attack_values">
+			<value type="1">12</value>
+			<value type="5">11</value>
+			<value type="7">2</value>
+			<value type="8">10</value>
+			<value type="9">0</value>
+			<value type="19">2</value>
+		</entry>
+	</item>
+	<item id="105">
+		<entry nameID="unit_attack_values">
+			<value type="2">8</value>
+			<value type="4">6</value>
+			<value type="5">0</value>
+			<value type="6">1</value>
+			<value type="13">0</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+		</entry>
+	</item>
+	<item id="106">
+		<entry nameID="unit_attack_values">
+			<value type="2">7</value>
+			<value type="6">3</value>
+			<value type="13">0</value>
+			<value type="19">0</value>
+		</entry>
+	</item>
+	<item id="107">
+		<entry nameID="unit_attack_values">
+			<value type="2">15</value>
+			<value type="5">0</value>
+			<value type="6">0</value>
+			<value type="13">2</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+		</entry>
+	</item>
+	<item id="108">
+		<entry nameID="unit_attack_values">
+			<value type="1">12</value>
+			<value type="3">0</value>
+			<value type="5">12</value>
+			<value type="8">10</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+		</entry>
+	</item>
+	<item id="109">
+		<entry nameID="unit_attack_values">
+			<value type="1">13</value>
+			<value type="7">3</value>
+			<value type="9">0</value>
+			<value type="19">3</value>
+		</entry>
+	</item>
+	<item id="110">
+		<entry nameID="unit_attack_values">
+			<value type="1">0</value>
+			<value type="2">8</value>
+			<value type="6">2</value>
+			<value type="9">0</value>
+			<value type="13">0</value>
+			<value type="19">0</value>
+		</entry>
+		<entry nameID="projectile_attack_values">
+			<value type="1">0</value>
+			<value type="2">3</value>
+		</entry>
+	</item>
+	<item id="111">
+		<entry nameID="unit_attack_values">
+			<value type="1">18</value>
+			<value type="7">2</value>
+			<value type="19">1</value>
+		</entry>
+	</item>
+	<item id="112">
+		<entry nameID="unit_attack_values">
+			<value type="1">8</value>
+			<value type="3">0</value>
+			<value type="7">2</value>
+			<value type="19">2</value>
+		</entry>
+	</item>
+	<item id="113">
+		<entry nameID="unit_attack_values">
+			<value type="1">12</value>
+			<value type="3">10</value>
+			<value type="7">3</value>
+			<value type="19">3</value>
+		</entry>
+	</item>
+	<item id="114">
+		<entry nameID="unit_attack_values">
+			<value type="1">11</value>
+			<value type="3">0</value>
+			<value type="19">0</value>
+			<value type="20">10</value>
+			<value type="21">10</value>
+			<value type="22">12</value>
+			<value type="23">10</value>
+		</entry>
+	</item>
+	<item id="115">
+		<entry nameID="unit_attack_values">
+			<value type="1">8</value>
+			<value type="9">12</value>
+			<value type="10">10</value>
+			<value type="30">1</value>
+			<value type="11">20</value>
+			<value type="19">0</value>
+		</entry>
+	</item>
+	<item id="116">
+		<entry nameID="unit_attack_values">
+			<value type="2">7</value>
+			<value type="6">0</value>
+			<value type="19">4</value>
+			<value type="22">4</value>
+		</entry>
+	</item>
+	<item id="117">
+		<entry nameID="unit_attack_values">
+			<value type="2">6</value>
+			<value type="9">7</value>
+			<value type="10">6</value>
+			<value type="11">7</value>
+			<value type="16">5</value>
+			<value type="29">5</value>
+			<value type="19">0</value>
+		</entry>
+	</item>
+	<item id="118">
+		<entry nameID="unit_attack_values">
+			<value type="1">12</value>
+			<value type="7">3</value>
+			<value type="18">12</value>
+			<value type="19">3</value>
+		</entry>
+	</item>
+	<item id="119">
+		<entry nameID="unit_attack_values">
+			<value type="2">9</value>
+			<value type="6">0</value>
+			<value type="16">8</value>
+			<value type="29">8</value>
+			<value type="19">4</value>
+			<value type="20">4</value>
+			<value type="22">4</value>
+			<value type="26">100</value>
+		</entry>
+		<entry nameID="projectile_attack_values">
+			<value type="2">6</value>
+			<value type="11">3</value>
+			<value type="20">1</value>
+		</entry>
+	</item>
+	<item id="120">
+		<entry nameID="unit_attack_values">
+			<value type="2">9</value>
+			<value type="19">5</value>
+		</entry>
+	</item>
+	<item id="121">
+		<entry nameID="unit_attack_values">
+			<value type="1">10</value>
+			<value type="12">8</value>
+			<value type="13">2</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+		</entry>
+	</item>
+	<item id="122">
+		<entry nameID="unit_attack_values">
+			<value type="1">8</value>
+			<value type="7">2</value>
+			<value type="19">1</value>
+		</entry>
+	</item>
+	<item id="123">
+		<entry nameID="unit_attack_values">
+			<value type="1">13</value>
+			<value type="3">0</value>
+			<value type="7">1</value>
+			<value type="19">0</value>
+		</entry>
+	</item>
+	<item id="124">
+		<entry nameID="unit_attack_values">
+			<value type="2">5</value>
+			<value type="5">2</value>
+			<value type="6">2</value>
+			<value type="8">2</value>
+			<value type="13">0</value>
+			<value type="19">0</value>
+		</entry>
+	</item>
+	<item id="125">
+		<entry nameID="unit_attack_values">
+			<value type="2">8</value>
+			<value type="6">1</value>
+			<value type="12">5</value>
+			<value type="13">0</value>
+			<value type="19">0</value>
+		</entry>
+	</item>
+	<item id="126">
+		<entry nameID="unit_attack_values">
+			<value type="1">20</value>
+			<value type="3">0</value>
+			<value type="19">0</value>
+			<value type="20">10</value>
+			<value type="22">10</value>
+		</entry>
+	</item>
+	<item id="127">
+		<entry nameID="unit_attack_values">
+			<value type="2">20</value>
+			<value type="13">1</value>
+			<value type="20">0</value>
+		</entry>
+		<entry nameID="projectile_attack_values">
+			<value type="27">1002</value>
+		</entry>
+	</item>
+	<item id="128">
+		<entry nameID="unit_attack_values">
+			<value type="1">10</value>
+			<value type="9">12</value>
+			<value type="30">1</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+		</entry>
+	</item>
+	<item id="129">
+		<entry nameID="unit_attack_values">
+			<value type="1">14</value>
+			<value type="3">0</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+		</entry>
+	</item>
+	<item id="130">
+		<entry nameID="unit_attack_values">
+			<value type="2">18</value>
+			<value type="13">6</value>
+			<value type="20">2</value>
+		</entry>
+	</item>
+	<item id="131">
+		<entry nameID="unit_attack_values">
+			<value type="1">17</value>
+			<value type="7">4</value>
+			<value type="19">4</value>
+		</entry>
+	</item>
+	<item id="132">
+		<entry nameID="unit_attack_values">
+			<value type="2">22</value>
+			<value type="13">3</value>
+			<value type="20">0</value>
+		</entry>
+	</item>
+	<item id="133">
+		<entry nameID="unit_attack_values">
+			<value type="2">7</value>
+			<value type="5">0</value>
+			<value type="6">2</value>
+			<value type="13">0</value>
+			<value type="19">0</value>
+		</entry>
+	</item>
+	<item id="134">
+		<entry nameID="unit_attack_values">
+			<value type="1">14</value>
+			<value type="7">3</value>
+			<value type="9">0</value>
+			<value type="10">0</value>
+			<value type="19">3</value>
+		</entry>
+	</item>
+	<item id="135">
+		<entry nameID="unit_attack_values">
+			<value type="1">9</value>
+			<value type="12">0</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+		</entry>
+	</item>
+	<item id="136">
+		<entry nameID="unit_attack_values">
+			<value type="1">12</value>
+			<value type="12">0</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+		</entry>
+	</item>
+	<item id="137">
+		<entry nameID="unit_attack_values">
+			<value type="1">12</value>
+			<value type="7">0</value>
+			<value type="9">0</value>
+			<value type="10">0</value>
+			<value type="19">4</value>
+		</entry>
+	</item>
+	<item id="138">
+		<entry nameID="unit_attack_values">
+			<value type="2">4</value>
+			<value type="6">1</value>
+			<value type="19">0</value>
+		</entry>
+		<entry nameID="projectile_attack_values">
+			<value type="1">0</value>
+			<value type="2">3</value>
+		</entry>
+	</item>
+	<item id="139">
+		<entry nameID="unit_attack_values">
+			<value type="3">0</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+			<value type="31">13</value>
+		</entry>
+	</item>
+	<item id="140">
+		<entry nameID="unit_attack_values">
+			<value type="1">9</value>
+			<value type="3">0</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+		</entry>
+	</item>
+	<item id="141">
+		<entry nameID="unit_attack_values">
+			<value type="1">11</value>
+			<value type="12">0</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+		</entry>
+	</item>
+	<item id="142">
+		<entry nameID="unit_attack_values">
+			<value type="1">14</value>
+			<value type="12">0</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+		</entry>
+	</item>
+	<item id="143">
+		<entry nameID="unit_attack_values">
+			<value type="1">13</value>
+			<value type="7">0</value>
+			<value type="9">0</value>
+			<value type="10">0</value>
+			<value type="19">4</value>
+		</entry>
+	</item>
+	<item id="144">
+		<entry nameID="unit_attack_values">
+			<value type="2">5</value>
+			<value type="6">1</value>
+			<value type="19">0</value>
+		</entry>
+		<entry nameID="projectile_attack_values">
+			<value type="1">0</value>
+			<value type="2">3</value>
+		</entry>
+	</item>
+	<item id="145">
+		<entry nameID="unit_attack_values">
+			<value type="3">0</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+			<value type="31">16</value>
+		</entry>
+	</item>
+	<item id="146">
+		<entry nameID="unit_attack_values">
+			<value type="1">11</value>
+			<value type="3">0</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+		</entry>
+	</item>
+	<item id="147">
+		<entry nameID="unit_attack_values">
+			<value type="1">10</value>
+			<value type="3">0</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+		</entry>
+	</item>
+	<item id="148">
+		<entry nameID="unit_attack_values">
+			<value type="1">20</value>
+			<value type="9">50</value>
+			<value type="10">50</value>
+			<value type="11">130</value>
+			<value type="20">100</value>
+		</entry>
+	</item>
+	<item id="149">
+		<entry nameID="unit_attack_values">
+			<value type="1">8</value>
+			<value type="3">0</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+		</entry>
+	</item>
+	<item id="150">
+		<entry nameID="unit_attack_values">
+			<value type="1">5</value>
+			<value type="7">2</value>
+			<value type="19">2</value>
+		</entry>
+	</item>
+	<item id="151">
+		<entry nameID="unit_attack_values">
+			<value type="1">11</value>
+			<value type="3">0</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+		</entry>
+	</item>
+	<item id="152">
+		<entry nameID="unit_attack_values">
+			<value type="1">11</value>
+			<value type="7">3</value>
+			<value type="19">3</value>
+		</entry>
+	</item>
+	<item id="153">
+		<entry nameID="unit_attack_values">
+			<value type="1">12</value>
+			<value type="7">2</value>
+			<value type="9">8</value>
+			<value type="10">6</value>
+			<value type="11">8</value>
+			<value type="16">6</value>
+			<value type="19">0</value>
+		</entry>
+	</item>
+	<item id="154">
+		<entry nameID="unit_attack_values">
+			<value type="1">9</value>
+			<value type="3">0</value>
+			<value type="14">4</value>
+			<value type="15">14</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+		</entry>
+	</item>
+	<item id="155">
+		<entry nameID="unit_attack_values">
+			<value type="2">17</value>
+			<value type="13">3</value>
+			<value type="20">1</value>
+		</entry>
+		<entry nameID="projectile_attack_values">
+			<value type="27">1002</value>
+		</entry>
+	</item>
+	<item id="156">
+		<entry nameID="unit_attack_values">
+			<value type="1">8</value>
+			<value type="7">2</value>
+			<value type="19">4</value>
+		</entry>
+	</item>
+	<item id="157">
+		<entry nameID="unit_attack_values">
+			<value type="2">20</value>
+			<value type="13">3</value>
+			<value type="20">2</value>
+		</entry>
+		<entry nameID="projectile_attack_values">
+			<value type="27">1002</value>
+		</entry>
+	</item>
+	<item id="158">
+		<entry nameID="unit_attack_values">
+			<value type="1">10</value>
+			<value type="7">3</value>
+			<value type="19">6</value>
+		</entry>
+	</item>
+	<item id="159">
+		<entry nameID="unit_attack_values">
+			<value type="1">55</value>
+			<value type="12">20</value>
+			<value type="16">55</value>
+			<value type="29">55</value>
+			<value type="20">250</value>
+			<value type="22">55</value>
+			<value type="32">55</value>
+		</entry>
+	</item>
+	
+</list>

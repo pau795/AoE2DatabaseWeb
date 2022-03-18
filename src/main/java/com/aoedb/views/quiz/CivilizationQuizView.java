@@ -102,9 +102,9 @@ public class CivilizationQuizView extends QuizView {
             civThemes.put(i, theme);
             civIcons.put(i,icon1);
             ++civCount;
-            if (i == 34 || i == 39) civUnits.put(i, new ArrayList<>(Collections.singletonList(c.getUniqueUnit())));
+            if (i == 34 || i == 39) civUnits.put(i, new ArrayList<>(Collections.singletonList(c.getUniqueUnit()))); //discard winged hussar
             else civUnits.put(i, c.getUniqueUnitList());
-            unitCount += c.getUniqueUnitList().size();
+            unitCount += civUnits.get(i).size();
             ArrayList<String> a = new ArrayList<>();
             for(int b: c.getBonusList()){
                 Bonus bonus = Database.getBonus(b, language);

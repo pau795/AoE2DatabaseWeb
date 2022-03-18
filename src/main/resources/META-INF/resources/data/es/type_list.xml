@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<list>
+	<item id="1" icon="b_barracks">Base Melé</item>
+	<item id="2" icon="t_bodkin_arrow">Base Proyectil</item>
+	<item id="3" icon="u_arbalester">Arqueros</item>
+	<item id="4" icon="u_heavy_cavalry_archer">Arqueros a caballo</item>
+	<item id="5" icon="u_champion">Infantería</item>
+	<item id="6" icon="u_spearman">Lanceros</item>
+	<item id="7" icon="u_eagle_warrior">Guerreros Águila</item>
+	<item id="8" icon="u_condottiero">Condottiero</item>
+	<item id="9" icon="b_stable">Caballería</item>
+	<item id="10" icon="u_heavy_camel_rider">Jinetes de Camello</item>
+	<item id="11" icon="u_war_elephant">Elefantes</item>
+	<item id="12" icon="b_siege_workshop">Armas de Asedio</item>
+	<item id="13" icon="u_siege_ram">Arietes</item>
+	<item id="14" icon="u_hand_cannoneer">Unidades de Pólvora</item>
+	<item id="15" icon="u_monk">Monjes</item>
+	<item id="16" icon="u_war_galley">Barcos</item>
+	<item id="17" icon="u_turtle_ship">Barcos Tortuga</item>
+	<item id="18" icon="t_elite_uu">Unidades Únicas</item>
+	<item id="19" icon="b_house">Edificios Estandard</item>
+	<item id="20" icon="t_architecture">Todos los Edificios</item>
+	<item id="21" icon="b_castle">Castillos</item>
+	<item id="22" icon="b_stone_wall">Defensa de Piedra</item>
+	<item id="23" icon="b_gate">Muros y Puertas</item>
+	<item id="24" icon="u_wolf">Animales Depredadores</item>
+	<item id="25" icon="u_boar">Javalíes</item>
+	<item id="26" icon="u_tree">Árboles</item>
+	<item id="27" icon="t_white">Sin uso</item>
+	<item id="28" icon="t_sanctity">Puntos de Resisténcia</item>
+	<item id="29" icon="u_fishing_ship">Pesqueros</item>
+	<item id="30" icon="u_mameluke">Mamelucos</item>
+	<item id="31" icon="u_leitis">Ignorar Armad. (Leitis)</item>
+	<item id="32" icon="u_hussite_wagon">Carreta de Guerra Husita</item>
+</list>

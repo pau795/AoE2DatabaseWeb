@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<list>
+	<item id="1" icon="c_aztecs">The Aztecs</item>
+	<item id="2" icon="c_berbers">The Berbers</item>
+	<item id="3" icon="c_britons">The Britons</item>
+	<item id="4" icon="c_burmese">The Burmese</item>
+	<item id="5" icon="c_byzantines">The Byzantines</item>
+	<item id="6" icon="c_celts">The Celts</item>
+	<item id="7" icon="c_chinese">The Chinese</item>
+	<item id="8" icon="c_ethiopians">The Ethiopians</item>
+	<item id="9" icon="c_franks">The Franks</item>
+	<item id="10" icon="c_goths">The Goths</item>
+	<item id="11" icon="c_huns">The Huns</item>
+	<item id="12" icon="c_incas">The Incas</item>
+	<item id="13" icon="c_indians">The Indians</item>
+	<item id="14" icon="c_italians">The Italians</item>
+	<item id="15" icon="c_japanese">The Japanese</item>
+	<item id="16" icon="c_khmer">The Khmer</item>
+	<item id="17" icon="c_koreans">The Koreans</item>
+	<item id="18" icon="c_magyars">The Magyars</item>
+	<item id="19" icon="c_malay">The Malay</item>
+	<item id="20" icon="c_malians">The Malians</item>
+	<item id="21" icon="c_mayans">The Mayans</item>
+	<item id="22" icon="c_mongols">The Mongols</item>
+	<item id="23" icon="c_persians">The Persians</item>
+	<item id="24" icon="c_portuguese">The Portuguese</item>
+	<item id="25" icon="c_saracens">The Saracens</item>
+	<item id="26" icon="c_slavs">The Slavs</item>
+	<item id="27" icon="c_spanish">The Spanish</item>
+	<item id="28" icon="c_teutons">The Teutons</item>
+	<item id="29" icon="c_turks">The Turks</item>
+	<item id="30" icon="c_vietnamese">The Vietnamese</item>
+	<item id="31" icon="c_vikings">The Vikings</item>
+	<item id="32" icon="b_barracks">Medieval Warfare</item>
+	<item id="33" icon="u_militia">Dark Age Armies</item>
+	<item id="34" icon="u_knight">Knights</item>
+	<item id="35" icon="b_archery_range">Medieval Weapons</item>
+	<item id="36" icon="b_stable">Cavalry Weapons</item>
+	<item id="37" icon="t_bodkin_arrow">Missile Weapons</item>
+	<item id="38" icon="t_aggresive">Hand Weapons</item>
+	<item id="39" icon="t_patrol">Medieval Armies</item>
+	<item id="40" icon="t_line_formation">Organization</item>
+	<item id="41" icon="t_guard">Strategy</item>
+	<item id="42" icon="t_split_formation">Battle Tactics</item>
+	<item id="43" icon="u_mangudai">The Mongols</item>
+	<item id="44" icon="b_castle">Castles</item>
+	<item id="45" icon="t_hoardings">Castle Evolution</item>
+	<item id="46" icon="t_murder_holes">Castle Defense</item>
+	<item id="47" icon="t_treb">Castle Siege</item>
+	<item id="48" icon="t_ballistics">Gunpowder</item>
+	<item id="49" icon="b_dock">Naval Warfare</item>
+	<item id="50" icon="t_aoe">Middle Ages</item>
+	<item id="51" icon="u_legionary">The Fall of Rome</item>
+	<item id="52" icon="u_huskarl">Barbarian Invaders</item>
+	<item id="53" icon="t_dark_age">Dark Ages</item>
+	<item id="54" icon="u_king">Politics</item>
+	<item id="55" icon="b_monastery">Dark Age Religion</item>
+	<item id="56" icon="u_charlemagne">Charlemagne</item>
+	<item id="57" icon="u_berserk">The Vikings</item>
+	<item id="58" icon="u_teutonic_knight">The Crusades</item>
+	<item id="59" icon="t_feudal_age">Feudalism</item>
+	<item id="60" icon="t_coinage">Feudal Contract</item>
+	<item id="61" icon="b_house">Manor</item>
+	<item id="62" icon="t_castle_age">Late Middle Ages</item>
+	<item id="63" icon="t_banking">Economy</item>
+	<item id="64" icon="t_faith">Religion</item>
+	<item id="65" icon="t_tech">Technology</item>
+	<item id="66" icon="t_redemption">Feudalism's Decline</item>
+	<item id="67" icon="b_university">Renaissance</item>
+	<item id="68" icon="c_bulgarians">The Bulgarians</item>
+	<item id="69" icon="c_cumans">The Cumans</item>
+	<item id="70" icon="c_lithuanians">The Lithuanians</item>
+	<item id="71" icon="c_tatars">The Tatars</item>
+	<item id="72" icon="c_burgundians">The Burgundians</item>
+	<item id="73" icon="c_sicilians">The Sicilians</item>
+	<item id="74" icon="c_bohemians">The Bohemians</item>
+	<item id="75" icon="c_poles">The Poles</item>
+</list>

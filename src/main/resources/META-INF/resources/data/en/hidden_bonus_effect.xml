@@ -1,0 +1,650 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<list>
+	<item id="1">
+		<effects>
+			<statEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="2" operator="+" value="0 2 2 2"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="9" operator="+" value="0 0.35 0.35 0.35"/>
+				</effectItem>
+			</statEffect>
+			<costEffect/>
+			<ecoEffect/>
+			<attackValueEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="1" operator="+" value="0 2 2 2"/>
+				</effectItem>
+			</attackValueEffect>
+			<armorValueEffect/>
+		</effects>
+	</item>
+	<item id="2">
+		<effects>
+			<statEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="7" operator="+" value="0 2 4 6"/>
+				</effectItem>
+			</statEffect>
+			<costEffect/>
+			<ecoEffect/>
+			<attackValueEffect/>
+			<armorValueEffect/>
+		</effects>
+	</item>
+	<item id="3">
+		<effects>
+			<statEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="7" operator="+" value="0 1 1 1"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="2" operator="+" value="0 0 3 3"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="17" operator="-" value="0 0 25 25"/>
+				</effectItem>
+			</statEffect>
+			<costEffect/>
+			<ecoEffect/>
+			<attackValueEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="1" operator="+" value="0 0 3 3"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="9" operator="+" value="0 0 2 2"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="10" operator="+" value="0 0 1 1"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="16" operator="+" value="0 0 1 1"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="29" operator="+" value="0 0 1 1"/>
+				</effectItem>
+			</attackValueEffect>
+			<armorValueEffect/>
+		</effects>
+	</item>
+	<item id="4">
+		<effects>
+			<statEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="7" operator="+" value="0 2 2 2"/>
+				</effectItem>
+			</statEffect>
+			<costEffect/>
+			<ecoEffect/>
+			<attackValueEffect/>
+			<armorValueEffect/>
+		</effects>
+	</item>
+	<item id="5">
+		<effects>
+			<statEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="7" operator="+" value="0 2 4 6"/>
+				</effectItem>
+			</statEffect>
+			<costEffect/>
+			<ecoEffect/>
+			<attackValueEffect/>
+			<armorValueEffect/>
+		</effects>
+	</item>
+	<item id="6">
+		<effects>
+			<statEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="1" operator="*" value="1 1 2 2"/>
+				</effectItem>
+			</statEffect>
+			<costEffect/>
+			<ecoEffect/>
+			<attackValueEffect/>
+			<armorValueEffect/>
+		</effects>
+	</item>
+	<item id="7">
+		<effects>
+			<statEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="1" operator="+" value="0 0 320 320"/>
+				</effectItem>
+			</statEffect>
+			<costEffect/>
+			<ecoEffect/>
+			<attackValueEffect/>
+			<armorValueEffect/>
+		</effects>
+	</item>
+	<item id="8">
+		<effects>
+			<statEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="3" operator="+" value="0 1 2 3"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="4" operator="+" value="0 1 2 3"/>
+				</effectItem>
+			</statEffect>
+			<costEffect/>
+			<ecoEffect/>
+			<attackValueEffect/>
+			<armorValueEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="1" operator="+" value="0 1 2 3"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="2" operator="+" value="0 1 2 3"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="31" operator="+" value="0 1 2 3"/>
+				</effectItem>
+			</armorValueEffect>
+		</effects>
+	</item>
+	<item id="9">
+		<effects>
+			<statEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="1" operator="+" value="0 200 350 350"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="3" operator="+" value="0 1 3 5"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="4" operator="+" value="0 1 2 3"/>
+				</effectItem>
+			</statEffect>
+			<costEffect/>
+			<ecoEffect/>
+			<attackValueEffect/>
+			<armorValueEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="1" operator="+" value="0 1 3 5"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="2" operator="+" value="0 1 2 3"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="31" operator="+" value="0 1 3 5"/>
+				</effectItem>
+			</armorValueEffect>
+		</effects>
+	</item>
+	<item id="10">
+		<effects>
+			<statEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="1" operator="+" value="0 200 400 400"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="3" operator="+" value="0 1 2 3"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="4" operator="+" value="0 1 2 3"/>
+				</effectItem>
+			</statEffect>
+			<costEffect/>
+			<ecoEffect/>
+			<attackValueEffect/>
+			<armorValueEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="1" operator="+" value="0 1 2 3"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="2" operator="+" value="0 1 2 3"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="31" operator="+" value="0 1 2 3"/>
+				</effectItem>
+			</armorValueEffect>
+		</effects>
+	</item>
+	<item id="11">
+		<effects>
+			<statEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="3" operator="+" value="0 1 2 3"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="4" operator="+" value="0 1 2 3"/>
+				</effectItem>
+			</statEffect>
+			<costEffect/>
+			<ecoEffect/>
+			<attackValueEffect/>
+			<armorValueEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="1" operator="+" value="0 1 2 3"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="2" operator="+" value="0 1 2 3"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="31" operator="+" value="0 1 2 3"/>
+				</effectItem>
+			</armorValueEffect>
+		</effects>
+	</item>
+	<item id="12">
+		<effects>
+			<statEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="1" operator="+" value="0 300 600 900"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="3" operator="+" value="0 1 2 3"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="4" operator="+" value="0 1 2 3"/>
+				</effectItem>
+			</statEffect>
+			<costEffect/>
+			<ecoEffect/>
+			<attackValueEffect/>
+			<armorValueEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="1" operator="+" value="0 1 2 3"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="2" operator="+" value="0 1 2 3"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="31" operator="+" value="0 1 2 3"/>
+				</effectItem>
+			</armorValueEffect>
+		</effects>
+	</item>
+	<item id="13">
+		<effects>
+			<statEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="1" operator="+" value="0 0 300 300"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="3" operator="+" value="0 0 1 2"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="4" operator="+" value="0 0 1 2"/>
+				</effectItem>
+			</statEffect>
+			<costEffect/>
+			<ecoEffect/>
+			<attackValueEffect/>
+			<armorValueEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="1" operator="+" value="0 0 1 2"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="2" operator="+" value="0 0 1 2"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="31" operator="+" value="0 0 1 2"/>
+				</effectItem>
+			</armorValueEffect>
+		</effects>
+	</item>
+	<item id="14">
+		<effects>
+			<statEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="1" operator="+" value="0 0 300 300"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="3" operator="+" value="0 0 1 2"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="4" operator="+" value="0 0 1 2"/>
+				</effectItem>
+			</statEffect>
+			<costEffect/>
+			<ecoEffect/>
+			<attackValueEffect/>
+			<armorValueEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="1" operator="+" value="0 0 1 2"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="2" operator="+" value="0 0 1 2"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="31" operator="+" value="0 0 1 2"/>
+				</effectItem>
+			</armorValueEffect>
+		</effects>
+	</item>
+	<item id="15">
+		<effects>
+			<statEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="1" operator="+" value="0 0 300 600"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="3" operator="+" value="0 0 1 2"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="4" operator="+" value="0 0 1 2"/>
+				</effectItem>
+			</statEffect>
+			<costEffect/>
+			<ecoEffect/>
+			<attackValueEffect/>
+			<armorValueEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="1" operator="+" value="0 0 1 2"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="2" operator="+" value="0 0 1 2"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="31" operator="+" value="0 0 1 2"/>
+				</effectItem>
+			</armorValueEffect>
+		</effects>
+	</item>
+	<item id="16">
+		<effects>
+			<statEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="1" operator="+" value="0 0 300 600"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="3" operator="+" value="0 0 1 2"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="4" operator="+" value="0 0 1 2"/>
+				</effectItem>
+			</statEffect>
+			<costEffect/>
+			<ecoEffect/>
+			<attackValueEffect/>
+			<armorValueEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="1" operator="+" value="0 0 1 2"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="2" operator="+" value="0 0 1 2"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="31" operator="+" value="0 0 1 2"/>
+				</effectItem>
+			</armorValueEffect>
+		</effects>
+	</item>
+	<item id="17">
+		<effects>
+			<statEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="3" operator="+" value="0 0 0 1"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="4" operator="+" value="0 0 0 1"/>
+				</effectItem>
+			</statEffect>
+			<costEffect/>
+			<ecoEffect/>
+			<attackValueEffect/>
+			<armorValueEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="1" operator="+" value="0 0 0 1"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="2" operator="+" value="0 0 0 1"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="31" operator="+" value="0 0 0 1"/>
+				</effectItem>
+			</armorValueEffect>
+		</effects>
+	</item>
+	<item id="18">
+		<effects>
+			<statEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="3" operator="+" value="0 0 0 1"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="4" operator="+" value="0 0 0 1"/>
+				</effectItem>
+			</statEffect>
+			<costEffect/>
+			<ecoEffect/>
+			<attackValueEffect/>
+			<armorValueEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="1" operator="+" value="0 0 0 1"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="2" operator="+" value="0 0 0 1"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="31" operator="+" value="0 0 0 1"/>
+				</effectItem>
+			</armorValueEffect>
+		</effects>
+	</item>
+	<item id="19">
+		<effects>
+			<statEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="1" operator="+" value="0 0 0 300"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="3" operator="+" value="0 0 0 1"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="4" operator="+" value="0 0 0 1"/>
+				</effectItem>
+			</statEffect>
+			<costEffect/>
+			<ecoEffect/>
+			<attackValueEffect/>
+			<armorValueEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="1" operator="+" value="0 0 0 1"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="2" operator="+" value="0 0 0 1"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="31" operator="+" value="0 0 0 1"/>
+				</effectItem>
+			</armorValueEffect>
+		</effects>
+	</item>
+	<item id="20">
+		<effects>
+			<statEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="1" operator="*" value="1 1.67 1.67 1.67"/>
+				</effectItem>
+			</statEffect>
+			<costEffect/>
+			<ecoEffect/>
+			<attackValueEffect/>
+			<armorValueEffect/>
+		</effects>
+	</item>
+	<item id="21">
+		<effects>
+			<statEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="1" operator="+" value="0 0 20 20"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="2" operator="+" value="0 0 3 3"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="3" operator="+" value="0 0 1 1"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="4" operator="+" value="0 0 1 1"/>
+				</effectItem>
+			</statEffect>
+			<costEffect/>
+			<ecoEffect/>
+			<attackValueEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="1" operator="+" value="0 0 3 3"/>
+				</effectItem>
+			</attackValueEffect>
+			<armorValueEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="1" operator="+" value="0 0 1 1"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="2" operator="+" value="0 0 1 1"/>
+				</effectItem>
+			</armorValueEffect>
+		</effects>
+	</item>
+	<item id="22">
+		<effects>
+			<statEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="1" operator="*" value="1 1 1.5 2.25"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="13" operator="+" value="0 0 1 2"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="3" operator="+" value="0 0 1 1"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="4" operator="+" value="0 0 1 1"/>
+				</effectItem>
+			</statEffect>
+			<costEffect/>
+			<ecoEffect/>
+			<attackValueEffect/>
+			<armorValueEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="1" operator="+" value="0 0 1 1"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="2" operator="+" value="0 0 1 1"/>
+				</effectItem>
+			</armorValueEffect>
+		</effects>
+	</item>
+	<item id="23">
+		<effects>
+			<statEffect/>
+			<costEffect/>
+			<ecoEffect/>
+			<attackValueEffect>
+				<effectItem>
+					<filter class="unit" affectsSecondaryProjectile="true" ids="100"/>
+					<operation stat="2" operator="+" value="0 0 0 4"/>
+				</effectItem>
+				<effectItem>
+					<filter class="unit" ids="100"/>
+					<operation stat="2" operator="-" value="0 0 0 4"/>
+				</effectItem>
+			</attackValueEffect>
+			<armorValueEffect/>
+		</effects>
+	</item>
+</list>

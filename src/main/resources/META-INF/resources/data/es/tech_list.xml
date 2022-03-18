@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<list>
+	<item id="1" icon="t_loom">Telar</item>
+	<item id="2" icon="t_feudal_age">Edad Feudal</item>
+	<item id="3" icon="t_wheelbarrow">Carretilla</item>
+	<item id="4" icon="t_town_watch">Guardia Urbana</item>
+	<item id="5" icon="t_double_bit_axe">Hacha de Doble Filo</item>
+	<item id="6" icon="t_horse_collar">Collera</item>
+	<item id="7" icon="t_gold_mining">Minería aurífera</item>
+	<item id="8" icon="t_stone_mining">Explotación de Canteras</item>
+	<item id="9" icon="t_cartography">Cartografía</item>
+	<item id="10" icon="t_coinage">Acuñación</item>
+	<item id="11" icon="t_forging">Forja</item>
+	<item id="12" icon="t_scale_mail_armor">Armad. de Láminas</item>
+	<item id="13" icon="t_scale_barding_armor">Armad. de Láminas para Caball.</item>
+	<item id="14" icon="t_fletching">Emplumado de Flechas</item>
+	<item id="15" icon="t_padded_archer_armor">Armad. Acolchada para Arq.</item>
+	<item id="16" icon="t_man_at_arms">Hombre de Armas</item>
+	<item id="17" icon="t_supplies">Suministros</item>
+	<item id="18" icon="t_bloodlines">Pureza de Sangre</item>
+	<item id="19" icon="t_castle_age">Edad de los Castillos</item>
+	<item id="20" icon="t_hand_cart">Carro de Mano</item>
+	<item id="21" icon="t_town_patrol">Patrulla Urbana</item>
+	<item id="22" icon="t_bow_saw">Sierra de Arco</item>
+	<item id="23" icon="t_heavy_plow">Arado Pesado</item>
+	<item id="24" icon="t_gold_shaft_mining">Pozo Minero Aurífero</item>
+	<item id="25" icon="t_stone_shaft_mining">Pozo de Cantera</item>
+	<item id="26" icon="t_gillnets">Red Agallera</item>
+	<item id="27" icon="t_careening">Carenado</item>
+	<item id="28" icon="t_war_galley">Galera de Guerra</item>
+	<item id="29" icon="t_caravan">Caravana</item>
+	<item id="30" icon="t_banking">Banca</item>
+	<item id="31" icon="t_iron_casting">Fundición de Hierro</item>
+	<item id="32" icon="t_chain_mail_armor">Armad. de Cota de Malla</item>
+	<item id="33" icon="t_chain_barding_armor">Armad. de Cota de Malla para Caball.</item>
+	<item id="34" icon="t_bodkin_arrow">Flecha de Punzón</item>
+	<item id="35" icon="t_leather_archer_armor">Armad. de Cuero para Arq.</item>
+	<item id="36" icon="t_redemption">Redención</item>
+	<item id="37" icon="t_atonement">Expiación</item>
+	<item id="38" icon="t_fervor">Fervor</item>
+	<item id="39" icon="t_sanctity">Santidad</item>
+	<item id="40" icon="t_heresy">Herejía</item>
+	<item id="41" icon="t_herbal_medicine">Hierbas Medicinales</item>
+	<item id="42" icon="t_masonry">Albañilería</item>
+	<item id="43" icon="t_treadmill_crane">Grúa</item>
+	<item id="44" icon="t_heated_shot">Bala Roja</item>
+	<item id="45" icon="t_ballistics">Balística</item>
+	<item id="46" icon="t_murder_holes">Matacanes</item>
+	<item id="47" icon="t_guard_tower">Torre de Vigilancia</item>
+	<item id="48" icon="t_fortified_wall">Muralla Fortificado</item>
+	<item id="49" icon="t_long_swordsman">Espadachín de Espada Larga</item>
+	<item id="50" icon="t_pikeman">Piquero</item>
+	<item id="51" icon="t_eagle_warrior">Guerrero Águila</item>
+	<item id="52" icon="t_squires">Escuderos</item>
+	<item id="53" icon="t_arson">Incendiarismo</item>
+	<item id="54" icon="t_crossbowman">Ballestero</item>
+	<item id="55" icon="t_elite_skirmisher">Hostigador de Élite</item>
+	<item id="56" icon="t_thumb_ring">Dactilera</item>
+	<item id="57" icon="t_light_cavalry">Caballería Ligera</item>
+	<item id="58" icon="t_husbandry">Ganadería</item>
+	<item id="59" icon="t_castle_ut">Atlatl</item>
+	<item id="60" icon="t_castle_ut">Alcazabas</item>
+	<item id="61" icon="t_castle_ut">Yeomen</item>
+	<item id="62" icon="t_castle_ut">Howdah</item>
+	<item id="63" icon="t_castle_ut">Fuego Griego</item>
+	<item id="64" icon="t_castle_ut">Bastión</item>
+	<item id="65" icon="t_castle_ut">Gran Muralla</item>
+	<item id="66" icon="t_castle_ut">Centralización</item>
+	<item id="67" icon="t_castle_ut">Hacha de Arista</item>
+	<item id="68" icon="t_castle_ut">Anarquía</item>
+	<item id="69" icon="t_castle_ut">Razias</item>
+	<item id="70" icon="t_castle_ut">Huaracas</item>
+	<item id="71" icon="t_castle_ut">Sultanato</item>
+	<item id="72" icon="t_castle_ut">Escudo Pavés</item>
+	<item id="73" icon="t_castle_ut">Yasama</item>
+	<item id="74" icon="t_castle_ut">Colmillos de Acero</item>
+	<item id="75" icon="t_castle_ut">Eupseong</item>
+	<item id="76" icon="t_castle_ut">Mercenarios</item>
+	<item id="77" icon="t_castle_ut">Talasocracia</item>
+	<item id="78" icon="t_castle_ut">Gran Asamblea</item>
+	<item id="79" icon="t_castle_ut">Lanzadores Hul'che</item>
+	<item id="80" icon="t_castle_ut">Nómadas</item>
+	<item id="81" icon="t_castle_ut">Kamandaran</item>
+	<item id="82" icon="t_castle_ut">Carracas</item>
+	<item id="83" icon="t_castle_ut">Madraza</item>
+	<item id="84" icon="t_castle_ut">Ortodoxia</item>
+	<item id="85" icon="t_castle_ut">Inquisición</item>
+	<item id="86" icon="t_castle_ut">Blindaje</item>
+	<item id="87" icon="t_castle_ut">Sipahi</item>
+	<item id="88" icon="t_castle_ut">Chatras</item>
+	<item id="89" icon="t_castle_ut">Hérsires</item>
+	<item id="90" icon="t_imperial_age">Edad Imperial</item>
+	<item id="91" icon="t_two_man_saw">Sierra a Dos</item>
+	<item id="92" icon="t_crop_rotation">Rotación de Cultivos</item>
+	<item id="93" icon="t_dry_dock">Dique Seco</item>
+	<item id="94" icon="t_shipwright">Carpintero Naval</item>
+	<item id="95" icon="t_galleon">Galeón</item>
+	<item id="96" icon="t_fast_fire_ship">Barco Incendiario Rápido</item>
+	<item id="97" icon="t_heavy_demolition_ship">Buque de Demolición Pesado</item>
+	<item id="98" icon="t_cannon_galleon">Galeón Artillado</item>
+	<item id="99" icon="t_elite_cannon_galleon">Galeón Artillado de Élite</item>
+	<item id="100" icon="t_elite_uu">Drakkar de Élite</item>
+	<item id="101" icon="t_elite_uu">Barco Tortuga de Élite</item>
+	<item id="102" icon="t_elite_uu">Carabela de Élite</item>
+	<item id="103" icon="t_guilds">Gremios</item>
+	<item id="104" icon="t_blast_furnace">Alto Horno</item>
+	<item id="105" icon="t_plate_mail_armor">Armad. de Placas de Malla</item>
+	<item id="106" icon="t_plate_barding_armor">Armad. de Placas para Caball.</item>
+	<item id="107" icon="t_bracer">Brazal</item>
+	<item id="108" icon="t_ring_archer_armor">Armad. de Anillos para Arq.</item>
+	<item id="109" icon="t_faith">Fe</item>
+	<item id="110" icon="t_illumination">Iluminación</item>
+	<item id="111" icon="t_block_printing">Letras de Imprenta</item>
+	<item id="112" icon="t_theocracy">Teocracia</item>
+	<item id="113" icon="t_architecture">Arquitectura</item>
+	<item id="114" icon="t_chemistry">Química</item>
+	<item id="115" icon="t_siege_engineers">Ingenieros de Asedio</item>
+	<item id="116" icon="t_arrowslits">Aspillera en Cruz</item>
+	<item id="117" icon="t_keep">Torre del Homenaje</item>
+	<item id="118" icon="t_bombard_tower">Torre de Bombardeo</item>
+	<item id="119" icon="t_two_handed_swordsman">Espadachín de Mandoble</item>
+	<item id="120" icon="t_champion">Campeón</item>
+	<item id="121" icon="t_halberdier">Alabardero</item>
+	<item id="122" icon="t_elite_eagle_warrior">Guerrero Águila de Élite</item>
+	<item id="123" icon="t_arbalester">Arbalestero</item>
+	<item id="124" icon="t_imperial_skirmisher">Hostigador Imperial</item>
+	<item id="125" icon="t_heavy_cavalry_archer">Caballería Pesada de Arqueros</item>
+	<item id="126" icon="t_elite_uu">Escaramuzador Zenete de Élite</item>
+	<item id="127" icon="t_parthian_tactics">Tácticas de los Partos</item>
+	<item id="128" icon="t_hussar">Húsar</item>
+	<item id="129" icon="t_cavalier">Caballero</item>
+	<item id="130" icon="t_paladin">Paladín</item>
+	<item id="131" icon="t_heavy_camel_rider">Jinete de Camello Peasdo</item>
+	<item id="132" icon="t_imperial_camel_rider">Jinete de Camello Imperial</item>
+	<item id="133" icon="t_elite_battle_elephant">Elefante de Combate de Élite</item>
+	<item id="134" icon="t_capped_ram">Ariete Cubierto</item>
+	<item id="135" icon="t_siege_ram">Ariete de Asedio</item>
+	<item id="136" icon="t_onager">Onagro</item>
+	<item id="137" icon="t_siege_onager">Onagro de Asedio</item>
+	<item id="138" icon="t_heavy_scorpion">Escorpión Pesado</item>
+	<item id="139" icon="t_hoardings">Ladronera</item>
+	<item id="140" icon="t_sappers">Zapadores</item>
+	<item id="141" icon="t_conscription">Leva</item>
+	<item id="142" icon="t_spies">Espionaje</item>
+	<item id="143" icon="t_elite_uu">Guerrero Jaguar de Élite</item>
+	<item id="144" icon="t_elite_uu">Arquero en Camello de Élite</item>
+	<item id="145" icon="t_elite_uu">Arquero con Arco Largo de Élite</item>
+	<item id="146" icon="t_elite_uu">Arambai de Élite</item>
+	<item id="147" icon="t_elite_uu">Catafracta de Élite</item>
+	<item id="148" icon="t_elite_uu">Incursor Azul de Élite</item>
+	<item id="149" icon="t_elite_uu">Chu Ko Nu de Élite</item>
+	<item id="150" icon="t_elite_uu">Shotelai de Élite</item>
+	<item id="151" icon="t_elite_uu">Lanzador de Hachas de Élite</item>
+	<item id="152" icon="t_elite_uu">Huscarle de Élite</item>
+	<item id="153" icon="t_elite_uu">Tarcano de Élite</item>
+	<item id="154" icon="t_elite_uu">Kamayuk de Élite</item>
+	<item id="155" icon="t_elite_uu">Elefante Arquero de Élite</item>
+	<item id="156" icon="t_elite_uu">Ballestero Genovés de Élite</item>
+	<item id="157" icon="t_elite_uu">Samurai de Élite</item>
+	<item id="158" icon="t_elite_uu">Elefante con Balista de Élite</item>
+	<item id="159" icon="t_elite_uu">Carreta de Guerra de Élite</item>
+	<item id="160" icon="t_elite_uu">Huszár Magiar de Élite</item>
+	<item id="161" icon="t_elite_uu">Recluta con Karambit de Élite</item>
+	<item id="162" icon="t_elite_uu">Guardiana Gbeto de Élite</item>
+	<item id="163" icon="t_elite_uu">Arquero Emplumado de Élite</item>
+	<item id="164" icon="t_elite_uu">Mangudai de Élite</item>
+	<item id="165" icon="t_elite_uu">Elefante de Guerra de Élite</item>
+	<item id="166" icon="t_elite_uu">Cañón de Salvas de Élite</item>
+	<item id="167" icon="t_elite_uu">Mameluco de Élite</item>
+	<item id="168" icon="t_elite_uu">Boyardo de Élite</item>
+	<item id="169" icon="t_elite_uu">Conquistador de Élite</item>
+	<item id="170" icon="t_elite_uu">Caballero Teutónico de Élite</item>
+	<item id="171" icon="t_elite_uu">Jenízaro de Élite</item>
+	<item id="172" icon="t_elite_uu">Arquero de Ratán de Élite</item>
+	<item id="173" icon="t_elite_uu">Berserk de Élite</item>
+	<item id="174" icon="t_imperial_ut">Guerras Floridas</item>
+	<item id="175" icon="t_imperial_ut">Camellos Magrebíes</item>
+	<item id="176" icon="t_imperial_ut">Warwolf</item>
+	<item id="177" icon="t_imperial_ut">Caballería Manipur</item>
+	<item id="178" icon="t_imperial_ut">Logística</item>
+	<item id="179" icon="t_imperial_ut">Furor Celta</item>
+	<item id="180" icon="t_imperial_ut">Cohetería</item>
+	<item id="181" icon="t_imperial_ut">Mecanismos de Torsión</item>
+	<item id="182" icon="t_imperial_ut">Código Caballeresco</item>
+	<item id="183" icon="t_imperial_ut">Movilización</item>
+	<item id="184" icon="t_imperial_ut">Ateísmo</item>
+	<item id="185" icon="t_imperial_ut">Escudos de Tela</item>
+	<item id="186" icon="t_imperial_ut">Shatagni</item>
+	<item id="187" icon="t_imperial_ut">Ruta de la Seda</item>
+	<item id="188" icon="t_imperial_ut">Kataparuto</item>
+	<item id="189" icon="t_imperial_ut">Ballesta Doble</item>
+	<item id="190" icon="t_imperial_ut">Shinkichon</item>
+	<item id="191" icon="t_imperial_ut">Arco Recurvo</item>
+	<item id="192" icon="t_imperial_ut">Leva en Masa</item>
+	<item id="193" icon="t_imperial_ut">Farimba</item>
+	<item id="194" icon="t_imperial_ut">El Dorado</item>
+	<item id="195" icon="t_imperial_ut">Instrucción Militar</item>
+	<item id="196" icon="t_imperial_ut">Mahouts</item>
+	<item id="197" icon="t_imperial_ut">Arcabuz</item>
+	<item id="198" icon="t_imperial_ut">Fanatismo</item>
+	<item id="199" icon="t_imperial_ut">Druzhina</item>
+	<item id="200" icon="t_imperial_ut">Supremacía</item>
+	<item id="201" icon="t_imperial_ut">Almenas</item>
+	<item id="202" icon="t_imperial_ut">Artillería</item>
+	<item id="203" icon="t_imperial_ut">Papel Moneda</item>
+	<item id="204" icon="t_imperial_ut">Trance Frenético</item>
+	<item id="205" icon="t_elite_steppe_lancer">Lancero Estepario de Élite</item>
+	<item id="206" icon="t_elite_uu">Konnik de Élite</item>
+	<item id="207" icon="t_elite_uu">Kipchak de Élite</item>
+	<item id="208" icon="t_elite_uu">Leitis de Élite</item>
+	<item id="209" icon="t_elite_uu">Keshik de Élite</item>
+	<item id="210" icon="t_castle_ut">Estribos</item>
+	<item id="211" icon="t_castle_ut">Ganadería de la Estepa</item>
+	<item id="212" icon="t_castle_ut">Fuertes en las Colinas</item>
+	<item id="213" icon="t_castle_ut">Armadura de Seda</item>
+	<item id="214" icon="t_imperial_ut">Bagains</item>
+	<item id="215" icon="t_imperial_ut">Mercenarios Cumanos</item>
+	<item id="216" icon="t_imperial_ut">Escudos Rectangulares</item>
+	<item id="217" icon="t_imperial_ut">Tácticas de Asedio Timúridas</item>
+	<item id="218" icon="t_castle_ut">Viñedos de Borgoña</item>
+	<item id="219" icon="t_castle_ut">Primera Cruzada</item>
+	<item id="220" icon="t_elite_uu">Coustillier de Élite</item>
+	<item id="221" icon="t_elite_uu">Serjeant de Élite</item>
+	<item id="222" icon="t_imperial_ut">Revolución Flamenca</item>
+	<item id="223" icon="t_imperial_ut">Cota de Malla</item>
+	<item id="224" icon="t_winged_hussar">Húsar Alado</item>
+	<item id="225" icon="t_castle_ut">Tácticas de Fuerte de Carretas</item>
+	<item id="226" icon="t_castle_ut">Privilegios de Szlachta</item>
+	<item id="227" icon="t_elite_uu">Carro de Guerra Husita de Élite</item>
+	<item id="228" icon="t_elite_uu">Martillo de Guerra de Élite</item>
+	<item id="229" icon="t_imperial_ut">Reformas Husitas</item>
+	<item id="230" icon="t_imperial_ut">Legado Lequítico</item>
+	<item id="231" icon="t_houfnice">Obús</item>
+</list>
