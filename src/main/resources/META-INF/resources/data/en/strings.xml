@@ -69,7 +69,7 @@
     <string name="title_damage_calculator_activity">Damage Calculator</string>
     <string name="title_advanced_search_activity">Advanced Search\n(Under Construction)</string>
 
-    <!--GAME MECHANICS STRINGS-->;
+    <!--GAME MECHANICS STRINGS-->
     <string name="gm_economy">Economy</string>
     <string name="gm_military">Military</string>
 
@@ -509,7 +509,6 @@
     <string name="sort_military_eco">Sort by Economic/Military</string>
     <string name="sort_alphabetically">Sort Alphabetically</string>
     <string name="sort_expansions">Sort by Expansions</string>
-    <string name="sort_all_content">All content</string>
     <string name="sort_topic">Sort by Topic</string>
     <string name="search">Search</string>
     <string name="sort">Sort</string>
@@ -611,7 +610,6 @@
     <string name="quiz_building_time_correction">It takes %s seconds to build the %s.</string>
     <string name="quiz_unit_cost_correction">The %s costs %d %s</string>
     <string name="quiz_cost_correction2">and %d %s.</string>
-	
     <string name="as_search">SEARCH</string>
     <string name="as_civs">Civilizations</string>
     <string name="as_techs">Technologies</string>

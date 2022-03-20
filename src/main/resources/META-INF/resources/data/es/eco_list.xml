@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<list>
+	<item id="1" value="23.4">Leñador</item>
+	<item id="2" value="19.8">Pastor</item>
+	<item id="3" value="18.6">Recolector</item>
+	<item id="4" value="24.6">Cazador</item>
+	<item id="5" value="25.8">Pescador</item>
+	<item id="6" value="20.2667">Agricultor</item>
+	<item id="7" value="60">Constructor</item>
+	<item id="8" value="750">Reparador</item>
+	<item id="9" value="22.8">Minero de Oro</item>
+	<item id="10" value="21.6">Cantero</item>
+	<item id="11" value="16.8">Pesquero</item>
+	<item id="12" value="30">Reliquia</item>
+	<item id="13" value="13.8">Carreta Comercial</item>
+	<item id="14" value="17.9">Barco Mercante</item>
+	<item id="15" value="60">Comida Factoría</item>
+	<item id="16" value="96">Madera Factoría</item>
+	<item id="17" value="42">Oro Factoría</item>
+	<item id="18" value="18">Piedra Factoría</item>
+	<item id="19" value="22">Keshik</item>
+	<item id="20" value="-">Oro Agricultor</item>
+	<item id="21" value="-">Comida Reliquia</item>
+	<item id="22" value="-">Oro Cantero</item>
+</list>

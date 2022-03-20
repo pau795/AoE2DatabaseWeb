@@ -67,7 +67,7 @@ public class Reader {
             for (int i = 0; i< list.getLength(); ++i) {
                 Element element = (Element) list.item(i);
                 String key = element.getAttribute("name");
-                String content = element.getTextContent().replace("\\n", "\n").replace("&lt;","<").replace("&gt;", ">");
+                String content = element.getTextContent().replace("\\n", "\n");
                 b.put(key, content);
             }
             return b;
