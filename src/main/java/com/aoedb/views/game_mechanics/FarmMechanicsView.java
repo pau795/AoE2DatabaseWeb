@@ -20,11 +20,19 @@ public class FarmMechanicsView extends DocumentView {
         addTable(3, getTableHeadings(), getTableStrings());
         addTitle(Database.getString("gm_farm_harvesting", language));
         addText(Database.getString("farm_mechanics_harvesting1", language), false);
-        addText(Database.getString("farm_mechanics_harvesting2", language), false);
+        addText(getStringList(), false);
         addImage(Database.getImage("farm_mechanics2"));
         addText(Database.getString("farm_mechanics_img", language), true);
         addTitle(Database.getString("gm_farm_gathering_rates", language));
         addText(Database.getString("farm_mechanics_rates", language), false);
+    }
+
+    private String getStringList(){
+        String text ="<ol>";
+        text += "<li>"+ Database.getString("farm_mechanics_harvesting2", language) + "</li>";
+        text += "<li>"+ Database.getString("farm_mechanics_harvesting3", language) + "</li>";
+        text += "</ol>";
+        return text;
     }
 
     @Override

@@ -22,7 +22,7 @@ public class DamageFormulaView extends DocumentView {
         addTitle(Database.getString("gm_accuracy_multiplier", language));
         addText(Database.getString("damage_formula_accuracy1", language), false);
         addImage(Database.getImage("damage_formula1"));
-        addText(Database.getString("damage_formula_formula1_text", language), true);
+        addText(getFormula1String(), true);
         addText(Database.getString("damage_formula_accuracy2", language), false);
         addTitle(Database.getString("gm_secondary_projectiles", language));
         addText(Database.getString("damage_formula_projectiles", language), false);
@@ -31,7 +31,7 @@ public class DamageFormulaView extends DocumentView {
         addTitle(Database.getString("gm_damage_formula", language));
         addText(Database.getString("damage_formula_formula1", language), false);
         addImage(Database.getImage("damage_formula"));
-        addText(Database.getString("damage_formula_formula2_text", language), true);
+        addText(getFormula2String(), true);
         addText(Database.getString("damage_formula_formula2", language), false);
         addTitle(Database.getString("gm_practical_example", language));
         addText(Database.getString("damage_formula_example1", language), false);
@@ -88,6 +88,31 @@ public class DamageFormulaView extends DocumentView {
         };
     }
 
+
+    private String getFormula1String() {
+        String text = Database.getString("damage_formula_formula1_text", language);
+        text += "<ul>";
+        text += "<li>" + Database.getString("damage_formula_formula1_text1", language) + "</li>";
+        text += "<li>" + Database.getString("damage_formula_formula1_text2", language) + "</li>";
+        text += "<li>" + Database.getString("damage_formula_formula1_text3", language) + "</li>";
+        text += "</ul>";
+        return text;
+    }
+
+    private String getFormula2String() {
+        String text = Database.getString("damage_formula_formula2_text", language);
+        text += "<ul>";
+        text += "<li>" + Database.getString("damage_formula_formula2_text1", language) + "</li>";
+        text += "<li>" + Database.getString("damage_formula_formula2_text2", language) + "</li>";
+        text += "<li>" + Database.getString("damage_formula_formula2_text3", language) + "</li>";
+        text += "<li>" + Database.getString("damage_formula_formula2_text4", language) + "</li>";
+        text += "<li>" + Database.getString("damage_formula_formula2_text5", language) + "</li>";
+        text += "<li>" + Database.getString("damage_formula_formula2_text6", language) + "</li>";
+        text += "<li>" + Database.getString("damage_formula_formula2_text7", language) + "</li>";
+        text += "<li>" + Database.getString("damage_formula_formula2_text8", language) + "</li>";
+        text += "</ul>";
+        return text;
+    }
 
 
     @Override

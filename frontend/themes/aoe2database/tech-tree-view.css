@@ -156,6 +156,7 @@
 .tech-tree-shield-name{
     text-align: center;
     font-weight: bold;
+    white-space: pre-line;
     color: black;
 }
 

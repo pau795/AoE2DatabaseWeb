@@ -145,7 +145,7 @@ public class UnitComparatorView extends OneColumnView {
         if (civID1 == -1) civID1 = availableCivs.get(0);
         upgradesID1 = unit1.getUpgradesIds();
         selector.setupUpgrade1Selector(upgradesID1);
-        selector.setUnit1Civ(civList.get(0), civList);
+        selector.setUnit1Civ(Database.getElement(Database.CIVILIZATION_LIST, civID1, language), civList);
         updateURL();
         setupAgeLayout();
     }
@@ -168,7 +168,7 @@ public class UnitComparatorView extends OneColumnView {
         if (civID2 == -1) civID2 = availableCivs.get(0);
         upgradesID2 = unit2.getUpgradesIds();
         selector.setupUpgrade2Selector(upgradesID2);
-        selector.setUnit2Civ(civList.get(0), civList);
+        selector.setUnit2Civ(Database.getElement(Database.CIVILIZATION_LIST, civID2, language), civList);
         updateURL();
         setupAgeLayout();
     }

@@ -27,8 +27,26 @@ public class GarrisonMechanicsView extends DocumentView {
         addTable(3, table2Headings(), table2Strings());
         addText(Database.getString("garrison_projectiles2", language), false);
         addImage(Database.getImage("garrison_formula"));
-        addText(Database.getString("garrison_formula_text", language), true);
+        addText(getFormulaString(), true);
         addText(Database.getString("garrison_projectiles3", language), false);
+    }
+
+    private String getFormulaString() {
+        String text = Database.getString("garrison_formula_text", language);
+        text += "<ul>";
+        text += "<li>" + Database.getString("garrison_formula_text1", language) + "</li>";
+        text += "<li>" + Database.getString("garrison_formula_text2", language) + "</li>";
+        text += "<li>" + Database.getString("garrison_formula_text3", language) + "</li>";
+        text += "<li>" + Database.getString("garrison_formula_text4", language) + "</li>";
+        text += "<li>" + Database.getString("garrison_formula_text5", language) + "</li>";
+        text += "<li>" + Database.getString("garrison_formula_text6", language) + "</li>";
+        text += "<li>" + Database.getString("garrison_formula_text7", language) + "</li>";
+        text += "<li>" + Database.getString("garrison_formula_text8", language) + "</li>";
+        text += "<li>" + Database.getString("garrison_formula_text9", language) + "</li>";
+        text += "<li>" + Database.getString("garrison_formula_text10", language) + "</li>";
+
+        text += "</ul>";
+        return text;
     }
 
 

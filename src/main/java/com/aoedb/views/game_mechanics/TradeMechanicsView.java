@@ -17,13 +17,13 @@ public class TradeMechanicsView extends DocumentView {
         addText(Database.getString("trade_mechanics_basics", language), false);
         addTitle(Database.getString("gm_gold_profit", language));
         addText(Database.getString("trade_mechanics_profit1", language), false);
-        addText(Database.getString("trade_mechanics_profit2", language), false);
+        addText(getStringList1(), false);
         addImage(Database.getImage("formula_trade_1"));
         addText(Database.getString("trade_mechanics_quote1", language), true);
-        addText(Database.getString("trade_mechanics_profit3", language), false);
+        addText(getStringList2(), false);
         addText(Database.getString("trade_mechanics_profit6", language), false);
         addImage(Database.getImage("formula_trade_2"));
-        addText(Database.getString("trade_mechanics_formula_text", language), true);
+        addText(getFormulaString(), true);
         addText(Database.getString("trade_mechanics_profit7", language), false);
         addTable(2, getTable1Headings(), getTable1Strings());
         addTitle(Database.getString("gm_gold_income", language));
@@ -32,6 +32,34 @@ public class TradeMechanicsView extends DocumentView {
         addText(Database.getString("trade_mechanics_income2", language), false);
         addTable(3, getTable3Headings(), getTable3Strings());
 
+    }
+
+    private String getStringList1(){
+        String text ="<ol>";
+        text += "<li>"+ Database.getString("trade_mechanics_profit2", language) + "</li>";
+        text += "</ol>";
+        return text;
+    }
+
+    private String getStringList2(){
+        String text ="<ol start=\"2\">";
+        text += "<li>"+ Database.getString("trade_mechanics_profit3", language) + "</li>";
+        text += "<li>"+ Database.getString("trade_mechanics_profit4", language) + "</li>";
+        text += "<li>"+ Database.getString("trade_mechanics_profit5", language) + "</li>";
+        text += "</ol>";
+        return text;
+    }
+
+    private String getFormulaString(){
+        String text = Database.getString("trade_mechanics_formula_text", language);
+        text += "<ul>";
+        text += "<li>"+ Database.getString("trade_mechanics_formula_text1", language) + "</li>";
+        text += "<li>"+ Database.getString("trade_mechanics_formula_text2", language) + "</li>";
+        text += "<li>"+ Database.getString("trade_mechanics_formula_text3", language) + "</li>";
+        text += "<li>"+ Database.getString("trade_mechanics_formula_text4", language) + "</li>";
+        text += "<li>"+ Database.getString("trade_mechanics_formula_text5", language) + "</li>";
+        text += "</ul>";
+        return text;
     }
 
     private String[] getTable1Headings(){

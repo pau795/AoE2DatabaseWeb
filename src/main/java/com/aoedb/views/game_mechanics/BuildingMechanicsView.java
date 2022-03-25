@@ -20,7 +20,7 @@ public class BuildingMechanicsView extends DocumentView {
         addTitle(Database.getString("gm_basics", language));
         addText(Database.getString("building_mechanics_basics1", language), false);
         addImage(Database.getImage("formula_building_1"));
-        addText(Database.getString("building_mechanics_formula_text", language), true);
+        addText(getFormulaString(), true);
         addText(Database.getString("building_mechanics_basics2", language), false);
         addTable(3, getTableHeadings(), getTableStrings());
         addTitle(Database.getString("gm_building_upgrades_and_bonuses", language));
@@ -51,6 +51,16 @@ public class BuildingMechanicsView extends DocumentView {
                 "13","40","5.00",
                 "16","33.3","6.00",
         };
+    }
+
+    private String getFormulaString(){
+        String text = Database.getString("building_mechanics_formula_text", language);
+        text += "<ul>";
+        text += "<li>"+ Database.getString("building_mechanics_formula_text1", language) + "</li>";
+        text += "<li>"+ Database.getString("building_mechanics_formula_text2", language) + "</li>";
+        text += "<li>"+ Database.getString("building_mechanics_formula_text3", language) + "</li>";
+        text += "</ul>";
+        return text;
     }
 
 }

@@ -113,7 +113,8 @@ public class DoubleAgeCivSelector extends Div {
     private void setupSelector(Select<EntityElement> selector, EntityElement civElement, List<EntityElement> civNames){
         selector.clear();
         selector.setItems(civNames);
-        selector.setValue(civElement);
+        if (civNames.contains(civElement)) selector.setValue(civElement);
+        else selector.setValue(civNames.get(0));
         selector.addValueChangeListener(event->{
             if (!event.getHasValue().isEmpty()) {
                 if (selector == civSelector1) {

@@ -19,7 +19,7 @@ public class ConversionMechanicsView extends DocumentView {
         super.initView();
         addTitle(Database.getString("gm_basics", language));
         addText(Database.getString("conversion_basics1", language), false);
-        addText(Database.getString("conversion_basics2", language), false);
+        addText(getStringList(), false);
         addText(Database.getString("conversion_basics4", language), false);
         addTitle(Database.getString("gm_performing_a_conversion", language));
         addText(Database.getString("conversion_perform1", language), false);
@@ -41,6 +41,14 @@ public class ConversionMechanicsView extends DocumentView {
                 Database.getString("gm_conversion_table_time", language),
                 Database.getString("gm_conversion_table_chance", language)
         };
+    }
+
+    private String getStringList(){
+        String text ="<ol>";
+        text += "<li>"+ Database.getString("conversion_basics2", language) + "</li>";
+        text += "<li>"+ Database.getString("conversion_basics3", language) + "</li>";
+        text += "</ol>";
+        return text;
     }
 
     private String[] getTableStrings(){
