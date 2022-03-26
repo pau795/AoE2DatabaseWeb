@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<list>
+    <!--Villagers have +3 carry capacity.-->
+    <item id="1"/>
+     
+    <!--Military units are created 11% faster.-->
+    <item id="2"/>
+     
+    <!--Monks get +5 hit points for each researched Monastery technology.-->
+    <item id="3"/>
+     
+    <!--Start with +50 gold.-->
+    <item id="4"/>
+     
+    <!--Relics generate +33% gold.-->
+    <item id="5"/>
+     
+    <!--Villagers move 10% faster.-->
+    <item id="6"/>
+     
+    <!--Stable units cost -15/20% in Castle/Imperial Age.-->
+    <item id="7"/>
+     
+    <!--Ships move 10% faster.-->
+    <item id="8"/>
+     
+    <!--Genitour available in the Archery Range.-->
+    <item id="9"/>
+     
+    <!--Town Centers cost -50% wood starting in Castle Age.-->
+    <item id="10"/>
+     
+    <!--Foot Archers (except Skirmishers) have +1/2 range in Castle/Imperial Age.-->
+    <item id="11"/>
+     
+    <!--Shepherds work 25% faster.-->
+    <item id="12"/>
+     
+    <!--Archery Ranges work 20% faster.-->
+    <item id="13"/>
+     
+    <!--Free Lumber Camp upgrades.-->
+    <item id="14"/>
+     
+    <!--Infantry have +1/2/3 attack in Feudal/Castle/Imperial Age.-->
+    <item id="15"/>
+     
+    <!--Monastery technologies cost -50%.-->
+    <item id="16"/>
+     
+    <!--Relics are visible on the map.-->
+    <item id="17"/>
+     
+    <!--Buildings have +10/20/30/40% hit points in Dark/Feudal/Castle/Imperial Age.-->
+    <item id="18"/>
+     
+    <!--Camel Riders, Skirmishers, Spear-line cost -25%.-->
+    <item id="19"/>
+     
+    <!--Fire Ships attack 20% faster.-->
+    <item id="20"/>
+     
+    <!--Town Watch and Town Patrol technologies are free.-->
+    <item id="21"/>
+     
+    <!--Advance to Imperial Age costs -33%.-->
+    <item id="22"/>
+     
+    <!--Monks heal 100% faster.-->
+    <item id="23"/>
+     
+    <!--Infantry move 15% faster starting in Feudal Age.-->
+    <item id="24"/>
+     
+    <!--Lumberjacks work 15% faster.-->
+    <item id="25"/>
+     
+    <!--Siege Weapons fire 25% faster.-->
+    <item id="26"/>
+     
+    <!--Can convert herdables even if enemy units are next to them.-->
+    <item id="27"/>
+     
+    <!--Siege Workshops work 20% faster.-->
+    <item id="28"/>
+     
+    <!--Start with +3 Villagers but -50 wood, -200 food.-->
+    <item id="29"/>
+     
+    <!--Technologies cost -10/15/20% in Feudal/Castle/Imperial Age (except aging up).-->
+    <item id="30"/>
+     
+    <!--Town Centers support 10 population.-->
+    <item id="31"/>
+     
+    <!--Town Centers have +5 line of sight.-->
+    <item id="32"/>
+     
+    <!--Demolition Ships have +50% hit points.-->
+    <item id="33"/>
+     
+    <!--Farms have +10% food.-->
+    <item id="34"/>
+     
+    <!--Archer-line fires +18% faster.-->
+    <item id="35"/>
+     
+    <!--Receive +100 gold, +100 food when advancing to the next Age.-->
+    <item id="36"/>
+     
+    <!--Pikeman upgrade is free.-->
+    <item id="37"/>
+     
+    <!--Towers and Outposts have +3 line of sight.-->
+    <item id="38"/>
+     
+    <!--Foragers work 15% faster.-->
+    <item id="39"/>
+     
+    <!--Castles cost -25%.-->
+    <item id="40"/>
+     
+    <!--Cavalry have +20% hit points, starting in Feudal Age.-->
+    <item id="41"/>
+     
+    <!--Farm upgrades are free (require Mill).-->
+    <item id="42"/>
+     
+    <!--Knights have +2 line of sight.-->
+    <item id="43"/>
+     
+    <!--Infantry cost -20/25/30/35% in Dark/Feudal/Castle/Imperial Age.-->
+    <item id="44"/>
+     
+    <!--Infantry have +1/2/3 attack against Standard Buildings in Feudal/Castle/Imperial Age.-->
+    <item id="45"/>
+     
+    <!--Hunters have +5 attack against wild boar; Hunters carry +15 meat.-->
+    <item id="46"/>
+     
+    <!--Loom technology can be researched instantly.-->
+    <item id="47"/>
+     
+    <!--+10 population in Imperial Age.-->
+    <item id="48"/>
+     
+    <!--Barracks work 20% faster.-->
+    <item id="49"/>
+     
+    <!--Do not need houses, but start with -100 wood.-->
+    <item id="50"/>
+     
+    <!--Cavalry Archers cost -10/20% in Castle/Imperial Age.-->
+    <item id="51"/>
+     
+    <!--Trebuchets have +35% accuracy.-->
+    <item id="52"/>
+     
+    <!--Stables work 20% faster.-->
+    <item id="53"/>
+     
+    <!--Start with a free llama.-->
+    <item id="54"/>
+     
+    <!--Villagers are affected by Infantry Blacksmith upgrades starting in Castle Age.-->
+    <item id="55"/>
+     
+    <!--Houses support 10 population.-->
+    <item id="56"/>
+     
+    <!--Buildings cost -15% stone.-->
+    <item id="57"/>
+     
+    <!--Farms are built twice as fast.-->
+    <item id="58"/>
+     
+    <!--Villagers cost -10/15/20/25% in Dark/Feudal/Castle/Imperial Age.-->
+    <item id="59"/>
+     
+    <!--Fishermen work 10% faster.-->
+    <item id="60"/>
+     
+    <!--Stable Units have +1/2 pierce armor in Castle/Imperial Age.-->
+    <item id="61"/>
+     
+    <!--Camel units have +4 attack against Standard Buildings.-->
+    <item id="62"/>
+     
+    <!--Advancing to the next Age costs -15%.-->
+    <item id="63"/>
+     
+    <!--Dock and University techs cost -33%.-->
+    <item id="64"/>
+     
+    <!--Fishing Ships cost -15%.-->
+    <item id="65"/>
+     
+    <!--Gunpowder units cost -20%.-->
+    <item id="66"/>
+     
+    <!--Condottiero are available in the Barracks.-->
+    <item id="67"/>
+     
+    <!--Fishing Ships have double the hit points; +2 pierce armor; work rate +5/10/15/20% in Dark/Feudal/Castle/Imperial Age.-->
+    <item id="68"/>
+     
+    <!--Mill, Lumber/Mining Camps cost -50%.-->
+    <item id="69"/>
+     
+    <!--Infantry attack 33% faster starting in Feudal Age.-->
+    <item id="70"/>
+     
+    <!--Galley-line have +50% line of sight.-->
+    <item id="71"/>
+     
+    <!--No buildings required to advance to the next Age or to unlock other buildings.-->
+    <item id="72"/>
+     
+    <!--Farmers do not need Mills or Town Centers to drop off food, but work 5% slower.-->
+    <item id="73"/>
+     
+    <!--Battle Elephants move 10% faster.-->
+    <item id="74"/>
+     
+    <!--Villagers can garrison in Houses.-->
+    <item id="75"/>
+     
+    <!--Scorpions have +1 range.-->
+    <item id="76"/>
+     
+    <!--Villagers have +3 line of sight.-->
+    <item id="77"/>
+     
+    <!--Stone miners work 20% faster.-->
+    <item id="78"/>
+     
+    <!--Military units (except Siege units) cost -20% wood.-->
+    <item id="79"/>
+     
+    <!--Tower upgrades are free (Bombard Tower requires Chemistry).-->
+    <item id="80"/>
+     
+    <!--Padded Archer Armor, Leather Archer Armor and Ring Archer Armor technologies are free.-->
+    <item id="81"/>
+     
+    <!--Onager-line minimum range is reduced to 1.-->
+    <item id="82"/>
+     
+    <!--Villagers kill predator animals in 1 strike (+30 damage against Predator Animals).-->
+    <item id="83"/>
+     
+    <!--Forging, Iron Casting, Blast Furnace technologies are free.-->
+    <item id="84"/>
+     
+    <!--Scout Cavalry, Light Cavalry, Hussar cost -15%.-->
+    <item id="85"/>
+     
+    <!--Foot Archers have +2 line of sight.-->
+    <item id="86"/>
+     
+    <!--Advancing to the next age is 66% faster.-->
+    <item id="87"/>
+     
+    <!--Fish Traps cost -33%.-->
+    <item id="88"/>
+     
+    <!--Fish Traps provide three times more food.-->
+    <item id="89"/>
+     
+    <!--Battle Elephants cost -30/40% in Castle/Imperial Age.-->
+    <item id="90"/>
+     
+    <!--Docks have +100% line of sight.-->
+    <item id="91"/>
+     
+    <!--Buildings cost 15% less wood (except Farms).-->
+    <item id="92"/>
+     
+    <!--Barracks units have +1/2/3 pierce armor in Feudal/Castle/Imperial Age.-->
+    <item id="93"/>
+     
+    <!--Gold Mines last 30% longer-->
+    <item id="94"/>
+     
+    <!--University research is 80% faster.-->
+    <item id="95"/>
+     
+    <!--Start with +1 villager, but -50 food.-->
+    <item id="96"/>
+     
+    <!--Resources last 15% longer.-->
+    <item id="97"/>
+     
+    <!--Archers cost -10/20/30% in Feudal/Castle/Imperial Age.-->
+    <item id="98"/>
+     
+    <!--Walls cost -50%.-->
+    <item id="99"/>
+     
+    <!--Cavalry Archers, Mangudai fire 25% faster.-->
+    <item id="100"/>
+     
+    <!--Light Cavalry, Hussar and Steppe Lancers have +30% hit points.-->
+    <item id="101"/>
+     
+    <!--Hunters work 40% faster.-->
+    <item id="102"/>
+     
+    <!--Scout-Line have +2 line of sight.-->
+    <item id="103"/>
+     
+    <!--Start with +50 wood and food.-->
+    <item id="104"/>
+     
+    <!--Town Centers and Docks have +100% hit points.-->
+    <item id="105"/>
+     
+    <!--Town Centers and Docks work +10/15/20% faster in Feudal/Castle/Imperial Age.-->
+    <item id="106"/>
+     
+    <!--Knights have +2 attack against Archers.-->
+    <item id="107"/>
+     
+    <!--All units cost -20% gold.-->
+    <item id="108"/>
+     
+    <!--Ships have +10% hit points.-->
+    <item id="109"/>
+     
+    <!--Can build Feitoria in Imperial Age.-->
+    <item id="110"/>
+     
+    <!--Line of sight is shared with the team starting in Dark Age.-->
+    <item id="111"/>
+     
+    <!--Market commodity fee reduced to 5%.-->
+    <item id="112"/>
+     
+    <!--Markets cost -100 wood.-->
+    <item id="113"/>
+     
+    <!--Transport Ships have double the hit points and +5 carry capacity.-->
+    <item id="114"/>
+     
+    <!--Galleys fire 25% faster.-->
+    <item id="115"/>
+     
+    <!--Camel units +10 hit points.-->
+    <item id="116"/>
+     
+    <!---->
+    <item id="117"/>
+     
+    <!--Foot Archers have +3 attack against Standard Buildings.-->
+    <item id="118"/>
+     
+    <!--Farmers work 10% faster.-->
+    <item id="119"/>
+     
+    <!--Supplies technology is free.-->
+    <item id="120"/>
+     
+    <!--Siege Workshop units cost -15%.-->
+    <item id="121"/>
+     
+    <!--Military Buildings provide +5 population.-->
+    <item id="122"/>
+     
+    <!--Builders work 30% faster (except for Wonders, which is 20% faster).-->
+    <item id="123"/>
+     
+    <!--Blacksmith upgrades do not cost gold.-->
+    <item id="124"/>
+     
+    <!--Gunpowder units fire 18% faster.-->
+    <item id="125"/>
+     
+    <!--Cannon Galleons fire with ballistics, cannonballs move 133% faster.-->
+    <item id="126"/>
+     
+    <!--Trade units generate +25% gold.-->
+    <item id="127"/>
+     
+    <!--Monks have double the range for healing.-->
+    <item id="128"/>
+     
+    <!--Towers can garrison twice as many units.-->
+    <item id="129"/>
+     
+    <!--Murder Holes and Herbal Medicine technologies are free.-->
+    <item id="130"/>
+     
+    <!--Farms cost -40%.-->
+    <item id="131"/>
+     
+    <!--Town Centers have +10 garrison capacity.-->
+    <item id="132"/>
+     
+    <!--Barracks and Stable units have +1/2 melee armor in Castle/Imperial Age.-->
+    <item id="133"/>
+     
+    <!--Units and buildings are more resistant to conversion.-->
+    <item id="134"/>
+     
+    <!--Gunpowder units have +25% hit points.-->
+    <item id="135"/>
+     
+    <!--Gunpowder technologies cost -50%.-->
+    <item id="136"/>
+     
+    <!--Chemistry technology is free.-->
+    <item id="137"/>
+     
+    <!--Gold miners work 20% faster.-->
+    <item id="138"/>
+     
+    <!--Light Cavalry and Hussar upgrades are free.-->
+    <item id="139"/>
+     
+    <!--Gunpowder units are created 25% faster.-->
+    <item id="140"/>
+     
+    <!--Reveal enemy positions at the start of the game.-->
+    <item id="141"/>
+     
+    <!--Economy upgrades cost no wood.-->
+    <item id="142"/>
+     
+    <!--Archery Range units +20% hit points.-->
+    <item id="143"/>
+     
+    <!--Conscription technology is free.-->
+    <item id="144"/>
+     
+    <!--Have access to Imperial Skirmisher upgrade.-->
+    <item id="145"/>
+     
+    <!--Warships cost -15/15/20% in Feudal/Castle/Imperial Age.-->
+    <item id="146"/>
+     
+    <!--Infantry have +20% hit points starting in Feudal Age.-->
+    <item id="147"/>
+     
+    <!--Wheelbarrow and Hand Cart technologies are free.-->
+    <item id="148"/>
+     
+    <!--Docks cost -15%.-->
+    <item id="149"/>
+     
+    <!--Militia-line upgrades are free.-->
+    <item id="150"/>
+     
+    <!--Town Centers cost -50% stone.-->
+    <item id="151"/>
+     
+    <!--Can build Krepost.-->
+    <item id="152"/>
+     
+    <!--Blacksmiths work 80% faster.-->
+    <item id="153"/>
+     
+    <!--One additional Town Center can be built in the Feudal Age, but its construction is 80% slower.-->
+    <item id="154"/>
+     
+    <!--Siege Workshops and Battering Rams are available in the Feudal Age.-->
+    <item id="155"/>
+     
+    <!--Capped Ram upgrade available in the Castle Age-->
+    <item id="156"/>
+     
+    <!--Cavalry move 5/10/15% faster in Feudal/Castle/Imperial Age.-->
+    <item id="157"/>
+     
+    <!--Palisade Walls have +33% hit points.-->
+    <item id="158"/>
+     
+    <!--Start with +150 food.-->
+    <item id="159"/>
+     
+    <!--Spearman-line and Skirmishers move 10% faster.-->
+    <item id="160"/>
+     
+    <!--Each garrisoned relic gives +1 attack to the Knight-line and Leitis (maximum 4).-->
+    <item id="161"/>
+     
+    <!--Monasteries work 20% faster.-->
+    <item id="162"/>
+     
+    <!--Herdables contain +50% food.-->
+    <item id="163"/>
+     
+    <!--Units deal 25% more damage when fighting from higher elevation.-->
+    <item id="164"/>
+     
+    <!--Thumb Ring and Parthian Tactics technologies are free.-->
+    <item id="165"/>
+     
+    <!--Cavalry Archers have +2 line of sight.-->
+    <item id="166"/>
+     
+    <!--Blacksmith and Siege Workshop upgrades cost -50% food.-->
+    <item id="167"/>
+     
+    <!--Technologies are researched 30% faster (except aging up).-->
+    <item id="168"/>
+     
+    <!--Newly-constructed Town Centers spawn two sheep starting in Castle Age.-->
+    <item id="169"/>
+     
+    <!--Scout Cavalry, Light Cavalry and Hussar have +1 pierce armor.-->
+    <item id="170"/>
+     
+    <!--Economic upgrades are available one age earlier.-->
+    <item id="171"/>
+     
+    <!--Stable technologies cost 50% less.-->
+    <item id="172"/>
+     
+    <!--Cavalier upgrade is available in the Castle Age.-->
+    <item id="173"/>
+     
+    <!--Gunpowder units have +25% attack and bonus damage.-->
+    <item id="174"/>
+     
+    <!--Relics generate both food (30/min) and gold (30/min).-->
+    <item id="175"/>
+     
+    <!--Castles and Town Centers (except the first Town Center in nomad starts) are built twice as fast.-->
+    <item id="176"/>
+     
+    <!--Land military units (except Siege Weapons) receive 50% less bonus damage.-->
+    <item id="177"/>
+     
+    <!--Farm upgrades provide twice the amount of food.-->
+    <item id="178"/>
+     
+    <!--Can build Donjon.-->
+    <item id="179"/>
+     
+    <!--Transport Ships have +5 line of sight and cost -50% less.-->
+    <item id="180"/>
+     
+    <!--Economic upgrades cost 50% less food.-->
+    <item id="181"/>
+     
+    <!--Stables and Archery Ranges cost -75 wood.-->
+    <item id="182"/>
+     
+    <!--Start with +100 stone.-->
+    <item id="183"/>
+     
+    <!--Blackmiths, Monasteries and Universities cost -100 wood.-->
+    <item id="184"/>
+     
+    <!--Chemistry research and Hand Cannoneers are available in the Castle Age.-->
+    <item id="185"/>
+     
+    <!--Spearman-line deals 25% more bonus damage.-->
+    <item id="186"/>
+     
+    <!--Fervor and Sanctity technologies affect Villagers.-->
+    <item id="187"/>
+     
+    <!--Mining Camp technologies are free.-->
+    <item id="188"/>
+     
+    <!--Markets work 80% faster.-->
+    <item id="189"/>
+     
+    <!--Villagers regenerate 5/10/15/20 HP per minute in the Dark/Feudal/Castle/Imperial Age.-->
+    <item id="190"/>
+     
+    <!--Mills are replaced by Folwarks.-->
+    <item id="191"/>
+     
+    <!--Stone Miners generate 50% of gold out of the stone collected.-->
+    <item id="192"/>
+     
+    <!--Light Cavalry line have +1 damage against Archers.-->
+    <item id="193"/>
+     
+</list>

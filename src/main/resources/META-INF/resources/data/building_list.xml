@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<list>
+    <!--Town Center-->
+    <item id="1" image="b_town_center"/>
+     
+    <!--House-->
+    <item id="2" image="b_house"/>
+     
+    <!--Lumber Camp-->
+    <item id="3" image="b_lumber_camp"/>
+     
+    <!--Mill-->
+    <item id="4" image="b_mill"/>
+     
+    <!--Mining Camp-->
+    <item id="5" image="b_mining_camp"/>
+     
+    <!--Dock-->
+    <item id="6" image="b_dock"/>
+     
+    <!--Farm-->
+    <item id="7" image="b_farm"/>
+     
+    <!--Barracks-->
+    <item id="8" image="b_barracks"/>
+     
+    <!--Outpost-->
+    <item id="9" image="b_outpost"/>
+     
+    <!--Palisade Wall-->
+    <item id="10" image="b_palisade"/>
+     
+    <!--Palisade Gate-->
+    <item id="11" image="b_palisade_gate"/>
+     
+    <!--Blacksmith-->
+    <item id="12" image="b_blacksmith"/>
+     
+    <!--Market-->
+    <item id="13" image="b_market"/>
+     
+    <!--Archery Range-->
+    <item id="14" image="b_archery_range"/>
+     
+    <!--Stable-->
+    <item id="15" image="b_stable"/>
+     
+    <!--Stone Wall-->
+    <item id="16" image="b_stone_wall"/>
+     
+    <!--Stone Gate-->
+    <item id="17" image="b_gate"/>
+     
+    <!--Watch Tower-->
+    <item id="18" image="b_tower"/>
+     
+    <!--Fish Trap-->
+    <item id="19" image="b_fish_trap"/>
+     
+    <!--Monastery-->
+    <item id="20" image="b_monastery"/>
+     
+    <!--University-->
+    <item id="21" image="b_university"/>
+     
+    <!--Siege Workshop-->
+    <item id="22" image="b_siege_workshop"/>
+     
+    <!--Fortified Wall-->
+    <item id="23" image="b_stone_wall"/>
+     
+    <!--Fortified Gate-->
+    <item id="24" image="b_gate"/>
+     
+    <!--Guard Tower-->
+    <item id="25" image="b_tower"/>
+     
+    <!--Castle-->
+    <item id="26" image="b_castle"/>
+     
+    <!--Harbor-->
+    <item id="27" image="b_harbor"/>
+     
+    <!--Wonder-->
+    <item id="28" image="b_wonder"/>
+     
+    <!--Feitoria-->
+    <item id="29" image="b_feitoria"/>
+     
+    <!--Keep-->
+    <item id="30" image="b_tower"/>
+     
+    <!--Bombard Tower-->
+    <item id="31" image="b_bombard_tower"/>
+     
+    <!--Krepost-->
+    <item id="32" image="b_krepost"/>
+     
+    <!--Donjon-->
+    <item id="33" image="b_donjon"/>
+     
+    <!--Folwark-->
+    <item id="34" image="b_folwark"/>
+     
+</list>

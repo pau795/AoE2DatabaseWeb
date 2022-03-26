@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<list>
+    <!--Hit Points-->
+    <item id="1" addition="false"/>
+     
+    <!--Attack-->
+    <item id="2" addition="true"/>
+     
+    <!--Melee Armor-->
+    <item id="3" addition="true"/>
+     
+    <!--Pierce Armor-->
+    <item id="4" addition="true"/>
+     
+    <!--Range-->
+    <item id="5" addition="true"/>
+     
+    <!--Minimum Range-->
+    <item id="6" addition="false"/>
+     
+    <!--Line Of Sight-->
+    <item id="7" addition="true"/>
+     
+    <!--Reload Time-->
+    <item id="8" addition="false"/>
+     
+    <!--Speed-->
+    <item id="9" addition="false"/>
+     
+    <!--Blast Radius-->
+    <item id="10" addition="false"/>
+     
+    <!--Attack Delay-->
+    <item id="11" addition="false"/>
+     
+    <!--Accuracy-->
+    <item id="12" addition="false"/>
+     
+    <!--Number Projectiles-->
+    <item id="13" addition="false"/>
+     
+    <!--Projectile Speed-->
+    <item id="14" addition="false"/>
+     
+    <!--Garrison Capacity-->
+    <item id="15" addition="false"/>
+     
+    <!--Population Taken-->
+    <item id="16" addition="false"/>
+     
+    <!--Training Time-->
+    <item id="17" addition="false"/>
+     
+    <!--Work Rate-->
+    <item id="18" addition="false"/>
+     
+    <!--Heal Rate-->
+    <item id="19" addition="false"/>
+     
+    <!--Hill Bonus-->
+    <item id="20" addition="false"/>
+     
+    <!--Hill Reduction-->
+    <item id="21" addition="false"/>
+     
+    <!--Bonus Reduction-->
+    <item id="22" addition="false"/>
+     
+    <!--Charge Attack-->
+    <item id="23" addition="false"/>
+     
+    <!--Charge Reload-->
+    <item id="24" addition="false"/>
+     
+    <!--Relics-->
+    <item id="25" addition="false"/>
+     
+</list>

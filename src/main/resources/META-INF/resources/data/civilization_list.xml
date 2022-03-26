@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<list>
+    <!--Aztecs-->
+    <item id="1" image="c_aztecs"/>
+     
+    <!--Berbers-->
+    <item id="2" image="c_berbers"/>
+     
+    <!--Britons-->
+    <item id="3" image="c_britons"/>
+     
+    <!--Burmese-->
+    <item id="4" image="c_burmese"/>
+     
+    <!--Byzantines-->
+    <item id="5" image="c_byzantines"/>
+     
+    <!--Celts-->
+    <item id="6" image="c_celts"/>
+     
+    <!--Chinese-->
+    <item id="7" image="c_chinese"/>
+     
+    <!--Ethiopians-->
+    <item id="8" image="c_ethiopians"/>
+     
+    <!--Franks-->
+    <item id="9" image="c_franks"/>
+     
+    <!--Goths-->
+    <item id="10" image="c_goths"/>
+     
+    <!--Huns-->
+    <item id="11" image="c_huns"/>
+     
+    <!--Incas-->
+    <item id="12" image="c_incas"/>
+     
+    <!--Indians-->
+    <item id="13" image="c_indians"/>
+     
+    <!--Italians-->
+    <item id="14" image="c_italians"/>
+     
+    <!--Japanese-->
+    <item id="15" image="c_japanese"/>
+     
+    <!--Khmer-->
+    <item id="16" image="c_khmer"/>
+     
+    <!--Koreans-->
+    <item id="17" image="c_koreans"/>
+     
+    <!--Magyars-->
+    <item id="18" image="c_magyars"/>
+     
+    <!--Malay-->
+    <item id="19" image="c_malay"/>
+     
+    <!--Malians-->
+    <item id="20" image="c_malians"/>
+     
+    <!--Mayans-->
+    <item id="21" image="c_mayans"/>
+     
+    <!--Mongols-->
+    <item id="22" image="c_mongols"/>
+     
+    <!--Persians-->
+    <item id="23" image="c_persians"/>
+     
+    <!--Portuguese-->
+    <item id="24" image="c_portuguese"/>
+     
+    <!--Saracens-->
+    <item id="25" image="c_saracens"/>
+     
+    <!--Slavs-->
+    <item id="26" image="c_slavs"/>
+     
+    <!--Spanish-->
+    <item id="27" image="c_spanish"/>
+     
+    <!--Teutons-->
+    <item id="28" image="c_teutons"/>
+     
+    <!--Turks-->
+    <item id="29" image="c_turks"/>
+     
+    <!--Vietnamese-->
+    <item id="30" image="c_vietnamese"/>
+     
+    <!--Vikings-->
+    <item id="31" image="c_vikings"/>
+     
+    <!--Bulgarians-->
+    <item id="32" image="c_bulgarians"/>
+     
+    <!--Cumans-->
+    <item id="33" image="c_cumans"/>
+     
+    <!--Lithuanians-->
+    <item id="34" image="c_lithuanians"/>
+     
+    <!--Tatars-->
+    <item id="35" image="c_tatars"/>
+     
+    <!--Burgundians-->
+    <item id="36" image="c_burgundians"/>
+     
+    <!--Sicilians-->
+    <item id="37" image="c_sicilians"/>
+     
+    <!--Bohemians-->
+    <item id="38" image="c_bohemians"/>
+     
+    <!--Poles-->
+    <item id="39" image="c_poles"/>
+     
+</list>

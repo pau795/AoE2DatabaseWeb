@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<list>
+    <!--Base Melee-->
+    <item id="1" image="b_barracks"/>
+     
+    <!--Base Pierce-->
+    <item id="2" image="t_bodkin_arrow"/>
+     
+    <!--Archers-->
+    <item id="3" image="u_arbalester"/>
+     
+    <!--Cavalry Archers-->
+    <item id="4" image="u_heavy_cavalry_archer"/>
+     
+    <!--Infantry-->
+    <item id="5" image="u_champion"/>
+     
+    <!--Spearmen-->
+    <item id="6" image="u_spearman"/>
+     
+    <!--Eagle Warriors-->
+    <item id="7" image="u_eagle_warrior"/>
+     
+    <!--Condottiero-->
+    <item id="8" image="u_condottiero"/>
+     
+    <!--Cavalry-->
+    <item id="9" image="b_stable"/>
+     
+    <!--Camel Riders-->
+    <item id="10" image="u_heavy_camel_rider"/>
+     
+    <!--Elephants-->
+    <item id="11" image="u_war_elephant"/>
+     
+    <!--Siege Weapons-->
+    <item id="12" image="b_siege_workshop"/>
+     
+    <!--Rams-->
+    <item id="13" image="u_siege_ram"/>
+     
+    <!--Gunpowder Units-->
+    <item id="14" image="u_hand_cannoneer"/>
+     
+    <!--Monks-->
+    <item id="15" image="u_monk"/>
+     
+    <!--Ships-->
+    <item id="16" image="u_war_galley"/>
+     
+    <!--Turtle Ships-->
+    <item id="17" image="u_turtle_ship"/>
+     
+    <!--Unique Units-->
+    <item id="18" image="t_elite_uu"/>
+     
+    <!--Standard Buildings-->
+    <item id="19" image="b_house"/>
+     
+    <!--All Buildings-->
+    <item id="20" image="t_architecture"/>
+     
+    <!--Castles-->
+    <item id="21" image="b_castle"/>
+     
+    <!--Stone Defense-->
+    <item id="22" image="b_stone_wall"/>
+     
+    <!--Walls and Gates-->
+    <item id="23" image="b_gate"/>
+     
+    <!--Predator Animals-->
+    <item id="24" image="u_wolf"/>
+     
+    <!--Wild Boars-->
+    <item id="25" image="u_boar"/>
+     
+    <!--Trees-->
+    <item id="26" image="u_tree"/>
+     
+    <!--Unused-->
+    <item id="27" image="t_white"/>
+     
+    <!--HP-->
+    <item id="28" image="t_sanctity"/>
+     
+    <!--Fishing Ships-->
+    <item id="29" image="u_fishing_ship"/>
+     
+    <!--Mamelukes-->
+    <item id="30" image="u_mameluke"/>
+     
+    <!--Ignore Armor (Leitis)-->
+    <item id="31" image="u_leitis"/>
+     
+    <!--Hussite Wagon-->
+    <item id="32" image="u_hussite_wagon"/>
+     
+</list>

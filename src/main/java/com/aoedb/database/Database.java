@@ -37,7 +37,7 @@ public class Database {
     public final static String UNIT = "unit";
     public final static String BUILDING = "building";
     public final static String TECH = "tech";
-    public final static String CIV = "civ";
+    public final static String CIV = "civilization";
     public final static String CLASS = "class";
     public final static String TYPE = "type";
     public final static String PERFORMANCE = "performance";
@@ -142,33 +142,6 @@ public class Database {
     public final static String RED = "red";
     public final static String BLUE = "blue";
     public final static String GREEN = "green";
-
-    public final static List<String> translatedFiles = new ArrayList<>(Arrays.asList(
-        BONUS_LIST,
-        BUILDING_DESCRIPTION,
-        BUILDING_GROUPS,
-        BUILDING_LIST,
-        CIVILIZATION_GROUPS,
-        CIVILIZATION_LIST,
-        CIVILIZATION_STYLE,
-        CLASS_LIST,
-        ECO_LIST,
-        GATHERING_RATES,
-        HISTORY_GROUPS,
-        HISTORY_LIST,
-        HISTORY_TEXT,
-        PERFORMANCE_GROUPS,
-        PERFORMANCE_LIST,
-        STRINGS,
-        TAUNT_LIST,
-        TECH_DESCRIPTION,
-        TECH_GROUPS,
-        TECH_LIST,
-        TYPE_LIST,
-        UNIT_DESCRIPTION,
-        UNIT_GROUPS,
-        UNIT_LIST
-    ));
 
     private static HashMap<String, HashMap<String, String>> stringMap;
 

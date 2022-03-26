@@ -123,34 +123,34 @@ public class Utils {
         else return darkAge;
     }
 
-    public static String getDescriptionNameFile(String file){
-        if (file.contains(Database.UNIT)) return Database.UNIT_LIST;
-        else if (file.contains(Database.BUILDING)) return Database.BUILDING_LIST;
-        else if (file.contains(Database.TECH)) return  Database.TECH_LIST;
-        else return "";
-    }
 
     public static String getStatTitle(String stat){
         switch (stat){
-            case Database.HP: return "stat_hit_points";
-            case Database.ATTACK: return "stat_attack";
-            case Database.MELEE_ARMOR: return "stat_melee_armor";
-            case Database.PIERCE_ARMOR: return "stat_pierce_armor";
-            case Database.RANGE: return "stat_range";
-            case Database.MINIMUM_RANGE: return "stat_minimum_range";
-            case Database.LOS: return "stat_line_of_sight";
-            case Database.RELOAD_TIME: return "stat_reload_time";
-            case Database.SPEED: return "stat_speed";
-            case Database.BLAST_RADIUS: return "stat_blast_radius";
-            case Database.ACCURACY: return "stat_accuracy";
-            case Database.ATTACK_DELAY: return "stat_attack_delay";
-            case Database.NUMBER_PROJECTILES: return "stat_number_of_projectiles";
-            case Database.PROJECTILE_SPEED: return "stat_projectile_speed";
-            case Database.GARRISON_CAPACITY: return "stat_garrison_capacity";
-            case Database.POPULATION_TAKEN: return "stat_population_taken";
-            case Database.TRAINING_TIME: return "stat_training_time";
-            case Database.WORK_RATE: return "stat_work_rate";
-            case Database.HEAL_RATE: return "stat_healing_rate";
+            case Database.HP: return "stat_name_1";
+            case Database.ATTACK: return "stat_name_2";
+            case Database.MELEE_ARMOR: return "stat_name_3";
+            case Database.PIERCE_ARMOR: return "stat_name_4";
+            case Database.RANGE: return "stat_name_5";
+            case Database.MINIMUM_RANGE: return "stat_name_6";
+            case Database.LOS: return "stat_name_7";
+            case Database.RELOAD_TIME: return "stat_name_8";
+            case Database.SPEED: return "stat_name_9";
+            case Database.BLAST_RADIUS: return "stat_name_10";
+            case Database.ACCURACY: return "stat_name_11";
+            case Database.ATTACK_DELAY: return "stat_name_12";
+            case Database.NUMBER_PROJECTILES: return "stat_name_13";
+            case Database.PROJECTILE_SPEED: return "stat_name_14";
+            case Database.GARRISON_CAPACITY: return "stat_name_15";
+            case Database.POPULATION_TAKEN: return "stat_name_16";
+            case Database.TRAINING_TIME: return "stat_name_17";
+            case Database.WORK_RATE: return "stat_name_18";
+            case Database.HEAL_RATE: return "stat_name_19";
+            case Database.HILL_BONUS: return "stat_name_20";
+            case Database.HILL_REDUCTION: return "stat_name_21";
+            case Database.BONUS_REDUCTION: return "stat_name_22";
+            case Database.CHARGE_ATTACK: return "stat_name_23";
+            case Database.CHARGE_RELOAD: return "stat_name_24";
+            case Database.RELICS: return "stat_name_25";
             default: return "";
         }
     }

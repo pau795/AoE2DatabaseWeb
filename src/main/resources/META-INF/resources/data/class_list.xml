@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<list>
+    <!--Civilian-->
+    <item id="1" image="u_male_villager"/>
+     
+    <!--Building-->
+    <item id="2" image="b_house"/>
+     
+    <!--Fish Boat-->
+    <item id="3" image="u_fishing_ship"/>
+     
+    <!--Transport Boat-->
+    <item id="4" image="u_transport_ship"/>
+     
+    <!--Infantry-->
+    <item id="5" image="b_barracks"/>
+     
+    <!--Archer-->
+    <item id="6" image="b_archery_range"/>
+     
+    <!--Cavalry-->
+    <item id="7" image="b_stable"/>
+     
+    <!--Trade Cart-->
+    <item id="8" image="u_trade_cart"/>
+     
+    <!--Trade Boat-->
+    <item id="9" image="u_trade_cog"/>
+     
+    <!--Warship-->
+    <item id="10" image="b_dock"/>
+     
+    <!--Tower-->
+    <item id="11" image="b_tower"/>
+     
+    <!--Monk-->
+    <item id="12" image="u_monk"/>
+     
+    <!--Cavalry Archer-->
+    <item id="13" image="t_heavy_cavalry_archer"/>
+     
+    <!--Siege Weapon-->
+    <item id="14" image="b_siege_workshop"/>
+     
+    <!--Conquistador-->
+    <item id="15" image="u_conquistador"/>
+     
+    <!--Petard-->
+    <item id="16" image="u_petard"/>
+     
+    <!--Hand Cannoneer-->
+    <item id="17" image="u_hand_cannoneer"/>
+     
+    <!--Wall-->
+    <item id="18" image="b_stone_wall"/>
+     
+    <!--Gate-->
+    <item id="19" image="b_gate"/>
+     
+</list>

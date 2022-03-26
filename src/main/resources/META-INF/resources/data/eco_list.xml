@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<list>
+    <!--Lumberjack-->
+    <item id="1" value="23.4"/>
+     
+    <!--Shepherd-->
+    <item id="2" value="19.8"/>
+     
+    <!--Forager-->
+    <item id="3" value="18.6"/>
+     
+    <!--Hunter-->
+    <item id="4" value="24.6"/>
+     
+    <!--Fisherman-->
+    <item id="5" value="25.8"/>
+     
+    <!--Farmer-->
+    <item id="6" value="20.2667"/>
+     
+    <!--Builder-->
+    <item id="7" value="60"/>
+     
+    <!--Repairer-->
+    <item id="8" value="750"/>
+     
+    <!--Gold Miner-->
+    <item id="9" value="22.8"/>
+     
+    <!--Stone Miner-->
+    <item id="10" value="21.6"/>
+     
+    <!--Fishing Ship-->
+    <item id="11" value="16.8"/>
+     
+    <!--Relic-->
+    <item id="12" value="30"/>
+     
+    <!--Trade Cart-->
+    <item id="13" value="13.8"/>
+     
+    <!--Tarde Cog-->
+    <item id="14" value="17.9"/>
+     
+    <!--Feitoria Wood-->
+    <item id="15" value="60"/>
+     
+    <!--Feitoria Food-->
+    <item id="16" value="96"/>
+     
+    <!--Feitoria Gold-->
+    <item id="17" value="42"/>
+     
+    <!--Feitoria Stone-->
+    <item id="18" value="18"/>
+     
+    <!--Keshik-->
+    <item id="19" value="22"/>
+     
+    <!--Farming Gold-->
+    <item id="20" value="-"/>
+     
+    <!--Food Relic-->
+    <item id="21" value="-"/>
+     
+    <!--Gold Stone Miners-->
+    <item id="22" value="-"/>
+     
+</list>

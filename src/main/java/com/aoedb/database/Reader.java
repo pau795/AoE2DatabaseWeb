@@ -36,10 +36,7 @@ public class Reader {
     }
 
     public InputStream getData(String fileName) throws IOException {
-        String path;
-        if (Database.translatedFiles.contains(fileName)) path = Database.BASE_DIR +"data/"+language+"/" + fileName +".xml";
-        else path = Database.BASE_DIR +"data/"+Database.DEFAULT_LANGUAGE+"/" + fileName +".xml";
-
+        String path = Database.BASE_DIR +"data/" + fileName +".xml";
         PathMatchingResourcePatternResolver scanner = new PathMatchingResourcePatternResolver();
         return scanner.getResource(path).getInputStream();
     }
@@ -87,9 +84,11 @@ public class Reader {
             List<EntityElement> b = new ArrayList<>();
             for (int i = 0; i< list.getLength(); ++i) {
                 Element element = (Element) list.item(i);
+                String type = Utils.getEntityTypeString(file);
                 int id = Integer.parseInt(element.getAttribute("id"));
-                String name = element.getTextContent();
-                String img = element.getAttribute("icon");
+                String name = Database.getString(type +"_name_"+id, language);
+                String img = element.getAttribute("image");
+
                 String mediaPath;
                 if (file.equals(Database.CIVILIZATION_LIST)) {
                     mediaPath = Database.getSound("s_" + img.substring(2), language);
@@ -104,7 +103,7 @@ public class Reader {
                     mediaPath = Database.getImage(mediaPath);
                 }
                 String imgPath = Database.getImage(img);
-                EntityElement u = new EntityElement(id, name, imgPath, mediaPath, Utils.getEntityTypeString(file));
+                EntityElement u = new EntityElement(id, name, imgPath, mediaPath, type);
                 b.add(u);
             }
             return b;
@@ -126,13 +125,15 @@ public class Reader {
             for (int sort = 0; sort < list.getLength(); ++sort) {
                 LinkedHashMap<String, List<EntityElement>> map = new LinkedHashMap<>();
                 Element group = (Element) list.item(sort);
+                boolean alphabeticalOrder = Boolean.parseBoolean(group.getAttribute("alphabeticalOrder"));
                 NodeList categoryList = group.getElementsByTagName("category");
                 for (int i = 0; i < categoryList.getLength(); ++i) {
                     Element category = (Element) categoryList.item(i);
                     String[] sids = category.getAttribute("ids").split(" ");
                     ArrayList<EntityElement> a = new ArrayList<>();
                     for (String sid : sids) a.add(set.get(Integer.parseInt(sid) - 1));
-                    String groupTitle = category.getAttribute("name");
+                    if (alphabeticalOrder) a.sort(EntityElement.getAlphabeticalComparator());
+                    String groupTitle = Database.getString(category.getAttribute("name"), language);
                     map.put(groupTitle, a);
                 }
                 b.add(map);
@@ -175,35 +176,21 @@ public class Reader {
         return new ArrayList<>();
     }
 
-    public List<Descriptor> readDescriptors(String file){
-        try {
-            List<Descriptor> map = new ArrayList<>();
-            DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
-            DocumentBuilder docBuilder = builderFactory.newDocumentBuilder();
-            Document doc = docBuilder.parse(getData(file));
-            NodeList list = doc.getElementsByTagName("item");
-            for (int z = 0; z < list.getLength(); ++z) {
-                Element item = (Element) list.item(z);
-                Descriptor d = new Descriptor();
-                d.setNominative(item.getElementsByTagName("nominative").item(0).getTextContent());
-                d.setQuickDescription(item.getElementsByTagName("quickDescription").item(0).getTextContent());
-                d.setBriefDescription(item.getElementsByTagName("briefDescription").item(0).getTextContent());
-                d.setLongDescription(item.getElementsByTagName("longDescription").item(0).getTextContent());
-                d.setExtraDescription(item.getElementsByTagName("extraDescription").item(0).getTextContent());
-                if (d.getNominative().isEmpty()) {
-                    EntityElement l = storage.getElement(Utils.getDescriptionNameFile(file), z + 1);
-                    d.setNominative(l.getName());
-                }
-                if (d.getBriefDescription().isEmpty())
-                    d.setBriefDescription(d.getLongDescription());
-                map.add(d);
-            }
-            return map;
+    public List<Descriptor> readDescriptors(String type){
+        List<Descriptor> map = new ArrayList<>();
+        List<EntityElement> list = storage.getList(type +"_list");
+        for (EntityElement element: list) {
+            Descriptor d = new Descriptor();
+            d.setNominative(Database.getString(type + "_description_nominative_" + element.getId(), language));
+            d.setQuickDescription(Database.getString(type + "_description_quick_" + element.getId(), language));
+            d.setBriefDescription(Database.getString(type + "_description_brief_" + element.getId(), language));
+            d.setLongDescription(Database.getString(type + "_description_long_" + element.getId(), language));
+            d.setExtraDescription(Database.getString(type + "_description_extra_" + element.getId(), language));
+            if (d.getNominative().isEmpty()) d.setNominative(element.getName());
+            if (d.getBriefDescription().isEmpty()) d.setBriefDescription(d.getLongDescription());
+            map.add(d);
         }
-        catch (ParserConfigurationException | IOException | SAXException e){
-            e.printStackTrace();
-        }
-        return new ArrayList<>();
+        return map;
     }
 
     public List<LinkedHashMap<String, LinkedHashMap<Integer, Double>>> readTypeValues(String file) {
@@ -566,7 +553,7 @@ public class Reader {
         try {
             List<Unit> unitMap = new ArrayList<>();
 
-            List<Descriptor> descriptors = readDescriptors(Database.UNIT_DESCRIPTION);
+            List<Descriptor> descriptors = readDescriptors(Database.UNIT);
             List<LinkedHashMap<String, LinkedHashMap<Integer, Double>>> attackValues = readTypeValues(Database.UNIT_ATTACK);
             List<LinkedHashMap<String, LinkedHashMap<Integer, Double>>> armorValues = readTypeValues(Database.UNIT_ARMOR);
             List<LinkedHashMap<String, List<EntityElement>>> upgrades = readUpgrades(Database.UNIT_UPGRADES);
@@ -660,7 +647,7 @@ public class Reader {
         try {
             List<Building> buildingMap = new ArrayList<>();
 
-            List<Descriptor> descriptors = readDescriptors(Database.BUILDING_DESCRIPTION);
+            List<Descriptor> descriptors = readDescriptors(Database.BUILDING);
             List<LinkedHashMap<String, LinkedHashMap<Integer, Double>>> attackValues = readTypeValues(Database.BUILDING_ATTACK);
             List<LinkedHashMap<String, LinkedHashMap<Integer, Double>>> armorValues = readTypeValues(Database.BUILDING_ARMOR);
             List<LinkedHashMap<String, List<EntityElement>>> upgrades = readUpgrades(Database.BUILDING_UPGRADES);
@@ -759,7 +746,7 @@ public class Reader {
         try {
             List<Technology> techMap = new ArrayList<>();
 
-            List<Descriptor> descriptors = readDescriptors(Database.TECH_DESCRIPTION);
+            List<Descriptor> descriptors = readDescriptors(Database.TECH);
             List<LinkedHashMap<String, List<EntityElement>>> upgrades = readUpgrades(Database.TECH_UPGRADES);
             List<AvailabilityContainer> availability = readAvailability(Database.TECH_AVAILABILITY);
             List<BonusContainer> bonuses = readBonusContainers(Database.TECH_BONUS);
@@ -931,7 +918,7 @@ public class Reader {
             for (int i = 0; i<list.getLength(); ++i) {
                 Element e = (Element) list.item(i);
                 int id = Integer.parseInt(e.getAttribute("id"));
-                String name = e.getTextContent();
+                String name = Database.getString("civilization_name_" + (i + 1), language);
                 m.put(id, name);
             }
             return m;
@@ -952,7 +939,7 @@ public class Reader {
             for (int i = 0; i<list.getLength(); ++i) {
                 Element e = (Element) list.item(i);
                 int id = Integer.parseInt(e.getAttribute("id"));
-                String name = e.getTextContent();
+                String name = Database.getString("civilization_name_" + (i + 1), language);
                 m.put(name, id);
             }
             return m;
@@ -964,23 +951,13 @@ public class Reader {
     }
 
     public List<String> readCivStyles(){
-        try{
-            List<String> map =  new ArrayList<>();
-
-            DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
-            DocumentBuilder docBuilder = builderFactory.newDocumentBuilder();
-            Document doc = docBuilder.parse(getData(Database.CIVILIZATION_STYLE));
-            NodeList list = doc.getElementsByTagName("item");
-            for (int z = 0; z < list.getLength(); ++z) {
-                Element n = (Element) list.item(z);
-                map.add(n.getTextContent());
-            }
-            return map;
+        List<String> map =  new ArrayList<>();
+        List<EntityElement> list = storage.getList(Database.CIVILIZATION_LIST);
+        for(EntityElement element: list){
+            String style = Database.getString("civilization_style_" + element.getId(), language);
+            map.add(style);
         }
-        catch (ParserConfigurationException | IOException | SAXException e){
-            e.printStackTrace();
-        }
-        return new ArrayList<>();
+        return map;
     }
 
     public List<BonusContainer> readBonusContainers(String file){
@@ -1041,7 +1018,6 @@ public class Reader {
             Document doc = docBuilder.parse(getData(file));
             NodeList list = doc.getElementsByTagName("item");
             for (int z = 0; z < list.getLength(); ++z) {
-                Element item = (Element) list.item(z);
                 Bonus b = new Bonus();
                 switch (file) {
                     case Database.TECH_LIST:
@@ -1050,9 +1026,8 @@ public class Reader {
                         b.setItemDescription("");
                         break;
                     default:
-                        Element description = (Element) item.getElementsByTagName("description").item(0);
-                        String techTreeDescription = description.getAttribute("techTreeDescription");
-                        String itemDescription = description.getAttribute("itemDescription");
+                        String techTreeDescription = Database.getString("bonus_tech_tree_description_" + (z + 1), language);
+                        String itemDescription = Database.getString("bonus_item_description_" + (z + 1), language);
                         b.setTechTreeDescription(techTreeDescription);
                         if (itemDescription.isEmpty()) b.setItemDescription(techTreeDescription);
                         else b.setItemDescription(itemDescription);
@@ -1109,7 +1084,7 @@ public class Reader {
                         container.setGlobalFilter(Database.NONE);
                         break;
                     default:
-                        container.setCivID(Integer.parseInt(effectsInfo.getAttribute(Database.CIV)));
+                        container.setCivID(Integer.parseInt(effectsInfo.getAttribute("civ")));
                         staggered = Boolean.parseBoolean(effectsInfo.getAttribute("staggered"));
                         container.setTeamBonus(Boolean.parseBoolean(effectsInfo.getAttribute("teamBonus")));
                         container.setGlobalFilter(effectsInfo.getAttribute("globalFilter"));
@@ -1181,7 +1156,10 @@ public class Reader {
             List<String> b = new ArrayList<>();
             DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder docBuilder = builderFactory.newDocumentBuilder();
-            Document doc = docBuilder.parse(getData(Database.HISTORY_TEXT));
+
+            String path = Database.BASE_DIR +"data/"+ language + "/" + Database.HISTORY_TEXT +".xml";
+            PathMatchingResourcePatternResolver scanner = new PathMatchingResourcePatternResolver();
+            Document doc = docBuilder.parse(scanner.getResource(path).getInputStream());
             NodeList list = doc.getElementsByTagName("item");
             for (int i = 0; i < list.getLength(); ++i){
                 Element item = (Element) list.item(i);
@@ -1225,7 +1203,7 @@ public class Reader {
                 EcoElement element = new EcoElement();
                 element.setStat(Integer.parseInt(ecoElement.getAttribute("ecoID")));
                 element.setGatheringRate(1.0f);
-                element.setStatName(ecoElement.getAttribute("name"));
+                element.setStatName(Database.getString("gathering_rates_" + (i + 1), language));
                 String sIcon = ecoElement.getAttribute("statIcon");
                 String rIcon = ecoElement.getAttribute("resourceIcon");
                 element.setResourceIcon(Database.getImage(rIcon));
@@ -1251,7 +1229,9 @@ public class Reader {
             for (int i = 0; i < list.getLength(); ++i){
                 Element stat = (Element) list.item(i);
                 int id = Integer.parseInt(stat.getAttribute("id"));
-                String name = stat.getTextContent();
+                String name;
+                if (file.equals(Database.ECO_LIST)) name = Database.getString("eco_name_" + (i + 1), language);
+                else name = Database.getString("stat_name_" + (i + 1), language);
                 b.put(id, name);
             }
             return b;
@@ -1271,7 +1251,7 @@ public class Reader {
             HashMap<String, Boolean> b = new HashMap<>();
             for (int i = 0; i < list.getLength(); ++i){
                 Element stat = (Element) list.item(i);
-                String name = stat.getTextContent();
+                String name = Database.getString("stat_name_" + (i + 1), language);
                 Boolean addition = Boolean.parseBoolean(stat.getAttribute("addition"));
                 b.put(name, addition);
             }
@@ -1292,7 +1272,7 @@ public class Reader {
             HashMap<String, Double> b = new HashMap<>();
             for (int i = 0; i < list.getLength(); ++i){
                 Element stat = (Element) list.item(i);
-                String name = stat.getTextContent();
+                String name = Database.getString("eco_name_" + (i + 1), language);
                 String valueString = stat.getAttribute("value");
                 double value;
                 if (valueString.equals("-")) value = Double.NaN;
@@ -1340,7 +1320,7 @@ public class Reader {
             for (int i = 0; i < list.getLength(); ++i){
                 Element elem = (Element) list.item(i);
                 String id = elem.getAttribute("id");
-                String text = elem.getTextContent();
+                String text = Database.getString("taunt_name_" + (i + 1), language);
                 String quote = id + " - " + text;
                 String soundPath = Database.getSound("t_" + id, language);
                 TauntElement l3 = new TauntElement(Integer.parseInt(id), quote, soundPath);

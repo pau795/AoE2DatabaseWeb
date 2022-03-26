@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<list>
+    <!--Scout upgrade-->
+    <item id="1"/>
+     
+    <!--Light Cav LoS-->
+    <item id="2"/>
+     
+    <!--Eagle upgrade-->
+    <item id="3"/>
+     
+    <!--Free tracking-->
+    <item id="4"/>
+     
+    <!--Outpost upgrade-->
+    <item id="5"/>
+     
+    <!--Stone wall upgrade-->
+    <item id="6"/>
+     
+    <!--Watch Tower upgrade-->
+    <item id="7"/>
+     
+    <!--Town Center upgrade-->
+    <item id="8"/>
+     
+    <!--House upgrade-->
+    <item id="9"/>
+     
+    <!--Lumber/Mining/Mill upgrade-->
+    <item id="10"/>
+     
+    <!--Dock upgrade-->
+    <item id="11"/>
+     
+    <!--Barracks upgrade-->
+    <item id="12"/>
+     
+    <!--Blacksmith upgrade-->
+    <item id="13"/>
+     
+    <!--Market upgrade-->
+    <item id="14"/>
+     
+    <!--Archery Range upgrade-->
+    <item id="15"/>
+     
+    <!--Stable upgrade-->
+    <item id="16"/>
+     
+    <!--Monastery upgrade-->
+    <item id="17"/>
+     
+    <!--University upgrade-->
+    <item id="18"/>
+     
+    <!--Siege Workshop upgrade-->
+    <item id="19"/>
+     
+    <!--Palisade Walls and Gates upgrade-->
+    <item id="20"/>
+     
+    <!--Serjeant upgrade-->
+    <item id="21"/>
+     
+    <!--Donjon upgrade-->
+    <item id="22"/>
+     
+    <!--Heavy Scorpion proyectile-->
+    <item id="23"/>
+     
+</list>
