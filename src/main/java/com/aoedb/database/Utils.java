@@ -224,24 +224,34 @@ public class Utils {
     }
 
     public static String getLanguageFlagString(String lang){
-        if (Database.SPANISH.equals(lang)) {
-            return Database.SPANISH_FLAG;
+        switch (lang){
+            case Database.SPANISH: return Database.SPANISH_FLAG;
+            case Database.DEUTSCH: return Database.DEUTSCH_FLAG;
+            case Database.ENGLISH: return Database.ENGLISH_FLAG;
+            default: return Database.DEFAULT_FLAG;
         }
-        return Database.DEFAULT_FLAG;
     }
 
     public static String getLanguageFromFlag(String flagLang){
-        if (Database.SPANISH_FLAG.equals(flagLang)) {
-            return Database.SPANISH;
+        switch (flagLang){
+            case Database.SPANISH_FLAG: return Database.SPANISH;
+            case Database.DEUTSCH_FLAG: return Database.DEUTSCH;
+            case Database.ENGLISH_FLAG: return Database.ENGLISH;
+            default: return Database.DEFAULT_LANGUAGE;
         }
-        return Database.DEFAULT_LANGUAGE;
+
     }
 
     public static String checkLanguage(String language) {
-        if (Database.SPANISH.equals(language)) {
-            return language;
+        switch (language) {
+            case Database.SPANISH:
+            case Database.DEUTSCH:
+            case Database.ENGLISH:
+                return language;
+            default:
+                return Database.DEFAULT_LANGUAGE;
         }
-        return Database.DEFAULT_LANGUAGE;
+
     }
 
     public static RouteParameters changeRouteParameter(RouteParameters r, String name, String value){

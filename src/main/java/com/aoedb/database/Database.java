@@ -29,6 +29,8 @@ public class Database {
     public final static String SPANISH_FLAG = "\uD83C\uDDEA\uD83C\uDDF8 Español";
     public final static String ENGLISH = "en";
     public final static String ENGLISH_FLAG = "\uD83C\uDDEC\uD83C\uDDE7 English";
+    public final static String DEUTSCH = "de";
+    public final static String DEUTSCH_FLAG = "\uD83C\uDDE9\uD83C\uDDEA Deutsch";
     public final static String DEFAULT_LANGUAGE = ENGLISH;
     public final static String DEFAULT_FLAG = ENGLISH_FLAG;
 

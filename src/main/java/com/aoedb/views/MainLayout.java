@@ -207,7 +207,7 @@ public class MainLayout extends AppLayout implements BeforeEnterObserver, AppShe
 
     private Select<String> getLanguageDropdown(){
         Select<String> languageDropdown = new Select<>();
-        languageDropdown.setItems(Database.ENGLISH_FLAG, Database.SPANISH_FLAG);
+        languageDropdown.setItems(Database.ENGLISH_FLAG, Database.SPANISH_FLAG, Database.DEUTSCH_FLAG);
         languageDropdown.setValue(Utils.getLanguageFlagString(language));
         languageDropdown.addValueChangeListener(event -> {
             language = Utils.getLanguageFromFlag(event.getValue());

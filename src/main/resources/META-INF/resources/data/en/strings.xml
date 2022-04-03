@@ -6,7 +6,7 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="warning">Warning</string>
     <string name="action_sort">Sort</string>
-    <string name="about_text">Age of Empires 2 Database %s\n\nApplication made by Pau795.\nContact: pau795@gmail.com\n\nApplication data has been extracted from AoE 2 Definitive Edition (update %d), making use of the Advanced Genie Editor. Extra information was obtained from AoE wiki, AoKHeaven, and doing my own research.\n\nThanks to Edutosu and Maicol for inspiring me to do this App, thanks to Peluca for helping me testing the App, and thanks to LBeleven for helping me with some research.\n\nFeel free to contact me if you want to give your feedback, it would be much appreciated.\n\nAge of Empires II: Definitive Edition \u00A9 Microsoft Corporation.\nAoE2 Database was created under Microsoft\'s Game Content Usage Rules using assets from Age of Empires II: Definitive Edition, and it is not endorsed by or affiliated with Microsoft.</string>
+    <string name="about_text">Age of Empires 2 Database %s\n\nApplication made by Pau795.\nContact: pau795\@gmail.com\n\nApplication data has been extracted from AoE 2 Definitive Edition (update %d), making use of the Advanced Genie Editor. Extra information was obtained from AoE wiki, AoKHeaven, and doing my own research.\n\nThanks to Edutosu and Maicol for inspiring me to do this App, thanks to Peluca for helping me testing the App, and thanks to LBeleven for helping me with some research.\n\nFeel free to contact me if you want to give your feedback, it would be much appreciated.\n\nAge of Empires II: Definitive Edition \u00A9 Microsoft Corporation.\nAoE2 Database was created under Microsoft\'s Game Content Usage Rules using assets from Age of Empires II: Definitive Edition, and it is not endorsed by or affiliated with Microsoft.</string>
     <string name="support_text">Thank you for downloading AoE 2 Database.\n\nIf you like and enjoy the app, and you want to help the development, you can consider to support me through link below.\n\nThis message will be shown only one time, but the link is always available at the top right corner.</string>
     <string name="buy_me_a_coffee" translatable="false">Buy me a Coffee</string>
     <string name="buy_me_a_coffee_url" translatable="false">https://www.buymeacoffee.com/pau795</string>
@@ -670,10 +670,10 @@
     <string name="bonus_item_description_1">Villagers have +3 carry capacity.</string> 
     
     <string name="bonus_tech_tree_description_2">Military units are created 11% faster.</string>
-    <string name="bonus_item_description_2">@ are created 11% faster.</string> 
+    <string name="bonus_item_description_2">\@ are created 11% faster.</string> 
     
     <string name="bonus_tech_tree_description_3">Monks get +5 hit points for each researched Monastery technology.</string>
-    <string name="bonus_item_description_3">@ get +5 hit points for each researched Monastery technology.</string> 
+    <string name="bonus_item_description_3">\@ get +5 hit points for each researched Monastery technology.</string> 
     
     <string name="bonus_tech_tree_description_4">Start with +50 gold.</string>
     <string name="bonus_item_description_4">Start with +50 gold.</string> 
@@ -685,76 +685,76 @@
     <string name="bonus_item_description_6">Villagers move 10% faster.</string> 
     
     <string name="bonus_tech_tree_description_7">Stable units cost -15/20% in Castle/Imperial Age.</string>
-    <string name="bonus_item_description_7">@ cost -15/20% in Castle/Imperial Age.</string> 
+    <string name="bonus_item_description_7">\@ cost -15/20% in Castle/Imperial Age.</string> 
     
     <string name="bonus_tech_tree_description_8">Ships move 10% faster.</string>
-    <string name="bonus_item_description_8">@ move 10% faster.</string> 
+    <string name="bonus_item_description_8">\@ move 10% faster.</string> 
     
     <string name="bonus_tech_tree_description_9">Genitour available in the Archery Range.</string>
-    <string name="bonus_item_description_9">@ are available in the Archery Range.||@ upgrade is available in the Archery Range.</string> 
+    <string name="bonus_item_description_9">\@ are available in the Archery Range.||\@ upgrade is available in the Archery Range.</string> 
     
     <string name="bonus_tech_tree_description_10">Town Centers cost -50% wood starting in Castle Age.</string>
     <string name="bonus_item_description_10">Town Centers cost -50% wood starting in Castle Age.</string> 
     
     <string name="bonus_tech_tree_description_11">Foot Archers (except Skirmishers) have +1/2 range in Castle/Imperial Age.</string>
-    <string name="bonus_item_description_11">@ have +1/2 range in Castle/Imperial Age.</string> 
+    <string name="bonus_item_description_11">\@ have +1/2 range in Castle/Imperial Age.</string> 
     
     <string name="bonus_tech_tree_description_12">Shepherds work 25% faster.</string>
     <string name="bonus_item_description_12">Shepherds work 25% faster.</string> 
     
     <string name="bonus_tech_tree_description_13">Archery Ranges work 20% faster.</string>
-    <string name="bonus_item_description_13">@ are trained 20% faster.|@ work 20% faster.|@ is researched 20% faster.</string> 
+    <string name="bonus_item_description_13">\@ are trained 20% faster.|\@ work 20% faster.|\@ is researched 20% faster.</string> 
     
     <string name="bonus_tech_tree_description_14">Free Lumber Camp upgrades.</string>
-    <string name="bonus_item_description_14">@ research is free.</string> 
+    <string name="bonus_item_description_14">\@ research is free.</string> 
     
     <string name="bonus_tech_tree_description_15">Infantry have +1/2/3 attack in Feudal/Castle/Imperial Age.</string>
-    <string name="bonus_item_description_15">@ have +1/2/3 attack in Feudal/Castle/Imperial Age.</string> 
+    <string name="bonus_item_description_15">\@ have +1/2/3 attack in Feudal/Castle/Imperial Age.</string> 
     
     <string name="bonus_tech_tree_description_16">Monastery technologies cost -50%.</string>
-    <string name="bonus_item_description_16">@ research costs -50%.</string> 
+    <string name="bonus_item_description_16">\@ research costs -50%.</string> 
     
     <string name="bonus_tech_tree_description_17">Relics are visible on the map.</string>
     <string name="bonus_item_description_17">Relics are visible on the map.</string> 
     
     <string name="bonus_tech_tree_description_18">Buildings have +10/20/30/40% hit points in Dark/Feudal/Castle/Imperial Age.</string>
-    <string name="bonus_item_description_18">@ have +10/20/30/40% hit points in Dark/Feudal/Castle/Imperial Age.</string> 
+    <string name="bonus_item_description_18">\@ have +10/20/30/40% hit points in Dark/Feudal/Castle/Imperial Age.</string> 
     
     <string name="bonus_tech_tree_description_19">Camel Riders, Skirmishers, Spear-line cost -25%.</string>
-    <string name="bonus_item_description_19">@ cost -25%.</string> 
+    <string name="bonus_item_description_19">\@ cost -25%.</string> 
     
     <string name="bonus_tech_tree_description_20">Fire Ships attack 20% faster.</string>
-    <string name="bonus_item_description_20">@ attack 20% faster.</string> 
+    <string name="bonus_item_description_20">\@ attack 20% faster.</string> 
     
     <string name="bonus_tech_tree_description_21">Town Watch and Town Patrol technologies are free.</string>
-    <string name="bonus_item_description_21">@ technology is free.</string> 
+    <string name="bonus_item_description_21">\@ technology is free.</string> 
     
     <string name="bonus_tech_tree_description_22">Advance to Imperial Age costs -33%.</string>
-    <string name="bonus_item_description_22">@ costs -33%</string> 
+    <string name="bonus_item_description_22">\@ costs -33%</string> 
     
     <string name="bonus_tech_tree_description_23">Monks heal 100% faster.</string>
-    <string name="bonus_item_description_23">@ heal 100% faster.</string> 
+    <string name="bonus_item_description_23">\@ heal 100% faster.</string> 
     
     <string name="bonus_tech_tree_description_24">Infantry move 15% faster starting in Feudal Age.</string>
-    <string name="bonus_item_description_24">@ move 15% faster starting in Feudal Age.</string> 
+    <string name="bonus_item_description_24">\@ move 15% faster starting in Feudal Age.</string> 
     
     <string name="bonus_tech_tree_description_25">Lumberjacks work 15% faster.</string>
     <string name="bonus_item_description_25">Lumberjacks work 15% faster.</string> 
     
     <string name="bonus_tech_tree_description_26">Siege Weapons fire 25% faster.</string>
-    <string name="bonus_item_description_26">@ fire 25% faster.</string> 
+    <string name="bonus_item_description_26">\@ fire 25% faster.</string> 
     
     <string name="bonus_tech_tree_description_27">Can convert herdables even if enemy units are next to them.</string>
     <string name="bonus_item_description_27">Can convert herdables even if enemy units are next to them.</string> 
     
     <string name="bonus_tech_tree_description_28">Siege Workshops work 20% faster.</string>
-    <string name="bonus_item_description_28">@ are trained 20% faster.|@ work 20% faster.|@ is researched 20% faster.</string> 
+    <string name="bonus_item_description_28">\@ are trained 20% faster.|\@ work 20% faster.|\@ is researched 20% faster.</string> 
     
     <string name="bonus_tech_tree_description_29">Start with +3 Villagers but -50 wood, -200 food.</string>
     <string name="bonus_item_description_29">Start with +3 Villagers but -50 wood, -200 food.</string> 
     
     <string name="bonus_tech_tree_description_30">Technologies cost -10/15/20% in Feudal/Castle/Imperial Age (except aging up).</string>
-    <string name="bonus_item_description_30">@ research costs -10/15/20% in Feudal/Castle/Imperial Age.</string> 
+    <string name="bonus_item_description_30">\@ research costs -10/15/20% in Feudal/Castle/Imperial Age.</string> 
     
     <string name="bonus_tech_tree_description_31">Town Centers support 10 population.</string>
     <string name="bonus_item_description_31">Town Centers support 10 population.</string> 
@@ -763,13 +763,13 @@
     <string name="bonus_item_description_32">Town Centers have +5 line of sight.</string> 
     
     <string name="bonus_tech_tree_description_33">Demolition Ships have +50% hit points.</string>
-    <string name="bonus_item_description_33">@ have +50% hit points.</string> 
+    <string name="bonus_item_description_33">\@ have +50% hit points.</string> 
     
     <string name="bonus_tech_tree_description_34">Farms have +10% food.</string>
     <string name="bonus_item_description_34">Farms have +10% food.</string> 
     
     <string name="bonus_tech_tree_description_35">Archer-line fires +18% faster.</string>
-    <string name="bonus_item_description_35">@ fire 18% faster.</string> 
+    <string name="bonus_item_description_35">\@ fire 18% faster.</string> 
     
     <string name="bonus_tech_tree_description_36">Receive +100 gold, +100 food when advancing to the next Age.</string>
     <string name="bonus_item_description_36">Receive +100 gold, +100 food when advancing to the next Age.</string> 
@@ -778,7 +778,7 @@
     <string name="bonus_item_description_37">Pikeman upgrade is free.</string> 
     
     <string name="bonus_tech_tree_description_38">Towers and Outposts have +3 line of sight.</string>
-    <string name="bonus_item_description_38">@ have +3 line of sight.</string> 
+    <string name="bonus_item_description_38">\@ have +3 line of sight.</string> 
     
     <string name="bonus_tech_tree_description_39">Foragers work 15% faster.</string>
     <string name="bonus_item_description_39">Foragers work 15% faster.</string> 
@@ -787,55 +787,55 @@
     <string name="bonus_item_description_40">Castles cost -25%.</string> 
     
     <string name="bonus_tech_tree_description_41">Cavalry have +20% hit points, starting in Feudal Age.</string>
-    <string name="bonus_item_description_41">@ have +20% hit points starting in Feudal Age.</string> 
+    <string name="bonus_item_description_41">\@ have +20% hit points starting in Feudal Age.</string> 
     
     <string name="bonus_tech_tree_description_42">Farm upgrades are free (require Mill).</string>
-    <string name="bonus_item_description_42">@ research is free.</string> 
+    <string name="bonus_item_description_42">\@ research is free.</string> 
     
     <string name="bonus_tech_tree_description_43">Knights have +2 line of sight.</string>
-    <string name="bonus_item_description_43">@ have +2 line of sight.</string> 
+    <string name="bonus_item_description_43">\@ have +2 line of sight.</string> 
     
     <string name="bonus_tech_tree_description_44">Infantry cost -20/25/30/35% in Dark/Feudal/Castle/Imperial Age.</string>
-    <string name="bonus_item_description_44">@ cost -20/25/30/35% in Dark/Feudal/Castle/Imperial Age.</string> 
+    <string name="bonus_item_description_44">\@ cost -20/25/30/35% in Dark/Feudal/Castle/Imperial Age.</string> 
     
     <string name="bonus_tech_tree_description_45">Infantry have +1/2/3 attack against Standard Buildings in Feudal/Castle/Imperial Age.</string>
-    <string name="bonus_item_description_45">@ have +1/2/3 attack against Standard Buildings in Feudal/Castle/Imperial.</string> 
+    <string name="bonus_item_description_45">\@ have +1/2/3 attack against Standard Buildings in Feudal/Castle/Imperial.</string> 
     
     <string name="bonus_tech_tree_description_46">Hunters have +5 attack against wild boar; Hunters carry +15 meat.</string>
     <string name="bonus_item_description_46">Hunters have +5 attack against wild boar; Hunters carry +15 meat.</string> 
     
     <string name="bonus_tech_tree_description_47">Loom technology can be researched instantly.</string>
-    <string name="bonus_item_description_47">@ technology can be researched instantly.</string> 
+    <string name="bonus_item_description_47">\@ technology can be researched instantly.</string> 
     
     <string name="bonus_tech_tree_description_48">+10 population in Imperial Age.</string>
     <string name="bonus_item_description_48">+10 population in Imperial Age.</string> 
     
     <string name="bonus_tech_tree_description_49">Barracks work 20% faster.</string>
-    <string name="bonus_item_description_49">@ are trained 20% faster.|@ work 20% faster.|@ is researched 20% faster.</string> 
+    <string name="bonus_item_description_49">\@ are trained 20% faster.|\@ work 20% faster.|\@ is researched 20% faster.</string> 
     
     <string name="bonus_tech_tree_description_50">Do not need houses, but start with -100 wood.</string>
-    <string name="bonus_item_description_50">@ are not needed.</string> 
+    <string name="bonus_item_description_50">\@ are not needed.</string> 
     
     <string name="bonus_tech_tree_description_51">Cavalry Archers cost -10/20% in Castle/Imperial Age.</string>
-    <string name="bonus_item_description_51">@ cost -10/20% in Castle/Imperial Age.</string> 
+    <string name="bonus_item_description_51">\@ cost -10/20% in Castle/Imperial Age.</string> 
     
     <string name="bonus_tech_tree_description_52">Trebuchets have +35% accuracy.</string>
-    <string name="bonus_item_description_52">@ have +35% accuracy.</string> 
+    <string name="bonus_item_description_52">\@ have +35% accuracy.</string> 
     
     <string name="bonus_tech_tree_description_53">Stables work 20% faster.</string>
-    <string name="bonus_item_description_53">@ are trained 20% faster.|@ work 20% faster.|@ is researched 20% faster.</string> 
+    <string name="bonus_item_description_53">\@ are trained 20% faster.|\@ work 20% faster.|\@ is researched 20% faster.</string> 
     
     <string name="bonus_tech_tree_description_54">Start with a free llama.</string>
     <string name="bonus_item_description_54">Start with a free llama.</string> 
     
     <string name="bonus_tech_tree_description_55">Villagers are affected by Infantry Blacksmith upgrades starting in Castle Age.</string>
-    <string name="bonus_item_description_55">Villagers are affected by Infantry Blacksmith upgrades starting in Castle Age.||@ affects Villagers starting in Castle Age.</string> 
+    <string name="bonus_item_description_55">Villagers are affected by Infantry Blacksmith upgrades starting in Castle Age.||\@ affects Villagers starting in Castle Age.</string> 
     
     <string name="bonus_tech_tree_description_56">Houses support 10 population.</string>
     <string name="bonus_item_description_56">Houses support 10 population.</string> 
     
     <string name="bonus_tech_tree_description_57">Buildings cost -15% stone.</string>
-    <string name="bonus_item_description_57">@ cost -15% stone.</string> 
+    <string name="bonus_item_description_57">\@ cost -15% stone.</string> 
     
     <string name="bonus_tech_tree_description_58">Farms are built twice as fast.</string>
     <string name="bonus_item_description_58">Farms are built twice as fast.</string> 
@@ -847,85 +847,85 @@
     <string name="bonus_item_description_60">Fishermen work 10% faster.</string> 
     
     <string name="bonus_tech_tree_description_61">Stable Units have +1/2 pierce armor in Castle/Imperial Age.</string>
-    <string name="bonus_item_description_61">@ have +1/2 pierce armor in Castle/Imperial Age.</string> 
+    <string name="bonus_item_description_61">\@ have +1/2 pierce armor in Castle/Imperial Age.</string> 
     
     <string name="bonus_tech_tree_description_62">Camel units have +4 attack against Standard Buildings.</string>
-    <string name="bonus_item_description_62">@ have +4 attack against Standard Buildings.</string> 
+    <string name="bonus_item_description_62">\@ have +4 attack against Standard Buildings.</string> 
     
     <string name="bonus_tech_tree_description_63">Advancing to the next Age costs -15%.</string>
-    <string name="bonus_item_description_63">@ research cost -15%.</string> 
+    <string name="bonus_item_description_63">\@ research cost -15%.</string> 
     
     <string name="bonus_tech_tree_description_64">Dock and University techs cost -33%.</string>
-    <string name="bonus_item_description_64">@ research cost -33%.</string> 
+    <string name="bonus_item_description_64">\@ research cost -33%.</string> 
     
     <string name="bonus_tech_tree_description_65">Fishing Ships cost -15%.</string>
-    <string name="bonus_item_description_65">@ cost -15%.</string> 
+    <string name="bonus_item_description_65">\@ cost -15%.</string> 
     
     <string name="bonus_tech_tree_description_66">Gunpowder units cost -20%.</string>
-    <string name="bonus_item_description_66">@ cost -20%.</string> 
+    <string name="bonus_item_description_66">\@ cost -20%.</string> 
     
     <string name="bonus_tech_tree_description_67">Condottiero are available in the Barracks.</string>
-    <string name="bonus_item_description_67">@ are available in the Barracks</string> 
+    <string name="bonus_item_description_67">\@ are available in the Barracks</string> 
     
     <string name="bonus_tech_tree_description_68">Fishing Ships have double the hit points; +2 pierce armor; work rate +5/10/15/20% in Dark/Feudal/Castle/Imperial Age.</string>
     <string name="bonus_item_description_68">Fishing Ships have double the hit points; +2 pierce armor; work rate +5/10/15/20% in Dark/Feudal/Castle/Imperial Age.</string> 
     
     <string name="bonus_tech_tree_description_69">Mill, Lumber/Mining Camps cost -50%.</string>
-    <string name="bonus_item_description_69">@ cost -50%.</string> 
+    <string name="bonus_item_description_69">\@ cost -50%.</string> 
     
     <string name="bonus_tech_tree_description_70">Infantry attack 33% faster starting in Feudal Age.</string>
-    <string name="bonus_item_description_70">@ attack 33% faster.</string> 
+    <string name="bonus_item_description_70">\@ attack 33% faster.</string> 
     
     <string name="bonus_tech_tree_description_71">Galley-line have +50% line of sight.</string>
-    <string name="bonus_item_description_71">@ have +50% line of sight.</string> 
+    <string name="bonus_item_description_71">\@ have +50% line of sight.</string> 
     
     <string name="bonus_tech_tree_description_72">No buildings required to advance to the next Age or to unlock other buildings.</string>
-    <string name="bonus_item_description_72">No buildings required to unlock the @</string> 
+    <string name="bonus_item_description_72">No buildings required to unlock the \@</string> 
     
     <string name="bonus_tech_tree_description_73">Farmers do not need Mills or Town Centers to drop off food, but work 5% slower.</string>
     <string name="bonus_item_description_73">Farmers do not need Mills or Town Centers to drop off food, but work 5% slower.</string> 
     
     <string name="bonus_tech_tree_description_74">Battle Elephants move 10% faster.</string>
-    <string name="bonus_item_description_74">@ move 10% faster.</string> 
+    <string name="bonus_item_description_74">\@ move 10% faster.</string> 
     
     <string name="bonus_tech_tree_description_75">Villagers can garrison in Houses.</string>
     <string name="bonus_item_description_75">Villagers can garrison in Houses.</string> 
     
     <string name="bonus_tech_tree_description_76">Scorpions have +1 range.</string>
-    <string name="bonus_item_description_76">@ have +1 range.</string> 
+    <string name="bonus_item_description_76">\@ have +1 range.</string> 
     
     <string name="bonus_tech_tree_description_77">Villagers have +3 line of sight.</string>
-    <string name="bonus_item_description_77">@ have +3 line of sight.</string> 
+    <string name="bonus_item_description_77">\@ have +3 line of sight.</string> 
     
     <string name="bonus_tech_tree_description_78">Stone miners work 20% faster.</string>
     <string name="bonus_item_description_78">Stone miners work 20% faster.</string> 
     
     <string name="bonus_tech_tree_description_79">Military units (except Siege units) cost -20% wood.</string>
-    <string name="bonus_item_description_79">@ cost 20% less wood.</string> 
+    <string name="bonus_item_description_79">\@ cost 20% less wood.</string> 
     
     <string name="bonus_tech_tree_description_80">Tower upgrades are free (Bombard Tower requires Chemistry).</string>
-    <string name="bonus_item_description_80">@ upgrade is free.</string> 
+    <string name="bonus_item_description_80">\@ upgrade is free.</string> 
     
     <string name="bonus_tech_tree_description_81">Padded Archer Armor, Leather Archer Armor and Ring Archer Armor technologies are free.</string>
-    <string name="bonus_item_description_81">Blacksmith armor upgrades are free.||@ research is free.</string> 
+    <string name="bonus_item_description_81">Blacksmith armor upgrades are free.||\@ research is free.</string> 
     
     <string name="bonus_tech_tree_description_82">Onager-line minimum range is reduced to 1.</string>
-    <string name="bonus_item_description_82">@ minium range is reduced to 1.</string> 
+    <string name="bonus_item_description_82">\@ minium range is reduced to 1.</string> 
     
     <string name="bonus_tech_tree_description_83">Villagers kill predator animals in 1 strike (+30 damage against Predator Animals).</string>
     <string name="bonus_item_description_83">Villagers kill predator animals in 1 strike (+30 damage against Predator Animals).</string> 
     
     <string name="bonus_tech_tree_description_84">Forging, Iron Casting, Blast Furnace technologies are free.</string>
-    <string name="bonus_item_description_84">Blacksmith attack upgrades are free.||@ research is free.</string> 
+    <string name="bonus_item_description_84">Blacksmith attack upgrades are free.||\@ research is free.</string> 
     
     <string name="bonus_tech_tree_description_85">Scout Cavalry, Light Cavalry, Hussar cost -15%.</string>
-    <string name="bonus_item_description_85">@ cost -15%.</string> 
+    <string name="bonus_item_description_85">\@ cost -15%.</string> 
     
     <string name="bonus_tech_tree_description_86">Foot Archers have +2 line of sight.</string>
-    <string name="bonus_item_description_86">@ have +2 line of sight.</string> 
+    <string name="bonus_item_description_86">\@ have +2 line of sight.</string> 
     
     <string name="bonus_tech_tree_description_87">Advancing to the next age is 66% faster.</string>
-    <string name="bonus_item_description_87">@ is researched 66% faster.</string> 
+    <string name="bonus_item_description_87">\@ is researched 66% faster.</string> 
     
     <string name="bonus_tech_tree_description_88">Fish Traps cost -33%.</string>
     <string name="bonus_item_description_88">Fish Traps cost -33%.</string> 
@@ -934,22 +934,22 @@
     <string name="bonus_item_description_89">Fish Traps provide three times more food.</string> 
     
     <string name="bonus_tech_tree_description_90">Battle Elephants cost -30/40% in Castle/Imperial Age.</string>
-    <string name="bonus_item_description_90">@ cost -30/40% in Castle/Imperial Age.</string> 
+    <string name="bonus_item_description_90">\@ cost -30/40% in Castle/Imperial Age.</string> 
     
     <string name="bonus_tech_tree_description_91">Docks have +100% line of sight.</string>
-    <string name="bonus_item_description_91">@ have +100% line of sight.</string> 
+    <string name="bonus_item_description_91">\@ have +100% line of sight.</string> 
     
     <string name="bonus_tech_tree_description_92">Buildings cost 15% less wood (except Farms).</string>
-    <string name="bonus_item_description_92">@ cost 15% less wood.</string> 
+    <string name="bonus_item_description_92">\@ cost 15% less wood.</string> 
     
     <string name="bonus_tech_tree_description_93">Barracks units have +1/2/3 pierce armor in Feudal/Castle/Imperial Age.</string>
-    <string name="bonus_item_description_93">@ have +1/2/3 pierce armor in Feudal/Castle/Imperial Age.</string> 
+    <string name="bonus_item_description_93">\@ have +1/2/3 pierce armor in Feudal/Castle/Imperial Age.</string> 
     
     <string name="bonus_tech_tree_description_94">Gold Mines last 30% longer</string>
     <string name="bonus_item_description_94">Gold Mines last 30% longer.</string> 
     
     <string name="bonus_tech_tree_description_95">University research is 80% faster.</string>
-    <string name="bonus_item_description_95">@ are trained 80% faster.|@ work 80% faster.|@ is researched 80% faster.</string> 
+    <string name="bonus_item_description_95">\@ are trained 80% faster.|\@ work 80% faster.|\@ is researched 80% faster.</string> 
     
     <string name="bonus_tech_tree_description_96">Start with +1 villager, but -50 food.</string>
     <string name="bonus_item_description_96">Start with +1 villager, but -50 food.</string> 
@@ -958,40 +958,40 @@
     <string name="bonus_item_description_97">Resources last 15% longer.</string> 
     
     <string name="bonus_tech_tree_description_98">Archers cost -10/20/30% in Feudal/Castle/Imperial Age.</string>
-    <string name="bonus_item_description_98">@ cost -10/20/30% in Feudal/Castle/Imperial Age.</string> 
+    <string name="bonus_item_description_98">\@ cost -10/20/30% in Feudal/Castle/Imperial Age.</string> 
     
     <string name="bonus_tech_tree_description_99">Walls cost -50%.</string>
-    <string name="bonus_item_description_99">@ cost -50%.</string> 
+    <string name="bonus_item_description_99">\@ cost -50%.</string> 
     
     <string name="bonus_tech_tree_description_100">Cavalry Archers, Mangudai fire 25% faster.</string>
-    <string name="bonus_item_description_100">@ fire 25% faster.</string> 
+    <string name="bonus_item_description_100">\@ fire 25% faster.</string> 
     
     <string name="bonus_tech_tree_description_101">Light Cavalry, Hussar and Steppe Lancers have +30% hit points.</string>
-    <string name="bonus_item_description_101">@ have +30% hit points.</string> 
+    <string name="bonus_item_description_101">\@ have +30% hit points.</string> 
     
     <string name="bonus_tech_tree_description_102">Hunters work 40% faster.</string>
     <string name="bonus_item_description_102">Hunters work 40% faster.</string> 
     
     <string name="bonus_tech_tree_description_103">Scout-Line have +2 line of sight.</string>
-    <string name="bonus_item_description_103">@ have +2 line of sight.</string> 
+    <string name="bonus_item_description_103">\@ have +2 line of sight.</string> 
     
     <string name="bonus_tech_tree_description_104">Start with +50 wood and food.</string>
     <string name="bonus_item_description_104">Start with +50 wood and food.</string> 
     
     <string name="bonus_tech_tree_description_105">Town Centers and Docks have +100% hit points.</string>
-    <string name="bonus_item_description_105">@ have +100% hit points.</string> 
+    <string name="bonus_item_description_105">\@ have +100% hit points.</string> 
     
     <string name="bonus_tech_tree_description_106">Town Centers and Docks work +10/15/20% faster in Feudal/Castle/Imperial Age.</string>
-    <string name="bonus_item_description_106">@ are trained 10/15/20% faster in Feudal/Castle/Imperial Age.|@ work 10/15/20% faster in Feudal/Castle/Imperial Age.|@ is researched 10/15/20% faster in Feudal/Castle/Imperial Age.</string> 
+    <string name="bonus_item_description_106">\@ are trained 10/15/20% faster in Feudal/Castle/Imperial Age.|\@ work 10/15/20% faster in Feudal/Castle/Imperial Age.|\@ is researched 10/15/20% faster in Feudal/Castle/Imperial Age.</string> 
     
     <string name="bonus_tech_tree_description_107">Knights have +2 attack against Archers.</string>
-    <string name="bonus_item_description_107">@ have +2 attack against Archers.</string> 
+    <string name="bonus_item_description_107">\@ have +2 attack against Archers.</string> 
     
     <string name="bonus_tech_tree_description_108">All units cost -20% gold.</string>
-    <string name="bonus_item_description_108">@ cost 20% less gold.</string> 
+    <string name="bonus_item_description_108">\@ cost 20% less gold.</string> 
     
     <string name="bonus_tech_tree_description_109">Ships have +10% hit points.</string>
-    <string name="bonus_item_description_109">@ have +10% hit points.</string> 
+    <string name="bonus_item_description_109">\@ have +10% hit points.</string> 
     
     <string name="bonus_tech_tree_description_110">Can build Feitoria in Imperial Age.</string>
     <string name="bonus_item_description_110">Can build Feitoria in Imperial Age.</string> 
@@ -1009,16 +1009,16 @@
     <string name="bonus_item_description_114">Transport Ships have double the hit points and +5 carry capacity.</string> 
     
     <string name="bonus_tech_tree_description_115">Galleys fire 25% faster.</string>
-    <string name="bonus_item_description_115">@ fire 25% faster.</string> 
+    <string name="bonus_item_description_115">\@ fire 25% faster.</string> 
     
     <string name="bonus_tech_tree_description_116">Camel units +10 hit points.</string>
-    <string name="bonus_item_description_116">@ have +10 hit points.</string> 
+    <string name="bonus_item_description_116">\@ have +10 hit points.</string> 
     
     <string name="bonus_tech_tree_description_117"/>
     <string name="bonus_item_description_117"/> 
     
     <string name="bonus_tech_tree_description_118">Foot Archers have +3 attack against Standard Buildings.</string>
-    <string name="bonus_item_description_118">@ have +3 attack against Standard Buildings.</string> 
+    <string name="bonus_item_description_118">\@ have +3 attack against Standard Buildings.</string> 
     
     <string name="bonus_tech_tree_description_119">Farmers work 10% faster.</string>
     <string name="bonus_item_description_119">Farmers work 10% faster.|Farms work 10% faster.|</string> 
@@ -1027,34 +1027,34 @@
     <string name="bonus_item_description_120">Supplies technology is free.</string> 
     
     <string name="bonus_tech_tree_description_121">Siege Workshop units cost -15%.</string>
-    <string name="bonus_item_description_121">@ cost -15%.</string> 
+    <string name="bonus_item_description_121">\@ cost -15%.</string> 
     
     <string name="bonus_tech_tree_description_122">Military Buildings provide +5 population.</string>
-    <string name="bonus_item_description_122">@ provide +5 population.</string> 
+    <string name="bonus_item_description_122">\@ provide +5 population.</string> 
     
     <string name="bonus_tech_tree_description_123">Builders work 30% faster (except for Wonders, which is 20% faster).</string>
-    <string name="bonus_item_description_123">Builders work 30% faster (except for Wonders, which is 20% faster).|@ are constructed 30% faster.|</string> 
+    <string name="bonus_item_description_123">Builders work 30% faster (except for Wonders, which is 20% faster).|\@ are constructed 30% faster.|</string> 
     
     <string name="bonus_tech_tree_description_124">Blacksmith upgrades do not cost gold.</string>
-    <string name="bonus_item_description_124">@ research cost no gold.</string> 
+    <string name="bonus_item_description_124">\@ research cost no gold.</string> 
     
     <string name="bonus_tech_tree_description_125">Gunpowder units fire 18% faster.</string>
-    <string name="bonus_item_description_125">@ fire 18% faster.</string> 
+    <string name="bonus_item_description_125">\@ fire 18% faster.</string> 
     
     <string name="bonus_tech_tree_description_126">Cannon Galleons fire with ballistics, cannonballs move 133% faster.</string>
-    <string name="bonus_item_description_126">@ are affected by ballistics and the projectiles move 133% faster.</string> 
+    <string name="bonus_item_description_126">\@ are affected by ballistics and the projectiles move 133% faster.</string> 
     
     <string name="bonus_tech_tree_description_127">Trade units generate +25% gold.</string>
-    <string name="bonus_item_description_127">@ generate 25% more gold.</string> 
+    <string name="bonus_item_description_127">\@ generate 25% more gold.</string> 
     
     <string name="bonus_tech_tree_description_128">Monks have double the range for healing.</string>
     <string name="bonus_item_description_128">Monks have double the range for healing.</string> 
     
     <string name="bonus_tech_tree_description_129">Towers can garrison twice as many units.</string>
-    <string name="bonus_item_description_129">@ can garrison twice as many units.</string> 
+    <string name="bonus_item_description_129">\@ can garrison twice as many units.</string> 
     
     <string name="bonus_tech_tree_description_130">Murder Holes and Herbal Medicine technologies are free.</string>
-    <string name="bonus_item_description_130">@ research is free.</string> 
+    <string name="bonus_item_description_130">\@ research is free.</string> 
     
     <string name="bonus_tech_tree_description_131">Farms cost -40%.</string>
     <string name="bonus_item_description_131">Farms cost -40%.</string> 
@@ -1063,16 +1063,16 @@
     <string name="bonus_item_description_132">Town Centers have +10 garrison capacity.</string> 
     
     <string name="bonus_tech_tree_description_133">Barracks and Stable units have +1/2 melee armor in Castle/Imperial Age.</string>
-    <string name="bonus_item_description_133">@ have +1/2 melee armor in Castle/Imperial Age.</string> 
+    <string name="bonus_item_description_133">\@ have +1/2 melee armor in Castle/Imperial Age.</string> 
     
     <string name="bonus_tech_tree_description_134">Units and buildings are more resistant to conversion.</string>
-    <string name="bonus_item_description_134">@ are more resistant to conversion.</string> 
+    <string name="bonus_item_description_134">\@ are more resistant to conversion.</string> 
     
     <string name="bonus_tech_tree_description_135">Gunpowder units have +25% hit points.</string>
-    <string name="bonus_item_description_135">@ have +25% hit points.</string> 
+    <string name="bonus_item_description_135">\@ have +25% hit points.</string> 
     
     <string name="bonus_tech_tree_description_136">Gunpowder technologies cost -50%.</string>
-    <string name="bonus_item_description_136">@ research cost -50%.</string> 
+    <string name="bonus_item_description_136">\@ research cost -50%.</string> 
     
     <string name="bonus_tech_tree_description_137">Chemistry technology is free.</string>
     <string name="bonus_item_description_137">Chemistry technology is free.</string> 
@@ -1081,40 +1081,40 @@
     <string name="bonus_item_description_138">Gold miners work 20% faster.</string> 
     
     <string name="bonus_tech_tree_description_139">Light Cavalry and Hussar upgrades are free.</string>
-    <string name="bonus_item_description_139">@ upgrade is free.</string> 
+    <string name="bonus_item_description_139">\@ upgrade is free.</string> 
     
     <string name="bonus_tech_tree_description_140">Gunpowder units are created 25% faster.</string>
-    <string name="bonus_item_description_140">@ are trained 25% faster.</string> 
+    <string name="bonus_item_description_140">\@ are trained 25% faster.</string> 
     
     <string name="bonus_tech_tree_description_141">Reveal enemy positions at the start of the game.</string>
     <string name="bonus_item_description_141">Reveal enemy positions at the start of the game.</string> 
     
     <string name="bonus_tech_tree_description_142">Economy upgrades cost no wood.</string>
-    <string name="bonus_item_description_142">@ research cost no wood.</string> 
+    <string name="bonus_item_description_142">\@ research cost no wood.</string> 
     
     <string name="bonus_tech_tree_description_143">Archery Range units +20% hit points.</string>
-    <string name="bonus_item_description_143">@ have +20% hit points.</string> 
+    <string name="bonus_item_description_143">\@ have +20% hit points.</string> 
     
     <string name="bonus_tech_tree_description_144">Conscription technology is free.</string>
-    <string name="bonus_item_description_144">@ research is free.</string> 
+    <string name="bonus_item_description_144">\@ research is free.</string> 
     
     <string name="bonus_tech_tree_description_145">Have access to Imperial Skirmisher upgrade.</string>
     <string name="bonus_item_description_145">Have access to Imperial Skirmisher upgrade.</string> 
     
     <string name="bonus_tech_tree_description_146">Warships cost -15/15/20% in Feudal/Castle/Imperial Age.</string>
-    <string name="bonus_item_description_146">@ cost -15/15/20% in Feudal/Castle/Imperial Age.</string> 
+    <string name="bonus_item_description_146">\@ cost -15/15/20% in Feudal/Castle/Imperial Age.</string> 
     
     <string name="bonus_tech_tree_description_147">Infantry have +20% hit points starting in Feudal Age.</string>
-    <string name="bonus_item_description_147">@ have +20% hit points starting in Feudal Age.</string> 
+    <string name="bonus_item_description_147">\@ have +20% hit points starting in Feudal Age.</string> 
     
     <string name="bonus_tech_tree_description_148">Wheelbarrow and Hand Cart technologies are free.</string>
-    <string name="bonus_item_description_148">@ research is free.</string> 
+    <string name="bonus_item_description_148">\@ research is free.</string> 
     
     <string name="bonus_tech_tree_description_149">Docks cost -15%.</string>
-    <string name="bonus_item_description_149">@ cost -15%.</string> 
+    <string name="bonus_item_description_149">\@ cost -15%.</string> 
     
     <string name="bonus_tech_tree_description_150">Militia-line upgrades are free.</string>
-    <string name="bonus_item_description_150">@ upgrade is free.</string> 
+    <string name="bonus_item_description_150">\@ upgrade is free.</string> 
     
     <string name="bonus_tech_tree_description_151">Town Centers cost -50% stone.</string>
     <string name="bonus_item_description_151">Town Centers cost -50% stone.</string> 
@@ -1123,115 +1123,115 @@
     <string name="bonus_item_description_152">Can build Krepost.</string> 
     
     <string name="bonus_tech_tree_description_153">Blacksmiths work 80% faster.</string>
-    <string name="bonus_item_description_153">@ are trained 80% faster.|@ work 80% faster.|@ is researched 80% faster.</string> 
+    <string name="bonus_item_description_153">\@ are trained 80% faster.|\@ work 80% faster.|\@ is researched 80% faster.</string> 
     
     <string name="bonus_tech_tree_description_154">One additional Town Center can be built in the Feudal Age, but its construction is 80% slower.</string>
     <string name="bonus_item_description_154">One additional Town Center can be built in the Feudal Age, but its construction is 80% slower.</string> 
     
     <string name="bonus_tech_tree_description_155">Siege Workshops and Battering Rams are available in the Feudal Age.</string>
-    <string name="bonus_item_description_155">@ are available in the Feudal Age.</string> 
+    <string name="bonus_item_description_155">\@ are available in the Feudal Age.</string> 
     
     <string name="bonus_tech_tree_description_156">Capped Ram upgrade available in the Castle Age</string>
-    <string name="bonus_item_description_156">@ are available in the Castle Age.||@ research is available in the Castle Age.</string> 
+    <string name="bonus_item_description_156">\@ are available in the Castle Age.||\@ research is available in the Castle Age.</string> 
     
     <string name="bonus_tech_tree_description_157">Cavalry move 5/10/15% faster in Feudal/Castle/Imperial Age.</string>
-    <string name="bonus_item_description_157">@ move 5/10/15% faster in Feudal/Castle/Imperial Age.</string> 
+    <string name="bonus_item_description_157">\@ move 5/10/15% faster in Feudal/Castle/Imperial Age.</string> 
     
     <string name="bonus_tech_tree_description_158">Palisade Walls have +33% hit points.</string>
-    <string name="bonus_item_description_158">@ have +33% hit points.</string> 
+    <string name="bonus_item_description_158">\@ have +33% hit points.</string> 
     
     <string name="bonus_tech_tree_description_159">Start with +150 food.</string>
     <string name="bonus_item_description_159">Start with +150 food.</string> 
     
     <string name="bonus_tech_tree_description_160">Spearman-line and Skirmishers move 10% faster.</string>
-    <string name="bonus_item_description_160">@ move 10% faster.</string> 
+    <string name="bonus_item_description_160">\@ move 10% faster.</string> 
     
     <string name="bonus_tech_tree_description_161">Each garrisoned relic gives +1 attack to the Knight-line and Leitis (maximum 4).</string>
-    <string name="bonus_item_description_161">@ get +1 attack for each garrisoned relic (maximum 4).</string> 
+    <string name="bonus_item_description_161">\@ get +1 attack for each garrisoned relic (maximum 4).</string> 
     
     <string name="bonus_tech_tree_description_162">Monasteries work 20% faster.</string>
-    <string name="bonus_item_description_162">@ are trained 20% faster.|@ work 20% faster.|@ is researched 20% faster.</string> 
+    <string name="bonus_item_description_162">\@ are trained 20% faster.|\@ work 20% faster.|\@ is researched 20% faster.</string> 
     
     <string name="bonus_tech_tree_description_163">Herdables contain +50% food.</string>
     <string name="bonus_item_description_163">Herdables contain +50% food.</string> 
     
     <string name="bonus_tech_tree_description_164">Units deal 25% more damage when fighting from higher elevation.</string>
-    <string name="bonus_item_description_164">@ deal 25% more damage when fighting from higher elevation.</string> 
+    <string name="bonus_item_description_164">\@ deal 25% more damage when fighting from higher elevation.</string> 
     
     <string name="bonus_tech_tree_description_165">Thumb Ring and Parthian Tactics technologies are free.</string>
-    <string name="bonus_item_description_165">@ research is free.</string> 
+    <string name="bonus_item_description_165">\@ research is free.</string> 
     
     <string name="bonus_tech_tree_description_166">Cavalry Archers have +2 line of sight.</string>
-    <string name="bonus_item_description_166">@ have +2 line of sight.</string> 
+    <string name="bonus_item_description_166">\@ have +2 line of sight.</string> 
     
     <string name="bonus_tech_tree_description_167">Blacksmith and Siege Workshop upgrades cost -50% food.</string>
-    <string name="bonus_item_description_167">@ upgrade cost 50% less food.||@ research cost 50% less food.</string> 
+    <string name="bonus_item_description_167">\@ upgrade cost 50% less food.||\@ research cost 50% less food.</string> 
     
     <string name="bonus_tech_tree_description_168">Technologies are researched 30% faster (except aging up).</string>
-    <string name="bonus_item_description_168">@ technology is researched 30% faster.</string> 
+    <string name="bonus_item_description_168">\@ technology is researched 30% faster.</string> 
     
     <string name="bonus_tech_tree_description_169">Newly-constructed Town Centers spawn two sheep starting in Castle Age.</string>
     <string name="bonus_item_description_169">Newly-constructed Town Centers spawn two sheep starting in Castle Age.</string> 
     
     <string name="bonus_tech_tree_description_170">Scout Cavalry, Light Cavalry and Hussar have +1 pierce armor.</string>
-    <string name="bonus_item_description_170">@ have +1 pierce armor.</string> 
+    <string name="bonus_item_description_170">\@ have +1 pierce armor.</string> 
     
     <string name="bonus_tech_tree_description_171">Economic upgrades are available one age earlier.</string>
-    <string name="bonus_item_description_171">@ research is available one age earlier.</string> 
+    <string name="bonus_item_description_171">\@ research is available one age earlier.</string> 
     
     <string name="bonus_tech_tree_description_172">Stable technologies cost 50% less.</string>
-    <string name="bonus_item_description_172">@ upgrade cost 50% less.||@ research cost 50% less.</string> 
+    <string name="bonus_item_description_172">\@ upgrade cost 50% less.||\@ research cost 50% less.</string> 
     
     <string name="bonus_tech_tree_description_173">Cavalier upgrade is available in the Castle Age.</string>
-    <string name="bonus_item_description_173">@ is available in the Castle age.||@ upgrade is available in the Castle age.</string> 
+    <string name="bonus_item_description_173">\@ is available in the Castle age.||\@ upgrade is available in the Castle age.</string> 
     
     <string name="bonus_tech_tree_description_174">Gunpowder units have +25% attack and bonus damage.</string>
-    <string name="bonus_item_description_174">@ have +25% attack and bonus damage.</string> 
+    <string name="bonus_item_description_174">\@ have +25% attack and bonus damage.</string> 
     
     <string name="bonus_tech_tree_description_175">Relics generate both food (30/min) and gold (30/min).</string>
     <string name="bonus_item_description_175">Relics generate both food (30/min) and gold (30/min).</string> 
     
     <string name="bonus_tech_tree_description_176">Castles and Town Centers (except the first Town Center in nomad starts) are built twice as fast.</string>
-    <string name="bonus_item_description_176">@ is built twice as fast.</string> 
+    <string name="bonus_item_description_176">\@ is built twice as fast.</string> 
     
     <string name="bonus_tech_tree_description_177">Land military units (except Siege Weapons) receive 50% less bonus damage.</string>
-    <string name="bonus_item_description_177">@ receive 50% less bonus damage.</string> 
+    <string name="bonus_item_description_177">\@ receive 50% less bonus damage.</string> 
     
     <string name="bonus_tech_tree_description_178">Farm upgrades provide twice the amount of food.</string>
-    <string name="bonus_item_description_178">|@ food upgrades provide twice the amount of food.|@ research provide twice the amount of food.</string> 
+    <string name="bonus_item_description_178">|\@ food upgrades provide twice the amount of food.|\@ research provide twice the amount of food.</string> 
     
     <string name="bonus_tech_tree_description_179">Can build Donjon.</string>
     <string name="bonus_item_description_179">Can build Donjon.</string> 
     
     <string name="bonus_tech_tree_description_180">Transport Ships have +5 line of sight and cost -50% less.</string>
-    <string name="bonus_item_description_180">@ have +5 line of sight and cost -50% less.</string> 
+    <string name="bonus_item_description_180">\@ have +5 line of sight and cost -50% less.</string> 
     
     <string name="bonus_tech_tree_description_181">Economic upgrades cost 50% less food.</string>
-    <string name="bonus_item_description_181">@ cost 50% less food.</string> 
+    <string name="bonus_item_description_181">\@ cost 50% less food.</string> 
     
     <string name="bonus_tech_tree_description_182">Stables and Archery Ranges cost -75 wood.</string>
-    <string name="bonus_item_description_182">@ cost -75 wood.</string> 
+    <string name="bonus_item_description_182">\@ cost -75 wood.</string> 
     
     <string name="bonus_tech_tree_description_183">Start with +100 stone.</string>
     <string name="bonus_item_description_183">Start with +100 stone.</string> 
     
     <string name="bonus_tech_tree_description_184">Blackmiths, Monasteries and Universities cost -100 wood.</string>
-    <string name="bonus_item_description_184">@ cost -100 wood.</string> 
+    <string name="bonus_item_description_184">\@ cost -100 wood.</string> 
     
     <string name="bonus_tech_tree_description_185">Chemistry research and Hand Cannoneers are available in the Castle Age.</string>
-    <string name="bonus_item_description_185">@ are available in the Castle Age.||@ research is available in the Castle Age.</string> 
+    <string name="bonus_item_description_185">\@ are available in the Castle Age.||\@ research is available in the Castle Age.</string> 
     
     <string name="bonus_tech_tree_description_186">Spearman-line deals 25% more bonus damage.</string>
-    <string name="bonus_item_description_186">@ deals 25% more bonus damage.</string> 
+    <string name="bonus_item_description_186">\@ deals 25% more bonus damage.</string> 
     
     <string name="bonus_tech_tree_description_187">Fervor and Sanctity technologies affect Villagers.</string>
-    <string name="bonus_item_description_187">Fervor and Sanctity technologies affect Villagers.||@ technology afects Villagers.</string> 
+    <string name="bonus_item_description_187">Fervor and Sanctity technologies affect Villagers.||\@ technology afects Villagers.</string> 
     
     <string name="bonus_tech_tree_description_188">Mining Camp technologies are free.</string>
-    <string name="bonus_item_description_188">@ technology is free.</string> 
+    <string name="bonus_item_description_188">\@ technology is free.</string> 
     
     <string name="bonus_tech_tree_description_189">Markets work 80% faster.</string>
-    <string name="bonus_item_description_189">@ are created 80% faster.|@ work 80% faster.|@ technology is researched 80% faster.</string> 
+    <string name="bonus_item_description_189">\@ are created 80% faster.|\@ work 80% faster.|\@ technology is researched 80% faster.</string> 
     
     <string name="bonus_tech_tree_description_190">Villagers regenerate 5/10/15/20 HP per minute in the Dark/Feudal/Castle/Imperial Age.</string>
     <string name="bonus_item_description_190">Villagers regenerate 5/10/15/20 HP per minute in the Dark/Feudal/Castle/Imperial Age.</string> 
@@ -1243,7 +1243,7 @@
     <string name="bonus_item_description_192">Stone Miners generate 50% of gold out of the stone collected.</string> 
     
     <string name="bonus_tech_tree_description_193">Light Cavalry line have +1 damage against Archers.</string>
-    <string name="bonus_item_description_193">@ have +1 damage against Archers.</string> 
+    <string name="bonus_item_description_193">\@ have +1 damage against Archers.</string> 
  
     <!--building_description.xml-->
      
@@ -1717,7 +1717,7 @@
     <string name="history_name_63">Economy</string>
     <string name="history_name_64">Religion</string>
     <string name="history_name_65">Technology</string>
-    <string name="history_name_66">Feudalism's Decline</string>
+    <string name="history_name_66">Feudalism\'s Decline</string>
     <string name="history_name_67">Renaissance</string>
     <string name="history_name_68">The Bulgarians</string>
     <string name="history_name_69">The Cumans</string>
@@ -1848,23 +1848,23 @@
     <string name="taunt_name_7">Ahh!</string>
     <string name="taunt_name_8">All hail, king of the losers!</string>
     <string name="taunt_name_9">Ooh!</string>
-    <string name="taunt_name_10">I'll beat you back to Age of Empires.</string>
+    <string name="taunt_name_10">I\'ll beat you back to Age of Empires.</string>
     <string name="taunt_name_11">Herb laugh.</string>
     <string name="taunt_name_12">Ah! Being rushed.</string>
     <string name="taunt_name_13">Sure, blame it on your ISP.</string>
     <string name="taunt_name_14">Start the game already!</string>
-    <string name="taunt_name_15">Don't point that thing at me!</string>
+    <string name="taunt_name_15">Don\'t point that thing at me!</string>
     <string name="taunt_name_16">Enemy sighted!</string>
     <string name="taunt_name_17">It is good to be the king.</string>
     <string name="taunt_name_18">Monk! I need a monk!</string>
     <string name="taunt_name_19">Long time, no siege.</string>
     <string name="taunt_name_20">My granny could scrap better than that.</string>
-    <string name="taunt_name_21">Nice town, I'll take it.</string>
+    <string name="taunt_name_21">Nice town, I\'ll take it.</string>
     <string name="taunt_name_22">Quit touching me!</string>
     <string name="taunt_name_23">Raiding party!</string>
     <string name="taunt_name_24">Dadgum.</string>
     <string name="taunt_name_25">Eh, smite me!</string>
-    <string name="taunt_name_26">The wonder, the wonder, the... no!</string>
+    <string name="taunt_name_26">The wonder, the wonder, the… no!</string>
     <string name="taunt_name_27">You played two hours to die like this?</string>
     <string name="taunt_name_28">Yeah, well, you should see the other guy.</string>
     <string name="taunt_name_29">Roggan.</string>
@@ -1886,7 +1886,7 @@
     <string name="taunt_name_45">Retreat now!</string>
     <string name="taunt_name_46">Flare the location of your army.</string>
     <string name="taunt_name_47">Attack in direction of the flared location.</string>
-    <string name="taunt_name_48">I'm being attacked, please help!</string>
+    <string name="taunt_name_48">I\'m being attacked, please help!</string>
     <string name="taunt_name_49">Build a forward base at the flared location.</string>
     <string name="taunt_name_50">Build a fortification at the flared location.</string>
     <string name="taunt_name_51">Keep your army close to mine and fight with me.</string>
@@ -1894,7 +1894,7 @@
     <string name="taunt_name_53">Rebuild your base at the flared location.</string>
     <string name="taunt_name_54">Build a wall between the two flared locations.</string>
     <string name="taunt_name_55">Build a wall around your town.</string>
-    <string name="taunt_name_56">Train units which counter the enemy's army.</string>
+    <string name="taunt_name_56">Train units which counter the enemy\'s army.</string>
     <string name="taunt_name_57">Stop training counter units.</string>
     <string name="taunt_name_58">Prepare to send me all your resources so I can vanquish our foes!</string>
     <string name="taunt_name_59">Stop sending me extra resources.</string>
@@ -1942,7 +1942,7 @@
     <string name="taunt_name_101">Attack the enemy with Fire Ships.</string>
     <string name="taunt_name_102">Attack the enemy with Unique Warships.</string>
     <string name="taunt_name_103">Use an Onager to cut down trees at the flared location.</string>
-    <string name="taunt_name_104">Don't resign!</string>
+    <string name="taunt_name_104">Don\'t resign!</string>
     <string name="taunt_name_105">You can resign again.</string>
      
     <!--tech_description.xml-->
@@ -2185,7 +2185,7 @@
     <string name="tech_description_nominative_40">Heresy</string>
     <string name="tech_description_quick_40"/>
     <string name="tech_description_brief_40"/>
-    <string name="tech_description_long_40">Units converted by an enemy Monk (or Missionary) die instead of changing to the enemy's color.</string>
+    <string name="tech_description_long_40">Units converted by an enemy Monk (or Missionary) die instead of changing to the enemy\'s color.</string>
     <string name="tech_description_extra_40"/> 
     
     <string name="tech_description_nominative_41">Herbal Medicine</string>
@@ -2416,7 +2416,7 @@
     <string name="tech_description_long_78">Malians Castle Age Unique Technology. Town Centers fire 5 extra arrows, even empty.</string>
     <string name="tech_description_extra_78">Town Centers fire 5 extra arrows, even empty.</string> 
     
-    <string name="tech_description_nominative_79">Hul'che Javelineers</string>
+    <string name="tech_description_nominative_79">Hul\'che Javelineers</string>
     <string name="tech_description_quick_79">Skirmishers fire 1 extra projectile</string>
     <string name="tech_description_brief_79"/>
     <string name="tech_description_long_79">Mayans Castle Age Unique Technology. Skirmishers fire 1 extra projectile.</string>
@@ -3415,7 +3415,7 @@
     <string name="tech_name_76">Corvinian Army</string>
     <string name="tech_name_77">Thalassocracy</string>
     <string name="tech_name_78">Tigui</string>
-    <string name="tech_name_79">Hul'che Javelineers</string>
+    <string name="tech_name_79">Hul\'che Javelineers</string>
     <string name="tech_name_80">Nomads</string>
     <string name="tech_name_81">Kamandaran</string>
     <string name="tech_name_82">Carrack</string>
@@ -3635,7 +3635,7 @@
     <string name="unit_description_nominative_5">Trade Cogs</string>
     <string name="unit_description_quick_5"/>
     <string name="unit_description_brief_5">Naval trading unit. Used to trade with other players by sea.</string>
-    <string name="unit_description_long_5">Naval trading unit. Used to trade with other players by sea. Carries goods from your Dock to another player's Dock and brings back gold. The farther the Dock, the higher your profit.</string>
+    <string name="unit_description_long_5">Naval trading unit. Used to trade with other players by sea. Carries goods from your Dock to another player\'s Dock and brings back gold. The farther the Dock, the higher your profit.</string>
     <string name="unit_description_extra_5"/> 
     
     <string name="unit_description_nominative_6">Galleys</string>
@@ -3659,7 +3659,7 @@
     <string name="unit_description_nominative_9">Trade Carts</string>
     <string name="unit_description_quick_9"/>
     <string name="unit_description_brief_9">Land trading unit. Used to trade with other players by land.</string>
-    <string name="unit_description_long_9">Land trading unit. Used to trade with other players by land. Carries goods from your Market to another player's Market and brings back gold. The farther the Market, the higher your profit.</string>
+    <string name="unit_description_long_9">Land trading unit. Used to trade with other players by land. Carries goods from your Market to another player\'s Market and brings back gold. The farther the Market, the higher your profit.</string>
     <string name="unit_description_extra_9"/> 
     
     <string name="unit_description_nominative_10">Men-at-Arms</string>

@@ -44,9 +44,11 @@ public class Reader {
     public static HashMap<String, HashMap<String, String>> readStringMap(){
         HashMap<String, HashMap<String, String>> b = new HashMap<>();
         HashMap<String, String> enMap = readLangMap(Database.ENGLISH);
+        HashMap<String, String> deMap = readLangMap(Database.DEUTSCH);
         HashMap<String, String> esMap = readLangMap(Database.SPANISH);
         b.put(Database.ENGLISH, enMap);
         b.put(Database.SPANISH, esMap);
+        b.put(Database.DEUTSCH, deMap);
         return b;
     }
     
@@ -64,7 +66,7 @@ public class Reader {
             for (int i = 0; i< list.getLength(); ++i) {
                 Element element = (Element) list.item(i);
                 String key = element.getAttribute("name");
-                String content = element.getTextContent().replace("\\n", "\n").replace("\\'", "'");
+                String content = element.getTextContent().replace("\\n", "\n").replace("\\'", "'").replace("\\@", "@");
                 b.put(key, content);
             }
             return b;

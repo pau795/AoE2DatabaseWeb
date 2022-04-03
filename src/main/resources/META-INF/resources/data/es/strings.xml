@@ -5,7 +5,7 @@
     <string name="action_sort">Ordenar</string>
     <string name="navigation_drawer_open">Abrir panel de navegación</string>
     <string name="navigation_drawer_close">Cerrar panel de navegación</string>
-    <string name="about_text">Age of Empires 2 Database %s\n\nAplicación creada por Pau795.\nContacto: pau795@gmail.com\n\nLos datos de la aplicación han extraidos de AoE2: Definitive Edition (update %d), utilizando la herramienta Advanced Genie Editor. Otra información fue obtenida de la wiki del AoE, AoKHeaven, y haciendo mi propia investigación.\n\nGracias a Edutosu y a Maicol por inspirarme para hacer esta aplicación, también gracias a Peluca por ayudarme a testear la aplicación, y por último gracias a LBeleven por ayudarme a realizar algunas investigaciones.\n\nSientete libre de enviarme tu feedback, será muy útil y apreciado.\n\nAge of Empires II: Definitive Edition \u00A9 Microsoft Corporation.\nAoE2 Database se ha creado bajo las reglas de Uso de Contenido de Juego de Microsoft, utilizando material de Age of Empires II: Definitive Edition, y no está respaldado por ni afiliado con Microsoft.</string>
+    <string name="about_text">Age of Empires 2 Database %s\n\nAplicación creada por Pau795.\nContacto: pau795\@gmail.com\n\nLos datos de la aplicación han extraidos de AoE2: Definitive Edition (update %d), utilizando la herramienta Advanced Genie Editor. Otra información fue obtenida de la wiki del AoE, AoKHeaven, y haciendo mi propia investigación.\n\nGracias a Edutosu y a Maicol por inspirarme para hacer esta aplicación, también gracias a Peluca por ayudarme a testear la aplicación, y por último gracias a LBeleven por ayudarme a realizar algunas investigaciones.\n\nSientete libre de enviarme tu feedback, será muy útil y apreciado.\n\nAge of Empires II: Definitive Edition \u00A9 Microsoft Corporation.\nAoE2 Database se ha creado bajo las reglas de Uso de Contenido de Juego de Microsoft, utilizando material de Age of Empires II: Definitive Edition, y no está respaldado por ni afiliado con Microsoft.</string>
     <string name="support_text">Gracias por descargar AoE 2 Database.\n\nSi te gusta y disfrutas de la aplicación, y quieres ayudar en su desarrollo, considera apoyarme mediante el link de abajo.\n\nEste mensaje solo se mostrará una vez, pero el link está siempre disponible en la esquina superior derecha.</string>
     <string name="performance_strong">Fuerte contra</string>
     <string name="performance_weak">Débil contra</string>
@@ -662,10 +662,10 @@
     <string name="bonus_item_description_1">Los Aldeanos tienen +3 de capacidad de carga.</string> 
     
     <string name="bonus_tech_tree_description_2">Las unidades militares se crean un 11% más rápido.</string>
-    <string name="bonus_item_description_2">@ se crean un 11% más rápido.</string> 
+    <string name="bonus_item_description_2">\@ se crean un 11% más rápido.</string> 
     
     <string name="bonus_tech_tree_description_3">Los Monjes obtienen +5 puntos de resistencia por cada tecnología del Monsasterio desarrollada.</string>
-    <string name="bonus_item_description_3">@ obtienen +5 puntos de resistencia por cada tecnología del Monsasterio desarrollada.</string> 
+    <string name="bonus_item_description_3">\@ obtienen +5 puntos de resistencia por cada tecnología del Monsasterio desarrollada.</string> 
     
     <string name="bonus_tech_tree_description_4">Empiezan con +50 de oro.</string>
     <string name="bonus_item_description_4">Empiezan con +50 de oro.</string> 
@@ -677,76 +677,76 @@
     <string name="bonus_item_description_6">Los Aldeanos se mueven un 10% más rápido.</string> 
     
     <string name="bonus_tech_tree_description_7">Las unidades del Establo cuestan un 15/20% menos en la Edad Castillos/Imperial.</string>
-    <string name="bonus_item_description_7">@ cuestan un 15/20% menos en la Edad Castillos/Imperial.</string> 
+    <string name="bonus_item_description_7">\@ cuestan un 15/20% menos en la Edad Castillos/Imperial.</string> 
     
     <string name="bonus_tech_tree_description_8">Los barcos se mueven un 10% más rápido.</string>
-    <string name="bonus_item_description_8">@ se mueve un 10% más rápido.</string> 
+    <string name="bonus_item_description_8">\@ se mueve un 10% más rápido.</string> 
     
     <string name="bonus_tech_tree_description_9">Los Escaramuzadores Zenete están disponibles en la Galería de Tiro con Arco.</string>
-    <string name="bonus_item_description_9">@ están disponibles en la Galería de Tiro con Arco.||La mejora de @ está disponible en la Galería de Tiro con Arco.</string> 
+    <string name="bonus_item_description_9">\@ están disponibles en la Galería de Tiro con Arco.||La mejora de \@ está disponible en la Galería de Tiro con Arco.</string> 
     
     <string name="bonus_tech_tree_description_10">Los Centros Urbanos cuestan un 50% menos de madera a partir de la Edad de los Castillos.</string>
     <string name="bonus_item_description_10">Los Centros Urbanos cuestan un 50% menos de madera a partir de la Edad de los Castillos.</string> 
     
     <string name="bonus_tech_tree_description_11">Los arqueros a pie (excepto Hostigadores) tienen +1/2 de alcance en la Edad Castillos/Imperial.</string>
-    <string name="bonus_item_description_11">@ tienen +1/2 de alcance en la Edad Castillos/Imperial.</string> 
+    <string name="bonus_item_description_11">\@ tienen +1/2 de alcance en la Edad Castillos/Imperial.</string> 
     
     <string name="bonus_tech_tree_description_12">Los Pastores trabajan un 25% más rápido.</string>
     <string name="bonus_item_description_12">Los Pastores trabajan un 25% más rápido.</string> 
     
     <string name="bonus_tech_tree_description_13">Las Galerías de Tiro con Arco funcionan un 20% más rápido.</string>
-    <string name="bonus_item_description_13">@ se crean un 20% más rápido.|@ funcionan un 20% más rápido.|La tecnología de @ se desarrolla un 20% más rápido.</string> 
+    <string name="bonus_item_description_13">\@ se crean un 20% más rápido.|\@ funcionan un 20% más rápido.|La tecnología de \@ se desarrolla un 20% más rápido.</string> 
     
     <string name="bonus_tech_tree_description_14">Las Mejoras del Campamento Maderero son gratuitas.</string>
-    <string name="bonus_item_description_14">La tecnología de @ es gratuita.</string> 
+    <string name="bonus_item_description_14">La tecnología de \@ es gratuita.</string> 
     
     <string name="bonus_tech_tree_description_15">La Infantería tiene +1/2/3 de ataque en la Edad Feudal/Castillos/Imperial.</string>
-    <string name="bonus_item_description_15">@ tienen +1/2/3 de ataque en la Edad Feudal/Castillos/Imperial.</string> 
+    <string name="bonus_item_description_15">\@ tienen +1/2/3 de ataque en la Edad Feudal/Castillos/Imperial.</string> 
     
     <string name="bonus_tech_tree_description_16">Las tecnologías del Monasterio cuestan un 50% menos.</string>
-    <string name="bonus_item_description_16">La tecnología de @ cuesta un 50% menos.</string> 
+    <string name="bonus_item_description_16">La tecnología de \@ cuesta un 50% menos.</string> 
     
     <string name="bonus_tech_tree_description_17">Las Reliquias están visibles en el mapa.</string>
     <string name="bonus_item_description_17">Las Reliquias están visibles en el mapa.</string> 
     
     <string name="bonus_tech_tree_description_18">Los Edificios tienen un 10/20/30/40% más de puntos de resistencia en la Edad Alta/Feudal/Castillos/Imperial.</string>
-    <string name="bonus_item_description_18">@ tienen un 10/20/30/40% más de puntos de resistencia en la Edad Alta/Feudal/Castillos/Imperial.</string> 
+    <string name="bonus_item_description_18">\@ tienen un 10/20/30/40% más de puntos de resistencia en la Edad Alta/Feudal/Castillos/Imperial.</string> 
     
     <string name="bonus_tech_tree_description_19">Los Jinetes en Camello, los Hostigadores y la línea de Lancero cuestan un 25% menos.</string>
-    <string name="bonus_item_description_19">@ cuestan un 25% menos.</string> 
+    <string name="bonus_item_description_19">\@ cuestan un 25% menos.</string> 
     
     <string name="bonus_tech_tree_description_20">Los Barcos incendiarios atacan un 20% más rápido.</string>
-    <string name="bonus_item_description_20">@ atacan un 20% más rápido.</string> 
+    <string name="bonus_item_description_20">\@ atacan un 20% más rápido.</string> 
     
     <string name="bonus_tech_tree_description_21">Las Tecnologías de Guardia Urbana y Patrulla Urbana son gratuitas.</string>
-    <string name="bonus_item_description_21">La Tecnología de @ es gratuita.</string> 
+    <string name="bonus_item_description_21">La Tecnología de \@ es gratuita.</string> 
     
     <string name="bonus_tech_tree_description_22">Avanzar a la Edad Imperial cuesta un 33% menos.</string>
-    <string name="bonus_item_description_22">La tecnología de @ cuesta un 33% menos</string> 
+    <string name="bonus_item_description_22">La tecnología de \@ cuesta un 33% menos</string> 
     
     <string name="bonus_tech_tree_description_23">Los Monjes curan un 100% más rápido.</string>
-    <string name="bonus_item_description_23">@ curan un 50% más rápido.</string> 
+    <string name="bonus_item_description_23">\@ curan un 50% más rápido.</string> 
     
     <string name="bonus_tech_tree_description_24">La Infanteria se mueve un 15% más rápido a partir de la Edad Feudal.</string>
-    <string name="bonus_item_description_24">@ se mueven un 15% más rápido a partir de la Edad Feudal.</string> 
+    <string name="bonus_item_description_24">\@ se mueven un 15% más rápido a partir de la Edad Feudal.</string> 
     
     <string name="bonus_tech_tree_description_25">Los Leñadores trabajan un 15% más rápido.</string>
     <string name="bonus_item_description_25">Los Leñadores trabajan un 15% más rápido.</string> 
     
     <string name="bonus_tech_tree_description_26">Las armas de asedio disparan un 25% más rápido.</string>
-    <string name="bonus_item_description_26">@ disparan un 25% más rápido.</string> 
+    <string name="bonus_item_description_26">\@ disparan un 25% más rápido.</string> 
     
     <string name="bonus_tech_tree_description_27">El ganado se pueden convertir incluso si hay unidades enemigas al lado.</string>
     <string name="bonus_item_description_27">El ganado se pueden convertir incluso si hay unidades enemigas al lado.</string> 
     
     <string name="bonus_tech_tree_description_28">Los Talleres de Maquinaria de Asedio funcionan un 20% más rápido.</string>
-    <string name="bonus_item_description_28">@ se crean un 20% más rápido.|@ funcionan un 20% más rápido.|La tecnología de @ se desarrolla un 20% más rápido.</string> 
+    <string name="bonus_item_description_28">\@ se crean un 20% más rápido.|\@ funcionan un 20% más rápido.|La tecnología de \@ se desarrolla un 20% más rápido.</string> 
     
     <string name="bonus_tech_tree_description_29">Empiezan con 3 aldeanos más, pero con -50 de madera y -200 de alimento.</string>
     <string name="bonus_item_description_29">Empiezan con 3 aldeanos más, pero con -50 de madera y -200 de alimento.</string> 
     
     <string name="bonus_tech_tree_description_30">Las tecnologías cuestan un 10/15/20% menos en la Edad Feudal/Castillos/Imperial (excepto avanzar de edad).</string>
-    <string name="bonus_item_description_30">La tecnología de @ cuesta un 10/15/20% menos en la Edad Feudal/Castillos/Imperial.</string> 
+    <string name="bonus_item_description_30">La tecnología de \@ cuesta un 10/15/20% menos en la Edad Feudal/Castillos/Imperial.</string> 
     
     <string name="bonus_tech_tree_description_31">Los Centros Urbanos proporcionan 10 de población</string>
     <string name="bonus_item_description_31">Los Centros Urbanos proporcionan 10 de población</string> 
@@ -755,13 +755,13 @@
     <string name="bonus_item_description_32">Los Centros Urbanos tienen +5 de campo de visión</string> 
     
     <string name="bonus_tech_tree_description_33">Los Buques de Demolición tienen un 50% más de puntos de resistencia.</string>
-    <string name="bonus_item_description_33">@ tienen un 50% más de puntos de resistencia.</string> 
+    <string name="bonus_item_description_33">\@ tienen un 50% más de puntos de resistencia.</string> 
     
     <string name="bonus_tech_tree_description_34">Las Granjas tienen un 10% más de alimento.</string>
     <string name="bonus_item_description_34">Las Granjas tienen un 10% más de alimento.</string> 
     
     <string name="bonus_tech_tree_description_35">La línea de Arquero dispara un 18% más rápido.</string>
-    <string name="bonus_item_description_35">@ disparan un 18% más rápido.</string> 
+    <string name="bonus_item_description_35">\@ disparan un 18% más rápido.</string> 
     
     <string name="bonus_tech_tree_description_36">Reciben +100 de oro y +100 de alimento al avanzar de Edad.</string>
     <string name="bonus_item_description_36">Reciben +100 de oro y +100 de alimento al avanzar de Edad.</string> 
@@ -770,7 +770,7 @@
     <string name="bonus_item_description_37">La mejora de Piquero es gratuita.</string> 
     
     <string name="bonus_tech_tree_description_38">Las Torres y los Puestos de Avanzada tienen +3  de campo de visión.</string>
-    <string name="bonus_item_description_38">@ tienen +3 de campo de visión.</string> 
+    <string name="bonus_item_description_38">\@ tienen +3 de campo de visión.</string> 
     
     <string name="bonus_tech_tree_description_39">Los Recolectores trabajan un 15% más rápido.</string>
     <string name="bonus_item_description_39">Los Recolectores trabajan un 15% más rápido.</string> 
@@ -779,19 +779,19 @@
     <string name="bonus_item_description_40">Los Castillos cuestan un 25% menos.</string> 
     
     <string name="bonus_tech_tree_description_41">La Caballería tiene un 20% más de puntos de resistencia a partir de la Eadad Feudal.</string>
-    <string name="bonus_item_description_41">@ tienen un 20% más de puntos de resistencia a partir de la Eadad Feudal.</string> 
+    <string name="bonus_item_description_41">\@ tienen un 20% más de puntos de resistencia a partir de la Eadad Feudal.</string> 
     
     <string name="bonus_tech_tree_description_42">Las mejoras de Granjas son gratuitas (requiere un Molino).</string>
-    <string name="bonus_item_description_42">La tecnología de @ es gratuita.</string> 
+    <string name="bonus_item_description_42">La tecnología de \@ es gratuita.</string> 
     
     <string name="bonus_tech_tree_description_43">Los Caballeros tienen +2 de campo de visión.</string>
-    <string name="bonus_item_description_43">@ tienen +2 de campo de visión.</string> 
+    <string name="bonus_item_description_43">\@ tienen +2 de campo de visión.</string> 
     
     <string name="bonus_tech_tree_description_44">La Infantería cuesta un 20/25/30/35% menos en la Edad Alta/Feudal/Castillos/Imperial.</string>
-    <string name="bonus_item_description_44">@ cuestan un 20/25/30/35% menos en la Edad Alta/Feudal/Castillos/Imperial.</string> 
+    <string name="bonus_item_description_44">\@ cuestan un 20/25/30/35% menos en la Edad Alta/Feudal/Castillos/Imperial.</string> 
     
     <string name="bonus_tech_tree_description_45">La Infantería tiene un +1/2/3 de ataque contra Edificios Estandar en la Edad Feudal/Castillos/Imperial.</string>
-    <string name="bonus_item_description_45">@ tienen +1/2/3 de ataque contra Edificios Estandar en la Edad Feudal/Castillos/Imperial.</string> 
+    <string name="bonus_item_description_45">\@ tienen +1/2/3 de ataque contra Edificios Estandar en la Edad Feudal/Castillos/Imperial.</string> 
     
     <string name="bonus_tech_tree_description_46">Los Cazadores tienen +5 de ataque contra Jabalíes; Los Cazadores cargan +15 de carne.</string>
     <string name="bonus_item_description_46">Los Cazadores tienen +5 de ataque contra Jabalíes; Los Cazadores cargan +15 de carne.</string> 
@@ -803,31 +803,31 @@
     <string name="bonus_item_description_48">+10 de población en la Edad Imperial.</string> 
     
     <string name="bonus_tech_tree_description_49">Los Cuarteles funcionan un 20% más rápido.</string>
-    <string name="bonus_item_description_49">@ se crean un 20% más rápido.|@ funcionan un 20% más rápido.|La tecnología de @ se desarrolla un 20% más rápido.</string> 
+    <string name="bonus_item_description_49">\@ se crean un 20% más rápido.|\@ funcionan un 20% más rápido.|La tecnología de \@ se desarrolla un 20% más rápido.</string> 
     
     <string name="bonus_tech_tree_description_50">No necesitan Casas, pero comienzan con -100 de madera.</string>
-    <string name="bonus_item_description_50">@ no son necesarias.</string> 
+    <string name="bonus_item_description_50">\@ no son necesarias.</string> 
     
     <string name="bonus_tech_tree_description_51">Los Arqueros a Caballo cuestan un 10/20% menos en la Edad Castillos/Imperial.</string>
-    <string name="bonus_item_description_51">@ cuestan un 10/20% menos en la Edad Castillos/Imperial.</string> 
+    <string name="bonus_item_description_51">\@ cuestan un 10/20% menos en la Edad Castillos/Imperial.</string> 
     
     <string name="bonus_tech_tree_description_52">Los Lanzapiedras tienen un 35% más de precisión.</string>
-    <string name="bonus_item_description_52">@ tienen un 35% más de precisión.</string> 
+    <string name="bonus_item_description_52">\@ tienen un 35% más de precisión.</string> 
     
     <string name="bonus_tech_tree_description_53">Los Establos trabajan un 20% más rápido.</string>
-    <string name="bonus_item_description_53">@ se crean un 20% más rápido.|@ funcionan un 20% más rápido.|La tecnología de @ se desarrolla un 20% más rápido.</string> 
+    <string name="bonus_item_description_53">\@ se crean un 20% más rápido.|\@ funcionan un 20% más rápido.|La tecnología de \@ se desarrolla un 20% más rápido.</string> 
     
     <string name="bonus_tech_tree_description_54">Empiezan con una Llama gratuita.</string>
     <string name="bonus_item_description_54">Empiezan con una Llama gratuita.</string> 
     
     <string name="bonus_tech_tree_description_55">Las mejoras para la Infantería de la Herrería afectan a los Aldeanos a partir de la Edad de los Castillos.</string>
-    <string name="bonus_item_description_55">Las mejoras para Infantería de la Herrería afectan a @ a partir de la Edad de los Castillos.||La tecnología de @ afecta a los Aldeanos a partir de la Edad de los Castillos.</string> 
+    <string name="bonus_item_description_55">Las mejoras para Infantería de la Herrería afectan a \@ a partir de la Edad de los Castillos.||La tecnología de \@ afecta a los Aldeanos a partir de la Edad de los Castillos.</string> 
     
     <string name="bonus_tech_tree_description_56">Las Casas proporcionan 10 de población</string>
     <string name="bonus_item_description_56">Las Casas proporcionan 10 de población</string> 
     
     <string name="bonus_tech_tree_description_57">Los edificios cuestan un 15% menos de piedra.</string>
-    <string name="bonus_item_description_57">@ cuestan un 15% menos de piedra.</string> 
+    <string name="bonus_item_description_57">\@ cuestan un 15% menos de piedra.</string> 
     
     <string name="bonus_tech_tree_description_58">Las Granjas se construyen el doble de rápido.</string>
     <string name="bonus_item_description_58">Las Granjas se construyen el doble de rápido.</string> 
@@ -839,85 +839,85 @@
     <string name="bonus_item_description_60">Los Pescadores trabajan un 10% más rápido.</string> 
     
     <string name="bonus_tech_tree_description_61">Las unidades del Establo tienen +1/2 de armadura antiproyectil en la Edad de los Castillos/Imperial.</string>
-    <string name="bonus_item_description_61">@ tienen +1/2 de Armadura Antiproyectil en la Edad de los Castillos/Imperial.</string> 
+    <string name="bonus_item_description_61">\@ tienen +1/2 de Armadura Antiproyectil en la Edad de los Castillos/Imperial.</string> 
     
     <string name="bonus_tech_tree_description_62">Las unidades en Camello tienen +4 de ataque contra Edificios Estandar.</string>
-    <string name="bonus_item_description_62">@ tienen +4 de ataque contra Edificios Estandar.</string> 
+    <string name="bonus_item_description_62">\@ tienen +4 de ataque contra Edificios Estandar.</string> 
     
     <string name="bonus_tech_tree_description_63">Avanzar de edad cuesta un 15% menos.</string>
-    <string name="bonus_item_description_63">La tecnología de @ cuesta un 15% menos.</string> 
+    <string name="bonus_item_description_63">La tecnología de \@ cuesta un 15% menos.</string> 
     
     <string name="bonus_tech_tree_description_64">Las tecnologías del Muelle y de la Universidad cuestan un 33% menos.</string>
-    <string name="bonus_item_description_64">La tecnología de @ cuesta un 33% menos.</string> 
+    <string name="bonus_item_description_64">La tecnología de \@ cuesta un 33% menos.</string> 
     
     <string name="bonus_tech_tree_description_65">Los Pesqueros cuestan un 15% menos.</string>
-    <string name="bonus_item_description_65">@ cuestan un 15% menos.</string> 
+    <string name="bonus_item_description_65">\@ cuestan un 15% menos.</string> 
     
     <string name="bonus_tech_tree_description_66">Las unidades de pólvora cuestan un 20% menos.</string>
-    <string name="bonus_item_description_66">@ cuestan un 20% menos.</string> 
+    <string name="bonus_item_description_66">\@ cuestan un 20% menos.</string> 
     
     <string name="bonus_tech_tree_description_67">Los Condottiero están disponibles en los Cuarteles.</string>
-    <string name="bonus_item_description_67">@ están disponibles en los Cuarteles.</string> 
+    <string name="bonus_item_description_67">\@ están disponibles en los Cuarteles.</string> 
     
     <string name="bonus_tech_tree_description_68">Los Pesqueros tienen el doble de puntos de resistencia; +2 de armadura antiproyectil; trabajan un 5/10/15/20% más rápido en la Edad Alta/Feudal/Castillos/Imperial.</string>
     <string name="bonus_item_description_68">Los Pesqueros tienen el doble de puntos de resistencia; +2 de armadura antiproyectil; trabajan un 5/10/15/20% más rápido en la Edad Alta/Feudal/Castillos/Imperial.</string> 
     
     <string name="bonus_tech_tree_description_69">Los Molinos y Los Campamentos Maderero/Minero cuestan un 50% menos.</string>
-    <string name="bonus_item_description_69">@ cuestan un 50% menos.</string> 
+    <string name="bonus_item_description_69">\@ cuestan un 50% menos.</string> 
     
     <string name="bonus_tech_tree_description_70">La Infanteria ataca un 33% más rápido a partir de la Edad Feudal.</string>
-    <string name="bonus_item_description_70">@ atacan un 33% más rápido a partir de la Edad Feudal.</string> 
+    <string name="bonus_item_description_70">\@ atacan un 33% más rápido a partir de la Edad Feudal.</string> 
     
     <string name="bonus_tech_tree_description_71">La línea de Galera tiene un 50% más de campo de visión.</string>
-    <string name="bonus_item_description_71">@ tienen un 50% más de campo de visión.</string> 
+    <string name="bonus_item_description_71">\@ tienen un 50% más de campo de visión.</string> 
     
     <string name="bonus_tech_tree_description_72">No es necesario construir edificios para avanzar de edad o para acceder a otros edificios.</string>
-    <string name="bonus_item_description_72">No hay edificios requeridos para acceder a @</string> 
+    <string name="bonus_item_description_72">No hay edificios requeridos para acceder a \@</string> 
     
     <string name="bonus_tech_tree_description_73">Los Agricultures no necesitan Molinos o Centros Urbanos para depositar alimento, pero trabajan un 5% más despacio.</string>
     <string name="bonus_item_description_73">Los Agricultures no necesitan Molinos o Centros Urbanos para depositar alimento, pero trabajan un 5% más despacio.</string> 
     
     <string name="bonus_tech_tree_description_74">Los Elefantes de Combate se mueven un 10% más rápido.</string>
-    <string name="bonus_item_description_74">@ se mueven un 10% más rápido.</string> 
+    <string name="bonus_item_description_74">\@ se mueven un 10% más rápido.</string> 
     
     <string name="bonus_tech_tree_description_75">Los Aldeanos se pueden guarecer dentro de las Casas.</string>
     <string name="bonus_item_description_75">Los Aldeanos se pueden guarecer dentro de las Casas.</string> 
     
     <string name="bonus_tech_tree_description_76">Los Escorpiones tienen +1 de alcance.</string>
-    <string name="bonus_item_description_76">@ tienen +1 de alcance.</string> 
+    <string name="bonus_item_description_76">\@ tienen +1 de alcance.</string> 
     
     <string name="bonus_tech_tree_description_77">Los Aldeanos tienen +3 de campo de visión.</string>
-    <string name="bonus_item_description_77">@ tienen +3 de campo de visión.</string> 
+    <string name="bonus_item_description_77">\@ tienen +3 de campo de visión.</string> 
     
     <string name="bonus_tech_tree_description_78">Los Canteros trabajan un 20% más rápido.</string>
     <string name="bonus_item_description_78">Los Canteros trabajan un 20% más rápido.</string> 
     
     <string name="bonus_tech_tree_description_79">Las unidades militares (excepto unidades de asedio) cuestan un 20% menos de madera.</string>
-    <string name="bonus_item_description_79">@ cuestan un 20% menos de madera.</string> 
+    <string name="bonus_item_description_79">\@ cuestan un 20% menos de madera.</string> 
     
     <string name="bonus_tech_tree_description_80">Las mejoras de torres son gratuitas (Las Torres de Bombardeo requieren la Química).</string>
-    <string name="bonus_item_description_80">La tecnología de @ es gratuita.</string> 
+    <string name="bonus_item_description_80">La tecnología de \@ es gratuita.</string> 
     
     <string name="bonus_tech_tree_description_81">Las tecnologías de armadura para arqueros en la Herrería son gratuitas.</string>
-    <string name="bonus_item_description_81">Las mejoras de armadura en la Herrería son gratuitas.||La tecnología de @ es gratuita.</string> 
+    <string name="bonus_item_description_81">Las mejoras de armadura en la Herrería son gratuitas.||La tecnología de \@ es gratuita.</string> 
     
     <string name="bonus_tech_tree_description_82">El alcance mínimo de la línea de Onagro se reduce a 1.</string>
-    <string name="bonus_item_description_82">El alcance mínimo de @ se reduce a 1.</string> 
+    <string name="bonus_item_description_82">El alcance mínimo de \@ se reduce a 1.</string> 
     
     <string name="bonus_tech_tree_description_83">Los aldeanos matan a los Animales Depredadores de un golpe (+30 de daño contra Animales Depredadores).</string>
     <string name="bonus_item_description_83">Los aldeanos matan a los Animales Depredadores de un golpe (+30 de daño contra Animales Depredadores).</string> 
     
     <string name="bonus_tech_tree_description_84">Las tecnologías de Forja, Fundición de Hierro y Alto Horno son gratuitas.</string>
-    <string name="bonus_item_description_84">Las mejoras de ataque de la Herrería son gratuitas.||La tecnología de @ es gratuita.</string> 
+    <string name="bonus_item_description_84">Las mejoras de ataque de la Herrería son gratuitas.||La tecnología de \@ es gratuita.</string> 
     
     <string name="bonus_tech_tree_description_85">La Caballería de Exploración, La Caballería Ligera y Los Húsares cuestan un 15% menos.</string>
-    <string name="bonus_item_description_85">@ cuestan un 15% menos.</string> 
+    <string name="bonus_item_description_85">\@ cuestan un 15% menos.</string> 
     
     <string name="bonus_tech_tree_description_86">Los arqueros a pie tienen +2 de campo de visión.</string>
-    <string name="bonus_item_description_86">@ tienen +2 de campo de visión.</string> 
+    <string name="bonus_item_description_86">\@ tienen +2 de campo de visión.</string> 
     
     <string name="bonus_tech_tree_description_87">Se avanza a la siguiente edad un 66% más rápido.</string>
-    <string name="bonus_item_description_87">La tecnología de @ se desarrolla un 66% más rápido.</string> 
+    <string name="bonus_item_description_87">La tecnología de \@ se desarrolla un 66% más rápido.</string> 
     
     <string name="bonus_tech_tree_description_88">Las Trampas para Peces cuestan un 33% menos.</string>
     <string name="bonus_item_description_88">Las Trampas para Peces cuestan un 33% menos.</string> 
@@ -926,22 +926,22 @@
     <string name="bonus_item_description_89">Las Trampas para Peces proporcionan el triple de alimento.</string> 
     
     <string name="bonus_tech_tree_description_90">Los Elefantes de Combate cuestan un 30/40% menos en la Edad Castillos/Imperial.</string>
-    <string name="bonus_item_description_90">@ cuestan un 30/40% menos en la Edad Castillos/Imperial.</string> 
+    <string name="bonus_item_description_90">\@ cuestan un 30/40% menos en la Edad Castillos/Imperial.</string> 
     
     <string name="bonus_tech_tree_description_91">Los Muelles tienen un 100% más de campo de visión.</string>
-    <string name="bonus_item_description_91">@ tienen un +100% más de campo de visión.</string> 
+    <string name="bonus_item_description_91">\@ tienen un +100% más de campo de visión.</string> 
     
     <string name="bonus_tech_tree_description_92">Los edificios cuestan un 15% menos de madera (excepto las Granjas).</string>
-    <string name="bonus_item_description_92">@ cuestan un 15% menos de madera.</string> 
+    <string name="bonus_item_description_92">\@ cuestan un 15% menos de madera.</string> 
     
     <string name="bonus_tech_tree_description_93">Las unidades de los Cuarteles tienen +1/2/3 de armadura antiproyectil en la Edad Feudal/Castillos/Imperial.</string>
-    <string name="bonus_item_description_93">@ tienen +1/2/3 de armadura antiproyectil en la Edad Feudal/Castillos/Imperial.</string> 
+    <string name="bonus_item_description_93">\@ tienen +1/2/3 de armadura antiproyectil en la Edad Feudal/Castillos/Imperial.</string> 
     
     <string name="bonus_tech_tree_description_94">Las Minas de Oro duran un 30% más.</string>
     <string name="bonus_item_description_94">Las Minas de Oro duran un 30% más.</string> 
     
     <string name="bonus_tech_tree_description_95">Las Universidades trabajan un 80% más rápido</string>
-    <string name="bonus_item_description_95">@ se crean un 80% más rápido.|@ funcionan un 80% más rápido.|La tecnología de @ se desarrolla un 80% más rápido.</string> 
+    <string name="bonus_item_description_95">\@ se crean un 80% más rápido.|\@ funcionan un 80% más rápido.|La tecnología de \@ se desarrolla un 80% más rápido.</string> 
     
     <string name="bonus_tech_tree_description_96">Empiezan con un aldeano más, pero con -50 de alimento.</string>
     <string name="bonus_item_description_96">Empiezan con un aldeano más, pero con -50 de alimento.</string> 
@@ -950,40 +950,40 @@
     <string name="bonus_item_description_97">Los recursos duran un 15% más.</string> 
     
     <string name="bonus_tech_tree_description_98">Los arqueros cuestan un 10/20/30% menos en la Edad Feudal/Castillos/Imperial.</string>
-    <string name="bonus_item_description_98">@ cuestan un 10/20/30% menos en la Edad Feudal/Castillos/Imperial.</string> 
+    <string name="bonus_item_description_98">\@ cuestan un 10/20/30% menos en la Edad Feudal/Castillos/Imperial.</string> 
     
     <string name="bonus_tech_tree_description_99">Los Muros cuestan un 50% menos.</string>
-    <string name="bonus_item_description_99">@ cuestan un 50% menos.</string> 
+    <string name="bonus_item_description_99">\@ cuestan un 50% menos.</string> 
     
     <string name="bonus_tech_tree_description_100">Los Arqueros a Caballo y los Mangudai disparan un 25% más rápido.</string>
-    <string name="bonus_item_description_100">@ disparan un 25% más rápido.</string> 
+    <string name="bonus_item_description_100">\@ disparan un 25% más rápido.</string> 
     
     <string name="bonus_tech_tree_description_101">La Caballería Ligera, los Húsares, y los Lanceros Estaparios tienen un 30%  más de puntos de resistencia.</string>
-    <string name="bonus_item_description_101">@ tienen un 30% más de puntos de resistencia.</string> 
+    <string name="bonus_item_description_101">\@ tienen un 30% más de puntos de resistencia.</string> 
     
     <string name="bonus_tech_tree_description_102">Los Cazadores trabajan un 40% más rápido.</string>
     <string name="bonus_item_description_102">Los Cazadores trabajan un 40% más rápido.</string> 
     
     <string name="bonus_tech_tree_description_103">La Caballería de Exploración, La Caballería Ligera y Los Húsares tienen +2 de campo de visión.</string>
-    <string name="bonus_item_description_103">@ tienen +2 de campo de visión.</string> 
+    <string name="bonus_item_description_103">\@ tienen +2 de campo de visión.</string> 
     
     <string name="bonus_tech_tree_description_104">Empiezan con +50 de alimento y +50 de madera.</string>
     <string name="bonus_item_description_104">Empiezan con +50 de alimento y +50 de madera.</string> 
     
     <string name="bonus_tech_tree_description_105">Los Centros Urbanos y los Muelles tienen el doble de puntos de resistencia.</string>
-    <string name="bonus_item_description_105">@ tienen el doble de puntos de resistencia.</string> 
+    <string name="bonus_item_description_105">\@ tienen el doble de puntos de resistencia.</string> 
     
     <string name="bonus_tech_tree_description_106">Los Centros Urbanos y los Muelles trabajan un 10/15/20% más rápido en la Edad Feudal/Castillos/Imperial.</string>
-    <string name="bonus_item_description_106">@ se crean un 10/15/20% más rápido en la Edad Feudal/Castillos/Imperial.|@ funcionan un 10/15/20% más rápido en la Edad Feudal/Castillos/Imperial.|La tecnología de @ se desarrolla un 10/15/20% más rápido en la Edad Feudal/Castillos/Imperial.</string> 
+    <string name="bonus_item_description_106">\@ se crean un 10/15/20% más rápido en la Edad Feudal/Castillos/Imperial.|\@ funcionan un 10/15/20% más rápido en la Edad Feudal/Castillos/Imperial.|La tecnología de \@ se desarrolla un 10/15/20% más rápido en la Edad Feudal/Castillos/Imperial.</string> 
     
     <string name="bonus_tech_tree_description_107">Los Caballeros tienen +2 de ataque contra Arqueros.</string>
-    <string name="bonus_item_description_107">@ tienen +2 de ataque contra Arqueros.</string> 
+    <string name="bonus_item_description_107">\@ tienen +2 de ataque contra Arqueros.</string> 
     
     <string name="bonus_tech_tree_description_108">Todas las unidades cuestan un 20% menos de oro.</string>
-    <string name="bonus_item_description_108">@ cuestan un 20% menos de oro.</string> 
+    <string name="bonus_item_description_108">\@ cuestan un 20% menos de oro.</string> 
     
     <string name="bonus_tech_tree_description_109">Los barcos tienen un 10% más de puntos de resistencia.</string>
-    <string name="bonus_item_description_109">@ tienen un +10% más de puntos de resistencia.</string> 
+    <string name="bonus_item_description_109">\@ tienen un +10% más de puntos de resistencia.</string> 
     
     <string name="bonus_tech_tree_description_110">Se pueden construir Factorías en la Edad Imperial.</string>
     <string name="bonus_item_description_110">Se pueden construir Factorías en la Edad Imperial.</string> 
@@ -1001,16 +1001,16 @@
     <string name="bonus_item_description_114">Los Barcos de Transporte tienen el doble de puntos de resistencia, y tienen +5 de capacidad de carga.</string> 
     
     <string name="bonus_tech_tree_description_115">La línea de Galera dispara un 25% más rápido.</string>
-    <string name="bonus_item_description_115">@ disparan un 25% más rápido.</string> 
+    <string name="bonus_item_description_115">\@ disparan un 25% más rápido.</string> 
     
     <string name="bonus_tech_tree_description_116">Las unidades en Camello tienen +10 puntos de resistencia.</string>
-    <string name="bonus_item_description_116">@ tienen +10 puntos de resistencia.</string> 
+    <string name="bonus_item_description_116">\@ tienen +10 puntos de resistencia.</string> 
     
     <string name="bonus_tech_tree_description_117"/>
     <string name="bonus_item_description_117"/> 
     
     <string name="bonus_tech_tree_description_118">Los arqueros a pie tienen +3 de ataque contra Edificios Estandar.</string>
-    <string name="bonus_item_description_118">@ tienen +3 de ataque contra Edificios Estandar.</string> 
+    <string name="bonus_item_description_118">\@ tienen +3 de ataque contra Edificios Estandar.</string> 
     
     <string name="bonus_tech_tree_description_119">Los Agricultores trabajan un 10% más rápido.</string>
     <string name="bonus_item_description_119">Los Agricultores trabajan un 10% más rápido.|Las Granjas trabajan un 10% más rápido.|</string> 
@@ -1019,34 +1019,34 @@
     <string name="bonus_item_description_120">La tecnología de Suministros es gratuita.</string> 
     
     <string name="bonus_tech_tree_description_121">Las unidades del Taller de Maquinaria de Asedio cuestan un 15% menos.</string>
-    <string name="bonus_item_description_121">@ cuestan un 15% menos.</string> 
+    <string name="bonus_item_description_121">\@ cuestan un 15% menos.</string> 
     
     <string name="bonus_tech_tree_description_122">Los edificios militares proporcionan +5 de población.</string>
-    <string name="bonus_item_description_122">@ proporcionan +5 de población.</string> 
+    <string name="bonus_item_description_122">\@ proporcionan +5 de población.</string> 
     
     <string name="bonus_tech_tree_description_123">Los Constructores trabajan un 30% más rápido (excepto para Maravillas, el cual es solo un 20% más rápido).</string>
-    <string name="bonus_item_description_123">Los Constructores trabajan un 30% más rápido (excepto para Maravillas, el cual es solo un 20% más rápido).|@ se contruyen un 30% más rápido.|</string> 
+    <string name="bonus_item_description_123">Los Constructores trabajan un 30% más rápido (excepto para Maravillas, el cual es solo un 20% más rápido).|\@ se contruyen un 30% más rápido.|</string> 
     
     <string name="bonus_tech_tree_description_124">Las mejoras de Herrería no cuestan oro.</string>
-    <string name="bonus_item_description_124">La tecnología de @ no cuesta oro.</string> 
+    <string name="bonus_item_description_124">La tecnología de \@ no cuesta oro.</string> 
     
     <string name="bonus_tech_tree_description_125">Las unidades de pólvora disparan un 18% más rápido.</string>
-    <string name="bonus_item_description_125">@ disparan un 18% más rápido.</string> 
+    <string name="bonus_item_description_125">\@ disparan un 18% más rápido.</string> 
     
     <string name="bonus_tech_tree_description_126">Los Galeones Artillados disparan con Balística por defecto, y sus proyectiles se mueven un 133% más rápido.</string>
-    <string name="bonus_item_description_126">@ disparan con Balística por defecto, y sus proyectiles se mueven un 133% más rápido.</string> 
+    <string name="bonus_item_description_126">\@ disparan con Balística por defecto, y sus proyectiles se mueven un 133% más rápido.</string> 
     
     <string name="bonus_tech_tree_description_127">Las unidades comerciales generan un 25% más de oro.</string>
-    <string name="bonus_item_description_127">@ generan un 25% más de oro.</string> 
+    <string name="bonus_item_description_127">\@ generan un 25% más de oro.</string> 
     
     <string name="bonus_tech_tree_description_128">Los Monjes tienen el doble de alcance para curar.</string>
     <string name="bonus_item_description_128">Los Monjes tienen el doble de alcance para curar.</string> 
     
     <string name="bonus_tech_tree_description_129">Las torres pueden guarecer el doble de unidades.</string>
-    <string name="bonus_item_description_129">@ pueden guarecer el doble de unidades.</string> 
+    <string name="bonus_item_description_129">\@ pueden guarecer el doble de unidades.</string> 
     
     <string name="bonus_tech_tree_description_130">Las tecnologías de Matacanes y Hierbas Medicinales son gratuitas.</string>
-    <string name="bonus_item_description_130">La tecnología de @ es gratuita.</string> 
+    <string name="bonus_item_description_130">La tecnología de \@ es gratuita.</string> 
     
     <string name="bonus_tech_tree_description_131">Las Granjas cuestan un 40% menos.</string>
     <string name="bonus_item_description_131">Las Granjas cuestan un 40% menos.</string> 
@@ -1055,16 +1055,16 @@
     <string name="bonus_item_description_132">Los Centros Urbanos pueden guarecer 10 unidades más.</string> 
     
     <string name="bonus_tech_tree_description_133">Las unidades de los Cuarteles y los Establos tienen +1/2 de armadura melé en la Edad Castillos/Imperial.</string>
-    <string name="bonus_item_description_133">@ tienen +1/2 de armadura melé en la Edad Castillos/Imperial.</string> 
+    <string name="bonus_item_description_133">\@ tienen +1/2 de armadura melé en la Edad Castillos/Imperial.</string> 
     
     <string name="bonus_tech_tree_description_134">Las unidades y los edificios son más resistentes a la conversión.</string>
-    <string name="bonus_item_description_134">@ son más resistentes a la conversión.</string> 
+    <string name="bonus_item_description_134">\@ son más resistentes a la conversión.</string> 
     
     <string name="bonus_tech_tree_description_135">Las unidades de pólvora tienen un 25% más de puntos de resistencia.</string>
-    <string name="bonus_item_description_135">@ tienen un 25% más de puntos de resistencia.</string> 
+    <string name="bonus_item_description_135">\@ tienen un 25% más de puntos de resistencia.</string> 
     
     <string name="bonus_tech_tree_description_136">Las tecnologías relacionadas con pólvora cuestan un 50% menos</string>
-    <string name="bonus_item_description_136">La tecnología de @ cuesta un 50% menos.</string> 
+    <string name="bonus_item_description_136">La tecnología de \@ cuesta un 50% menos.</string> 
     
     <string name="bonus_tech_tree_description_137">La tecnología de Química es gratuita.</string>
     <string name="bonus_item_description_137">La tecnología de Química es gratuita.</string> 
@@ -1073,19 +1073,19 @@
     <string name="bonus_item_description_138">Los Mineros de oro trabajan un 20% más rápido.</string> 
     
     <string name="bonus_tech_tree_description_139">Las mejoras de Caballería Ligera y Húsar son gratuitas.</string>
-    <string name="bonus_item_description_139">La mejora de @ es gratuita.</string> 
+    <string name="bonus_item_description_139">La mejora de \@ es gratuita.</string> 
     
     <string name="bonus_tech_tree_description_140">Las unidades de pólvora se crean un 25% más rápido.</string>
-    <string name="bonus_item_description_140">@ se crean un 25% más rápido.</string> 
+    <string name="bonus_item_description_140">\@ se crean un 25% más rápido.</string> 
     
     <string name="bonus_tech_tree_description_141">Se revelan las posiciones de los enemigos al empezar la partida.</string>
     <string name="bonus_item_description_141">Se revelan las posiciones de los enemigos al empezar la partida.</string> 
     
     <string name="bonus_tech_tree_description_142">Las mejoras económicas no cuestan madera.</string>
-    <string name="bonus_item_description_142">La tecnología de @ no cuesta madera.</string> 
+    <string name="bonus_item_description_142">La tecnología de \@ no cuesta madera.</string> 
     
     <string name="bonus_tech_tree_description_143">Las unidades de la Galería de Tiro con Arco tienen un 20% más de puntos de resistencia.</string>
-    <string name="bonus_item_description_143">@ tienen un 20% más de puntos de resistencia.</string> 
+    <string name="bonus_item_description_143">\@ tienen un 20% más de puntos de resistencia.</string> 
     
     <string name="bonus_tech_tree_description_144">La tecnología de Leva es gratuita.</string>
     <string name="bonus_item_description_144">La tecnología de Leva es gratuita.</string> 
@@ -1094,19 +1094,19 @@
     <string name="bonus_item_description_145">La mejora de Hostigador Imperial está disponible en la Galería de Tiro con Arco.</string> 
     
     <string name="bonus_tech_tree_description_146">Los barcos de guerra cuestan un 15/15/20% menos en la Edad Feudal/Castillos/Imperial.</string>
-    <string name="bonus_item_description_146">@ cuestan un 15/15/20% menos en la Edad Feudal/Castillos/Imperial.</string> 
+    <string name="bonus_item_description_146">\@ cuestan un 15/15/20% menos en la Edad Feudal/Castillos/Imperial.</string> 
     
     <string name="bonus_tech_tree_description_147">La Infantería tiene un 20% más de puntos de resistencia a partir de la Edad Feudal.</string>
-    <string name="bonus_item_description_147">@ tienen un 20% más de puntos de resistencia a partir de la Edad Feudal.</string> 
+    <string name="bonus_item_description_147">\@ tienen un 20% más de puntos de resistencia a partir de la Edad Feudal.</string> 
     
     <string name="bonus_tech_tree_description_148">Las tecnologías de Carretilla y Carro de Mano son gratuitas.</string>
-    <string name="bonus_item_description_148">La tecnología de @ es gratuita.</string> 
+    <string name="bonus_item_description_148">La tecnología de \@ es gratuita.</string> 
     
     <string name="bonus_tech_tree_description_149">Los Muelles cuestan un 15% menos.</string>
-    <string name="bonus_item_description_149">@ cuestan un 15% menos.</string> 
+    <string name="bonus_item_description_149">\@ cuestan un 15% menos.</string> 
     
     <string name="bonus_tech_tree_description_150">Las mejoras de la línea de Espadachín son gratuitas.</string>
-    <string name="bonus_item_description_150">La mejora de @ es gratuita.</string> 
+    <string name="bonus_item_description_150">La mejora de \@ es gratuita.</string> 
     
     <string name="bonus_tech_tree_description_151">Los Centros Urbanos cuestan un 50% de piedra.</string>
     <string name="bonus_item_description_151">Los Centros Urbanos cuestan un 50% de piedra.</string> 
@@ -1115,115 +1115,115 @@
     <string name="bonus_item_description_152">Se pueden construir Kreposts.</string> 
     
     <string name="bonus_tech_tree_description_153">Las Herrerías trabajan un 80% más rápido.</string>
-    <string name="bonus_item_description_153">@ se crean un 80% más rápido.|@ trabajan un 80% más rápido.|La tecnología de @ se desarrolla un 80% más rápido.</string> 
+    <string name="bonus_item_description_153">\@ se crean un 80% más rápido.|\@ trabajan un 80% más rápido.|La tecnología de \@ se desarrolla un 80% más rápido.</string> 
     
     <string name="bonus_tech_tree_description_154">Se puede construir un Centro Urbano adicional en la Edad Feudal, pero se construye un 80% más despacio.</string>
     <string name="bonus_item_description_154">Se puede construir un Centro Urbano adicional en la Edad Feudal, pero se construye un 80% más despacio.</string> 
     
     <string name="bonus_tech_tree_description_155">Los Talleres de Maquinaria de Asedio y los Arietes están disponibles en la Edad Feudal.</string>
-    <string name="bonus_item_description_155">@ están disponibles en la Edad Feudal.</string> 
+    <string name="bonus_item_description_155">\@ están disponibles en la Edad Feudal.</string> 
     
     <string name="bonus_tech_tree_description_156">La mejora de Ariete Cubierto está disponible en la Edad de los Castillos.</string>
-    <string name="bonus_item_description_156">@ están disponibles en la Edad de los Castillos.||La mejora de @ está disponible en la Edad de los Castillos.</string> 
+    <string name="bonus_item_description_156">\@ están disponibles en la Edad de los Castillos.||La mejora de \@ está disponible en la Edad de los Castillos.</string> 
     
     <string name="bonus_tech_tree_description_157">La Caballería se mueve un 5/10/15% más rápido en la Edad Feudal/Castillos/Imperial.</string>
-    <string name="bonus_item_description_157">@ se mueven un 5/10/15% más rápido en la Edad Feudal/Castillos/Imperial.</string> 
+    <string name="bonus_item_description_157">\@ se mueven un 5/10/15% más rápido en la Edad Feudal/Castillos/Imperial.</string> 
     
     <string name="bonus_tech_tree_description_158">Las Empalizadas tienen un 33% más de puntos de resistencia.</string>
-    <string name="bonus_item_description_158">@ tienen un 33% más de puntos de resistencia.</string> 
+    <string name="bonus_item_description_158">\@ tienen un 33% más de puntos de resistencia.</string> 
     
     <string name="bonus_tech_tree_description_159">Empiezan con +150 de alimento.</string>
     <string name="bonus_item_description_159">Empiezan con +150 de alimento.</string> 
     
     <string name="bonus_tech_tree_description_160">La linea de Lancero y los Hostigadores se mueven un 10% más rápido.</string>
-    <string name="bonus_item_description_160">@ se mueven un 10% más rápido.</string> 
+    <string name="bonus_item_description_160">\@ se mueven un 10% más rápido.</string> 
     
     <string name="bonus_tech_tree_description_161">Cada Reliquia guardada otorga +1 de ataque a la linea de Caballero y a los Leitis (máximo +4).</string>
-    <string name="bonus_item_description_161">@ obtiene +1 de ataque por cada reliquia guardada (máximo +4).</string> 
+    <string name="bonus_item_description_161">\@ obtiene +1 de ataque por cada reliquia guardada (máximo +4).</string> 
     
     <string name="bonus_tech_tree_description_162">Los Monasterios trabajan un 20% más rápido.</string>
-    <string name="bonus_item_description_162">@ se crean un 20% más rápido.|@ trabajan un 20% más rápido.|La tecnología de @ se desarrolla un 20% más rápido.</string> 
+    <string name="bonus_item_description_162">\@ se crean un 20% más rápido.|\@ trabajan un 20% más rápido.|La tecnología de \@ se desarrolla un 20% más rápido.</string> 
     
     <string name="bonus_tech_tree_description_163">El ganado contiene un 50% más de alimento.</string>
     <string name="bonus_item_description_163">El ganado contiene un 50% más de alimento.</string> 
     
     <string name="bonus_tech_tree_description_164">Las unidades infligen un 25% más de daño cuando luchan desde una posición elevada.</string>
-    <string name="bonus_item_description_164">@ infligen un 25% más de daño cuando luchan desde una posición elevada.</string> 
+    <string name="bonus_item_description_164">\@ infligen un 25% más de daño cuando luchan desde una posición elevada.</string> 
     
     <string name="bonus_tech_tree_description_165">Las tecnologías de Dactilera y Tácticas de los Partos son gratuitas.</string>
-    <string name="bonus_item_description_165">La tecnología de @ es gratuita.</string> 
+    <string name="bonus_item_description_165">La tecnología de \@ es gratuita.</string> 
     
     <string name="bonus_tech_tree_description_166">Los Arqueros a Caballo tienen +2 de campo de visión.</string>
-    <string name="bonus_item_description_166">@ tienen +2 de campo de visión.</string> 
+    <string name="bonus_item_description_166">\@ tienen +2 de campo de visión.</string> 
     
     <string name="bonus_tech_tree_description_167">Las tecnologías de la Herrería y del Taller de Maquinaria de asedio cuestan un 50% menos de alimento.</string>
-    <string name="bonus_item_description_167">La mejora de @ cuesta un 50% menos de alimento.||La tecnología de @ cuesta un 50% menos de alimento.</string> 
+    <string name="bonus_item_description_167">La mejora de \@ cuesta un 50% menos de alimento.||La tecnología de \@ cuesta un 50% menos de alimento.</string> 
     
     <string name="bonus_tech_tree_description_168">Las tecnologías se desarrollan un 30% más rápido (excepto avanzar de edad).</string>
-    <string name="bonus_item_description_168">La tecnología de @ se desarrolla un 30% más rápido.</string> 
+    <string name="bonus_item_description_168">La tecnología de \@ se desarrolla un 30% más rápido.</string> 
     
     <string name="bonus_tech_tree_description_169">Los nuevos Centros Urbanos construidos generan dos Ovejas a partir de la Edad de los Castillos.</string>
     <string name="bonus_item_description_169">Los nuevos Centros Urbanos construidos generan dos Ovejas a partir de la Edad de los Castillos.</string> 
     
     <string name="bonus_tech_tree_description_170">La Caballería de Exploración, la Caballería Ligera, y los Húsares tienen +1 de armadura antiproyectil.</string>
-    <string name="bonus_item_description_170">@ tienen +1 de armadura antiproyectil</string> 
+    <string name="bonus_item_description_170">\@ tienen +1 de armadura antiproyectil</string> 
     
     <string name="bonus_tech_tree_description_171">Las mejoras económicas están disponibles una edad antes.</string>
-    <string name="bonus_item_description_171">La tecnología de @ está disponible una edad antes.</string> 
+    <string name="bonus_item_description_171">La tecnología de \@ está disponible una edad antes.</string> 
     
     <string name="bonus_tech_tree_description_172">Las tecnologías del Establo cuestan un 50% menos.</string>
-    <string name="bonus_item_description_172">La mejora de @ cuesta un 50% menos.||La tecnología de @ cuesta un 50% menos.</string> 
+    <string name="bonus_item_description_172">La mejora de \@ cuesta un 50% menos.||La tecnología de \@ cuesta un 50% menos.</string> 
     
     <string name="bonus_tech_tree_description_173">La mejora de Caballero está disponible en la edad de los Castillos.</string>
-    <string name="bonus_item_description_173">@ están disponibles en la Edad de los Castillos.||La mejora de @ está disponible en la Edad de los Castillos.</string> 
+    <string name="bonus_item_description_173">\@ están disponibles en la Edad de los Castillos.||La mejora de \@ está disponible en la Edad de los Castillos.</string> 
     
     <string name="bonus_tech_tree_description_174">Las unidades de pólvora tienen un +25% más de ataque y daño de bonificación.</string>
-    <string name="bonus_item_description_174">@ tienen un +25% más de ataque y daño de bonificación.</string> 
+    <string name="bonus_item_description_174">\@ tienen un +25% más de ataque y daño de bonificación.</string> 
     
     <string name="bonus_tech_tree_description_175">Las Reliquias generan tanto comida (30/min) como oro (30/min).</string>
     <string name="bonus_item_description_175">Las Reliquias generan tanto comida (30/min) como oro (30/min).</string> 
     
     <string name="bonus_tech_tree_description_176">Los Castillos y los Centros Urbanos (excepto el primer Centro Urbano en partidas nómadas) se construyen el doble de rápido.</string>
-    <string name="bonus_item_description_176">@ se construyen un 50% más rápido.</string> 
+    <string name="bonus_item_description_176">\@ se construyen un 50% más rápido.</string> 
     
     <string name="bonus_tech_tree_description_177">Unidades militares terrestres (excepto las Armas de Asedio) reciben un 50% menos de daño de bonificación.</string>
-    <string name="bonus_item_description_177">@ reciben un 50% menos de daño de bonificación.</string> 
+    <string name="bonus_item_description_177">\@ reciben un 50% menos de daño de bonificación.</string> 
     
     <string name="bonus_tech_tree_description_178">Las mejoras de las Granjas proporcionan el doble de comida.</string>
-    <string name="bonus_item_description_178">|Las mejoras de comida de @ proporcionan el doble de comida.|La tecnología de @ proporciona el doble de comida.</string> 
+    <string name="bonus_item_description_178">|Las mejoras de comida de \@ proporcionan el doble de comida.|La tecnología de \@ proporciona el doble de comida.</string> 
     
     <string name="bonus_tech_tree_description_179">Se pueden construir Donjons</string>
     <string name="bonus_item_description_179">Se pueden construir Donjons</string> 
     
     <string name="bonus_tech_tree_description_180">Los Barcos de Transporte tienen +5 de línea de visión y cuestan un 50% menos.</string>
-    <string name="bonus_item_description_180">@ tienen +5 de línea de visión y cuestan un 50% menos.</string> 
+    <string name="bonus_item_description_180">\@ tienen +5 de línea de visión y cuestan un 50% menos.</string> 
     
     <string name="bonus_tech_tree_description_181">Las mejoras económicas cuestan un 50% menos de comida.</string>
-    <string name="bonus_item_description_181">La tecnología de @ cuesta un 50% menos de comida.</string> 
+    <string name="bonus_item_description_181">La tecnología de \@ cuesta un 50% menos de comida.</string> 
     
     <string name="bonus_tech_tree_description_182">Los Establos y las Galerias de Tiro con Arco cuestan -75 de madera</string>
-    <string name="bonus_item_description_182">@ cuestan -75 de madera.</string> 
+    <string name="bonus_item_description_182">\@ cuestan -75 de madera.</string> 
     
     <string name="bonus_tech_tree_description_183">Empiezan con +100 de piedra.</string>
     <string name="bonus_item_description_183">Empiezan con +100 de piedra.</string> 
     
     <string name="bonus_tech_tree_description_184">Las Herrerías, los Monasterios y las Universidades cuestan -100 de madera.</string>
-    <string name="bonus_item_description_184">@ cuestan -100 de madera.</string> 
+    <string name="bonus_item_description_184">\@ cuestan -100 de madera.</string> 
     
     <string name="bonus_tech_tree_description_185">La tecnología de Química y los Artilleros Manuales están disponibles en la Edad de los Castillos.</string>
-    <string name="bonus_item_description_185">@ están disponibles en la Edad de los Castillos.||La tecnología de @ está disponible en la Edad de los Castillos.</string> 
+    <string name="bonus_item_description_185">\@ están disponibles en la Edad de los Castillos.||La tecnología de \@ está disponible en la Edad de los Castillos.</string> 
     
     <string name="bonus_tech_tree_description_186">La línea de Lancero inflinge un 25% más de daño de bonificación.</string>
-    <string name="bonus_item_description_186">@ inflingen un 25% más de daño de bonificación.</string> 
+    <string name="bonus_item_description_186">\@ inflingen un 25% más de daño de bonificación.</string> 
     
     <string name="bonus_tech_tree_description_187">Las tenologías de Fervor y Santidad afectan a los Aldeanos.</string>
-    <string name="bonus_item_description_187">Las tenologías de Fervor y Santidad afectan a los Aldeanos.||La tecnología de @ afecta a los Aldeanos.</string> 
+    <string name="bonus_item_description_187">Las tenologías de Fervor y Santidad afectan a los Aldeanos.||La tecnología de \@ afecta a los Aldeanos.</string> 
     
     <string name="bonus_tech_tree_description_188">Las tecnologías del Campamento Minero son gratuitas.</string>
-    <string name="bonus_item_description_188">La tecnología de @ es gratuita.</string> 
+    <string name="bonus_item_description_188">La tecnología de \@ es gratuita.</string> 
     
     <string name="bonus_tech_tree_description_189">Los Mercados funcionan un 80% más rápido.</string>
-    <string name="bonus_item_description_189">@ se crean un 80% más rápido.|@ funcionan un 80% más rápido.|La tecnología de @ se desarrolla un 80% más rápido.</string> 
+    <string name="bonus_item_description_189">\@ se crean un 80% más rápido.|\@ funcionan un 80% más rápido.|La tecnología de \@ se desarrolla un 80% más rápido.</string> 
     
     <string name="bonus_tech_tree_description_190">Los Aldeanos regeneran 5/10/15/20 HP por minuto en la Edad Alta/Feudal/Castillos/Imperial.</string>
     <string name="bonus_item_description_190">Los Aldeanos regeneran 5/10/15/20 HP por minuto en la Edad Alta/Feudal/Castillos/Imperial.</string> 
@@ -1235,7 +1235,7 @@
     <string name="bonus_item_description_192">Los Canteros generan un 50% de oro de la piedra recolectada.</string> 
     
     <string name="bonus_tech_tree_description_193">La línea de Caballería Ligera tienen +1 de daño contra Arqueros.</string>
-    <string name="bonus_item_description_193">@ tienen +1 de ataque contra Arqueros.</string> 
+    <string name="bonus_item_description_193">\@ tienen +1 de ataque contra Arqueros.</string> 
  
     <!--building_description.xml-->
      
@@ -2222,7 +2222,7 @@
     <string name="tech_description_long_47">Mejora las Torres de Guardia, y permite construir Torres de Vigilancia.</string>
     <string name="tech_description_extra_47"/> 
     
-    <string name="tech_description_nominative_48">" "</string>
+    <string name="tech_description_nominative_48">" Muralla Fortificada"</string>
     <string name="tech_description_quick_48"/>
     <string name="tech_description_brief_48"/>
     <string name="tech_description_long_48">Mejora los Muros de Piedra y las Puertas de piedra, y permite construir Muros Fortificados y Puertas Fortificadas.</string>
@@ -2408,7 +2408,7 @@
     <string name="tech_description_long_78">Tecnología Única Malí en la Edad de los Castillos. Los Centros Urbanos disparan 5 flechas adicionales, incluso cuando están vacios.</string>
     <string name="tech_description_extra_78">Los Centros Urbanos disparan 5 flechas adicionales, incluso cuando están vacios.</string> 
     
-    <string name="tech_description_nominative_79">Lanzadores Hul'che</string>
+    <string name="tech_description_nominative_79">Lanzadores Hul\'che</string>
     <string name="tech_description_quick_79">Hostigadores disparan 1 proyectil extra</string>
     <string name="tech_description_brief_79"/>
     <string name="tech_description_long_79">Tecnología Única Maya en la Edad de los Castillos. Los Hostigadores dispran 1 proyectil extra.</string>
@@ -2618,19 +2618,19 @@
     <string name="tech_description_long_113">Los edificios obtienen +10% de puntos de resistencia, +1 de armadura melé (incluye armadura especial de Leitis), +1 de armadura antiproyectil, y +3 de armadura de Todos los Edificios.</string>
     <string name="tech_description_extra_113"/> 
     
-    <string name="tech_description_nominative_114">" "</string>
+    <string name="tech_description_nominative_114">" Química"</string>
     <string name="tech_description_quick_114"/>
     <string name="tech_description_brief_114">Las unidades con alcance, edificios y armas de asedio obtienen +1 de ataque. Requerido para unidades y edificios de pólvora.</string>
     <string name="tech_description_long_114">Unidades y edificios que disparan proyectiles (excepto unidades de polvora) obtienen +1 de ataque. Requerido para crear unidades y edificios de pólvora (Artilleros Manuales, Galeones Artillados, Cañones de Asedio, y Torres de Bombardeo).</string>
     <string name="tech_description_extra_114"/> 
     
-    <string name="tech_description_nominative_115">" "</string>
+    <string name="tech_description_nominative_115">" Ingenieros de Asedio"</string>
     <string name="tech_description_quick_115"/>
     <string name="tech_description_brief_115">Las armas de asedio obtienen +1 de alcance y +20% de ataque contra Todos los Edificios.</string>
     <string name="tech_description_long_115">Las armas de asedio obtienen +1 de alcance (excepto Arietes) e infligen un 20% más daño contra Todos los Edificios (40% para los Petardos y los Camellos Llameantes).</string>
     <string name="tech_description_extra_115"/> 
     
-    <string name="tech_description_nominative_116">" "</string>
+    <string name="tech_description_nominative_116">" Aspillera en Cruz"</string>
     <string name="tech_description_quick_116"/>
     <string name="tech_description_brief_116">Incrementa el ataque de las torres.</string>
     <string name="tech_description_long_116">Incrementa el ataque de las torres (+1 de ataque para las Torres de Guardia, +2 de ataque para las Torres de Vigilancia y +3 de ataque para las Torres del Homenaje).</string>
@@ -3376,7 +3376,7 @@
     <string name="tech_name_45">Balística</string>
     <string name="tech_name_46">Matacanes</string>
     <string name="tech_name_47">Torre de Vigilancia</string>
-    <string name="tech_name_48">Muralla Fortificado</string>
+    <string name="tech_name_48">Muralla Fortificada</string>
     <string name="tech_name_49">Espadachín de Espada Larga</string>
     <string name="tech_name_50">Piquero</string>
     <string name="tech_name_51">Guerrero Águila</string>
@@ -3407,7 +3407,7 @@
     <string name="tech_name_76">Mercenarios</string>
     <string name="tech_name_77">Talasocracia</string>
     <string name="tech_name_78">Gran Asamblea</string>
-    <string name="tech_name_79">Lanzadores Hul'che</string>
+    <string name="tech_name_79">Lanzadores Hul\'che</string>
     <string name="tech_name_80">Nómadas</string>
     <string name="tech_name_81">Kamandaran</string>
     <string name="tech_name_82">Carracas</string>
