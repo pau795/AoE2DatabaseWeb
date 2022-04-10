@@ -26,12 +26,13 @@ public class Database {
 
     //LANGUAGES
     public final static String SPANISH = "es";
-    public final static String SPANISH_FLAG = "\uD83C\uDDEA\uD83C\uDDF8 Español";
     public final static String ENGLISH = "en";
-    public final static String ENGLISH_FLAG = "\uD83C\uDDEC\uD83C\uDDE7 English";
     public final static String DEUTSCH = "de";
-    public final static String DEUTSCH_FLAG = "\uD83C\uDDE9\uD83C\uDDEA Deutsch";
     public final static String DEFAULT_LANGUAGE = ENGLISH;
+
+    public final static String ENGLISH_FLAG = "\uD83C\uDDEC\uD83C\uDDE7 English";
+    public final static String SPANISH_FLAG = "\uD83C\uDDEA\uD83C\uDDF8 Español";
+    public final static String DEUTSCH_FLAG = "\uD83C\uDDE9\uD83C\uDDEA Deutsch";
     public final static String DEFAULT_FLAG = ENGLISH_FLAG;
 
     //TYPES
@@ -60,7 +61,6 @@ public class Database {
     public final static String BUILDING_ATTACK = "building_attack";
     public final static String BUILDING_AVAILABILITY = "building_availability";
     public final static String BUILDING_BONUS = "building_bonus";
-    public final static String BUILDING_DESCRIPTION = "building_description";
     public final static String BUILDING_GROUPS = "building_groups";
     public final static String BUILDING_LIST = "building_list";
     public final static String BUILDING_STATS = "building_stats";
@@ -69,7 +69,6 @@ public class Database {
     public final static String CIVILIZATION_GROUPS = "civilization_groups";
     public final static String CIVILIZATION_INFO = "civilization_info";
     public final static String CIVILIZATION_LIST = "civilization_list";
-    public final static String CIVILIZATION_STYLE = "civilization_style";
     public final static String CLASS_LIST = "class_list";
     public final static String ECO_LIST = "eco_list";
     public final static String ECO_UPGRADES = "eco_upgrades";
@@ -86,7 +85,6 @@ public class Database {
     public final static String TAUNT_LIST = "taunt_list";
     public final static String TECH_AVAILABILITY = "tech_availability";
     public final static String TECH_BONUS = "tech_bonus";
-    public final static String TECH_DESCRIPTION = "tech_description";
     public final static String TECH_EFFECT = "tech_effect";
     public final static String TECH_GROUPS = "tech_groups";
     public final static String TECH_LIST = "tech_list";
@@ -98,7 +96,6 @@ public class Database {
     public final static String UNIT_ATTACK = "unit_attack";
     public final static String UNIT_AVAILABILITY = "unit_availability";
     public final static String UNIT_BONUS = "unit_bonus";
-    public final static String UNIT_DESCRIPTION = "unit_description";
     public final static String UNIT_GROUPS = "unit_groups";
     public final static String UNIT_LIST = "unit_list";
     public final static String UNIT_PERFORMANCE = "unit_performance";
@@ -135,9 +132,30 @@ public class Database {
     public final static String RELICS = "Relics";
 
     //ECO STATS
+
     public final static String LUMBERJACK = "Lumberjack";
+    public final static String SHEPHERD = "Shepherd";
+    public final static String FORAGER = "Forager";
+    public final static String HUNTER = "Hunter";
+    public final static String FISHERMAN = "Fisherman";
     public final static String FARMER = "Farmer";
+    public final static String BUILDER = "Builder";
+    public final static String REPAIRER = "Repairer";
     public final static String GOLD_MINER = "Gold Miner";
+    public final static String STONE_MINER = "Stone Miner";
+    public final static String FISHING_SHIP = "Fishing Ship";
+    public final static String RELIC_GOLD = "Relic Gold";
+    public final static String TRADE_CART = "Trade Cart";
+    public final static String TRADE_COG = "Trade Cog";
+    public final static String FEITORIA_WOOD = "Feitoria FWood";
+    public final static String FEITORIA_FOOD = "Feitoria Food";
+    public final static String FEITORIA_GOLD = "Feitoria Gold";
+    public final static String FEITORIA_STONE = "Feitoria Stone";
+    public final static String KESHIK = "Keshik";
+    public final static String FARMING_GOLD = "Farming Gold";
+    public final static String RELIC_FOOD = "Relic Food";
+    public final static String GOLD_STONE_MINERS = "Gold Stone Miners";
+
 
 
     //COLORS

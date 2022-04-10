@@ -1232,8 +1232,8 @@ public class Reader {
                 Element stat = (Element) list.item(i);
                 int id = Integer.parseInt(stat.getAttribute("id"));
                 String name;
-                if (file.equals(Database.ECO_LIST)) name = Database.getString("eco_name_" + (i + 1), language);
-                else name = Database.getString("stat_name_" + (i + 1), language);
+                if (file.equals(Database.ECO_LIST)) name = Utils.getEcoString(id);
+                else name = Utils.getStatString(id);
                 b.put(id, name);
             }
             return b;
@@ -1253,7 +1253,8 @@ public class Reader {
             HashMap<String, Boolean> b = new HashMap<>();
             for (int i = 0; i < list.getLength(); ++i){
                 Element stat = (Element) list.item(i);
-                String name = Database.getString("stat_name_" + (i + 1), language);
+                int id = Integer.parseInt(stat.getAttribute("id"));
+                String name = Utils.getStatString(id);
                 Boolean addition = Boolean.parseBoolean(stat.getAttribute("addition"));
                 b.put(name, addition);
             }
@@ -1274,7 +1275,8 @@ public class Reader {
             HashMap<String, Double> b = new HashMap<>();
             for (int i = 0; i < list.getLength(); ++i){
                 Element stat = (Element) list.item(i);
-                String name = Database.getString("eco_name_" + (i + 1), language);
+                int id = Integer.parseInt(stat.getAttribute("id"));
+                String name = Utils.getEcoString(id);
                 String valueString = stat.getAttribute("value");
                 double value;
                 if (valueString.equals("-")) value = Double.NaN;

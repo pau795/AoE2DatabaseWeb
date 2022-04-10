@@ -155,6 +155,65 @@ public class Utils {
         }
     }
 
+    public static String getStatString(int id){
+        switch (id){
+            case 1: return Database.HP;
+            case 2: return Database.ATTACK;
+            case 3: return Database.MELEE_ARMOR;
+            case 4: return Database.PIERCE_ARMOR;
+            case 5: return Database.RANGE;
+            case 6: return Database.MINIMUM_RANGE;
+            case 7: return Database.LOS;
+            case 8: return Database.RELOAD_TIME;
+            case 9: return Database.SPEED;
+            case 10: return Database.BLAST_RADIUS;
+            case 11: return Database.ACCURACY;
+            case 12: return Database.ATTACK_DELAY;
+            case 13: return Database.NUMBER_PROJECTILES;
+            case 14: return Database.PROJECTILE_SPEED;
+            case 15: return Database.GARRISON_CAPACITY;
+            case 16: return Database.POPULATION_TAKEN;
+            case 17: return Database.TRAINING_TIME;
+            case 18: return Database.WORK_RATE;
+            case 19: return Database.HEAL_RATE;
+            case 20: return Database.HILL_BONUS;
+            case 21: return Database.HILL_REDUCTION;
+            case 22: return Database.BONUS_REDUCTION;
+            case 23: return Database.CHARGE_ATTACK;
+            case 24: return Database.CHARGE_RELOAD;
+            case 25: return Database.RELICS;
+            default: return "";
+        }
+    }
+
+    public static String getEcoString(int id){
+        switch (id){
+            case 1: return Database.LUMBERJACK;
+            case 2: return Database.SHEPHERD;
+            case 3: return Database.FORAGER;
+            case 4: return Database.HUNTER;
+            case 5: return Database.FISHERMAN;
+            case 6: return Database.FARMER;
+            case 7: return Database.BUILDER;
+            case 8: return Database.REPAIRER;
+            case 9: return Database.GOLD_MINER;
+            case 10: return Database.STONE_MINER;
+            case 11: return Database.FISHING_SHIP;
+            case 12: return Database.RELIC_GOLD;
+            case 13: return Database.TRADE_CART;
+            case 14: return Database.TRADE_COG;
+            case 15: return Database.FEITORIA_WOOD;
+            case 16: return Database.FEITORIA_FOOD;
+            case 17: return Database.FEITORIA_GOLD;
+            case 18: return Database.FEITORIA_STONE;
+            case 19: return Database.KESHIK;
+            case 20: return Database.FARMING_GOLD;
+            case 21: return Database.RELIC_FOOD;
+            case 22: return Database.GOLD_STONE_MINERS;
+            default: return "";
+        }
+    }
+
     public static String unCamelCase(String s){
         String aux = s.replaceAll(
                 String.format("%s|%s|%s",
@@ -239,7 +298,6 @@ public class Utils {
             case Database.ENGLISH_FLAG: return Database.ENGLISH;
             default: return Database.DEFAULT_LANGUAGE;
         }
-
     }
 
     public static String checkLanguage(String language) {

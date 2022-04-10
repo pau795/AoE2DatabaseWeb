@@ -1802,31 +1802,31 @@
     <!--stat_list.xml-->
      
     
-    <string name="stat_name_1">Hit Points</string>
-    <string name="stat_name_2">Attack</string>
-    <string name="stat_name_3">Melee Armor</string>
-    <string name="stat_name_4">Pierce Armor</string>
-    <string name="stat_name_5">Range</string>
-    <string name="stat_name_6">Minimum Range</string>
-    <string name="stat_name_7">Line Of Sight</string>
-    <string name="stat_name_8">Reload Time</string>
-    <string name="stat_name_9">Speed</string>
-    <string name="stat_name_10">Blast Radius</string>
-    <string name="stat_name_11">Attack Delay</string>
-    <string name="stat_name_12">Accuracy</string>
-    <string name="stat_name_13">Number Projectiles</string>
-    <string name="stat_name_14">Projectile Speed</string>
-    <string name="stat_name_15">Garrison Capacity</string>
-    <string name="stat_name_16">Population Taken</string>
-    <string name="stat_name_17">Training Time</string>
-    <string name="stat_name_18">Work Rate</string>
-    <string name="stat_name_19">Heal Rate</string>
-    <string name="stat_name_20">Hill Bonus</string>
-    <string name="stat_name_21">Hill Reduction</string>
-    <string name="stat_name_22">Bonus Reduction</string>
-    <string name="stat_name_23">Charge Attack</string>
-    <string name="stat_name_24">Charge Reload</string>
-    <string name="stat_name_25">Relics</string>
+    <string name="stat_name_1">Puntos de Resistencia</string>
+    <string name="stat_name_2">Ataque</string>
+    <string name="stat_name_3">Armadura Melé</string>
+    <string name="stat_name_4">Armadura Antiproyectil</string>
+    <string name="stat_name_5">Alcance</string>
+    <string name="stat_name_6">Alcance Mínimo</string>
+    <string name="stat_name_7">Campo de Visión</string>
+    <string name="stat_name_8">Tiempo de Recarga</string>
+    <string name="stat_name_9">Velocidad</string>
+    <string name="stat_name_10">Área de Impacto</string>
+    <string name="stat_name_11">Retraso de Ataque</string>
+    <string name="stat_name_12">Precisión</string>
+    <string name="stat_name_13">Número de Proyectiles</string>
+    <string name="stat_name_14">Velocidad de Proyectil</string>
+    <string name="stat_name_15">Capacidad de Guarnición</string>
+    <string name="stat_name_16">Población</string>
+    <string name="stat_name_17">Tiempo Creación</string>
+    <string name="stat_name_18">Ratio de Trabajo</string>
+    <string name="stat_name_19">Ratio de Curación</string>
+    <string name="stat_name_20">Bonif. Colina</string>
+    <string name="stat_name_21">Reduc. Colina</string>
+    <string name="stat_name_22">Reduc. Bonif.</string>
+    <string name="stat_name_23">Ataque de Carga</string>
+    <string name="stat_name_24">Recarga de Carga</string>
+    <string name="stat_name_25">Reliquias</string>
      
     <!--taunt_list.xml-->
      
