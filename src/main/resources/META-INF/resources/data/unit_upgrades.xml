@@ -129,7 +129,7 @@
 	</item>
 	<item id="22">
 		<building id="20" upgrades="36 37 38 39 40 41 109 110 111 112"/>
-		<building id="26" upgrades="83 219 84 85 229"/>
+		<building id="26" upgrades="219 85 229"/>
 	</item>
 	<item id="23">
 		<building id="15" upgrades="18 58"/>
@@ -207,7 +207,7 @@
 		<building id="15" upgrades="18 58 131"/>
 		<building id="12" upgrades="11 13 31 33 104 106"/>
 		<building id="20" upgrades="40 109"/>
-		<building id="26" upgrades="141 175 193 198"/>
+		<building id="26" upgrades="83 141 175 193"/>
 	</item>
 	<item id="35">
 		<building id="15" upgrades="18 58 133"/>
@@ -225,7 +225,7 @@
 		<building id="22" upgrades="136"/>
 		<building id="21" upgrades="114 115"/>
 		<building id="20" upgrades="40 109"/>
-		<building id="26" upgrades="219 86 179 181 190 195"/>
+		<building id="26" upgrades="219 86 179 181 190 195 138"/>
 	</item>
 	<item id="38">
 		<building id="22" upgrades="138"/>
@@ -402,7 +402,7 @@
 		<building id="15" upgrades="18 58"/>
 		<building id="12" upgrades="11 13 31 33 104 106"/>
 		<building id="20" upgrades="40 109"/>
-		<building id="26" upgrades="60 141 167 198"/>
+		<building id="26" upgrades="83 60 141 167"/>
 	</item>
 	<item id="66">
 		<building id="15" upgrades="18 58"/>
@@ -572,7 +572,7 @@
 		<building id="15" upgrades="18 58 132"/>
 		<building id="12" upgrades="11 13 31 33 104 106"/>
 		<building id="20" upgrades="40 109"/>
-		<building id="26" upgrades="141 175 193 198"/>
+		<building id="26" upgrades="83 141 175 193"/>
 	</item>
 	<item id="94">
 		<building id="15" upgrades="18 58"/>
@@ -601,12 +601,12 @@
 		<building id="22" upgrades="137"/>
 		<building id="20" upgrades="40 109"/>
 		<building id="21" upgrades="114 115"/>
-		<building id="26" upgrades="219 86 179 181 190 195"/>
+		<building id="26" upgrades="219 86 179 181 190 195 198"/>
 	</item>
 	<item id="99">
 		<building id="21" upgrades="114 115"/>
 		<building id="20" upgrades="40 109"/>
-		<building id="26" upgrades="219 86 179 181 190 195"/>
+		<building id="26" upgrades="219 86 179 181 190 195 198"/>
 	</item>
 	<item id="100">
 		<building id="21" upgrades="114 115"/>
@@ -622,12 +622,12 @@
 	<item id="102">
 		<building id="21" upgrades="114 115"/>
 		<building id="20" upgrades="40 109"/>
-		<building id="26" upgrades="219 86 176 188 217"/>
+		<building id="26" upgrades="219 86 176 188 217 198"/>
 	</item>
 	<item id="103">
 		<building id="21" upgrades="114 115"/>
 		<building id="20" upgrades="40 109"/>
-		<building id="26" upgrades="219 86 176 188 217"/>
+		<building id="26" upgrades="219 86 176 188 217 198"/>
 	</item>
 	<item id="104">
 		<building id="8" upgrades="52 53"/>
@@ -789,7 +789,7 @@
 		<building id="15" upgrades="18 58"/>
 		<building id="12" upgrades="11 13 31 33 104 106"/>
 		<building id="20" upgrades="40 109"/>
-		<building id="26" upgrades="60 141 198"/>
+		<building id="26" upgrades="83 60 141"/>
 	</item>
 	<item id="129">
 		<building id="15" upgrades="18 58"/>

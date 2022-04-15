@@ -26,7 +26,7 @@
 		<uniqueBuildings/>
 	</item>
 	<item id="4">
-		<bonus bonusList="14 15 16" teamBonus="17"/>
+		<bonus bonusList="14 15 16 194" teamBonus="17"/>
 		<uniqueUnits>
 			<unit unitID="44" eliteUnitID="107"/>
 		</uniqueUnits>

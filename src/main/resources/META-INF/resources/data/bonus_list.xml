@@ -171,7 +171,7 @@
     <!--Buildings cost -15% stone.-->
     <item id="57"/>
      
-    <!--Farms are built twice as fast.-->
+    <!--Spearmen and Skirmishers +2 Line of Sight.-->
     <item id="58"/>
      
     <!--Villagers cost -10/15/20/25% in Dark/Feudal/Castle/Imperial Age.-->
@@ -578,5 +578,8 @@
      
     <!--Light Cavalry line have +1 damage against Archers.-->
     <item id="193"/>
+	
+	<!--Battle Elephants have +1 melee and +1 pierce armor.-->
+    <item id="194"/>
      
 </list>

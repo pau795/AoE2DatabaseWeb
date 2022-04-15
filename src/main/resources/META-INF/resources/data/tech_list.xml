@@ -246,10 +246,10 @@
     <!--Carrack-->
     <item id="82" image="t_castle_ut"/>
      
-    <!--Madrasah-->
+    <!--Zealotry-->
     <item id="83" image="t_castle_ut"/>
      
-    <!--Orthodoxy-->
+    <!--Detinets-->
     <item id="84" image="t_castle_ut"/>
      
     <!--Inquisition-->
@@ -591,7 +591,7 @@
     <!--Arquebus-->
     <item id="197" image="t_imperial_ut"/>
      
-    <!--Zealotry-->
+    <!--Counterwheights-->
     <item id="198" image="t_imperial_ut"/>
      
     <!--Druzhina-->

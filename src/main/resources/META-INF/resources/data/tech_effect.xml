@@ -1065,7 +1065,7 @@
 				</effectItem>
 				<effectItem>
 					<filter/>
-					<operation stat="4" operator="+" value="2"/>
+					<operation stat="4" operator="+" value="1"/>
 				</effectItem>
 			</statEffect>
 			<costEffect/>
@@ -1078,7 +1078,7 @@
 				</effectItem>
 				<effectItem>
 					<filter/>
-					<operation stat="2" operator="+" value="2"/>
+					<operation stat="2" operator="+" value="1"/>
 				</effectItem>
 			</armorValueEffect>
 		</effects>
@@ -1406,6 +1406,10 @@
 	<item id="83">
 		<effects>
 			<statEffect/>
+				<effectItem>
+					<filter/>
+					<operation stat="1" operator="+" value="20"/>
+				</effectItem>
 			<costEffect/>
 			<ecoEffect/>
 			<attackValueEffect/>
@@ -1414,29 +1418,28 @@
 	</item>
 	<item id="84">
 		<effects>
-			<statEffect>
+			<statEffect/>
+			<costEffect>
 				<effectItem>
-					<filter/>
-					<operation stat="3" operator="+" value="3"/>
+					<filter class="building" ids="26"/>
+					<operation stat="Wood" operator="@" value="260"/>
 				</effectItem>
 				<effectItem>
-					<filter/>
-					<operation stat="4" operator="+" value="3"/>
+					<filter class="building" ids="26"/>
+					<operation stat="Stone" operator="-" value="260"/>
 				</effectItem>
-			</statEffect>
-			<costEffect/>
+				<effectItem>
+					<filter class="building" ids="18 25"/>
+					<operation stat="Wood" operator="+" value="50"/>
+				</effectItem>
+				<effectItem>
+					<filter class="building" ids="18 25"/>
+					<operation stat="Stone" operator="-" value="50"/>
+				</effectItem>
+			</costEffect>
 			<ecoEffect/>
 			<attackValueEffect/>
-			<armorValueEffect>
-				<effectItem>
-					<filter/>
-					<operation stat="1" operator="+" value="3"/>
-				</effectItem>
-				<effectItem>
-					<filter/>
-					<operation stat="2" operator="+" value="3"/>
-				</effectItem>
-			</armorValueEffect>
+			<armorValueEffect/>
 		</effects>
 	</item>
 	<item id="85">
@@ -3018,12 +3021,37 @@
 			<statEffect>
 				<effectItem>
 					<filter/>
-					<operation stat="1" operator="+" value="20"/>
+					<operation stat="2" operator="*" value="1.15"/>
 				</effectItem>
 			</statEffect>
 			<costEffect/>
 			<ecoEffect/>
-			<attackValueEffect/>
+			<attackValueEffect>
+				<effectItem>
+					<filter class="unit" ids="103"/>
+					<operation stat="2" operator="*" value="1.15"/>
+				</effectItem>
+				<effectItem>
+					<filter class="unit" ids="103"/>
+					<operation stat="20" operator="*" value="1.15"/>
+				</effectItem>
+				<effectItem>
+					<filter class="unit" ids="37 98 99"/>
+					<operation stat="1" operator="*" value="1.15"/>
+				</effectItem>
+				<effectItem>
+					<filter class="unit" ids="37 98 99"/>
+					<operation stat="12" operator="*" value="1.15"/>
+				</effectItem>
+				<effectItem>
+					<filter class="unit" ids="37 98 99"/>
+					<operation stat="20" operator="*" value="1.15"/>
+				</effectItem>
+				<effectItem>
+					<filter class="unit" ids="37 98 99"/>
+					<operation stat="32" operator="*" value="1.15"/>
+				</effectItem>
+			</attackValueEffect>
 			<armorValueEffect/>
 		</effects>
 	</item>
@@ -3121,7 +3149,24 @@
 		<effects>
 			<statEffect/>
 			<costEffect/>
-			<ecoEffect/>
+			<ecoEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="23" operator="@" value="0.9469"/>
+				</effectItem>
+				<effectItem>
+					<filter class="techRequirement" requiredTech="5" ids="@" />
+					<operation stat="23" operator="*" value="1.2"/>
+				</effectItem>
+				<effectItem>
+					<filter class="techRequirement" requiredTech="22" ids="@" />
+					<operation stat="23" operator="*" value="1.2"/>
+				</effectItem>
+				<effectItem>
+					<filter class="techRequirement" requiredTech="91" ids="@" />
+					<operation stat="23" operator="*" value="1.1"/>
+				</effectItem>
+			</ecoEffect>
 			<attackValueEffect/>
 			<armorValueEffect/>
 		</effects>
@@ -3328,9 +3373,9 @@
 			<statEffect/>
 			<costEffect/>
 			<ecoEffect>
-			<effectItem>
-					<filter/>
-					<operation stat="20" operator="@" value="0.93"/>
+				<effectItem>
+						<filter/>
+						<operation stat="20" operator="@" value="0.93"/>
 				</effectItem>
 			</ecoEffect>
 			<attackValueEffect/>

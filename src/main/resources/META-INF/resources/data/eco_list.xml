@@ -43,13 +43,13 @@
     <item id="14" value="17.9"/>
      
     <!--Feitoria Wood-->
-    <item id="15" value="60"/>
+    <item id="15" value="42"/>
      
     <!--Feitoria Food-->
     <item id="16" value="96"/>
      
     <!--Feitoria Gold-->
-    <item id="17" value="42"/>
+    <item id="17" value="60"/>
      
     <!--Feitoria Stone-->
     <item id="18" value="18"/>
@@ -65,5 +65,8 @@
      
     <!--Gold Stone Miners-->
     <item id="22" value="-"/>
+	
+	<!--Gold Lumberjacks-->
+    <item id="23" value="-"/>
      
 </list>

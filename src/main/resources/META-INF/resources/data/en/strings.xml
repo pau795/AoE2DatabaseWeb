@@ -148,7 +148,7 @@
     <string name="repair_mechanics_basics">Villagers are able to repair damaged buildings, ships, and siege weapons. Repairing cost resources, a fraction of the cost of the unit or building being repaired. If the player does not have resources, or the stockpile runs out, the repairing process will stop. Villagers can repair siege weapons and ships from two tiles away, but the unit being repaired should not move in order to be repaired efficiently. There is not any bonus or technology that affects repairing speed at all.</string>
     <string name="repair_mechanics_speed1">Multiple Villagers can repair one building or unit. When doing so, the repairing process will be faster, and the cost will remain the same. When multiple Villagers are repairing, the first repairer works twice as fast as the others. In addition, repairing siege units or ships is &#188; slower than repairing buildings. The next table shows the repairing rates:</string>
     <string name="repair_mechanics_speed2">Note that villagers have a fixed repairing speed. This means that when the HP of a building or unit is increased, it will take longer to repair it, but its cost will remain the same.</string>
-    <string name="repair_mechanics_cost">Repairing a building / unit from 1 HP to full HP cost half of its total cost. In addition, civilization bonuses or technologies that decreases the cost of the unit / building, will be taken in consideration. However, there is an exception: The Town Center. Town Centers cost 275 wood and 100 stone, but in order to be repaired, only wood is consumed but not any stone, altough the stone stockpile must not be empty. The wood consumption when repairing a Town Center is significatively high, costing twice the amount of wood (550 wood to fully repair the town center). This is due to a side effect of the building being formed by four different sub-buildings. Finally, civilization bonuses that decrease the Town Center cost do not work for repairing.</string>
+    <string name="repair_mechanics_cost">Repairing a building / unit from 1 HP to full HP cost half of its total cost. In addition, civilization bonuses or technologies that decreases the cost of the unit / building, will be taken in consideration. However, there is an exception: The Town Center. Town Centers cost 275 wood and 100 stone, but in order to be repaired, only wood is consumed but not any stone. The wood consumption when repairing a Town Center is significatively high, costing twice the amount of wood (550 wood to fully repair the town center). This is due to a side effect of the building being formed by four different sub-buildings. Finally, civilization bonuses that decrease the Town Center cost do not work for repairing.</string>
     <string name="gm_building_upgrades_and_bonuses">Upgrades and Bonuses</string>
     <string name="gm_building_villagers">Villagers</string>
     <string name="gm_building_time">Building Time</string>
@@ -196,7 +196,7 @@
     <string name="gm_damage_table2_halb8">17 vs. Fishing Ships</string>
     <string name="gm_damage_table2_halb9">3 vs. Standard Buildings (1+2)</string>
     <string name="damage_formula_basics">When two units or buildings fight each other, there are many factors that determine how much damage each one is going to do. To summarize, there are three global aspects: Unit Stats, Hill and Cliff elevations and the Accuracy multiplier.</string>
-    <string name="damage_formula_unit_stats">Units have a lot of stats. To figure out how much damage one unit does to another, the relevant stats are the set of attack values, and the set of armor values.\nNote that other stats like the reload time, range, and accuracy have an impact on the DPS (damage per second) of the unit, however the objective here is to show the potential damage done in one hit.\n\nAll the attack and armor values are associated with a category. For example, there are categories for Infantry, Cavalry or Archers, but also more specific ones like Eagle Warriors, Mamelukes or Elephants. Besides, there is a category for the base melee and base pierce. Therefore, both sets of attack and armor values use these categories to represent an attack or an armor for a specific category.\n\nThe unit attack bonuses and defenses are represented in these sets. For example, a Spearman has +15 attack bonus against Cavalry. This means that the set of attack values contains an entry of 15 attack against the Cavalry category. On the other hand, in order to make a Scout Cavalry take extra damage from a Spearman, the set of armor values contains an entry of 0 armor of the Cavalry category.\n\nThe base damage that a unit does is calculated by summing up each attack value of the attacker against the receiver unit. For each attack value that the attacker has, the receiver matches that kind of attack to their armor values. If there is a match, the attack value calculation is the subtraction of the attack value minus the armor value. If there is no match, the armor value for that category is set to 1000 by default, and the result is the same subtraction. The final result for each attack value calculation is the maximum between 0 and the subtraction. If the receiver unit has a bonus reduction multiplier, like the Sicilians, the attack value of the attacker is multiplied by this factor before the armor subtraction..Finally, the base damage is the addition of each attack value calculation.\nThere is a practical example at the end of this document for better understanding.</string>
+    <string name="damage_formula_unit_stats">Units have a lot of stats. To figure out how much damage one unit does to another, the relevant stats are the set of attack values, and the set of armor values.\nNote that other stats like the reload time, range, and accuracy have an impact on the DPS (damage per second) of the unit, however the objective here is to show the potential damage done in one hit.\n\nAll the attack and armor values are associated with a category. For example, there are categories for Infantry, Cavalry or Archers, but also more specific ones like Eagle Warriors, Mamelukes or Elephants. Besides, there is a category for the base melee and base pierce. Therefore, both sets of attack and armor values use these categories to represent an attack or an armor for a specific category.\n\nThe unit attack bonuses and defenses are represented in these sets. For example, a Spearman has +15 attack bonus against Cavalry. This means that the set of attack values contains an entry of 15 attack against the Cavalry category. On the other hand, in order to make a Scout Cavalry take extra damage from a Spearman, the set of armor values contains an entry of 0 armor of the Cavalry category.\n\nThe base damage that a unit does is calculated by summing up each attack value of the attacker against the receiver unit. For each attack value that the attacker has, the receiver matches that kind of attack to their armor values. If there is a match, the attack value calculation is the subtraction of the attack value minus the armor value. If there is no match, the armor value for that category is set to 1000 by default, and the result is the same subtraction. The final result for each attack value calculation is the maximum between 0 and the subtraction. If the receiver unit has a bonus reduction multiplier, like the Sicilians, the attack value of the attacker is multiplied by this factor before the armor subtraction.Finally, the base damage is the addition of each attack value calculation.\nThere is a practical example at the end of this document for better understanding.</string>
     <string name="damage_formula_hills">Fighting on different elevations have a big impact in the damage output. When a unit is fighting downhill, it receives a 25% attack bonus. On the other hand, a unit fighting uphill receives a 25% attack penalty. At the end, it means that when a unit is fighting downhill, it does 25% more damage and receives 25% less damage, and vice versa.\n\nFighting on cliffs also has benefits. Units fighting on top of a cliff do 25% more damage against units at the bottom. However, unlike hills, the units fighting at the bottom do not have any attack penalty against units at the top. The Tatar bonus provides an extra 25% bonus damage to units which fight in higher elevation. Note that cliff and hill bonuses do not stack.\n\nIn addition, there is a peculiar mechanic involving hills and cliffs. If a ranged unit fires a projectile, and that unit dies before the projectile impacts, that projectile will no longer have any hill or cliff bonus, if it had one beforehand. This trick can be useful in some situations, for example, in mangonel fights.\n\nFinally, there is a terrain which has a special effect; the cracked sand. Buildings placed on top of cracked sand receive 20% more damage. Note that the center of the building has to be in the terrain in order to be effective.</string>
     <string name="damage_formula_accuracy1">This section applies mostly to ranged units. When a unit targets another one, and the projectile hits in the selected target, the accuracy multiplier is 1 and it does full damage. However, when a projectile hits a unit which was not targeted, the multiplier is reduced to 0.5. There is a exception, the Arambai, which have a multiplier of 1 even if they hit non-targeted units.\nFor melee units this multiplier is set to 1 most of the times. The exception are the units like the Battle Elephant, which have splash damage. It does full damage to the selected target, and 25% damage to the units within the splash area.\n\nThis mechanic works in a similar way for piercing units like the Scorpion. The Scorpion does full damage to the selected target, and it does 50% damage to all the units pierced through.\nOn the other hand, for units which have blast radius, like Onagers, this works a bit differently. When the projectile hits the land, all the units that are within the blast radius receive damage. The damage taken depends of the distance between the damaged unit and the center of the impact. The accuracy multiplier in this case can be obtained through the following formula:</string>
     <string name="damage_formula_formula1_text">Where:</string>
@@ -837,8 +837,8 @@
     <string name="bonus_tech_tree_description_57">Buildings cost -15% stone.</string>
     <string name="bonus_item_description_57">\@ cost -15% stone.</string> 
     
-    <string name="bonus_tech_tree_description_58">Farms are built twice as fast.</string>
-    <string name="bonus_item_description_58">Farms are built twice as fast.</string> 
+    <string name="bonus_tech_tree_description_58">Spearmen and Skirmishers have +2 Line of Sight.</string>
+    <string name="bonus_item_description_58">@ have +2 Line of Sight.</string> 
     
     <string name="bonus_tech_tree_description_59">Villagers cost -10/15/20/25% in Dark/Feudal/Castle/Imperial Age.</string>
     <string name="bonus_item_description_59">Villagers cost -10/15/20/25% in Dark/Feudal/Castle/Imperial Age.</string> 
@@ -1215,7 +1215,7 @@
     <string name="bonus_tech_tree_description_183">Start with +100 stone.</string>
     <string name="bonus_item_description_183">Start with +100 stone.</string> 
     
-    <string name="bonus_tech_tree_description_184">Blackmiths, Monasteries and Universities cost -100 wood.</string>
+    <string name="bonus_tech_tree_description_184">Blackmiths and Universities cost -100 wood.</string>
     <string name="bonus_item_description_184">\@ cost -100 wood.</string> 
     
     <string name="bonus_tech_tree_description_185">Chemistry research and Hand Cannoneers are available in the Castle Age.</string>
@@ -1244,6 +1244,9 @@
     
     <string name="bonus_tech_tree_description_193">Light Cavalry line have +1 damage against Archers.</string>
     <string name="bonus_item_description_193">\@ have +1 damage against Archers.</string> 
+	
+	<string name="bonus_tech_tree_description_194">Battle Elephants have +1 melee and +1 pierce armor.</string>
+    <string name="bonus_item_description_194">\@ have +1 melee and +1 pierce armor.</string> 
  
     <!--building_description.xml-->
      
@@ -1624,6 +1627,7 @@
     <string name="eco_name_20">Farming Gold</string>
     <string name="eco_name_21">Food Relic</string>
     <string name="eco_name_22">Gold Stone Miners</string>
+    <string name="eco_name_23">Gold Lumberjacks</string>
      
     <!--gathering_rates.xml-->
      
@@ -1648,6 +1652,8 @@
     <string name="gathering_rates_18">Feitoria Gold</string>
     <string name="gathering_rates_19">Feitoria Stone</string>
     <string name="gathering_rates_20">Keshik</string>
+    <string name="gathering_rates_21">Gold generated by Lumberjacks</string>
+	
      
     <!--history_list.xml-->
      
@@ -2315,10 +2321,10 @@
     <string name="tech_description_extra_61">Foot archers get +1 range; towers get +2 attack.</string> 
     
     <string name="tech_description_nominative_62">Howdah</string>
-    <string name="tech_description_quick_62">Battle Elephants +1/+2 armor</string>
+    <string name="tech_description_quick_62">Battle Elephants +1/+1 armor</string>
     <string name="tech_description_brief_62"/>
-    <string name="tech_description_long_62">Burmese Castle Age Unique Technology. Battle Elephants receive +1 melee/+2 pierce armor.</string>
-    <string name="tech_description_extra_62">Battle Elephants receive +1 melee/+2 pierce armor.</string> 
+    <string name="tech_description_long_62">Burmese Castle Age Unique Technology. Battle Elephants receive +1 melee/+1 pierce armor.</string>
+    <string name="tech_description_extra_62">Battle Elephants receive +1 melee/+1 pierce armor.</string> 
     
     <string name="tech_description_nominative_63">Greek Fire</string>
     <string name="tech_description_quick_63">Fire Ships +1 range</string>
@@ -2440,17 +2446,17 @@
     <string name="tech_description_long_82">Portuguese Castle Age Unique Technology. Ships receive +1 melee/+1 pierce armor.</string>
     <string name="tech_description_extra_82">Ships receive +1 melee/+1 pierce armor.</string> 
     
-    <string name="tech_description_nominative_83">Madrasah</string>
-    <string name="tech_description_quick_83">Killed Monks return 33% of their cost</string>
+    <string name="tech_description_nominative_83">Zealotry</string>
+    <string name="tech_description_quick_83">Camel Riders, Mamelukes +20 HP</string>
     <string name="tech_description_brief_83"/>
-    <string name="tech_description_long_83">Saracens Castle Age Unique Technology. Killed monks return 33% of their cost.</string>
-    <string name="tech_description_extra_83">Killed monks return 33% of their cost.</string> 
+    <string name="tech_description_long_83">Saracens Castle Age Unique Technology. Camel Riders and Mamelukes have +20 hit points.</string>
+    <string name="tech_description_extra_83">Camel Riders and Mamelukes get +20 hit points.</string> 
     
-    <string name="tech_description_nominative_84">Orthodoxy</string>
-    <string name="tech_description_quick_84">Monks +3/+3 armor</string>
+    <string name="tech_description_nominative_84">Detinets</string>
+    <string name="tech_description_quick_84">Replaces 40% stone cost of Towers and Castles with wood.</string>
     <string name="tech_description_brief_84"/>
-    <string name="tech_description_long_84">Slavs Castle Age Unique Technology. Monks receive +3 melee/+3 pierce armor.</string>
-    <string name="tech_description_extra_84">Monks receive +3 melee/+3 pierce armor.</string> 
+    <string name="tech_description_long_84">Slavs Castle Age Unique Technology. Replaces 40% stone cost of Towers and Castles with wood.</string>
+    <string name="tech_description_extra_84">Replaces 40% stone cost of Towers and Castles with wood.</string> 
     
     <string name="tech_description_nominative_85">Inquisition</string>
     <string name="tech_description_quick_85">Monks convert faster</string>
@@ -3130,11 +3136,11 @@
     <string name="tech_description_long_197">Portuguese Imperial Age Unique Technology. Ballistics for gunpowder units and buildings; projectiles move faster (+0.5 speed for Hand Cannoneer, Cannon Galleons and Organ Gun projectiles, +0.2 speed for Bombard Cannon and Bombard Tower projectiles).</string>
     <string name="tech_description_extra_197">Ballistics for gunpowder units and buildings; projectiles move faster (+0.5 speed for Hand Cannoneer, Cannon Galleons and Organ Gun projectiles, +0.2 speed for Bombard Cannon and Bombard Tower projectiles).</string> 
     
-    <string name="tech_description_nominative_198">Zealotry</string>
-    <string name="tech_description_quick_198">Camel Riders, Mamelukes +20 HP</string>
+    <string name="tech_description_nominative_198">Counterwheights</string>
+    <string name="tech_description_quick_198">Trebuchets and Onger-line +15% attack</string>
     <string name="tech_description_brief_198"/>
-    <string name="tech_description_long_198">Saracens Imperial Age Unique Technology. Camel Riders and Mamelukes have +20 hit points.</string>
-    <string name="tech_description_extra_198">Camel Riders and Mamelukes get +20 hit points.</string> 
+    <string name="tech_description_long_198">Saracens Imperial Age Unique Technology. Trebuchets and Onger-line have +15% attack and bonus damage.</string>
+    <string name="tech_description_extra_198">Trebuchets and Onger-line have +15% attack and bonus damage.</string> 
     
     <string name="tech_description_nominative_199">Druzhina</string>
     <string name="tech_description_quick_199">Infantry do trample damage</string>
@@ -3161,10 +3167,10 @@
     <string name="tech_description_extra_202">Bombard Towers, Bombard Cannons, and Cannon Galleons get +2 range.</string> 
     
     <string name="tech_description_nominative_203">Paper Money</string>
-    <string name="tech_description_quick_203">Tributes 500 gold to each ally</string>
+    <string name="tech_description_quick_203">Lumberjacks slowly generate gold</string>
     <string name="tech_description_brief_203"/>
-    <string name="tech_description_long_203">Vietnamese Imperial Age Unique Technology. You and all your allies receive +500 Gold.</string>
-    <string name="tech_description_extra_203">You and all your allies receive +500 Gold.</string> 
+    <string name="tech_description_long_203">Vietnamese Imperial Age Unique Technology. Lumberjacks slowly generate gold (1.5 gold per minute).</string>
+    <string name="tech_description_extra_203">Lumberjacks slowly generate gold (1.5 gold per minute).</string> 
     
     <string name="tech_description_nominative_204">Berserkergang</string>
     <string name="tech_description_quick_204">Berserks regenerate faster</string>
@@ -3233,10 +3239,10 @@
     <string name="tech_description_extra_214">Militia-line get +5 melee armor.</string> 
     
     <string name="tech_description_nominative_215">Cuman Mercenaries</string>
-    <string name="tech_description_quick_215">Team members can train 10 Elite Kipchaks for free</string>
+    <string name="tech_description_quick_215">Team members can train 5 free Elite Kipchaks per Castle</string>
     <string name="tech_description_brief_215"/>
-    <string name="tech_description_long_215">Cuman Imperial Age Unique Technology. You and your allies can create 10 Elite Kipchak for free in the Castle.</string>
-    <string name="tech_description_extra_215">You and your allies can create 10 Elite Kipchack for free in the Castle.</string> 
+    <string name="tech_description_long_215">Cuman Imperial Age Unique Technology. You and your allies can create 5 free Elite Kipchak per Castle. Allied players can create them starting in Castle Age.</string>
+    <string name="tech_description_extra_215">You and your allies can create 5 free Elite Kipchak per Castle</string> 
     
     <string name="tech_description_nominative_216">Tower Shields</string>
     <string name="tech_description_quick_216">Spearman-line, Skirmishers +2 pierce armor</string>
@@ -3419,8 +3425,8 @@
     <string name="tech_name_80">Nomads</string>
     <string name="tech_name_81">Kamandaran</string>
     <string name="tech_name_82">Carrack</string>
-    <string name="tech_name_83">Madrasah</string>
-    <string name="tech_name_84">Orthodoxy</string>
+    <string name="tech_name_83">Zealotry</string>
+    <string name="tech_name_84">Detinets</string>
     <string name="tech_name_85">Inquisition</string>
     <string name="tech_name_86">Ironclad</string>
     <string name="tech_name_87">Sipahi</string>
@@ -3534,7 +3540,7 @@
     <string name="tech_name_195">Drill</string>
     <string name="tech_name_196">Mahouts</string>
     <string name="tech_name_197">Arquebus</string>
-    <string name="tech_name_198">Zealotry</string>
+    <string name="tech_name_198">Counterwheights</string>
     <string name="tech_name_199">Druzhina</string>
     <string name="tech_name_200">Supremacy</string>
     <string name="tech_name_201">Crenellations</string>

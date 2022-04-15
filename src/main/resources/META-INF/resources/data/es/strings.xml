@@ -123,7 +123,7 @@
     <string name="repair_mechanics_basics">Los aldeanos son capaces de reparar edificios, barcos y armas de asedio que estén dañados. Reparar cuesta recursos, una fracción del coste de la unidad o edificio que se esté reparando. Si el jugador no dispone de los recursos necesarios, o se agota la reserva, el proceso de reparación se detendrá. Los aldeanos pueden reparar armas de asedio y barcos desde 2 celdas de distancia, pero la unidad deberá permanecer quieta para ser reparada eficientemente. A día de hoy, no hay ninguna tecnología ni bonificación que afecte a la velocidad de reparación.</string>
     <string name="repair_mechanics_speed1">Se puede reparar un edificio o unidad con varios aldeanos a la vez. Al hacerlo, el proceso de reparación será más rápido, y el coste será el mismo. Sin embargo, al haber varios aldeanos reparando, el primero de los reparadores trabajará el doble de rápido que el resto. Además, reparar armas de asedio y barcos es &#188; más lento que reparar edificios. La siguiente tabla muestra las ratios de reparación:</string>
     <string name="repair_mechanics_speed2">Hay que tener en cuenta que los aldeanos tienen una ratio de reparación fija. Esto significa que, si los puntos de resistencia de un edificio o unidad se incrementa, tardará más tiempo en ser reparada, pero el coste de la reparación se mantendrá igual.</string>
-    <string name="repair_mechanics_cost">Reparar una unidad o edificio de 1 de HP hasta el máximo cuesta exactamente la mitad de su coste en recursos. Además, se tendrán en consideración las tecnologías y bonificaciones que reduzcan el precio de la unidad o edificio que se esté reparando. Sin embargo, hay una excepción: el Centro Urbano. Los Centros Urbanos cuestan 275 de madera y 100 de piedra, pero al ser reparada solo consumirá madera y nada de piedra, aunque es necesario disponer de al menos una unidad de piedra en la reserva para poder reparar. El consumo de madera al reparar un Centro Urbano es significativamente elevando, costando el doble de madera repararlo (550 de madera para repararlo completamente). Esto es debido a un efecto secundario de que el edificio internamente esté compuesto por cuatro edificios distintos. Finalmente, las bonificaciones que reduzcan el coste del Centro urbano no se aplicarán para el coste de la reparación.</string>
+    <string name="repair_mechanics_cost">Reparar una unidad o edificio de 1 de HP hasta el máximo cuesta exactamente la mitad de su coste en recursos. Además, se tendrán en consideración las tecnologías y bonificaciones que reduzcan el precio de la unidad o edificio que se esté reparando. Sin embargo, hay una excepción: el Centro Urbano. Los Centros Urbanos cuestan 275 de madera y 100 de piedra, pero al ser reparada solo consumirá madera y nada de piedra. El consumo de madera al reparar un Centro Urbano es significativamente elevando, costando el doble de madera repararlo (550 de madera para repararlo completamente). Esto es debido a un efecto secundario de que el edificio internamente esté compuesto por cuatro edificios distintos. Finalmente, las bonificaciones que reduzcan el coste del Centro urbano no se aplicarán para el coste de la reparación.</string>
 
     <string name="gm_gold_profit">Beneficio de oro</string>
     <string name="gm_gold_income">Ingreso de oro</string>
@@ -829,8 +829,8 @@
     <string name="bonus_tech_tree_description_57">Los edificios cuestan un 15% menos de piedra.</string>
     <string name="bonus_item_description_57">\@ cuestan un 15% menos de piedra.</string> 
     
-    <string name="bonus_tech_tree_description_58">Las Granjas se construyen el doble de rápido.</string>
-    <string name="bonus_item_description_58">Las Granjas se construyen el doble de rápido.</string> 
+    <string name="bonus_tech_tree_description_58">Los Lanceros y los Hostigadores tienen +2 de Campo de Visión.</string>
+    <string name="bonus_item_description_58">\@ tienen +2 de Campo de Visión.</string> 
     
     <string name="bonus_tech_tree_description_59">Los Aldeanos cuestan un 10/15/20/25% menos en la Edad Alta/Feudal/Castillos/Imperial.</string>
     <string name="bonus_item_description_59">Los Aldeanos cuestan un 10/15/20/25% menos en la Edad Alta/Feudal/Castillos/Imperial.</string> 
@@ -1207,7 +1207,7 @@
     <string name="bonus_tech_tree_description_183">Empiezan con +100 de piedra.</string>
     <string name="bonus_item_description_183">Empiezan con +100 de piedra.</string> 
     
-    <string name="bonus_tech_tree_description_184">Las Herrerías, los Monasterios y las Universidades cuestan -100 de madera.</string>
+    <string name="bonus_tech_tree_description_184">Las Herrerías y las Universidades cuestan -100 de madera.</string>
     <string name="bonus_item_description_184">\@ cuestan -100 de madera.</string> 
     
     <string name="bonus_tech_tree_description_185">La tecnología de Química y los Artilleros Manuales están disponibles en la Edad de los Castillos.</string>
@@ -1236,6 +1236,9 @@
     
     <string name="bonus_tech_tree_description_193">La línea de Caballería Ligera tienen +1 de daño contra Arqueros.</string>
     <string name="bonus_item_description_193">\@ tienen +1 de ataque contra Arqueros.</string> 
+	
+	<string name="bonus_tech_tree_description_194">Los Elefantes de Combate tienen +1 de armadura melé y +1 de armadura antiproyectil.</string>
+    <string name="bonus_item_description_194">\@ tienen +1 de armadura melé y +1 de armadura antiproyectil.</string> 
  
     <!--building_description.xml-->
      
@@ -1616,6 +1619,7 @@
     <string name="eco_name_20">Oro Agricultor</string>
     <string name="eco_name_21">Comida Reliquia</string>
     <string name="eco_name_22">Oro Cantero</string>
+    <string name="eco_name_23">Oro Leñador</string>
      
     <!--gathering_rates.xml-->
      
@@ -1640,6 +1644,7 @@
     <string name="gathering_rates_18">Oro en Factoría</string>
     <string name="gathering_rates_19">Piedra en Factoría</string>
     <string name="gathering_rates_20">Keshik</string>
+    <string name="gathering_rates_20">Oro generado por Leñadores</string>
      
     <!--history_list.xml-->
      
@@ -2307,10 +2312,10 @@
     <string name="tech_description_extra_61">Los Arqueros a pie obtienen +1 de alcance; las Torres obtienen +2 de ataque.</string> 
     
     <string name="tech_description_nominative_62">Howdah</string>
-    <string name="tech_description_quick_62">Elefantes de Combate +1/+2 armadura</string>
+    <string name="tech_description_quick_62">Elefantes de Combate +1/+1 armadura</string>
     <string name="tech_description_brief_62"/>
-    <string name="tech_description_long_62">Tecnología Única Birmana en la Edad de los Castillos. Los Elefantes de Combate obtienen +1 de armadura de melé y +2 de armadura antiproyectil.</string>
-    <string name="tech_description_extra_62">Los Elefantes de Combate obtienen +1 de armadura de melé y +2 de armadura antiproyectil.</string> 
+    <string name="tech_description_long_62">Tecnología Única Birmana en la Edad de los Castillos. Los Elefantes de Combate obtienen +1 de armadura de melé y +1 de armadura antiproyectil.</string>
+    <string name="tech_description_extra_62">Los Elefantes de Combate obtienen +1 de armadura de melé y +1 de armadura antiproyectil.</string> 
     
     <string name="tech_description_nominative_63">Fuego Griego</string>
     <string name="tech_description_quick_63">Barcos Incendiarios +1 alcance</string>
@@ -2432,17 +2437,17 @@
     <string name="tech_description_long_82">Tecnología Única Portuguesa en la Edad de los Castillos. Los barcos obtienen +1 de armadura melé. y +1 de armadura antiproyectil.</string>
     <string name="tech_description_extra_82"> Los barcos obtienen +1 de armadura melé. y +1 de armadura antiproyectil.</string> 
     
-    <string name="tech_description_nominative_83">Madraza</string>
-    <string name="tech_description_quick_83">Monjes devuelven 33% del coste al morir</string>
+    <string name="tech_description_nominative_83">Fanatismo</string>
+    <string name="tech_description_quick_83">Jinetes de Camello y Mamelucos +20 HP</string>
     <string name="tech_description_brief_83"/>
-    <string name="tech_description_long_83">Tecnología Única Sarracena en la Edad de los Castillos. Los monjes devuelven un 33% de su coste al morir.</string>
-    <string name="tech_description_extra_83">Los monjes devuelven un 33% de su coste al morir.</string> 
+    <string name="tech_description_long_83">Tecnología Única Sarracena en la Edad de los Castillos. Los Jinetes de Camello y los Mamelucos obtienen +20 puntos de resistencia.</string>
+    <string name="tech_description_extra_83">Los Jinetes de Camello y los Mamelucos obtienen +20 puntos de resistencia.</string> 
     
-    <string name="tech_description_nominative_84">Ortodoxia</string>
-    <string name="tech_description_quick_84">Monjes +3/+3 armadura</string>
+    <string name="tech_description_nominative_84">Detinets</string>
+    <string name="tech_description_quick_84">Reemplaza el 40% del coste de piedra de Torres y Castillos por madera</string>
     <string name="tech_description_brief_84"/>
-    <string name="tech_description_long_84">Tecnología Única Eslava en la Edad de los Castillos. Los Monjes obtienen +3 de armadura melé y +3 de armadura antiproyectil.</string>
-    <string name="tech_description_extra_84">Los Monjes obtienen +3 de armadura melé y +3 de armadura antiproyectil.</string> 
+    <string name="tech_description_long_84">Tecnología Única Eslava en la Edad de los Castillos. Reemplaza el 40% del coste de piedra de las Torres y Los Castillos por madera.</string>
+    <string name="tech_description_extra_84">Reemplaza el 40% del coste de piedra de las Torres y Los Castillos por madera.</string> 
     
     <string name="tech_description_nominative_85">Inquisición</string>
     <string name="tech_description_quick_85">Monjes convierten más rápido</string>
@@ -3122,11 +3127,11 @@
     <string name="tech_description_long_197">Tecnología Única Portuguesa en la Edad Imperial. Las unidades y edificios de pólvora obtienen la Balística y los projectiles se mueven más rápido(+0.5 de velocidad para los proyectiles de los Artilleros Manuales, los Galeones Artillados y los Cañones de Salvas, +0.2 de velocidad para los proyectiles de los Cañones de Asedio y las Torres de Bombardeo).</string>
     <string name="tech_description_extra_197">Las unidades y edificios de pólvora obtienen la Balística y los projectiles se mueven más rápido(+0.5 de velocidad para los proyectiles de los Artilleros Manuales, los Galeones Artillados y los Cañones de Salvas, +0.2 de velocidad para los proyectiles de los Cañones de Asedio y las Torres de Bombardeo).</string> 
     
-    <string name="tech_description_nominative_198">Fanatismo</string>
-    <string name="tech_description_quick_198">Jinetes de Camello y Mamelucos +20 HP</string>
+    <string name="tech_description_nominative_198">Contrapesos</string>
+    <string name="tech_description_quick_198">Lanzapiedras y línea de Onagro +15% ataque</string>
     <string name="tech_description_brief_198"/>
-    <string name="tech_description_long_198">Tecnología Única Sarracena en la Edad Imperial. Los Jinetes de Camello y los Mamelucos obtienen +20 puntos de resistencia.</string>
-    <string name="tech_description_extra_198">Los Jinetes de Camello y los Mamelucos obtienen +20 puntos de resistencia.</string> 
+    <string name="tech_description_long_198">Tecnología Única Sarracena en la Edad Imperial. Los Lanzapiedras y la línea de Onagro obtienen un 15% más de ataque y daño de bonificación.</string>
+    <string name="tech_description_extra_198">Los Lanzapiedras y la línea de Onagro obtienen un 15% más de ataque y daño de bonificación.</string> 
     
     <string name="tech_description_nominative_199">Druzhina</string>
     <string name="tech_description_quick_199">Infantería obtiene daño en area</string>
@@ -3153,10 +3158,10 @@
     <string name="tech_description_extra_202">Las Torres de Bombardeo, los Cañones de Asedio y los Galeones Artillados obtienen +2 de alcance.</string> 
     
     <string name="tech_description_nominative_203">Papel Moneda</string>
-    <string name="tech_description_quick_203">Tributa 500 de oro a cada miembro del equipo</string>
+    <string name="tech_description_quick_203">Los Leñadores generan oro lentamente</string>
     <string name="tech_description_brief_203"/>
-    <string name="tech_description_long_203">Tecnología Única Vietnamita en la Edad Imperial. Todos los miembros del equipo reciben 500 de oro.</string>
-    <string name="tech_description_extra_203">Todos los miembros del equipo reciben 500 de oro.</string> 
+    <string name="tech_description_long_203">Tecnología Única Vietnamita en la Edad Imperial. Los Leñadores generan oro lentamente (1.5 de oro por minuto).</string>
+    <string name="tech_description_extra_203">Los Leñadores generan oro lentamente (1.5 de oro por minuto).</string> 
     
     <string name="tech_description_nominative_204">Trance Frenético</string>
     <string name="tech_description_quick_204">Berserkers se regeneran más rápido</string>
@@ -3225,10 +3230,10 @@
     <string name="tech_description_extra_214">Línea de Espadachín obtiene +5 de armadura melé.</string> 
     
     <string name="tech_description_nominative_215">Mercenarios Cumanos</string>
-    <string name="tech_description_quick_215">Miembros del equipo pueden entrenar 10 Kipchaks de Élite gratis</string>
+    <string name="tech_description_quick_215">Miembros del equipo pueden entrenar 5 Kipchaks de Élite gratis por cada Castillo construido.</string>
     <string name="tech_description_brief_215"/>
-    <string name="tech_description_long_215">Tecnología Única Cumana en la Edad Imperial. Los miembros del equipo pueden entrenar 10 Kipchaks de Élite gratis en el Castillo.</string>
-    <string name="tech_description_extra_215">Los miembros del equipo pueden entrenar 10 Kipchaks de Élite gratis en el Castillo.</string> 
+    <string name="tech_description_long_215">Tecnología Única Cumana en la Edad Imperial. Los miembros del equipo pueden entrenar 5 Kipchaks de Élite gratis por cada Castillo construido. Los aliados pueden entrenarlos a partir de la Edad de los Castillos.</string>
+    <string name="tech_description_extra_215">Los miembros del equipo pueden entrenar 5 Kipchaks de Élite gratis por cada Castillo construido.</string> 
     
     <string name="tech_description_nominative_216">Escudos Rectangulares</string>
     <string name="tech_description_quick_216">Línea de Lancero y Hostigadores +2 armadura antiproyectil</string>
@@ -3252,7 +3257,7 @@
     <string name="tech_description_quick_219">Cada Centro Urbano (máx 5) genera 7 Serjeants; las unidades son más resistentes a la conversión</string>
     <string name="tech_description_brief_219"/>
     <string name="tech_description_long_219">Tecnología Única Siciliana en la Edad de los Castillos. Cada Centro Urbano (máx 5) genera un lote único de 7 Serjeants; las unidades son más resistentes a la conversión: tiempo mínimo de conversión +2s, tiempo máximo de conversión +5s y la posiblidad de conversión se reduce un 66%.</string>
-    <string name="tech_description_extra_219">Cada Centro Urbano (máx 5) genera un lote único de 7 Serjeants; las unidades son más resistentes a la conversión: tiempo mínimo de conversión +2s, tiempo máximo de conversión +5s y la posiblidad de conversión se reduce un 66%..</string> 
+    <string name="tech_description_extra_219">Cada Centro Urbano (máx 5) genera un lote único de 7 Serjeants; las unidades son más resistentes a la conversión: tiempo mínimo de conversión +2s, tiempo máximo de conversión +5s y la posiblidad de conversión se reduce un 66%.</string> 
     
     <string name="tech_description_nominative_220">Coustillier de Élite</string>
     <string name="tech_description_quick_220"/>
@@ -3411,8 +3416,8 @@
     <string name="tech_name_80">Nómadas</string>
     <string name="tech_name_81">Kamandaran</string>
     <string name="tech_name_82">Carracas</string>
-    <string name="tech_name_83">Madraza</string>
-    <string name="tech_name_84">Ortodoxia</string>
+    <string name="tech_name_83">Fanatismo</string>
+    <string name="tech_name_84">Detinets</string>
     <string name="tech_name_85">Inquisición</string>
     <string name="tech_name_86">Blindaje</string>
     <string name="tech_name_87">Sipahi</string>
@@ -3526,7 +3531,7 @@
     <string name="tech_name_195">Instrucción Militar</string>
     <string name="tech_name_196">Mahouts</string>
     <string name="tech_name_197">Arcabuz</string>
-    <string name="tech_name_198">Fanatismo</string>
+    <string name="tech_name_198">Contrapesos</string>
     <string name="tech_name_199">Druzhina</string>
     <string name="tech_name_200">Supremacía</string>
     <string name="tech_name_201">Almenas</string>
