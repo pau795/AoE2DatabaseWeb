@@ -167,19 +167,25 @@ public class Database {
 
     private static Storage englishStorage;
     private static Storage spanishStorage;
+    private static Storage deutschStorage;
 
 
     public static void initDatabase(){
         stringMap = Reader.readStringMap();
         englishStorage = new Storage(Database.ENGLISH);
         spanishStorage = new Storage(Database.SPANISH);
+        deutschStorage = new Storage(Database.DEUTSCH);
         englishStorage.processPostInit();
         spanishStorage.processPostInit();
+        deutschStorage.processPostInit();
     }
 
     private static Storage getStorage(String language){
-        if(SPANISH.equals(language)) return spanishStorage;
-        else return englishStorage;
+        switch (language){
+            case SPANISH: return spanishStorage;
+            case DEUTSCH: return deutschStorage;
+            default: return englishStorage;
+        }
     }
 
 
