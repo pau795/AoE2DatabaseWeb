@@ -1508,7 +1508,7 @@
     <string name="civilization_name_10">Goths</string>
     <string name="civilization_name_11">Huns</string>
     <string name="civilization_name_12">Incas</string>
-    <string name="civilization_name_13">Indians</string>
+    <string name="civilization_name_13">Hindustanis</string>
     <string name="civilization_name_14">Italians</string>
     <string name="civilization_name_15">Japanese</string>
     <string name="civilization_name_16">Khmer</string>
@@ -1670,7 +1670,7 @@
     <string name="history_name_10">The Goths</string>
     <string name="history_name_11">The Huns</string>
     <string name="history_name_12">The Incas</string>
-    <string name="history_name_13">The Indians</string>
+    <string name="history_name_13">The Hindustanis</string>
     <string name="history_name_14">The Italians</string>
     <string name="history_name_15">The Japanese</string>
     <string name="history_name_16">The Khmer</string>
@@ -1778,7 +1778,7 @@
     <string name="performance_name_39">Huskarls</string>
     <string name="performance_name_40">Tarkans</string>
     <string name="performance_name_41">Kamayuks</string>
-    <string name="performance_name_42">Elephant Archers</string>
+    <string name="performance_name_42">Ghulams</string>
     <string name="performance_name_43">Genoese Crossbowmen</string>
     <string name="performance_name_44">Samurai</string>
     <string name="performance_name_45">Ballista Elephants</string>
@@ -1841,6 +1841,8 @@
     <string name="stat_name_23">Charge Attack</string>
     <string name="stat_name_24">Charge Reload</string>
     <string name="stat_name_25">Relics</string>
+    <string name="stat_name_26">Ignore Armor</string>
+    <string name="stat_name_27">Resist Armor Ignore</string>
      
     <!--taunt_list.xml-->
      
@@ -2377,7 +2379,7 @@
     <string name="tech_description_nominative_71">Sultans</string>
     <string name="tech_description_quick_71">All gold production +10% faster</string>
     <string name="tech_description_brief_71"/>
-    <string name="tech_description_long_71">Indians Castle Age Unique Technology. All gold income +10% faster (Trade, mines, relics).</string>
+    <string name="tech_description_long_71">Hindustanis Castle Age Unique Technology. All gold income +10% faster (Trade, mines, relics).</string>
     <string name="tech_description_extra_71">All gold income +10% faster (Trade, mines, relics).</string> 
     
     <string name="tech_description_nominative_72">Pavise</string>
@@ -2878,10 +2880,10 @@
     <string name="tech_description_long_154">Upgrades your Kamayuks and lets you create Elite Kamayuks.</string>
     <string name="tech_description_extra_154"/> 
     
-    <string name="tech_description_nominative_155">Elite Elephant Archer</string>
+    <string name="tech_description_nominative_155">Elite Ghulam</string>
     <string name="tech_description_quick_155"/>
     <string name="tech_description_brief_155"/>
-    <string name="tech_description_long_155">Upgrades your Elephant Archers and lets you create Elite Elephant Archers.</string>
+    <string name="tech_description_long_155">Upgrades your Ghulams and lets you create Elite Ghulams.</string>
     <string name="tech_description_extra_155"/> 
     
     <string name="tech_description_nominative_156">Elite Genoese Crossbowman</string>
@@ -3065,10 +3067,10 @@
     <string name="tech_description_extra_185">Kamayuks, Slingers, Eagles get +1 melee/+2 pierce armor.</string> 
     
     <string name="tech_description_nominative_186">Shatagni</string>
-    <string name="tech_description_quick_186">Hand Cannoneers +1 Range</string>
+    <string name="tech_description_quick_186">Hand Cannoneers +2 Range</string>
     <string name="tech_description_brief_186"/>
-    <string name="tech_description_long_186">Indians Imperial Age Unique Technology. Hand Cannoneers get +1 range.</string>
-    <string name="tech_description_extra_186">Hand Cannoneers get +1 range.</string> 
+    <string name="tech_description_long_186">Hindustanis Imperial Age Unique Technology. Hand Cannoneers get +2 range.</string>
+    <string name="tech_description_extra_186">Hand Cannoneers get +2 range.</string> 
     
     <string name="tech_description_nominative_187">Silk Road</string>
     <string name="tech_description_quick_187">Trade units cost -50%</string>
@@ -3497,7 +3499,7 @@
     <string name="tech_name_152">Elite Huskarl</string>
     <string name="tech_name_153">Elite Tarkan</string>
     <string name="tech_name_154">Elite Kamayuk</string>
-    <string name="tech_name_155">Elite Elephant Archer</string>
+    <string name="tech_name_155">Elite Ghulam</string>
     <string name="tech_name_156">Elite Genoese Crossbowman</string>
     <string name="tech_name_157">Elite Samurai</string>
     <string name="tech_name_158">Elite Ballista Elephant</string>
@@ -3926,10 +3928,10 @@
     <string name="unit_description_long_52">Inca Unique Unit. Infantry equipped with a long spear, which allows it to attack 1 tile away. Strong against Cavalry.</string>
     <string name="unit_description_extra_52"/> 
     
-    <string name="unit_description_nominative_53">Elephant Archers</string>
-    <string name="unit_description_quick_53">High HP Cavalry Archer</string>
+    <string name="unit_description_nominative_53">Ghulam</string>
+    <string name="unit_description_quick_53">Piercing Infantry</string>
     <string name="unit_description_brief_53"/>
-    <string name="unit_description_long_53">Indian Unique Unit. Slow Cavalry Archer with very high HP and pierce armor.</string>
+    <string name="unit_description_long_53">Hindustani Unique Unit. Fast Infantry with high pierce armor which thursts its spear through multiple targets. Effective against Archers.</string>
     <string name="unit_description_extra_53"/> 
     
     <string name="unit_description_nominative_54">Genoese Crossbowmen</string>
@@ -4175,7 +4177,7 @@
     <string name="unit_description_nominative_94">Imperial Camel Riders</string>
     <string name="unit_description_quick_94">Extra Camel Rider upgrade</string>
     <string name="unit_description_brief_94"/>
-    <string name="unit_description_long_94">Indian Unique Unit. Fast mounted unit that excels at killing other mounted units.</string>
+    <string name="unit_description_long_94">Hindustani Unique Unit. Fast mounted unit that excels at killing other mounted units.</string>
     <string name="unit_description_extra_94"/> 
     
     <string name="unit_description_nominative_95">Elite Battle Elephants</string>
@@ -4304,10 +4306,10 @@
     <string name="unit_description_long_115">Inca Unique Unit. Infantry equipped with a long spear, which allows it to attack 1 tile away. Strong against Cavalry and Infantry.</string>
     <string name="unit_description_extra_115"/> 
     
-    <string name="unit_description_nominative_116">Elite Elephant Archers</string>
-    <string name="unit_description_quick_116">High HP Cavalry Archer</string>
+    <string name="unit_description_nominative_116">Elite Ghulam</string>
+    <string name="unit_description_quick_116">Piercing Infantry</string>
     <string name="unit_description_brief_116"/>
-    <string name="unit_description_long_116">Indian Unique Unit. Slow Cavalry Archer with very high HP and pierce armor.</string>
+    <string name="unit_description_long_116">Hindustani Unique Unit. Fast Infantry with high pierce armor which thursts its spear through multiple targets. Effective against Archers.</string>
     <string name="unit_description_extra_116"/> 
     
     <string name="unit_description_nominative_117">Elite Genoese Crossbowmen</string>
@@ -4623,7 +4625,7 @@
     <string name="unit_name_50">Huskarl</string>
     <string name="unit_name_51">Tarkan</string>
     <string name="unit_name_52">Kamayuk</string>
-    <string name="unit_name_53">Elephant Archer</string>
+    <string name="unit_name_53">Ghulam</string>
     <string name="unit_name_54">Genoese Crossbowman</string>
     <string name="unit_name_55">Samurai</string>
     <string name="unit_name_56">Ballista Elephant</string>
@@ -4686,7 +4688,7 @@
     <string name="unit_name_113">Elite Huskarl</string>
     <string name="unit_name_114">Elite Tarkan</string>
     <string name="unit_name_115">Elite Kamayuk</string>
-    <string name="unit_name_116">Elite Elephant Archer</string>
+    <string name="unit_name_116">Elite Ghulam</string>
     <string name="unit_name_117">Elite Genoese Crossbowman</string>
     <string name="unit_name_118">Elite Samurai</string>
     <string name="unit_name_119">Elite Ballista Elephant</string>

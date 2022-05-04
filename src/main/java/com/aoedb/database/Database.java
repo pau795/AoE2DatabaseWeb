@@ -130,6 +130,8 @@ public class Database {
     public final static String CHARGE_ATTACK = "Charge Attack";
     public final static String CHARGE_RELOAD = "Charge Reload";
     public final static String RELICS = "Relics";
+    public final static String IGNORE_ARMOR = "Ignore Armor";
+    public final static String RESIST_ARMOR_IGNORE = "Resist Armor Ignore";
 
     //ECO STATS
 

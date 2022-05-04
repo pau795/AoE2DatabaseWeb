@@ -156,8 +156,8 @@
     <!--Kamayuk-->
     <item id="52" image="u_kamayuk"/>
      
-    <!--Elephant Archer-->
-    <item id="53" image="u_elephant_archer"/>
+    <!--Ghulam-->
+    <item id="53" image="u_ghulam"/>
      
     <!--Genoese Crossbowman-->
     <item id="54" image="u_genoese_crossbowman"/>
@@ -345,8 +345,8 @@
     <!--Elite Kamayuk-->
     <item id="115" image="u_kamayuk"/>
      
-    <!--Elite Elephant Archer-->
-    <item id="116" image="u_elephant_archer"/>
+    <!--Elite Ghulam-->
+    <item id="116" image="u_ghulam"/>
      
     <!--Elite Genoese Crossbowman-->
     <item id="117" image="u_genoese_crossbowman"/>
@@ -477,4 +477,53 @@
     <!--Houfnice-->
     <item id="159" image="u_houfnice"/>
      
+	<!--Camel Scout-->
+    <item id="160" image="u_camel_scout"/>
+     
+	<!--Elephant Archer-->
+    <item id="161" image="u_elephant_archer"/>
+     
+	<!--Shrivamsha Rider-->
+    <item id="162" image="u_shrivamsha_rider"/>
+     
+	<!--Armored Elephant-->
+    <item id="163" image="u_armored_elephant"/>
+     
+	<!--Ratha (Ranged)-->
+    <item id="164" image="u_ratha_range"/>
+     
+	<!--Ratha (Melee)-->
+    <item id="164" image="u_ratha_melee"/>
+	
+	<!--Urumi Swordsman-->
+    <item id="165" image="u_urumi_swordsman"/>
+     
+	<!--Chakram Thrower-->
+    <item id="166" image="u_chakram_thrower"/>
+     
+	<!--Thirisadai-->
+    <item id="167" image="u_houfnice"/>
+     
+	<!--Elite Elephant Archer-->
+    <item id="168" image="u_elephant_archer"/>
+	
+	<!--Elite Shrivamsha Rider-->
+    <item id="169" image="u_elite_elephant_archer"/>
+	
+	<!--Elite Siege Elephant-->
+    <item id="170" image="u_siege_elephant"/>
+	
+	<!--Elite Ratha (Ranged)-->
+    <item id="171" image="u_ratha_range"/>
+     
+	<!--Elite Ratha (Melee)-->
+    <item id="172" image="u_ratha_melee"/>
+	
+	<!--Elite Urumi Swordsman-->
+    <item id="173" image="u_urumi_swordsman"/>
+     
+	<!--Elite Chakram Thrower-->
+    <item id="174" image="u_chakram_thrower"/>
+     
+	 
 </list>

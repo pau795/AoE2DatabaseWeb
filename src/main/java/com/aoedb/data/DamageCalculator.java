@@ -16,12 +16,10 @@ public class DamageCalculator {
 
     private int unit1Relics, unit2Relics;
     private boolean unit1Hill, unit2Hill;
-    private String language;
 
     public DamageCalculator(Unit u1, Unit u2, String language){
         this.unit1 = u1;
         this.unit2 = u2;
-        this.language = language;
 
         unit1Stats = new UnitStats(unit1, language);
         unit2Stats = new UnitStats(unit2, language);
@@ -281,6 +279,8 @@ public class DamageCalculator {
                     else multiplier = r.getCalculatedStat(Database.BONUS_REDUCTION);
                     double prod = attackValue * multiplier;
                     if (attackType == 3 && type == 1) prod += chargeAttack;
+                    if (type == 1 && !Double.isNaN(u.getCalculatedStat(Database.IGNORE_ARMOR))
+                            && Double.isNaN(r.getCalculatedStat(Database.RESIST_ARMOR_IGNORE))) armorValue = 0;
                     double partialDamage = Math.max(0.0f, prod - armorValue);
                     damage += partialDamage;
                     AttackValues at = new AttackValues(type, attackValue, armorValue, multiplier, partialDamage);

@@ -74,5 +74,11 @@
      
     <!--Relics-->
     <item id="25" addition="false"/>
+	
+	<!--Ignore Armor-->
+    <item id="26" addition="false"/>
+	
+	<!--Resist Armor Ignore-->
+    <item id="27" addition="false"/>
      
 </list>

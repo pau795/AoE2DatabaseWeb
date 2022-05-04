@@ -1500,7 +1500,7 @@
     <string name="civilization_name_10">Godos</string>
     <string name="civilization_name_11">Hunos</string>
     <string name="civilization_name_12">Incas</string>
-    <string name="civilization_name_13">Indios</string>
+    <string name="civilization_name_13">Indostanos</string>
     <string name="civilization_name_14">Italianos</string>
     <string name="civilization_name_15">Japoneses</string>
     <string name="civilization_name_16">Jemeres</string>
@@ -1661,7 +1661,7 @@
     <string name="history_name_10">Los Godos</string>
     <string name="history_name_11">Los Hunos</string>
     <string name="history_name_12">Los Incas</string>
-    <string name="history_name_13">Los Indios</string>
+    <string name="history_name_13">Los Indostanos</string>
     <string name="history_name_14">Los Italianos</string>
     <string name="history_name_15">Los Japoneses</string>
     <string name="history_name_16">Los Jemeres</string>
@@ -1769,7 +1769,7 @@
     <string name="performance_name_39">Huscarles</string>
     <string name="performance_name_40">Tarcanos</string>
     <string name="performance_name_41">Kamayuks</string>
-    <string name="performance_name_42">Elefantes Arqueros</string>
+    <string name="performance_name_42">Ghulams</string>
     <string name="performance_name_43">Ballesteros Genoveses</string>
     <string name="performance_name_44">Samurai</string>
     <string name="performance_name_45">Elefantes con Balista</string>
@@ -1832,6 +1832,9 @@
     <string name="stat_name_23">Ataque de Carga</string>
     <string name="stat_name_24">Recarga de Carga</string>
     <string name="stat_name_25">Reliquias</string>
+	<string name="stat_name_26">Ignorar Armadura</string>
+    <string name="stat_name_27">Resiste Ignorar Armadura</string>
+	
      
     <!--taunt_list.xml-->
      
@@ -2368,7 +2371,7 @@
     <string name="tech_description_nominative_71">Sultanato</string>
     <string name="tech_description_quick_71">Toda producción de oro es un 10% más rápido</string>
     <string name="tech_description_brief_71"/>
-    <string name="tech_description_long_71">Tecnología Única India en la Edad de los Castillos. Toda la producción de oro es un 10% más rápido (Comercio, minería, reliquias).</string>
+    <string name="tech_description_long_71">Tecnología Única Hindostana en la Edad de los Castillos. Toda la producción de oro es un 10% más rápido (Comercio, minería, reliquias).</string>
     <string name="tech_description_extra_71">Toda la producción de oro es un 10% más rápido (Comercio, minería, reliquias).</string> 
     
     <string name="tech_description_nominative_72">Escudo Pavés</string>
@@ -2869,10 +2872,10 @@
     <string name="tech_description_long_154">Mejora los Kamayuks y permite crear los Kamayuks de Élite.</string>
     <string name="tech_description_extra_154"/> 
     
-    <string name="tech_description_nominative_155">Elefante Arquero de Élite</string>
+    <string name="tech_description_nominative_155">Ghulam de Élite</string>
     <string name="tech_description_quick_155"/>
     <string name="tech_description_brief_155"/>
-    <string name="tech_description_long_155">Mejora los Elefantes Arqueros y permite crear Elefantes Arqueros de Élite.</string>
+    <string name="tech_description_long_155">Mejora los Ghulams y permite crear Ghulams de Élite.</string>
     <string name="tech_description_extra_155"/> 
     
     <string name="tech_description_nominative_156">Ballestero Genovés de Élite</string>
@@ -3056,10 +3059,10 @@
     <string name="tech_description_extra_185"/> 
     
     <string name="tech_description_nominative_186">Shatagni</string>
-    <string name="tech_description_quick_186">Artilleros Manuales +1 de alcance</string>
+    <string name="tech_description_quick_186">Artilleros Manuales +2 de alcance</string>
     <string name="tech_description_brief_186"/>
-    <string name="tech_description_long_186">Tecnología Única India en la Edad Imperial. Los Artilleros Manuales obtienen +1 de alcance.</string>
-    <string name="tech_description_extra_186">Los Artilleros Manuales obtienen +1 de alcance.</string> 
+    <string name="tech_description_long_186">Tecnología Única Hindostana en la Edad Imperial. Los Artilleros Manuales obtienen +2 de alcance.</string>
+    <string name="tech_description_extra_186">Los Artilleros Manuales obtienen +2 de alcance.</string> 
     
     <string name="tech_description_nominative_187">Ruta de la Seda</string>
     <string name="tech_description_quick_187">Unidades comerciales cuestan -50%</string>
@@ -3488,7 +3491,7 @@
     <string name="tech_name_152">Huscarle de Élite</string>
     <string name="tech_name_153">Tarcano de Élite</string>
     <string name="tech_name_154">Kamayuk de Élite</string>
-    <string name="tech_name_155">Elefante Arquero de Élite</string>
+    <string name="tech_name_155">Ghulam de Élite</string>
     <string name="tech_name_156">Ballestero Genovés de Élite</string>
     <string name="tech_name_157">Samurai de Élite</string>
     <string name="tech_name_158">Elefante con Balista de Élite</string>
@@ -3917,10 +3920,10 @@
     <string name="unit_description_long_52">Unidad Única Inca. Infantería equipada con una lanza larga, proporcionandoles 1 de alcance. Eficaz contra Caballería e Infantería.</string>
     <string name="unit_description_extra_52"/> 
     
-    <string name="unit_description_nominative_53">Los Elefantes Arqueros</string>
-    <string name="unit_description_quick_53">Arquero a Caballo muy resistente</string>
+    <string name="unit_description_nominative_53">Los Ghulams</string>
+    <string name="unit_description_quick_53">Infantería penetrante</string>
     <string name="unit_description_brief_53"/>
-    <string name="unit_description_long_53">Unidad Única India. Arquero montado lento, con muchos puntos de resistencia y armadura antiproyectil.</string>
+    <string name="unit_description_long_53">Unidad Única Indostana. Infantería rápida con mucha armadura antiproyectil, la cual es capaz de penetrar con su lanza a través de varios objetivos. Eficaz contra Arqueros.</string>
     <string name="unit_description_extra_53"/> 
     
     <string name="unit_description_nominative_54">Los Ballesteros Genoveses</string>
@@ -4166,7 +4169,7 @@
     <string name="unit_description_nominative_94">Los Jinetes de Camello Imperiales</string>
     <string name="unit_description_quick_94">Mejora extra para los Jinetes de Camello</string>
     <string name="unit_description_brief_94"/>
-    <string name="unit_description_long_94">Unidad Única India. Unidad montada y rápida que es muy eficaz contra otras unidades montadas.</string>
+    <string name="unit_description_long_94">Unidad Única Hindostana. Unidad montada y rápida que es muy eficaz contra otras unidades montadas.</string>
     <string name="unit_description_extra_94"/> 
     
     <string name="unit_description_nominative_95">Los Elefantes de Combate de Élite</string>
@@ -4295,10 +4298,10 @@
     <string name="unit_description_long_115">Unidad Única Inca. Infantería equipada con una lanza larga, proporcionandoles 1 de alcance. Eficaz contra Caballería e Infantería.</string>
     <string name="unit_description_extra_115"/> 
     
-    <string name="unit_description_nominative_116">Los Elefantes Arqueros de Élite</string>
-    <string name="unit_description_quick_116">Arquero a Caballo muy resistente</string>
+    <string name="unit_description_nominative_116">Los Ghulams de Élite</string>
+    <string name="unit_description_quick_116">Infantería penetrante</string>
     <string name="unit_description_brief_116"/>
-    <string name="unit_description_long_116">Unidad Única India. Arquero montado lento, con muchos puntos de resistencia y armadura antiproyectil.</string>
+    <string name="unit_description_long_116">Unidad Única Indostana. Infantería rápida con mucha armadura antiproyectil, la cual es capaz de penetrar con su lanza a través de varios objetivos. Eficaz contra Arqueros.</string>
     <string name="unit_description_extra_116"/> 
     
     <string name="unit_description_nominative_117">Los Ballesteros Genoveses de Élite</string>
@@ -4614,7 +4617,7 @@
     <string name="unit_name_50">Huscarle</string>
     <string name="unit_name_51">Tarcano</string>
     <string name="unit_name_52">Kamayuk</string>
-    <string name="unit_name_53">Elefante Arquero</string>
+    <string name="unit_name_53">Ghulam</string>
     <string name="unit_name_54">Ballestero Genovés</string>
     <string name="unit_name_55">Samurai</string>
     <string name="unit_name_56">Elefante con Balista</string>
@@ -4677,7 +4680,7 @@
     <string name="unit_name_113">Huscarle de Élite</string>
     <string name="unit_name_114">Tarcano de Élite</string>
     <string name="unit_name_115">Kamayuk de Élite</string>
-    <string name="unit_name_116">Elefante Arquero de Élite</string>
+    <string name="unit_name_116">Ghulam de Élite</string>
     <string name="unit_name_117">Ballestero Genovés de Élite</string>
     <string name="unit_name_118">Samurai de Élite</string>
     <string name="unit_name_119">Elefante con Balista de Élite</string>

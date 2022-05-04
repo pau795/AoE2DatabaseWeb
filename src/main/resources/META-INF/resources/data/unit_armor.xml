@@ -453,10 +453,7 @@
 		<entry nameID="unit_armor_values">
 			<value type="1">0</value>
 			<value type="2">3</value>
-			<value type="3">0</value>
-			<value type="4">-2</value>
-			<value type="9">0</value>
-			<value type="11">0</value>
+			<value type="5">0</value>
 			<value type="18">0</value>
 			<value type="31">0</value>
 		</entry>
@@ -1029,11 +1026,8 @@
 	<item id="116">
 		<entry nameID="unit_armor_values">
 			<value type="1">0</value>
-			<value type="2">3</value>
-			<value type="3">0</value>
-			<value type="4">-2</value>
-			<value type="9">0</value>
-			<value type="11">0</value>
+			<value type="2">6</value>
+			<value type="5">0</value>
 			<value type="18">0</value>
 			<value type="31">0</value>
 		</entry>
@@ -1433,7 +1427,7 @@
 			<value type="31">0</value>
 		</entry>
 	</item>	
-		<item id="159">
+	<item id="159">
 		<entry nameID="unit_armor_values">
 			<value type="1">2</value>
 			<value type="2">6</value>

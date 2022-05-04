@@ -151,6 +151,8 @@ public class Utils {
             case Database.CHARGE_ATTACK: return "stat_name_23";
             case Database.CHARGE_RELOAD: return "stat_name_24";
             case Database.RELICS: return "stat_name_25";
+            case Database.IGNORE_ARMOR: return "stat_name_26";
+            case Database.RESIST_ARMOR_IGNORE: return "stat_name_27";
             default: return "";
         }
     }
@@ -182,6 +184,8 @@ public class Utils {
             case 23: return Database.CHARGE_ATTACK;
             case 24: return Database.CHARGE_RELOAD;
             case 25: return Database.RELICS;
+            case 26: return Database.IGNORE_ARMOR;
+            case 27: return Database.RESIST_ARMOR_IGNORE;
             default: return "";
         }
     }

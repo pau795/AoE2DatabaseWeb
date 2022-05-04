@@ -90,12 +90,6 @@ public abstract class Item extends Entity {
                     setCalculatedStat(Database.ATTACK, r);
                     l1.put(1, r);
                 }
-                if (l1.containsKey(31)){
-                    double s = l1.get(31);
-                    double r = Utils.calculate(s, subtract, "-");
-                    setCalculatedStat(Database.ATTACK, r);
-                    l1.put(31, r);
-                }
             }
         }
         super.processPostBonus();
