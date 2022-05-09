@@ -1028,7 +1028,7 @@
 		<development requiredTechID="154" previousUpgradeID="52" nextUpgradeID="0"/>
 	</item>
 	<item id="116">
-		<baseInfo trainingBuildingID="26" ageID="19" classID="5"/>
+		<baseInfo trainingBuildingID="26" ageID="90" classID="5"/>
 		<stats hitPoints="75" attack="10" meleeArmor="0" pierceArmor="6" range="-" minimumRange="-" lineOfSight="6" reloadTime="2" speed="1.2" blastRadius="1" attackDelay="0" accuracy="100" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="1" trainingTime="12" workRate="-" healRate="-" hillBonus="1.25" hillReduction="0.75" bonusReduction="1" chargeAttack="-" chargeReload="-" relics="-" ignoreArmor="-" resistArmorIgnore="-"/>
 		<cost>
 			<resource name="Food">30</resource>

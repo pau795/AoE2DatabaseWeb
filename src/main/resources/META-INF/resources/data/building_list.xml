@@ -101,5 +101,8 @@
      
     <!--Folwark-->
     <item id="34" image="b_folwark"/>
+	
+	<!--Caravanserai-->
+    <item id="35" image="b_caravanserai"/>
      
 </list>

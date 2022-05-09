@@ -36,7 +36,7 @@
     <!--The Incas-->
     <item id="12" image="c_incas"/>
      
-    <!--The Indians-->
+    <!--The Hindustanis-->
     <item id="13" image="c_indians"/>
      
     <!--The Italians-->
@@ -224,5 +224,14 @@
      
     <!--The Poles-->
     <item id="75" image="c_poles"/>
+	
+    <!--The Bengalis-->
+    <item id="76" image="c_bengalis"/>
+	
+    <!--The Dravidians-->
+    <item id="77" image="c_dravidians"/>
+    
+	<!--The Gurjaras-->
+    <item id="78" image="c_gurjaras"/>
      
 </list>

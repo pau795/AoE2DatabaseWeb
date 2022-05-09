@@ -99,13 +99,13 @@
 		<uniqueBuildings/>
 	</item>
 	<item id="13">
-		<bonus bonusList="59 60 61" teamBonus="62"/>
+		<bonus bonusList="59 60 61 195" teamBonus="62"/>
 		<uniqueUnits>
 			<unit unitID="53" eliteUnitID="116"/>
 			<unit unitID="94"/>
 		</uniqueUnits>
 		<uniqueTechs castleTech="71" imperialTech="186"/>
-		<uniqueBuildings/>
+		<uniqueBuildings buildingID="35"/>
 	</item>
 	<item id="14">
 		<bonus bonusList="63 64 65 66" teamBonus="67"/>

@@ -282,4 +282,13 @@
 		</cost>
 		<development requiredBuildingID="0" requiredTechID="0" previousUpgradeID="0" nextUpgradeID="0"/>
 	</item>
+	<item id="35">
+		<baseInfo builderUnitID="1" ageID="90" classID="2"/>
+		<stats hitPoints="2700" attack="-" meleeArmor="3" pierceArmor="10" range="10" minimumRange="-" lineOfSight="6" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="-" trainingTime="60" workRate="1" healRate="1" hillBonus="1.25" hillReduction="0.75"/>
+		<cost>
+			<resource name="Wood">175</resource>
+			<resource name="Stone">50</resource>
+		</cost>
+		<development requiredBuildingID="0" requiredTechID="0" previousUpgradeID="0" nextUpgradeID="0"/>
+	</item>
 </list>

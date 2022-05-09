@@ -177,13 +177,13 @@
     <!--Villagers cost -10/15/20/25% in Dark/Feudal/Castle/Imperial Age.-->
     <item id="59"/>
      
-    <!--Fishermen work 10% faster.-->
+    <!--Camel Riders attack 25% faster-->
     <item id="60"/>
      
-    <!--Stable Units have +1/2 pierce armor in Castle/Imperial Age.-->
+    <!--Gunpowder units have +1 melee and +1 pierce armor-->
     <item id="61"/>
      
-    <!--Camel units have +4 attack against Standard Buildings.-->
+    <!--Camel and Light Cavalry units have +2 attack against Standard Buildings.-->
     <item id="62"/>
      
     <!--Advancing to the next Age costs -15%.-->
@@ -581,5 +581,8 @@
 	
 	<!--Battle Elephants have +1 melee and +1 pierce armor.-->
     <item id="194"/>
+	
+	<!--Can build Caravanserai in Imperial Age-->
+    <item id="195"/>
      
 </list>

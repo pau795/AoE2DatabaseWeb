@@ -835,14 +835,14 @@
     <string name="bonus_tech_tree_description_59">Los Aldeanos cuestan un 10/15/20/25% menos en la Edad Alta/Feudal/Castillos/Imperial.</string>
     <string name="bonus_item_description_59">Los Aldeanos cuestan un 10/15/20/25% menos en la Edad Alta/Feudal/Castillos/Imperial.</string> 
     
-    <string name="bonus_tech_tree_description_60">Los Pescadores trabajan un 10% más rápido.</string>
-    <string name="bonus_item_description_60">Los Pescadores trabajan un 10% más rápido.</string> 
+    <string name="bonus_tech_tree_description_60">Los Jinetes de Camello atacan un 25% más rápido.</string>
+    <string name="bonus_item_description_60">\@ atacan un 25% más rápido.</string> 
     
-    <string name="bonus_tech_tree_description_61">Las unidades del Establo tienen +1/2 de armadura antiproyectil en la Edad de los Castillos/Imperial.</string>
-    <string name="bonus_item_description_61">\@ tienen +1/2 de Armadura Antiproyectil en la Edad de los Castillos/Imperial.</string> 
+    <string name="bonus_tech_tree_description_61">Las unidades de polvora tienen +1 de armadura melé y +1 de armadura antiproyectil.</string>
+    <string name="bonus_item_description_61">\@ tienen +1 de armadura melé y +1 de armadura antiproyectil.</string> 
     
-    <string name="bonus_tech_tree_description_62">Las unidades en Camello tienen +4 de ataque contra Edificios Estandar.</string>
-    <string name="bonus_item_description_62">\@ tienen +4 de ataque contra Edificios Estandar.</string> 
+    <string name="bonus_tech_tree_description_62">Las unidades en Camello y la Caballería Ligera tienen +2 de ataque contra Edificios Estandar.</string>
+    <string name="bonus_item_description_62">\@ tienen +2 de ataque contra Edificios Estandar.</string> 
     
     <string name="bonus_tech_tree_description_63">Avanzar de edad cuesta un 15% menos.</string>
     <string name="bonus_item_description_63">La tecnología de \@ cuesta un 15% menos.</string> 
@@ -1239,6 +1239,9 @@
 	
 	<string name="bonus_tech_tree_description_194">Los Elefantes de Combate tienen +1 de armadura melé y +1 de armadura antiproyectil.</string>
     <string name="bonus_item_description_194">\@ tienen +1 de armadura melé y +1 de armadura antiproyectil.</string> 
+	
+	<string name="bonus_tech_tree_description_195">Se pueden construir Caravaseras en la Edad Imperial.</string>
+    <string name="bonus_item_description_195">Se pueden construir Caravaseras en la Edad Imperial.</string> 
  
     <!--building_description.xml-->
      
@@ -1446,6 +1449,12 @@
     <string name="building_description_brief_34">Edificio Único Polaco. Recolecta inmediatamente el 10 % del alimento de las granjas cercanas recien construidas. Proporciona 5 de población.</string>
     <string name="building_description_long_34">Edificio Único Polaco. Utilizado para depositar alimento, y desarrollar mejoras agrícolas. Recolecta inmediatamente el 10 % del alimento de las granjas cercanas recien construidas. Proporciona 5 de población.</string>
     <string name="building_description_extra_34"/> 
+	
+	<string name="building_description_nominative_35">Caravaseras</string>
+    <string name="building_description_quick_35">Edificio económico que cura y aumenta la velocidad de las Carretas de Mercancías cercanas.</string>
+    <string name="building_description_brief_35"/>
+    <string name="building_description_long_35">Edificio Único Indostano. Edificio Económico. Cura (60 HP por minuto) y incrementa la velocidad de movimiento (un 20%) de las Carretas de Merancías que se encuentren en un radio de 10 casillas.</string>
+    <string name="building_description_extra_35"/> 
  
     <!--building_list.xml-->
      
@@ -1484,6 +1493,7 @@
     <string name="building_name_32">Krepost</string>
     <string name="building_name_33">Donjon</string>
     <string name="building_name_34">Folwark</string>
+	<string name="building_name_35">Caravasar</string>
      
     <!--civilization_list.xml-->
      
@@ -1527,6 +1537,9 @@
     <string name="civilization_name_37">Sicilianos</string>
     <string name="civilization_name_38">Bohemios</string>
     <string name="civilization_name_39">Polacos</string>
+	<string name="civilization_name_40">Bengalíes</string>
+    <string name="civilization_name_41">Dravídicos</string>
+    <string name="civilization_name_42">Gurjara</string>
      
     <!--civilization_style.xml-->
      
@@ -1570,6 +1583,10 @@
     <string name="civilization_style_37">Civilización de Infantería y Caballería</string>
     <string name="civilization_style_38">Civilización de Pólvora y Monjes</string>
     <string name="civilization_style_39">Civilización de Caballería</string>
+	<string name="civilization_style_41">Civilización de Elefantes y Naval civilization</string>
+    <string name="civilization_style_42">Civilización de Infantería y Naval civilization</string>
+    <string name="civilization_style_43">Civilización de Cavalry y Camellos</string>
+     
      
     <!--class_list.xml-->
      
@@ -2368,7 +2385,7 @@
     <string name="tech_description_long_70">Tecnología Única Inca en la Edad de los Castillos. Elimina el alcance mínimo de los Hostigadores y los Honderos.</string>
     <string name="tech_description_extra_70">Elimina el alcance mínimo de los Hostigadores y los Honderos.</string> 
     
-    <string name="tech_description_nominative_71">Sultanato</string>
+    <string name="tech_description_nominative_71">Camino del Gran Tronco</string>
     <string name="tech_description_quick_71">Toda producción de oro es un 10% más rápido</string>
     <string name="tech_description_brief_71"/>
     <string name="tech_description_long_71">Tecnología Única Hindostana en la Edad de los Castillos. Toda la producción de oro es un 10% más rápido (Comercio, minería, reliquias).</string>
@@ -3407,7 +3424,7 @@
     <string name="tech_name_68">Anarquía</string>
     <string name="tech_name_69">Razias</string>
     <string name="tech_name_70">Huaracas</string>
-    <string name="tech_name_71">Sultanato</string>
+    <string name="tech_name_71">Camino del Gran Tronco</string>
     <string name="tech_name_72">Escudo Pavés</string>
     <string name="tech_name_73">Yasama</string>
     <string name="tech_name_74">Colmillos de Acero</string>
@@ -4783,6 +4800,7 @@
 	<string name="civilization_group2_category6">The Last Khans</string>
 	<string name="civilization_group2_category7">Lords of the West</string>
 	<string name="civilization_group2_category8">Dawn of the Dukes</string>
+	<string name="civilization_group2_category9">Dynasties of India</string>
 	
 	<!--building_groups.xml-->	
 	

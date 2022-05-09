@@ -116,5 +116,14 @@
      
     <!--Poles-->
     <item id="39" image="c_poles"/>
+	
+	<!--Poles-->
+    <item id="40" image="c_bengalis"/>
+	
+	<!--Poles-->
+    <item id="41" image="c_dravidians"/>
+	
+	<!--Poles-->
+    <item id="42" image="c_gurjaras"/>
      
 </list>

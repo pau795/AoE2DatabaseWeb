@@ -843,14 +843,14 @@
     <string name="bonus_tech_tree_description_59">Villagers cost -10/15/20/25% in Dark/Feudal/Castle/Imperial Age.</string>
     <string name="bonus_item_description_59">Villagers cost -10/15/20/25% in Dark/Feudal/Castle/Imperial Age.</string> 
     
-    <string name="bonus_tech_tree_description_60">Fishermen work 10% faster.</string>
-    <string name="bonus_item_description_60">Fishermen work 10% faster.</string> 
+    <string name="bonus_tech_tree_description_60">Camel Riders attack 25% faster.</string>
+    <string name="bonus_item_description_60">\@ attack 25% faster.</string> 
     
-    <string name="bonus_tech_tree_description_61">Stable Units have +1/2 pierce armor in Castle/Imperial Age.</string>
-    <string name="bonus_item_description_61">\@ have +1/2 pierce armor in Castle/Imperial Age.</string> 
+    <string name="bonus_tech_tree_description_61">Gunpowder units have +1 melee and +1 pierce armor.</string>
+    <string name="bonus_item_description_61">\@ have +1 melee and +1 pierce armor</string> 
     
-    <string name="bonus_tech_tree_description_62">Camel units have +4 attack against Standard Buildings.</string>
-    <string name="bonus_item_description_62">\@ have +4 attack against Standard Buildings.</string> 
+    <string name="bonus_tech_tree_description_62">Camel and Light Cavalry units have +2 attack against Standard Buildings.</string>
+    <string name="bonus_item_description_62">\@ have +2 attack against Standard Buildings.</string> 
     
     <string name="bonus_tech_tree_description_63">Advancing to the next Age costs -15%.</string>
     <string name="bonus_item_description_63">\@ research cost -15%.</string> 
@@ -1246,7 +1246,10 @@
     <string name="bonus_item_description_193">\@ have +1 damage against Archers.</string> 
 	
 	<string name="bonus_tech_tree_description_194">Battle Elephants have +1 melee and +1 pierce armor.</string>
-    <string name="bonus_item_description_194">\@ have +1 melee and +1 pierce armor.</string> 
+    <string name="bonus_item_description_194">\@ have +1 melee and +1 pierce armor.</string>
+
+	<string name="bonus_tech_tree_description_195">Can build Caravanserai in Imperial Age.</string>
+    <string name="bonus_item_description_195">Can build Caravanserai in Imperial Age.</string> 	
  
     <!--building_description.xml-->
      
@@ -1454,6 +1457,12 @@
     <string name="building_description_brief_34">Polish Unique Building. Immediately collects 10% of food from nearby newly constucted farms. Provides 5 population.</string>
     <string name="building_description_long_34">Polish Unique Building. Used to deposit food and research farming improvements. Immediately collects 10% of food from nearby newly constucted farms. Provides 5 population.</string>
     <string name="building_description_extra_34"/> 
+	
+	<string name="building_description_nominative_35">Caravanserai</string>
+    <string name="building_description_quick_35">Economic building that heals and speeds up nearby Trade Carts</string>
+    <string name="building_description_brief_35"/>
+    <string name="building_description_long_35">Hindustani Unique Building. Economic building. Heals (60 HP per minute) and increases the movement speed (by 20%) of Trade Carts which are within a radius of 10 tiles.</string>
+    <string name="building_description_extra_35"/> 
  
     <!--building_list.xml-->
      
@@ -1492,6 +1501,7 @@
     <string name="building_name_32">Krepost</string>
     <string name="building_name_33">Donjon</string>
     <string name="building_name_34">Folwark</string>
+    <string name="building_name_35">Caravanserai</string>
      
     <!--civilization_list.xml-->
      
@@ -1535,6 +1545,9 @@
     <string name="civilization_name_37">Sicilians</string>
     <string name="civilization_name_38">Bohemians</string>
     <string name="civilization_name_39">Poles</string>
+    <string name="civilization_name_40">Bengalis</string>
+    <string name="civilization_name_41">Dravidians</string>
+    <string name="civilization_name_42">Gurjaras</string>
      
     <!--civilization_style.xml-->
      
@@ -1578,6 +1591,9 @@
     <string name="civilization_style_37">Infantry and Cavalry civilization</string>
     <string name="civilization_style_38">Gunpowder and Monk civilization</string>
     <string name="civilization_style_39">Cavalry civilization</string>
+    <string name="civilization_style_41">Elephant and Naval civilization</string>
+    <string name="civilization_style_42">Infantry and Naval civilization</string>
+    <string name="civilization_style_43">Cavalry and Camel civilization</string>
      
     <!--class_list.xml-->
      
@@ -2376,7 +2392,7 @@
     <string name="tech_description_long_70">Incas Castle Age Unique Technology. Upgrades your Skirmishers and Slingers by removing their minimum range.</string>
     <string name="tech_description_extra_70">Upgrades your Skirmishers and Slingers by removing their minimum range.</string> 
     
-    <string name="tech_description_nominative_71">Sultans</string>
+    <string name="tech_description_nominative_71">Grand Trunk Road</string>
     <string name="tech_description_quick_71">All gold production +10% faster</string>
     <string name="tech_description_brief_71"/>
     <string name="tech_description_long_71">Hindustanis Castle Age Unique Technology. All gold income +10% faster (Trade, mines, relics).</string>
@@ -3415,7 +3431,7 @@
     <string name="tech_name_68">Anarchy</string>
     <string name="tech_name_69">Marauders</string>
     <string name="tech_name_70">Andean Sling</string>
-    <string name="tech_name_71">Sultans</string>
+    <string name="tech_name_71">Grand Trunk Road</string>
     <string name="tech_name_72">Pavise</string>
     <string name="tech_name_73">Yasama</string>
     <string name="tech_name_74">Tusk Swords</string>
@@ -4791,6 +4807,9 @@
 	<string name="civilization_group2_category6">The Last Khans</string>
 	<string name="civilization_group2_category7">Lords of the West</string>
 	<string name="civilization_group2_category8">Dawn of the Dukes</string>
+	<string name="civilization_group2_category9">Dynasties of India</string>
+	
+	
 	
 	<!--building_groups.xml-->	
 	

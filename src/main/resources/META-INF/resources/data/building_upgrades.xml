@@ -179,9 +179,14 @@
 		<building id="21" upgrades="42 44 45 46 114 116"/>
 		<building id="26" upgrades="141"/>
 	</item>
-		<item id="34">
+	<item id="34">
 		<building id="1" upgrades="4 21"/>
 		<building id="20" upgrades="40 109"/>
 		<building id="21" upgrades="42 43 113"/>
+	</item>
+	<item id="34">
+		<building id="1" upgrades="4 21"/>
+		<building id="20" upgrades="109"/>
+		<building id="21" upgrades="42"/>
 	</item>
 </list>

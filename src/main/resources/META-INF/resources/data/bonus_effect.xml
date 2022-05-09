@@ -1029,25 +1029,29 @@
 	<item id="60">
 		<info civ="13" globalFilter="none" teamBonus="false" staggered="false"/>
 		<effects>
-			<statEffect/>
-			<costEffect/>
-			<ecoEffect>
+			<statEffect>
 				<effectItem>
 					<filter/>
-					<operation stat="5" operator="*" value="1.1"/>
+					<operation stat="8" operator="*" value="0.8"/>
 				</effectItem>
-			</ecoEffect>
+			</statEffect>
+			<costEffect/>
+			<ecoEffect/>
 			<attackValueEffect/>
 			<armorValueEffect/>
 		</effects>
 	</item>
 	<item id="61">
-		<info civ="13" globalFilter="none" teamBonus="false" staggered="true"/>
+		<info civ="13" globalFilter="none" teamBonus="false" staggered="false"/>
 		<effects>
 			<statEffect>
 				<effectItem>
 					<filter/>
-					<operation stat="4" operator="+" value="0 0 1 2"/>
+					<operation stat="3" operator="+" value="1"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="4" operator="+" value="1"/>
 				</effectItem>
 			</statEffect>
 			<costEffect/>
@@ -1056,7 +1060,11 @@
 			<armorValueEffect>
 				<effectItem>
 					<filter/>
-					<operation stat="2" operator="+" value="0 0 1 2"/>
+					<operation stat="1" operator="+" value="1"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="2" operator="+" value="1"/>
 				</effectItem>
 			</armorValueEffect>
 		</effects>
@@ -1070,7 +1078,7 @@
 			<attackValueEffect>
 				<effectItem>
 					<filter/>
-					<operation stat="19" operator="+" value="4"/>
+					<operation stat="19" operator="+" value="2"/>
 				</effectItem>
 			</attackValueEffect>
 			<armorValueEffect/>
@@ -3207,8 +3215,8 @@
 			<armorValueEffect/>
 		</effects>
 	</item>
-	<item id="193">
-		<info civ="4" globalFilter="none" teamBonus="true" staggered="false"/>
+	<item id="194">
+		<info civ="4" globalFilter="none" teamBonus="false" staggered="false"/>
 		<effects>
 			<statEffect>
 				<effectItem>
@@ -3234,6 +3242,16 @@
 					<operation stat="2" operator="+" value="1"/>
 				</effectItem>
 			</armorValueEffect>
+		</effects>
+	</item>
+	<item id="195">
+		<info civ="13" globalFilter="none" teamBonus="false" staggered="false"/>
+		<effects>
+			<statEffect/>
+			<costEffect/>
+			<ecoEffect/>
+			<attackValueEffect/>
+			<armorValueEffect/>
 		</effects>
 	</item>
 </list>
