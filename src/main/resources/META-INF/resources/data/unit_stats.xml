@@ -1422,5 +1422,149 @@
 		</cost>
 		<development requiredTechID="231" previousUpgradeID="101" nextUpgradeID="0"/>
 	</item>
+	<item id="160">
+		<baseInfo trainingBuildingID="15" ageID="2" classID="7"/>
+		<stats hitPoints="70" attack="2" meleeArmor="0" pierceArmor="0" range="-" minimumRange="-" lineOfSight="4" reloadTime="2" speed="1.2" blastRadius="-" attackDelay="0" accuracy="100" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="1" trainingTime="48" workRate="-" healRate="0" hillBonus="1.25" hillReduction="0.75" bonusReduction="1" chargeAttack="-" chargeReload="-" relics="-" ignoreArmor="-" resistArmorIgnore="-"/>
+		<cost>
+			<resource name="Food">55</resource>
+			<resource name="Gold">60</resource>
+		</cost>
+		<development requiredTechID="0" previousUpgradeID="0" nextUpgradeID="34"/>
+	</item>
+	<item id="161">
+		<baseInfo trainingBuildingID="14" ageID="19" classID="13"/>
+		<stats hitPoints="230" attack="6" meleeArmor="0" pierceArmor="2" range="4" minimumRange="-" lineOfSight="7" reloadTime="2" speed="0.9" blastRadius="-" attackDelay="0.39" accuracy="70" numberProjectiles="1" projectileSpeed="7" garrisonCapacity="-" populationTaken="1" trainingTime="34" workRate="-" healRate="0" hillBonus="1.25" hillReduction="0.75" bonusReduction="1" chargeAttack="-" chargeReload="-" relics="-" ignoreArmor="-" resistArmorIgnore="-"/>
+		<cost>
+			<resource name="Food">90</resource>
+			<resource name="Gold">70</resource>
+		</cost>
+		<development requiredTechID="0" previousUpgradeID="0" nextUpgradeID="169"/>
+	</item>
+	<item id="162">
+		<baseInfo trainingBuildingID="15" ageID="19" classID="7"/>
+		<stats hitPoints="55" attack="8" meleeArmor="0" pierceArmor="1" range="-" minimumRange="-" lineOfSight="5" reloadTime="1.75" speed="1.6" blastRadius="-" attackDelay="0" accuracy="100" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="1" trainingTime="20" workRate="-" healRate="-" hillBonus="1.25" hillReduction="0.75" bonusReduction="1" chargeAttack="-" chargeReload="-" relics="-" ignoreArmor="-" resistArmorIgnore="-"/>
+		<cost>
+			<resource name="Food">70</resource>
+			<resource name="Gold">20</resource>
+		</cost>
+		<development requiredTechID="0" previousUpgradeID="0" nextUpgradeID="170"/>
+	</item>
+	<item id="163">
+		<baseInfo trainingBuildingID="22" ageID="19" classID="7"/>
+		<stats hitPoints="200" attack="4" meleeArmor="-2" pierceArmor="140" range="-" minimumRange="-" lineOfSight="4" reloadTime="3" speed="0.6" blastRadius="-" attackDelay="0" accuracy="100" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="1" trainingTime="36" workRate="-" healRate="0" hillBonus="1.25" hillReduction="0.75" bonusReduction="1" chargeAttack="-" chargeReload="-" relics="-" ignoreArmor="-" resistArmorIgnore="-"/>
+		<cost>
+			<resource name="Food">130</resource>
+			<resource name="Gold">95</resource>
+		</cost>
+		<development requiredTechID="0" previousUpgradeID="0" nextUpgradeID="171"/>
+	</item>
+	<item id="164">
+		<baseInfo trainingBuildingID="26" ageID="19" classID="13"/>
+		<stats hitPoints="105" attack="5" meleeArmor="2" pierceArmor="1" range="4" minimumRange="-" lineOfSight="6" reloadTime="2" speed="1.3" blastRadius="-" attackDelay="0.62" accuracy="80" numberProjectiles="1" projectileSpeed="7" garrisonCapacity="-" populationTaken="1" trainingTime="18" workRate="-" healRate="-" hillBonus="1.25" hillReduction="0.75" bonusReduction="1" chargeAttack="-" chargeReload="-" relics="-" ignoreArmor="-" resistArmorIgnore="-"/>
+		<cost>
+			<resource name="Wood">60</resource>
+			<resource name="Gold">60</resource>
+		</cost>
+		<development requiredTechID="0" previousUpgradeID="0" nextUpgradeID="171"/>
+	</item>
+	<item id="165">
+		<baseInfo trainingBuildingID="26" ageID="19" classID="13"/>
+		<stats hitPoints="105" attack="10" meleeArmor="2" pierceArmor="1" range="-" minimumRange="-" lineOfSight="6" reloadTime="2" speed="1.3" blastRadius="-" attackDelay="0" accuracy="100" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="1" trainingTime="18" workRate="-" healRate="-" hillBonus="1.25" hillReduction="0.75" bonusReduction="1" chargeAttack="-" chargeReload="-" relics="-" ignoreArmor="-" resistArmorIgnore="-"/>
+		<cost>
+			<resource name="Wood">60</resource>
+			<resource name="Gold">60</resource>
+		</cost>
+		<development requiredTechID="0" previousUpgradeID="0" nextUpgradeID="172"/>
+	</item>
+	<item id="166">
+		<baseInfo trainingBuildingID="26" ageID="19" classID="5"/>
+		<stats hitPoints="55" attack="8" meleeArmor="1" pierceArmor="0" range="-" minimumRange="-" lineOfSight="6" reloadTime="2" speed="1.05" blastRadius="0.75" attackDelay="0" accuracy="100" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="1" trainingTime="9" workRate="-" healRate="-" hillBonus="1.25" hillReduction="0.75" bonusReduction="1" chargeAttack="12" chargeReload="24" relics="-" ignoreArmor="-" resistArmorIgnore="-"/>
+		<cost>
+			<resource name="Food">65</resource>
+			<resource name="Gold">20</resource>
+		</cost>
+		<development requiredTechID="0" previousUpgradeID="0" nextUpgradeID="173"/>
+	</item>
+	<item id="167">
+		<baseInfo trainingBuildingID="26" ageID="19" classID="5"/>
+		<stats hitPoints="40" attack="5" meleeArmor="1" pierceArmor="0" range="5" minimumRange="-" lineOfSight="7" reloadTime="2" speed="1.15" blastRadius="0" attackDelay="0.8" accuracy="100" numberProjectiles="1" projectileSpeed="6" garrisonCapacity="-" populationTaken="1" trainingTime="15" workRate="-" healRate="-" hillBonus="1.25" hillReduction="0.75" bonusReduction="1" chargeAttack="-" chargeReload="-" relics="-" ignoreArmor="-" resistArmorIgnore="-"/>
+		<cost>
+			<resource name="Food">65</resource>
+			<resource name="Gold">30</resource>
+		</cost>
+		<development requiredTechID="0" previousUpgradeID="0" nextUpgradeID="171"/>
+	</item>
+	<item id="168">
+		<baseInfo trainingBuildingID="6" ageID="90" classID="10"/>
+		<stats hitPoints="250" attack="9" meleeArmor="2" pierceArmor="10" range="6" minimumRange="-" lineOfSight="8" reloadTime="3.45" speed="1.3" blastRadius="-" attackDelay="0" accuracy="100" numberProjectiles="5" projectileSpeed="7" garrisonCapacity="-" populationTaken="1" trainingTime="40" workRate="-" healRate="-" hillBonus="1.25" hillReduction="0.75" bonusReduction="1" chargeAttack="-" chargeReload="-" relics="-" ignoreArmor="-" resistArmorIgnore="-"/>
+		<cost>
+			<resource name="Wood">180</resource>
+			<resource name="Gold">60</resource>
+		</cost>
+		<development requiredTechID="0" previousUpgradeID="0" nextUpgradeID="171"/>
+	</item>
+	<item id="169">
+		<baseInfo trainingBuildingID="14" ageID="90" classID="13"/>
+		<stats hitPoints="280" attack="7" meleeArmor="0" pierceArmor="2" range="4" minimumRange="-" lineOfSight="7" reloadTime="2" speed="0.9" blastRadius="-" attackDelay="0.39" accuracy="85" numberProjectiles="1" projectileSpeed="7" garrisonCapacity="-" populationTaken="1" trainingTime="34" workRate="-" healRate="0" hillBonus="1.25" hillReduction="0.75" bonusReduction="1" chargeAttack="-" chargeReload="-" relics="-" ignoreArmor="-" resistArmorIgnore="-"/>
+		<cost>
+			<resource name="Food">90</resource>
+			<resource name="Gold">70</resource>
+		</cost>
+		<development requiredTechID="235" previousUpgradeID="161" nextUpgradeID="0"/>
+	</item>
+	<item id="170">
+		<baseInfo trainingBuildingID="15" ageID="19" classID="7"/>
+		<stats hitPoints="70" attack="10" meleeArmor="0" pierceArmor="1" range="-" minimumRange="-" lineOfSight="6" reloadTime="1.75" speed="1.6" blastRadius="-" attackDelay="0" accuracy="100" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="1" trainingTime="20" workRate="-" healRate="-" hillBonus="1.25" hillReduction="0.75" bonusReduction="1" chargeAttack="-" chargeReload="-" relics="-" ignoreArmor="-" resistArmorIgnore="-"/>
+		<cost>
+			<resource name="Food">70</resource>
+			<resource name="Gold">20</resource>
+		</cost>
+		<development requiredTechID="0" previousUpgradeID="0" nextUpgradeID="170"/>
+	</item>
+	<item id="171">
+		<baseInfo trainingBuildingID="22" ageID="19" classID="7"/>
+		<stats hitPoints="250" attack="4" meleeArmor="-2" pierceArmor="140" range="-" minimumRange="-" lineOfSight="4" reloadTime="3" speed="0.6" blastRadius="-" attackDelay="0" accuracy="100" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="1" trainingTime="36" workRate="-" healRate="0" hillBonus="1.25" hillReduction="0.75" bonusReduction="1" chargeAttack="-" chargeReload="-" relics="-" ignoreArmor="-" resistArmorIgnore="-"/>
+		<cost>
+			<resource name="Food">130</resource>
+			<resource name="Gold">95</resource>
+		</cost>
+		<development requiredTechID="236" previousUpgradeID="162" nextUpgradeID="0"/>
+	</item>
+	<item id="172">
+		<baseInfo trainingBuildingID="26" ageID="19" classID="13"/>
+		<stats hitPoints="115" attack="6" meleeArmor="2" pierceArmor="1" range="4" minimumRange="-" lineOfSight="6" reloadTime="2" speed="1.3" blastRadius="-" attackDelay="0.62" accuracy="90" numberProjectiles="1" projectileSpeed="7" garrisonCapacity="-" populationTaken="1" trainingTime="18" workRate="-" healRate="-" hillBonus="1.25" hillReduction="0.75" bonusReduction="1" chargeAttack="-" chargeReload="-" relics="-" ignoreArmor="-" resistArmorIgnore="-"/>
+		<cost>
+			<resource name="Wood">60</resource>
+			<resource name="Gold">60</resource>
+		</cost>
+		<development requiredTechID="238" previousUpgradeID="164" nextUpgradeID="0"/>
+	</item>
+	<item id="173">
+		<baseInfo trainingBuildingID="26" ageID="19" classID="13"/>
+		<stats hitPoints="115" attack="12" meleeArmor="2" pierceArmor="1" range="-" minimumRange="-" lineOfSight="6" reloadTime="2" speed="1.3" blastRadius="-" attackDelay="0" accuracy="100" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="1" trainingTime="18" workRate="-" healRate="-" hillBonus="1.25" hillReduction="0.75" bonusReduction="1" chargeAttack="-" chargeReload="-" relics="-" ignoreArmor="-" resistArmorIgnore="-"/>
+		<cost>
+			<resource name="Wood">60</resource>
+			<resource name="Gold">60</resource>
+		</cost>
+		<development requiredTechID="238" previousUpgradeID="165" nextUpgradeID="0"/>
+	</item>
+	<item id="174">
+		<baseInfo trainingBuildingID="26" ageID="19" classID="5"/>
+		<stats hitPoints="65" attack="10" meleeArmor="1" pierceArmor="0" range="-" minimumRange="-" lineOfSight="6" reloadTime="2" speed="1.05" blastRadius="0.75" attackDelay="0" accuracy="100" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="1" trainingTime="9" workRate="-" healRate="-" hillBonus="1.25" hillReduction="0.75" bonusReduction="1" chargeAttack="15" chargeReload="20" relics="-" ignoreArmor="-" resistArmorIgnore="-"/>
+		<cost>
+			<resource name="Food">60</resource>
+			<resource name="Gold">20</resource>
+		</cost>
+		<development requiredTechID="239" previousUpgradeID="166" nextUpgradeID="173"/>
+	</item>
+	<item id="175">
+		<baseInfo trainingBuildingID="26" ageID="19" classID="5"/>
+		<stats hitPoints="50" attack="6" meleeArmor="1" pierceArmor="0" range="6" minimumRange="-" lineOfSight="8" reloadTime="2" speed="1.15" blastRadius="0" attackDelay="0.8" accuracy="100" numberProjectiles="1" projectileSpeed="6" garrisonCapacity="-" populationTaken="1" trainingTime="15" workRate="-" healRate="-" hillBonus="1.25" hillReduction="0.75" bonusReduction="1" chargeAttack="-" chargeReload="-" relics="-" ignoreArmor="-" resistArmorIgnore="-"/>
+		<cost>
+			<resource name="Food">65</resource>
+			<resource name="Gold">30</resource>
+		</cost>
+		<development requiredTechID="240" previousUpgradeID="167" nextUpgradeID="0"/>
+	</item>
 	
 </list>

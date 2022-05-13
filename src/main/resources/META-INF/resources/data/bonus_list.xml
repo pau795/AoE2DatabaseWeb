@@ -582,7 +582,49 @@
 	<!--Battle Elephants have +1 melee and +1 pierce armor.-->
     <item id="194"/>
 	
-	<!--Can build Caravanserai in Imperial Age-->
+	<!--Can build Caravanserai in Imperial Age.-->
     <item id="195"/>
+	
+	<!--Elephant units take 25% less bonus damage and are more resistant to conversion.-->
+    <item id="196"/>
+	
+	<!--Each Town Center spawns 2 Villagers when advancing to the next Age.-->
+    <item id="197"/>
+	
+	<!--Ships regenerate 15HP per minute.-->
+    <item id="198"/>
+	
+	<!--Trade units yield 10% food in addition to gold.-->
+    <item id="199"/>
+	
+	<!--Receive +200 wood when Advancing to the next Age.-->
+    <item id="200"/>
+	
+	<!--Fishermen and Fishing Ships carry have +15 carry capacity.-->
+    <item id="201"/>
+	
+	<!--Barracks technologies cost 50% less.-->
+    <item id="202"/>
+	
+	<!--Skirmishers and Elephant Archers fire 25% faster.-->
+    <item id="203"/>
+	
+	<!--Docks provide +5 population room.-->
+    <item id="204"/>
+	
+	<!--Start with 2 Forage Bushes.-->
+    <item id="205"/>
+	
+	<!--Livestock can be garrisoned inside Mills to produce food.-->
+    <item id="206"/>
+	
+	<!--Mounted Units deal 50% more bonus damage.-->
+    <item id="207"/>
+	
+	<!--Fishing Ships can be garrisoned inside Docks.-->
+    <item id="208"/>
+	
+	<!--Camel and Elephant units are trained 25% faster.-->
+    <item id="209"/>
      
 </list>

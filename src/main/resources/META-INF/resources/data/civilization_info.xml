@@ -327,4 +327,32 @@
 		<uniqueTechs castleTech="226" imperialTech="230"/>
 		<uniqueBuildings buildingID="34"/>
 	</item>
+	<item id="40">
+		<bonus bonusList="196 197 198" teamBonus="199"/>
+		<uniqueUnits>
+			<unit unitID="164" eliteUnitID="172"/>
+			<unit unitID="165" eliteUnitID="173"/>
+		</uniqueUnits>
+		<uniqueTechs castleTech="232" imperialTech="241"/>
+		<uniqueBuildings buildingID="35"/>
+	</item>
+	<item id="41">
+		<bonus bonusList="200 201 202 203" teamBonus="204"/>
+		<uniqueUnits>
+			<unit unitID="166" eliteUnitID="174"/>
+			<unit unitID="168"/>
+		</uniqueUnits>
+		<uniqueTechs castleTech="233" imperialTech="242"/>
+		<uniqueBuildings/>
+	</item>
+	<item id="42">
+		<bonus bonusList="205 206 207 208" teamBonus="209"/>
+		<uniqueUnits>
+			<unit unitID="167" eliteUnitID="175"/>
+			<unit unitID="160"/>
+			<unit unitID="162" eliteUnitID="170"/>
+		</uniqueUnits>
+		<uniqueTechs castleTech="234" imperialTech="243"/>
+		<uniqueBuildings/>
+	</item>
 </list>

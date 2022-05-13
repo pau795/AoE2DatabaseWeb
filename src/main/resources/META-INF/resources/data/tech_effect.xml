@@ -943,7 +943,7 @@
 					<operation stat="8" operator="*" value="0.9"/>
 				</effectItem>
 				<effectItem>
-					<filter class="unit" ids="13 27 42 53 54 61 62 70 85 105 116 117 124 125 133 138 144"/>
+					<filter class="unit" ids="13 27 42 161 54 61 62 70 85 105 169 117 124 125 133 138 144"/>
 					<operation stat="8" operator="*" value="0.85"/>
 				</effectItem>
 				<effectItem>

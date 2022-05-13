@@ -727,7 +727,7 @@
     <string name="bonus_tech_tree_description_23">Los Monjes curan un 100% más rápido.</string>
     <string name="bonus_item_description_23">\@ curan un 50% más rápido.</string> 
     
-    <string name="bonus_tech_tree_description_24">La Infanteria se mueve un 15% más rápido a partir de la Edad Feudal.</string>
+    <string name="bonus_tech_tree_description_24">La Infantería se mueve un 15% más rápido a partir de la Edad Feudal.</string>
     <string name="bonus_item_description_24">\@ se mueven un 15% más rápido a partir de la Edad Feudal.</string> 
     
     <string name="bonus_tech_tree_description_25">Los Leñadores trabajan un 15% más rápido.</string>
@@ -865,7 +865,7 @@
     <string name="bonus_tech_tree_description_69">Los Molinos y Los Campamentos Maderero/Minero cuestan un 50% menos.</string>
     <string name="bonus_item_description_69">\@ cuestan un 50% menos.</string> 
     
-    <string name="bonus_tech_tree_description_70">La Infanteria ataca un 33% más rápido a partir de la Edad Feudal.</string>
+    <string name="bonus_tech_tree_description_70">La Infantería ataca un 33% más rápido a partir de la Edad Feudal.</string>
     <string name="bonus_item_description_70">\@ atacan un 33% más rápido a partir de la Edad Feudal.</string> 
     
     <string name="bonus_tech_tree_description_71">La línea de Galera tiene un 50% más de campo de visión.</string>
@@ -1242,6 +1242,48 @@
 	
 	<string name="bonus_tech_tree_description_195">Se pueden construir Caravaseras en la Edad Imperial.</string>
     <string name="bonus_item_description_195">Se pueden construir Caravaseras en la Edad Imperial.</string> 
+	
+	<string name="bonus_tech_tree_description_196">Las unidades en Elefante reciben un 25% menos de daño de bonificación y son más resistentes a la conversión.</string>
+	<string name="bonus_item_description_196">\@ reciben un 25% menos de daño de bonificación y son más resistentes a la conversión.</string>
+
+	<string name="bonus_tech_tree_description_197">Cada Centro Urbano genera 2 Aldeanos cuando se avanza a la siguiente Edad.</string>
+	<string name="bonus_item_description_197">\@ generan 2 Aldeanos cuando se avanza a la siguiente Edad.</string>
+
+	<string name="bonus_tech_tree_description_198">Los Barcos regeneran 15HP por minuto.</string>
+	<string name="bonus_item_description_198">\@ regeneran 15HP por minuto.</string>
+
+	<string name="bonus_tech_tree_description_199">Las unidades Comerciales producen un 10% de alimento en adición al oro.</string>
+	<string name="bonus_item_description_199">\@ producen un 10% de alimento en adición al oro.</string>
+
+	<string name="bonus_tech_tree_description_200">Reciben 200 de madera cuando se avanza a la siguiente Edad.</string>
+	<string name="bonus_item_description_200">Reciben 200 de madera cuando se avanza a la siguiente Edad.</string>
+
+	<string name="bonus_tech_tree_description_201">Los Pescadores y los Pesqueros tienen +15 de capacidad de carga.</string>
+	<string name="bonus_item_description_201">\@ tienen +15 de capacidad de carga.</string>
+
+	<string name="bonus_tech_tree_description_202">Las tecnologías de los Cuarteles cuestan un 50% menos.</string>
+	<string name="bonus_item_description_202">Las tecnología de \@ cuesta un 50% menos.</string>
+
+	<string name="bonus_tech_tree_description_203">Los Hostigadores y los Arqueros en Elefante disparan un 25% más rápido.</string>
+	<string name="bonus_item_description_203">\@ disparan un 25% más rápido.</string>
+
+	<string name="bonus_tech_tree_description_204">Los Muelles proporcionan +5 de capacidad de población.</string>
+	<string name="bonus_item_description_204">\@ proporcionan +5 de capacidad de población.</string>
+
+	<string name="bonus_tech_tree_description_205">Empiezan con 2 Arbustos de Forraje.</string>
+	<string name="bonus_item_description_205">Empiezan con 2 Arbustos de Forraje.</string>
+
+	<string name="bonus_tech_tree_description_206">El ganado se puede guarecer en los Molinos para generar alimento.</string>
+	<string name="bonus_item_description_206">El ganado se puede guarecer en los Molinos para generar alimento.</string>
+
+	<string name="bonus_tech_tree_description_207">Las unidades montadas inflingen un 50% más de daño de bonificación.</string>
+	<string name="bonus_item_description_207">\@ inflingen un 50% más de daño de bonificación.</string>
+
+	<string name="bonus_tech_tree_description_208">Los Pesqueros se pueden guerecer en los Muelles.</string>
+	<string name="bonus_item_description_208">Los Pesqueros se pueden guerecer en los Muelles.</string>
+
+	<string name="bonus_tech_tree_description_209">Las unidades en Camello y en Elefante se generan un 25% más rápido.</string>
+	<string name="bonus_item_description_209">\@ se generan un 25% más rápido.</string>
  
     <!--building_description.xml-->
      
@@ -3350,6 +3392,79 @@
     <string name="tech_description_brief_231"/>
     <string name="tech_description_long_231">Mejora los Cañones de Asedio y permite crear Obuses.</string>
     <string name="tech_description_extra_231"/> 
+	
+	<string name="tech_description_nominative_232">Paiks</string>
+    <string name="tech_description_quick_232">Rathas y unidades en Elefante atacan un 20% más rápido.</string>
+    <string name="tech_description_brief_232"/>
+    <string name="tech_description_long_232">Tecnología Única Bengalí en la Edad de los Castillos. Los Rathas y las unidades en Elefante atacan un 20% más rápido.</string>
+    <string name="tech_description_extra_232">Los Rathas y las unidades en Elefante atacan un 20% más rápido.</string> 
+	
+	<string name="tech_description_nominative_233">Cuerpo de Médicos</string>
+    <string name="tech_description_quick_233">Unidades en Elefante regeneran 20 HP por minuto</string>
+    <string name="tech_description_brief_233"/>
+    <string name="tech_description_long_233">Tecnología Única Dravídica en la Edad de los Castillos. Las unidades en Elefante regeneran 20 HP por minuto.</string>
+    <string name="tech_description_extra_233">Las unidades en Elefante regeneran 20 HP por minuto.</string>
+
+	<string name="tech_description_nominative_234">Chatrias</string>
+    <string name="tech_description_quick_234">Unidades militares cuestan un 25% menos de alimento</string>
+    <string name="tech_description_brief_234"/>
+    <string name="tech_description_long_234">Tecnología Única Gurjara en la Edad de los Castillos. Las unidades militares cuestan un 25% menos de alimento.</string>
+    <string name="tech_description_extra_234">Military units cost 25% less food.</string> 	
+	
+	<string name="tech_description_nominative_235">Arquero en Elefante de Élite</string>
+    <string name="tech_description_quick_235"/>
+    <string name="tech_description_brief_235"/>
+    <string name="tech_description_long_235">Mejora los Aruqeros en Elefante y permite crear Arqueros en Elefante de Élite.</string>
+    <string name="tech_description_extra_235"/> 
+	
+	<string name="tech_description_nominative_236">Jinete Shrivamsha de Élite</string>
+    <string name="tech_description_quick_236"/>
+    <string name="tech_description_brief_236"/>
+    <string name="tech_description_long_236">Mejora los Jinetes Shrivamsha y permite crear Jinete Shrivamsha de Élite.</string>
+    <string name="tech_description_extra_236"/> 
+	
+	<string name="tech_description_nominative_237">Elefante de Asedio</string>
+    <string name="tech_description_quick_237"/>
+    <string name="tech_description_brief_237"/>
+    <string name="tech_description_long_237">Mejora los Elefantes Blindados y permite crear Elefantes de Asedio.</string>
+    <string name="tech_description_extra_237"/> 
+	
+	<string name="tech_description_nominative_238">Ratha de Élite</string>
+    <string name="tech_description_quick_238"/>
+    <string name="tech_description_brief_238"/>
+    <string name="tech_description_long_238">Mejora Rathas y permite crear Rathas de Élite.</string>
+    <string name="tech_description_extra_238"/> 
+	
+	<string name="tech_description_nominative_239">Espadachín Urumi de Élite</string>
+    <string name="tech_description_quick_239"/>
+    <string name="tech_description_brief_239"/>
+    <string name="tech_description_long_239">Mejora los Espadachínes Urumi y permite crear Espadachín Urumi de Élite.</string>
+    <string name="tech_description_extra_239"/> 
+	
+	<string name="tech_description_nominative_240">Lanzador de Chakrams de Élite</string>
+    <string name="tech_description_quick_240"/>
+    <string name="tech_description_brief_240"/>
+    <string name="tech_description_long_240">Mejora los Lanzadores de Chakrams y permite crear Lanzadores de Chakrams de Élite.</string>
+    <string name="tech_description_extra_240"/> 
+	
+	<string name="tech_description_nominative_241">Mahāyāna</string>
+    <string name="tech_description_quick_241">Aldeanos ocupan un 10% menos de espacio de población.</string>
+    <string name="tech_description_brief_241"/>
+    <string name="tech_description_long_241">Tecnología Única Bengalí en la Edad Imperial.Los Aldeanos ocupan un 10% menos de espacio de población.</string>
+    <string name="tech_description_extra_241">Los Aldeanos ocupan un 10% menos de espacio de población.</string> 	
+	
+	<string name="tech_description_nominative_242">Acero Wootz</string>
+    <string name="tech_description_quick_242">Infantería y Caballería ignoran la armadura.</string>
+    <string name="tech_description_brief_242"/>
+    <string name="tech_description_long_242">Tecnología Única Dravídica en la Edad Imperial. La Infantería y la Caballería ignoran la armadura.</string>
+    <string name="tech_description_extra_242">La Infantería y la Caballería ignoran la armadura.</string>
+	
+	<string name="tech_description_nominative_243">Guardas Fronterizos</string>
+    <string name="tech_description_quick_243">Jinetes de Camello y Arqueros en Elefante +4 armadura de melé</string>
+    <string name="tech_description_brief_243"/>
+    <string name="tech_description_long_243">Tecnología Única Gurjara en la Edad Imperial. Los Jinetes de Camello y los Arqueros en Elefante obtienen +4 armadura de melé.</string>
+    <string name="tech_description_extra_243">Los Jinetes de Camello y los Arqueros en Elefante obtienen +4 armadura de melé.</string>
+	
  
     <!--tech_list.xml-->
      
@@ -3585,6 +3700,18 @@
     <string name="tech_name_229">Reformas Husitas</string>
     <string name="tech_name_230">Legado Lequítico</string>
     <string name="tech_name_231">Obús</string>
+	<string name="tech_name_232">Paiks</string>
+    <string name="tech_name_233">Cuerpo de Médicos</string>
+    <string name="tech_name_234">Chatrias</string>
+    <string name="tech_name_235">Arquero en Elefante de Élite</string>
+    <string name="tech_name_236">Jinete Shrivamsha de Élite</string>
+    <string name="tech_name_237">Elefante de Asedio</string>
+    <string name="tech_name_238">Ratha de Élite</string>
+    <string name="tech_name_239">Espadachín Urumi de Élite</string>
+    <string name="tech_name_240">Lanzador de Chakrams de Élite</string>
+    <string name="tech_name_241">Mahāyāna</string>
+    <string name="tech_name_242">Acero Wootz</string>
+    <string name="tech_name_243">Guardas Fronterizos</string>
      
     <!--type_list.xml-->
      
@@ -4578,6 +4705,102 @@
     <string name="unit_description_brief_159"/>
     <string name="unit_description_long_159">Unidad Única Bohemia. Arma de asedio poderosa y móvil de largo alcance. Eficaz contra Edificios y contra otras unidades de asedio.</string>
     <string name="unit_description_extra_159"/> 
+	
+	<string name="unit_description_nominative_160">Exploradores a Camello</string>
+    <string name="unit_description_quick_160">Jinete de Camello disponible en la Edad Feudal</string>
+    <string name="unit_description_brief_160"/>
+    <string name="unit_description_long_160">Unidad Única Gurjara. Utilizada por los Gurjara como unidad exploradora inicial. Unidad montada y rápida que es muy eficaz contra otras unidades montadas.</string>
+    <string name="unit_description_extra_160"/>
+	
+	<string name="unit_description_nominative_161">Arqueros en Elefante</string>
+    <string name="unit_description_quick_161"/>
+    <string name="unit_description_brief_161"/>
+    <string name="unit_description_long_161">Arquero montado muy resistente y con armadura antiproyectil elevada. Eficaz contra otros Arqueros.</string>
+    <string name="unit_description_extra_161"/>
+	
+	<string name="unit_description_nominative_162">Jinetes Shrivamsha</string>
+    <string name="unit_description_quick_162">Caballería Ligera que puede esquivar proyectiles</string>
+    <string name="unit_description_brief_162"/>
+    <string name="unit_description_long_162">Unidad Única Gurjara. Caballería rápida que puede esquivar proyectiles. Puede esquivar hasta 5 proyectiles, que se van recargando a lo largo de 15 segundos (1 proyectil cada 3 segundos).</string>
+    <string name="unit_description_extra_162"/>
+		
+	<string name="unit_description_nominative_163">Elefantes Blindados</string>
+    <string name="unit_description_quick_163"/>
+    <string name="unit_description_brief_163"/>
+    <string name="unit_description_long_163">Caballería lenta con muchos puntos de resistencía y una mucha armadura antiproyectil, utilizada para destruir edificios enemigos. No se puede convertir desde distancia.</string>
+    <string name="unit_description_extra_163"/>
+	
+	<string name="unit_description_nominative_164">Rathas (Distancia)</string>
+    <string name="unit_description_quick_164">Carruaje que puede cambiar entre ataques a distancia y melé</string>
+    <string name="unit_description_brief_164"/>
+    <string name="unit_description_long_164">Unidad Única Bengalí. Carruaje que puede cambiar entre ataques a distancia y melé.</string>
+    <string name="unit_description_extra_164"/>
+	
+	<string name="unit_description_nominative_165">Rathas (Melé)</string>
+    <string name="unit_description_quick_165">Carruaje que puede cambiar entre ataques a distancia y melé</string>
+    <string name="unit_description_brief_165"/>
+    <string name="unit_description_long_165">Unidad Única Bengalí. Carruaje que puede cambiar entre ataques a distancia y melé.</string>
+    <string name="unit_description_extra_165"/>
+	
+	<string name="unit_description_nominative_166">Espadachines Urumi</string>
+    <string name="unit_description_quick_166">Infantería de Carga</string>
+    <string name="unit_description_brief_166"/>
+    <string name="unit_description_long_166">Unidad Única Dravídica. Infantería que puede cargar su ataque, inflingiendo daño en área en la carga. Eficaz contra otras unidades de Infantería.</string>
+    <string name="unit_description_extra_166"/>
+	
+	<string name="unit_description_nominative_167">Lanzadores de Chakrams</string>
+    <string name="unit_description_quick_167">Infantería a distancia penetrate</string>
+    <string name="unit_description_brief_167"/>
+    <string name="unit_description_long_167">Unidad Única Gurjara. Infatería a distancia que lanza Chakrams penetrantes.</string>
+    <string name="unit_description_extra_167"/>	
+	
+	<string name="unit_description_nominative_168">Thirisadai</string>
+    <string name="unit_description_quick_168">Barco de Guerra Pesado</string>
+    <string name="unit_description_brief_168"/>
+    <string name="unit_description_long_168">Unidad Única Dravídica. Barco de Guerra pesado que dispara múltiples proyectiles. Eficaz contra la línea de Galera.</string>
+    <string name="unit_description_extra_168"/>	
+	
+	<string name="unit_description_nominative_169">Arqueros en Elefante  de Élite</string>
+    <string name="unit_description_quick_169"/>
+    <string name="unit_description_brief_169"/>
+    <string name="unit_description_long_169">Arquero montado muy resistente y con armadura antiproyectil elevada. Eficaz contra otros Arqueros.</string>
+    <string name="unit_description_extra_169"/>
+	
+	<string name="unit_description_nominative_170">Jinetes Shrivamsha de Élite</string>
+    <string name="unit_description_quick_170">Caballería Ligera que puede esquivar proyectiles</string>
+    <string name="unit_description_brief_170"/>
+    <string name="unit_description_long_170">Unidad Única Gurjara. Caballería rápida que puede esquivar proyectiles. Puede esquivar hasta 7 proyectiles, que se van recargando a lo largo de 15 segundos (1 proyectil cada 2.14 segundos).</string>
+    <string name="unit_description_extra_170"/>
+		
+	<string name="unit_description_nominative_171">Elefantes de Asedio</string>
+    <string name="unit_description_quick_171"/>
+    <string name="unit_description_brief_171"/>
+    <string name="unit_description_long_171">Caballería lenta con muchos puntos de resistencía y una mucha armadura antiproyectil, utilizada para destruir edificios enemigos. No se puede convertir desde distancia.</string>
+    <string name="unit_description_extra_171"/>
+	
+	<string name="unit_description_nominative_172">Rathas de Élite (Distancia)</string>
+    <string name="unit_description_quick_172">Carruaje que puede cambiar entre ataques a distancia y melé</string>
+    <string name="unit_description_brief_172"/>
+    <string name="unit_description_long_172">Unidad Única Bengalí. Carruaje que puede cambiar entre ataques a distancia y melé.</string>
+    <string name="unit_description_extra_172"/>
+	
+	<string name="unit_description_nominative_173">Rathas de Élite (Melé)</string>
+    <string name="unit_description_quick_173">Carruaje que puede cambiar entre ataques a distancia y melé</string>
+    <string name="unit_description_brief_173"/>
+    <string name="unit_description_long_173">Unidad Única Bengalí. Carruaje que puede cambiar entre ataques a distancia y melé.</string>
+    <string name="unit_description_extra_173"/>
+	
+	<string name="unit_description_nominative_174">Espadachines Urumi de Élite</string>
+    <string name="unit_description_quick_174">Infantería de Carga</string>
+    <string name="unit_description_brief_174"/>
+    <string name="unit_description_long_174">Unidad Única Dravídica. Infantería que puede cargar su ataque, inflingiendo daño en área en la carga. Eficaz contra otras unidades de Infantería.</string>
+    <string name="unit_description_extra_174"/>
+	
+	<string name="unit_description_nominative_175">Lanzadores de Chakrams de Élite</string>
+    <string name="unit_description_quick_175">Infantería a distancia penetrate</string>
+    <string name="unit_description_brief_175"/>
+    <string name="unit_description_long_175">Unidad Única Gurjara. Infatería a distancia que lanza Chakrams penetrantes.</string>
+    <string name="unit_description_extra_175"/>	
  
     <!--unit_list.xml-->
      
@@ -4741,6 +4964,22 @@
     <string name="unit_name_157">Carro de Guerra Husita de Élite</string>
     <string name="unit_name_158">Martillo de Guerra de Élite</string>
     <string name="unit_name_159">Obús</string>
+	<string name="unit_name_160">Explorador a Camello</string>
+    <string name="unit_name_161">Arquero en Elefante</string>
+    <string name="unit_name_162">Jinete Shrivamsha</string>
+    <string name="unit_name_163">Elefante Blindado</string>
+    <string name="unit_name_164">Ratha (Distancia)</string>
+    <string name="unit_name_165">Ratha (Melé)</string>
+    <string name="unit_name_166">Espadachín Urumi</string>
+    <string name="unit_name_167">Lanzador de Chakrams</string>
+    <string name="unit_name_168">Thirisadai</string>
+    <string name="unit_name_169">Arquero en Elefante de Élite</string>
+    <string name="unit_name_170">Jinete Shrivamsha< de Élite</string>
+    <string name="unit_name_171">Elefante de Asedio</string>
+    <string name="unit_name_172">Ratha de Élite (Distancia)</string>
+    <string name="unit_name_173">Ratha de Élite (Melé)</string>
+    <string name="unit_name_174">Espadachín Urumi de Élite</string>
+    <string name="unit_name_175">Lanzador de Chakrams de Élite</string>
 	
 	<!--unit_groups.xml-->	
 	
