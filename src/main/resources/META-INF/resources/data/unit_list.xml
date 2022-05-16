@@ -502,13 +502,13 @@
     <item id="167" image="u_chakram_thrower"/>
      
 	<!--Thirisadai-->
-    <item id="168" image="u_houfnice"/>
+    <item id="168" image="u_thirisadai"/>
      
 	<!--Elite Elephant Archer-->
-    <item id="169" image="u_elephant_archer"/>
+    <item id="169" image="u_elite_elephant_archer"/>
 	
 	<!--Elite Shrivamsha Rider-->
-    <item id="170" image="u_elite_elephant_archer"/>
+    <item id="170" image="u_shrivamsha_rider"/>
 	
 	<!--Siege Elephant-->
     <item id="171" image="u_siege_elephant"/>

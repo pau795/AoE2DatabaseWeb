@@ -68,5 +68,8 @@
      
     <!--Heavy Scorpion proyectile-->
     <item id="23"/>
+	
+	<!--Camel Scout upgrade-->
+    <item id="24"/>
      
 </list>

@@ -1270,7 +1270,7 @@
 	<string name="bonus_item_description_201">\@ carry have +15 carry capacity.</string>
 
 	<string name="bonus_tech_tree_description_202">Barracks technologies cost 50% less.</string>
-	<string name="bonus_item_description_202">\@ costs 50% less.</string>
+	<string name="bonus_item_description_202">\@ upgrade cost 50% less.||\@ research cost 50% less.</string>
 
 	<string name="bonus_tech_tree_description_203">Skirmishers and Elephant Archers fire 25% faster.</string>
 	<string name="bonus_item_description_203">\@ fire 25% faster.</string>
@@ -1633,9 +1633,9 @@
     <string name="civilization_style_37">Infantry and Cavalry civilization</string>
     <string name="civilization_style_38">Gunpowder and Monk civilization</string>
     <string name="civilization_style_39">Cavalry civilization</string>
-    <string name="civilization_style_41">Elephant and Naval civilization</string>
-    <string name="civilization_style_42">Infantry and Naval civilization</string>
-    <string name="civilization_style_43">Cavalry and Camel civilization</string>
+    <string name="civilization_style_40">Elephant and Naval civilization</string>
+    <string name="civilization_style_41">Infantry and Naval civilization</string>
+    <string name="civilization_style_42">Cavalry and Camel civilization</string>
      
     <!--class_list.xml-->
      
@@ -1791,6 +1791,9 @@
     <string name="history_name_73">The Sicilians</string>
     <string name="history_name_74">The Bohemians</string>
     <string name="history_name_75">The Poles</string>
+    <string name="history_name_76">The Bengalis</string>
+    <string name="history_name_77">The Dravidians</string>
+    <string name="history_name_78">The Gurjaras</string>
      
     <!--performance_list.xml-->
      
@@ -1870,6 +1873,13 @@
     <string name="performance_name_73">Flemish Militia</string>
     <string name="performance_name_74">Hussite Wagons</string>
     <string name="performance_name_75">Obuch</string>
+    <string name="performance_name_76">Elephant Archers</string>
+	<string name="performance_name_77">Shrivamsha Riders</string>
+	<string name="performance_name_78">Siege Elephants</string>
+	<string name="performance_name_79">Thirisadai</string>
+	<string name="performance_name_80">Rathas</string>
+	<string name="performance_name_81">Urumi Swordsmen</string>
+	<string name="performance_name_82">Chakram Throwers</string>
      
     <!--stat_list.xml-->
      
@@ -3413,7 +3423,7 @@
     <string name="tech_description_extra_233">Elephant units regenerate 20 HP per minute.</string>
 
 	<string name="tech_description_nominative_234">Kshatriyas</string>
-    <string name="tech_description_quick_234">Military units cost 25% less food.</string>
+    <string name="tech_description_quick_234">Military units cost 25% less food</string>
     <string name="tech_description_brief_234"/>
     <string name="tech_description_long_234">Gurjara Castle Age Unique Technology. Military units cost 25% less food.</string>
     <string name="tech_description_extra_234">Military units cost 25% less food.</string> 	
@@ -3455,7 +3465,7 @@
     <string name="tech_description_extra_240"/> 
 	
 	<string name="tech_description_nominative_241">Mahayana</string>
-    <string name="tech_description_quick_241">Villagers take 10% less population space.</string>
+    <string name="tech_description_quick_241">Villagers take 10% less population space</string>
     <string name="tech_description_brief_241"/>
     <string name="tech_description_long_241">Bengali Imperial Age Unique Technology. Villagers take 10% less population space.</string>
     <string name="tech_description_extra_241">Villagers take 10% less population space.</string> 	

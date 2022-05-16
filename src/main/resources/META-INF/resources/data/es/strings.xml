@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
 	<string name="app_name">AoE 2 Database</string>
     <string name="warning">Atención</string>
     <string name="action_sort">Ordenar</string>
@@ -1262,7 +1261,7 @@
 	<string name="bonus_item_description_201">\@ tienen +15 de capacidad de carga.</string>
 
 	<string name="bonus_tech_tree_description_202">Las tecnologías de los Cuarteles cuestan un 50% menos.</string>
-	<string name="bonus_item_description_202">Las tecnología de \@ cuesta un 50% menos.</string>
+	<string name="bonus_item_description_202">La mejora de \@ cuesta un 50% menos.||La tecnología de \@ cuesta un 50% menos.</string>
 
 	<string name="bonus_tech_tree_description_203">Los Hostigadores y los Arqueros en Elefante disparan un 25% más rápido.</string>
 	<string name="bonus_item_description_203">\@ disparan un 25% más rápido.</string>
@@ -1625,9 +1624,9 @@
     <string name="civilization_style_37">Civilización de Infantería y Caballería</string>
     <string name="civilization_style_38">Civilización de Pólvora y Monjes</string>
     <string name="civilization_style_39">Civilización de Caballería</string>
-	<string name="civilization_style_41">Civilización de Elefantes y Naval civilization</string>
-    <string name="civilization_style_42">Civilización de Infantería y Naval civilization</string>
-    <string name="civilization_style_43">Civilización de Cavalry y Camellos</string>
+	<string name="civilization_style_40">Civilización de Elefantes y Naval</string>
+    <string name="civilization_style_41">Civilización de Infantería y Naval</string>
+    <string name="civilization_style_42">Civilización de Caballería y Camellos</string>
      
      
     <!--class_list.xml-->
@@ -1703,7 +1702,7 @@
     <string name="gathering_rates_18">Oro en Factoría</string>
     <string name="gathering_rates_19">Piedra en Factoría</string>
     <string name="gathering_rates_20">Keshik</string>
-    <string name="gathering_rates_20">Oro generado por Leñadores</string>
+    <string name="gathering_rates_21">Oro generado por Leñadores</string>
      
     <!--history_list.xml-->
      
@@ -1783,7 +1782,11 @@
     <string name="history_name_73">Los Sicilianos</string>
     <string name="history_name_74">Los Bohemians</string>
     <string name="history_name_75">Los Polacos</string>
-     
+    <string name="history_name_76">Los Bengalíes</string>
+    <string name="history_name_77">Los Dravídicos</string>
+    <string name="history_name_78">Los Gurjara</string>
+	
+	
     <!--performance_list.xml-->
      
     
@@ -1862,6 +1865,13 @@
     <string name="performance_name_73">Milicia Flamenca</string>
     <string name="performance_name_74">Carros de Guerra Husitas</string>
     <string name="performance_name_75">Martillos de Guerra</string>
+	<string name="performance_name_76">Arqueros en Elefante</string>
+	<string name="performance_name_77">Jinetes Shrivamsha</string>
+	<string name="performance_name_78">Elefantes de Asedio</string>
+	<string name="performance_name_79">Thirisadai</string>
+	<string name="performance_name_80">Rathas</string>
+	<string name="performance_name_81">Espadachines Urumi</string>
+	<string name="performance_name_82">Lanzadores de Chakram</string>
      
     <!--stat_list.xml-->
      
@@ -3394,7 +3404,7 @@
     <string name="tech_description_extra_231"/> 
 	
 	<string name="tech_description_nominative_232">Paiks</string>
-    <string name="tech_description_quick_232">Rathas y unidades en Elefante atacan un 20% más rápido.</string>
+    <string name="tech_description_quick_232">Rathas y unidades en Elefante atacan un 20% más rápido</string>
     <string name="tech_description_brief_232"/>
     <string name="tech_description_long_232">Tecnología Única Bengalí en la Edad de los Castillos. Los Rathas y las unidades en Elefante atacan un 20% más rápido.</string>
     <string name="tech_description_extra_232">Los Rathas y las unidades en Elefante atacan un 20% más rápido.</string> 
@@ -3448,13 +3458,13 @@
     <string name="tech_description_extra_240"/> 
 	
 	<string name="tech_description_nominative_241">Mahāyāna</string>
-    <string name="tech_description_quick_241">Aldeanos ocupan un 10% menos de espacio de población.</string>
+    <string name="tech_description_quick_241">Aldeanos ocupan un 10% menos de espacio de población</string>
     <string name="tech_description_brief_241"/>
     <string name="tech_description_long_241">Tecnología Única Bengalí en la Edad Imperial.Los Aldeanos ocupan un 10% menos de espacio de población.</string>
     <string name="tech_description_extra_241">Los Aldeanos ocupan un 10% menos de espacio de población.</string> 	
 	
 	<string name="tech_description_nominative_242">Acero Wootz</string>
-    <string name="tech_description_quick_242">Infantería y Caballería ignoran la armadura.</string>
+    <string name="tech_description_quick_242">Infantería y Caballería ignoran la armadura</string>
     <string name="tech_description_brief_242"/>
     <string name="tech_description_long_242">Tecnología Única Dravídica en la Edad Imperial. La Infantería y la Caballería ignoran la armadura.</string>
     <string name="tech_description_extra_242">La Infantería y la Caballería ignoran la armadura.</string>
@@ -4974,7 +4984,7 @@
     <string name="unit_name_167">Lanzador de Chakrams</string>
     <string name="unit_name_168">Thirisadai</string>
     <string name="unit_name_169">Arquero en Elefante de Élite</string>
-    <string name="unit_name_170">Jinete Shrivamsha< de Élite</string>
+    <string name="unit_name_170">Jinete Shrivamsha de Élite</string>
     <string name="unit_name_171">Elefante de Asedio</string>
     <string name="unit_name_172">Ratha de Élite (Distancia)</string>
     <string name="unit_name_173">Ratha de Élite (Melé)</string>

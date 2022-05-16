@@ -553,4 +553,38 @@
 		<building id="26" upgrades="60 141"/>
 	</item>
 	<item id="231"/>
+	<item id="232">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="233">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="234">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="235">
+		<building id="26" upgrades="141"/>
+	</item>
+	<item id="236">
+		<building id="26" upgrades="141"/>
+	</item>
+	<item id="237"/>
+	<item id="238">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="239">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="240">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="241">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="242">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="243">
+		<building id="26" upgrades="60 141"/>
+	</item>
 </list>

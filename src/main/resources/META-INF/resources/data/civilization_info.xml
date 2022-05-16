@@ -334,7 +334,7 @@
 			<unit unitID="165" eliteUnitID="173"/>
 		</uniqueUnits>
 		<uniqueTechs castleTech="232" imperialTech="241"/>
-		<uniqueBuildings buildingID="35"/>
+		<uniqueBuildings/>
 	</item>
 	<item id="41">
 		<bonus bonusList="200 201 202 203" teamBonus="204"/>

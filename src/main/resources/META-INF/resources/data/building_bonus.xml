@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <list>
 	<item id="1">
-		<bonusList ids="10 151 18 31 32 154 57 92 105 106 176 123 169 132 141"/>
+		<bonusList ids="10 151 18 31 32 154 57 92 105 106 176 123 169 132 141 197"/>
 		<teamBonusList/>
 		<uniqueTechList ids="212 78"/>
 		<hiddenBonusList ids="8"/>
@@ -19,7 +19,7 @@
 		<hiddenBonusList ids="10"/>
 	</item>
 	<item id="4">
-		<bonusList ids="18 69 92 123"/>
+		<bonusList ids="18 69 92 123 206"/>
 		<teamBonusList ids="134"/>
 		<uniqueTechList/>
 		<hiddenBonusList ids="10"/>
@@ -31,8 +31,8 @@
 		<hiddenBonusList ids="10"/>
 	</item>
 	<item id="6">
-		<bonusList ids="18 92 105 106 123"/>
-		<teamBonusList ids="91 134 149"/>
+		<bonusList ids="18 92 105 106 123 208"/>
+		<teamBonusList ids="91 134 149 204"/>
 		<uniqueTechList ids="77"/>
 		<hiddenBonusList ids="11"/>
 	</item>

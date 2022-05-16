@@ -535,7 +535,7 @@ public class Reader {
                 Element item1 = (Element) list.item(realRow);
                 String[] civIDs1 = item1.getAttribute("civs").split(" ");
                 for (String s : civIDs1) availableIDs.add(Integer.parseInt(s));
-                Comparator<EntityElement> comp = EntityElement.getListElementComparator(storage.getOrderMap(Database.CIVILIZATION_GROUPS, 0));
+                Comparator<EntityElement> comp = EntityElement.getAlphabeticalComparator();
                 available.sort(comp);
                 unavailable.sort(comp);
                 availabilityList.put(Database.getString("civ_available", language), available);

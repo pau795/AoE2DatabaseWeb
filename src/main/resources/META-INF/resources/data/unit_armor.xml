@@ -1436,4 +1436,164 @@
 			<value type="31">0</value>
 		</entry>
 	</item>
+	<item id="160">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">0</value>
+			<value type="10">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="161">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">2</value>
+			<value type="3">0</value>
+			<value type="4">-7</value>
+			<value type="9">0</value>
+			<value type="11">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="162">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">1</value>
+			<value type="9">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="163">
+		<entry nameID="unit_armor_values">
+			<value type="1">-2</value>
+			<value type="2">140</value>
+			<value type="9">7</value>
+			<value type="11">17</value>
+			<value type="12">0</value>
+			<value type="13">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="164">
+		<entry nameID="unit_armor_values">
+			<value type="1">2</value>
+			<value type="2">1</value>
+			<value type="3">0</value>
+			<value type="4">0</value>
+			<value type="9">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="165">
+		<entry nameID="unit_armor_values">
+			<value type="1">2</value>
+			<value type="2">1</value>
+			<value type="3">0</value>
+			<value type="4">0</value>
+			<value type="9">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="166">
+		<entry nameID="unit_armor_values">
+			<value type="1">1</value>
+			<value type="2">0</value>
+			<value type="5">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="167">
+		<entry nameID="unit_armor_values">
+			<value type="1">1</value>
+			<value type="2">0</value>
+			<value type="5">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="168">
+		<entry nameID="unit_armor_values">
+			<value type="1">2</value>
+			<value type="2">10</value>
+			<value type="16">8</value>
+			<value type="17">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="169">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">2</value>
+			<value type="3">0</value>
+			<value type="4">-7</value>
+			<value type="9">0</value>
+			<value type="11">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="170">
+		<entry nameID="unit_armor_values">
+			<value type="1">0</value>
+			<value type="2">1</value>
+			<value type="9">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="171">
+		<entry nameID="unit_armor_values">
+			<value type="1">-2</value>
+			<value type="2">150</value>
+			<value type="9">8</value>
+			<value type="11">18</value>
+			<value type="12">0</value>
+			<value type="13">2</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="172">
+		<entry nameID="unit_armor_values">
+			<value type="1">2</value>
+			<value type="2">1</value>
+			<value type="3">0</value>
+			<value type="4">0</value>
+			<value type="9">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="173">
+		<entry nameID="unit_armor_values">
+			<value type="1">2</value>
+			<value type="2">1</value>
+			<value type="3">0</value>
+			<value type="4">0</value>
+			<value type="9">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="174">
+		<entry nameID="unit_armor_values">
+			<value type="1">1</value>
+			<value type="2">0</value>
+			<value type="5">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="175">
+		<entry nameID="unit_armor_values">
+			<value type="1">1</value>
+			<value type="2">0</value>
+			<value type="5">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
 </list>

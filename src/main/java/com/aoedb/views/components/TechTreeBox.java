@@ -114,7 +114,10 @@ public class TechTreeBox extends Div {
     }
 
     private void setBackgroundColor(){
-        if (unique) box.getStyle().set("background-color", "purple");
+        if (unique) {
+            box.getStyle().set("background-color", "purple");
+            return;
+        }
         switch (e.getType()){
             case Database.UNIT:
                 box.getStyle().set("background-color", "teal");

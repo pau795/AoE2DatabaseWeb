@@ -33,9 +33,9 @@ public class TechTreeView extends BaseView {
 
     static int columnWidth = boxWidth;
     static int sectionHeight = boxHeight * 2;
-    static int archeryRangeWidth = boxWidth * 6;
-    static int stableWidth = boxWidth * 6;
-    static int siegeWorkshopWidth = boxWidth * 4;
+    static int archeryRangeWidth = boxWidth * 7;
+    static int stableWidth = boxWidth * 7;
+    static int siegeWorkshopWidth = boxWidth * 5;
     static int blacksmithWidth = boxWidth * 5;
     static int universityWidth = boxWidth * 7;
     static int castleWidth = boxWidth * 8;
@@ -357,10 +357,13 @@ public class TechTreeView extends BaseView {
         dockLine6.setTopRightLine();
         TechTreeEmptyBox dockLine7 = new TechTreeEmptyBox(true);
         dockLine7.setTopLeftLine();
+        dockLine7.setTopRightLine();
+        TechTreeEmptyBox dockLine8 = new TechTreeEmptyBox(true);
+        dockLine8.setTopLeftLine();
 
         TechTreeSlotLayout dockLayout = new TechTreeSlotLayout(boxSet);
         dockLayout.addFistRow(dock);
-        dockLayout.addSecondRow(fishingShip, transportShip, dockLine1, dockLine2, dockLine3, dockLine4, dockLine5, dockLine6, dockLine7);
+        dockLayout.addSecondRow(fishingShip, transportShip, dockLine1, dockLine2, dockLine3, dockLine4, dockLine5, dockLine6, dockLine7, dockLine8);
 
         //UNIVERSITY
         Div universityLayout = new Div();
@@ -434,6 +437,11 @@ public class TechTreeView extends BaseView {
         feitoriaLayout.setWidth(columnWidth + "px");
         feitoriaLayout.setHeight(sectionHeight + "px");
 
+        //CARAVANSERAI
+        Div caravanseraiLayout = new Div();
+        caravanseraiLayout.setWidth(columnWidth + "px");
+        caravanseraiLayout.setHeight(sectionHeight + "px");
+
         //MINING CAMP
         TechTreeBox miningCamp = new TechTreeBox(Database.getBuilding(5, language), false);
         miningCamp.removeTopLine();
@@ -481,7 +489,7 @@ public class TechTreeView extends BaseView {
         Div container = new Div(shieldLayoutInit, archeryRangeLayout, barracksLayout, stableLayout,
                                 siegeWorkshopLayout, blacksmithLayout, dockLayout, universityLayout, towersLayout,
                                 castleLayout, monasteryLayout, krepostLayout, donjonLayout, houseLayout,
-                                townCenterLayout, feitoriaLayout, miningCampLayout, lumberCampLayout,
+                                townCenterLayout, feitoriaLayout, caravanseraiLayout, miningCampLayout, lumberCampLayout,
                                 marketLayout, millLayout, farmLayout, shieldLayoutEnd);
         container.addClassNames("tech-tree-age-container", "tech-tree-dark-background");
 
@@ -509,10 +517,13 @@ public class TechTreeView extends BaseView {
         rangeLine3.setTopRightLine();
         TechTreeEmptyBox rangeLine4 = new TechTreeEmptyBox(true);
         rangeLine4.setTopLeftLine();
+        rangeLine4.setTopRightLine();
+        TechTreeEmptyBox rangeLine5 = new TechTreeEmptyBox(true);
+        rangeLine5.setTopLeftLine();
 
         TechTreeSlotLayout archeryRangeLayout = new TechTreeSlotLayout(boxSet);
         archeryRangeLayout.addFistRow(archeryRange);
-        archeryRangeLayout.addSecondRow(archer, skirmisher, rangeLine1, rangeLine2, rangeLine3, rangeLine4);
+        archeryRangeLayout.addSecondRow(archer, skirmisher, rangeLine1, rangeLine2, rangeLine3, rangeLine4, rangeLine5);
 
         //BARRACKS
         TechTreeBox manAtArms = new TechTreeBox(Database.getUnit(10, language), false);
@@ -540,9 +551,9 @@ public class TechTreeView extends BaseView {
         bloodlines.setTopLeftLine();
         bloodlines.setTopRightLine();
         bloodlines.removeBottomLine();
-        TechTreeEmptyBox stableLine1 = new TechTreeEmptyBox(true);
-        stableLine1.setTopLeftLine();
-        stableLine1.setTopRightLine();
+        TechTreeBox camelScout = new TechTreeBox(Database.getUnit(160, language), true);
+        camelScout.setTopLeftLine();
+        camelScout.setTopRightLine();
         TechTreeEmptyBox stableLine2 = new TechTreeEmptyBox(true);
         stableLine2.setTopLeftLine();
         stableLine2.setTopRightLine();
@@ -551,10 +562,13 @@ public class TechTreeView extends BaseView {
         stableLine3.setTopRightLine();
         TechTreeEmptyBox stableLine4 = new TechTreeEmptyBox(true);
         stableLine4.setTopLeftLine();
+        stableLine4.setTopRightLine();
+        TechTreeEmptyBox stableLine5 = new TechTreeEmptyBox(true);
+        stableLine5.setTopLeftLine();
 
         TechTreeSlotLayout stableLayout = new TechTreeSlotLayout(boxSet);
         stableLayout.addFistRow(stable);
-        stableLayout.addSecondRow(scout, bloodlines, stableLine1, stableLine2, stableLine3, stableLine4);
+        stableLayout.addSecondRow(scout, bloodlines, camelScout, stableLine2, stableLine3, stableLine4, stableLine5);
 
         //SIEGE WORKSHOP
         Div siegeWorkshopLayout = new TechTreeConnector(siegeWorkshopWidth, true);
@@ -592,6 +606,7 @@ public class TechTreeView extends BaseView {
         TechTreeEmptyBox dockLine1 = new TechTreeEmptyBox(true);
         TechTreeEmptyBox dockLine2 = new TechTreeEmptyBox(true);
         TechTreeEmptyBox dockLine3 = new TechTreeEmptyBox(true);
+        TechTreeEmptyBox dockLine3_1 = new TechTreeEmptyBox(true);
         TechTreeBox fishTrap = new TechTreeBox(Database.getBuilding(19, language), false);
         fishTrap.removeBottomLine();
         TechTreeEmptyBox dockLine4 = new TechTreeEmptyBox(true);
@@ -602,12 +617,13 @@ public class TechTreeView extends BaseView {
         TechTreeEmptyBox dockLine9 = new TechTreeEmptyBox(true);
         TechTreeEmptyBox dockLine10 = new TechTreeEmptyBox(true);
         TechTreeEmptyBox dockLine11 = new TechTreeEmptyBox(true);
+        TechTreeEmptyBox dockLine11_1 = new TechTreeEmptyBox(true);
         TechTreeEmptyBox dockLine12 = new TechTreeEmptyBox(false);
         TechTreeEmptyBox dockLine13 = new TechTreeEmptyBox(true);
 
         TechTreeSlotLayout dockLayout = new TechTreeSlotLayout(boxSet);
-        dockLayout.addFistRow(fireGalley, demoRaft, galley, tradeCog, dockLine1, dockLine2, dockLine3, fishTrap, dockLine4);
-        dockLayout.addSecondRow(dockLine5, dockLine6, dockLine7, dockLine8, dockLine9, dockLine10, dockLine11, dockLine12, dockLine13);
+        dockLayout.addFistRow(fireGalley, demoRaft, galley, tradeCog, dockLine1, dockLine2, dockLine3, dockLine3_1, fishTrap, dockLine4);
+        dockLayout.addSecondRow(dockLine5, dockLine6, dockLine7, dockLine8, dockLine9, dockLine10, dockLine11, dockLine11_1,dockLine12, dockLine13);
 
         //UNIVERSITY
         Div universityLayout = new Div();
@@ -675,6 +691,11 @@ public class TechTreeView extends BaseView {
         feitoriaLayout.setWidth(columnWidth + "px");
         feitoriaLayout.setHeight(sectionHeight + "px");
 
+        //CARAVANSERAI
+        Div caravanseraiLayout = new Div();
+        caravanseraiLayout.setWidth(columnWidth + "px");
+        caravanseraiLayout.setHeight(sectionHeight + "px");
+
         //MINING CAMP
         TechTreeBox goldMining = new TechTreeBox(Database.getTechnology(7, language), false);
         TechTreeBox stoneMining = new TechTreeBox(Database.getTechnology(8, language), false);
@@ -718,7 +739,7 @@ public class TechTreeView extends BaseView {
         Div container = new Div(shieldLayoutInit, archeryRangeLayout, barracksLayout, stableLayout,
                                 siegeWorkshopLayout, blacksmithLayout, dockLayout, universityLayout, towersLayout,
                                 castleLayout, monasteryLayout, krepostLayout, donjonLayout, houseLayout,
-                                townCenterLayout, feitoriaLayout, miningCampLayout, lumberCampLayout,
+                                townCenterLayout, feitoriaLayout, caravanseraiLayout, miningCampLayout, lumberCampLayout,
                                 marketLayout, millLayout, farmLayout, shieldLayoutEnd);
         container.addClassNames("tech-tree-age-container", "tech-tree-feudal-background");
 
@@ -731,6 +752,7 @@ public class TechTreeView extends BaseView {
         TechTreeBox crossbowman = new TechTreeBox(Database.getUnit(27, language), false);
         TechTreeBox eliteSkirmisher = new TechTreeBox(Database.getUnit(28, language), false);
         TechTreeBox cavArcher = new TechTreeBox(Database.getUnit(29, language), false);
+        TechTreeBox elephantArcher = new TechTreeBox(Database.getUnit(161, language), false);
         TechTreeBox slinger = new TechTreeBox(Database.getUnit(31, language), true);
         slinger.removeBottomLine();
         TechTreeBox genitour = new TechTreeBox(Database.getUnit(30, language), true);
@@ -739,13 +761,14 @@ public class TechTreeView extends BaseView {
         TechTreeEmptyBox rangeLine1 = new TechTreeEmptyBox(true);
         TechTreeEmptyBox rangeLine2 = new TechTreeEmptyBox(true);
         TechTreeEmptyBox rangeLine3 = new TechTreeEmptyBox(true);
+        TechTreeEmptyBox rangeLine3_1 = new TechTreeEmptyBox(true);
         TechTreeEmptyBox rangeLine4 = new TechTreeEmptyBox(false);
         TechTreeEmptyBox rangeLine5 = new TechTreeEmptyBox(true);
         TechTreeEmptyBox rangeLine6 = new TechTreeEmptyBox(false);
 
         TechTreeSlotLayout archeryRangeLayout = new TechTreeSlotLayout(boxSet);
-        archeryRangeLayout.addFistRow(crossbowman, eliteSkirmisher, cavArcher, slinger, genitour, thumbRing);
-        archeryRangeLayout.addSecondRow(rangeLine1, rangeLine2, rangeLine3, rangeLine4, rangeLine5, rangeLine6);
+        archeryRangeLayout.addFistRow(crossbowman, eliteSkirmisher, cavArcher, elephantArcher, slinger, genitour, thumbRing);
+        archeryRangeLayout.addSecondRow(rangeLine1, rangeLine2, rangeLine3, rangeLine3_1, rangeLine4, rangeLine5, rangeLine6);
 
         //BARRACKS
 
@@ -775,6 +798,7 @@ public class TechTreeView extends BaseView {
         TechTreeBox camel = new TechTreeBox(Database.getUnit(34, language), false);
         TechTreeBox battleElephant = new TechTreeBox(Database.getUnit(35, language), false);
         TechTreeBox steppeLancer = new TechTreeBox(Database.getUnit(135, language), false);
+        TechTreeBox shrivamshaRider = new TechTreeBox(Database.getUnit(162, language), true);
         TechTreeBox husbandry = new TechTreeBox(Database.getTechnology(58, language), false);
         husbandry.removeBottomLine();
         TechTreeEmptyBox stableLine1 = new TechTreeEmptyBox(true);
@@ -782,17 +806,21 @@ public class TechTreeView extends BaseView {
         TechTreeEmptyBox stableLine3 = new TechTreeEmptyBox(true);
         TechTreeEmptyBox stableLine4 = new TechTreeEmptyBox(true);
         TechTreeEmptyBox stableLine5 = new TechTreeEmptyBox(true);
+        TechTreeEmptyBox stableLine5_1 = new TechTreeEmptyBox(true);
         TechTreeEmptyBox stableLine6 = new TechTreeEmptyBox(false);
 
         TechTreeSlotLayout stableLayout = new TechTreeSlotLayout(boxSet);
-        stableLayout.addFistRow(lightCav, knight, camel, battleElephant, steppeLancer, husbandry);
-        stableLayout.addSecondRow(stableLine1, stableLine2, stableLine3, stableLine4, stableLine5, stableLine6);
+        stableLayout.addFistRow(lightCav, knight, camel, battleElephant, steppeLancer, shrivamshaRider, husbandry);
+        stableLayout.addSecondRow(stableLine1, stableLine2, stableLine3, stableLine4, stableLine5, stableLine5_1, stableLine6);
 
         //SIEGE WORKSHOP
         TechTreeBox siegeWorkshop = new TechTreeBox(Database.getBuilding(22, language), false);
         siegeWorkshopShortcut = siegeWorkshop;
         TechTreeBox batteringRam = new TechTreeBox(Database.getUnit(36, language), false);
         batteringRam.setTopRightLine();
+        TechTreeBox armoredElephant = new TechTreeBox(Database.getUnit(163, language), false);
+        armoredElephant.setTopLeftLine();
+        armoredElephant.setTopRightLine();
         TechTreeBox mangonel = new TechTreeBox(Database.getUnit(37, language), false);
         mangonel.setTopLeftLine();
         mangonel.setTopRightLine();
@@ -805,7 +833,7 @@ public class TechTreeView extends BaseView {
 
         TechTreeSlotLayout siegeWorkshopLayout = new TechTreeSlotLayout(boxSet);
         siegeWorkshopLayout.addFistRow(siegeWorkshop);
-        siegeWorkshopLayout.addSecondRow(batteringRam, mangonel, scorpion, siegeTower);
+        siegeWorkshopLayout.addSecondRow(batteringRam, armoredElephant, mangonel, scorpion, siegeTower);
 
         //BLACKSMITH
         TechTreeBox leatherArcherArmor = new TechTreeBox(Database.getTechnology(35, language), false);
@@ -831,6 +859,7 @@ public class TechTreeView extends BaseView {
         TechTreeBox longboat = new TechTreeBox(Database.getUnit(19, language), true);
         TechTreeBox turtleShip = new TechTreeBox(Database.getUnit(20, language), true);
         TechTreeBox caravel = new TechTreeBox(Database.getUnit(21, language), true);
+        TechTreeEmptyBox dockLine1_1 = new TechTreeEmptyBox(true);
         TechTreeBox gillnets = new TechTreeBox(Database.getTechnology(26, language), false);
         gillnets.removeBottomLine();
         gillnets.removeTopLine();
@@ -842,12 +871,13 @@ public class TechTreeView extends BaseView {
         TechTreeEmptyBox dockLine6 = new TechTreeEmptyBox(true);
         TechTreeEmptyBox dockLine7 = new TechTreeEmptyBox(true);
         TechTreeEmptyBox dockLine8 = new TechTreeEmptyBox(true);
+        TechTreeEmptyBox dockLine8_1 = new TechTreeEmptyBox(true);
         TechTreeEmptyBox dockLine9 = new TechTreeEmptyBox(false);
         TechTreeEmptyBox dockLine10 = new TechTreeEmptyBox(true);
 
         TechTreeSlotLayout dockLayout = new TechTreeSlotLayout(boxSet);
-        dockLayout.addFistRow(fireShip, demoShip, warGalley, dockLine1, longboat, turtleShip, caravel, gillnets, careening);
-        dockLayout.addSecondRow(dockLine2, dockLine3, dockLine4, dockLine5, dockLine6, dockLine7, dockLine8, dockLine9, dockLine10);
+        dockLayout.addFistRow(fireShip, demoShip, warGalley, dockLine1, longboat, turtleShip, caravel, dockLine1_1, gillnets, careening);
+        dockLayout.addSecondRow(dockLine2, dockLine3, dockLine4, dockLine5, dockLine6, dockLine7, dockLine8, dockLine8_1, dockLine9, dockLine10);
 
         //UNIVERSITY
         TechTreeBox university = new TechTreeBox(Database.getBuilding(21, language), false);
@@ -1011,6 +1041,11 @@ public class TechTreeView extends BaseView {
         feitoriaLayout.addFistRow(townCenter2);
         feitoriaLayout.addSecondRow(feitoriaLine1);
 
+        //CARAVANSERAI
+        Div caravanseraiLayout = new Div();
+        caravanseraiLayout.setWidth(columnWidth + "px");
+        caravanseraiLayout.setHeight(sectionHeight + "px");
+
         //MINING CAMP
         TechTreeBox goldShaftMining = new TechTreeBox(Database.getTechnology(24, language), false);
         goldShaftMining.removeBottomLine();
@@ -1056,7 +1091,7 @@ public class TechTreeView extends BaseView {
         Div container = new Div(shieldLayoutInit, archeryRangeLayout, barracksLayout, stableLayout,
                                 siegeWorkshopLayout, blacksmithLayout, dockLayout, universityLayout, towersLayout,
                                 castleLayout, monasteryLayout, krepostLayout, donjonLayout, houseLayout,
-                                townCenterLayout, feitoriaLayout, miningCampLayout, lumberCampLayout,
+                                townCenterLayout, feitoriaLayout, caravanseraiLayout, miningCampLayout, lumberCampLayout,
                                 marketLayout, millLayout, farmLayout, shieldLayoutEnd);
         container.addClassNames("tech-tree-age-container", "tech-tree-castle-background");
 
@@ -1072,6 +1107,8 @@ public class TechTreeView extends BaseView {
         imperialSkirmisher.removeBottomLine();
         TechTreeBox heavyCavArcher = new TechTreeBox(Database.getUnit(87, language), false);
         heavyCavArcher.removeBottomLine();
+        TechTreeBox eliteElefantArcher = new TechTreeBox(Database.getUnit(169, language), false);
+        eliteElefantArcher.removeBottomLine();
         TechTreeBox handCannoneer = new TechTreeBox(Database.getUnit(88, language), false);
         handCannoneer.removeTopLine();
         handCannoneer.removeBottomLine();
@@ -1087,10 +1124,11 @@ public class TechTreeView extends BaseView {
         TechTreeEmptyBox rangeLine4 = new TechTreeEmptyBox(false);
         TechTreeEmptyBox rangeLine5 = new TechTreeEmptyBox(false);
         TechTreeEmptyBox rangeLine6 = new TechTreeEmptyBox(false);
+        TechTreeEmptyBox rangeLine7 = new TechTreeEmptyBox(false);
 
         TechTreeSlotLayout archeryRangeLayout = new TechTreeSlotLayout(boxSet);
-        archeryRangeLayout.addFistRow(arbalester, imperialSkirmisher, heavyCavArcher, handCannoneer, eliteGenitour, parthianTactics);
-        archeryRangeLayout.addSecondRow(rangeLine1, rangeLine2, rangeLine3, rangeLine4, rangeLine5, rangeLine6);
+        archeryRangeLayout.addFistRow(arbalester, imperialSkirmisher, heavyCavArcher, eliteElefantArcher, handCannoneer, eliteGenitour, parthianTactics);
+        archeryRangeLayout.addSecondRow(rangeLine1, rangeLine2, rangeLine3, rangeLine4, rangeLine5, rangeLine6, rangeLine7);
 
         //BARRACKS
 
@@ -1123,6 +1161,8 @@ public class TechTreeView extends BaseView {
         eliteBattleElephant.removeBottomLine();
         TechTreeBox eliteSteppeLancer = new TechTreeBox(Database.getUnit(141, language), false);
         eliteSteppeLancer.removeBottomLine();
+        TechTreeBox eliteShrivamshaRider = new TechTreeBox(Database.getUnit(170, language), false);
+        eliteShrivamshaRider.removeBottomLine();
         TechTreeBox paladin = new TechTreeBox(Database.getUnit(92, language), false);
         paladin.removeBottomLine();
         TechTreeBox imperialCamel = new TechTreeBox(Database.getUnit(94, language), true);
@@ -1132,13 +1172,16 @@ public class TechTreeView extends BaseView {
         TechTreeEmptyBox stableLine3 = new TechTreeEmptyBox(false);
         TechTreeEmptyBox stableLine4 = new TechTreeEmptyBox(false);
         TechTreeEmptyBox stableLine5 = new TechTreeEmptyBox(false);
+        TechTreeEmptyBox stableLine6 = new TechTreeEmptyBox(false);
 
         TechTreeSlotLayout stableLayout = new TechTreeSlotLayout(boxSet);
-        stableLayout.addFistRow(hussar, cavalier, heavyCamel, eliteBattleElephant, eliteSteppeLancer, stableLine1);
-        stableLayout.addSecondRow(stableLine2, paladin, imperialCamel, stableLine3, stableLine4, stableLine5);
+        stableLayout.addFistRow(hussar, cavalier, heavyCamel, eliteBattleElephant, eliteSteppeLancer,  eliteShrivamshaRider, stableLine1);
+        stableLayout.addSecondRow(stableLine2, paladin, imperialCamel, stableLine3, stableLine4, stableLine5, stableLine6);
 
         //SIEGE WORKSHOP
         TechTreeBox cappedRam = new TechTreeBox(Database.getUnit(96, language), false);
+        TechTreeBox siegeElephant = new TechTreeBox(Database.getUnit(171, language), false);
+        siegeElephant.removeBottomLine();
         TechTreeBox onager = new TechTreeBox(Database.getUnit(98, language), false);
         TechTreeBox heavyScorpion = new TechTreeBox(Database.getUnit(100, language), false);
         heavyScorpion.removeBottomLine();
@@ -1146,6 +1189,7 @@ public class TechTreeView extends BaseView {
         bombardCannon.removeTopLine();
         TechTreeBox siegeRam = new TechTreeBox(Database.getUnit(97, language), false);
         siegeRam.removeBottomLine();
+        TechTreeEmptyBox siegeWorkshopLine0 = new TechTreeEmptyBox(false);
         TechTreeBox siegeOnager = new TechTreeBox(Database.getUnit(99, language), false);
         siegeOnager.removeBottomLine();
         TechTreeEmptyBox siegeWorkshopLine1 = new TechTreeEmptyBox(false);
@@ -1153,8 +1197,8 @@ public class TechTreeView extends BaseView {
         houfnice.removeBottomLine();
 
         TechTreeSlotLayout siegeWorkshopLayout = new TechTreeSlotLayout(boxSet);
-        siegeWorkshopLayout.addFistRow(cappedRam, onager, heavyScorpion, bombardCannon);
-        siegeWorkshopLayout.addSecondRow(siegeRam, siegeOnager, siegeWorkshopLine1, houfnice);
+        siegeWorkshopLayout.addFistRow(cappedRam, siegeElephant, onager, heavyScorpion, bombardCannon);
+        siegeWorkshopLayout.addSecondRow(siegeRam,siegeWorkshopLine0, siegeOnager, siegeWorkshopLine1, houfnice);
 
         //BLACKSMITH
         TechTreeBox ringArcherArmor = new TechTreeBox(Database.getTechnology(108, language), false);
@@ -1192,6 +1236,8 @@ public class TechTreeView extends BaseView {
         eliteTurtleShip.removeBottomLine();
         TechTreeBox eliteCaravel = new TechTreeBox(Database.getUnit(79, language), true);
         eliteCaravel.removeBottomLine();
+        TechTreeBox thiridasai = new TechTreeBox(Database.getUnit(168, language), true);
+        thiridasai.removeBottomLine();
         TechTreeBox shipwright = new TechTreeBox(Database.getTechnology(94, language), false);
         shipwright.removeBottomLine();
         shipwright.removeTopLine();
@@ -1207,10 +1253,11 @@ public class TechTreeView extends BaseView {
         TechTreeEmptyBox dockLine6 = new TechTreeEmptyBox(false);
         TechTreeEmptyBox dockLine7 = new TechTreeEmptyBox(false);
         TechTreeEmptyBox dockLine8 = new TechTreeEmptyBox(false);
+        TechTreeEmptyBox dockLine9 = new TechTreeEmptyBox(false);
 
         TechTreeSlotLayout dockLayout = new TechTreeSlotLayout(boxSet);
-        dockLayout.addFistRow(fastFireShip, heavyDemoShip, galleon, cannonGalleon, eliteLongboat, eliteTurtleShip, eliteCaravel, shipwright, dryDock);
-        dockLayout.addSecondRow(dockLine1, dockLine2, dockLine3, eliteCannonGalleon, dockLine4, dockLine5, dockLine6, dockLine7, dockLine8);
+        dockLayout.addFistRow(fastFireShip, heavyDemoShip, galleon, cannonGalleon, eliteLongboat, eliteTurtleShip, eliteCaravel, thiridasai, shipwright, dryDock);
+        dockLayout.addSecondRow(dockLine1, dockLine2, dockLine3, eliteCannonGalleon, dockLine4, dockLine5, dockLine6, dockLine7, dockLine8, dockLine9);
 
         TechTreeBox architecture = new TechTreeBox(Database.getTechnology(113, language), false);
         architecture.removeBottomLine();
@@ -1359,6 +1406,15 @@ public class TechTreeView extends BaseView {
         feitoriaLayout.addFistRow(feitoria);
         feitoriaLayout.addSecondRow(feitoriaLine1);
 
+        //CARAVANSERAI
+        TechTreeBox caravanserai = new TechTreeBox(Database.getBuilding(35, language), false);
+        caravanserai.removeTopLine();
+        caravanserai.removeBottomLine();
+        TechTreeEmptyBox caravanseraiLine1 = new TechTreeEmptyBox(false);
+        TechTreeSlotLayout caravanseraiLayout = new TechTreeSlotLayout(boxSet);
+        caravanseraiLayout.addFistRow(caravanserai);
+        caravanseraiLayout.addSecondRow(caravanseraiLine1);
+
         //MINING CAMP
         Div miningCampLayout = new Div();
         miningCampLayout.setWidth(miningCampWidth + "px");
@@ -1401,7 +1457,7 @@ public class TechTreeView extends BaseView {
         Div container = new Div(shieldLayoutInit, archeryRangeLayout, barracksLayout, stableLayout,
                                 siegeWorkshopLayout, blacksmithLayout, dockLayout, universityLayout, towersLayout,
                                 castleLayout, monasteryLayout, krepostLayout, donjonLayout, houseLayout,
-                                townCenterLayout, feitoriaLayout, miningCampLayout, lumberCampLayout,
+                                townCenterLayout, feitoriaLayout, caravanseraiLayout, miningCampLayout, lumberCampLayout,
                                 marketLayout, millLayout, farmLayout, shieldLayoutEnd);
         container.addClassNames("tech-tree-age-container", "tech-tree-imperial-background");
 

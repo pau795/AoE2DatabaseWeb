@@ -91,11 +91,10 @@ public class CivilizationView extends TwoColumnView {
 
         Label uniqueUnits = new Label(Database.getString("civilization_unique_units", language));
         uniqueUnits.addClassNames("title");
-        CivilizationEntityButton uniqueUnit1 = new CivilizationEntityButton(Database.getUnit(civ.getUniqueUnitList().get(0), language), civID, language);
-        entitiesLayout.add(uniqueUnits, new Hr(), uniqueUnit1);
-        if (civ.getUniqueUnitList().size() > 1){
-            CivilizationEntityButton uniqueUnit2 = new CivilizationEntityButton(Database.getUnit(civ.getUniqueUnitList().get(1), language), civID, language);
-            entitiesLayout.add(uniqueUnit2);
+        entitiesLayout.add(uniqueUnits, new Hr());
+        for (int i : civ.getUniqueUnitList()){
+            CivilizationEntityButton uniqueUnit = new CivilizationEntityButton(Database.getUnit(i, language), civID, language);
+            entitiesLayout.add(uniqueUnit);
         }
 
         Label uniqueTechs = new Label(Database.getString("civilization_unique_technologies", language));

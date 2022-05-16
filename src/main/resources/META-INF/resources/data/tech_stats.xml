@@ -2058,4 +2058,111 @@
 		</cost>
 		<development requiredTechID="114" nextUpgradeID="0"/>
 	</item>
+	<item id="232">
+		<baseInfo researchBuildingID="26" ageID="19"/>
+		<stats trainingTime="45"/>
+		<cost>
+			<resource name="Wood">375</resource>
+			<resource name="Gold">275</resource>
+		</cost>
+		<development requiredTechID="0" nextUpgradeID="0"/>
+	</item>
+	<item id="233">
+		<baseInfo researchBuildingID="26" ageID="19"/>
+		<stats trainingTime="45"/>
+		<cost>
+			<resource name="Food">350</resource>
+			<resource name="Gold">250</resource>
+		</cost>
+		<development requiredTechID="0" nextUpgradeID="0"/>
+	</item>
+	<item id="234">
+		<baseInfo researchBuildingID="26" ageID="19"/>
+		<stats trainingTime="45"/>
+		<cost>
+			<resource name="Food">200</resource>
+			<resource name="Gold">400</resource>
+		</cost>
+		<development requiredTechID="0" nextUpgradeID="0"/>
+	</item>
+	<item id="235">
+		<baseInfo researchBuildingID="14" ageID="90"/>
+		<stats trainingTime="80"/>
+		<cost>
+			<resource name="Food">1000</resource>
+			<resource name="Gold">800</resource>
+		</cost>
+		<development requiredTechID="0" nextUpgradeID="0"/>
+	</item>
+	<item id="236">
+		<baseInfo researchBuildingID="15" ageID="90"/>
+		<stats trainingTime="45"/>
+		<cost>
+			<resource name="Food">800</resource>
+			<resource name="Gold">600</resource>
+		</cost>
+		<development requiredTechID="0" nextUpgradeID="0"/>
+	</item>
+	<item id="237">
+		<baseInfo researchBuildingID="22" ageID="90"/>
+		<stats trainingTime="60"/>
+		<cost>
+			<resource name="Food">650</resource>
+		</cost>
+		<development requiredTechID="0" nextUpgradeID="0"/>
+	</item>
+	<item id="238">
+		<baseInfo researchBuildingID="26" ageID="90"/>
+		<stats trainingTime="45"/>
+		<cost>
+			<resource name="Food">800</resource>
+			<resource name="Wood">800</resource>
+		</cost>
+		<development requiredTechID="0" nextUpgradeID="0"/>
+	</item>
+	<item id="239">
+		<baseInfo researchBuildingID="26" ageID="90"/>
+		<stats trainingTime="45"/>
+		<cost>
+			<resource name="Food">900</resource>
+			<resource name="Gold">450</resource>
+		</cost>
+		<development requiredTechID="0" nextUpgradeID="0"/>
+	</item>
+	<item id="240">
+		<baseInfo researchBuildingID="26" ageID="90"/>
+		<stats trainingTime="45"/>
+		<cost>
+			<resource name="Food">1000</resource>
+			<resource name="Gold">650</resource>
+		</cost>
+		<development requiredTechID="0" nextUpgradeID="0"/>
+	</item>
+	<item id="241">
+		<baseInfo researchBuildingID="26" ageID="90"/>
+		<stats trainingTime="60"/>
+		<cost>
+			<resource name="Wood">800</resource>
+			<resource name="Gold">650</resource>
+		</cost>
+		<development requiredTechID="0" nextUpgradeID="0"/>
+	</item>
+	<item id="242">
+		<baseInfo researchBuildingID="26" ageID="90"/>
+		<stats trainingTime="60"/>
+		<cost>
+			<resource name="Food">750</resource>
+			<resource name="Gold">600</resource>
+		</cost>
+		<development requiredTechID="0" nextUpgradeID="0"/>
+	</item>
+	<item id="243">
+		<baseInfo researchBuildingID="26" ageID="90"/>
+		<stats trainingTime="60"/>
+		<cost>
+			<resource name="Food">800</resource>
+			<resource name="Gold">700</resource>
+		</cost>
+		<development requiredTechID="0" nextUpgradeID="0"/>
+	</item>
 </list>

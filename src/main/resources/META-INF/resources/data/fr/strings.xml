@@ -148,7 +148,7 @@
     <string name="repair_mechanics_basics">Villagers are able to repair damaged buildings, ships, and siege weapons. Repairing cost resources, a fraction of the cost of the unit or building being repaired. If the player does not have resources, or the stockpile runs out, the repairing process will stop. Villagers can repair siege weapons and ships from two tiles away, but the unit being repaired should not move in order to be repaired efficiently. There is not any bonus or technology that affects repairing speed at all.</string>
     <string name="repair_mechanics_speed1">Multiple Villagers can repair one building or unit. When doing so, the repairing process will be faster, and the cost will remain the same. When multiple Villagers are repairing, the first repairer works twice as fast as the others. In addition, repairing siege units or ships is &#188; slower than repairing buildings. The next table shows the repairing rates:</string>
     <string name="repair_mechanics_speed2">Note that villagers have a fixed repairing speed. This means that when the HP of a building or unit is increased, it will take longer to repair it, but its cost will remain the same.</string>
-    <string name="repair_mechanics_cost">Repairing a building / unit from 1 HP to full HP cost half of its total cost. In addition, civilization bonuses or technologies that decreases the cost of the unit / building, will be taken in consideration. However, there is an exception: The Town Center. Town Centers cost 275 wood and 100 stone, but in order to be repaired, only wood is consumed but not any stone, altough the stone stockpile must not be empty. The wood consumption when repairing a Town Center is significatively high, costing twice the amount of wood (550 wood to fully repair the town center). This is due to a side effect of the building being formed by four different sub-buildings. Finally, civilization bonuses that decrease the Town Center cost do not work for repairing.</string>
+    <string name="repair_mechanics_cost">Repairing a building / unit from 1 HP to full HP cost half of its total cost. In addition, civilization bonuses or technologies that decreases the cost of the unit / building, will be taken in consideration. However, there is an exception: The Town Center. Town Centers cost 275 wood and 100 stone, but in order to be repaired, only wood is consumed but not any stone. The wood consumption when repairing a Town Center is significatively high, costing twice the amount of wood (550 wood to fully repair the town center). This is due to a side effect of the building being formed by four different sub-buildings. Finally, civilization bonuses that decrease the Town Center cost do not work for repairing.</string>
     <string name="gm_building_upgrades_and_bonuses">Upgrades and Bonuses</string>
     <string name="gm_building_villagers">Villagers</string>
     <string name="gm_building_time">Building Time</string>
@@ -196,7 +196,7 @@
     <string name="gm_damage_table2_halb8">17 vs. Fishing Ships</string>
     <string name="gm_damage_table2_halb9">3 vs. Standard Buildings (1+2)</string>
     <string name="damage_formula_basics">When two units or buildings fight each other, there are many factors that determine how much damage each one is going to do. To summarize, there are three global aspects: Unit Stats, Hill and Cliff elevations and the Accuracy multiplier.</string>
-    <string name="damage_formula_unit_stats">Units have a lot of stats. To figure out how much damage one unit does to another, the relevant stats are the set of attack values, and the set of armor values.\nNote that other stats like the reload time, range, and accuracy have an impact on the DPS (damage per second) of the unit, however the objective here is to show the potential damage done in one hit.\n\nAll the attack and armor values are associated with a category. For example, there are categories for Infantry, Cavalry or Archers, but also more specific ones like Eagle Warriors, Mamelukes or Elephants. Besides, there is a category for the base melee and base pierce. Therefore, both sets of attack and armor values use these categories to represent an attack or an armor for a specific category.\n\nThe unit attack bonuses and defenses are represented in these sets. For example, a Spearman has +15 attack bonus against Cavalry. This means that the set of attack values contains an entry of 15 attack against the Cavalry category. On the other hand, in order to make a Scout Cavalry take extra damage from a Spearman, the set of armor values contains an entry of 0 armor of the Cavalry category.\n\nThe base damage that a unit does is calculated by summing up each attack value of the attacker against the receiver unit. For each attack value that the attacker has, the receiver matches that kind of attack to their armor values. If there is a match, the attack value calculation is the subtraction of the attack value minus the armor value. If there is no match, the armor value for that category is set to 1000 by default, and the result is the same subtraction. The final result for each attack value calculation is the maximum between 0 and the subtraction. If the receiver unit has a bonus reduction multiplier, like the Sicilians, the attack value of the attacker is multiplied by this factor before the armor subtraction..Finally, the base damage is the addition of each attack value calculation.\nThere is a practical example at the end of this document for better understanding.</string>
+    <string name="damage_formula_unit_stats">Units have a lot of stats. To figure out how much damage one unit does to another, the relevant stats are the set of attack values, and the set of armor values.\nNote that other stats like the reload time, range, and accuracy have an impact on the DPS (damage per second) of the unit, however the objective here is to show the potential damage done in one hit.\n\nAll the attack and armor values are associated with a category. For example, there are categories for Infantry, Cavalry or Archers, but also more specific ones like Eagle Warriors, Mamelukes or Elephants. Besides, there is a category for the base melee and base pierce. Therefore, both sets of attack and armor values use these categories to represent an attack or an armor for a specific category.\n\nThe unit attack bonuses and defenses are represented in these sets. For example, a Spearman has +15 attack bonus against Cavalry. This means that the set of attack values contains an entry of 15 attack against the Cavalry category. On the other hand, in order to make a Scout Cavalry take extra damage from a Spearman, the set of armor values contains an entry of 0 armor of the Cavalry category.\n\nThe base damage that a unit does is calculated by summing up each attack value of the attacker against the receiver unit. For each attack value that the attacker has, the receiver matches that kind of attack to their armor values. If there is a match, the attack value calculation is the subtraction of the attack value minus the armor value. If there is no match, the armor value for that category is set to 1000 by default, and the result is the same subtraction. The final result for each attack value calculation is the maximum between 0 and the subtraction. If the receiver unit has a bonus reduction multiplier, like the Sicilians, the attack value of the attacker is multiplied by this factor before the armor subtraction.Finally, the base damage is the addition of each attack value calculation.\nThere is a practical example at the end of this document for better understanding.</string>
     <string name="damage_formula_hills">Fighting on different elevations have a big impact in the damage output. When a unit is fighting downhill, it receives a 25% attack bonus. On the other hand, a unit fighting uphill receives a 25% attack penalty. At the end, it means that when a unit is fighting downhill, it does 25% more damage and receives 25% less damage, and vice versa.\n\nFighting on cliffs also has benefits. Units fighting on top of a cliff do 25% more damage against units at the bottom. However, unlike hills, the units fighting at the bottom do not have any attack penalty against units at the top. The Tatar bonus provides an extra 25% bonus damage to units which fight in higher elevation. Note that cliff and hill bonuses do not stack.\n\nIn addition, there is a peculiar mechanic involving hills and cliffs. If a ranged unit fires a projectile, and that unit dies before the projectile impacts, that projectile will no longer have any hill or cliff bonus, if it had one beforehand. This trick can be useful in some situations, for example, in mangonel fights.\n\nFinally, there is a terrain which has a special effect; the cracked sand. Buildings placed on top of cracked sand receive 20% more damage. Note that the center of the building has to be in the terrain in order to be effective.</string>
     <string name="damage_formula_accuracy1">This section applies mostly to ranged units. When a unit targets another one, and the projectile hits in the selected target, the accuracy multiplier is 1 and it does full damage. However, when a projectile hits a unit which was not targeted, the multiplier is reduced to 0.5. There is a exception, the Arambai, which have a multiplier of 1 even if they hit non-targeted units.\nFor melee units this multiplier is set to 1 most of the times. The exception are the units like the Battle Elephant, which have splash damage. It does full damage to the selected target, and 25% damage to the units within the splash area.\n\nThis mechanic works in a similar way for piercing units like the Scorpion. The Scorpion does full damage to the selected target, and it does 50% damage to all the units pierced through.\nOn the other hand, for units which have blast radius, like Onagers, this works a bit differently. When the projectile hits the land, all the units that are within the blast radius receive damage. The damage taken depends of the distance between the damaged unit and the center of the impact. The accuracy multiplier in this case can be obtained through the following formula:</string>
     <string name="damage_formula_formula1_text">Where:</string>
@@ -837,20 +837,20 @@
     <string name="bonus_tech_tree_description_57">Buildings cost -15% stone.</string>
     <string name="bonus_item_description_57">\@ cost -15% stone.</string> 
     
-    <string name="bonus_tech_tree_description_58">Farms are built twice as fast.</string>
-    <string name="bonus_item_description_58">Farms are built twice as fast.</string> 
+    <string name="bonus_tech_tree_description_58">Spearmen and Skirmishers have +2 Line of Sight.</string>
+    <string name="bonus_item_description_58">@ have +2 Line of Sight.</string> 
     
     <string name="bonus_tech_tree_description_59">Villagers cost -10/15/20/25% in Dark/Feudal/Castle/Imperial Age.</string>
     <string name="bonus_item_description_59">Villagers cost -10/15/20/25% in Dark/Feudal/Castle/Imperial Age.</string> 
     
-    <string name="bonus_tech_tree_description_60">Fishermen work 10% faster.</string>
-    <string name="bonus_item_description_60">Fishermen work 10% faster.</string> 
+    <string name="bonus_tech_tree_description_60">Camel Riders attack 25% faster.</string>
+    <string name="bonus_item_description_60">\@ attack 25% faster.</string> 
     
-    <string name="bonus_tech_tree_description_61">Stable Units have +1/2 pierce armor in Castle/Imperial Age.</string>
-    <string name="bonus_item_description_61">\@ have +1/2 pierce armor in Castle/Imperial Age.</string> 
+    <string name="bonus_tech_tree_description_61">Gunpowder units have +1 melee and +1 pierce armor.</string>
+    <string name="bonus_item_description_61">\@ have +1 melee and +1 pierce armor</string> 
     
-    <string name="bonus_tech_tree_description_62">Camel units have +4 attack against Standard Buildings.</string>
-    <string name="bonus_item_description_62">\@ have +4 attack against Standard Buildings.</string> 
+    <string name="bonus_tech_tree_description_62">Camel and Light Cavalry units have +2 attack against Standard Buildings.</string>
+    <string name="bonus_item_description_62">\@ have +2 attack against Standard Buildings.</string> 
     
     <string name="bonus_tech_tree_description_63">Advancing to the next Age costs -15%.</string>
     <string name="bonus_item_description_63">\@ research cost -15%.</string> 
@@ -1215,7 +1215,7 @@
     <string name="bonus_tech_tree_description_183">Start with +100 stone.</string>
     <string name="bonus_item_description_183">Start with +100 stone.</string> 
     
-    <string name="bonus_tech_tree_description_184">Blackmiths, Monasteries and Universities cost -100 wood.</string>
+    <string name="bonus_tech_tree_description_184">Blackmiths and Universities cost -100 wood.</string>
     <string name="bonus_item_description_184">\@ cost -100 wood.</string> 
     
     <string name="bonus_tech_tree_description_185">Chemistry research and Hand Cannoneers are available in the Castle Age.</string>
@@ -1244,6 +1244,54 @@
     
     <string name="bonus_tech_tree_description_193">Light Cavalry line have +1 damage against Archers.</string>
     <string name="bonus_item_description_193">\@ have +1 damage against Archers.</string> 
+	
+	<string name="bonus_tech_tree_description_194">Battle Elephants have +1 melee and +1 pierce armor.</string>
+    <string name="bonus_item_description_194">\@ have +1 melee and +1 pierce armor.</string>
+
+	<string name="bonus_tech_tree_description_195">Can build Caravanserai in Imperial Age.</string>
+    <string name="bonus_item_description_195">Can build Caravanserai in Imperial Age.</string> 	
+	
+	<string name="bonus_tech_tree_description_196">Elephant units take 25% less bonus damage and are more resistant to conversion.</string>
+	<string name="bonus_item_description_196">\@ take 25% less bonus damage and are more resistant to conversion.</string>
+
+	<string name="bonus_tech_tree_description_197">Each Town Center spawns 2 Villagers when advancing to the next Age.</string>
+	<string name="bonus_item_description_197">\@ spawn 2 Villagers when advancing to the next Age.</string>
+
+	<string name="bonus_tech_tree_description_198">Ships regenerate 15HP per minute.</string>
+	<string name="bonus_item_description_198">\@ regenerate 15HP per minute.</string>
+
+	<string name="bonus_tech_tree_description_199">Trade units yield 10% food in addition to gold.</string>
+	<string name="bonus_item_description_199">\@ yield 10% food in addition to gold.</string>
+
+	<string name="bonus_tech_tree_description_200">Receive +200 wood when Advancing to the next Age.</string>
+	<string name="bonus_item_description_200">Receive +200 wood when Advancing to the next Age.</string>
+
+	<string name="bonus_tech_tree_description_201">Fishermen and Fishing Ships carry have +15 carry capacity.</string>
+	<string name="bonus_item_description_201">\@ carry have +15 carry capacity.</string>
+
+	<string name="bonus_tech_tree_description_202">Barracks technologies cost 50% less.</string>
+	<string name="bonus_item_description_202">\@ upgrade cost 50% less.||\@ research cost 50% less.</string>
+
+	<string name="bonus_tech_tree_description_203">Skirmishers and Elephant Archers fire 25% faster.</string>
+	<string name="bonus_item_description_203">\@ fire 25% faster.</string>
+
+	<string name="bonus_tech_tree_description_204">Docks provide +5 population room.</string>
+	<string name="bonus_item_description_204">\@ provide +5 population room.</string>
+
+	<string name="bonus_tech_tree_description_205">Start with 2 Forage Bushes.</string>
+	<string name="bonus_item_description_205">Start with 2 Forage Bushes.</string>
+
+	<string name="bonus_tech_tree_description_206">Livestock can be garrisoned inside Mills to produce food.</string>
+	<string name="bonus_item_description_206">Livestock can be garrisoned inside Mills to produce food.</string>
+
+	<string name="bonus_tech_tree_description_207">Mounted Units deal 50% more bonus damage.</string>
+	<string name="bonus_item_description_207">\@ deal 50% more bonus damage.</string>
+
+	<string name="bonus_tech_tree_description_208">Fishing Ships can be garrisoned inside Docks.</string>
+	<string name="bonus_item_description_208">Fishing Ships can be garrisoned inside Docks.</string>
+
+	<string name="bonus_tech_tree_description_209">Camel and Elephant units are trained 25% faster.</string>
+	<string name="bonus_item_description_209">\@ are trained 25% faster.</string>
  
     <!--building_description.xml-->
      
@@ -1451,6 +1499,12 @@
     <string name="building_description_brief_34">Polish Unique Building. Immediately collects 10% of food from nearby newly constucted farms. Provides 5 population.</string>
     <string name="building_description_long_34">Polish Unique Building. Used to deposit food and research farming improvements. Immediately collects 10% of food from nearby newly constucted farms. Provides 5 population.</string>
     <string name="building_description_extra_34"/> 
+	
+	<string name="building_description_nominative_35">Caravanserai</string>
+    <string name="building_description_quick_35">Economic building that heals and speeds up nearby Trade Carts</string>
+    <string name="building_description_brief_35"/>
+    <string name="building_description_long_35">Hindustani Unique Building. Economic building. Heals (60 HP per minute) and increases the movement speed (by 20%) of Trade Carts which are within a radius of 10 tiles.</string>
+    <string name="building_description_extra_35"/> 
  
     <!--building_list.xml-->
      
@@ -1489,6 +1543,7 @@
     <string name="building_name_32">Krepost</string>
     <string name="building_name_33">Donjon</string>
     <string name="building_name_34">Folwark</string>
+    <string name="building_name_35">Caravanserai</string>
      
     <!--civilization_list.xml-->
      
@@ -1505,7 +1560,7 @@
     <string name="civilization_name_10">Goths</string>
     <string name="civilization_name_11">Huns</string>
     <string name="civilization_name_12">Incas</string>
-    <string name="civilization_name_13">Indians</string>
+    <string name="civilization_name_13">Hindustanis</string>
     <string name="civilization_name_14">Italians</string>
     <string name="civilization_name_15">Japanese</string>
     <string name="civilization_name_16">Khmer</string>
@@ -1532,6 +1587,9 @@
     <string name="civilization_name_37">Sicilians</string>
     <string name="civilization_name_38">Bohemians</string>
     <string name="civilization_name_39">Poles</string>
+    <string name="civilization_name_40">Bengalis</string>
+    <string name="civilization_name_41">Dravidians</string>
+    <string name="civilization_name_42">Gurjaras</string>
      
     <!--civilization_style.xml-->
      
@@ -1575,6 +1633,9 @@
     <string name="civilization_style_37">Infantry and Cavalry civilization</string>
     <string name="civilization_style_38">Gunpowder and Monk civilization</string>
     <string name="civilization_style_39">Cavalry civilization</string>
+    <string name="civilization_style_40">Elephant and Naval civilization</string>
+    <string name="civilization_style_41">Infantry and Naval civilization</string>
+    <string name="civilization_style_42">Cavalry and Camel civilization</string>
      
     <!--class_list.xml-->
      
@@ -1624,6 +1685,7 @@
     <string name="eco_name_20">Farming Gold</string>
     <string name="eco_name_21">Food Relic</string>
     <string name="eco_name_22">Gold Stone Miners</string>
+    <string name="eco_name_23">Gold Lumberjacks</string>
      
     <!--gathering_rates.xml-->
      
@@ -1648,6 +1710,8 @@
     <string name="gathering_rates_18">Feitoria Gold</string>
     <string name="gathering_rates_19">Feitoria Stone</string>
     <string name="gathering_rates_20">Keshik</string>
+    <string name="gathering_rates_21">Gold generated by Lumberjacks</string>
+	
      
     <!--history_list.xml-->
      
@@ -1664,7 +1728,7 @@
     <string name="history_name_10">The Goths</string>
     <string name="history_name_11">The Huns</string>
     <string name="history_name_12">The Incas</string>
-    <string name="history_name_13">The Indians</string>
+    <string name="history_name_13">The Hindustanis</string>
     <string name="history_name_14">The Italians</string>
     <string name="history_name_15">The Japanese</string>
     <string name="history_name_16">The Khmer</string>
@@ -1727,6 +1791,9 @@
     <string name="history_name_73">The Sicilians</string>
     <string name="history_name_74">The Bohemians</string>
     <string name="history_name_75">The Poles</string>
+    <string name="history_name_76">The Bengalis</string>
+    <string name="history_name_77">The Dravidians</string>
+    <string name="history_name_78">The Gurjaras</string>
      
     <!--performance_list.xml-->
      
@@ -1772,7 +1839,7 @@
     <string name="performance_name_39">Huskarls</string>
     <string name="performance_name_40">Tarkans</string>
     <string name="performance_name_41">Kamayuks</string>
-    <string name="performance_name_42">Elephant Archers</string>
+    <string name="performance_name_42">Ghulams</string>
     <string name="performance_name_43">Genoese Crossbowmen</string>
     <string name="performance_name_44">Samurai</string>
     <string name="performance_name_45">Ballista Elephants</string>
@@ -1806,6 +1873,13 @@
     <string name="performance_name_73">Flemish Militia</string>
     <string name="performance_name_74">Hussite Wagons</string>
     <string name="performance_name_75">Obuch</string>
+    <string name="performance_name_76">Elephant Archers</string>
+	<string name="performance_name_77">Shrivamsha Riders</string>
+	<string name="performance_name_78">Siege Elephants</string>
+	<string name="performance_name_79">Thirisadai</string>
+	<string name="performance_name_80">Rathas</string>
+	<string name="performance_name_81">Urumi Swordsmen</string>
+	<string name="performance_name_82">Chakram Throwers</string>
      
     <!--stat_list.xml-->
      
@@ -1825,7 +1899,7 @@
     <string name="stat_name_13">Number Projectiles</string>
     <string name="stat_name_14">Projectile Speed</string>
     <string name="stat_name_15">Garrison Capacity</string>
-    <string name="stat_name_16">Population Taken</string>
+    <string name="stat_name_16">Population</string>
     <string name="stat_name_17">Training Time</string>
     <string name="stat_name_18">Work Rate</string>
     <string name="stat_name_19">Heal Rate</string>
@@ -1835,6 +1909,8 @@
     <string name="stat_name_23">Charge Attack</string>
     <string name="stat_name_24">Charge Reload</string>
     <string name="stat_name_25">Relics</string>
+    <string name="stat_name_26">Ignore Armor</string>
+    <string name="stat_name_27">Resist Armor Ignore</string>
      
     <!--taunt_list.xml-->
      
@@ -2315,10 +2391,10 @@
     <string name="tech_description_extra_61">Foot archers get +1 range; towers get +2 attack.</string> 
     
     <string name="tech_description_nominative_62">Howdah</string>
-    <string name="tech_description_quick_62">Battle Elephants +1/+2 armor</string>
+    <string name="tech_description_quick_62">Battle Elephants +1/+1 armor</string>
     <string name="tech_description_brief_62"/>
-    <string name="tech_description_long_62">Burmese Castle Age Unique Technology. Battle Elephants receive +1 melee/+2 pierce armor.</string>
-    <string name="tech_description_extra_62">Battle Elephants receive +1 melee/+2 pierce armor.</string> 
+    <string name="tech_description_long_62">Burmese Castle Age Unique Technology. Battle Elephants receive +1 melee/+1 pierce armor.</string>
+    <string name="tech_description_extra_62">Battle Elephants receive +1 melee/+1 pierce armor.</string> 
     
     <string name="tech_description_nominative_63">Greek Fire</string>
     <string name="tech_description_quick_63">Fire Ships +1 range</string>
@@ -2368,10 +2444,10 @@
     <string name="tech_description_long_70">Incas Castle Age Unique Technology. Upgrades your Skirmishers and Slingers by removing their minimum range.</string>
     <string name="tech_description_extra_70">Upgrades your Skirmishers and Slingers by removing their minimum range.</string> 
     
-    <string name="tech_description_nominative_71">Sultans</string>
+    <string name="tech_description_nominative_71">Grand Trunk Road</string>
     <string name="tech_description_quick_71">All gold production +10% faster</string>
     <string name="tech_description_brief_71"/>
-    <string name="tech_description_long_71">Indians Castle Age Unique Technology. All gold income +10% faster (Trade, mines, relics).</string>
+    <string name="tech_description_long_71">Hindustanis Castle Age Unique Technology. All gold income +10% faster (Trade, mines, relics).</string>
     <string name="tech_description_extra_71">All gold income +10% faster (Trade, mines, relics).</string> 
     
     <string name="tech_description_nominative_72">Pavise</string>
@@ -2440,17 +2516,17 @@
     <string name="tech_description_long_82">Portuguese Castle Age Unique Technology. Ships receive +1 melee/+1 pierce armor.</string>
     <string name="tech_description_extra_82">Ships receive +1 melee/+1 pierce armor.</string> 
     
-    <string name="tech_description_nominative_83">Madrasah</string>
-    <string name="tech_description_quick_83">Killed Monks return 33% of their cost</string>
+    <string name="tech_description_nominative_83">Zealotry</string>
+    <string name="tech_description_quick_83">Camel Riders, Mamelukes +20 HP</string>
     <string name="tech_description_brief_83"/>
-    <string name="tech_description_long_83">Saracens Castle Age Unique Technology. Killed monks return 33% of their cost.</string>
-    <string name="tech_description_extra_83">Killed monks return 33% of their cost.</string> 
+    <string name="tech_description_long_83">Saracens Castle Age Unique Technology. Camel Riders and Mamelukes have +20 hit points.</string>
+    <string name="tech_description_extra_83">Camel Riders and Mamelukes get +20 hit points.</string> 
     
-    <string name="tech_description_nominative_84">Orthodoxy</string>
-    <string name="tech_description_quick_84">Monks +3/+3 armor</string>
+    <string name="tech_description_nominative_84">Detinets</string>
+    <string name="tech_description_quick_84">Replaces 40% stone cost of Towers and Castles with wood.</string>
     <string name="tech_description_brief_84"/>
-    <string name="tech_description_long_84">Slavs Castle Age Unique Technology. Monks receive +3 melee/+3 pierce armor.</string>
-    <string name="tech_description_extra_84">Monks receive +3 melee/+3 pierce armor.</string> 
+    <string name="tech_description_long_84">Slavs Castle Age Unique Technology. Replaces 40% stone cost of Towers and Castles with wood.</string>
+    <string name="tech_description_extra_84">Replaces 40% stone cost of Towers and Castles with wood.</string> 
     
     <string name="tech_description_nominative_85">Inquisition</string>
     <string name="tech_description_quick_85">Monks convert faster</string>
@@ -2872,10 +2948,10 @@
     <string name="tech_description_long_154">Upgrades your Kamayuks and lets you create Elite Kamayuks.</string>
     <string name="tech_description_extra_154"/> 
     
-    <string name="tech_description_nominative_155">Elite Elephant Archer</string>
+    <string name="tech_description_nominative_155">Elite Ghulam</string>
     <string name="tech_description_quick_155"/>
     <string name="tech_description_brief_155"/>
-    <string name="tech_description_long_155">Upgrades your Elephant Archers and lets you create Elite Elephant Archers.</string>
+    <string name="tech_description_long_155">Upgrades your Ghulams and lets you create Elite Ghulams.</string>
     <string name="tech_description_extra_155"/> 
     
     <string name="tech_description_nominative_156">Elite Genoese Crossbowman</string>
@@ -3059,10 +3135,10 @@
     <string name="tech_description_extra_185">Kamayuks, Slingers, Eagles get +1 melee/+2 pierce armor.</string> 
     
     <string name="tech_description_nominative_186">Shatagni</string>
-    <string name="tech_description_quick_186">Hand Cannoneers +1 Range</string>
+    <string name="tech_description_quick_186">Hand Cannoneers +2 Range</string>
     <string name="tech_description_brief_186"/>
-    <string name="tech_description_long_186">Indians Imperial Age Unique Technology. Hand Cannoneers get +1 range.</string>
-    <string name="tech_description_extra_186">Hand Cannoneers get +1 range.</string> 
+    <string name="tech_description_long_186">Hindustanis Imperial Age Unique Technology. Hand Cannoneers get +2 range.</string>
+    <string name="tech_description_extra_186">Hand Cannoneers get +2 range.</string> 
     
     <string name="tech_description_nominative_187">Silk Road</string>
     <string name="tech_description_quick_187">Trade units cost -50%</string>
@@ -3130,11 +3206,11 @@
     <string name="tech_description_long_197">Portuguese Imperial Age Unique Technology. Ballistics for gunpowder units and buildings; projectiles move faster (+0.5 speed for Hand Cannoneer, Cannon Galleons and Organ Gun projectiles, +0.2 speed for Bombard Cannon and Bombard Tower projectiles).</string>
     <string name="tech_description_extra_197">Ballistics for gunpowder units and buildings; projectiles move faster (+0.5 speed for Hand Cannoneer, Cannon Galleons and Organ Gun projectiles, +0.2 speed for Bombard Cannon and Bombard Tower projectiles).</string> 
     
-    <string name="tech_description_nominative_198">Zealotry</string>
-    <string name="tech_description_quick_198">Camel Riders, Mamelukes +20 HP</string>
+    <string name="tech_description_nominative_198">Counterwheights</string>
+    <string name="tech_description_quick_198">Trebuchets and Onger-line +15% attack</string>
     <string name="tech_description_brief_198"/>
-    <string name="tech_description_long_198">Saracens Imperial Age Unique Technology. Camel Riders and Mamelukes have +20 hit points.</string>
-    <string name="tech_description_extra_198">Camel Riders and Mamelukes get +20 hit points.</string> 
+    <string name="tech_description_long_198">Saracens Imperial Age Unique Technology. Trebuchets and Onger-line have +15% attack and bonus damage.</string>
+    <string name="tech_description_extra_198">Trebuchets and Onger-line have +15% attack and bonus damage.</string> 
     
     <string name="tech_description_nominative_199">Druzhina</string>
     <string name="tech_description_quick_199">Infantry do trample damage</string>
@@ -3161,10 +3237,10 @@
     <string name="tech_description_extra_202">Bombard Towers, Bombard Cannons, and Cannon Galleons get +2 range.</string> 
     
     <string name="tech_description_nominative_203">Paper Money</string>
-    <string name="tech_description_quick_203">Tributes 500 gold to each ally</string>
+    <string name="tech_description_quick_203">Lumberjacks slowly generate gold</string>
     <string name="tech_description_brief_203"/>
-    <string name="tech_description_long_203">Vietnamese Imperial Age Unique Technology. You and all your allies receive +500 Gold.</string>
-    <string name="tech_description_extra_203">You and all your allies receive +500 Gold.</string> 
+    <string name="tech_description_long_203">Vietnamese Imperial Age Unique Technology. Lumberjacks slowly generate gold (1.5 gold per minute).</string>
+    <string name="tech_description_extra_203">Lumberjacks slowly generate gold (1.5 gold per minute).</string> 
     
     <string name="tech_description_nominative_204">Berserkergang</string>
     <string name="tech_description_quick_204">Berserks regenerate faster</string>
@@ -3233,10 +3309,10 @@
     <string name="tech_description_extra_214">Militia-line get +5 melee armor.</string> 
     
     <string name="tech_description_nominative_215">Cuman Mercenaries</string>
-    <string name="tech_description_quick_215">Team members can train 10 Elite Kipchaks for free</string>
+    <string name="tech_description_quick_215">Team members can train 5 free Elite Kipchaks per Castle</string>
     <string name="tech_description_brief_215"/>
-    <string name="tech_description_long_215">Cuman Imperial Age Unique Technology. You and your allies can create 10 Elite Kipchak for free in the Castle.</string>
-    <string name="tech_description_extra_215">You and your allies can create 10 Elite Kipchack for free in the Castle.</string> 
+    <string name="tech_description_long_215">Cuman Imperial Age Unique Technology. You and your allies can create 5 free Elite Kipchak per Castle. Allied players can create them starting in Castle Age.</string>
+    <string name="tech_description_extra_215">You and your allies can create 5 free Elite Kipchak per Castle</string> 
     
     <string name="tech_description_nominative_216">Tower Shields</string>
     <string name="tech_description_quick_216">Spearman-line, Skirmishers +2 pierce armor</string>
@@ -3333,7 +3409,79 @@
     <string name="tech_description_brief_231"/>
     <string name="tech_description_long_231">Upgrades your Bombard Cannons and lets you create Houfnice.</string>
     <string name="tech_description_extra_231"/> 
- 
+	
+	<string name="tech_description_nominative_232">Paiks</string>
+    <string name="tech_description_quick_232">Rathas and Elephant units attack 20% faster</string>
+    <string name="tech_description_brief_232"/>
+    <string name="tech_description_long_232">Bengali Castle Age Unique Technology. Rathas and Elephant units attack 20% faster.</string>
+    <string name="tech_description_extra_232">Rathas and Elephant units attack 20% faster.</string> 
+	
+	<string name="tech_description_nominative_233">Medical Corps</string>
+    <string name="tech_description_quick_233">Elephant units regenerate 20 HP per minute</string>
+    <string name="tech_description_brief_233"/>
+    <string name="tech_description_long_233">Dravidian Castle Age Unique Technology. Elephant units regenerate 20 HP per minute.</string>
+    <string name="tech_description_extra_233">Elephant units regenerate 20 HP per minute.</string>
+
+	<string name="tech_description_nominative_234">Kshatriyas</string>
+    <string name="tech_description_quick_234">Military units cost 25% less food</string>
+    <string name="tech_description_brief_234"/>
+    <string name="tech_description_long_234">Gurjara Castle Age Unique Technology. Military units cost 25% less food.</string>
+    <string name="tech_description_extra_234">Military units cost 25% less food.</string> 	
+	
+	<string name="tech_description_nominative_235">Elite Elephant Archer</string>
+    <string name="tech_description_quick_235"/>
+    <string name="tech_description_brief_235"/>
+    <string name="tech_description_long_235">Upgrades your Elephant Archers and lets you create Elite Elephant Archers.</string>
+    <string name="tech_description_extra_235"/> 
+	
+	<string name="tech_description_nominative_236">Elite Shrivamsha Rider</string>
+    <string name="tech_description_quick_236"/>
+    <string name="tech_description_brief_236"/>
+    <string name="tech_description_long_236">Upgrades your Shrivamsha Riders and lets you create Elite Shrivamsha Riders.</string>
+    <string name="tech_description_extra_236"/> 
+	
+	<string name="tech_description_nominative_237">Siege Elephant</string>
+    <string name="tech_description_quick_237"/>
+    <string name="tech_description_brief_237"/>
+    <string name="tech_description_long_237">Upgrades your Armored Elephants and lets you create Siege Elephants.</string>
+    <string name="tech_description_extra_237"/> 
+	
+	<string name="tech_description_nominative_238">Elite Ratha</string>
+    <string name="tech_description_quick_238"/>
+    <string name="tech_description_brief_238"/>
+    <string name="tech_description_long_238">Upgrades your Rathas and lets you create Elite Rathas.</string>
+    <string name="tech_description_extra_238"/> 
+	
+	<string name="tech_description_nominative_239">Elite Urumi Swordsman</string>
+    <string name="tech_description_quick_239"/>
+    <string name="tech_description_brief_239"/>
+    <string name="tech_description_long_239">Upgrades your Urumi Swordsmen and lets you create Elite Urumi Swordsmen.</string>
+    <string name="tech_description_extra_239"/> 
+	
+	<string name="tech_description_nominative_240">Elite Chakram Thrower</string>
+    <string name="tech_description_quick_240"/>
+    <string name="tech_description_brief_240"/>
+    <string name="tech_description_long_240">Upgrades your Chakram Throwers and lets you create Elite Chakram Throwers.</string>
+    <string name="tech_description_extra_240"/> 
+	
+	<string name="tech_description_nominative_241">Mahayana</string>
+    <string name="tech_description_quick_241">Villagers take 10% less population space</string>
+    <string name="tech_description_brief_241"/>
+    <string name="tech_description_long_241">Bengali Imperial Age Unique Technology. Villagers take 10% less population space.</string>
+    <string name="tech_description_extra_241">Villagers take 10% less population space.</string> 	
+	
+	<string name="tech_description_nominative_242">Wootz Steel</string>
+    <string name="tech_description_quick_242">Infantry and Cavalry attacks ignore armor.</string>
+    <string name="tech_description_brief_242"/>
+    <string name="tech_description_long_242">Dravidian Imperial Age Unique Technology. Infantry and Cavalry attacks ignore armor.</string>
+    <string name="tech_description_extra_242">Infantry and Cavalry attacks ignore armor.</string>
+	
+	<string name="tech_description_nominative_243">Frontier Guards</string>
+    <string name="tech_description_quick_243">Camel Riders and Elephant Archers +4 melee armor</string>
+    <string name="tech_description_brief_243"/>
+    <string name="tech_description_long_243">Gurjara Imperial Age Unique Technology. Camel Riders and Elephant Archers get +4 melee armor.</string>
+    <string name="tech_description_extra_243">Camel Riders and Elephant Archers get +4 melee armor.</string>
+    
     <!--tech_list.xml-->
      
     
@@ -3407,7 +3555,7 @@
     <string name="tech_name_68">Anarchy</string>
     <string name="tech_name_69">Marauders</string>
     <string name="tech_name_70">Andean Sling</string>
-    <string name="tech_name_71">Sultans</string>
+    <string name="tech_name_71">Grand Trunk Road</string>
     <string name="tech_name_72">Pavise</string>
     <string name="tech_name_73">Yasama</string>
     <string name="tech_name_74">Tusk Swords</string>
@@ -3419,8 +3567,8 @@
     <string name="tech_name_80">Nomads</string>
     <string name="tech_name_81">Kamandaran</string>
     <string name="tech_name_82">Carrack</string>
-    <string name="tech_name_83">Madrasah</string>
-    <string name="tech_name_84">Orthodoxy</string>
+    <string name="tech_name_83">Zealotry</string>
+    <string name="tech_name_84">Detinets</string>
     <string name="tech_name_85">Inquisition</string>
     <string name="tech_name_86">Ironclad</string>
     <string name="tech_name_87">Sipahi</string>
@@ -3491,7 +3639,7 @@
     <string name="tech_name_152">Elite Huskarl</string>
     <string name="tech_name_153">Elite Tarkan</string>
     <string name="tech_name_154">Elite Kamayuk</string>
-    <string name="tech_name_155">Elite Elephant Archer</string>
+    <string name="tech_name_155">Elite Ghulam</string>
     <string name="tech_name_156">Elite Genoese Crossbowman</string>
     <string name="tech_name_157">Elite Samurai</string>
     <string name="tech_name_158">Elite Ballista Elephant</string>
@@ -3534,7 +3682,7 @@
     <string name="tech_name_195">Drill</string>
     <string name="tech_name_196">Mahouts</string>
     <string name="tech_name_197">Arquebus</string>
-    <string name="tech_name_198">Zealotry</string>
+    <string name="tech_name_198">Counterwheights</string>
     <string name="tech_name_199">Druzhina</string>
     <string name="tech_name_200">Supremacy</string>
     <string name="tech_name_201">Crenellations</string>
@@ -3568,6 +3716,18 @@
     <string name="tech_name_229">Hussite Reforms</string>
     <string name="tech_name_230">Lechitic Legacy</string>
     <string name="tech_name_231">Houfnice</string>
+    <string name="tech_name_232">Paiks</string>
+    <string name="tech_name_233">Medical Corps</string>
+    <string name="tech_name_234">Kshatriyas</string>
+    <string name="tech_name_235">Elite Elephant Archer</string>
+    <string name="tech_name_236">Elite Shrivamsha Rider</string>
+    <string name="tech_name_237">Siege Elephant</string>
+    <string name="tech_name_238">Elite Ratha</string>
+    <string name="tech_name_239">Elite Urumi Swordsman</string>
+    <string name="tech_name_240">Elite Chakram Thrower</string>
+    <string name="tech_name_241">Mahayana</string>
+    <string name="tech_name_242">Wootz Steel</string>
+    <string name="tech_name_243">Frontier Guards</string>
      
     <!--type_list.xml-->
      
@@ -3920,10 +4080,10 @@
     <string name="unit_description_long_52">Inca Unique Unit. Infantry equipped with a long spear, which allows it to attack 1 tile away. Strong against Cavalry.</string>
     <string name="unit_description_extra_52"/> 
     
-    <string name="unit_description_nominative_53">Elephant Archers</string>
-    <string name="unit_description_quick_53">High HP Cavalry Archer</string>
+    <string name="unit_description_nominative_53">Ghulam</string>
+    <string name="unit_description_quick_53">Piercing Infantry</string>
     <string name="unit_description_brief_53"/>
-    <string name="unit_description_long_53">Indian Unique Unit. Slow Cavalry Archer with very high HP and pierce armor.</string>
+    <string name="unit_description_long_53">Hindustani Unique Unit. Fast Infantry with high pierce armor which thursts its spear through multiple targets. Effective against Archers.</string>
     <string name="unit_description_extra_53"/> 
     
     <string name="unit_description_nominative_54">Genoese Crossbowmen</string>
@@ -4169,7 +4329,7 @@
     <string name="unit_description_nominative_94">Imperial Camel Riders</string>
     <string name="unit_description_quick_94">Extra Camel Rider upgrade</string>
     <string name="unit_description_brief_94"/>
-    <string name="unit_description_long_94">Indian Unique Unit. Fast mounted unit that excels at killing other mounted units.</string>
+    <string name="unit_description_long_94">Hindustani Unique Unit. Fast mounted unit that excels at killing other mounted units.</string>
     <string name="unit_description_extra_94"/> 
     
     <string name="unit_description_nominative_95">Elite Battle Elephants</string>
@@ -4298,10 +4458,10 @@
     <string name="unit_description_long_115">Inca Unique Unit. Infantry equipped with a long spear, which allows it to attack 1 tile away. Strong against Cavalry and Infantry.</string>
     <string name="unit_description_extra_115"/> 
     
-    <string name="unit_description_nominative_116">Elite Elephant Archers</string>
-    <string name="unit_description_quick_116">High HP Cavalry Archer</string>
+    <string name="unit_description_nominative_116">Elite Ghulam</string>
+    <string name="unit_description_quick_116">Piercing Infantry</string>
     <string name="unit_description_brief_116"/>
-    <string name="unit_description_long_116">Indian Unique Unit. Slow Cavalry Archer with very high HP and pierce armor.</string>
+    <string name="unit_description_long_116">Hindustani Unique Unit. Fast Infantry with high pierce armor which thursts its spear through multiple targets. Effective against Archers.</string>
     <string name="unit_description_extra_116"/> 
     
     <string name="unit_description_nominative_117">Elite Genoese Crossbowmen</string>
@@ -4561,10 +4721,106 @@
     <string name="unit_description_brief_159"/>
     <string name="unit_description_long_159">Bohemian Unique Unit. Powerful and mobile Siege Weapon with long range. Strong against Buildings and other Siege Weapons.</string>
     <string name="unit_description_extra_159"/> 
+	
+	<string name="unit_description_nominative_160">Camel Scouts</string>
+    <string name="unit_description_quick_160">Camel Rider available in the Feudal Age</string>
+    <string name="unit_description_brief_160"/>
+    <string name="unit_description_long_160">Gurjara Unique Unit. Used by the Gurjaras as the initial scout unit. Fast mounted unit that excels at killing other mounted units.</string>
+    <string name="unit_description_extra_160"/>
+	
+	<string name="unit_description_nominative_161">Elephant Archers</string>
+    <string name="unit_description_quick_161"/>
+    <string name="unit_description_brief_161"/>
+    <string name="unit_description_long_161">Slow Cavalry Archer with very high HP and pierce armor. Effective against other Archers.</string>
+    <string name="unit_description_extra_161"/>
+	
+	<string name="unit_description_nominative_162">Shrivamsha Riders</string>
+    <string name="unit_description_quick_162">Light Cavalry that can dodge arrows</string>
+    <string name="unit_description_brief_162"/>
+    <string name="unit_description_long_162">Gurjara Unique Unit. Fast Cavalry unit which can dodge arrows. Can dodge up to 5 arrows, which recharge over 15 seconds (1 arrow each 3 seconds).</string>
+    <string name="unit_description_extra_162"/>
+		
+	<string name="unit_description_nominative_163">Armored Elephants</string>
+    <string name="unit_description_quick_163"/>
+    <string name="unit_description_brief_163"/>
+    <string name="unit_description_long_163">Slow Cavalry with high HP and very high pierce armor, used to destroy enemy Buildings. Cannot be converted from distance.</string>
+    <string name="unit_description_extra_163"/>
+	
+	<string name="unit_description_nominative_164">Rathas (Ranged)</string>
+    <string name="unit_description_quick_164">Charriot that can switch between ranged and melee attack</string>
+    <string name="unit_description_brief_164"/>
+    <string name="unit_description_long_164">Bengali Unique Unit. Charriot that can switch between ranged and melee attack.</string>
+    <string name="unit_description_extra_164"/>
+	
+	<string name="unit_description_nominative_165">Rathas (Melee)</string>
+    <string name="unit_description_quick_165">Charriot that can switch between ranged and melee attack</string>
+    <string name="unit_description_brief_165"/>
+    <string name="unit_description_long_165">Bengali Unique Unit. Charriot that can switch between ranged and melee attack.</string>
+    <string name="unit_description_extra_165"/>
+	
+	<string name="unit_description_nominative_166">Urumi Swordsmen</string>
+    <string name="unit_description_quick_166">Charge Infantry</string>
+    <string name="unit_description_brief_166"/>
+    <string name="unit_description_long_166">Dravidian Unique Unit. Infantry that can charge its attack, dealing splash damage when charging. Effective against other Infantry units.</string>
+    <string name="unit_description_extra_166"/>
+	
+	<string name="unit_description_nominative_167">Chakram Thrower</string>
+    <string name="unit_description_quick_167">Piercing ranged Infantry</string>
+    <string name="unit_description_brief_167"/>
+    <string name="unit_description_long_167">Gurjara Unique Unit. Ranged Infantry which throws piercing Chakrams.</string>
+    <string name="unit_description_extra_167"/>	
+	
+	<string name="unit_description_nominative_168">Thirisadai</string>
+    <string name="unit_description_quick_168">Heavy Warship</string>
+    <string name="unit_description_brief_168"/>
+    <string name="unit_description_long_168">Dravidian Unique Unit. Heavy Warship which fires multiples arrows. Effective against the Galley-line.</string>
+    <string name="unit_description_extra_168"/>	
+	
+	<string name="unit_description_nominative_169">Elite Elephant Archers</string>
+    <string name="unit_description_quick_169"/>
+    <string name="unit_description_brief_169"/>
+    <string name="unit_description_long_169">Slow Cavalry Archer with very high HP and pierce armor. Effective against other Archers.</string>
+    <string name="unit_description_extra_169"/>
+	
+	<string name="unit_description_nominative_170">Elite Shrivamsha Riders</string>
+    <string name="unit_description_quick_170">Light Cavalry that can dodge arrows</string>
+    <string name="unit_description_brief_170"/>
+    <string name="unit_description_long_170">Gurjara Unique Unit. Fast Cavalry unit which can dodge arrows. Can dodge up to 7 arrows, which recharge over 15 seconds (1 arrow each 2.14 seconds).</string>
+    <string name="unit_description_extra_170"/>
+	
+	<string name="unit_description_nominative_171">Siege Elephants</string>
+    <string name="unit_description_quick_171"/>
+    <string name="unit_description_brief_171"/>
+    <string name="unit_description_long_171">Slow Cavalry with high HP and very high pierce armor, used to destroy enemy Buildings. Cannot be converted from distance.</string>
+    <string name="unit_description_extra_171"/>
+	
+	<string name="unit_description_nominative_172">Elite Rathas (Ranged)</string>
+    <string name="unit_description_quick_172">Charriot that can switch between ranged and melee attack</string>
+    <string name="unit_description_brief_172"/>
+    <string name="unit_description_long_172">Bengali Unique Unit. Charriot that can switch between ranged and melee attack.</string>
+    <string name="unit_description_extra_172"/>
+	
+	<string name="unit_description_nominative_173">Elite Rathas (Melee)</string>
+    <string name="unit_description_quick_173">Charriot that can switch between ranged and melee attack</string>
+    <string name="unit_description_brief_173"/>
+    <string name="unit_description_long_173">Bengali Unique Unit. Charriot that can switch between ranged and melee attack.</string>
+    <string name="unit_description_extra_173"/>
+	
+	<string name="unit_description_nominative_174">Elite Urumi Swordsmen</string>
+    <string name="unit_description_quick_174">Charge Infantry</string>
+    <string name="unit_description_brief_174"/>
+    <string name="unit_description_long_174">Dravidian Unique Unit. Infantry that can charge its attack, dealing splash damage when charging. Effective against other Infantry units.</string>
+    <string name="unit_description_extra_174"/>
+	
+	<string name="unit_description_nominative_175">Elite Chakram Thrower</string>
+    <string name="unit_description_quick_175">Piercing ranged Infantry</string>
+    <string name="unit_description_brief_175"/>
+    <string name="unit_description_long_175">Gurjara Unique Unit. Ranged Infantry which throws piercing Chakrams.</string>
+    <string name="unit_description_extra_175"/>	
+	
  
     <!--unit_list.xml-->
      
-    
     <string name="unit_name_1">Villager</string>
     <string name="unit_name_2">Fishing Ship</string>
     <string name="unit_name_3">Transport Ship</string>
@@ -4617,7 +4873,7 @@
     <string name="unit_name_50">Huskarl</string>
     <string name="unit_name_51">Tarkan</string>
     <string name="unit_name_52">Kamayuk</string>
-    <string name="unit_name_53">Elephant Archer</string>
+    <string name="unit_name_53">Ghulam</string>
     <string name="unit_name_54">Genoese Crossbowman</string>
     <string name="unit_name_55">Samurai</string>
     <string name="unit_name_56">Ballista Elephant</string>
@@ -4680,7 +4936,7 @@
     <string name="unit_name_113">Elite Huskarl</string>
     <string name="unit_name_114">Elite Tarkan</string>
     <string name="unit_name_115">Elite Kamayuk</string>
-    <string name="unit_name_116">Elite Elephant Archer</string>
+    <string name="unit_name_116">Elite Ghulam</string>
     <string name="unit_name_117">Elite Genoese Crossbowman</string>
     <string name="unit_name_118">Elite Samurai</string>
     <string name="unit_name_119">Elite Ballista Elephant</string>
@@ -4724,6 +4980,22 @@
     <string name="unit_name_157">Elite Hussite Wagon</string>
     <string name="unit_name_158">Elite Obuch</string>
     <string name="unit_name_159">Houfnice</string>
+    <string name="unit_name_160">Camel Scout</string>
+    <string name="unit_name_161">Elephant Archer</string>
+    <string name="unit_name_162">Shrivamsha Rider</string>
+    <string name="unit_name_163">Armored Elephant</string>
+    <string name="unit_name_164">Ratha (Ranged)</string>
+    <string name="unit_name_165">Ratha (Melee)</string>
+    <string name="unit_name_166">Urumi Swordsman</string>
+    <string name="unit_name_167">Chakram Thrower</string>
+    <string name="unit_name_168">Thirisadai</string>
+    <string name="unit_name_169">Elite Elephant Archer</string>
+    <string name="unit_name_170">Elite Shrivamsha Rider</string>
+    <string name="unit_name_171">Siege Elephant</string>
+    <string name="unit_name_172">Elite Ratha (Ranged)</string>
+    <string name="unit_name_173">Elite Ratha (Melee)</string>
+    <string name="unit_name_174">Elite Urumi Swordsman</string>
+    <string name="unit_name_175">Elite Chakram Thrower</string>
 	
 	<!--unit_groups.xml-->	
 	
@@ -4783,6 +5055,9 @@
 	<string name="civilization_group2_category6">The Last Khans</string>
 	<string name="civilization_group2_category7">Lords of the West</string>
 	<string name="civilization_group2_category8">Dawn of the Dukes</string>
+	<string name="civilization_group2_category9">Dynasties of India</string>
+	
+	
 	
 	<!--building_groups.xml-->	
 	

@@ -651,4 +651,47 @@
 			<armorValueEffect/>
 		</effects>
 	</item>
+	<item id="24">
+		<effects>
+			<statEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="2" operator="+" value="0 2 2 2"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="7" operator="+" value="0 1 1 1"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="9" operator="+" value="0 0.25 0.25 0.25"/>
+				</effectItem>
+			</statEffect>
+			<costEffect/>
+			<ecoEffect/>
+			<attackValueEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="1" operator="+" value="0 2 2 2"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="9" operator="+" value="0 4 4 4"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="16" operator="+" value="0 2 2 2"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="10" operator="+" value="0 2 2 2"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="29" operator="+" value="0 2 2 2"/>
+				</effectItem>
+			</attackValueEffect>
+			<armorValueEffect/>
+		</effects>
+	</item>
 </list>
