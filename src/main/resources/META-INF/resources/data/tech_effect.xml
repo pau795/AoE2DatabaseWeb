@@ -3617,6 +3617,10 @@
 					<filter/>
 					<operation stat="Food" operator="*" value="0.75"/>
 				</effectItem>
+				<effectItem>
+					<filter class="techRequirement" requiredTech="17" ids="4 10 24 80" />
+					<operation stat="Food" operator="@" value="30"/>
+				</effectItem>
 			</costEffect>
 			<ecoEffect/>
 			<attackValueEffect/>
