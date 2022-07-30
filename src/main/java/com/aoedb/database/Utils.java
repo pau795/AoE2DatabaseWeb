@@ -5,10 +5,12 @@ import com.aoedb.data.Entity;
 import com.aoedb.data.EntityElement;
 import com.aoedb.data.TypeElement;
 import com.vaadin.flow.component.Component;
+import com.vaadin.flow.component.combobox.ComboBox;
 import com.vaadin.flow.component.html.Div;
 import com.vaadin.flow.component.html.Image;
 import com.vaadin.flow.component.html.Label;
 import com.vaadin.flow.router.RouteParameters;
+import org.apache.commons.lang3.StringUtils;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -324,6 +326,9 @@ public class Utils {
         return new RouteParameters(map);
     }
 
+    public static ComboBox.ItemFilter<EntityElement> getEntityElementComboBoxFilter(){
+         return (entityElement, filterString) -> StringUtils.stripAccents(entityElement.getName().toLowerCase()).contains(StringUtils.stripAccents(filterString.toLowerCase()));
+    }
     public static Component getEntityItemRow(EntityElement entityElement, boolean border) {
         Label name = new Label(entityElement.getName());
         name.getStyle().set("flex-grow", "1");

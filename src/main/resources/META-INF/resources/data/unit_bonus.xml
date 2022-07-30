@@ -175,7 +175,7 @@
 		<hiddenBonusList/>
 	</item>
 	<item id="30">
-		<bonusList ids="2 157 41 51 79 81 100 177 164 143 203"/>
+		<bonusList ids="2 157 41 51 79 81 100 177 164 143 203 207"/>
 		<teamBonusList ids="9 13 166 134 58"/>
 		<uniqueTechList ids="59 70 79 219 213 87 234"/>
 		<hiddenBonusList/>
@@ -529,7 +529,7 @@
 		<hiddenBonusList/>
 	</item>
 	<item id="89">
-		<bonusList ids="2 157 41 51 79 81 100 177 164 143 203"/>
+		<bonusList ids="2 157 41 51 79 81 100 177 164 143 203 207"/>
 		<teamBonusList ids="9 13 166 134 58"/>
 		<uniqueTechList ids="59 70 79 219 213 87 234"/>
 		<hiddenBonusList/>
@@ -975,7 +975,7 @@
 	<item id="163">
 		<bonusList ids="196 207"/>
 		<teamBonusList ids="28 134 209"/>
-		<uniqueTechList ids="232 233 234 242 243"/>
+		<uniqueTechList ids="232 233 234 242"/>
 		<hiddenBonusList/>
 	</item>
 	<item id="164">
@@ -1023,7 +1023,7 @@
 	<item id="171">
 		<bonusList ids="196 207"/>
 		<teamBonusList ids="28 134 209"/>
-		<uniqueTechList ids="232 233 234 242 243"/>
+		<uniqueTechList ids="232 233 234 242"/>
 		<hiddenBonusList/>
 	</item>
 	<item id="172">

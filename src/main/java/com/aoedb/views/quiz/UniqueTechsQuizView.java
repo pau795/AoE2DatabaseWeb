@@ -73,7 +73,7 @@ public class UniqueTechsQuizView extends QuizView {
             askedValue = civName;
             isCivQuestion = true;
 
-            selector.setItems(civNames);
+            selector.setItems(Utils.getEntityElementComboBoxFilter(), civNames);
         }
         else { //asking tech name
             correctionComment = Database.getString("quiz_select_tech", language);
@@ -93,7 +93,7 @@ public class UniqueTechsQuizView extends QuizView {
             correctionComment = String.format(Database.getString("quiz_correction_tech", language),techName);
             askedValue = techName;
             isCivQuestion = false;
-            selector.setItems(techNames);
+            selector.setItems(Utils.getEntityElementComboBoxFilter(), techNames);
         }
         updateQuestion();
         selector.setValue(null);

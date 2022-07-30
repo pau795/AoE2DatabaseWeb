@@ -88,7 +88,7 @@ public class UnitRecognitionQuizView extends QuizView {
 
         ArrayList<EntityElement> items = new ArrayList<>(Database.getList(Database.UNIT_LIST, language));
         items.sort(EntityElement.getAlphabeticalComparator());
-        unitSelector.setItems(items);
+        unitSelector.setItems(Utils.getEntityElementComboBoxFilter(), items);
         unitSelector.getElement().getStyle().set("--vaadin-combo-box-overlay-width","300px");
         return new Div(unitSelector);
     }

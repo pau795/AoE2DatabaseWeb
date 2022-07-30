@@ -22,8 +22,10 @@ import com.vaadin.flow.data.renderer.ComponentRenderer;
 import com.vaadin.flow.router.*;
 import com.vaadin.flow.server.PWA;
 import com.vaadin.flow.theme.Theme;
+import org.apache.commons.lang3.StringUtils;
 
 import java.util.HashMap;
+import java.util.Locale;
 import java.util.Map;
 
 
@@ -136,7 +138,9 @@ public class MainLayout extends AppLayout implements BeforeEnterObserver, AppShe
         searchField = new ComboBox<>();
         searchField.setItemLabelGenerator(EntityElement::getName);
         searchField.setRenderer(new ComponentRenderer<>(element -> Utils.getSearchEntityItemRow(element, language)));
-        searchField.setItems(Database.getList(Database.ENTITY_LIST, language));
+
+
+        searchField.setItems(Utils.getEntityElementComboBoxFilter(), Database.getList(Database.ENTITY_LIST, language));
         searchField.addClassNames("search-toolbar-searchbar");
         searchField.setPlaceholder(Database.getString("search_hint", language));
 

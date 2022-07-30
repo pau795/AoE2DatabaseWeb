@@ -49,12 +49,12 @@
     <string name="title_loading">Cargando</string>
     <string name="title_tools">Herramientas</string>
     <string name="title_miscellaneous">Misceláneo</string>
-    <string name="title_tech_tree_quiz">Árbol de Tecnologías</string>
-    <string name="title_civilization_quiz">Civilizaciones</string>
-    <string name="title_unit_building_stats_quiz">Estadísticas de Unidaes y Edificios</string>
-    <string name="title_unit_recognition_quiz">Reconocimiento de Unidades</string>
-    <string name="title_technology_stats_quiz">Estadísticas de Tecnologías</string>
-    <string name="title_unique_techs_quiz">Tecnologías Únicas</string>
+    <string name="title_tech_tree_quiz">Cuestionario del Árbol de Tecnologías</string>
+    <string name="title_civilization_quiz">Cuestionario de Civilizaciones</string>
+    <string name="title_unit_building_stats_quiz">Cuestionario de Estadísticas de Unidaes y Edificios</string>
+    <string name="title_unit_recognition_quiz">Cuestionario de Reconocimiento de Unidades</string>
+    <string name="title_technology_stats_quiz">Cuestionario de Estadísticas de Tecnologías</string>
+    <string name="title_unique_techs_quiz">Cuestionario de Tecnologías Únicas</string>
     <string name="title_stats_definition">Defición de las Estadísticas</string>
     <string name="title_taunts">Burlas</string>
     <string name="title_test_activity">Actividad de Prueba</string>
@@ -192,7 +192,7 @@
     <string name="damage_formula_basics">Cuando dos unidades o edificios luchan entre sí, hay muchos factores que determinan cuanto daño cada uno de ellos realizará. Para resumir, hay tres factores globales: Las estadísticas de la unidad, el multiplicador de colina y acantilado, y el multiplicador de precisión.</string>
     <string name="damage_formula_unit_stats">Las unidades tienen muchos tipos de estadísticas. Para averiguar cuanto daño inflige una unidad a otra, las estadísticas relevantes son el conjunto de valores de ataque, y el conjunto de valores de defensa. Hay que tener en cuenta que otras estadísticas como el tiempo de recarga, alcance o precisión tienen un impacto en los DPS (daño por segundo) de la unidad, pero el objetivo de este documento es mostrar el daño potencial que se realiza en un solo impacto.\n\nTodos los valores de ataque y armadura están asociados con una categoría. Por ejemplo, hay categorías para Infantería, Caballería o Arqueros, pero también las hay más específicas, como Guerreros Águilas, Elefantes o Mamelucos. Además, hay categorías para el daño básico de melé y proyectil. Por lo tanto, ambos conjuntos de valores de ataque y armadura utilizan estas categorías para representar un ataque o una armadura para una unidad específica.\n\nLas bonificaciones de ataque y defensa de una unidad se representan utilizando estos conjuntos. Por ejemplo, un Lancero tiene +15 de bonificación de ataque contra Caballería. Esto significa que el conjunto de valores de ataque contiene una entrada de 15 de ataque en la categoría de Caballería. Por otra parte, con el fin de que la Caballería de Exploración reciba el daño de bonificación de un Lancero, en su conjunto de valores de armadura contiene una entrada de 0 de armadura en la categoría de Caballería.\n\nEl daño base que una unidad realiza se calcula mediante la suma total de los valores de ataque, contra la armadura a ese ataque de la unidad receptora. Para cada categoría de ataque de la unidad agresora, la unidad receptora intenta emparejar esa categoría de ataque con sus valores de armadura. Si se consigue emparejar, se realizará la diferencia de ataque menos armadura. En caso de no haber emparejamiento, la unidad receptora obtiene 1000 de valor de armadura para esa categoría, y se realiza la misma resta de ataque menos armadura. Seguidamente, se realiza el máximo entre 0 y la resta obtenida previamente para obtener el valor de ataque infligido en la categoría. En el caso de que haya un factor de reducción de bonificación, como los Sicilianos, se reduce el valor de ataque del atacante por este factor antes de la resta de la armadura. Para obtener el valor base de ataque, se suman todos los valores de ataque infligidos para cada una de las categorías de ataque de la unidad. Se mostrará un ejemplo práctico al final de este documento para mejor comprensión.</string>
     <string name="damage_formula_hills">Luchar en elevaciones de terreno distintas tiene un gran impacto en la cantidad de daño infligido. Cuando una unidad lucha cuesta abajo, recibe un 25% de bonificación de ataque. Por otra parte, una unidad que lucha cuesta arriba recibe un 25% de penalización de ataque. Al final, significa que la unidad luchando cuesta abajo realiza un 25% más de ataque y recibe un 25% menos de daño, y viceversa.\n\nLuchar en acantilados también tiene beneficios. Las unidades que luchen desde arriba de un acantilado obtendrán un 25% de bonificación de daño contra unidades que estén debajo. Sin embargo, las unidades que estén debajo del acantilado no recibirán ninguna penalización de ataque contra las unidades que estén arriba. La bonificación de los Tártaros, otorga un 25% de bonificación de ataque adicional a las unidades que estén en una posición elevada. Hay que tener en cuenta que la bonificación de colina y la de acantilado no se acumulan.\n\nAdicionalmente, hay una mecánica peculiar alrededor de las colinas y acantilados. Si una unidad a distancia dispara un proyectil, y esta unidad muere antes de que el proyectil impacte, este proyectil no tendrá ninguna bonificación ni penalización de daño. Este truco puede ser útil en algunas situaciones, como en luchas con Manganas.\n\nFinalmente, hay un tipo de terreno que tiene un efecto especial: la arenisca agrietada. Los edificios que estén ubicados encima de arenisca agrietada, recibirán un 20% más de daño. Hay que tener en cuenta que el centro del edificio tiene que estar encima del terreno para que sea efectivo.</string>
-    <string name="damage_formula_accuracy1">Esta sección se aplica principalmente a unidades con alcance. Cuando una unidad fija un objetivo, y su proyectil impacta dicho objetivo, el multiplicador de precisión es 1, y la unidad realiza el total de su daño. Sin embargo, cuando el proyectil impacta en una unidad que no fuese su objetivo, el multiplicador se reduce a 0.5. Hay excepciones a esta regla, como los Arambai, cuyo multiplicador siempre será 1 incluso cuando fallen de objetivo.\nLas unidades con ataque melé suelen tener 1 en este multiplicador. Hay algunas excepciones, como los Elefantes, que tienen daño de área. El Elefante realiza el daño completo a la unidad seleccionada, y inflige un 25% del daño realizado a las unidades que estén dentro del daño de área.\n\nEsta mecánica funciona de forma similar para unidades que tienen proyectiles perforantes, como los Escorpiones. El Escorpión realizará el daño completo a la unidad seleccionada, y infligirá un 50% de daño a todas las unidades atravesadas. Por otra parte, para las unidades que tienen daño en área, tales como los Onagros, la mecánica funciona un poco diferente. Cuando el proyectil impacta en el suelo, todas las unidades que estén dentro del área de impacto reciben daño. El daño recibido dependerá de la distancia entre el lugar de la unidad y el centro del impacto. El multiplicador de precisión en este caso se puede obtener mediante la siguiente fórmula:</string>
+    <string name="damage_formula_accuracy1">Esta sección se aplica principalmente a unidades con alcance. Cuando una unidad fija un objetivo, y su proyectil impacta dicho objetivo, el multiplicador de precisión es 1, y la unidad realiza el total de su daño. Sin embargo, cuando el proyectil impacta en una unidad que no fuese su objetivo, el multiplicador se reduce a 0.5. Hay excepciones a esta regla, como los Arambai, cuyo multiplicador siempre será 1 incluso cuando fallen de objetivo.\nLas unidades con ataque melé suelen tener 1 en este multiplicador. Hay algunas excepciones, como los Elefantes, que tienen daño de área. El Elefante realiza el daño completo a la unidad seleccionada, e inflige un 25% del daño realizado a las unidades que estén dentro del daño de área.\n\nEsta mecánica funciona de forma similar para unidades que tienen proyectiles perforantes, como los Escorpiones. El Escorpión realizará el daño completo a la unidad seleccionada, e infligirá un 50% de daño a todas las unidades atravesadas. Por otra parte, para las unidades que tienen daño en área, tales como los Onagros, la mecánica funciona un poco diferente. Cuando el proyectil impacta en el suelo, todas las unidades que estén dentro del área de impacto reciben daño. El daño recibido dependerá de la distancia entre el lugar de la unidad y el centro del impacto. El multiplicador de precisión en este caso se puede obtener mediante la siguiente fórmula:</string>
     <string name="damage_formula_formula1_text">Donde:</string>
 	<string name="damage_formula_formula1_text1">&lt;b&gt;&lt;i&gt;A&lt;/i&gt;&lt;/b&gt; es el multiplicador de precisión</string>
 	<string name="damage_formula_formula1_text2">&lt;b&gt;&lt;i&gt;R&lt;/i&gt;&lt;/b&gt; es el área de impacto</string>
@@ -1239,8 +1239,8 @@
 	<string name="bonus_tech_tree_description_194">Los Elefantes de Combate tienen +1 de armadura melé y +1 de armadura antiproyectil.</string>
     <string name="bonus_item_description_194">\@ tienen +1 de armadura melé y +1 de armadura antiproyectil.</string> 
 	
-	<string name="bonus_tech_tree_description_195">Se pueden construir Caravaseras en la Edad Imperial.</string>
-    <string name="bonus_item_description_195">Se pueden construir Caravaseras en la Edad Imperial.</string> 
+	<string name="bonus_tech_tree_description_195">Se pueden construir Caravasares en la Edad Imperial.</string>
+    <string name="bonus_item_description_195">Se pueden construir Caravasares en la Edad Imperial.</string> 
 	
 	<string name="bonus_tech_tree_description_196">Las unidades en Elefante reciben un 25% menos de daño de bonificación y son más resistentes a la conversión.</string>
 	<string name="bonus_item_description_196">\@ reciben un 25% menos de daño de bonificación y son más resistentes a la conversión.</string>
@@ -1491,10 +1491,10 @@
     <string name="building_description_long_34">Edificio Único Polaco. Utilizado para depositar alimento, y desarrollar mejoras agrícolas. Recolecta inmediatamente el 10 % del alimento de las granjas cercanas recien construidas. Proporciona 5 de población.</string>
     <string name="building_description_extra_34"/> 
 	
-	<string name="building_description_nominative_35">Caravaseras</string>
+	<string name="building_description_nominative_35">Los Caravasares</string>
     <string name="building_description_quick_35">Edificio económico que cura y aumenta la velocidad de las Carretas de Mercancías cercanas.</string>
     <string name="building_description_brief_35"/>
-    <string name="building_description_long_35">Edificio Único Indostano. Edificio Económico. Cura (60 HP por minuto) y incrementa la velocidad de movimiento (un 20%) de las Carretas de Merancías que se encuentren en un radio de 10 casillas.</string>
+    <string name="building_description_long_35">Edificio Único Indostano. Edificio Económico. Cura (60 HP por minuto) e incrementa la velocidad de movimiento (un 20%) de las Carretas de Merancías que se encuentren en un radio de 10 casillas.</string>
     <string name="building_description_extra_35"/> 
  
     <!--building_list.xml-->
@@ -1704,6 +1704,34 @@
     <string name="gathering_rates_20">Keshik</string>
     <string name="gathering_rates_21">Oro generado por Leñadores</string>
      
+	 
+	 <!--hidden_bonus.xml-->
+	
+	<string name ="hidden_bonus_name_1">Mejora Caballería de Exploración</string>
+	<string name ="hidden_bonus_name_2">Caballería Ligera campo de visión</string>
+	<string name ="hidden_bonus_name_3">Mejora Explorador Águila</string>
+	<string name ="hidden_bonus_name_4">Rastreo Gratis</string>
+	<string name ="hidden_bonus_name_5">Mejora Puesto Avanzado</string>
+	<string name ="hidden_bonus_name_6">Mejora Muro de Piedra</string>
+	<string name ="hidden_bonus_name_7">Mejora Torre de Guardia</string>
+	<string name ="hidden_bonus_name_8">Mejora Centro Urbano</string>
+	<string name ="hidden_bonus_name_9">Mejora Casa</string>
+	<string name ="hidden_bonus_name_10">Mejora Maderero/Molino/Minero</string>
+	<string name ="hidden_bonus_name_11">Mejora Muelle</string>
+	<string name ="hidden_bonus_name_12">Mejora Cuarteles</string>
+	<string name ="hidden_bonus_name_13">Mejora Herrería</string>
+	<string name ="hidden_bonus_name_14">Mejora Mercado</string>
+	<string name ="hidden_bonus_name_15">Mejora Galería de Tiro con Arco</string>
+	<string name ="hidden_bonus_name_16">Mejora Establo</string>
+	<string name ="hidden_bonus_name_17">Mejora Monasterio</string>
+	<string name ="hidden_bonus_name_18">Mejora Universidad</string>
+	<string name ="hidden_bonus_name_19">Mejora Taller de Maquinaria de Asedio</string>
+	<string name ="hidden_bonus_name_20">Mejora emaplizadas y puertas de empalizada</string>
+	<string name ="hidden_bonus_name_21">Mejora Serjeant</string>
+	<string name ="hidden_bonus_name_22">Mejora Donjon</string>
+	<string name ="hidden_bonus_name_23">Mejora Escorpión Pesado</string>
+	<string name ="hidden_bonus_name_24">Mejora Camello Explorador</string>
+	 
     <!--history_list.xml-->
      
     

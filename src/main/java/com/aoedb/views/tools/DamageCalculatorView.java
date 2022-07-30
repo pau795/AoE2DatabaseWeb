@@ -105,7 +105,7 @@ public class DamageCalculatorView extends OneColumnView {
         unit1Selector.setItemLabelGenerator(EntityElement::getName);
         unit1Selector.setRenderer(new ComponentRenderer<>(element -> Utils.getEntityItemRow(element, true)));
 
-        unit1Selector.setItems(items);
+        unit1Selector.setItems(Utils.getEntityElementComboBoxFilter(),items);
         unit1Selector.addValueChangeListener(event-> {
             if (event.getValue() !=  null) setUnit1(event.getValue().getId());
         });
@@ -147,7 +147,7 @@ public class DamageCalculatorView extends OneColumnView {
         unit2Selector.addClassNames("damage-calculator-selector");
         unit2Selector.setItemLabelGenerator(EntityElement::getName);
         unit2Selector.setRenderer(new ComponentRenderer<>(element -> Utils.getEntityItemRow(element, true)));
-        unit2Selector.setItems(items);
+        unit2Selector.setItems(Utils.getEntityElementComboBoxFilter(), items);
         unit2Selector.addValueChangeListener(event -> {
             if (event.getValue() != null) setUnit2(event.getValue().getId());
         });

@@ -3462,8 +3462,10 @@
 		<info civ="42" globalFilter="none" teamBonus="true" staggered="false"/>
 		<effects>
 			<statEffect>
-				<filter/>
-				<operation stat="17" operator="@" value="0.8"/>
+				<effectItem>
+					<filter/>
+					<operation stat="17" operator="*" value="0.8"/>
+				</effectItem>
 			</statEffect>
 			<costEffect/>
 			<ecoEffect/>

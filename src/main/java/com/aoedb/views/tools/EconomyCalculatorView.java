@@ -139,7 +139,7 @@ public class EconomyCalculatorView extends TwoColumnView {
         Label goldMinerName = new Label(Database.getString("ec_gold_miners", language));
         goldMinerName.addClassNames("economy-calculator-bold-text");
         Image goldMinerIcon = new Image();
-        goldMinerIcon.setSrc(Database.getImage("r_food"));
+        goldMinerIcon.setSrc(Database.getImage("r_gold"));
         goldMinerIcon.addClassNames("economy-calculator-res-image");
         Div goldMinerBottom = new Div(goldMinerIcon, goldMinerRatio);
         goldMinerBottom.addClassNames("economy-calculator-grid-cell-row");
@@ -267,7 +267,7 @@ public class EconomyCalculatorView extends TwoColumnView {
                 selector.addClassNames("economy-calculator-selector");
                 selector.setItemLabelGenerator(EntityElement::getName);
                 selector.setRenderer(new ComponentRenderer<>(element -> Utils.getEntityItemRow(element, true)));
-                selector.setItems(unitList);
+                selector.setItems(Utils.getEntityElementComboBoxFilter(), unitList);
                 selector.getElement().getStyle().set("--vaadin-combo-box-overlay-width","300px");
                 selector.addValueChangeListener(event -> {
                     if (event.getValue() != null) {

@@ -1405,11 +1405,12 @@
 	</item>
 	<item id="83">
 		<effects>
-			<statEffect/>
+			<statEffect>
 				<effectItem>
 					<filter/>
 					<operation stat="1" operator="+" value="20"/>
 				</effectItem>
+			</statEffect>
 			<costEffect/>
 			<ecoEffect/>
 			<attackValueEffect/>

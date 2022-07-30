@@ -37,7 +37,7 @@ public abstract class EntityView extends TwoColumnView {
         Div pages = new Div();
         pages.addClassNames("entity-div");
         int i = 0;
-        for(String s: getTabTitles()){
+            for(String s: getTabTitles()){
             Tab tab = new Tab(s);
             tab.setClassName("tab");
             tabs.add(tab);

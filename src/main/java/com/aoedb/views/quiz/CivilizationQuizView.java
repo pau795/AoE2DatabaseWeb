@@ -155,7 +155,7 @@ public class CivilizationQuizView extends QuizView {
 
         ArrayList<EntityElement> items = new ArrayList<>(Database.getList(Database.CIVILIZATION_LIST, language));
         items.sort(EntityElement.getAlphabeticalComparator());
-        civSelector.setItems(items);
+        civSelector.setItems(Utils.getEntityElementComboBoxFilter(), items);
         civSelector.getElement().getStyle().set("--vaadin-combo-box-overlay-width","300px");
         return new Div(civSelector);
     }
