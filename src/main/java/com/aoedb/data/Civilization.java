@@ -10,7 +10,7 @@ import java.util.List;
 
 public class Civilization extends BaseEntity {
 
-    String civStyle;
+    StringKey civStyle;
 
     List<Integer> uniqueUnitList;
     HashMap<Integer, Integer> uniqueUnitElite;
@@ -19,8 +19,8 @@ public class Civilization extends BaseEntity {
 
     HashMap<Integer, String> statRelation;
 
-    public Civilization(HashMap<Integer, String> ecoList, String language) {
-        super(language);
+    public Civilization(HashMap<Integer, String> ecoList) {
+        super();
         uniqueUnitList = new ArrayList<>();
         uniqueBuildingList = new ArrayList<>();
         uniqueUnitElite = new HashMap<>();
@@ -37,7 +37,7 @@ public class Civilization extends BaseEntity {
     }
 
 
-    public String getCivStyle() {
+    public StringKey getCivStyle() {
         return civStyle;
     }
 
@@ -75,7 +75,7 @@ public class Civilization extends BaseEntity {
 
 
 
-    public void setCivStyle(String civStyle) {
+    public void setCivStyle(StringKey civStyle) {
         this.civStyle = civStyle;
     }
 
@@ -113,43 +113,43 @@ public class Civilization extends BaseEntity {
     public void setUpgradesIds() {
     }
 
-    public String writeCivBonuses(){
+    public String writeCivBonuses(String language){
         StringBuilder text = new StringBuilder();
         text.append("<ul style=\"list-style-type: square\">");
         for (int i : getBonusList()){
-            Bonus b = Database.getBonus(i, language);
-            String desc = b.getTechTreeDescription();
+            Bonus b = Database.getBonus(i);
+            String desc = b.getTechTreeDescription().getTranslatedString(language);
             text.append("<li>").append(desc).append("</li>");
         }
-        Bonus b = Database.getBonus(getTeamBonusId(), language);
-        String desc = b.getTechTreeDescription();
+        Bonus b = Database.getBonus(getTeamBonusId());
+        String desc = b.getTechTreeDescription().getTranslatedString(language);
         text.append("</ul><b>").append(Database.getString("civilization_team_bonus", language)).append(": </b>").append(desc);
         return text.toString();
     }
 
-    public String writeTechTreeInfo(){
+    public String writeTechTreeInfo(String language){
         StringBuilder text = new StringBuilder();
         text.append("<p><b>").append(civStyle).append("</b></p><ul>");
         for (int i : getBonusList()){
-            Bonus b = Database.getBonus(i, language);
-            String desc = b.getTechTreeDescription();
+            Bonus b = Database.getBonus(i);
+            String desc = b.getTechTreeDescription().getTranslatedString(language);
             text.append("<li>").append(desc).append("</li>");
         }
         text.append("<br></ul><p><b>").append(Database.getString("civilization_unique_units", language)).append(":</b></p><ul>");
         for (int i : uniqueUnitList){
-            String name = Database.getUnit(i, language).getName();
-            String desc = Database.getUnit(i, language).getDescriptor().getQuickDescription();
+            String name = Database.getUnit(i).getName().getTranslatedString(language);
+            String desc = Database.getUnit(i).getDescriptor().getQuickDescription().getTranslatedString(language);
             text.append("<li>").append(name).append(" (").append(desc).append(").</li>");
         }
         text.append("<br></ul><p><b>").append(Database.getString("civilization_unique_technologies", language)).append(":</b></p><ul>");
         for (int i : getUniqueTechList()){
-            String name = Database.getTechnology(i, language).getName();
-            String desc = Database.getTechnology(i, language).getDescriptor().getQuickDescription();
+            String name = Database.getTechnology(i).getName().getTranslatedString(language);
+            String desc = Database.getTechnology(i).getDescriptor().getQuickDescription().getTranslatedString(language);
             text.append("<li>").append(name).append(" (").append(desc).append(").</li>");
         }
         text.append("<br></ul><p><b>").append(Database.getString("civilization_team_bonus", language)).append(":</b></p><ul>");
-        Bonus b = Database.getBonus(getTeamBonusId(), language);
-        String desc = b.getTechTreeDescription();
+        Bonus b = Database.getBonus(getTeamBonusId());
+        String desc = b.getTechTreeDescription().getTranslatedString(language);
         text.append("<li>").append(desc).append("</li>");
         return text.toString();
     }

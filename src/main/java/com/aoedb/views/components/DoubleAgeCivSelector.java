@@ -55,10 +55,10 @@ public class DoubleAgeCivSelector extends Div {
         upgradesButton2.setId("upgrades2");
         upgradesButton2.addClassNames("upgrades-button");
 
-        civSelector1.setRenderer(new ComponentRenderer<>(item-> Utils.getEntityItemRow(item, false)));
-        civSelector2.setRenderer(new ComponentRenderer<>(item-> Utils.getEntityItemRow(item, false)));
-        civSelector1.setItemLabelGenerator(EntityElement::getName);
-        civSelector2.setItemLabelGenerator(EntityElement::getName);
+        civSelector1.setRenderer(new ComponentRenderer<>(item-> Utils.getEntityItemRow(item, false, language)));
+        civSelector2.setRenderer(new ComponentRenderer<>(item-> Utils.getEntityItemRow(item, false, language)));
+        civSelector1.setItemLabelGenerator(entityElement -> entityElement.getName().getTranslatedString(language));
+        civSelector2.setItemLabelGenerator(entityElement -> entityElement.getName().getTranslatedString(language));
 
         popup1.setFor(upgradesButton1.getId().orElse(""));
         popup2.setFor(upgradesButton2.getId().orElse(""));
@@ -191,7 +191,7 @@ public class DoubleAgeCivSelector extends Div {
     }
 
     public void setupUpgrade1Selector(List<Integer> list){
-        upgradesPopup1 = new UpgradesPopup(Database.getUpgradeElementList(list, language), language);
+        upgradesPopup1 = new UpgradesPopup(Database.getUpgradeElementList(list), language);
         upgradesPopup1.filterList(ageID, civID1);
         upgradesPopup1.setOnItemChangedListener(list1 -> {
             if (entityListener1 != null) entityListener1.onUpgradesChanged(list1);
@@ -201,7 +201,7 @@ public class DoubleAgeCivSelector extends Div {
     }
 
     public void setupUpgrade2Selector(List<Integer> list){
-        upgradesPopup2 = new UpgradesPopup(Database.getUpgradeElementList(list, language), language);
+        upgradesPopup2 = new UpgradesPopup(Database.getUpgradeElementList(list), language);
         upgradesPopup2.filterList(ageID, civID2);
         upgradesPopup2.setOnItemChangedListener(list1 -> {
             if (entityListener2 != null) entityListener2.onUpgradesChanged(list1);

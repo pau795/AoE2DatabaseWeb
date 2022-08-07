@@ -36,8 +36,8 @@ public class UnitComparatorView extends OneColumnView {
 
     @Override
     protected Div getColumn() {
-        unit1 =  new Unit(Database.getUnit(1, language));
-        unit2 =  new Unit(Database.getUnit(1, language));
+        unit1 =  new Unit(Database.getUnit(1));
+        unit2 =  new Unit(Database.getUnit(1));
         selector = new DoubleAgeCivSelector(language);
         selector.setOnAgeChangeListener(age -> {
             ageID = age;
@@ -48,8 +48,8 @@ public class UnitComparatorView extends OneColumnView {
         comparator = new StatComparator(language);
 
 
-        ArrayList<EntityElement> items = new ArrayList<>(Database.getList(Database.UNIT_LIST, language));
-        items.sort(EntityElement.getAlphabeticalComparator());
+        ArrayList<EntityElement> items = new ArrayList<>(Database.getList(Database.UNIT_LIST));
+        items.sort(EntityElement.getAlphabeticalComparator(language));
         upgradesID1 = new ArrayList<>();
         upgradesID2 = new ArrayList<>();
 
@@ -63,10 +63,10 @@ public class UnitComparatorView extends OneColumnView {
         unit1Image.addClassNames("damage-calculator-gif");
         unit1Selector = new ComboBox<>();
         unit1Selector.addClassNames("damage-calculator-selector");
-        unit1Selector.setItemLabelGenerator(EntityElement::getName);
-        unit1Selector.setRenderer(new ComponentRenderer<>(element -> Utils.getEntityItemRow(element, true)));
+        unit1Selector.setItemLabelGenerator(entityElement -> entityElement.getName().getTranslatedString(language));
+        unit1Selector.setRenderer(new ComponentRenderer<>(element -> Utils.getEntityItemRow(element, true, language)));
 
-        unit1Selector.setItems(Utils.getEntityElementComboBoxFilter(), items);
+        unit1Selector.setItems(Utils.getEntityElementComboBoxFilter(language), items);
         unit1Selector.addValueChangeListener(event -> {
             if (event.getValue() != null) setUnit1(event.getValue().getId());
         });
@@ -97,9 +97,9 @@ public class UnitComparatorView extends OneColumnView {
         unit2Image.addClassNames("damage-calculator-gif");
         unit2Selector = new ComboBox<>();
         unit2Selector.addClassNames("damage-calculator-selector");
-        unit2Selector.setItemLabelGenerator(EntityElement::getName);
-        unit2Selector.setRenderer(new ComponentRenderer<>(element -> Utils.getEntityItemRow(element, true)));
-        unit2Selector.setItems(Utils.getEntityElementComboBoxFilter(), items);
+        unit2Selector.setItemLabelGenerator(entityElement -> entityElement.getName().getTranslatedString(language));
+        unit2Selector.setRenderer(new ComponentRenderer<>(element -> Utils.getEntityItemRow(element, true, language)));
+        unit2Selector.setItems(Utils.getEntityElementComboBoxFilter(language), items);
         unit2Selector.addValueChangeListener(event -> {
             if(event.getValue() != null) setUnit2(event.getValue().getId());
         });
@@ -134,18 +134,18 @@ public class UnitComparatorView extends OneColumnView {
     }
 
     private void setUnit1(int id){
-        unit1 = new Unit(Database.getUnit(id, language));
+        unit1 = new Unit(Database.getUnit(id));
         unit1Image.setSrc(unit1.getNameElement().getMedia());
         unit1Selector.setValue(unit1.getNameElement());
         List<Integer> availableCivs = unit1.getAvailableCivIds();
         List<EntityElement> civList = new ArrayList<>(availableCivs.size());
         ageID = Utils.convertAge(Utils.getMaxAge(unit1, unit2, language), language);
-        for(int i : availableCivs) civList.add(Database.getElement(Database.CIVILIZATION_LIST, i, language));
-        civList.sort(EntityElement.getAlphabeticalComparator());
+        for(int i : availableCivs) civList.add(Database.getElement(Database.CIVILIZATION_LIST, i));
+        civList.sort(EntityElement.getAlphabeticalComparator(language));
         if (civID1 == -1) civID1 = availableCivs.get(0);
         upgradesID1 = unit1.getUpgradesIds();
         selector.setupUpgrade1Selector(upgradesID1);
-        selector.setUnit1Civ(Database.getElement(Database.CIVILIZATION_LIST, civID1, language), civList);
+        selector.setUnit1Civ(Database.getElement(Database.CIVILIZATION_LIST, civID1), civList);
         updateURL();
         setupAgeLayout();
     }
@@ -157,18 +157,18 @@ public class UnitComparatorView extends OneColumnView {
     }
 
     private void setUnit2(int id){
-        unit2 = new Unit(Database.getUnit(id, language));
+        unit2 = new Unit(Database.getUnit(id));
         unit2Image.setSrc(unit2.getNameElement().getMedia());
         unit2Selector.setValue(unit2.getNameElement());
         List<Integer> availableCivs = unit2.getAvailableCivIds();
         List<EntityElement> civList = new ArrayList<>(availableCivs.size());
         ageID = Utils.convertAge(Utils.getMaxAge(unit1, unit2, language), language);
-        for(int i : availableCivs) civList.add(Database.getElement(Database.CIVILIZATION_LIST, i, language));
-        civList.sort(EntityElement.getAlphabeticalComparator());
+        for(int i : availableCivs) civList.add(Database.getElement(Database.CIVILIZATION_LIST, i));
+        civList.sort(EntityElement.getAlphabeticalComparator(language));
         if (civID2 == -1) civID2 = availableCivs.get(0);
         upgradesID2 = unit2.getUpgradesIds();
         selector.setupUpgrade2Selector(upgradesID2);
-        selector.setUnit2Civ(Database.getElement(Database.CIVILIZATION_LIST, civID2, language), civList);
+        selector.setUnit2Civ(Database.getElement(Database.CIVILIZATION_LIST, civID2), civList);
         updateURL();
         setupAgeLayout();
     }

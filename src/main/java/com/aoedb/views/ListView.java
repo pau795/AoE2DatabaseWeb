@@ -1,12 +1,12 @@
 package com.aoedb.views;
 
+import com.aoedb.data.StringKey;
 import com.aoedb.views.components.ExpandableList;
 
 import com.aoedb.data.EntityElement;
 import com.aoedb.database.Database;
 
 import com.aoedb.database.Utils;
-import com.aoedb.views.BaseView;
 import com.vaadin.flow.component.contextmenu.ContextMenu;
 import com.vaadin.flow.component.contextmenu.MenuItem;
 
@@ -25,7 +25,7 @@ import java.util.Locale;
 public abstract class ListView extends BaseView {
 
     protected ExpandableList list;
-    LinkedHashMap<String, List<EntityElement>> data;
+    LinkedHashMap<StringKey, List<EntityElement>> data;
     String query;
     protected int sort;
     ContextMenu sortMenu;
@@ -41,23 +41,23 @@ public abstract class ListView extends BaseView {
 
     public void filterContent(){
         if (list != null) remove(list);
-        LinkedHashMap<String, List<EntityElement>> filteredData = filterData(query);
+        LinkedHashMap<StringKey, List<EntityElement>> filteredData = filterData(query);
         list = new ExpandableList(filteredData, -1, language);
         list.addClassNames("list-view-layout");
         add(list);
     }
 
-    public LinkedHashMap<String, List<EntityElement>> filterData(String query){
-        LinkedHashMap<String, List<EntityElement>> filteredData = new LinkedHashMap<>();
-        for(String group : data.keySet()){
+    public LinkedHashMap<StringKey, List<EntityElement>> filterData(String query){
+        LinkedHashMap<StringKey, List<EntityElement>> filteredData = new LinkedHashMap<>();
+        for(StringKey group : data.keySet()){
             List<EntityElement> entities = data.get(group);
             List<EntityElement> filteredEntities = new ArrayList<>();
             for(EntityElement e: entities){
-                if (e.getName().toLowerCase(Locale.ROOT).contains(query.toLowerCase(Locale.ROOT))) filteredEntities.add(e);
+                if (e.getName().getTranslatedString(language).toLowerCase(Locale.ROOT).contains(query.toLowerCase(Locale.ROOT))) filteredEntities.add(e);
             }
             if (!filteredEntities.isEmpty()) filteredData.put(group, filteredEntities);
         }
-        if (filteredData.isEmpty()) filteredData.put(Database.getString("none", language), new ArrayList<>());
+        if (filteredData.isEmpty()) filteredData.put(new StringKey("none"), new ArrayList<>());
         return filteredData;
     }
 
@@ -116,6 +116,6 @@ public abstract class ListView extends BaseView {
 
     protected abstract String[] getSortOptions();
 
-    protected abstract LinkedHashMap<String, List<EntityElement>> getData();
+    protected abstract LinkedHashMap<StringKey, List<EntityElement>> getData();
 
 }

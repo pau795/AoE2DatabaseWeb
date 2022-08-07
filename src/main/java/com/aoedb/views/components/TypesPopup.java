@@ -59,11 +59,11 @@ public class TypesPopup extends Div {
 
 
     private Div getAttackValues(){
-        return new ExpandableList(Database.getAttackTypesEntities(language).get(e.getID()), -1, language);
+        return new ExpandableList(Database.getAttackTypesEntities().get(e.getID()), -1, language);
     }
 
     private Div getArmorValues(){
-        return new ExpandableList(Database.getArmorTypesEntities(language).get(e.getID()), -1, language);
+        return new ExpandableList(Database.getArmorTypesEntities().get(e.getID()), -1, language);
     }
 
 

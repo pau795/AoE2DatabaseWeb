@@ -11,19 +11,19 @@ import java.util.List;
 
 public abstract class Item extends Entity {
 
-    protected LinkedHashMap<String, LinkedHashMap<Integer, Double>> baseAttackValues;
-    protected LinkedHashMap<String, LinkedHashMap<Integer, Double>> baseArmorValues;
+    protected LinkedHashMap<StringKey, LinkedHashMap<Integer, Double>> baseAttackValues;
+    protected LinkedHashMap<StringKey, LinkedHashMap<Integer, Double>> baseArmorValues;
 
-    protected LinkedHashMap<String, LinkedHashMap<Integer, Double>> calculatedAttackValues;
-    protected LinkedHashMap<String, LinkedHashMap<Integer, Double>> calculatedArmorValues;
+    protected LinkedHashMap<StringKey, LinkedHashMap<Integer, Double>> calculatedAttackValues;
+    protected LinkedHashMap<StringKey, LinkedHashMap<Integer, Double>> calculatedArmorValues;
 
-    protected LinkedHashMap<String, List<TypeElement>> attackValues;
-    protected LinkedHashMap<String, List<TypeElement>> armorValues;
+    protected LinkedHashMap<StringKey, List<TypeElement>> attackValues;
+    protected LinkedHashMap<StringKey, List<TypeElement>> armorValues;
 
 
 
-    public Item(String language){
-        super(language);
+    public Item(){
+        super();
         baseAttackValues = new LinkedHashMap<>();
         baseArmorValues = new LinkedHashMap<>();
     }
@@ -36,13 +36,13 @@ public abstract class Item extends Entity {
         this.calculatedArmorValues = new LinkedHashMap<>();
         this.attackValues = new LinkedHashMap<>();
         this.armorValues = new LinkedHashMap<>();
-        for (String s: baseAttackValues.keySet()){
+        for (StringKey s: baseAttackValues.keySet()){
             LinkedHashMap<Integer, Double> l = baseAttackValues.get(s);
             LinkedHashMap<Integer, Double> n = new LinkedHashMap<>();
             for (int i : l.keySet()) n.put(i, l.get(i));
             calculatedAttackValues.put(s, n);
         }
-        for (String s: baseArmorValues.keySet()){
+        for (StringKey s: baseArmorValues.keySet()){
             LinkedHashMap<Integer, Double> l = baseArmorValues.get(s);
             LinkedHashMap<Integer, Double> n = new LinkedHashMap<>();
             for (int i : l.keySet()) n.put(i, l.get(i));
@@ -50,19 +50,15 @@ public abstract class Item extends Entity {
         }
     }
 
-    public interface OnTypeValueChanged{
-        void onChange();
-    }
-
 
 
     //PREVIEW
     public EntityElement getClassElement(){
-        return getEntityElement(Database.getString("entity_class", language));
+        return getEntityElement("entity_class");
     }
 
     public EntityElement getPreviousUpgradeElement(){
-        return getEntityElement(Database.getString("upgraded_from", language));
+        return getEntityElement("upgraded_from");
     }
 
     @Override
@@ -97,10 +93,10 @@ public abstract class Item extends Entity {
         armorValues = processTypeValues(baseArmorValues, calculatedArmorValues);
     }
 
-    private LinkedHashMap<String, List<TypeElement>> processTypeValues(LinkedHashMap<String, LinkedHashMap<Integer, Double>> m1,
-                                                                       LinkedHashMap<String, LinkedHashMap<Integer, Double>> m2){
-        LinkedHashMap<String, List<TypeElement>> r = new LinkedHashMap<>();
-        for(String s: m1.keySet()){
+    private LinkedHashMap<StringKey, List<TypeElement>> processTypeValues(LinkedHashMap<StringKey, LinkedHashMap<Integer, Double>> m1,
+                                                                       LinkedHashMap<StringKey, LinkedHashMap<Integer, Double>> m2){
+        LinkedHashMap<StringKey, List<TypeElement>> r = new LinkedHashMap<>();
+        for(StringKey s: m1.keySet()){
             HashMap<Integer, Double> l1 = m1.get(s);
             HashMap<Integer, Double> l2 = m2.get(s);
             List<TypeElement> list = new ArrayList<>();
@@ -108,24 +104,24 @@ public abstract class Item extends Entity {
                 double d1 = l1.get(i);
                 double d2 = l2.get(i);
                 String result = Utils.getStatString(d1, d2, true, false);
-                TypeElement element = new TypeElement(Database.getElement(Database.TYPE_LIST, i, language), result);
+                TypeElement element = new TypeElement(Database.getElement(Database.TYPE_LIST, i), result);
                 list.add(element);
             }
             r.put(s, list);
         }
-        if (r.isEmpty()) r.put(Database.getString("none", language), new ArrayList<>());
+        if (r.isEmpty()) r.put( new StringKey("none"), new ArrayList<>());
         return r;
     }
 
     @Override
     public void resetStats(){
         super.resetStats();
-        for(String s:baseAttackValues.keySet()){
+        for(StringKey s:baseAttackValues.keySet()){
             LinkedHashMap<Integer, Double> l1 = baseAttackValues.get(s);
             LinkedHashMap<Integer, Double> l2 = calculatedAttackValues.get(s);
             for (int i : l1.keySet()) l2.put(i, l1.get(i));
         }
-        for(String s:baseArmorValues.keySet()){
+        for(StringKey s:baseArmorValues.keySet()){
             LinkedHashMap<Integer, Double> l1 = baseArmorValues.get(s);
             LinkedHashMap<Integer, Double> l2 = calculatedArmorValues.get(s);
             for (int i : l1.keySet()) l2.put(i, l1.get(i));
@@ -137,7 +133,7 @@ public abstract class Item extends Entity {
         switch (category){
             case "attack":
                 if (e.isPlus()){ //affects main entity and its projectiles
-                    for(String s1: calculatedAttackValues.keySet()){
+                    for(StringKey s1: calculatedAttackValues.keySet()){
                         HashMap<Integer, Double> l1 = calculatedAttackValues.get(s1);
                         statsPostFilterAux(l1, age, e);
                     }
@@ -170,10 +166,10 @@ public abstract class Item extends Entity {
 
     //ATTACK AND ARMOR VALUES
 
-    public void setAttackValues(LinkedHashMap<String, LinkedHashMap<Integer, Double>> map){
+    public void setAttackValues(LinkedHashMap<StringKey, LinkedHashMap<Integer, Double>> map){
         baseAttackValues = map;
         calculatedAttackValues = new LinkedHashMap<>();
-        for (String s: baseAttackValues.keySet()){
+        for (StringKey s: baseAttackValues.keySet()){
             LinkedHashMap<Integer, Double> list = baseAttackValues.get(s);
             LinkedHashMap<Integer, Double> list1 = new LinkedHashMap<>();
             for (int i : list.keySet()) list1.put(i, list.get(i));
@@ -181,10 +177,10 @@ public abstract class Item extends Entity {
         }
     }
 
-    public void setArmorValues(LinkedHashMap<String, LinkedHashMap<Integer, Double>> map){
+    public void setArmorValues(LinkedHashMap<StringKey, LinkedHashMap<Integer, Double>> map){
         baseArmorValues = map;
         calculatedArmorValues = new LinkedHashMap<>();
-        for (String s: baseArmorValues.keySet()){
+        for (StringKey s: baseArmorValues.keySet()){
             LinkedHashMap<Integer, Double> list = baseArmorValues.get(s);
             LinkedHashMap<Integer, Double> list1 = new LinkedHashMap<>();
             for (int i : list.keySet()) list1.put(i, list.get(i));
@@ -192,25 +188,25 @@ public abstract class Item extends Entity {
         }
     }
 
-    public LinkedHashMap<String, LinkedHashMap<Integer, Double>> getBaseAttackValues(){
+    public LinkedHashMap<StringKey, LinkedHashMap<Integer, Double>> getBaseAttackValues(){
         return baseAttackValues;
     }
-    public LinkedHashMap<String, LinkedHashMap<Integer, Double>> getBaseArmorValues(){
+    public LinkedHashMap<StringKey, LinkedHashMap<Integer, Double>> getBaseArmorValues(){
         return baseArmorValues;
     }
 
-    public LinkedHashMap<String, LinkedHashMap<Integer, Double>> getCalculatedAttackValues(){
+    public LinkedHashMap<StringKey, LinkedHashMap<Integer, Double>> getCalculatedAttackValues(){
         return calculatedAttackValues;
     }
-    public LinkedHashMap<String, LinkedHashMap<Integer, Double>> getCalculatedArmorValues(){
+    public LinkedHashMap<StringKey, LinkedHashMap<Integer, Double>> getCalculatedArmorValues(){
         return calculatedArmorValues;
     }
 
-    public LinkedHashMap<String, List<TypeElement>> getAttackValues() {
+    public LinkedHashMap<StringKey, List<TypeElement>> getAttackValues() {
         return attackValues;
     }
 
-    public LinkedHashMap<String, List<TypeElement>> getArmorValues() {
+    public LinkedHashMap<StringKey, List<TypeElement>> getArmorValues() {
         return armorValues;
     }
 }

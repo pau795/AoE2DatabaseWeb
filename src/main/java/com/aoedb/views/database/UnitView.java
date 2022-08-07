@@ -48,19 +48,13 @@ public class UnitView extends EntityItemView {
 
     @Override
     protected void setEntityButtons(Div component){
-        EntityButton creatorButton = new EntityButton(this, e,Database.getString("unit_training_building", language) , true, language);
-        EntityButton ageButton = new EntityButton(this, e, Database.getString("entity_age", language), true, language);
-        EntityButton classButton = new EntityButton(this, e, Database.getString("entity_class", language) ,false, language);
-        EntityButton requiredTechnologyButton = new EntityButton(this, e,Database.getString("required_technology", language) , true, language);
-        EntityButton upgradedFromButton = new EntityButton(this, e, Database.getString("upgraded_from", language), true, language);
-        EntityButton nextUpgradeButton = new EntityButton(this, e, Database.getString("next_upgrade", language) ,true, language);
+        EntityButton creatorButton = new EntityButton(this, e, "unit_training_building", true, language);
+        EntityButton ageButton = new EntityButton(this, e, "entity_age", true, language);
+        EntityButton classButton = new EntityButton(this, e, "entity_class",false, language);
+        EntityButton requiredTechnologyButton = new EntityButton(this, e,"required_technology", true, language);
+        EntityButton upgradedFromButton = new EntityButton(this, e, "upgraded_from", true, language);
+        EntityButton nextUpgradeButton = new EntityButton(this, e, "next_upgrade" ,true, language);
         component.add(creatorButton, ageButton, classButton, requiredTechnologyButton, upgradedFromButton, nextUpgradeButton);
-    }
-
-
-    @Override
-    public String getPageTitle() {
-        return Database.getString("app_name", language) + " - " + e.getName();
     }
 
     @Override
@@ -109,6 +103,6 @@ public class UnitView extends EntityItemView {
 
     @Override
     protected Entity getEntity(){
-        return Database.getUnit(entityID, language);
+        return Database.getUnit(entityID);
     }
 }

@@ -24,13 +24,13 @@ public class CivilizationEntityButton extends Div {
             addClassNames("entity-button");
             EntityElement element = entity.getNameElement();
 
-            Label name = new Label(element.getName());
+            Label name = new Label(element.getName().getTranslatedString(language));
             name.addClassNames("entity-title");
             Image icon = new Image();
             icon.setSrc(element.getImage());
             icon.addClassNames("entity-icon");
             if(!icon.getSrc().contains("t_white")) icon.addClassNames("icon-border");
-            Label description = new Label(entity.getDescriptor().getQuickDescription());
+            Label description = new Label(entity.getDescriptor().getQuickDescription().getTranslatedString(language));
             description.addClassNames("entity-name");
             add(icon, name, description);
             if (element.getId() != 0 ) {

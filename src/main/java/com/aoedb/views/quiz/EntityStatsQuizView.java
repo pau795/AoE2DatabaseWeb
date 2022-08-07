@@ -45,12 +45,12 @@ public abstract class EntityStatsQuizView extends QuizView {
                 hasRange = !Double.isNaN(entity.getBaseStat(Database.RANGE));
                 availableStats.addAll(Arrays.asList(Database.HP, Database.LOS, Database.TRAINING_TIME));
                 if (hasAttack) {
-                    LinkedHashMap<String, LinkedHashMap<Integer, Double>> l = ((Item) entity).getBaseAttackValues();
+                    LinkedHashMap<StringKey, LinkedHashMap<Integer, Double>> l = ((Item) entity).getBaseAttackValues();
                     availableAttackTypes = l.entrySet().iterator().next().getValue();
                     availableStats.addAll(Arrays.asList(Database.ATTACK, Database.RELOAD_TIME));
                 }
                 if (isUnit) {
-                    LinkedHashMap<String, LinkedHashMap<Integer, Double>> l = ((Item) entity).getBaseArmorValues();
+                    LinkedHashMap<StringKey, LinkedHashMap<Integer, Double>> l = ((Item) entity).getBaseArmorValues();
                     availableArmorTypes = l.entrySet().iterator().next().getValue();
                     availableStats.add(Database.SPEED);
                 }
@@ -67,10 +67,10 @@ public abstract class EntityStatsQuizView extends QuizView {
             Random r = new Random();
             askedValues = new ArrayList<>();
             int n = r.nextInt(random.size());
-            setQuestionInfoName(entity.getName());
+            setQuestionInfoName(entity.getName().getTranslatedString(language));
             setQuestionInfoIcon(entity.getNameElement().getImage(), true);
             if (isTech){
-                Building b = Database.getBuilding(entity.getCreatorElement().getId(), language);
+                Building b = Database.getBuilding(entity.getCreatorElement().getId());
                 setQuestionInfoMedia(b.getNameElement().getMedia(), true);
             }
             else setQuestionInfoMedia(entity.getNameElement().getMedia(), true);
@@ -111,7 +111,7 @@ public abstract class EntityStatsQuizView extends QuizView {
                 case 2:{
                     List<Integer> list = new ArrayList<>(availableAttackTypes.keySet());
                     int type = list.get(r.nextInt(list.size()));
-                    String typeName = Database.getElement(Database.TYPE_LIST, type, language).getName();
+                    String typeName = Database.getElement(Database.TYPE_LIST, type).getName().getTranslatedString(language);
                     askedValues.add(availableAttackTypes.get(type));
                     questionString = String.format(Database.getString("quiz_unit_attack_question", language), currentQuestion, numQuestions, typeName, entity.getName());
                     correctionComment = String.format(Database.getString("quiz_unit_attack_correction", language), entity.getName(), askedValues.get(0).intValue(), typeName);
@@ -121,7 +121,7 @@ public abstract class EntityStatsQuizView extends QuizView {
                 case 3:{
                     List<Integer> list = new ArrayList<>(availableArmorTypes.keySet());
                     int type = list.get(r.nextInt(list.size()));
-                    String typeName = Database.getElement(Database.TYPE_LIST, type, language).getName();
+                    String typeName = Database.getElement(Database.TYPE_LIST, type).getName().getTranslatedString(language);
                     askedValues.add(availableArmorTypes.get(type));
                     questionString = String.format(Database.getString("quiz_unit_armor_question", language), currentQuestion, numQuestions, typeName, entity.getName());
                     correctionComment = String.format(Database.getString("quiz_unit_armor_correction", language), entity.getName(), askedValues.get(0).intValue(), typeName);

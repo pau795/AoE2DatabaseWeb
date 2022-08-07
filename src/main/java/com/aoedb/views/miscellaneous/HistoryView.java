@@ -19,7 +19,7 @@ public class HistoryView extends DocumentView {
     @Override
     public void initView() {
         super.initView();
-        e = Database.getElement(Database.HISTORY_LIST, entityID, language);
+        e = Database.getElement(Database.HISTORY_LIST, entityID);
         String history = Database.getHistoryText(entityID, language);
         addText(history, false);
     }

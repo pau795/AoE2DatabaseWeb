@@ -24,9 +24,9 @@ public class EntityButton extends Div {
         public EntityButton(EntityView parentUI, Entity parent, String category, boolean click, String language){
             addClassNames("entity-button");
             EntityElement element = parent.getEntityElement(category);
-            Label title = new Label(category);
+            Label title = new Label(Database.getString(category, language));
             title.addClassNames("entity-title");
-            Label name = new Label(element.getName());
+            Label name = new Label(element.getName().getTranslatedString(language));
             name.addClassNames("entity-name");
             Image icon = new Image();
             icon.setSrc(element.getImage());

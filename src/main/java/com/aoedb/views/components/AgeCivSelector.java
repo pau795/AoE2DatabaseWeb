@@ -11,7 +11,6 @@ import com.vaadin.flow.component.html.Hr;
 import com.vaadin.flow.component.select.Select;
 import com.vaadin.flow.data.renderer.ComponentRenderer;
 
-import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
 
@@ -24,8 +23,6 @@ public class AgeCivSelector extends Div {
     Button darkAgeButton, feudalAgeButton, castleAgeButton, imperialAgeButton, upgradesButton;
     Hr darkFeudalDivider, feudalCastleDivider, castleImperialDivider;
     UpgradesPopup upgradesPopup;
-    HashMap<Integer, String> civRelation;
-    HashMap<String, Integer> civRelationR;
     OnChangeListener listener;
     String language;
     Popup popup;
@@ -35,8 +32,6 @@ public class AgeCivSelector extends Div {
         this.ageID = ageID;
         this.civID = civID;
         this.civNames = civNames;
-        this.civRelation = Database.getCivNameMap(language);
-        this.civRelationR = Database.getReversedCivNameMap(language);
         this.language = language;
         popup = new Popup();
         setupUpgradeSelector(upgradeList);
@@ -134,10 +129,10 @@ public class AgeCivSelector extends Div {
     }
 
     private void setupSelector(){
-        civSelector.setRenderer(new ComponentRenderer<>(item-> Utils.getEntityItemRow(item, false)));
-        civSelector.setItemLabelGenerator(EntityElement::getName);
+        civSelector.setRenderer(new ComponentRenderer<>(item-> Utils.getEntityItemRow(item, false, language)));
+        civSelector.setItemLabelGenerator(entityElement -> entityElement.getName().getTranslatedString(language));
         civSelector.setItems(civNames);
-        civSelector.setValue(Database.getElement(Database.CIVILIZATION_LIST, civID, language));
+        civSelector.setValue(Database.getElement(Database.CIVILIZATION_LIST, civID));
         civSelector.addValueChangeListener(event->{
             civID = event.getValue().getId();
             if (listener != null) listener.onCivChanged(civID);
@@ -165,7 +160,7 @@ public class AgeCivSelector extends Div {
     }
 
     private void setupUpgradeSelector(List<Integer> list){
-        upgradesPopup = new UpgradesPopup(Database.getUpgradeElementList(list, language), language);
+        upgradesPopup = new UpgradesPopup(Database.getUpgradeElementList(list), language);
         upgradesPopup.filterList(ageID, civID);
         upgradesPopup.setOnItemChangedListener(list1 -> {
             if (listener != null) listener.onUpgradesChanged(list1);

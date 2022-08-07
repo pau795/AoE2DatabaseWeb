@@ -6,17 +6,17 @@ import java.util.List;
 
 public class AvailabilityContainer {
 
-    LinkedHashMap<String, List<EntityElement>> availabilityList;
+    LinkedHashMap<StringKey, List<EntityElement>> availabilityList;
     List<Integer> availableIDs;
     HashMap<Integer, Boolean> availabilityMap;
 
-    public AvailabilityContainer(LinkedHashMap<String, List<EntityElement>> list, List<Integer> ids, HashMap<Integer, Boolean> map){
+    public AvailabilityContainer(LinkedHashMap<StringKey, List<EntityElement>> list, List<Integer> ids, HashMap<Integer, Boolean> map){
         this.availabilityList = list;
         this.availableIDs = ids;
         this.availabilityMap = map;
     }
 
-    public LinkedHashMap<String, List<EntityElement>> getAvailabilityList() {
+    public LinkedHashMap<StringKey, List<EntityElement>> getAvailabilityList() {
         return availabilityList;
     }
 

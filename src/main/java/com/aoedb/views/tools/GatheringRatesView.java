@@ -35,12 +35,12 @@ public class GatheringRatesView extends OneColumnView {
     protected Div getColumn() {
         civID = 1;
         ageID = 0;
-        civ = Database.getCivilization(civID, language);
+        civ = Database.getCivilization(civID);
         ecoUpgrades = civ.getUpgradesIds();
-        statNames = Database.getEcoList(language);
-        gatheringRates = Database.getGatheringRates(language);
-        List<EntityElement> civNames = new ArrayList<>(Database.getList(Database.CIVILIZATION_LIST, language));
-        civNames.sort(EntityElement.getAlphabeticalComparator());
+        statNames = Database.getEcoList();
+        gatheringRates = Database.getGatheringRates();
+        List<EntityElement> civNames = new ArrayList<>(Database.getList(Database.CIVILIZATION_LIST));
+        civNames.sort(EntityElement.getAlphabeticalComparator(language));
         AgeCivSelector selector = new AgeCivSelector(ageID, civID, civNames, ecoUpgrades, language);
         selector.setOnChangeListener(new AgeCivSelector.OnChangeListener() {
             @Override
@@ -52,7 +52,7 @@ public class GatheringRatesView extends OneColumnView {
             @Override
             public void onCivChanged(int civId) {
                 civID = civId;
-                civ = Database.getCivilization(civID, language);
+                civ = Database.getCivilization(civID);
                 calculateEco();
             }
 
@@ -92,7 +92,7 @@ public class GatheringRatesView extends OneColumnView {
         icon.setSrc(element.getStatIcon());
         Label statName = new Label();
         statName.addClassNames("gathering-rates-stat-name");
-        statName.setText(element.getStatName());
+        statName.setText(element.getStatName().getTranslatedString(language));
         Image resIcon = new Image();
         resIcon.addClassNames("gathering-rates-resource-icon");
         resIcon.setSrc(element.getResourceIcon());

@@ -2,7 +2,7 @@ package com.aoedb.data;
 
 public class TypeElement {
 
-    private final String name;
+    private final StringKey name;
     private final int id;
     private final String image;
     private final String value;
@@ -15,7 +15,7 @@ public class TypeElement {
     }
 
 
-    public String getName() {
+    public StringKey getName() {
         return name;
     }
 

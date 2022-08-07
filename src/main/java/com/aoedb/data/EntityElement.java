@@ -9,14 +9,14 @@ import java.util.HashMap;
 
 public class EntityElement implements Serializable{
     private final int id;
-    private final String name;
+    private final StringKey name;
     private final String image;
     private final String media;
     private final String type;
 
     public EntityElement(int id, String name, String image, String gif, String type) {
         this.id = id;
-        this.name = name;
+        this.name = new StringKey(name);
         this.image = image;
         this.media = gif;
         this.type = type;
@@ -26,7 +26,7 @@ public class EntityElement implements Serializable{
         return id;
     }
 
-    public String getName() {
+    public StringKey getName() {
         return name;
     }
 
@@ -48,7 +48,7 @@ public class EntityElement implements Serializable{
         return Comparator.comparing(o -> orderMap.get(o.getId()));
     }
 
-    public static Comparator<EntityElement> getAlphabeticalComparator(){
-        return Comparator.comparing(EntityElement::getName);
+    public static Comparator<EntityElement> getAlphabeticalComparator(String language){
+        return Comparator.comparing(entityElement -> entityElement.getName().getTranslatedString(language));
     }
 }

@@ -1,6 +1,7 @@
 package com.aoedb.views.miscellaneous;
 
 import com.aoedb.data.EntityElement;
+import com.aoedb.data.StringKey;
 import com.aoedb.database.Database;
 import com.aoedb.views.MainLayout;
 import com.aoedb.views.ListView;
@@ -22,8 +23,8 @@ public class HistoryListView extends ListView {
     }
 
     @Override
-    protected LinkedHashMap<String, List<EntityElement>> getData() {
-        return Database.getGroupList(Database.HISTORY_GROUPS, sort, language);
+    protected LinkedHashMap<StringKey, List<EntityElement>> getData() {
+        return Database.getGroupList(Database.HISTORY_GROUPS, sort).getGroupMap(Database.HISTORY_GROUPS,language);
     }
 
     @Override

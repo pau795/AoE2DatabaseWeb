@@ -1,16 +1,6 @@
 package com.aoedb.database;
 
-import com.aoedb.data.Bonus;
-import com.aoedb.data.Building;
-import com.aoedb.data.Civilization;
-import com.aoedb.data.EcoElement;
-import com.aoedb.data.EntityElement;
-import com.aoedb.data.ScoreList;
-import com.aoedb.data.TauntElement;
-import com.aoedb.data.TechBonus;
-import com.aoedb.data.Technology;
-import com.aoedb.data.Unit;
-import com.aoedb.data.UpgradeElement;
+import com.aoedb.data.*;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 import java.io.*;
@@ -167,28 +157,21 @@ public class Database {
     public final static String GREEN = "green";
 
     private static HashMap<String, HashMap<String, String>> stringMap;
+    private static HashMap<String, List<String>> historyTextMap;
 
-    private static Storage englishStorage;
-    private static Storage spanishStorage;
-    private static Storage deutschStorage;
+
+    private static Storage storage;
 
 
     public static void initDatabase(){
         stringMap = Reader.readStringMap();
-        englishStorage = new Storage(Database.ENGLISH);
-        spanishStorage = new Storage(Database.SPANISH);
-        deutschStorage = new Storage(Database.DEUTSCH);
-        englishStorage.processPostInit();
-        spanishStorage.processPostInit();
-        deutschStorage.processPostInit();
+        historyTextMap = Reader.readHistoryTextMap();
+        storage = new Storage();
+
     }
 
-    private static Storage getStorage(String language){
-        switch (language){
-            case SPANISH: return spanishStorage;
-            case DEUTSCH: return deutschStorage;
-            default: return englishStorage;
-        }
+    private static Storage getStorage(){
+       return storage;
     }
 
 
@@ -208,109 +191,109 @@ public class Database {
         else return "sound/"+Database.DEFAULT_LANGUAGE+"/" + soundName +".ogg";
     }
 
-    public static EntityElement getElement(String file, int row, String language) {
-        return getStorage(language).getElement(file, row);
+    public static EntityElement getElement(String file, int row) {
+        return getStorage().getElement(file, row);
     }
 
-    public static List<EntityElement> getList(String file, String language) {
-        return getStorage(language).getList(file);
+    public static List<EntityElement> getList(String file) {
+        return getStorage().getList(file);
     }
 
-    public static LinkedHashMap<String, List<EntityElement>> getAllLists(String language) {
-        return getStorage(language).getAllLists();
+    public static LinkedHashMap<StringKey, List<EntityElement>> getAllLists() {
+        return getStorage().getAllLists();
     }
 
-    public static HashMap<Integer, Integer> getOrderMap(String file, int index, String language){
-        return getStorage(language).getOrderMap(file, index);
+    public static HashMap<Integer, Integer> getOrderMap(String file, int index){
+        return getStorage().getOrderMap(file, index);
     }
 
-    public static LinkedHashMap<String, List<EntityElement>> getGroupList(String file, int sort, String language){
-        return getStorage(language).getGroupList(file, sort);
+    public static GroupList getGroupList(String file, int sort){
+        return getStorage().getGroupList(file, sort);
     }
 
 
-    public static List<TauntElement> getTauntList(String language){
-        return getStorage(language).getTauntList();
+    public static List<TauntElement> getTauntList(){
+        return getStorage().getTauntList();
     }
 
-    public static HashMap<Integer, String> getStatList(String language){
-        return getStorage(language).getStatList();
+    public static HashMap<Integer, String> getStatList(){
+        return getStorage().getStatList();
     }
 
-    public static HashMap<String, Boolean> getStatAddition(String language){
-        return getStorage(language).getStatAddition();
+    public static HashMap<String, Boolean> getStatAddition(){
+        return getStorage().getStatAddition();
     }
 
-    public static HashMap<Integer, String> getEcoList(String language){
-        return getStorage(language).getEcoList();
+    public static HashMap<Integer, String> getEcoList(){
+        return getStorage().getEcoList();
     }
 
-    public static HashMap<String, Double> getEcoValues(String language){
-        return getStorage(language).getEcoValues();
+    public static HashMap<String, Double> getEcoValues(){
+        return getStorage().getEcoValues();
     }
 
-    public static List<EcoElement> getGatheringRates(String language){
-        return getStorage(language).getGatheringRates();
+    public static List<EcoElement> getGatheringRates(){
+        return getStorage().getGatheringRates();
     }
 
-    public static List<Integer> getEcoUpgrades(String language){
-        return getStorage(language).getEcoUpgrades();
+    public static List<Integer> getEcoUpgrades(){
+        return getStorage().getEcoUpgrades();
     }
 
-    public static LinkedHashMap<String, List<Integer>> getTechTreeQuizQuestions(String language){
-        return getStorage(language).getTechTreeQuizQuestions();
+    public static LinkedHashMap<String, List<Integer>> getTechTreeQuizQuestions(){
+        return getStorage().getTechTreeQuizQuestions();
     }
 
-    public static HashMap<Integer, String> getCivNameMap(String language){
-        return getStorage(language).getCivNameMap();
+    public static HashMap<Integer, StringKey> getCivNameMap(){
+        return getStorage().getCivNameMap();
     }
 
-    public static HashMap<String, Integer> getReversedCivNameMap(String language){
-        return getStorage(language).getReversedCivNameMap();
+    public static HashMap<StringKey, Integer> getReversedCivNameMap(){
+        return getStorage().getReversedCivNameMap();
     }
 
     public static String getHistoryText(int id, String language){
-        return getStorage(language).getHistoryText(id);
+        return historyTextMap.get(language).get(id - 1);
     }
 
-    public static Unit getUnit(int id, String language){
-        return getStorage(language).getUnit(id);
+    public static Unit getUnit(int id){
+        return getStorage().getUnit(id);
     }
 
-    public static Building getBuilding(int id, String language){
-        return getStorage(language).getBuilding(id);
+    public static Building getBuilding(int id){
+        return getStorage().getBuilding(id);
     }
 
-    public static Technology getTechnology(int id, String language){
-        return getStorage(language).getTechnology(id);
+    public static Technology getTechnology(int id){
+        return getStorage().getTechnology(id);
     }
 
-    public static Civilization getCivilization(int id, String language){
-        return getStorage(language).getCivilization(id);
+    public static Civilization getCivilization(int id){
+        return getStorage().getCivilization(id);
     }
 
-    public static Bonus getBonus(int id, String language) {
-        return getStorage(language).getBonus(id);
+    public static Bonus getBonus(int id) {
+        return getStorage().getBonus(id);
     }
 
-    public static Bonus getHiddenBonus(int id, String language){
-        return getStorage(language).getHiddenBonus(id);
+    public static Bonus getHiddenBonus(int id){
+        return getStorage().getHiddenBonus(id);
     }
 
-    public static TechBonus getTechEffect(int id, String language){
-        return getStorage(language).getTechEffect(id);
+    public static TechBonus getTechEffect(int id){
+        return getStorage().getTechEffect(id);
     }
 
-    public static HashMap<Integer, LinkedHashMap<String, List<EntityElement>>> getAttackTypesEntities(String language) {
-        return getStorage(language).getAttackTypesEntities();
+    public static HashMap<Integer, LinkedHashMap<StringKey, List<EntityElement>>> getAttackTypesEntities() {
+        return getStorage().getAttackTypesEntities();
     }
 
-    public static HashMap<Integer, LinkedHashMap<String, List<EntityElement>>> getArmorTypesEntities(String language) {
-        return getStorage(language).getArmorTypesEntities();
+    public static HashMap<Integer, LinkedHashMap<StringKey, List<EntityElement>>> getArmorTypesEntities() {
+        return getStorage().getArmorTypesEntities();
     }
 
-    public static List<UpgradeElement> getUpgradeElementList(List<Integer> list, String language){
-        return getStorage(language).getUpgradeElementList(list);
+    public static List<UpgradeElement> getUpgradeElementList(List<Integer> list){
+        return getStorage().getUpgradeElementList(list);
     }
 
 

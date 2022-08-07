@@ -18,10 +18,10 @@ public abstract class Entity extends BaseEntity {
     protected LinkedHashMap<String, Integer> calculatedCost;
     protected LinkedHashMap<String, String> stringCost;
     protected AvailabilityContainer availabilityContainer;
-    protected LinkedHashMap<String, List<EntityElement>> upgrades;
+    protected LinkedHashMap<StringKey, List<EntityElement>> upgrades;
 
-    public Entity(String language){
-        super(language);
+    public Entity(){
+        super();
         this.baseCost = new LinkedHashMap<>();
         this.calculatedCost = new LinkedHashMap<>();
         this.stringCost = new LinkedHashMap<>();
@@ -52,15 +52,15 @@ public abstract class Entity extends BaseEntity {
     public abstract EntityElement getCreatorElement();
 
     public EntityElement getAgeElement(){
-        return getEntityElement(Database.getString("entity_age", language));
+        return getEntityElement("entity_age");
     }
 
     public EntityElement getRequiredTechElement(){
-        return getEntityElement(Database.getString("required_technology", language));
+        return getEntityElement("required_technology");
     }
 
     public EntityElement getNextUpgradeElement(){
-        return getEntityElement(Database.getString("next_upgrade", language));
+        return getEntityElement("next_upgrade");
     }
 
     public void resetStats() {
@@ -120,16 +120,16 @@ public abstract class Entity extends BaseEntity {
 
     public void setUpgradesIds(){
         upgradesIds =  new ArrayList<>();
-        for(String s: upgrades.keySet())
+        for(StringKey s: upgrades.keySet())
             for(EntityElement l: upgrades.get(s)) upgradesIds.add(l.getId());
     }
 
 
-    public void setUpgrades(LinkedHashMap<String, List<EntityElement>> map) {
+    public void setUpgrades(LinkedHashMap<StringKey, List<EntityElement>> map) {
         upgrades = map;
     }
 
-    public LinkedHashMap<String, List<EntityElement>> getUpgrades(){
+    public LinkedHashMap<StringKey, List<EntityElement>> getUpgrades(){
         return upgrades;
     }
 
@@ -141,7 +141,7 @@ public abstract class Entity extends BaseEntity {
         availabilityContainer = container;
     }
 
-    public LinkedHashMap<String, List<EntityElement>> getCivAvailability(){
+    public LinkedHashMap<StringKey, List<EntityElement>> getCivAvailability(){
         return availabilityContainer.getAvailabilityList();
     }
 
@@ -161,7 +161,7 @@ public abstract class Entity extends BaseEntity {
     protected void calculateStatsPostFilter(String category, int age, Effect e){
         switch (category) {
             case "stat":
-                HashMap<Integer, String> statRelation = Database.getStatList(language);
+                HashMap<Integer, String> statRelation = Database.getStatList();
                 int bStat = Integer.parseInt(e.getStat());
                 String operator = e.getOperator();
                 double value = e.getValue(age);
@@ -180,7 +180,7 @@ public abstract class Entity extends BaseEntity {
     public void processPostBonus(){
         super.processPostBonus();
         for (String s : baseStats.keySet()){
-            boolean addition = Database.getStatAddition(language).get(s);
+            boolean addition = Database.getStatAddition().get(s);
             boolean accuracy = s.equals(Database.ACCURACY);
             String result = Utils.getStatString(baseStats.get(s), calculatedStats.get(s), addition, accuracy);
             stringStats.put(s, result);
@@ -191,7 +191,7 @@ public abstract class Entity extends BaseEntity {
         }
     }
 
-    public List<String> writeBonuses(){
-        return bonusContainer.writeBonuses(descriptor.getNominative());
+    public List<String> writeBonuses(String language){
+        return bonusContainer.writeBonuses(descriptor.getNominative(), language);
     }
 }

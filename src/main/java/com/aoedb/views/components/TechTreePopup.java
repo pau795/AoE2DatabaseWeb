@@ -22,13 +22,13 @@ public class TechTreePopup extends Div {
         this.e = e;
         this.civID = civID;
         this.language = language;
-        Label name = new Label(e.getName());
+        Label name = new Label(e.getName().getTranslatedString(language));
         name.addClassNames("tech-tree-popup-name");
         Image image = new Image();
         image.setSrc(e.getNameElement().getImage());
         image.addClassNames("tech-tree-popup-image");
         Div costLayout = getCostLayout();
-        Label description = new Label(e.getDescriptor().getBriefDescription());
+        Label description = new Label(e.getDescriptor().getBriefDescription().getTranslatedString(language));
         description.addClassNames("tech-tree-popup-description");
         Div statsLayout = getStatsLayout();
         Div upgradeCost = getUpgradeCostLayout();
@@ -119,7 +119,7 @@ public class TechTreePopup extends Div {
         upgradeCostLayout.addClassNames("tech-tree-popup-row-layout");
         int techID = e.getRequiredTechElement().getId();
         if (!e.getType().equals(Database.TECH) && techID != 0) {
-            HashMap<String, Integer> cost = Database.getTechnology(techID, language).getBaseCost();
+            HashMap<String, Integer> cost = Database.getTechnology(techID).getBaseCost();
             Label costLabel = new Label(Database.getString("tt_box_upgrade_cost", language));
             costLabel.addClassNames("tech-tree-popup-semibold-text");
             upgradeCostLayout.add(costLabel);
@@ -128,7 +128,7 @@ public class TechTreePopup extends Div {
                 String iconPath = Utils.getResourceIcon(res);
                 resIcon.setSrc(iconPath);
                 resIcon.addClassNames("tech-tree-popup-icon");
-                Label resValue = new Label(String.valueOf(Database.getTechnology(techID, language).getBaseCost().get(res)));
+                Label resValue = new Label(String.valueOf(Database.getTechnology(techID).getBaseCost().get(res)));
                 resValue.addClassNames("tech-tree-popup-res-value");
                 Div resLayout = new Div(resIcon, resValue);
                 resLayout.addClassNames("tech-tree-popup-res-layout");

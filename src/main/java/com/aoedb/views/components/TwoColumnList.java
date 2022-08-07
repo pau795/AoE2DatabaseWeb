@@ -1,6 +1,7 @@
 package com.aoedb.views.components;
 
 import com.aoedb.data.EntityElement;
+import com.aoedb.data.StringKey;
 import com.aoedb.database.Database;
 import com.aoedb.views.database.*;
 import com.vaadin.flow.component.Component;
@@ -13,39 +14,52 @@ import com.vaadin.flow.component.icon.VaadinIcon;
 import com.vaadin.flow.router.RouteParameters;
 
 
-
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 
 @CssImport("./themes/aoe2database/components/expandable-list.css")
 public class TwoColumnList extends Div {
 
-    LinkedHashMap<String, List<EntityElement>> data;
+    LinkedHashMap<StringKey, List<EntityElement>> data;
     String language;
     EntityView view;
 
     int civID;
 
-    public TwoColumnList(LinkedHashMap<String, List<EntityElement>> data, int civID, String language) {
-        this.data = data;
+    public TwoColumnList(LinkedHashMap<StringKey, List<EntityElement>> data, int civID, String language) {
+        this.data = copyData(data);
         this.civID = civID;
         this.language = language;
         addClassNames("two-column-container");
         setLayouts();
     }
 
+    private LinkedHashMap<StringKey, List<EntityElement>> copyData(LinkedHashMap<StringKey, List<EntityElement>> data){
+        LinkedHashMap<StringKey, List<EntityElement>> newData = new LinkedHashMap<>();
+        for (StringKey s: data.keySet()){
+            StringKey newS = new StringKey(s.getKey());
+            List<EntityElement> list = data.get(s);
+            List<EntityElement> newList = new ArrayList<>();
+            String type = "";
+            for(EntityElement e : list){
+                EntityElement newE = new EntityElement(e.getId(), e.getName().getKey(), e.getImage(), e.getMedia(), e.getType());
+                type = e.getType();
+                newList.add(newE);
+            }
+            if (type.equals(Database.CIV)) newList.sort(EntityElement.getAlphabeticalComparator(language));
+            newData.put(newS, newList);
+        }
+        return newData;
+    }
 
     private void setLayouts(){
         removeAll();
 
-        for(String group: data.keySet()){
+        for(StringKey group: data.keySet()){
 
             Div contentLayout = createGroupLayout(data.get(group));
             Icon icon = new Icon(VaadinIcon.ANGLE_DOWN);
-            Label name = new Label(group);
+            Label name = new Label(group.getTranslatedString(language));
             Div header = new Div(icon, name);
             header.addClassNames("header");
             header.addClickListener(event -> contentLayout.setVisible(!contentLayout.isVisible()));
@@ -61,10 +75,10 @@ public class TwoColumnList extends Div {
         Div listLayout = new Div();
         listLayout.addClassNames("two-column-grid");
         for(EntityElement e: list){
-            Image icon = new Image(e.getImage(), e.getName());
+            Image icon = new Image(e.getImage(), e.getName().getTranslatedString(language));
             icon.addClassNames("row-icon");
             if (!e.getType().equals(Database.CIV)) icon.addClassNames("row-icon-border");
-            Label name = new Label(e.getName());
+            Label name = new Label(e.getName().getTranslatedString(language));
             Div rowLayout = new Div(icon, name);
             rowLayout.addClassNames("row-layout");
             Div rowContainer = new Div(rowLayout);

@@ -41,13 +41,13 @@ public class BuildingView extends EntityItemView {
 
     @Override
     protected void setEntityButtons(Div component){
-        EntityButton creatorButton = new EntityButton(this, e,Database.getString("builder_unit", language) , true, language);
-        EntityButton ageButton = new EntityButton(this, e, Database.getString("entity_age", language), true, language);
-        EntityButton classButton = new EntityButton(this, e, Database.getString("entity_class", language) ,false, language);
-        EntityButton requiredBuildingButton = new EntityButton(this, e, Database.getString("required_building", language) ,true, language);
-        EntityButton requiredTechnologyButton = new EntityButton(this, e,Database.getString("required_technology", language) , true, language);
-        EntityButton upgradedFromButton = new EntityButton(this, e, Database.getString("upgraded_from", language), true, language);
-        EntityButton nextUpgradeButton = new EntityButton(this, e, Database.getString("next_upgrade", language) ,true, language);
+        EntityButton creatorButton = new EntityButton(this, e,"builder_unit", true, language);
+        EntityButton ageButton = new EntityButton(this, e, "entity_age", true, language);
+        EntityButton classButton = new EntityButton(this, e, "entity_class" ,false, language);
+        EntityButton requiredBuildingButton = new EntityButton(this, e, "required_building" ,true, language);
+        EntityButton requiredTechnologyButton = new EntityButton(this, e,"required_technology" , true, language);
+        EntityButton upgradedFromButton = new EntityButton(this, e, "upgraded_from", true, language);
+        EntityButton nextUpgradeButton = new EntityButton(this, e, "next_upgrade" ,true, language);
         component.add(creatorButton, ageButton, classButton, requiredBuildingButton, requiredTechnologyButton, upgradedFromButton, nextUpgradeButton);
     }
 
@@ -94,6 +94,6 @@ public class BuildingView extends EntityItemView {
 
     @Override
     protected Entity getEntity(){
-        return Database.getBuilding(entityID, language);
+        return Database.getBuilding(entityID);
     }
 }

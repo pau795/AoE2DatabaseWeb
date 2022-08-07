@@ -38,15 +38,15 @@ public class UnitRecognitionQuizView extends QuizView {
 
     @Override
     protected void setupQuizData() {
-        List<EntityElement> u = Database.getList(Database.UNIT_LIST, language);
+        List<EntityElement> u = Database.getList(Database.UNIT_LIST);
         unitNames = new ArrayList<>();
         unitList =  new ArrayList<>();
         unitRelation =  new HashMap<>();
         for (EntityElement e : u){
             if (notForbidden(e.getId())) {
                 unitList.add(e.getId());
-                unitNames.add(e.getName());
-                unitRelation.put(e.getName(), e.getId());
+                unitNames.add(e.getName().getTranslatedString(language));
+                unitRelation.put(e.getName().getTranslatedString(language), e.getId());
             }
         }
 
@@ -83,12 +83,12 @@ public class UnitRecognitionQuizView extends QuizView {
     @Override
     protected Div getAnswerLayout() {
         unitSelector = new ComboBox<>();
-        unitSelector.setItemLabelGenerator(EntityElement::getName);
-        unitSelector.setRenderer(new ComponentRenderer<>(element -> Utils.getEntityItemRow(element, false)));
+        unitSelector.setItemLabelGenerator(entityElement -> entityElement.getName().getTranslatedString(language));
+        unitSelector.setRenderer(new ComponentRenderer<>(element -> Utils.getEntityItemRow(element, false, language)));
 
-        ArrayList<EntityElement> items = new ArrayList<>(Database.getList(Database.UNIT_LIST, language));
-        items.sort(EntityElement.getAlphabeticalComparator());
-        unitSelector.setItems(Utils.getEntityElementComboBoxFilter(), items);
+        ArrayList<EntityElement> items = new ArrayList<>(Database.getList(Database.UNIT_LIST));
+        items.sort(EntityElement.getAlphabeticalComparator(language));
+        unitSelector.setItems(Utils.getEntityElementComboBoxFilter(language), items);
         unitSelector.getElement().getStyle().set("--vaadin-combo-box-overlay-width","300px");
         return new Div(unitSelector);
     }
@@ -106,7 +106,7 @@ public class UnitRecognitionQuizView extends QuizView {
         Random r = new Random();
         int n = r.nextInt(unitList.size());
         unitID = unitList.get(n);
-        u = Database.getUnit(unitID, language);
+        u = Database.getUnit(unitID);
         setQuestionStats();
         unitSelector.setValue(null);
         unitSelector.focus();
@@ -140,7 +140,7 @@ public class UnitRecognitionQuizView extends QuizView {
 
     @Override
     protected void disableAnswerComponent() {
-        setQuestionInfoName(u.getName());
+        setQuestionInfoName(u.getName().getTranslatedString(language));
         setQuestionInfoIcon(u.getNameElement().getImage(), true);
         setQuestionInfoMedia(u.getNameElement().getMedia(), true);
         unitSelector.setEnabled(false);

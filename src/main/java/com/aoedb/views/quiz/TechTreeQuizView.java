@@ -32,8 +32,8 @@ public class TechTreeQuizView extends QuizView {
 
     @Override
     protected void setupQuizData() {
-        civList = Database.getList(Database.CIVILIZATION_LIST, language);
-        LinkedHashMap<String, List<Integer>> techTreeQuizQuestions = Database.getTechTreeQuizQuestions(language);
+        civList = Database.getList(Database.CIVILIZATION_LIST);
+        LinkedHashMap<String, List<Integer>> techTreeQuizQuestions = Database.getTechTreeQuizQuestions();
         unitQuestions = techTreeQuizQuestions.get("Units");
         techQuestions = techTreeQuizQuestions.get("Techs");
     }
@@ -73,14 +73,14 @@ public class TechTreeQuizView extends QuizView {
         Random r = new Random();
         int c =r.nextInt(civList.size());
         EntityElement cle = civList.get(c);
-        String civName = cle.getName();
+        String civName = cle.getName().getTranslatedString(language);
         int i = r.nextInt(unitQuestions.size() + techQuestions.size());
         if (i < unitQuestions.size()){
-            Unit u = Database.getUnit(unitQuestions.get(i), language);
+            Unit u = Database.getUnit(unitQuestions.get(i));
             questionString = String.format(Database.getString("quiz_tech_tree_unit_question", language),currentQuestion, numQuestions, civName, u.getName());
             updateQuestion();
             setQuestionInfoIcon(u.getNameElement().getImage(), true);
-            setQuestionInfoName(u.getName());
+            setQuestionInfoName(u.getName().getTranslatedString(language));
             setQuestionInfoMedia(u.getNameElement().getMedia(), true);
             setQuestionSymbolImage(Database.getImage("question"));
             yesCheckbox.setEnabled(true);
@@ -90,16 +90,16 @@ public class TechTreeQuizView extends QuizView {
             correctionComment = "";
             updateComment();
             okButton.setText(Database.getString("ok", language));
-            correctAnswer = Database.getUnit(unitQuestions.get(i), language).isAvailableTo(c + 1);
+            correctAnswer = Database.getUnit(unitQuestions.get(i)).isAvailableTo(c + 1);
         }
         else {
             i -= unitQuestions.size();
-            Technology t = Database.getTechnology(techQuestions.get(i), language);
+            Technology t = Database.getTechnology(techQuestions.get(i));
             questionString = String.format(Database.getString("quiz_tech_tree_tech_question", language), currentQuestion, numQuestions, civName, t.getName());
             updateQuestion();
             setQuestionInfoIcon(t.getNameElement().getImage(), true);
-            setQuestionInfoName(t.getName());
-            Building b = Database.getBuilding(t.getCreatorElement().getId(), language);
+            setQuestionInfoName(t.getName().getTranslatedString(language));
+            Building b = Database.getBuilding(t.getCreatorElement().getId());
             setQuestionInfoMedia(b.getNameElement().getMedia(), true);
             setQuestionSymbolImage(Database.getImage("question"));
             yesCheckbox.setEnabled(true);
@@ -109,7 +109,7 @@ public class TechTreeQuizView extends QuizView {
             correctionComment = "";
             updateComment();
             okButton.setText(Database.getString("ok", language));
-            correctAnswer = Database.getTechnology(techQuestions.get(i), language).isAvailableTo(c + 1);
+            correctAnswer = Database.getTechnology(techQuestions.get(i)).isAvailableTo(c + 1);
         }
     }
 

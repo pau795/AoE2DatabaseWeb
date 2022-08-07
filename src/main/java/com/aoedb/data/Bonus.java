@@ -4,26 +4,26 @@ import java.util.List;
 
 public class Bonus {
 
-    private String techTreeDescription, itemDescription;
+    private StringKey techTreeDescription, itemDescription;
 
 	private EffectContainer effectContainer;
 
     public Bonus(){}
 
-    public String getTechTreeDescription() {
+    public StringKey getTechTreeDescription() {
         return techTreeDescription;
     }
 
     public void setTechTreeDescription(String techTreeDescription) {
-        this.techTreeDescription = techTreeDescription;
+        this.techTreeDescription = new StringKey(techTreeDescription);
     }
 
-    public String getItemDescription() {
+    public StringKey getItemDescription() {
         return itemDescription;
     }
 
     public void setItemDescription(String itemDescription) {
-        this.itemDescription = itemDescription;
+        this.itemDescription = new StringKey(itemDescription);
     }
 
     public void setEffectContainer(EffectContainer effectContainer) {

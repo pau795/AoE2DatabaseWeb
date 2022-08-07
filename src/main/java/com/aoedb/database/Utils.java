@@ -3,7 +3,6 @@ package com.aoedb.database;
 
 import com.aoedb.data.Entity;
 import com.aoedb.data.EntityElement;
-import com.aoedb.data.TypeElement;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.combobox.ComboBox;
 import com.vaadin.flow.component.html.Div;
@@ -110,9 +109,9 @@ public class Utils {
     }
 
     public static String getMaxAge(Entity e1, Entity e2, String language){
-        String e1Name = e1.getAgeElement().getName(), e2Name = e2.getAgeElement().getName();
-        if (e1.getEntityID() == 12 || e1.getEntityID() == 15) e1Name = Database.getElement(Database.TECH_LIST, -1, language).getName();
-        if (e2.getEntityID() == 12 || e2.getEntityID() == 15) e2Name = Database.getElement(Database.TECH_LIST, -1, language).getName();
+        String e1Name = e1.getAgeElement().getName().getTranslatedString(language), e2Name = e2.getAgeElement().getName().getTranslatedString(language);
+        if (e1.getEntityID() == 12 || e1.getEntityID() == 15) e1Name = Database.getElement(Database.TECH_LIST, -1).getName().getTranslatedString(language);
+        if (e2.getEntityID() == 12 || e2.getEntityID() == 15) e2Name = Database.getElement(Database.TECH_LIST, -1).getName().getTranslatedString(language);
 
         String darkAge = Database.getString("dark_age", language);
         String feudalAge = Database.getString("feudal_age", language);
@@ -241,7 +240,7 @@ public class Utils {
     }
 
     public static String getUTCiv(int id, String language){
-       return Database.getElement(Database.CIVILIZATION_LIST, Database.getTechnology(id, language).getAvailableCivIds().get(0), language).getName();
+       return Database.getElement(Database.CIVILIZATION_LIST, Database.getTechnology(id).getAvailableCivIds().get(0)).getName().getTranslatedString(language);
     }
 
 
@@ -326,11 +325,11 @@ public class Utils {
         return new RouteParameters(map);
     }
 
-    public static ComboBox.ItemFilter<EntityElement> getEntityElementComboBoxFilter(){
-         return (entityElement, filterString) -> StringUtils.stripAccents(entityElement.getName().toLowerCase()).contains(StringUtils.stripAccents(filterString.toLowerCase()));
+    public static ComboBox.ItemFilter<EntityElement> getEntityElementComboBoxFilter(String language){
+         return (entityElement, filterString) -> StringUtils.stripAccents(entityElement.getName().getTranslatedString(language).toLowerCase()).contains(StringUtils.stripAccents(filterString.toLowerCase()));
     }
-    public static Component getEntityItemRow(EntityElement entityElement, boolean border) {
-        Label name = new Label(entityElement.getName());
+    public static Component getEntityItemRow(EntityElement entityElement, boolean border, String language) {
+        Label name = new Label(entityElement.getName().getTranslatedString(language));
         name.getStyle().set("flex-grow", "1");
         name.getStyle().set("font-weight", "bold");
         Image image = new Image();
@@ -346,7 +345,7 @@ public class Utils {
     }
 
     public static Component getSearchEntityItemRow(EntityElement entityElement, String language) {
-        Label name = new Label(entityElement.getName());
+        Label name = new Label(entityElement.getName().getTranslatedString(language));
         name.getStyle().set("flex-grow", "1");
         name.getStyle().set("font-weight", "bold");
 

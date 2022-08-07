@@ -12,14 +12,12 @@ public abstract class BaseEntity {
     protected HashMap<String, String> stringStats;
     protected List<Integer> upgradesIds;
     protected BonusContainer bonusContainer;
-    protected String language;
 
-    public BaseEntity(String language){
+    public BaseEntity(){
         this.entityElements = new HashMap<>();
         this.baseStats = new HashMap<>();
         this.calculatedStats = new HashMap<>();
         this.stringStats = new HashMap<>();
-        this.language = language;
     }
 
     public BaseEntity(BaseEntity b){
@@ -29,7 +27,6 @@ public abstract class BaseEntity {
         this.stringStats = new HashMap<>();
         this.upgradesIds = b.getUpgradesIds();
         this.bonusContainer = b.getBonusContainer();
-        this.language = b.language;
     }
 
 
@@ -37,12 +34,8 @@ public abstract class BaseEntity {
         return getNameElement().getId();
     }
 
-    public String getName(){
+    public StringKey getName(){
         return getNameElement().getName();
-    }
-
-    public String getLanguage() {
-        return language;
     }
 
     public HashMap<String, EntityElement> getEntityElements(){
@@ -59,7 +52,7 @@ public abstract class BaseEntity {
 
     public EntityElement getNameElement(){
 
-        return getEntityElement(Database.getString("entity_name", language));
+        return getEntityElement("entity_name");
     }
 
     public String getType(){
@@ -140,27 +133,27 @@ public abstract class BaseEntity {
 
         //HIDDEN BONUS
         for (int i: bonusContainer.getHiddenBonusList()){
-            Bonus b = Database.getHiddenBonus(i, language);
+            Bonus b = Database.getHiddenBonus(i);
             processBonusEffects(b, age, selectedUpgrades);
         }
 
         //BONUSES
         for (int i:bonusContainer.getBonusList()){
-            Bonus b = Database.getBonus(i, language);
+            Bonus b = Database.getBonus(i);
             if (b.getCivilization() == civ && (b.getGlobalFilter().equals(Database.NONE) || b.getGlobalFilter().equals(getType())))
                 processBonusEffects(b, age, selectedUpgrades);
         }
 
         //TEAM BONUS
         for (int i:bonusContainer.getTeamBonusList()){
-            Bonus b = Database.getBonus(i, language);
+            Bonus b = Database.getBonus(i);
             if(b.getCivilization() == civ && (b.getGlobalFilter().equals(Database.NONE) || b.getGlobalFilter().equals(getType())))
                 processBonusEffects(b, age, selectedUpgrades);
         }
 
         //TECHS
         for (int i : selectedUpgrades){
-            TechBonus t = Database.getTechEffect(i, language);
+            TechBonus t = Database.getTechEffect(i);
             if(t.getAvailableCivs().contains(civ) && t.getAge() <= age)
                 processBonusEffects(t.getBonus(), age, selectedUpgrades);
         }

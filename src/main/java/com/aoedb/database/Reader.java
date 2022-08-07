@@ -28,11 +28,9 @@ import javax.xml.parsers.ParserConfigurationException;
 
 public class Reader {
     Storage storage;
-    String language;
     
-    public Reader(Storage storage, String language){
+    public Reader(Storage storage){
         this.storage = storage;
-        this.language = language;
     }
 
     public InputStream getData(String fileName) throws IOException {
@@ -44,14 +42,47 @@ public class Reader {
     public static HashMap<String, HashMap<String, String>> readStringMap(){
         HashMap<String, HashMap<String, String>> b = new HashMap<>();
         HashMap<String, String> enMap = readLangMap(Database.ENGLISH);
-        HashMap<String, String> deMap = readLangMap(Database.DEUTSCH);
         HashMap<String, String> esMap = readLangMap(Database.SPANISH);
+        HashMap<String, String> deMap = readLangMap(Database.DEUTSCH);
         b.put(Database.ENGLISH, enMap);
         b.put(Database.SPANISH, esMap);
         b.put(Database.DEUTSCH, deMap);
         return b;
     }
-    
+
+    public static HashMap<String, List<String>> readHistoryTextMap(){
+        HashMap<String, List<String>> map = new HashMap<>();
+        List<String> enHistory = readHistoryText(Database.ENGLISH);
+        List<String> esHistory = readHistoryText(Database.SPANISH);
+        List<String> deHistory = readHistoryText(Database.DEUTSCH);
+        map.put(Database.ENGLISH, enHistory);
+        map.put(Database.SPANISH, esHistory);
+        map.put(Database.DEUTSCH, deHistory);
+        return map;
+    }
+
+
+    public static List<String> readHistoryText(String language){
+        try {
+            List<String> b = new ArrayList<>();
+            DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
+            DocumentBuilder docBuilder = builderFactory.newDocumentBuilder();
+
+            String path = Database.BASE_DIR +"data/"+ language + "/" + Database.HISTORY_TEXT +".xml";
+            PathMatchingResourcePatternResolver scanner = new PathMatchingResourcePatternResolver();
+            Document doc = docBuilder.parse(scanner.getResource(path).getInputStream());
+            NodeList list = doc.getElementsByTagName("item");
+            for (int i = 0; i < list.getLength(); ++i){
+                Element item = (Element) list.item(i);
+                b.add(item.getTextContent());
+            }
+            return b;
+        }
+        catch (ParserConfigurationException | IOException | SAXException e){
+            e.printStackTrace();
+        }
+        return new ArrayList<>();
+    }
 
     private static HashMap<String, String> readLangMap(String language){
         try {
@@ -88,12 +119,12 @@ public class Reader {
                 Element element = (Element) list.item(i);
                 String type = Utils.getEntityTypeString(file);
                 int id = Integer.parseInt(element.getAttribute("id"));
-                String name = Database.getString(type +"_name_"+id, language);
+                String name = type +"_name_"+id;
                 String img = element.getAttribute("image");
 
                 String mediaPath;
                 if (file.equals(Database.CIVILIZATION_LIST)) {
-                    mediaPath = Database.getSound("s_" + img.substring(2), language);
+                    mediaPath = "s_" + img.substring(2);
                 }
                 else {
                     if (id == 23 && file.equals(Database.BUILDING_LIST)) mediaPath = "g_fortified_wall";
@@ -116,29 +147,31 @@ public class Reader {
         return new ArrayList<>();
     }
 
-    public List<LinkedHashMap<String, List<EntityElement>>> readGroupLists(String file, List<EntityElement> set) {
+    public List<GroupList> readGroupLists(String file, List<EntityElement> set) {
         try {
-            List<LinkedHashMap<String, List<EntityElement>>> b = new ArrayList<>();
+            List<GroupList> b = new ArrayList<>();
 
             DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder docBuilder = builderFactory.newDocumentBuilder();
             Document doc = docBuilder.parse(getData(file));
             NodeList list = doc.getElementsByTagName("group");
             for (int sort = 0; sort < list.getLength(); ++sort) {
-                LinkedHashMap<String, List<EntityElement>> map = new LinkedHashMap<>();
+                LinkedHashMap<StringKey, List<EntityElement>> map = new LinkedHashMap<>();
                 Element group = (Element) list.item(sort);
                 boolean alphabeticalOrder = Boolean.parseBoolean(group.getAttribute("alphabeticalOrder"));
                 NodeList categoryList = group.getElementsByTagName("category");
+                GroupList groupList = new GroupList();
                 for (int i = 0; i < categoryList.getLength(); ++i) {
                     Element category = (Element) categoryList.item(i);
                     String[] sids = category.getAttribute("ids").split(" ");
                     ArrayList<EntityElement> a = new ArrayList<>();
                     for (String sid : sids) a.add(set.get(Integer.parseInt(sid) - 1));
-                    if (alphabeticalOrder) a.sort(EntityElement.getAlphabeticalComparator());
-                    String groupTitle = Database.getString(category.getAttribute("name"), language);
+                    StringKey groupTitle = new StringKey(category.getAttribute("name"));
                     map.put(groupTitle, a);
+                    groupList.setEntityMap(map);
+                    groupList.setAlphabeticalOrder(alphabeticalOrder);
                 }
-                b.add(map);
+                b.add(groupList);
             }
             return b;
         } catch (ParserConfigurationException | IOException | SAXException e) {
@@ -183,21 +216,21 @@ public class Reader {
         List<EntityElement> list = storage.getList(type +"_list");
         for (EntityElement element: list) {
             Descriptor d = new Descriptor();
-            d.setNominative(Database.getString(type + "_description_nominative_" + element.getId(), language));
-            d.setQuickDescription(Database.getString(type + "_description_quick_" + element.getId(), language));
-            d.setBriefDescription(Database.getString(type + "_description_brief_" + element.getId(), language));
-            d.setLongDescription(Database.getString(type + "_description_long_" + element.getId(), language));
-            d.setExtraDescription(Database.getString(type + "_description_extra_" + element.getId(), language));
-            if (d.getNominative().isEmpty()) d.setNominative(element.getName());
-            if (d.getBriefDescription().isEmpty()) d.setBriefDescription(d.getLongDescription());
+            d.setNominative(type + "_description_nominative_" + element.getId());
+            d.setQuickDescription(type + "_description_quick_" + element.getId());
+            d.setBriefDescription(type + "_description_brief_" + element.getId());
+            d.setLongDescription(type + "_description_long_" + element.getId());
+            d.setExtraDescription(type + "_description_extra_" + element.getId());
+            if (d.getNominative().getKey().isEmpty()) d.setNominative(element.getName().getKey());
+            if (d.getBriefDescription().getKey().isEmpty()) d.setBriefDescription(d.getLongDescription().getKey());
             map.add(d);
         }
         return map;
     }
 
-    public List<LinkedHashMap<String, LinkedHashMap<Integer, Double>>> readTypeValues(String file) {
+    public List<LinkedHashMap<StringKey, LinkedHashMap<Integer, Double>>> readTypeValues(String file) {
         try {
-            List<LinkedHashMap<String, LinkedHashMap<Integer, Double>>> map = new ArrayList<>();
+            List<LinkedHashMap<StringKey, LinkedHashMap<Integer, Double>>> map = new ArrayList<>();
             DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder docBuilder = builderFactory.newDocumentBuilder();
             Document doc = docBuilder.parse(getData(file));
@@ -205,13 +238,12 @@ public class Reader {
             for (int z = 0; z < list.getLength(); ++z) {
                 Node item = list.item(z);
                 NodeList entryList = item.getChildNodes();
-                LinkedHashMap<String, LinkedHashMap<Integer, Double>> b = new LinkedHashMap<>();
+                LinkedHashMap<StringKey, LinkedHashMap<Integer, Double>> b = new LinkedHashMap<>();
                 for (int i = 0; i < entryList.getLength(); ++i) {
                     Node entryNode = entryList.item(i);
                     if (entryNode.getNodeType() == Node.ELEMENT_NODE) {
                         Element entry = (Element) entryNode;
                         String groupName = entry.getAttribute("nameID");
-                        String groupNameString = Database.getString(groupName, language);
                         NodeList valList = entry.getChildNodes();
                         LinkedHashMap<Integer, Double> valuesMap = new LinkedHashMap<>();
                         for (int j = 0; j < valList.getLength(); ++j) {
@@ -223,7 +255,7 @@ public class Reader {
                                 valuesMap.put(typeID, val);
                             }
                         }
-                        b.put(groupNameString, valuesMap);
+                        b.put(new StringKey(groupName), valuesMap);
                     }
                 }
                 map.add(b);
@@ -237,9 +269,9 @@ public class Reader {
 
     }
 
-    public List<LinkedHashMap<String, List<EntityElement>>> readUpgrades(String file) {
+    public List<LinkedHashMap<StringKey, List<EntityElement>>> readUpgrades(String file) {
         try {
-            List<LinkedHashMap<String, List<EntityElement>>> map = new ArrayList<>();
+            List<LinkedHashMap<StringKey, List<EntityElement>>> map = new ArrayList<>();
             DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder docBuilder = builderFactory.newDocumentBuilder();
             Document doc = docBuilder.parse(getData(file));
@@ -248,14 +280,14 @@ public class Reader {
             NodeList list = doc.getElementsByTagName("item");
             for (int z = 0; z < list.getLength(); ++z) {
                 Node n = list.item(z);
-                LinkedHashMap<String, List<EntityElement>> b = new LinkedHashMap<>();
+                LinkedHashMap<StringKey, List<EntityElement>> b = new LinkedHashMap<>();
                 NodeList bList = n.getChildNodes();
                 for (int i = 0; i < bList.getLength(); ++i) {
                     Node n1 = bList.item(i);
                     if (n1.getNodeType() == Node.ELEMENT_NODE) {
                         Element e = (Element) n1;
                         int buildingID = Integer.parseInt(e.getAttribute("id"));
-                        String buildingName = buildingList.get(buildingID - 1).getName();
+                        StringKey buildingName = buildingList.get(buildingID - 1).getName();
                         String[] upgrades = e.getAttribute("upgrades").split(" ");
                         List<EntityElement> upgradeList = new ArrayList<>();
                         for (String u : upgrades) {
@@ -266,7 +298,7 @@ public class Reader {
                         b.put(buildingName, upgradeList);
                     }
                 }
-                if (b.isEmpty()) b.put(Database.getString("none", language), new ArrayList<>());
+                if (b.isEmpty()) b.put(new StringKey("none"), new ArrayList<>());
                 map.add(b);
             }
 
@@ -278,9 +310,9 @@ public class Reader {
 
     }
 
-    public List<LinkedHashMap<String, List<EntityElement>>> readPerformance() {
+    public List<LinkedHashMap<StringKey, List<EntityElement>>> readPerformance() {
         try {
-            List<LinkedHashMap<String, List<EntityElement>>> map = new ArrayList<>();
+            List<LinkedHashMap<StringKey, List<EntityElement>>> map = new ArrayList<>();
             List<EntityElement> performanceList = storage.getList(Database.PERFORMANCE_LIST);
             DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder docBuilder = builderFactory.newDocumentBuilder();
@@ -288,7 +320,7 @@ public class Reader {
             NodeList list = doc.getElementsByTagName("item");
             for (int z = 0; z < list.getLength(); ++z) {
                 Element n = (Element) list.item(z);
-                LinkedHashMap<String, List<EntityElement>> b = new LinkedHashMap<>();
+                LinkedHashMap<StringKey, List<EntityElement>> b = new LinkedHashMap<>();
                 Element strong = (Element) n.getElementsByTagName("strong").item(0);
                 ArrayList<EntityElement> strongList = new ArrayList<>();
                 if (strong.hasAttribute("ids")) {
@@ -312,8 +344,8 @@ public class Reader {
                 Comparator<EntityElement> comp = EntityElement.getListElementComparator(storage.getOrderMap(Database.PERFORMANCE_GROUPS, 0));
                 strongList.sort(comp);
                 weakList.sort(comp);
-                b.put(Database.getString("performance_strong", language), strongList);
-                b.put(Database.getString("performance_weak", language), weakList);
+                b.put(new StringKey("performance_strong"), strongList);
+                b.put(new StringKey("performance_weak"), weakList);
                 map.add(b);
             }
             return map;
@@ -324,9 +356,9 @@ public class Reader {
 
     }
 
-    public List<LinkedHashMap<String, List<EntityElement>>> readTrainable() {
+    public List<LinkedHashMap<StringKey, List<EntityElement>>> readTrainable() {
         try {
-            List<LinkedHashMap<String, List<EntityElement>>> map = new ArrayList<>();
+            List<LinkedHashMap<StringKey, List<EntityElement>>> map = new ArrayList<>();
             List<EntityElement> unitList = storage.getList(Database.UNIT_LIST);
             List<EntityElement> techList = storage.getList(Database.TECH_LIST);
             List<EntityElement> buildingList = storage.getList(Database.BUILDING_LIST);
@@ -337,7 +369,7 @@ public class Reader {
             for (int z = 0; z < list.getLength(); ++z) {
                 Node item = list.item(z);
                 NodeList applicationList = item.getChildNodes();
-                LinkedHashMap<String, List<EntityElement>> b = new LinkedHashMap<>();
+                LinkedHashMap<StringKey, List<EntityElement>> b = new LinkedHashMap<>();
                 for (int i = 0; i < applicationList.getLength(); ++i) {
                     Node entryNode = applicationList.item(i);
                     if (entryNode.getNodeType() == Node.ELEMENT_NODE) {
@@ -352,32 +384,32 @@ public class Reader {
                             switch (tag) {
                                 case "units":
                                     l = unitList.get(entityID - 1);
-                                    groupName = Database.getString("tt_units", language);
+                                    groupName = "tt_units";
                                     sortFile = Database.UNIT_GROUPS;
                                     break;
                                 case "techs":
                                     l = techList.get(entityID - 1);
-                                    groupName = Database.getString("tt_techs", language);
+                                    groupName = "tt_techs";
                                     sortFile = Database.TECH_GROUPS;
                                     break;
                                 case "buildings":
                                     l = buildingList.get(entityID - 1);
-                                    groupName = Database.getString("tt_buildings", language);
+                                    groupName = "tt_buildings";
                                     sortFile = Database.BUILDING_GROUPS;
                                     break;
                                 default:
-                                    groupName = Database.getString("none", language);
+                                    groupName = "none";
                                     l = new EntityElement(-1, groupName, Database.getImage("t_white"), "", "");
                                     break;
                             }
                             elementList.add(l);
                         }
-                        elementList.sort(EntityElement.getListElementComparator(storage.getOrderMap(sortFile, 0)));
-                        b.put(groupName, elementList);
+                        elementList.sort(EntityElement.  getListElementComparator(storage.getOrderMap(sortFile, 0)));
+                        b.put(new StringKey(groupName), elementList);
 
                     }
                 }
-                if (b.isEmpty()) b.put(Database.getString("none", language), new ArrayList<>());
+                if (b.isEmpty()) b.put(new StringKey("none"), new ArrayList<>());
                 map.add(b);
             }
             return map;
@@ -393,64 +425,64 @@ public class Reader {
         List<EntityElement> units = storage.getList(Database.UNIT_LIST);
         List<EntityElement> buildings = storage.getList(Database.BUILDING_LIST);
         List<EntityElement> techs = storage.getList(Database.TECH_LIST);
-        List<LinkedHashMap<String, List<EntityElement>>> applications = new ArrayList<>(techs.size());
+        List<LinkedHashMap<StringKey, List<EntityElement>>> applications = new ArrayList<>(techs.size());
         for(int i = 0; i< techs.size(); ++i) applications.add(new LinkedHashMap<>());
         for(EntityElement e: units) {
            List<Integer> upgrades = storage.getUnit(e.getId()).getUpgradesIds();
            for(int i : upgrades){
-               LinkedHashMap<String, List<EntityElement>> map =  applications.get(i - 1);
-               if(map.containsKey(Database.getString("tt_units", language))){
-                   List<EntityElement> list = map.get(Database.getString("tt_units", language));
+               LinkedHashMap<StringKey, List<EntityElement>> map =  applications.get(i - 1);
+               if(map.containsKey(new StringKey("tt_units"))){
+                   List<EntityElement> list = map.get(new StringKey("tt_units"));
                    if (!list.contains(e)) list.add(e);
                }
                else {
                    List<EntityElement> list =  new ArrayList<>();
                    list.add(e);
-                   map.put(Database.getString("tt_units", language), list);
+                   map.put(new StringKey("tt_units"), list);
                }
            }
         }
         for(EntityElement e: buildings) {
             List<Integer> upgrades = storage.getBuilding(e.getId()).getUpgradesIds();
             for(int i : upgrades){
-                LinkedHashMap<String, List<EntityElement>> map =  applications.get(i - 1);
-                if(map.containsKey(Database.getString("tt_buildings", language))){
-                    List<EntityElement> list = map.get(Database.getString("tt_buildings", language));
+                LinkedHashMap<StringKey, List<EntityElement>> map =  applications.get(i - 1);
+                if(map.containsKey(new StringKey("tt_buildings"))){
+                    List<EntityElement> list = map.get(new StringKey("tt_buildings"));
                     if (!list.contains(e)) list.add(e);
                 }
                 else {
                     List<EntityElement> list =  new ArrayList<>();
                     list.add(e);
-                    map.put(Database.getString("tt_buildings", language), list);
+                    map.put(new StringKey("tt_buildings"), list);
                 }
             }
         }
         for(EntityElement e: techs) {
             List<Integer> upgrades = storage.getTechnology(e.getId()).getUpgradesIds();
             for(int i : upgrades){
-                LinkedHashMap<String, List<EntityElement>> map =  applications.get(i - 1);
-                if(map.containsKey(Database.getString("tt_techs", language))){
-                    List<EntityElement> list = map.get(Database.getString("tt_techs", language));
+                LinkedHashMap<StringKey, List<EntityElement>> map =  applications.get(i - 1);
+                if(map.containsKey(new StringKey("tt_techs"))){
+                    List<EntityElement> list = map.get(new StringKey("tt_techs"));
                     if (!list.contains(e)) list.add(e);
                 }
                 else {
                     List<EntityElement> list =  new ArrayList<>();
                     list.add(e);
-                    map.put(Database.getString("tt_techs", language), list);
+                    map.put(new StringKey("tt_techs"), list);
                 }
             }
         }
-        for (HashMap<String, List<EntityElement>> map : applications){
-            for(String s : map.keySet()){
+        for (HashMap<StringKey, List<EntityElement>> map : applications){
+            for(StringKey s : map.keySet()){
                 List<EntityElement> list =  map.get(s);
                 String sortFile;
-                if (Database.getString("tt_units", language).equals(s)) sortFile = Database.UNIT_GROUPS;
-                else if (Database.getString("tt_buildings", language).equals(s)) sortFile = Database.BUILDING_GROUPS;
-                else if (Database.getString("tt_techs", language).equals(s)) sortFile = Database.TECH_GROUPS;
+                if (new StringKey("tt_units").equals(s)) sortFile = Database.UNIT_GROUPS;
+                else if (new StringKey("tt_buildings").equals(s)) sortFile = Database.BUILDING_GROUPS;
+                else if (new StringKey("tt_techs").equals(s)) sortFile = Database.TECH_GROUPS;
                 else sortFile = "";
                 list.sort(EntityElement.getListElementComparator(storage.getOrderMap(sortFile, 0)));
             }
-            if (map.isEmpty()) map.put(Database.getString("none", language), new ArrayList<>());
+            if (map.isEmpty()) map.put(new StringKey("none"), new ArrayList<>());
         }
 
         for (EntityElement i: techs) storage.getTechnology(i.getId()).setApplications(applications.get(i.getId() - 1));
@@ -458,12 +490,12 @@ public class Reader {
 
     }
 
-    public HashMap<Integer, LinkedHashMap<String, List<EntityElement>>> readTypeEntity(boolean isAttackType){
-        HashMap<Integer, LinkedHashMap<String, List<EntityElement>>> b = new HashMap<>();
+    public HashMap<Integer, LinkedHashMap<StringKey, List<EntityElement>>> readTypeEntity(boolean isAttackType){
+        HashMap<Integer, LinkedHashMap<StringKey, List<EntityElement>>> b = new HashMap<>();
         List<EntityElement> types = storage.getList(Database.TYPE_LIST);
 
         for (EntityElement element : types){
-            LinkedHashMap<String, List<EntityElement>> map = new LinkedHashMap<>();
+            LinkedHashMap<StringKey, List<EntityElement>> map = new LinkedHashMap<>();
             List<EntityElement> unitList = new ArrayList<>();
             List<EntityElement> buildingList = new ArrayList<>();
             for (EntityElement unit : storage.getList(Database.UNIT_LIST)){
@@ -474,25 +506,24 @@ public class Reader {
                 Building bl = storage.getBuilding(building.getId());
                 if (itemContainsType(bl, element.getId(), isAttackType)) buildingList.add(building);
             }
-            unitList.sort(EntityElement.getAlphabeticalComparator());
-            buildingList.sort(EntityElement.getAlphabeticalComparator());
-            String armorOrAttack;
-            if (isAttackType) armorOrAttack = Database.getString("type_entities_attack", language);
-            else armorOrAttack = Database.getString("type_entities_armor", language);
-            if (!unitList.isEmpty()) map.put(String.format(armorOrAttack,Database.getString("tt_units", language),
-                    element.getName()), unitList);
-            if (!buildingList.isEmpty()) map.put(String.format(armorOrAttack, Database.getString("tt_buildings", language),
-                    element.getName()), buildingList);
+            if (isAttackType){
+                if (!unitList.isEmpty()) map.put(new StringKey("type_entities_unit_attack", element.getName()), unitList);
+                if (!buildingList.isEmpty()) map.put(new StringKey("type_entities_building_attack", element.getName()), buildingList);
+            }
+            else {
+                if (!unitList.isEmpty()) map.put(new StringKey("type_entities_unit_armor", element.getName()), unitList);
+                if (!buildingList.isEmpty()) map.put(new StringKey("type_entities_building_armor", element.getName()), unitList);
+            }
             b.put(element.getId(), map);
         }
         return b;
     }
 
     public boolean itemContainsType(Item i, int typeID, boolean isAttack){
-        LinkedHashMap<String, LinkedHashMap<Integer, Double>> typeList;
+        LinkedHashMap<StringKey, LinkedHashMap<Integer, Double>> typeList;
         if (isAttack) typeList = i.getBaseAttackValues();
         else typeList = i.getBaseArmorValues();
-        for (String s : typeList.keySet()) {
+        for (StringKey s : typeList.keySet()) {
             LinkedHashMap<Integer, Double> map = typeList.get(s);
             if (map.containsKey(typeID)) return true;
         }
@@ -509,7 +540,7 @@ public class Reader {
             NodeList list = doc.getElementsByTagName("item");
             for (int z = 0; z < list.getLength(); ++z) {
                 Element item = (Element) list.item(z);
-                LinkedHashMap<String, List<EntityElement>> availabilityList = new LinkedHashMap<>();
+                LinkedHashMap<StringKey, List<EntityElement>> availabilityList = new LinkedHashMap<>();
                 List<EntityElement> available = new ArrayList<>();
                 List<EntityElement> unavailable = new ArrayList<>(civs);
                 HashMap<Integer, Boolean> civMap = new HashMap<>();
@@ -535,11 +566,8 @@ public class Reader {
                 Element item1 = (Element) list.item(realRow);
                 String[] civIDs1 = item1.getAttribute("civs").split(" ");
                 for (String s : civIDs1) availableIDs.add(Integer.parseInt(s));
-                Comparator<EntityElement> comp = EntityElement.getAlphabeticalComparator();
-                available.sort(comp);
-                unavailable.sort(comp);
-                availabilityList.put(Database.getString("civ_available", language), available);
-                availabilityList.put(Database.getString("civ_unavailable", language), unavailable);
+                availabilityList.put(new StringKey("civ_available"), available);
+                availabilityList.put(new StringKey("civ_unavailable"), unavailable);
                 map.add(new AvailabilityContainer(availabilityList, availableIDs, civMap));
             }
             return map;
@@ -556,10 +584,10 @@ public class Reader {
             List<Unit> unitMap = new ArrayList<>();
 
             List<Descriptor> descriptors = readDescriptors(Database.UNIT);
-            List<LinkedHashMap<String, LinkedHashMap<Integer, Double>>> attackValues = readTypeValues(Database.UNIT_ATTACK);
-            List<LinkedHashMap<String, LinkedHashMap<Integer, Double>>> armorValues = readTypeValues(Database.UNIT_ARMOR);
-            List<LinkedHashMap<String, List<EntityElement>>> upgrades = readUpgrades(Database.UNIT_UPGRADES);
-            List<LinkedHashMap<String, List<EntityElement>>> performance = readPerformance();
+            List<LinkedHashMap<StringKey, LinkedHashMap<Integer, Double>>> attackValues = readTypeValues(Database.UNIT_ATTACK);
+            List<LinkedHashMap<StringKey, LinkedHashMap<Integer, Double>>> armorValues = readTypeValues(Database.UNIT_ARMOR);
+            List<LinkedHashMap<StringKey, List<EntityElement>>> upgrades = readUpgrades(Database.UNIT_UPGRADES);
+            List<LinkedHashMap<StringKey, List<EntityElement>>> performance = readPerformance();
             List<AvailabilityContainer> availability = readAvailability(Database.UNIT_AVAILABILITY);
             List<BonusContainer> bonuses = readBonusContainers(Database.UNIT_BONUS);
 
@@ -569,24 +597,24 @@ public class Reader {
             NodeList list = doc.getElementsByTagName("item");
             for (int i = 0; i < list.getLength(); ++i) {
                 Element unitItem = (Element) list.item(i);
-                Unit u = new Unit(language);
+                Unit u = new Unit();
 
                 //UNIT INFO
                 Element baseInfo = (Element) unitItem.getElementsByTagName("baseInfo").item(0);
                 EntityElement le1 = storage.getElement(Database.UNIT_LIST, i + 1);
-                u.addEntityElement(Database.getString("entity_name", language), le1);
+                u.addEntityElement("entity_name", le1);
 
                 int buildingID = Integer.parseInt(baseInfo.getAttribute("trainingBuildingID"));
                 EntityElement le2 = storage.getElement(Database.BUILDING_LIST, buildingID);
-                u.addEntityElement(Database.getString("unit_training_building", language), le2);
+                u.addEntityElement("unit_training_building", le2);
 
                 int ageID = Integer.parseInt(baseInfo.getAttribute("ageID"));
                 EntityElement le3 = storage.getElement(Database.TECH_LIST, ageID);
-                u.addEntityElement(Database.getString("entity_age", language), le3);
+                u.addEntityElement("entity_age", le3);
 
                 int classID = Integer.parseInt(baseInfo.getAttribute("classID"));
                 EntityElement le4 = storage.getElement(Database.CLASS_LIST, classID);
-                u.addEntityElement(Database.getString("entity_class", language), le4);
+                u.addEntityElement("entity_class", le4);
 
                 //UNIT STATS
                 Element stats = (Element) unitItem.getElementsByTagName("stats").item(0);
@@ -615,15 +643,15 @@ public class Reader {
                 Element development = (Element) unitItem.getElementsByTagName("development").item(0);
                 int rTechID = Integer.parseInt(development.getAttribute("requiredTechID"));
                 EntityElement le5 = storage.getElement(Database.TECH_LIST, rTechID);
-                u.addEntityElement(Database.getString("required_technology", language), le5);
+                u.addEntityElement("required_technology", le5);
 
                 int pUpgradeID = Integer.parseInt(development.getAttribute("previousUpgradeID"));
                 EntityElement le6 = storage.getElement(Database.UNIT_LIST, pUpgradeID);
-                u.addEntityElement(Database.getString("upgraded_from", language), le6);
+                u.addEntityElement("upgraded_from", le6);
 
                 int nUpgradeID = Integer.parseInt(development.getAttribute("nextUpgradeID"));
                 EntityElement le7 = storage.getElement(Database.UNIT_LIST, nUpgradeID);
-                u.addEntityElement(Database.getString("next_upgrade", language), le7);
+                u.addEntityElement("next_upgrade", le7);
 
                 u.setDescriptor(descriptors.get(i));
                 u.setUpgrades(upgrades.get(i));
@@ -650,10 +678,10 @@ public class Reader {
             List<Building> buildingMap = new ArrayList<>();
 
             List<Descriptor> descriptors = readDescriptors(Database.BUILDING);
-            List<LinkedHashMap<String, LinkedHashMap<Integer, Double>>> attackValues = readTypeValues(Database.BUILDING_ATTACK);
-            List<LinkedHashMap<String, LinkedHashMap<Integer, Double>>> armorValues = readTypeValues(Database.BUILDING_ARMOR);
-            List<LinkedHashMap<String, List<EntityElement>>> upgrades = readUpgrades(Database.BUILDING_UPGRADES);
-            List<LinkedHashMap<String, List<EntityElement>>> trainable = readTrainable();
+            List<LinkedHashMap<StringKey, LinkedHashMap<Integer, Double>>> attackValues = readTypeValues(Database.BUILDING_ATTACK);
+            List<LinkedHashMap<StringKey, LinkedHashMap<Integer, Double>>> armorValues = readTypeValues(Database.BUILDING_ARMOR);
+            List<LinkedHashMap<StringKey, List<EntityElement>>> upgrades = readUpgrades(Database.BUILDING_UPGRADES);
+            List<LinkedHashMap<StringKey, List<EntityElement>>> trainable = readTrainable();
             List<AvailabilityContainer> availability = readAvailability(Database.BUILDING_AVAILABILITY);
             List<BonusContainer> bonuses = readBonusContainers(Database.BUILDING_BONUS);
 
@@ -663,24 +691,24 @@ public class Reader {
             NodeList list = doc.getElementsByTagName("item");
             for(int i = 0; i < list.getLength(); ++i) {
                 Element buildingItem = (Element) list.item(i);
-                Building b = new Building(language);
+                Building b = new Building();
 
                 //BUILDING INFO
                 Element baseInfo = (Element) buildingItem.getElementsByTagName("baseInfo").item(0);
                 EntityElement le1 = storage.getElement(Database.BUILDING_LIST, i + 1);
-                b.addEntityElement(Database.getString("entity_name", language), le1);
+                b.addEntityElement("entity_name", le1);
 
                 int builderUnitID = Integer.parseInt(baseInfo.getAttribute("builderUnitID"));
                 EntityElement le2 = storage.getElement(Database.UNIT_LIST, builderUnitID);
-                b.addEntityElement(Database.getString("builder_unit", language), le2);
+                b.addEntityElement("builder_unit", le2);
 
                 int ageID = Integer.parseInt(baseInfo.getAttribute("ageID"));
                 EntityElement le3 = storage.getElement(Database.TECH_LIST, ageID);
-                b.addEntityElement(Database.getString("entity_age", language), le3);
+                b.addEntityElement("entity_age", le3);
 
                 int classID = Integer.parseInt(baseInfo.getAttribute("classID"));
                 EntityElement le4 = storage.getElement(Database.CLASS_LIST, classID);
-                b.addEntityElement(Database.getString("entity_class", language), le4);
+                b.addEntityElement("entity_class", le4);
 
                 //BUILDING STATS
                 Element stats = (Element) buildingItem.getElementsByTagName("stats").item(0);
@@ -710,19 +738,19 @@ public class Reader {
 
                 int rBuildingID = Integer.parseInt(development.getAttribute("requiredBuildingID"));
                 EntityElement le5 = storage.getElement(Database.BUILDING_LIST, rBuildingID);
-                b.addEntityElement(Database.getString("required_building", language), le5);
+                b.addEntityElement("required_building", le5);
 
                 int rTechID = Integer.parseInt(development.getAttribute("requiredTechID"));
                 EntityElement le6 = storage.getElement(Database.TECH_LIST, rTechID);
-                b.addEntityElement(Database.getString("required_technology", language), le6);
+                b.addEntityElement("required_technology", le6);
 
                 int pUpgradeID = Integer.parseInt(development.getAttribute("previousUpgradeID"));
                 EntityElement le7 = storage.getElement(Database.BUILDING_LIST, pUpgradeID);
-                b.addEntityElement(Database.getString("upgraded_from", language), le7);
+                b.addEntityElement("upgraded_from", le7);
 
                 int nUpgradeID = Integer.parseInt(development.getAttribute("nextUpgradeID"));
                 EntityElement le8 = storage.getElement(Database.BUILDING_LIST, nUpgradeID);
-                b.addEntityElement(Database.getString("next_upgrade", language), le8);
+                b.addEntityElement("next_upgrade", le8);
 
                 b.setDescriptor(descriptors.get(i));
                 b.setUpgrades(upgrades.get(i));
@@ -749,7 +777,7 @@ public class Reader {
             List<Technology> techMap = new ArrayList<>();
 
             List<Descriptor> descriptors = readDescriptors(Database.TECH);
-            List<LinkedHashMap<String, List<EntityElement>>> upgrades = readUpgrades(Database.TECH_UPGRADES);
+            List<LinkedHashMap<StringKey, List<EntityElement>>> upgrades = readUpgrades(Database.TECH_UPGRADES);
             List<AvailabilityContainer> availability = readAvailability(Database.TECH_AVAILABILITY);
             List<BonusContainer> bonuses = readBonusContainers(Database.TECH_BONUS);
 
@@ -759,20 +787,20 @@ public class Reader {
             NodeList list = doc.getElementsByTagName("item");
             for(int i = 0; i < list.getLength(); ++i) {
                 Element techItem = (Element) list.item(i);
-                Technology t = new Technology(language);
+                Technology t = new Technology();
 
                 //TECH INFO
                 Element baseInfo = (Element) techItem.getElementsByTagName("baseInfo").item(0);
                 EntityElement le1 = storage.getElement(Database.TECH_LIST, i + 1);
-                t.addEntityElement(Database.getString("entity_name", language), le1);
+                t.addEntityElement("entity_name", le1);
 
                 int buildingID = Integer.parseInt(baseInfo.getAttribute("researchBuildingID"));
                 EntityElement le2 = storage.getElement(Database.BUILDING_LIST, buildingID);
-                t.addEntityElement(Database.getString("research_building", language), le2);
+                t.addEntityElement("research_building", le2);
 
                 int ageID = Integer.parseInt(baseInfo.getAttribute("ageID"));
                 EntityElement le3 = storage.getElement(Database.TECH_LIST, ageID);
-                t.addEntityElement(Database.getString("entity_age", language), le3);
+                t.addEntityElement("entity_age", le3);
 
                 //TECH STATS
                 Element stats = (Element) techItem.getElementsByTagName("stats").item(0);
@@ -802,11 +830,11 @@ public class Reader {
                 Element development = (Element) techItem.getElementsByTagName("development").item(0);
                 int rTechID = Integer.parseInt(development.getAttribute("requiredTechID"));
                 EntityElement le4 = storage.getElement(Database.TECH_LIST, rTechID);
-                t.addEntityElement(Database.getString("required_technology", language), le4);
+                t.addEntityElement("required_technology", le4);
 
                 int nUpgradeID = Integer.parseInt(development.getAttribute("nextUpgradeID"));
                 EntityElement le5 = storage.getElement(Database.TECH_LIST, nUpgradeID);
-                t.addEntityElement(Database.getString("next_upgrade", language), le5);
+                t.addEntityElement("next_upgrade", le5);
 
 
                 t.setDescriptor(descriptors.get(i));
@@ -828,22 +856,22 @@ public class Reader {
     public List<Civilization> readCivilizations(){
         try {
             List<Civilization> civMap =  new ArrayList<>();
-            List<String> styles = readCivStyles();
+            List<StringKey> styles = readCivStyles();
             DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder docBuilder = builderFactory.newDocumentBuilder();
             Document doc = docBuilder.parse(getData(Database.CIVILIZATION_INFO));
             NodeList list = doc.getElementsByTagName("item");
             for (int i = 0; i < list.getLength(); ++i) {
                 Element item = (Element) list.item(i);
-                Civilization civ = new Civilization(storage.getEcoList(), language);
+                Civilization civ = new Civilization(storage.getEcoList());
                 EntityElement lel = storage.getElement(Database.CIVILIZATION_LIST, i + 1);
-                civ.addEntityElement(Database.getString("entity_name", language), lel);
+                civ.addEntityElement("entity_name", lel);
 
                 //CIV STYLE
                 civ.setCivStyle(styles.get(i));
 
                 //CIV BONUS
-                BonusContainer bc = new BonusContainer(storage.getCivNameMap(), language);
+                BonusContainer bc = new BonusContainer();
                 Element bonus = (Element) item.getElementsByTagName("bonus").item(0);
                 String[] bList = bonus.getAttribute("bonusList").split(" ");
                 List<Integer> bonusList = new ArrayList<>();
@@ -910,9 +938,9 @@ public class Reader {
 
 
 
-    public HashMap<Integer, String> makeCivMap() {
+    public HashMap<Integer, StringKey> makeCivMap() {
         try {
-            LinkedHashMap<Integer, String> m = new LinkedHashMap<>();
+            LinkedHashMap<Integer, StringKey> m = new LinkedHashMap<>();
             DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder docBuilder = builderFactory.newDocumentBuilder();
             Document doc = docBuilder.parse(getData(Database.CIVILIZATION_LIST));
@@ -920,8 +948,8 @@ public class Reader {
             for (int i = 0; i<list.getLength(); ++i) {
                 Element e = (Element) list.item(i);
                 int id = Integer.parseInt(e.getAttribute("id"));
-                String name = Database.getString("civilization_name_" + (i + 1), language);
-                m.put(id, name);
+                String name ="civilization_name_" + (i + 1);
+                m.put(id, new StringKey(name));
             }
             return m;
         }
@@ -931,9 +959,9 @@ public class Reader {
         return new HashMap<>();
     }
 
-    public HashMap<String, Integer> makeReversedCivMap() {
+    public HashMap<StringKey, Integer> makeReversedCivMap() {
         try {
-            LinkedHashMap<String, Integer> m = new LinkedHashMap<>();
+            LinkedHashMap<StringKey, Integer> m = new LinkedHashMap<>();
             DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder docBuilder = builderFactory.newDocumentBuilder();
             Document doc = docBuilder.parse(getData(Database.CIVILIZATION_LIST));
@@ -941,8 +969,8 @@ public class Reader {
             for (int i = 0; i<list.getLength(); ++i) {
                 Element e = (Element) list.item(i);
                 int id = Integer.parseInt(e.getAttribute("id"));
-                String name = Database.getString("civilization_name_" + (i + 1), language);
-                m.put(name, id);
+                String name = "civilization_name_" + (i + 1);
+                m.put(new StringKey(name), id);
             }
             return m;
         }
@@ -952,12 +980,12 @@ public class Reader {
         return new HashMap<>();
     }
 
-    public List<String> readCivStyles(){
-        List<String> map =  new ArrayList<>();
+    public List<StringKey> readCivStyles(){
+        List<StringKey> map =  new ArrayList<>();
         List<EntityElement> list = storage.getList(Database.CIVILIZATION_LIST);
         for(EntityElement element: list){
-            String style = Database.getString("civilization_style_" + element.getId(), language);
-            map.add(style);
+            String style = "civilization_style_" + element.getId();
+            map.add(new StringKey(style));
         }
         return map;
     }
@@ -971,7 +999,7 @@ public class Reader {
             NodeList list = doc.getElementsByTagName("item");
             for (int z = 0; z < list.getLength(); ++z) {
                 Element item = (Element) list.item(z);
-                BonusContainer bc = new BonusContainer(storage.getCivNameMap(), language);
+                BonusContainer bc = new BonusContainer();
                 Element bonusElement = (Element) item.getElementsByTagName("bonusList").item(0);
                 Element teamBonusElement = (Element) item.getElementsByTagName("teamBonusList").item(0);
                 Element uniqueTechElement = (Element) item.getElementsByTagName("uniqueTechList").item(0);
@@ -1028,11 +1056,10 @@ public class Reader {
                         b.setItemDescription("");
                         break;
                     default:
-                        String techTreeDescription = Database.getString("bonus_tech_tree_description_" + (z + 1), language);
-                        String itemDescription = Database.getString("bonus_item_description_" + (z + 1), language);
+                        String techTreeDescription = "bonus_tech_tree_description_" + (z + 1);
+                        String itemDescription = "bonus_item_description_" + (z + 1);
                         b.setTechTreeDescription(techTreeDescription);
-                        if (itemDescription.isEmpty()) b.setItemDescription(techTreeDescription);
-                        else b.setItemDescription(itemDescription);
+                        b.setItemDescription(itemDescription);
                         break;
                 }
                 b.setEffectContainer(effects.get(z));
@@ -1153,27 +1180,6 @@ public class Reader {
         return eff;
     }
 
-    public List<String> readHistoryText(){
-        try {
-            List<String> b = new ArrayList<>();
-            DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
-            DocumentBuilder docBuilder = builderFactory.newDocumentBuilder();
-
-            String path = Database.BASE_DIR +"data/"+ language + "/" + Database.HISTORY_TEXT +".xml";
-            PathMatchingResourcePatternResolver scanner = new PathMatchingResourcePatternResolver();
-            Document doc = docBuilder.parse(scanner.getResource(path).getInputStream());
-            NodeList list = doc.getElementsByTagName("item");
-            for (int i = 0; i < list.getLength(); ++i){
-                Element item = (Element) list.item(i);
-                b.add(item.getTextContent());
-            }
-            return b;
-        }
-        catch (ParserConfigurationException | IOException | SAXException e){
-            e.printStackTrace();
-        }
-        return new ArrayList<>();
-    }
 
     public List<Integer> readEcoUpgrades() {
         try {
@@ -1205,7 +1211,7 @@ public class Reader {
                 EcoElement element = new EcoElement();
                 element.setStat(Integer.parseInt(ecoElement.getAttribute("ecoID")));
                 element.setGatheringRate(1.0f);
-                element.setStatName(Database.getString("gathering_rates_" + (i + 1), language));
+                element.setStatName("gathering_rates_" + (i + 1));
                 String sIcon = ecoElement.getAttribute("statIcon");
                 String rIcon = ecoElement.getAttribute("resourceIcon");
                 element.setResourceIcon(Database.getImage(rIcon));
@@ -1324,10 +1330,9 @@ public class Reader {
             for (int i = 0; i < list.getLength(); ++i){
                 Element elem = (Element) list.item(i);
                 String id = elem.getAttribute("id");
-                String text = Database.getString("taunt_name_" + (i + 1), language);
-                String quote = id + " - " + text;
-                String soundPath = Database.getSound("t_" + id, language);
-                TauntElement l3 = new TauntElement(Integer.parseInt(id), quote, soundPath);
+                String text = "taunt_name_" + (i + 1);
+                String soundPath = ("t_" + id);
+                TauntElement l3 = new TauntElement(Integer.parseInt(id), text, soundPath);
                 b.add(l3);
             }
             return b;

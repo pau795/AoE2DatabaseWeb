@@ -1,9 +1,6 @@
 package com.aoedb.views.quiz;
 
-import com.aoedb.data.Bonus;
-import com.aoedb.data.Civilization;
-import com.aoedb.data.EntityElement;
-import com.aoedb.data.Unit;
+import com.aoedb.data.*;
 import com.aoedb.database.Database;
 import com.aoedb.database.Utils;
 import com.aoedb.views.MainLayout;
@@ -93,10 +90,10 @@ public class CivilizationQuizView extends QuizView {
     }
 
     private void getCivInfo(){
-        HashMap<Integer,String> civRelation = Database.getCivNameMap(language);
+        HashMap<Integer, StringKey> civRelation = Database.getCivNameMap();
         for (int i: civRelation.keySet()){
-            civNames.add(civRelation.get(i));
-            Civilization c = Database.getCivilization(i, language);
+            civNames.add(civRelation.get(i).getTranslatedString(language));
+            Civilization c = Database.getCivilization(i);
             String theme = c.getCivThemeString();
             String icon1 = c.getNameElement().getImage();
             civThemes.put(i, theme);
@@ -107,11 +104,11 @@ public class CivilizationQuizView extends QuizView {
             unitCount += civUnits.get(i).size();
             ArrayList<String> a = new ArrayList<>();
             for(int b: c.getBonusList()){
-                Bonus bonus = Database.getBonus(b, language);
-                a.add(bonus.getTechTreeDescription());
+                Bonus bonus = Database.getBonus(b);
+                a.add(bonus.getTechTreeDescription().getTranslatedString(language));
             }
-            Bonus bonus = Database.getBonus(c.getTeamBonusId(), language);
-            a.add(bonus.getTechTreeDescription());
+            Bonus bonus = Database.getBonus(c.getTeamBonusId());
+            a.add(bonus.getTechTreeDescription().getTranslatedString(language));
             ++bonusCount;
             civBonuses.put(i, a);
         }
@@ -150,12 +147,12 @@ public class CivilizationQuizView extends QuizView {
     @Override
     protected Div getAnswerLayout() {
         civSelector = new ComboBox<>();
-        civSelector.setItemLabelGenerator(EntityElement::getName);
-        civSelector.setRenderer(new ComponentRenderer<>(element -> Utils.getEntityItemRow(element, false)));
+        civSelector.setItemLabelGenerator(entityElement -> entityElement.getName().getTranslatedString(language));
+        civSelector.setRenderer(new ComponentRenderer<>(element -> Utils.getEntityItemRow(element, false, language)));
 
-        ArrayList<EntityElement> items = new ArrayList<>(Database.getList(Database.CIVILIZATION_LIST, language));
-        items.sort(EntityElement.getAlphabeticalComparator());
-        civSelector.setItems(Utils.getEntityElementComboBoxFilter(), items);
+        ArrayList<EntityElement> items = new ArrayList<>(Database.getList(Database.CIVILIZATION_LIST));
+        items.sort(EntityElement.getAlphabeticalComparator(language));
+        civSelector.setItems(Utils.getEntityElementComboBoxFilter(language), items);
         civSelector.getElement().getStyle().set("--vaadin-combo-box-overlay-width","300px");
         return new Div(civSelector);
     }
@@ -168,7 +165,7 @@ public class CivilizationQuizView extends QuizView {
         int n = questionSample.get(pos);
         correctionComment = Database.getString("quiz_select_civ", language);
         updateComment();
-        civSelector.setRenderer(new ComponentRenderer<>(element -> Utils.getEntityItemRow(element, false)));
+        civSelector.setRenderer(new ComponentRenderer<>(element -> Utils.getEntityItemRow(element, false, language)));
         civSelector.setValue(null);
         civSelector.focus();
         correctionComment = String.format(Database.getString("quiz_correction_civ", language), civNames.get(civID-1));
@@ -188,9 +185,9 @@ public class CivilizationQuizView extends QuizView {
                 List<Integer> units = civUnits.get(civID);
                 int i = r.nextInt(units.size());
                 int unitID = units.get(i);
-                Unit u = Database.getUnit(unitID, language);
+                Unit u = Database.getUnit(unitID);
                 setQuestionInfoIcon(u.getNameElement().getImage(), true);
-                setQuestionInfoName(u.getName());
+                setQuestionInfoName(u.getName().getTranslatedString(language));
                 setQuestionInfoMedia(u.getNameElement().getMedia(), true);
                 questionString = String.format(Database.getString("quiz_civ_unique_unit_question", language), currentQuestion, numQuestions, u.getDescriptor().getNominative());
                 break;
@@ -204,7 +201,7 @@ public class CivilizationQuizView extends QuizView {
             }
             case 3: { //emblem
                 questionString = String.format(Database.getString("quiz_civ_emblem_question", language), currentQuestion, numQuestions);
-                civSelector.setRenderer(new ComponentRenderer<>(element -> new Label(element.getName())));
+                civSelector.setRenderer(new ComponentRenderer<>(element -> new Label(element.getName().getTranslatedString(getLanguage()))));
                 setQuestionInfoIcon(Database.getImage("shield1"), false);
                 setQuestionInfoName(Database.getString("quiz_civ_emblem", language));
                 setQuestionInfoMedia(civIcons.get(civID), true);

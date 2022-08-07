@@ -2,13 +2,13 @@ package com.aoedb.data;
 
 public class TauntElement {
 
-    private final String name;
+    private final StringKey name;
     private final int id;
     private final String filePath;
 
     public TauntElement(int id, String name, String filePath) {
         this.id = id;
-        this.name = name;
+        this.name = new StringKey(name);
         this.filePath = filePath;
     }
 
@@ -16,7 +16,7 @@ public class TauntElement {
         return id;
     }
 
-    public String getName() {
+    public StringKey getName() {
         return name;
     }
 

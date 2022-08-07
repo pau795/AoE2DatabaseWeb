@@ -1,10 +1,9 @@
 package com.aoedb.views.components;
 
-import com.aoedb.data.Entity;
 import com.aoedb.data.EntityElement;
+import com.aoedb.data.StringKey;
 import com.aoedb.database.Database;
 import com.aoedb.views.database.*;
-import com.aoedb.views.miscellaneous.HistoryListView;
 import com.aoedb.views.miscellaneous.HistoryView;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.dependency.CssImport;
@@ -27,13 +26,13 @@ import java.util.Map;
 @CssImport("./themes/aoe2database/components/expandable-list.css")
 public class ExpandableList extends Div {
 
-    LinkedHashMap<String, List<EntityElement>> data;
+    LinkedHashMap<StringKey, List<EntityElement>> data;
     String language;
     EntityView view;
 
     int civID;
 
-    public ExpandableList(LinkedHashMap<String, List<EntityElement>> data, int civID, String language) {
+    public ExpandableList(LinkedHashMap<StringKey, List<EntityElement>> data, int civID, String language) {
         this.data = data;
         this.civID = civID;
         this.language = language;
@@ -51,11 +50,11 @@ public class ExpandableList extends Div {
 
     private void setLayouts(){
         removeAll();
-        for(String group: data.keySet()){
+        for(StringKey group: data.keySet()){
 
             Div contentLayout = createGroupLayout(data.get(group));
             Icon icon = new Icon(VaadinIcon.ANGLE_DOWN);
-            Label name = new Label(group);
+            Label name = new Label(group.getTranslatedString(language));
             Div header = new Div(icon, name);
             header.addClassNames("header");
             header.addClickListener(event -> contentLayout.setVisible(!contentLayout.isVisible()));
@@ -72,10 +71,10 @@ public class ExpandableList extends Div {
         Div listLayout = new Div();
         listLayout.addClassNames("group");
         for(EntityElement e: list){
-            Image icon = new Image(e.getImage(), e.getName());
+            Image icon = new Image(e.getImage(), e.getName().getTranslatedString(language));
             icon.addClassNames("row-icon");
             if (!isBorderlessEntity(e)) icon.addClassNames("row-icon-border");
-            Label name = new Label(e.getName());
+            Label name = new Label(e.getName().getTranslatedString(language));
             Div rowLayout = new Div(icon, name);
             rowLayout.addClassNames("row-layout");
             Div rowContainer = new Div(rowLayout);
@@ -87,8 +86,7 @@ public class ExpandableList extends Div {
     }
 
     private boolean isBorderlessEntity(EntityElement e){
-        return e.getType().equals(Database.CIV) || (data.containsKey("Civilizations") && data.get("Civilizations").contains(e)) || e.getName().equals("Middle Ages") ||
-                (data.containsKey("Civilizaciones") && data.get("Civilizaciones").contains(e)) || e.getName().equals("La Edad Media");
+        return e.getType().equals(Database.CIV) || (data.containsKey(new StringKey("history_group1_category1")) && data.get(new StringKey("history_group1_category1")).contains(e)) || e.getName().equals(new StringKey("history_name_50"));
     }
 
     private void setLink(Div link, EntityElement e){

@@ -39,8 +39,8 @@ public class CalculationsPopup extends Div {
             unitDamageLabel.addClassNames("calculations-attack-title");
             unitDamageLayout.add(unitDamageLabel, new Hr());
             for (DamageCalculator.UnitStats.AttackValues at : stats.attackValuesContent.get("attack")) {
-                EntityElement e = Database.getElement(Database.TYPE_LIST, at.type, language);
-                Div damageView = setDamageLayout(e.getName(), e.getImage(), at.attackValue, at.armorValue, at.multiplier, at.result, 0);
+                EntityElement e = Database.getElement(Database.TYPE_LIST, at.type);
+                Div damageView = setDamageLayout(e.getName().getTranslatedString(language), e.getImage(), at.attackValue, at.armorValue, at.multiplier, at.result, 0);
                 unitDamageLayout.add(damageView);
             }
             unitDamageLayout.add(new Hr());
@@ -71,8 +71,8 @@ public class CalculationsPopup extends Div {
                 projectileDamageLabel.addClassNames("calculations-attack-title");
                 projectileDamageLayout.add(projectileDamageLabel, new Hr());
                 for (DamageCalculator.UnitStats.AttackValues at : stats.attackValuesContent.get("projectile")) {
-                    EntityElement e = Database.getElement(Database.TYPE_LIST, at.type, language);
-                    Div damageView = setDamageLayout(e.getName(), e.getImage(), at.attackValue, at.armorValue, at.multiplier, at.result, 0);
+                    EntityElement e = Database.getElement(Database.TYPE_LIST, at.type);
+                    Div damageView = setDamageLayout(e.getName().getTranslatedString(language), e.getImage(), at.attackValue, at.armorValue, at.multiplier, at.result, 0);
                     projectileDamageLayout.add(damageView);
                 }
                 projectileDamageLayout.add(new Hr());
@@ -102,10 +102,10 @@ public class CalculationsPopup extends Div {
             chargeDamageLabel.addClassNames("calculations-attack-title");
             chargeDamageLayout.add(chargeDamageLabel, new Hr());
             for (DamageCalculator.UnitStats.AttackValues at : stats.attackValuesContent.get("charge")){
-                EntityElement e = Database.getElement(Database.TYPE_LIST, at.type, language);
+                EntityElement e = Database.getElement(Database.TYPE_LIST, at.type);
                 Div damageView;
-                if (at.type == 1) damageView = setDamageLayout(e.getName(), e.getImage(), at.attackValue, at.armorValue, at.multiplier, at.result, stats.chargeAttack);
-                else damageView = setDamageLayout(e.getName(), e.getImage(), at.attackValue, at.armorValue, at.multiplier, at.result, 0);
+                if (at.type == 1) damageView = setDamageLayout(e.getName().getTranslatedString(language), e.getImage(), at.attackValue, at.armorValue, at.multiplier, at.result, stats.chargeAttack);
+                else damageView = setDamageLayout(e.getName().getTranslatedString(language), e.getImage(), at.attackValue, at.armorValue, at.multiplier, at.result, 0);
                 chargeDamageLayout.add(damageView);
             }
             chargeDamageLayout.add(new Hr());

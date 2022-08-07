@@ -40,7 +40,7 @@ public class UpgradesPopup extends Div {
             row.addClassNames("upgrades-row");
             Checkbox checkbox = new Checkbox();
             checkbox.addClassNames("upgrades-checkbox");
-            Label name = new Label(u.getName());
+            Label name = new Label(u.getName().getTranslatedString(language));
             name.addClassNames("upgrades-name");
             Image image = new Image();
             image.setSrc(u.getImage());
@@ -91,7 +91,7 @@ public class UpgradesPopup extends Div {
 
     public void filterList(int age, int civID){
         for(UpgradeElement u: upgradeList){
-            Technology t = Database.getTechnology(u.getId(), language);
+            Technology t = Database.getTechnology(u.getId());
             boolean b = Utils.mapAgeID(t.getAgeElement().getId()) <= age && t.isAvailableTo(civID);
             u.setEnabled(b);
             u.setSelected(b);
@@ -105,7 +105,7 @@ public class UpgradesPopup extends Div {
 
 
     private void setSelectedItems(UpgradeElement u, boolean selected){
-        Technology t = Database.getTechnology(u.getId(), language);
+        Technology t = Database.getTechnology(u.getId());
         u.setSelected(selected);
         int techID;
         if (selected) techID = t.getRequiredTechElement().getId();

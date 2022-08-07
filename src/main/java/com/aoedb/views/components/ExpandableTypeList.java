@@ -1,7 +1,7 @@
 package com.aoedb.views.components;
 
+import com.aoedb.data.StringKey;
 import com.aoedb.data.TypeElement;
-import com.vaadin.flow.component.charts.model.Dial;
 import com.vaadin.flow.component.dependency.CssImport;
 import com.vaadin.flow.component.dialog.Dialog;
 import com.vaadin.flow.component.html.Div;
@@ -17,20 +17,20 @@ import java.util.*;
 @CssImport("./themes/aoe2database/components/expandable-list.css")
 public class ExpandableTypeList extends Div {
 
-    LinkedHashMap<String, List<TypeElement>> data;
+    LinkedHashMap<StringKey, List<TypeElement>> data;
     String language;
-    HashMap<String, List<Label>> labelMap;
+    HashMap<StringKey, List<Label>> labelMap;
 
-    public ExpandableTypeList(LinkedHashMap<String, List<TypeElement>> data,  String language) {
+    public ExpandableTypeList(LinkedHashMap<StringKey, List<TypeElement>> data,  String language) {
         this.data = data;
         this.language = language;
         labelMap = new HashMap<>();
         addClassNames("expandable-container");
-        for(String group: data.keySet()){
+        for(StringKey group: data.keySet()){
 
             Div contentLayout = createGroupLayout(group, data.get(group));
             Icon icon = new Icon(VaadinIcon.ANGLE_DOWN);
-            Label name = new Label(group);
+            Label name = new Label(group.getTranslatedString(language));
             Div header = new Div(icon, name);
             header.addClassNames("header");
             header.addClickListener(event -> contentLayout.setVisible(!contentLayout.isVisible()));
@@ -41,14 +41,14 @@ public class ExpandableTypeList extends Div {
         setWidthFull();
     }
 
-    private Div createGroupLayout(String group, List<TypeElement> list){
+    private Div createGroupLayout(StringKey group, List<TypeElement> list){
         Div listLayout = new Div();
         listLayout.addClassNames("group");
         List<Label> labelList =  new ArrayList<>();
         for(TypeElement e: list){
-            Image icon = new Image(e.getImage(), e.getName());
+            Image icon = new Image(e.getImage(), e.getName().getTranslatedString(language));
             icon.addClassNames("row-icon");
-            Label name = new Label(e.getName());
+            Label name = new Label(e.getName().getTranslatedString(language));
             name.addClassNames("row-name");
             Label value = new Label(e.getValue());
             labelList.add(value);
@@ -75,8 +75,8 @@ public class ExpandableTypeList extends Div {
         });
     }
 
-    public void updateStats(LinkedHashMap<String, List<TypeElement>> data){
-        for(String s: data.keySet()){
+    public void updateStats(LinkedHashMap<StringKey, List<TypeElement>> data){
+        for(StringKey s: data.keySet()){
             List<Label> labelList = labelMap.get(s);
             List<TypeElement> typeList = data.get(s);
             for (int i = 0; i < typeList.size(); ++i) labelList.get(i).setText(typeList.get(i).getValue());

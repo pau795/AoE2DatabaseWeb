@@ -1,52 +1,52 @@
 package com.aoedb.data;
 
 public class Descriptor {
-    private String nominative;
-    private String quickDescription;
-    private String briefDescription;
-    private String longDescription;
-    private String extraDescription;
+    private StringKey nominative;
+    private StringKey quickDescription;
+    private StringKey briefDescription;
+    private StringKey longDescription;
+    private StringKey extraDescription;
 
     public Descriptor() {
     }
 
-    public String getNominative() {
+    public StringKey getNominative() {
         return nominative;
     } //used in bonuses
 
     public void setNominative(String nominative) {
-        this.nominative = nominative;
+        this.nominative = new StringKey(nominative);
     }
 
-    public String getQuickDescription() { //used in UT for civilization view
+    public StringKey getQuickDescription() { //used in UT for civilization view
         return quickDescription;
     }
 
     public void setQuickDescription(String quickDescription) {
-        this.quickDescription = quickDescription;
+        this.quickDescription = new StringKey(quickDescription);
     }
 
-    public String getBriefDescription() { //used in tech tree descriptions
+    public StringKey getBriefDescription() { //used in tech tree descriptions
         return briefDescription;
     }
 
     public void setBriefDescription(String briefDescription) {
-        this.briefDescription = briefDescription;
+        this.briefDescription = new StringKey(briefDescription);
     }
 
-    public String getLongDescription() {
+    public StringKey getLongDescription() {
         return longDescription;
     } //used in unit/building/tech view
 
     public void setLongDescription(String longDescription) {
-        this.longDescription = longDescription;
+        this.longDescription = new StringKey(longDescription);
     }
 
-    public String getExtraDescription() { //used in UT description for bonuses
+    public StringKey getExtraDescription() { //used in UT description for bonuses
         return extraDescription;
     }
 
     public void setExtraDescription(String extraDescription) {
-        this.extraDescription = extraDescription;
+        this.extraDescription = new StringKey(extraDescription);
     }
 }

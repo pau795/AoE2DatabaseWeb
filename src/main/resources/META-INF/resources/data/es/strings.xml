@@ -371,8 +371,10 @@
     <string name="upgraded_from">Mejorado de</string>
     <string name="next_upgrade">Siguiente Mejora</string>
 	
-	<string name="type_entities_attack">%s que inflingen daño de %s</string>
-	<string name="type_entities_armor">%s que tienen armadura de %s</string>
+	<string name="type_entities_unit_attack">Unidades que inflingen daño de %s</string>
+	<string name="type_entities_unit_armor">Unidades que tienen armadura de %s</string>
+	<string name="type_entities_building_attack">Edificios que inflingen daño de %s</string>
+	<string name="type_entities_building_armor">Edificios que tienn armadura de %s</string>
 	
     <!--UNIT VIEW STRINGS-->
     <string name="unit_preview">Vista Preliminar de la Unidad</string>

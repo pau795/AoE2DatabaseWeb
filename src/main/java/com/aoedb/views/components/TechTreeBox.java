@@ -39,10 +39,10 @@ public class TechTreeBox extends Div {
     Popup popup;
 
 
-    public TechTreeBox(Entity e, boolean unique){
+    public TechTreeBox(Entity e, boolean unique, String language){
         this.e = e;
         this.unique = unique;
-        this.language = e.getLanguage();
+        this.language = language;
         addClassNames("tech-tree-box-container");
         box = new Div();
         box.addClassNames("tech-tree-box", "tech-tree-box-margin");
@@ -58,7 +58,7 @@ public class TechTreeBox extends Div {
         imageDiv.add(icon, canceledIcon);
         Div nameDiv =  new Div();
         nameDiv.addClassNames("tech-tree-box-name-div");
-        name = new Label(e.getName());
+        name = new Label(e.getName().getTranslatedString(language));
         name.addClassNames("tech-tree-box-name");
         nameDiv.add(name);
         box.add(imageDiv, nameDiv);
@@ -139,7 +139,7 @@ public class TechTreeBox extends Div {
         this.e = e;
         if (e.getType().equals(Database.UNIT) && e.getEntityID() == 90) box.getStyle().set("background-color", "teal");
         if (e.getType().equals(Database.UNIT) && e.getEntityID() == 154) box.getStyle().set("background-color", "purple");
-        name.setText(e.getName());
+        name.setText(e.getName().getTranslatedString(language));
         icon.setSrc(e.getNameElement().getImage());
         setupPopup();
     }

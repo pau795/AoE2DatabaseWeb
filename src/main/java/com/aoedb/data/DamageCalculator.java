@@ -181,18 +181,18 @@ public class DamageCalculator {
 
         public void calculateDamage(Unit r){
 
-            uName = u.getName();
+            uName = u.getName().getTranslatedString(language);
             uIcon = u.getNameElement().getImage();
-            rName = r.getName();
+            rName = r.getName().getTranslatedString(language);
             rIcon = r.getNameElement().getImage();
 
             hasAttack = !Double.isNaN(u.getCalculatedStat(Database.ATTACK));
             hasCharge = !Double.isNaN(u.getCalculatedStat(Database.CHARGE_ATTACK));
             hasExtraProjectiles = u.getCalculatedStat(Database.NUMBER_PROJECTILES) > 1;
 
-            if (hasAttack) damageSum = setAttackValuesContent(r, Database.getString("unit_attack_values", language), 1);
-            if (hasExtraProjectiles) projectileSum = setAttackValuesContent(r, Database.getString("projectile_attack_values", language), 2);
-            if (hasCharge) chargeSum = setAttackValuesContent(r, Database.getString("unit_attack_values", language), 3);
+            if (hasAttack) damageSum = setAttackValuesContent(r, new StringKey("unit_attack_values"), 1);
+            if (hasExtraProjectiles) projectileSum = setAttackValuesContent(r, new StringKey("projectile_attack_values"), 2);
+            if (hasCharge) chargeSum = setAttackValuesContent(r, new StringKey("unit_attack_values"), 3);
 
 
             if(hasAttack) {
@@ -264,8 +264,8 @@ public class DamageCalculator {
             return time1.divide(reload1, 0, RoundingMode.FLOOR).intValue() + 1;
         }
 
-        private double setAttackValuesContent(Unit r, String category, int attackType){
-            LinkedHashMap<String, LinkedHashMap<Integer, Double>> attackTypes = u.getCalculatedAttackValues(), armorTypes = r.getCalculatedArmorValues();
+        private double setAttackValuesContent(Unit r, StringKey category, int attackType){
+            LinkedHashMap<StringKey, LinkedHashMap<Integer, Double>> attackTypes = u.getCalculatedAttackValues(), armorTypes = r.getCalculatedArmorValues();
             LinkedHashMap<Integer, Double> armorList = armorTypes.entrySet().iterator().next().getValue();
             LinkedHashMap<Integer, Double> attackList = attackTypes.get(category);
             List<AttackValues> values = new ArrayList<>();

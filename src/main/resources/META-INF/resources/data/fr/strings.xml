@@ -383,8 +383,10 @@
     <string name="required_building">Required Building</string>
     <string name="upgraded_from">Upgraded From</string>
     <string name="next_upgrade">Next Upgrade</string>
-	<string name="type_entities_attack">%s which deal %s damage</string>
-	<string name="type_entities_armor">%s which have %s armor</string>
+	<string name="type_entities_unit_attack">Units which deal %s damage</string>
+	<string name="type_entities_unit_armor">Units which have %s armor</string>
+	<string name="type_entities_building_attack">Buildings which have %s damage</string>
+	<string name="type_entities_building_armor">Buildings which have %s armor</string>
 	
     <!--UNIT VIEW STRINGS-->
     <string name="unit_preview">Unit Preview</string>

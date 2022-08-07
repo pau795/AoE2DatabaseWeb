@@ -1,6 +1,7 @@
 package com.aoedb.views.database;
 
 import com.aoedb.data.EntityElement;
+import com.aoedb.data.StringKey;
 import com.aoedb.database.Database;
 import com.aoedb.views.ListView;
 import com.aoedb.views.MainLayout;
@@ -27,8 +28,8 @@ public class CivilizationListView extends ListView {
     }
 
     @Override
-    protected LinkedHashMap<String, List<EntityElement>> getData() {
-        return Database.getGroupList(Database.CIVILIZATION_GROUPS, sort, language);
+    protected LinkedHashMap<StringKey, List<EntityElement>> getData() {
+        return Database.getGroupList(Database.CIVILIZATION_GROUPS, sort).getGroupMap(Database.CIVILIZATION_GROUPS, language);
     }
 
 

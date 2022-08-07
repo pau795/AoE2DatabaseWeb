@@ -26,15 +26,15 @@ public class TauntsView extends BaseView {
     public void initView() {
         removeClassNames("view-main-layout");
         addClassNames("taunt-main-view");
-        list = Database.getTauntList(language);
+        list = Database.getTauntList();
         Div listLayout = new Div();
         listLayout.addClassNames("taunt-grid");
         for(TauntElement t: list){
-            Label name = new Label(t.getName());
+            Label name = new Label(t.getID() + " - "+ t.getName().getTranslatedString(language));
             name.addClassNames("taunt-cell-name");
             AudioPlayer player = new AudioPlayer();
             player.addClassNames("taunt-cell-player");
-            player.setSrc(t.getFilePath());
+            player.setSrc(Database.getSound(t.getFilePath(), language));
             Div tauntCell = new Div(name, player);
             tauntCell.addClassNames("taunt-cell");
             listLayout.add(tauntCell);

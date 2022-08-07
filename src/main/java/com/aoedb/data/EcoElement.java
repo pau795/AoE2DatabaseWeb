@@ -2,7 +2,7 @@ package com.aoedb.data;
 
 public class EcoElement {
     int stat;
-    String statName;
+    StringKey statName;
     String statIcon;
     String resourceIcon;
     double gatheringRate;
@@ -21,12 +21,12 @@ public class EcoElement {
         this.stat = stat;
     }
 
-    public String getStatName() {
+    public StringKey getStatName() {
         return statName;
     }
 
     public void setStatName(String statName) {
-        this.statName = statName;
+        this.statName = new StringKey(statName);
     }
 
     public String getStatIcon() {

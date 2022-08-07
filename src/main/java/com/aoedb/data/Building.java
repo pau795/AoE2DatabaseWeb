@@ -1,16 +1,15 @@
 package com.aoedb.data;
 
-import com.aoedb.database.Database;
 
 import java.util.LinkedHashMap;
 import java.util.List;
 
 public class Building extends Item {
 
-    protected LinkedHashMap<String, List<EntityElement>> trainable;
+    protected LinkedHashMap<StringKey, List<EntityElement>> trainable;
 
-    public Building(String language) {
-        super(language);
+    public Building() {
+        super();
     }
 
     public Building(Building b){
@@ -20,18 +19,18 @@ public class Building extends Item {
     }
 
     public EntityElement getRequiredBuildingElement(){
-        return getEntityElement(Database.getString("required_building", language));
+        return getEntityElement("required_building");
     }
 
     public EntityElement getCreatorElement(){
-        return getEntityElement(Database.getString("builder_unit", language));
+        return getEntityElement("builder_unit");
     }
 
-    public LinkedHashMap<String, List<EntityElement>> getTrainable(){
+    public LinkedHashMap<StringKey, List<EntityElement>> getTrainable(){
         return trainable;
     }
 
-    public void setTrainable(LinkedHashMap<String, List<EntityElement>> map) {
+    public void setTrainable(LinkedHashMap<StringKey, List<EntityElement>> map) {
         trainable = map;
     }
 

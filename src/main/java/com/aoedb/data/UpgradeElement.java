@@ -7,7 +7,7 @@ import java.util.HashMap;
 
 public class UpgradeElement {
     private final int id;
-    private final String name;
+    private final StringKey name;
     private final String image;
     private boolean selected;
     private boolean enabled;
@@ -25,7 +25,7 @@ public class UpgradeElement {
     }
 
 
-    public String getName() {
+    public StringKey getName() {
         return name;
     }
 
@@ -50,10 +50,10 @@ public class UpgradeElement {
         this.enabled = enabled;
     }
 
-    public static Comparator<UpgradeElement> getListElementComparator(final String file, final int index, String language){
+    public static Comparator<UpgradeElement> getListElementComparator(final String file, final int index){
 
         return new Comparator<UpgradeElement>() {
-            final HashMap<Integer, Integer> order =  Database.getOrderMap(file, index, language);
+            final HashMap<Integer, Integer> order =  Database.getOrderMap(file, index);
             @Override
             public int compare(UpgradeElement o1, UpgradeElement o2) {
                 return order.get(o1.getId()).compareTo(order.get(o2.getId()));

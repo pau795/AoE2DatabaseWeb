@@ -1,9 +1,7 @@
 package com.aoedb.views.components;
 
-import com.aoedb.data.Item;
 import com.aoedb.data.Unit;
 import com.aoedb.database.Database;
-import com.aoedb.views.database.EntityView;
 import com.aoedb.views.database.UnitView;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.html.Div;
@@ -74,7 +72,7 @@ public class StatsPopup extends Div {
         Div statsLayout = new Div();
         statsLayout.addClassNames("section");
         statsLayout.addClassNames("margin-section");
-        Label name = new Label(u.getName());
+        Label name = new Label(u.getName().getTranslatedString(language));
         name.addClassNames("title");
         Image icon = new Image();
         icon.setSrc(u.getNameElement().getImage());
@@ -84,7 +82,7 @@ public class StatsPopup extends Div {
         Label descTitle = new Label(titles[0]);
         descTitle.addClassNames("title");
         statsLayout.add(descTitle, new Hr());
-        Label descLabel = new Label(u.getDescriptor().getLongDescription());
+        Label descLabel = new Label(u.getDescriptor().getLongDescription().getTranslatedString(language));
         descLabel.addClassNames("plain-text");
         statsLayout.add(descLabel);
         Label statsTitle = new Label(titles[1]);

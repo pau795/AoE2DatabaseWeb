@@ -85,7 +85,7 @@ public abstract class EntityView extends TwoColumnView {
 
     @Override
     public String getPageTitle() {
-        return Database.getString("app_name", language) + " - " + e.getName();
+        return Database.getString("app_name", language) + " - " + e.getName().getTranslatedString(language);
     }
 
 
@@ -100,16 +100,16 @@ public abstract class EntityView extends TwoColumnView {
     private AgeCivSelector initSelector(){
         List<Integer> availableCivs = e.getAvailableCivIds();
         List<EntityElement> civNames = new ArrayList<>(availableCivs.size());
-        for(int id :  availableCivs) civNames.add(Database.getElement(Database.CIVILIZATION_LIST, id, language));
-        civNames.sort(EntityElement.getAlphabeticalComparator());
-        ageID = Utils.convertAge(e.getAgeElement().getName(), language);
+        for(int id :  availableCivs) civNames.add(Database.getElement(Database.CIVILIZATION_LIST, id));
+        civNames.sort(EntityElement.getAlphabeticalComparator(language));
+        ageID = Utils.convertAge(e.getAgeElement().getName().getTranslatedString(language), language);
         upgradeList = e.getUpgradesIds();
         fixCivIDbyEntity();
         AgeCivSelector selector = new AgeCivSelector(ageID, civID, civNames, upgradeList,  language);
-        if (!e.getAgeElement().getName().equals(Database.getString("dark_age", language)) && specialDarkAgeEntities(entityID)) {
-            if (e.getAgeElement().getName().equals(Database.getString("feudal_age", language))) selector.hideDarkAge();
-            else if (e.getAgeElement().getName().equals(Database.getString("castle_age", language))) selector.hideFeudalAge();
-            else if (e.getAgeElement().getName().equals(Database.getString("imperial_age", language))) selector.hideCastleAge();
+        if (!e.getAgeElement().getName().getKey().equals("dark_age") && specialDarkAgeEntities(entityID)) {
+            if (e.getAgeElement().getName().getKey().equals("feudal_age")) selector.hideDarkAge();
+            else if (e.getAgeElement().getName().getKey().equals("castle_age")) selector.hideFeudalAge();
+            else if (e.getAgeElement().getName().getKey().equals("imperial_age")) selector.hideCastleAge();
         }
         return selector;
     }
@@ -118,7 +118,7 @@ public abstract class EntityView extends TwoColumnView {
     protected Div getFirstColumn(){
         Div profileLayout = new Div();
         profileLayout.addClassNames("section", "profile-layout");
-        Label entityName = new Label(e.getName());
+        Label entityName = new Label(e.getName().getTranslatedString(language));
         entityName.addClassNames("title");
         Div imagesLayout = new Div();
         imagesLayout.addClassNames("images_layout");
@@ -174,7 +174,7 @@ public abstract class EntityView extends TwoColumnView {
         Label descTitle = new Label(titles[0]);
         descTitle.addClassNames("title");
         statsLayout.add(descTitle, new Hr());
-        Label descLabel = new Label(e.getDescriptor().getLongDescription());
+        Label descLabel = new Label(e.getDescriptor().getLongDescription().getTranslatedString(language));
         descLabel.addClassNames("plain-text");
         statsLayout.add(descLabel);
         if (!titles[1].isEmpty()) {
@@ -197,7 +197,7 @@ public abstract class EntityView extends TwoColumnView {
     protected Component bonusesView() {
         Div container = new Div();
         container.addClassNames("bonuses-container");
-        List<String> bonuses = e.writeBonuses();
+        List<String> bonuses = e.writeBonuses(language);
         if (bonuses.size() > 0 && !bonuses.get(0).isEmpty()) {
             Label title = new Label(Database.getString("civilization_bonuses", language));
             title.addClassNames("title");

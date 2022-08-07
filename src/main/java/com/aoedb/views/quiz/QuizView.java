@@ -53,7 +53,7 @@ public abstract class QuizView extends OneColumnView {
         else {
             playerDiv.setVisible(true);
             questionInfoGif.setVisible(false);
-            player.setSrc(mediaPath);
+            player.setSrc(Database.getSound(mediaPath, language));
         }
 
     }

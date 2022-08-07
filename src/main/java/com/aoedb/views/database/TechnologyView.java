@@ -55,10 +55,10 @@ public class TechnologyView extends EntityView {
 
     @Override
     protected void setEntityButtons(Div component){
-        EntityButton creatorButton = new EntityButton(this, e,Database.getString("research_building", language) , true, language);
-        EntityButton ageButton = new EntityButton(this, e, Database.getString("entity_age", language), true, language);
-        EntityButton requiredTechnologyButton = new EntityButton(this, e,Database.getString("required_technology", language) , true, language);
-        EntityButton nextUpgradeButton = new EntityButton(this, e, Database.getString("next_upgrade", language) ,true, language);
+        EntityButton creatorButton = new EntityButton(this, e,"research_building" , true, language);
+        EntityButton ageButton = new EntityButton(this, e, "entity_age", true, language);
+        EntityButton requiredTechnologyButton = new EntityButton(this, e,"required_technology" , true, language);
+        EntityButton nextUpgradeButton = new EntityButton(this, e, "next_upgrade" ,true, language);
         component.add(creatorButton, ageButton, requiredTechnologyButton, nextUpgradeButton);
     }
 
@@ -83,6 +83,6 @@ public class TechnologyView extends EntityView {
 
     @Override
     protected Entity getEntity(){
-        return Database.getTechnology(entityID, language);
+        return Database.getTechnology(entityID);
     }
 }

@@ -31,21 +31,21 @@ public class CivilizationView extends TwoColumnView {
     protected Div getFirstColumn() {
         Div profileLayout = new Div();
         profileLayout.addClassNames("section");
-        Label civName = new Label(civ.getName());
+        Label civName = new Label(civ.getName().getTranslatedString(language));
         civName.addClassNames("title");
         Div imagesLayout = new Div();
         imagesLayout.addClassNames("civ-images-layout");
         Image icon = new Image();
         icon.setSrc(civ.getNameElement().getImage());
         icon.addClassNames("entity_icon");
-        Label civStyle = new Label(civ.getCivStyle());
+        Label civStyle = new Label(civ.getCivStyle().getTranslatedString(language));
         civStyle.addClassNames("civ-style");
         imagesLayout.add(icon, civStyle);
 
         Label themeLabel = new Label(Database.getString("civilization_theme", language));
         themeLabel.addClassNames("civ-label");
         AudioPlayer themePlayer = new AudioPlayer();
-        themePlayer.setSrc(civ.getCivThemeString());
+        themePlayer.setSrc(Database.getSound(civ.getCivThemeString(), language));
         themePlayer.addClassNames("civ-audio");
         Div themeLayout = new Div();
         themeLayout.add(themeLabel, themePlayer);
@@ -74,7 +74,7 @@ public class CivilizationView extends TwoColumnView {
         civBonus.addClassNames("title");
         Span bonusText = new Span();
         bonusText.addClassNames("plain-text");
-        bonusText.getElement().setProperty("innerHTML", civ.writeCivBonuses());
+        bonusText.getElement().setProperty("innerHTML", civ.writeCivBonuses(language));
 
         profileLayout.add(civName, new Hr(), imagesLayout, new Hr(), linkImages, civBonus, new Hr(), bonusText, new Hr());
         return profileLayout;
@@ -93,20 +93,20 @@ public class CivilizationView extends TwoColumnView {
         uniqueUnits.addClassNames("title");
         entitiesLayout.add(uniqueUnits, new Hr());
         for (int i : civ.getUniqueUnitList()){
-            CivilizationEntityButton uniqueUnit = new CivilizationEntityButton(Database.getUnit(i, language), civID, language);
+            CivilizationEntityButton uniqueUnit = new CivilizationEntityButton(Database.getUnit(i), civID, language);
             entitiesLayout.add(uniqueUnit);
         }
 
         Label uniqueTechs = new Label(Database.getString("civilization_unique_technologies", language));
         uniqueTechs.addClassNames("title");
-        CivilizationEntityButton uniqueTech1 = new CivilizationEntityButton(Database.getTechnology(civ.getUniqueTechList().get(0), language), civID, language);
-        CivilizationEntityButton uniqueTech2 = new CivilizationEntityButton(Database.getTechnology(civ.getUniqueTechList().get(1), language), civID, language);
+        CivilizationEntityButton uniqueTech1 = new CivilizationEntityButton(Database.getTechnology(civ.getUniqueTechList().get(0)), civID, language);
+        CivilizationEntityButton uniqueTech2 = new CivilizationEntityButton(Database.getTechnology(civ.getUniqueTechList().get(1)), civID, language);
         entitiesLayout.add(uniqueTechs, new Hr(), uniqueTech1, uniqueTech2);
 
         if (civ.getUniqueBuildingList().size() > 0){
             Label uniqueBuildings = new Label(Database.getString("civilization_unique_buildings", language));
             uniqueBuildings.addClassNames("title");
-            CivilizationEntityButton uniqueBuilding1 = new CivilizationEntityButton(Database.getBuilding(civ.getUniqueBuildingList().get(0), language), civID, language);
+            CivilizationEntityButton uniqueBuilding1 = new CivilizationEntityButton(Database.getBuilding(civ.getUniqueBuildingList().get(0)), civID, language);
             entitiesLayout.add(uniqueBuildings, new Hr(), uniqueBuilding1);
         }
         entitiesLayout.add(new Hr());
@@ -115,7 +115,7 @@ public class CivilizationView extends TwoColumnView {
 
     @Override
     public String getPageTitle() {
-        return Database.getString("app_name", language) + " - " + civ.getName();
+        return Database.getString("app_name", language) + " - " + civ.getName().getTranslatedString(language);
     }
 
     @Override
@@ -123,7 +123,7 @@ public class CivilizationView extends TwoColumnView {
         parameters = beforeEnterEvent.getRouteParameters();
         language = Utils.checkLanguage(parameters.get("language").orElse(Database.DEFAULT_LANGUAGE));
         civID = Integer.parseInt(getParameters().get("entityID").orElse("1"));
-        civ = Database.getCivilization(civID, language);
+        civ = Database.getCivilization(civID);
         if (!init){
             initView();
             init = true;

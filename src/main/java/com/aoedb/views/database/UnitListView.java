@@ -2,6 +2,7 @@ package com.aoedb.views.database;
 
 
 import com.aoedb.data.EntityElement;
+import com.aoedb.data.StringKey;
 import com.aoedb.database.Database;
 
 import com.aoedb.views.ListView;
@@ -29,8 +30,8 @@ public class UnitListView extends ListView {
     }
 
     @Override
-    protected LinkedHashMap<String, List<EntityElement>> getData() {
-        return Database.getGroupList(Database.UNIT_GROUPS, sort, language);
+    protected LinkedHashMap<StringKey, List<EntityElement>> getData() {
+        return Database.getGroupList(Database.UNIT_GROUPS, sort).getGroupMap(Database.UNIT_GROUPS, language);
     }
 
     @Override

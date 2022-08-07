@@ -18,8 +18,8 @@ public class UnitStatsQuizView extends EntityStatsQuizView {
     protected void obtainQuestion(){
         Random r = new Random();
         int n = r.nextInt(buildingList.size()+unitList.size());
-        if (n < buildingList.size()) entity = Database.getBuilding(buildingList.get(n), language);
-        else entity = Database.getUnit(unitList.get(r.nextInt(unitList.size())), language);
+        if (n < buildingList.size()) entity = Database.getBuilding(buildingList.get(n));
+        else entity = Database.getUnit(unitList.get(r.nextInt(unitList.size())));
     }
 
 
@@ -27,9 +27,9 @@ public class UnitStatsQuizView extends EntityStatsQuizView {
     protected void getEntitiesInfo(){
         unitList = new ArrayList<>();
         buildingList = new ArrayList<>();
-        List<EntityElement> u = Database.getList(Database.UNIT_LIST, language);
+        List<EntityElement> u = Database.getList(Database.UNIT_LIST);
         for (EntityElement e:u) if (notForbidden(e.getId(), Database.UNIT)) unitList.add(e.getId());
-        List<EntityElement> b = Database.getList(Database.BUILDING_LIST, language);
+        List<EntityElement> b = Database.getList(Database.BUILDING_LIST);
         for (EntityElement e:b)  if (notForbidden(e.getId(), Database.BUILDING)) buildingList.add(e.getId());
     }
     @Override

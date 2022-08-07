@@ -2,6 +2,7 @@ package com.aoedb.views.quiz;
 
 import com.aoedb.data.Civilization;
 import com.aoedb.data.EntityElement;
+import com.aoedb.data.StringKey;
 import com.aoedb.database.Database;
 import com.aoedb.database.Utils;
 import com.aoedb.views.MainLayout;
@@ -35,8 +36,8 @@ public class UniqueTechsQuizView extends QuizView {
     @Override
     protected Div getAnswerLayout() {
         selector = new ComboBox<>();
-        selector.setItemLabelGenerator(EntityElement::getName);
-        selector.setRenderer(new ComponentRenderer<>(element -> Utils.getEntityItemRow(element, false)));
+        selector.setItemLabelGenerator(entityElement -> entityElement.getName().getTranslatedString(language));
+        selector.setRenderer(new ComponentRenderer<>(element -> Utils.getEntityItemRow(element, false, language)));
         selector.getElement().getStyle().set("--vaadin-combo-box-overlay-width","300px");
         return new Div(selector);
     }
@@ -49,8 +50,8 @@ public class UniqueTechsQuizView extends QuizView {
         List<Integer> s = civToTech.get(civName);
         int n1 = r.nextInt(s.size()); // choosing castle age or imperial age ut
         int techID = s.get(n1);
-        String techName = Database.getTechnology(techID, language).getName();
-        String techDescription = Database.getTechnology(techID, language).getDescriptor().getQuickDescription();
+        String techName = Database.getTechnology(techID).getName().getTranslatedString(language);
+        String techDescription = Database.getTechnology(techID).getDescriptor().getQuickDescription().getTranslatedString(language);
         setQuestionInfoMedia(Database.getImage("quiz"), true);
         setQuestionSymbolImage(Database.getImage("question"));
         setQuestionInfoIcon(Database.getImage("crown2"), false);
@@ -73,7 +74,7 @@ public class UniqueTechsQuizView extends QuizView {
             askedValue = civName;
             isCivQuestion = true;
 
-            selector.setItems(Utils.getEntityElementComboBoxFilter(), civNames);
+            selector.setItems(Utils.getEntityElementComboBoxFilter(language), civNames);
         }
         else { //asking tech name
             correctionComment = Database.getString("quiz_select_tech", language);
@@ -93,7 +94,7 @@ public class UniqueTechsQuizView extends QuizView {
             correctionComment = String.format(Database.getString("quiz_correction_tech", language),techName);
             askedValue = techName;
             isCivQuestion = false;
-            selector.setItems(Utils.getEntityElementComboBoxFilter(), techNames);
+            selector.setItems(Utils.getEntityElementComboBoxFilter(language), techNames);
         }
         updateQuestion();
         selector.setValue(null);
@@ -108,7 +109,7 @@ public class UniqueTechsQuizView extends QuizView {
 
     @Override
     protected boolean answerIsCorrect() {
-        return selector.getValue().getName().equals(askedValue);
+        return selector.getValue().getName().getTranslatedString(language).equals(askedValue);
     }
 
     @Override
@@ -139,24 +140,24 @@ public class UniqueTechsQuizView extends QuizView {
 
         techNames = new ArrayList<>();
         civNames = new ArrayList<>();
-        HashMap<Integer,String> civRelation = Database.getCivNameMap(language);
+        HashMap<Integer, StringKey> civRelation = Database.getCivNameMap();
         civCount = civRelation.size();
         for(int i: civRelation.keySet()){
-            Civilization c = Database.getCivilization(i, language);
-            String civName = c.getName();
+            Civilization c = Database.getCivilization(i);
+            String civName = c.getName().getTranslatedString(language);
             civToNames.put(i, civName);
             civNames.add(c.getNameElement());
             ArrayList<Integer> a1 = new ArrayList<>();
             for(int t: c.getUniqueTechList()){
-                techNames.add(Database.getTechnology(t, language).getNameElement());
-                techToCiv.put(Database.getTechnology(t, language).getName(), civName);
-                techDescriptions.put(Database.getTechnology(t, language).getName(), Database.getTechnology(t, language).getDescriptor().getQuickDescription());
-                a1.add(Database.getTechnology(t, language).getEntityID());
+                techNames.add(Database.getTechnology(t).getNameElement());
+                techToCiv.put(Database.getTechnology(t).getName().getTranslatedString(language), civName);
+                techDescriptions.put(Database.getTechnology(t).getName().getTranslatedString(language), Database.getTechnology(t).getDescriptor().getQuickDescription().getTranslatedString(language));
+                a1.add(Database.getTechnology(t).getEntityID());
             }
             civToTech.put(civName, a1);
         }
-        civNames.sort(EntityElement.getAlphabeticalComparator());
-        techNames.sort(EntityElement.getAlphabeticalComparator());
+        civNames.sort(EntityElement.getAlphabeticalComparator(language));
+        techNames.sort(EntityElement.getAlphabeticalComparator(language));
 
     }
 

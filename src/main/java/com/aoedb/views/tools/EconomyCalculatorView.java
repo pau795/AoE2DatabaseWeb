@@ -49,12 +49,12 @@ public class EconomyCalculatorView extends TwoColumnView {
     protected Div getFirstColumn() {
         ageID = 0;
         civID = 1;
-        unitList = new ArrayList<>(Database.getList(Database.UNIT_LIST, language));
-        unitList.sort(EntityElement.getAlphabeticalComparator());
-        civ = Database.getCivilization(civID, language);
+        unitList = new ArrayList<>(Database.getList(Database.UNIT_LIST));
+        unitList.sort(EntityElement.getAlphabeticalComparator(language));
+        civ = Database.getCivilization(civID);
         ecoUpgrades = civ.getUpgradesIds();
-        List<EntityElement> civNames = new ArrayList<>(Database.getList(Database.CIVILIZATION_LIST, language));
-        civNames.sort(EntityElement.getAlphabeticalComparator());
+        List<EntityElement> civNames = new ArrayList<>(Database.getList(Database.CIVILIZATION_LIST));
+        civNames.sort(EntityElement.getAlphabeticalComparator(language));
         calculator = new EconomyCalculator();
         AgeCivSelector selector = new AgeCivSelector(ageID, civID, civNames, ecoUpgrades, language);
         selector.setOnChangeListener(new AgeCivSelector.OnChangeListener() {
@@ -67,7 +67,7 @@ public class EconomyCalculatorView extends TwoColumnView {
             @Override
             public void onCivChanged(int civId) {
                 civID = civId;
-                civ = Database.getCivilization(civID, language);
+                civ = Database.getCivilization(civID);
                 calculator.calculateTotalEco();
             }
 
@@ -265,13 +265,13 @@ public class EconomyCalculatorView extends TwoColumnView {
                 removeButton.addClickListener(event -> removeItem(getItemPosition(this)));
                 ComboBox<EntityElement> selector = new ComboBox<>();
                 selector.addClassNames("economy-calculator-selector");
-                selector.setItemLabelGenerator(EntityElement::getName);
-                selector.setRenderer(new ComponentRenderer<>(element -> Utils.getEntityItemRow(element, true)));
-                selector.setItems(Utils.getEntityElementComboBoxFilter(), unitList);
+                selector.setItemLabelGenerator(entityElement -> entityElement.getName().getTranslatedString(language));
+                selector.setRenderer(new ComponentRenderer<>(element -> Utils.getEntityItemRow(element, true, language)));
+                selector.setItems(Utils.getEntityElementComboBoxFilter(language), unitList);
                 selector.getElement().getStyle().set("--vaadin-combo-box-overlay-width","300px");
                 selector.addValueChangeListener(event -> {
                     if (event.getValue() != null) {
-                        u = Database.getUnit(event.getValue().getId(), language);
+                        u = Database.getUnit(event.getValue().getId());
                         buildingIcon.setSrc(u.getCreatorElement().getImage());
                         buildingSelector.setValue(1);
                         unitIcon.setSrc(u.getNameElement().getImage());
@@ -279,7 +279,7 @@ public class EconomyCalculatorView extends TwoColumnView {
                     }
                 });
                 selector.addFocusListener(event -> selector.setValue(null));
-                u = Database.getUnit(1, language);
+                u = Database.getUnit(1);
                 selector.setValue(u.getNameElement());
                 unitSelector = new Div(selector, buildingIcon, buildingSelector, removeButton);
                 unitSelector.addClassNames("economy-calculator-selector-row");

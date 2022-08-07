@@ -2,9 +2,7 @@ package com.aoedb.views.quiz;
 
 import com.aoedb.data.EntityElement;
 import com.aoedb.database.Database;
-import com.aoedb.views.BaseView;
 import com.aoedb.views.MainLayout;
-import com.vaadin.flow.component.html.Div;
 import com.vaadin.flow.router.Route;
 import com.vaadin.flow.router.RoutePrefix;
 
@@ -22,13 +20,13 @@ public class TechnologyStatsQuizView extends EntityStatsQuizView {
     protected void obtainQuestion(){
         Random r = new Random();
         int n = r.nextInt(techList.size());
-        entity = Database.getTechnology(techList.get(n), language);
+        entity = Database.getTechnology(techList.get(n));
     }
 
     @Override
     protected void getEntitiesInfo(){
         techList = new ArrayList<>();
-        List<EntityElement> u = Database.getList(Database.TECH_LIST, language);
+        List<EntityElement> u = Database.getList(Database.TECH_LIST);
         for (EntityElement e:u) if (notForbidden(e.getId(), Database.TECH)) techList.add(e.getId());
     }
 

@@ -3,7 +3,7 @@ package com.aoedb.data;
 import java.util.List;
 
 public class TechBonus {
-    private int techID;
+    private final int techID;
     private Bonus b;
     private int age;
     private List<Integer> availableCivs;

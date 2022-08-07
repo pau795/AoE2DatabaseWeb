@@ -1,6 +1,7 @@
 package com.aoedb.views.database;
 
 import com.aoedb.data.EntityElement;
+import com.aoedb.data.StringKey;
 import com.aoedb.database.Database;
 import com.aoedb.views.ListView;
 import com.aoedb.views.MainLayout;
@@ -29,8 +30,8 @@ public class TechnologyListView extends ListView {
     }
 
     @Override
-    protected LinkedHashMap<String, List<EntityElement>> getData() {
-        return Database.getGroupList(Database.TECH_GROUPS, sort, language);
+    protected LinkedHashMap<StringKey, List<EntityElement>> getData() {
+        return Database.getGroupList(Database.TECH_GROUPS, sort).getGroupMap(Database.TECH_GROUPS, language);
     }
 
     @Override
