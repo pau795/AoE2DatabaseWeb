@@ -24,10 +24,7 @@ import com.vaadin.flow.server.PWA;
 import com.vaadin.flow.theme.Theme;
 import org.apache.commons.lang3.StringUtils;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Locale;
-import java.util.Map;
+import java.util.*;
 
 
 @PWA(name = "AoE 2 Database", shortName = "AoE 2 Database")
@@ -138,7 +135,7 @@ public class MainLayout extends AppLayout implements BeforeEnterObserver, AppShe
 
         searchField = new ComboBox<>();
         searchField.setItemLabelGenerator(entityElement -> entityElement.getName().getTranslatedString(language));
-        List<EntityElement> list = Database.getList(Database.ENTITY_LIST);
+        List<EntityElement> list = new ArrayList<>(Database.getList(Database.ENTITY_LIST));
         list.sort(EntityElement.getAlphabeticalComparator(language));
         searchField.setRenderer(new ComponentRenderer<>(element -> Utils.getSearchEntityItemRow(element, language)));
 

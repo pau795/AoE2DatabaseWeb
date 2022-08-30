@@ -3897,7 +3897,7 @@
     <string name="unit_description_nominative_18">Los Buques de Demolición</string>
     <string name="unit_description_quick_18"/>
     <string name="unit_description_brief_18"/>
-    <string name="unit_description_long_18">Barco de guerra lleno de explosivos. Se autodestruye al ser usado generando, una gran explosión. Efectivo contra masas juntas de barcos y unidades.</string>
+    <string name="unit_description_long_18">Barco de guerra lleno de explosivos. Se autodestruye al ser usado, generando una gran explosión. Efectivo contra masas juntas de barcos y unidades.</string>
     <string name="unit_description_extra_18"/> 
     
     <string name="unit_description_nominative_19">Los Drakkares</string>
@@ -4089,7 +4089,7 @@
     <string name="unit_description_nominative_50">Los Huscarles</string>
     <string name="unit_description_quick_50">Infantería anti-Arqueros</string>
     <string name="unit_description_brief_50">Unidad Única Goda. Infantería con mucha armadura antiproyectil. Excelente contra Arqueros, asaltar bases y destruir edificios.</string>
-    <string name="unit_description_long_50">Gothic Unique Unit. Unidad Única Goda. Infantería con mucha armadura antiproyectil. Excelente contra Arqueros, asaltar bases y destruir edificios. Cuando la tecnología de Ánarquia se ha desarrollado, se pueden reclutar los Huscarles en los Cuarteles.</string>
+    <string name="unit_description_long_50">Unidad Única Goda. Infantería con mucha armadura antiproyectil. Excelente contra Arqueros, asaltar bases y destruir edificios. Cuando la tecnología de Ánarquia se ha desarrollado, se pueden reclutar los Huscarles en los Cuarteles.</string>
     <string name="unit_description_extra_50"/> 
     
     <string name="unit_description_nominative_51">Los Tarcanos</string>
@@ -4233,7 +4233,7 @@
     <string name="unit_description_nominative_74">Los Buques de Demolición Pesados</string>
     <string name="unit_description_quick_74"/>
     <string name="unit_description_brief_74"/>
-    <string name="unit_description_long_74">Barco de guerra lleno de explosivos. Se autodestruye al ser usado generando, una gran explosión. Efectivo contra masas juntas de barcos y unidades.</string>
+    <string name="unit_description_long_74">Barco de guerra lleno de explosivos. Se autodestruye al ser usado, generando una gran explosión. Efectivo contra masas juntas de barcos y unidades.</string>
     <string name="unit_description_extra_74"/> 
     
     <string name="unit_description_nominative_75">Los Galeones Artillados</string>
@@ -4467,7 +4467,7 @@
     <string name="unit_description_nominative_113">Los Huscarles de Élite</string>
     <string name="unit_description_quick_113">Infantería anti-Arqueros</string>
     <string name="unit_description_brief_113">Unidad Única Goda. Infantería con mucha armadura antiproyectil. Excelente contra Arqueros, asaltar bases y destruir edificios.</string>
-    <string name="unit_description_long_113">Gothic Unique Unit. Unidad Única Goda. Infantería con mucha armadura antiproyectil. Excelente contra Arqueros, asaltar bases y destruir edificios. Cuando la tecnología de Ánarquia se ha desarrollado, se pueden reclutar los Huscarles en los Cuarteles.</string>
+    <string name="unit_description_long_113">Unidad Única Goda. Infantería con mucha armadura antiproyectil. Excelente contra Arqueros, asaltar bases y destruir edificios. Cuando la tecnología de Ánarquia se ha desarrollado, se pueden reclutar los Huscarles en los Cuarteles.</string>
     <string name="unit_description_extra_113"/> 
     
     <string name="unit_description_nominative_114">Los Tarcanos de Élite</string>

@@ -129,7 +129,7 @@ public class Civilization extends BaseEntity {
 
     public String writeTechTreeInfo(String language){
         StringBuilder text = new StringBuilder();
-        text.append("<p><b>").append(civStyle).append("</b></p><ul>");
+        text.append("<p><b>").append(civStyle.getTranslatedString(language)).append("</b></p><ul>");
         for (int i : getBonusList()){
             Bonus b = Database.getBonus(i);
             String desc = b.getTechTreeDescription().getTranslatedString(language);
