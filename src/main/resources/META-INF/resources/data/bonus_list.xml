@@ -528,7 +528,7 @@
     <!--Castles and Town Centers (except the first Town Center in nomad starts) are built twice as fast.-->
     <item id="176"/>
      
-    <!--Land military units (except Siege Weapons) receive 50% less bonus damage.-->
+    <!--Land military units (except Siege Weapons) receive 33% less bonus damage.-->
     <item id="177"/>
      
     <!--Farm upgrades provide twice the amount of food.-->
@@ -540,7 +540,7 @@
     <!--Transport Ships have +5 line of sight and cost -50% less.-->
     <item id="180"/>
      
-    <!--Economic upgrades cost 50% less food.-->
+    <!--Economic upgrades cost 40% less food.-->
     <item id="181"/>
      
     <!--Stables and Archery Ranges cost -75 wood.-->
@@ -626,5 +626,8 @@
 	
 	<!--Camel and Elephant units are trained 25% faster.-->
     <item id="209"/>
+	
+	<!--Monks have +3 melee and +3 pierce armor-->
+	<item id="210"/>
      
 </list>

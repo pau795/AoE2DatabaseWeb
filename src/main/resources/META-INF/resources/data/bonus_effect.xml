@@ -2928,7 +2928,7 @@
 			<statEffect>
 				<effectItem>
 					<filter/>
-					<operation stat="22" operator="@" value="0.5"/>
+					<operation stat="22" operator="@" value="0.67"/>
 				</effectItem>
 			</statEffect>
 			<costEffect/>
@@ -2984,7 +2984,7 @@
 			<costEffect>
 				<effectItem>
 					<filter/>
-					<operation stat="Food" operator="*" value="0.5"/>
+					<operation stat="Food" operator="*" value="0.6"/>
 				</effectItem>
 			</costEffect>
 			<ecoEffect/>
@@ -3473,4 +3473,32 @@
 			<armorValueEffect/>
 		</effects>
 	</item>	
+	<item id="210">
+		<info civ="40" globalFilter="none" teamBonus="false" staggered="false"/>
+		<effects>
+			<statEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="3" operator="+" value="3"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="4" operator="+" value="3"/>
+				</effectItem>
+			</statEffect>
+			<costEffect/>
+			<ecoEffect/>
+			<attackValueEffect/>
+			<armorValueEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="1" operator="+" value="3"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="2" operator="+" value="3"/>
+				</effectItem>
+			</armorValueEffect>
+		</effects>
+	</item>
 </list>

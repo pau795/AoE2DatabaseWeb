@@ -1962,7 +1962,7 @@
 			<ecoEffect/>
 			<attackValueEffect>
 				<effectItem>
-					<filter class="unit" ids="36 37 38 56 64 96 97 98 99 100 101 103 119 127 148 155 157 159"/>
+					<filter class="unit" ids="36 37 38 56 64 96 97 98 99 100 101 103 119 127 148 155 157 159 163 171"/>
 					<operation stat="20" operator="*" value="1.2"/>
 				</effectItem>
 				<effectItem>

@@ -274,15 +274,14 @@ public class DamageCalculator {
                 for (int type : attackList.keySet()) {
                     double attackValue = attackList.get(type), armorValue = getArmorValue(armorList, type);
                     chargeAttack = u.getCalculatedStat(Database.CHARGE_ATTACK);
-                    double multiplier;
-                    if (type == 1 || type == 2 || type == 31) multiplier = 1;
-                    else multiplier = r.getCalculatedStat(Database.BONUS_REDUCTION);
-                    double prod = attackValue * multiplier;
-                    if (attackType == 3 && type == 1) prod += chargeAttack;
+
+
+                    if (attackType == 3 && type == 1) attackValue += chargeAttack;
                     if (type == 1 && !Double.isNaN(u.getCalculatedStat(Database.IGNORE_ARMOR))
                             && Double.isNaN(r.getCalculatedStat(Database.RESIST_ARMOR_IGNORE))) armorValue = 0;
-                    double partialDamage = Math.max(0.0f, prod - armorValue);
-                    damage += partialDamage;
+                    double multiplier = type == 1 || type == 2 || type == 31 ? 1 : r.getCalculatedStat(Database.BONUS_REDUCTION);
+                    double partialDamage = Math.max(0.0f, (attackValue - armorValue) * multiplier);
+                    damage += partialDamage ;
                     AttackValues at = new AttackValues(type, attackValue, armorValue, multiplier, partialDamage);
                     values.add(at);
                 }

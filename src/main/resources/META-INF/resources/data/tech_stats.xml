@@ -467,8 +467,8 @@
 		<baseInfo researchBuildingID="14" ageID="19"/>
 		<stats trainingTime="35"/>
 		<cost>
-			<resource name="Food">125</resource>
-			<resource name="Gold">75</resource>
+			<resource name="Food">175</resource>
+			<resource name="Gold">125</resource>
 		</cost>
 		<development requiredTechID="0" nextUpgradeID="123"/>
 	</item>
@@ -1084,8 +1084,8 @@
 		<baseInfo researchBuildingID="14" ageID="90"/>
 		<stats trainingTime="50"/>
 		<cost>
-			<resource name="Food">350</resource>
-			<resource name="Gold">300</resource>
+			<resource name="Food">450</resource>
+			<resource name="Gold">400</resource>
 		</cost>
 		<development requiredTechID="54" nextUpgradeID="0"/>
 	</item>
@@ -2098,8 +2098,8 @@
 		<baseInfo researchBuildingID="15" ageID="90"/>
 		<stats trainingTime="45"/>
 		<cost>
-			<resource name="Food">800</resource>
-			<resource name="Gold">600</resource>
+			<resource name="Food">850</resource>
+			<resource name="Gold">500</resource>
 		</cost>
 		<development requiredTechID="0" nextUpgradeID="0"/>
 	</item>

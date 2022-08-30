@@ -124,7 +124,7 @@
 	</item>
 	<item id="16">
 		<baseInfo builderUnitID="1" ageID="2" classID="18"/>
-		<stats hitPoints="900" attack="-" meleeArmor="8" pierceArmor="10" range="-" minimumRange="-" lineOfSight="2" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="-" trainingTime="10" workRate="-" healRate="-" hillBonus="1.25" hillReduction="0.75"/>
+		<stats hitPoints="1080" attack="-" meleeArmor="8" pierceArmor="10" range="-" minimumRange="-" lineOfSight="2" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="-" trainingTime="10" workRate="-" healRate="-" hillBonus="1.25" hillReduction="0.75"/>
 		<cost>
 			<resource name="Stone">5</resource>
 		</cost>
@@ -132,7 +132,7 @@
 	</item>
 	<item id="17">
 		<baseInfo builderUnitID="1" ageID="2" classID="19"/>
-		<stats hitPoints="1375" attack="-" meleeArmor="6" pierceArmor="6" range="-" minimumRange="-" lineOfSight="6" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="-" trainingTime="70" workRate="-" healRate="-" hillBonus="1.25" hillReduction="0.75"/>
+		<stats hitPoints="1650" attack="-" meleeArmor="6" pierceArmor="6" range="-" minimumRange="-" lineOfSight="6" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="-" trainingTime="70" workRate="-" healRate="-" hillBonus="1.25" hillReduction="0.75"/>
 		<cost>
 			<resource name="Stone">30</resource>
 		</cost>

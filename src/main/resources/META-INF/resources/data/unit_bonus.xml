@@ -127,7 +127,7 @@
 		<hiddenBonusList/>
 	</item>
 	<item id="22">
-		<bonusList ids="3 108 128"/>
+		<bonusList ids="3 108 128 210"/>
 		<teamBonusList ids="23 162 134"/>
 		<uniqueTechList ids="219 85 229"/>
 		<hiddenBonusList/>

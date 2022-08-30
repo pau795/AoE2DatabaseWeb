@@ -1187,8 +1187,8 @@
     <string name="bonus_tech_tree_description_176">Los Castillos y los Centros Urbanos (excepto el primer Centro Urbano en partidas nómadas) se construyen el doble de rápido.</string>
     <string name="bonus_item_description_176">\@ se construyen un 50% más rápido.</string> 
     
-    <string name="bonus_tech_tree_description_177">Unidades militares terrestres (excepto las Armas de Asedio) reciben un 50% menos de daño de bonificación.</string>
-    <string name="bonus_item_description_177">\@ reciben un 50% menos de daño de bonificación.</string> 
+    <string name="bonus_tech_tree_description_177">Unidades militares terrestres (excepto las Armas de Asedio) reciben un 33% menos de daño de bonificación.</string>
+    <string name="bonus_item_description_177">\@ reciben un 33% menos de daño de bonificación.</string> 
     
     <string name="bonus_tech_tree_description_178">Las mejoras de las Granjas proporcionan el doble de comida.</string>
     <string name="bonus_item_description_178">|Las mejoras de comida de \@ proporcionan el doble de comida.|La tecnología de \@ proporciona el doble de comida.</string> 
@@ -1199,8 +1199,8 @@
     <string name="bonus_tech_tree_description_180">Los Barcos de Transporte tienen +5 de línea de visión y cuestan un 50% menos.</string>
     <string name="bonus_item_description_180">\@ tienen +5 de línea de visión y cuestan un 50% menos.</string> 
     
-    <string name="bonus_tech_tree_description_181">Las mejoras económicas cuestan un 50% menos de comida.</string>
-    <string name="bonus_item_description_181">La tecnología de \@ cuesta un 50% menos de comida.</string> 
+    <string name="bonus_tech_tree_description_181">Las mejoras económicas cuestan un 40% menos de comida.</string>
+    <string name="bonus_item_description_181">La tecnología de \@ cuesta un 40% menos de comida.</string> 
     
     <string name="bonus_tech_tree_description_182">Los Establos y las Galerias de Tiro con Arco cuestan -75 de madera</string>
     <string name="bonus_item_description_182">\@ cuestan -75 de madera.</string> 
@@ -1285,6 +1285,9 @@
 
 	<string name="bonus_tech_tree_description_209">Las unidades en Camello y en Elefante se generan un 25% más rápido.</string>
 	<string name="bonus_item_description_209">\@ se generan un 25% más rápido.</string>
+	
+	<string name="bonus_tech_tree_description_210">Los Monjes tienen +3 de armadura melé y +3 de armadura antiproyectil.</string>
+	<string name="bonus_item_description_210">\@ tienen +3 de armadura melé y +3 de armadura antiproyectil.</string>
  
     <!--building_description.xml-->
      
@@ -4761,7 +4764,7 @@
 	<string name="unit_description_nominative_162">Jinetes Shrivamsha</string>
     <string name="unit_description_quick_162">Caballería Ligera que puede esquivar proyectiles</string>
     <string name="unit_description_brief_162"/>
-    <string name="unit_description_long_162">Unidad Única Gurjara. Caballería rápida que puede esquivar proyectiles. Puede esquivar hasta 5 proyectiles, que se van recargando a lo largo de 15 segundos (1 proyectil cada 3 segundos).</string>
+    <string name="unit_description_long_162">Unidad Única Gurjara. Caballería rápida que puede esquivar proyectiles. Puede esquivar hasta 5 proyectiles, que se van recargando a lo largo de 20 segundos (1 proyectil cada 4 segundos).</string>
     <string name="unit_description_extra_162"/>
 		
 	<string name="unit_description_nominative_163">Elefantes Blindados</string>
@@ -4809,7 +4812,7 @@
 	<string name="unit_description_nominative_170">Jinetes Shrivamsha de Élite</string>
     <string name="unit_description_quick_170">Caballería Ligera que puede esquivar proyectiles</string>
     <string name="unit_description_brief_170"/>
-    <string name="unit_description_long_170">Unidad Única Gurjara. Caballería rápida que puede esquivar proyectiles. Puede esquivar hasta 7 proyectiles, que se van recargando a lo largo de 15 segundos (1 proyectil cada 2.14 segundos).</string>
+    <string name="unit_description_long_170">Unidad Única Gurjara. Caballería rápida que puede esquivar proyectiles. Puede esquivar hasta 7 proyectiles, que se van recargando a lo largo de 20 segundos (1 proyectil cada 2.86 segundos).</string>
     <string name="unit_description_extra_170"/>
 		
 	<string name="unit_description_nominative_171">Elefantes de Asedio</string>

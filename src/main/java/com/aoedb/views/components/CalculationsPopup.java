@@ -231,7 +231,7 @@ public class CalculationsPopup extends Div {
             Div attack = new AnnotationText(Utils.getDecimalString(value1, 2), Database.getString("dc_calc_attack", language), "red");
             Div armor = new AnnotationText(Utils.getDecimalString(value2, 2), Database.getString("dc_calc_armor", language), "green");
             Div mult = new AnnotationText(Utils.getDecimalString(multiplier, 2), Database.getString("dc_calc_multiplier", language), "purple");
-            formulaDiv = createSpecialString("(@@ × @@)  - @@", attack, mult, armor);
+            formulaDiv = createSpecialString("(@@ - @@) * @@", attack, armor, mult);
         }
         else{
             Div attack = new AnnotationText(Utils.getDecimalString(value1, 2), Database.getString("dc_calc_attack", language), "red");

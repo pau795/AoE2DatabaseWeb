@@ -113,7 +113,7 @@
 			<statEffect>
 				<effectItem>
 					<filter/>
-					<operation stat="1" operator="*" value="1 1 2 2"/>
+					<operation stat="1" operator="*" value="1 1 1.666666667 1.666666667"/>
 				</effectItem>
 			</statEffect>
 			<costEffect/>

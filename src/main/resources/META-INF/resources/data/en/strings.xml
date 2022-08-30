@@ -1196,8 +1196,8 @@
     <string name="bonus_tech_tree_description_176">Castles and Town Centers (except the first Town Center in nomad starts) are built twice as fast.</string>
     <string name="bonus_item_description_176">\@ is built twice as fast.</string> 
     
-    <string name="bonus_tech_tree_description_177">Land military units (except Siege Weapons) receive 50% less bonus damage.</string>
-    <string name="bonus_item_description_177">\@ receive 50% less bonus damage.</string> 
+    <string name="bonus_tech_tree_description_177">Land military units (except Siege Weapons) receive 33% less bonus damage.</string>
+    <string name="bonus_item_description_177">\@ receive 33% less bonus damage.</string> 
     
     <string name="bonus_tech_tree_description_178">Farm upgrades provide twice the amount of food.</string>
     <string name="bonus_item_description_178">|\@ food upgrades provide twice the amount of food.|\@ research provide twice the amount of food.</string> 
@@ -1208,8 +1208,8 @@
     <string name="bonus_tech_tree_description_180">Transport Ships have +5 line of sight and cost -50% less.</string>
     <string name="bonus_item_description_180">\@ have +5 line of sight and cost -50% less.</string> 
     
-    <string name="bonus_tech_tree_description_181">Economic upgrades cost 50% less food.</string>
-    <string name="bonus_item_description_181">\@ cost 50% less food.</string> 
+    <string name="bonus_tech_tree_description_181">Economic upgrades cost 40% less food.</string>
+    <string name="bonus_item_description_181">\@ cost 40% less food.</string> 
     
     <string name="bonus_tech_tree_description_182">Stables and Archery Ranges cost -75 wood.</string>
     <string name="bonus_item_description_182">\@ cost -75 wood.</string> 
@@ -1294,6 +1294,9 @@
 
 	<string name="bonus_tech_tree_description_209">Camel and Elephant units are trained 25% faster.</string>
 	<string name="bonus_item_description_209">\@ are trained 25% faster.</string>
+	
+	<string name="bonus_tech_tree_description_210">Monks have +3 melee and +3 pierce armor.</string>
+	<string name="bonus_item_description_210">\@ have +3 melee and +3 pierce armor.</string>
  
     <!--building_description.xml-->
      
@@ -4687,7 +4690,7 @@
     <string name="unit_description_nominative_149">Coustilliers</string>
     <string name="unit_description_quick_149">Charging Cavalry</string>
     <string name="unit_description_brief_149"/>
-    <string name="unit_description_long_149">Burgundian Unique Unit. Heavy Cavalry with a strong charging attack. It needs 40 seconds to charge, which results in 25 additional damage in the first hit.</string>
+    <string name="unit_description_long_149">Burgundian Unique Unit. Heavy Cavalry with a strong charging attack. It needs 40 seconds to charge, which results in 20 additional damage in the first hit.</string>
     <string name="unit_description_extra_149"/> 
     
     <string name="unit_description_nominative_150">Serjeants</string>
@@ -4699,7 +4702,7 @@
     <string name="unit_description_nominative_151">Elite Coustilliers</string>
     <string name="unit_description_quick_151">Charging Cavalry</string>
     <string name="unit_description_brief_151"/>
-    <string name="unit_description_long_151">Burgundian Unique Unit. Heavy Cavalry with a strong charging attack. It needs 40 seconds to charge, which results in 30 additional damage in the first hit.</string>
+    <string name="unit_description_long_151">Burgundian Unique Unit. Heavy Cavalry with a strong charging attack. It needs 40 seconds to charge, which results in 25 additional damage in the first hit.</string>
     <string name="unit_description_extra_151"/> 
     
     <string name="unit_description_nominative_152">Elite Serjeants</string>
@@ -4765,7 +4768,7 @@
 	<string name="unit_description_nominative_162">Shrivamsha Riders</string>
     <string name="unit_description_quick_162">Light Cavalry that can dodge arrows</string>
     <string name="unit_description_brief_162"/>
-    <string name="unit_description_long_162">Gurjara Unique Unit. Fast Cavalry unit which can dodge arrows. Can dodge up to 5 arrows, which recharge over 15 seconds (1 arrow each 3 seconds).</string>
+    <string name="unit_description_long_162">Gurjara Unique Unit. Fast Cavalry unit which can dodge arrows. Can dodge up to 5 arrows, which recharge over 20 seconds (1 arrow each 4 seconds).</string>
     <string name="unit_description_extra_162"/>
 		
 	<string name="unit_description_nominative_163">Armored Elephants</string>
@@ -4813,7 +4816,7 @@
 	<string name="unit_description_nominative_170">Elite Shrivamsha Riders</string>
     <string name="unit_description_quick_170">Light Cavalry that can dodge arrows</string>
     <string name="unit_description_brief_170"/>
-    <string name="unit_description_long_170">Gurjara Unique Unit. Fast Cavalry unit which can dodge arrows. Can dodge up to 7 arrows, which recharge over 15 seconds (1 arrow each 2.14 seconds).</string>
+    <string name="unit_description_long_170">Gurjara Unique Unit. Fast Cavalry unit which can dodge arrows. Can dodge up to 7 arrows, which recharge over 20 seconds (1 arrow each 2.86 seconds).</string>
     <string name="unit_description_extra_170"/>
 	
 	<string name="unit_description_nominative_171">Siege Elephants</string>
