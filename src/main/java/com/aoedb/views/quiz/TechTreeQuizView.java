@@ -77,7 +77,7 @@ public class TechTreeQuizView extends QuizView {
         int i = r.nextInt(unitQuestions.size() + techQuestions.size());
         if (i < unitQuestions.size()){
             Unit u = Database.getUnit(unitQuestions.get(i));
-            questionString = String.format(Database.getString("quiz_tech_tree_unit_question", language),currentQuestion, numQuestions, civName, u.getName());
+            questionString = String.format(Database.getString("quiz_tech_tree_unit_question", language),currentQuestion, numQuestions, civName, u.getName().getTranslatedString(language));
             updateQuestion();
             setQuestionInfoIcon(u.getNameElement().getImage(), true);
             setQuestionInfoName(u.getName().getTranslatedString(language));
@@ -95,7 +95,7 @@ public class TechTreeQuizView extends QuizView {
         else {
             i -= unitQuestions.size();
             Technology t = Database.getTechnology(techQuestions.get(i));
-            questionString = String.format(Database.getString("quiz_tech_tree_tech_question", language), currentQuestion, numQuestions, civName, t.getName());
+            questionString = String.format(Database.getString("quiz_tech_tree_tech_question", language), currentQuestion, numQuestions, civName, t.getName().getTranslatedString(language));
             updateQuestion();
             setQuestionInfoIcon(t.getNameElement().getImage(), true);
             setQuestionInfoName(t.getName().getTranslatedString(language));

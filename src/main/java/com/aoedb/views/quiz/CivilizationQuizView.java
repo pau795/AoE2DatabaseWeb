@@ -189,7 +189,7 @@ public class CivilizationQuizView extends QuizView {
                 setQuestionInfoIcon(u.getNameElement().getImage(), true);
                 setQuestionInfoName(u.getName().getTranslatedString(language));
                 setQuestionInfoMedia(u.getNameElement().getMedia(), true);
-                questionString = String.format(Database.getString("quiz_civ_unique_unit_question", language), currentQuestion, numQuestions, u.getDescriptor().getNominative());
+                questionString = String.format(Database.getString("quiz_civ_unique_unit_question", language), currentQuestion, numQuestions, u.getDescriptor().getNominative().getTranslatedString(language));
                 break;
             }
             case 2: { //theme

@@ -618,7 +618,7 @@
 	<!--Livestock can be garrisoned inside Mills to produce food.-->
     <item id="206"/>
 	
-	<!--Mounted Units deal 50% more bonus damage.-->
+	<!--Mounted Units deal 40% more bonus damage.-->
     <item id="207"/>
 	
 	<!--Fishing Ships can be garrisoned inside Docks.-->

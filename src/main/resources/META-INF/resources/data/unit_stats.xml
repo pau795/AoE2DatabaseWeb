@@ -1523,7 +1523,7 @@
 	</item>
 	<item id="171">
 		<baseInfo trainingBuildingID="22" ageID="90" classID="7"/>
-		<stats hitPoints="250" attack="4" meleeArmor="-2" pierceArmor="140" range="-" minimumRange="-" lineOfSight="4" reloadTime="3" speed="0.6" blastRadius="-" attackDelay="0" accuracy="100" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="1" trainingTime="36" workRate="-" healRate="0" hillBonus="1.25" hillReduction="0.75" bonusReduction="1" chargeAttack="-" chargeReload="-" relics="-" ignoreArmor="-" resistArmorIgnore="-"/>
+		<stats hitPoints="250" attack="4" meleeArmor="-2" pierceArmor="150" range="-" minimumRange="-" lineOfSight="4" reloadTime="3" speed="0.6" blastRadius="1.5" attackDelay="0" accuracy="100" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="1" trainingTime="36" workRate="-" healRate="0" hillBonus="1.25" hillReduction="0.75" bonusReduction="1" chargeAttack="-" chargeReload="-" relics="-" ignoreArmor="-" resistArmorIgnore="-"/>
 		<cost>
 			<resource name="Food">130</resource>
 			<resource name="Gold">95</resource>

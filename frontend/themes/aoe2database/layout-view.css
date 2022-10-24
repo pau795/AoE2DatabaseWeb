@@ -20,7 +20,7 @@
 
 .layout-grid-container-one{
     display: grid;
-    grid-template-columns: minmax(350px, 550px);
+    grid-template-columns: minmax(350px, 650px);
     flex-grow: 1;
 }
 

@@ -118,7 +118,7 @@ public class UnitRecognitionQuizView extends QuizView {
         setQuestionInfoIcon(Database.getImage("unknown1"), false);
         setQuestionSymbolImage(Database.getImage("question"));
         setQuestionInfoMedia(Database.getImage("quiz"), true);
-        correctionComment = String.format(Database.getString("quiz_correction_unit", language), u.getName());
+        correctionComment = String.format(Database.getString("quiz_correction_unit", language), u.getName().getTranslatedString(language));
         okButton.setText(Database.getString("ok", language));
     }
 

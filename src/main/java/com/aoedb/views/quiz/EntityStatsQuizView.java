@@ -86,14 +86,14 @@ public abstract class EntityStatsQuizView extends QuizView {
                 }
                 case 1:{ //asking cost
                     Map<String, Integer> cost = entity.getBaseCost();
-                    if (isTech) questionString = String.format(Database.getString("quiz_tech_stats_cost_question", language), currentQuestion, numQuestions, entity.getName());
-                    else questionString = String.format(Database.getString("quiz_unit_cost_question", language), currentQuestion, numQuestions, entity.getName());
+                    if (isTech) questionString = String.format(Database.getString("quiz_tech_stats_cost_question", language), currentQuestion, numQuestions, entity.getName().getTranslatedString(language));
+                    else questionString = String.format(Database.getString("quiz_unit_cost_question", language), currentQuestion, numQuestions, entity.getName().getTranslatedString(language));
                     Iterator<Map.Entry<String, Integer>> iterator = cost.entrySet().iterator();
                     String res1 = iterator.next().getKey();
                     askedValues.add(Double.valueOf(cost.get(res1)));
                     res1Image.setSrc(Utils.getResourceIcon(res1));
-                    if (isTech) correctionComment = String.format(Database.getString("quiz_tech_stats_cost_correction", language), entity.getName(), cost.get(res1),Utils.getResourceString(res1, language));
-                    else correctionComment = String.format(Database.getString("quiz_unit_cost_correction", language), entity.getName(), cost.get(res1),Utils.getResourceString(res1, language));
+                    if (isTech) correctionComment = String.format(Database.getString("quiz_tech_stats_cost_correction", language), entity.getName().getTranslatedString(language), cost.get(res1),Utils.getResourceString(res1, language));
+                    else correctionComment = String.format(Database.getString("quiz_unit_cost_correction", language), entity.getName().getTranslatedString(language), cost.get(res1),Utils.getResourceString(res1, language));
                     if (iterator.hasNext()){ //item has two costs resources
                         String res2 =iterator.next().getKey();
                         askedValues.add(Double.valueOf(cost.get(res2)));
@@ -113,8 +113,8 @@ public abstract class EntityStatsQuizView extends QuizView {
                     int type = list.get(r.nextInt(list.size()));
                     String typeName = Database.getElement(Database.TYPE_LIST, type).getName().getTranslatedString(language);
                     askedValues.add(availableAttackTypes.get(type));
-                    questionString = String.format(Database.getString("quiz_unit_attack_question", language), currentQuestion, numQuestions, typeName, entity.getName());
-                    correctionComment = String.format(Database.getString("quiz_unit_attack_correction", language), entity.getName(), askedValues.get(0).intValue(), typeName);
+                    questionString = String.format(Database.getString("quiz_unit_attack_question", language), currentQuestion, numQuestions, typeName, entity.getName().getTranslatedString(language));
+                    correctionComment = String.format(Database.getString("quiz_unit_attack_correction", language), entity.getName().getTranslatedString(language), askedValues.get(0).intValue(), typeName);
                     setLayoutForOneStatQuestion(true, false);
                     break;
                 }
@@ -123,8 +123,8 @@ public abstract class EntityStatsQuizView extends QuizView {
                     int type = list.get(r.nextInt(list.size()));
                     String typeName = Database.getElement(Database.TYPE_LIST, type).getName().getTranslatedString(language);
                     askedValues.add(availableArmorTypes.get(type));
-                    questionString = String.format(Database.getString("quiz_unit_armor_question", language), currentQuestion, numQuestions, typeName, entity.getName());
-                    correctionComment = String.format(Database.getString("quiz_unit_armor_correction", language), entity.getName(), askedValues.get(0).intValue(), typeName);
+                    questionString = String.format(Database.getString("quiz_unit_armor_question", language), currentQuestion, numQuestions, typeName, entity.getName().getTranslatedString(language));
+                    correctionComment = String.format(Database.getString("quiz_unit_armor_correction", language), entity.getName().getTranslatedString(language), askedValues.get(0).intValue(), typeName);
                     setLayoutForOneStatQuestion(true, false);
                     break;
                 }
@@ -229,8 +229,8 @@ public abstract class EntityStatsQuizView extends QuizView {
                 correction = "";
             }
         }
-        questionString = String.format(Database.getString(question, language), currentQuestion, numQuestions, entity.getName());
-        correctionComment = String.format(Database.getString(correction, language), entity.getName(), Utils.getDecimalString(askedValues.get(0), 2));
+        questionString = String.format(Database.getString(question, language), currentQuestion, numQuestions, entity.getName().getTranslatedString(language));
+        correctionComment = String.format(Database.getString(correction, language), entity.getName().getTranslatedString(language), Utils.getDecimalString(askedValues.get(0), 2));
     }
 
 

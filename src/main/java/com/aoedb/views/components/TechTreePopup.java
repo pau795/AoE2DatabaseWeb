@@ -28,7 +28,10 @@ public class TechTreePopup extends Div {
         image.setSrc(e.getNameElement().getImage());
         image.addClassNames("tech-tree-popup-image");
         Div costLayout = getCostLayout();
-        Label description = new Label(e.getDescriptor().getBriefDescription().getTranslatedString(language));
+        String descriptionString = !e.getDescriptor().getBriefDescription().getTranslatedString(language).isEmpty() ?
+                e.getDescriptor().getBriefDescription().getTranslatedString(language) :
+                e.getDescriptor().getLongDescription().getTranslatedString(language);
+        Label description = new Label(descriptionString);
         description.addClassNames("tech-tree-popup-description");
         Div statsLayout = getStatsLayout();
         Div upgradeCost = getUpgradeCostLayout();

@@ -274,8 +274,6 @@ public class DamageCalculator {
                 for (int type : attackList.keySet()) {
                     double attackValue = attackList.get(type), armorValue = getArmorValue(armorList, type);
                     chargeAttack = u.getCalculatedStat(Database.CHARGE_ATTACK);
-
-
                     if (attackType == 3 && type == 1) attackValue += chargeAttack;
                     if (type == 1 && !Double.isNaN(u.getCalculatedStat(Database.IGNORE_ARMOR))
                             && Double.isNaN(r.getCalculatedStat(Database.RESIST_ARMOR_IGNORE))) armorValue = 0;

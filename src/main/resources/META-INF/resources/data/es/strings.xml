@@ -1277,8 +1277,8 @@
 	<string name="bonus_tech_tree_description_206">El ganado se puede guarecer en los Molinos para generar alimento.</string>
 	<string name="bonus_item_description_206">El ganado se puede guarecer en los Molinos para generar alimento.</string>
 
-	<string name="bonus_tech_tree_description_207">Las unidades montadas inflingen un 50% más de daño de bonificación.</string>
-	<string name="bonus_item_description_207">\@ inflingen un 50% más de daño de bonificación.</string>
+	<string name="bonus_tech_tree_description_207">Las unidades montadas inflingen un 40% más de daño de bonificación.</string>
+	<string name="bonus_item_description_207">\@ inflingen un 40% más de daño de bonificación.</string>
 
 	<string name="bonus_tech_tree_description_208">Los Pesqueros se pueden guerecer en los Muelles.</string>
 	<string name="bonus_item_description_208">Los Pesqueros se pueden guerecer en los Muelles.</string>

@@ -3285,7 +3285,7 @@
 			<statEffect>
 				<effectItem>
 					<filter/>
-					<operation stat="19" operator="+" value="0.25"/>
+					<operation stat="19" operator="@" value="0.25"/>
 				</effectItem>
 			</statEffect>
 			<costEffect/>
@@ -3401,47 +3401,47 @@
 			<attackValueEffect>	
 				<effectItem>
 					<filter class="unit" ids="15 32 90 162 170 30 89"/>
-					<operation stat="3" operator="*" value="1.5"/>
+					<operation stat="3" operator="*" value="1.4"/>
 				</effectItem>
 					<effectItem>
 					<filter class="unit" ids="30 89"/>
-					<operation stat="4" operator="*" value="1.5"/>
+					<operation stat="4" operator="*" value="1.4"/>
 				</effectItem>
 				<effectItem>
 					<filter class="unit" ids="161 169 30 89"/>
-					<operation stat="6" operator="*" value="1.5"/>
+					<operation stat="6" operator="*" value="1.4"/>
 				</effectItem>
 				<effectItem>
 					<filter class="unit" ids="34 93 160"/>
-					<operation stat="9" operator="*" value="1.5"/>
+					<operation stat="9" operator="*" value="1.4"/>
 				</effectItem>
 					<effectItem>
 					<filter class="unit" ids="34 93 160"/>
-					<operation stat="10" operator="*" value="1.5"/>
+					<operation stat="10" operator="*" value="1.4"/>
 				</effectItem>		
 				<effectItem>
 					<filter class="unit" ids="163 171"/>
-					<operation stat="12" operator="*" value="1.5"/>
+					<operation stat="12" operator="*" value="1.4"/>
 				</effectItem>		
 				<effectItem>
 					<filter class="unit" ids="30 89"/>
-					<operation stat="13" operator="*" value="1.5"/>
+					<operation stat="13" operator="*" value="1.4"/>
 				</effectItem>
 				<effectItem>
 					<filter class="unit" ids="15 32 90"/>
-					<operation stat="15" operator="*" value="1.5"/>
+					<operation stat="15" operator="*" value="1.4"/>
 				</effectItem>
 				<effectItem>
 					<filter class="unit" ids="15 32 90 162 170 34 93 160 161 169 163 171"/>
-					<operation stat="19" operator="*" value="1.5"/>
+					<operation stat="19" operator="*" value="1.4"/>
 				</effectItem>
 				<effectItem>
 					<filter class="unit" ids="15 32 90 162 170 34 93 160 163 171"/>
-					<operation stat="20" operator="*" value="1.5"/>
+					<operation stat="20" operator="*" value="1.4"/>
 				</effectItem>
 				<effectItem>
 					<filter class="unit" ids="34 93 160"/>
-					<operation stat="29" operator="*" value="1.5"/>
+					<operation stat="29" operator="*" value="1.4"/>
 				</effectItem>
 						
 			</attackValueEffect>

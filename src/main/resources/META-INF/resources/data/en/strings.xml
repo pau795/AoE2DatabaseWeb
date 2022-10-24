@@ -1286,8 +1286,8 @@
 	<string name="bonus_tech_tree_description_206">Livestock can be garrisoned inside Mills to produce food.</string>
 	<string name="bonus_item_description_206">Livestock can be garrisoned inside Mills to produce food.</string>
 
-	<string name="bonus_tech_tree_description_207">Mounted Units deal 50% more bonus damage.</string>
-	<string name="bonus_item_description_207">\@ deal 50% more bonus damage.</string>
+	<string name="bonus_tech_tree_description_207">Mounted Units deal 40% more bonus damage.</string>
+	<string name="bonus_item_description_207">\@ deal 40% more bonus damage.</string>
 
 	<string name="bonus_tech_tree_description_208">Fishing Ships can be garrisoned inside Docks.</string>
 	<string name="bonus_item_description_208">Fishing Ships can be garrisoned inside Docks.</string>
