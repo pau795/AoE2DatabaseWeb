@@ -1268,8 +1268,8 @@
 	<string name="bonus_tech_tree_description_200">Receive +200 wood when Advancing to the next Age.</string>
 	<string name="bonus_item_description_200">Receive +200 wood when Advancing to the next Age.</string>
 
-	<string name="bonus_tech_tree_description_201">Fishermen and Fishing Ships carry have +15 carry capacity.</string>
-	<string name="bonus_item_description_201">\@ carry have +15 carry capacity.</string>
+	<string name="bonus_tech_tree_description_201">Fishermen and Fishing Ships have +15 carry capacity.</string>
+	<string name="bonus_item_description_201">\@ have +15 carry capacity.</string>
 
 	<string name="bonus_tech_tree_description_202">Barracks technologies cost 50% less.</string>
 	<string name="bonus_item_description_202">\@ upgrade cost 50% less.||\@ research cost 50% less.</string>
