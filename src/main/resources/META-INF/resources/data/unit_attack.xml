@@ -337,7 +337,7 @@
 			<value type="12">60</value>
 			<value type="20">500</value>
 			<value type="21">100</value>
-			<value type="22">900</value>
+			<value type="23">900</value>
 		</entry>
 	</item>
 	<item id="41">
@@ -781,7 +781,7 @@
 	<item id="87">
 		<entry nameID="unit_attack_values">
 			<value type="2">7</value>
-			<value type="6">2</value>
+			<value type="6">4</value>
 			<value type="13">0</value>
 			<value type="19">0</value>
 		</entry>
@@ -1498,8 +1498,9 @@
 	</item>
 	<item id="167">
 		<entry nameID="unit_attack_values">
-			<value type="1">5</value>
+			<value type="1">3</value>
 			<value type="3">0</value>
+			<value type="5">0</value>
 			<value type="7">1</value>
 			<value type="19">1</value>
 		</entry>
@@ -1566,8 +1567,9 @@
 	</item>
 	<item id="175">
 		<entry nameID="unit_attack_values">
-			<value type="1">6</value>
+			<value type="1">4</value>
 			<value type="3">0</value>
+			<value type="5">1</value>
 			<value type="7">2</value>
 			<value type="19">2</value>
 		</entry>

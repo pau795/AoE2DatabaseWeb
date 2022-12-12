@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <list>
 	<item id="1">
-		<bonusList ids="1 6 12 25 39 46 55 59 73 75 77 78 83 102 106 119 123 164 138 187 190 192 201"/>
+		<bonusList ids="1 6 12 25 39 46 55 59 73 75 77 78 83 102 106 119 123 164 168 138 187 190 192 201"/>
 		<teamBonusList ids="134"/>
 		<uniqueTechList ids="218 71 219 200 241"/>
 		<hiddenBonusList/>

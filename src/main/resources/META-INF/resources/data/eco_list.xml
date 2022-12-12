@@ -68,5 +68,8 @@
 	
 	<!--Gold Lumberjacks-->
     <item id="23" value="-"/>
+	
+	<!--Wood Foragers-->
+    <item id="24" value="-"/>
      
 </list>

@@ -177,7 +177,7 @@
     <!--Villagers cost -10/15/20/25% in Dark/Feudal/Castle/Imperial Age.-->
     <item id="59"/>
      
-    <!--Camel Riders attack 25% faster-->
+    <!--Camel Riders attack 20% faster-->
     <item id="60"/>
      
     <!--Gunpowder units have +1 melee and +1 pierce armor-->
@@ -330,7 +330,7 @@
     <!--Can build Feitoria in Imperial Age.-->
     <item id="110"/>
      
-    <!--Line of sight is shared with the team starting in Dark Age.-->
+    <!--Technologies are researched 25% faster (except aging up).-->
     <item id="111"/>
      
     <!--Market commodity fee reduced to 5%.-->
@@ -501,7 +501,7 @@
     <!--Blacksmith and Siege Workshop upgrades cost -50% food.-->
     <item id="167"/>
      
-    <!--Technologies are researched 30% faster (except aging up).-->
+    <!--Foragers generate 33% of wood out of the food collected.-->
     <item id="168"/>
      
     <!--Newly-constructed Town Centers spawn two sheep starting in Castle Age.-->
@@ -573,7 +573,7 @@
     <!--Mills are replaced by Folwarks.-->
     <item id="191"/>
      
-    <!--Stone Miners generate 50% of gold out of the stone collected.-->
+    <!--Stone Miners generate 33% of gold out of the stone collected.-->
     <item id="192"/>
      
     <!--Light Cavalry line have +1 damage against Archers.-->
@@ -618,7 +618,7 @@
 	<!--Livestock can be garrisoned inside Mills to produce food.-->
     <item id="206"/>
 	
-	<!--Mounted Units deal 40% more bonus damage.-->
+	<!--Mounted Units deal 20%/30%/40% more bonus damage in Feudal/Castle/Imperial Age.-->
     <item id="207"/>
 	
 	<!--Fishing Ships can be garrisoned inside Docks.-->

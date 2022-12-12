@@ -303,7 +303,7 @@
 		<baseInfo trainingBuildingID="15" ageID="19" classID="7"/>
 		<stats hitPoints="250" attack="12" meleeArmor="1" pierceArmor="2" range="-" minimumRange="-" lineOfSight="4" reloadTime="2" speed="0.85" blastRadius="0.4" attackDelay="0" accuracy="100" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="1" trainingTime="24" workRate="-" healRate="0" hillBonus="1.25" hillReduction="0.75" bonusReduction="1" chargeAttack="-" chargeReload="-" relics="-" ignoreArmor="-" resistArmorIgnore="-"/>
 		<cost>
-			<resource name="Food">120</resource>
+			<resource name="Food">110</resource>
 			<resource name="Gold">70</resource>
 		</cost>
 		<development requiredTechID="0" previousUpgradeID="0" nextUpgradeID="95"/>
@@ -490,7 +490,7 @@
 	</item>
 	<item id="56">
 		<baseInfo trainingBuildingID="26" ageID="19" classID="7"/>
-		<stats hitPoints="250" attack="10" meleeArmor="0" pierceArmor="3" range="5" minimumRange="-" lineOfSight="7" reloadTime="2.5" speed="0.8" blastRadius="0.1" attackDelay="0.39" accuracy="100" numberProjectiles="1" projectileSpeed="6" garrisonCapacity="-" populationTaken="1" trainingTime="25" workRate="-" healRate="0" hillBonus="1.25" hillReduction="0.75" bonusReduction="1" chargeAttack="-" chargeReload="-" relics="-" ignoreArmor="-" resistArmorIgnore="-"/>
+		<stats hitPoints="250" attack="10" meleeArmor="0" pierceArmor="3" range="5" minimumRange="-" lineOfSight="7" reloadTime="2.5" speed="0.8" blastRadius="0.1" attackDelay="0.39" accuracy="100" numberProjectiles="1" projectileSpeed="6" garrisonCapacity="-" populationTaken="1" trainingTime="25" workRate="-" healRate="0" hillBonus="1.25" hillReduction="0.75" bonusReduction="1" chargeAttack="-" chargeReload="-" relics="-" ignoreArmor="-" resistArmorIgnore="1"/>
 		<cost>
 			<resource name="Food">100</resource>
 			<resource name="Gold">80</resource>
@@ -842,7 +842,7 @@
 		<baseInfo trainingBuildingID="15" ageID="90" classID="7"/>
 		<stats hitPoints="300" attack="14" meleeArmor="1" pierceArmor="3" range="-" minimumRange="-" lineOfSight="5" reloadTime="2" speed="0.85" blastRadius="0.4" attackDelay="0" accuracy="100" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="1" trainingTime="24" workRate="-" healRate="0" hillBonus="1.25" hillReduction="0.75" bonusReduction="1" chargeAttack="-" chargeReload="-" relics="-" ignoreArmor="-" resistArmorIgnore="-"/>
 		<cost>
-			<resource name="Food">120</resource>
+			<resource name="Food">110</resource>
 			<resource name="Gold">70</resource>
 		</cost>
 		<development requiredTechID="133" previousUpgradeID="35" nextUpgradeID="0"/>
@@ -1056,7 +1056,7 @@
 	</item>
 	<item id="119">
 		<baseInfo trainingBuildingID="26" ageID="90" classID="7"/>
-		<stats hitPoints="290" attack="11" meleeArmor="0" pierceArmor="3" range="5" minimumRange="-" lineOfSight="7" reloadTime="2.5" speed="0.8" blastRadius="0.1" attackDelay="0.39" accuracy="100" numberProjectiles="1" projectileSpeed="6" garrisonCapacity="-" populationTaken="1" trainingTime="25" workRate="-" healRate="0" hillBonus="1.25" hillReduction="0.75" bonusReduction="1" chargeAttack="-" chargeReload="-" relics="-" ignoreArmor="-" resistArmorIgnore="-"/>
+		<stats hitPoints="290" attack="11" meleeArmor="0" pierceArmor="3" range="5" minimumRange="-" lineOfSight="7" reloadTime="2.5" speed="0.8" blastRadius="0.1" attackDelay="0.39" accuracy="100" numberProjectiles="1" projectileSpeed="6" garrisonCapacity="-" populationTaken="1" trainingTime="25" workRate="-" healRate="0" hillBonus="1.25" hillReduction="0.75" bonusReduction="1" chargeAttack="-" chargeReload="-" relics="-" ignoreArmor="-" resistArmorIgnore="1"/>
 		<cost>
 			<resource name="Food">100</resource>
 			<resource name="Gold">80</resource>
@@ -1487,7 +1487,7 @@
 	</item>
 	<item id="167">
 		<baseInfo trainingBuildingID="26" ageID="19" classID="5"/>
-		<stats hitPoints="40" attack="5" meleeArmor="1" pierceArmor="0" range="5" minimumRange="-" lineOfSight="7" reloadTime="2" speed="1.15" blastRadius="0" attackDelay="0.8" accuracy="100" numberProjectiles="1" projectileSpeed="6" garrisonCapacity="-" populationTaken="1" trainingTime="15" workRate="-" healRate="0" hillBonus="1.25" hillReduction="0.75" bonusReduction="1" chargeAttack="-" chargeReload="-" relics="-" ignoreArmor="-" resistArmorIgnore="-"/>
+		<stats hitPoints="40" attack="3" meleeArmor="1" pierceArmor="0" range="5" minimumRange="-" lineOfSight="7" reloadTime="2" speed="1.15" blastRadius="0" attackDelay="0.8" accuracy="100" numberProjectiles="1" projectileSpeed="6" garrisonCapacity="-" populationTaken="1" trainingTime="15" workRate="-" healRate="0" hillBonus="1.25" hillReduction="0.75" bonusReduction="1" chargeAttack="-" chargeReload="-" relics="-" ignoreArmor="-" resistArmorIgnore="-"/>
 		<cost>
 			<resource name="Food">65</resource>
 			<resource name="Gold">30</resource>
@@ -1559,7 +1559,7 @@
 	</item>
 	<item id="175">
 		<baseInfo trainingBuildingID="26" ageID="90" classID="5"/>
-		<stats hitPoints="50" attack="6" meleeArmor="1" pierceArmor="0" range="6" minimumRange="-" lineOfSight="8" reloadTime="2" speed="1.15" blastRadius="0" attackDelay="0.8" accuracy="100" numberProjectiles="1" projectileSpeed="6" garrisonCapacity="-" populationTaken="1" trainingTime="15" workRate="-" healRate="0" hillBonus="1.25" hillReduction="0.75" bonusReduction="1" chargeAttack="-" chargeReload="-" relics="-" ignoreArmor="-" resistArmorIgnore="-"/>
+		<stats hitPoints="50" attack="4" meleeArmor="1" pierceArmor="0" range="6" minimumRange="-" lineOfSight="8" reloadTime="2" speed="1.15" blastRadius="0" attackDelay="0.8" accuracy="100" numberProjectiles="1" projectileSpeed="6" garrisonCapacity="-" populationTaken="1" trainingTime="15" workRate="-" healRate="0" hillBonus="1.25" hillReduction="0.75" bonusReduction="1" chargeAttack="-" chargeReload="-" relics="-" ignoreArmor="-" resistArmorIgnore="-"/>
 		<cost>
 			<resource name="Food">65</resource>
 			<resource name="Gold">30</resource>

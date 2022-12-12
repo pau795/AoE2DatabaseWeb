@@ -836,8 +836,8 @@
     <string name="bonus_tech_tree_description_59">Los Aldeanos cuestan un 10/15/20/25% menos en la Edad Alta/Feudal/Castillos/Imperial.</string>
     <string name="bonus_item_description_59">Los Aldeanos cuestan un 10/15/20/25% menos en la Edad Alta/Feudal/Castillos/Imperial.</string> 
     
-    <string name="bonus_tech_tree_description_60">Los Jinetes de Camello atacan un 25% más rápido.</string>
-    <string name="bonus_item_description_60">\@ atacan un 25% más rápido.</string> 
+    <string name="bonus_tech_tree_description_60">Los Jinetes de Camello atacan un 20% más rápido.</string>
+    <string name="bonus_item_description_60">\@ atacan un 20% más rápido.</string> 
     
     <string name="bonus_tech_tree_description_61">Las unidades de polvora tienen +1 de armadura melé y +1 de armadura antiproyectil.</string>
     <string name="bonus_item_description_61">\@ tienen +1 de armadura melé y +1 de armadura antiproyectil.</string> 
@@ -989,8 +989,8 @@
     <string name="bonus_tech_tree_description_110">Se pueden construir Factorías en la Edad Imperial.</string>
     <string name="bonus_item_description_110">Se pueden construir Factorías en la Edad Imperial.</string> 
     
-    <string name="bonus_tech_tree_description_111">El campo de visión se comparte con los aliados empezando en la Alta Edad Media</string>
-    <string name="bonus_item_description_111">El campo de visión se comparte con los aliados empezando en la Alta Edad Media</string> 
+	<string name="bonus_tech_tree_description_111">Las tecnologías se desarrollan un 25% más rápido (excepto avanzar de edad).</string>
+    <string name="bonus_item_description_111">La tecnología de \@ se desarrolla un 25% más rápido.</string> 
     
     <string name="bonus_tech_tree_description_112">La tarifa de comercio en el Mercado se reduce a un 5%.</string>
     <string name="bonus_item_description_112">La tarifa de comercio en el Mercado se reduce a un 5%.</string> 
@@ -1160,8 +1160,8 @@
     <string name="bonus_tech_tree_description_167">Las tecnologías de la Herrería y del Taller de Maquinaria de asedio cuestan un 50% menos de alimento.</string>
     <string name="bonus_item_description_167">La mejora de \@ cuesta un 50% menos de alimento.||La tecnología de \@ cuesta un 50% menos de alimento.</string> 
     
-    <string name="bonus_tech_tree_description_168">Las tecnologías se desarrollan un 30% más rápido (excepto avanzar de edad).</string>
-    <string name="bonus_item_description_168">La tecnología de \@ se desarrolla un 30% más rápido.</string> 
+    <string name="bonus_tech_tree_description_168">Los Recolectores generan un 33% de madera del alimento obtenido.</string>
+    <string name="bonus_item_description_168">Los Recolectores generan un 33% de madera del alimento obtenido.</string> 
     
     <string name="bonus_tech_tree_description_169">Los nuevos Centros Urbanos construidos generan dos Ovejas a partir de la Edad de los Castillos.</string>
     <string name="bonus_item_description_169">Los nuevos Centros Urbanos construidos generan dos Ovejas a partir de la Edad de los Castillos.</string> 
@@ -1232,8 +1232,8 @@
     <string name="bonus_tech_tree_description_191">Se reemplazan los Molinos por Folwark.</string>
     <string name="bonus_item_description_191">Se reemplazan los Molinos por Folwark.</string> 
     
-    <string name="bonus_tech_tree_description_192">Los Canteros generan un 50% de oro de la piedra recolectada.</string>
-    <string name="bonus_item_description_192">Los Canteros generan un 50% de oro de la piedra recolectada.</string> 
+    <string name="bonus_tech_tree_description_192">Los Canteros generan un 33% de oro de la piedra recolectada.</string>
+    <string name="bonus_item_description_192">Los Canteros generan un 33% de oro de la piedra recolectada.</string> 
     
     <string name="bonus_tech_tree_description_193">La línea de Caballería Ligera tienen +1 de daño contra Arqueros.</string>
     <string name="bonus_item_description_193">\@ tienen +1 de ataque contra Arqueros.</string> 
@@ -1277,8 +1277,8 @@
 	<string name="bonus_tech_tree_description_206">El ganado se puede guarecer en los Molinos para generar alimento.</string>
 	<string name="bonus_item_description_206">El ganado se puede guarecer en los Molinos para generar alimento.</string>
 
-	<string name="bonus_tech_tree_description_207">Las unidades montadas inflingen un 40% más de daño de bonificación.</string>
-	<string name="bonus_item_description_207">\@ inflingen un 40% más de daño de bonificación.</string>
+	<string name="bonus_tech_tree_description_207">Las unidades montadas inflingen un 20%/30%/40% más de daño de bonificación en la Edad Feudal/Castillos/Imperial.</string>
+	<string name="bonus_item_description_207">\@ inflingen un 20%/30%/40% más de daño de bonificación en la Edad Feudal/Castillos/Imperial.</string>
 
 	<string name="bonus_tech_tree_description_208">Los Pesqueros se pueden guerecer en los Muelles.</string>
 	<string name="bonus_item_description_208">Los Pesqueros se pueden guerecer en los Muelles.</string>
@@ -1683,6 +1683,7 @@
     <string name="eco_name_21">Comida Reliquia</string>
     <string name="eco_name_22">Oro Cantero</string>
     <string name="eco_name_23">Oro Leñador</string>
+    <string name="eco_name_23">Madera Recolector</string>
      
     <!--gathering_rates.xml-->
      
@@ -1708,6 +1709,7 @@
     <string name="gathering_rates_19">Piedra en Factoría</string>
     <string name="gathering_rates_20">Keshik</string>
     <string name="gathering_rates_21">Oro generado por Leñadores</string>
+    <string name="gathering_rates_21">Madera generada por Recolectores</string>
      
 	 
 	 <!--hidden_bonus.xml-->
@@ -2809,7 +2811,7 @@
     <string name="tech_description_nominative_127">Tácticas de los Partos</string>
     <string name="tech_description_quick_127"/>
     <string name="tech_description_brief_127">Los Arqueros a Caballo obtienen +1 de armadura melé y +2 de armadura antiproyectil, y obtienen ataque extra contra Lanceros.</string>
-    <string name="tech_description_long_127">Los Arqueros a Caballo, los Mangudai, los Kipchaks y los Elefantes Arqueros obtienen +1 de armadura melé y +2 de armadura antiproyectil; los Arqueros a Caballo obtienen +4 de ataque contra Lanceros. Los Mangudai, los Kipchaks y los Elefantes Arqueros obtienen +2 de ataque contra Lanceros.</string>
+    <string name="tech_description_long_127">Los Arqueros a Caballo, los Mangudai, los Kipchaks y los Elefantes Arqueros obtienen +1 de armadura melé y +2 de armadura antiproyectil,y obtienen +2 de ataque contra Lanceros.</string>
     <string name="tech_description_extra_127"/> 
     
     <string name="tech_description_nominative_128">Húsar</string>
@@ -4794,7 +4796,7 @@
 	<string name="unit_description_nominative_167">Lanzadores de Chakrams</string>
     <string name="unit_description_quick_167">Infantería a distancia penetrate</string>
     <string name="unit_description_brief_167"/>
-    <string name="unit_description_long_167">Unidad Única Gurjara. Infatería a distancia que lanza Chakrams penetrantes.</string>
+    <string name="unit_description_long_167">Unidad Única Gurjara. Infatería a distancia que lanza Chakrams penetrantes. Las unidades penetradas recibirán un 100% del daño, en vez del 50% típico.</string>
     <string name="unit_description_extra_167"/>	
 	
 	<string name="unit_description_nominative_168">Thirisadai</string>
@@ -4842,7 +4844,7 @@
 	<string name="unit_description_nominative_175">Lanzadores de Chakrams de Élite</string>
     <string name="unit_description_quick_175">Infantería a distancia penetrate</string>
     <string name="unit_description_brief_175"/>
-    <string name="unit_description_long_175">Unidad Única Gurjara. Infatería a distancia que lanza Chakrams penetrantes.</string>
+    <string name="unit_description_long_175">Unidad Única Gurjara. Infatería a distancia que lanza Chakrams penetrantes. Las unidades penetradas recibirán un 100% del daño, en vez del 50% típico.</string>
     <string name="unit_description_extra_175"/>	
  
     <!--unit_list.xml-->

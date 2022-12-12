@@ -263,6 +263,7 @@
 		<building id="26" upgrades="60 61 141 145"/>
 	</item>
 	<item id="44">
+		<building id="14" upgrades="127"/>
 		<building id="15" upgrades="18 58"/>
 		<building id="12" upgrades="15"/>
 		<building id="21" upgrades="45"/>
@@ -648,6 +649,7 @@
 		<building id="26" upgrades="60 61 141"/>
 	</item>
 	<item id="107">
+		<building id="14" upgrades="127"/>
 		<building id="15" upgrades="18 58"/>
 		<building id="12" upgrades="15"/>
 		<building id="21" upgrades="45"/>

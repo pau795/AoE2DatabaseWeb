@@ -62,5 +62,8 @@
 	
 	<!--Lumberjack gold-->
     <item ecoID="23" id="21" resourceIcon="r_gold" statIcon="t_bow_saw"/>
+	
+	<!--Wood Foragers-->
+	<item ecoID="24" id="22" resourceIcon="r_wood" statIcon="u_bush"/>
      
 </list>
