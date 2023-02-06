@@ -512,7 +512,7 @@ public class Reader {
             }
             else {
                 if (!unitList.isEmpty()) map.put(new StringKey("type_entities_unit_armor", element.getName()), unitList);
-                if (!buildingList.isEmpty()) map.put(new StringKey("type_entities_building_armor", element.getName()), unitList);
+                if (!buildingList.isEmpty()) map.put(new StringKey("type_entities_building_armor", element.getName()), buildingList);
             }
             b.put(element.getId(), map);
         }
