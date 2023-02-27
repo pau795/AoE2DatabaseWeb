@@ -191,7 +191,7 @@ public class CalculationsPopup extends Div {
             Div hitsContent = calculationRow(hitsCalculation, Utils.getDecimalString(stats.hits, 2));
             hitsToKill = twoRowsLayout(hitsTitle, hitsContent);
 
-            Div dpsTitle = getTitleDiv(Database.getString("dc_calc_hits_kill", language));
+            Div dpsTitle = getTitleDiv(Database.getString("dc_calc_dps", language));
             Div totalDamageAnnotation = new AnnotationText(Utils.getDecimalString(stats.totalDamage, 2), Database.getString("dc_calc_damage", language), "red");
             Div reload1Annotation = new AnnotationText(Utils.getDecimalString(stats.reload, 2), Database.getString("dc_calc_rof", language), "green");
             Div dpsCalculation = createSpecialString("@@ / @@", totalDamageAnnotation, reload1Annotation);

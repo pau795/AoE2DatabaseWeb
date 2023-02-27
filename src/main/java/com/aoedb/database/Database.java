@@ -9,8 +9,8 @@ import java.util.*;
 public class Database {
 
     //DATABASE CONSTANTS
-    public final static String APP_VERSION = "v1.9";
-    public final static int PATCH_VERSION = 66692;
+    public final static String APP_VERSION = "v2.0";
+    public final static int PATCH_VERSION = 73885;
     public final static String BASE_DIR = "META-INF/resources/";
 
 
