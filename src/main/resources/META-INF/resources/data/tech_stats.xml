@@ -2053,8 +2053,8 @@
 		<baseInfo researchBuildingID="22" ageID="90"/>
 		<stats trainingTime="140"/>
 		<cost>
-			<resource name="Food">950</resource>
-			<resource name="Gold">750</resource>
+			<resource name="Food">1100</resource>
+			<resource name="Gold">800</resource>
 		</cost>
 		<development requiredTechID="114" nextUpgradeID="0"/>
 	</item>

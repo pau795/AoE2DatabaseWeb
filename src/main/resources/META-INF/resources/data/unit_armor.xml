@@ -1549,10 +1549,10 @@
 		<entry nameID="unit_armor_values">
 			<value type="1">-2</value>
 			<value type="2">150</value>
-			<value type="9">8</value>
-			<value type="11">18</value>
+			<value type="9">10</value>
+			<value type="11">20</value>
 			<value type="12">0</value>
-			<value type="13">2</value>
+			<value type="13">0</value>
 			<value type="31">0</value>
 		</entry>
 	</item>

@@ -1018,7 +1018,7 @@
 			<costEffect>
 				<effectItem>
 					<filter/>
-					<operation stat="All" operator="*" value="0.9 0.85 0.8 0.75"/>
+					<operation stat="All" operator="*" value="0.95 0.9 0.85 0.8"/>
 				</effectItem>
 			</costEffect>
 			<ecoEffect/>
@@ -2989,7 +2989,7 @@
 			<costEffect>
 				<effectItem>
 					<filter/>
-					<operation stat="Food" operator="*" value="0.6"/>
+					<operation stat="Food" operator="*" value="0.66667"/>
 				</effectItem>
 			</costEffect>
 			<ecoEffect/>
@@ -3175,7 +3175,7 @@
 			<ecoEffect>
 				<effectItem>
 					<filter/>
-					<operation stat="6" operator="*" value="1.11"/>
+					<operation stat="6" operator="*" value="1.08"/>
 				</effectItem>
 			</ecoEffect>
 			<attackValueEffect/>
@@ -3406,47 +3406,47 @@
 			<attackValueEffect>	
 				<effectItem>
 					<filter class="unit" ids="15 32 90 162 170 30 89"/>
-					<operation stat="3" operator="*" value="1 1.2 1.3 1.4"/>
+					<operation stat="3" operator="*" value="1 1.2 1.332 1.3986"/>
 				</effectItem>
 					<effectItem>
 					<filter class="unit" ids="30 89"/>
-					<operation stat="4" operator="*" value="1 1.2 1.3 1.4"/>
+					<operation stat="4" operator="*" value="1 1.2 1.332 1.3986"/>
 				</effectItem>
 				<effectItem>
 					<filter class="unit" ids="161 169 30 89"/>
-					<operation stat="6" operator="*" value="1 1.2 1.3 1.4"/>
+					<operation stat="6" operator="*" value="1 1.2 1.332 1.3986"/>
 				</effectItem>
 				<effectItem>
 					<filter class="unit" ids="34 93 160"/>
-					<operation stat="9" operator="*" value="1 1.2 1.3 1.4"/>
+					<operation stat="9" operator="*" value="1 1.2 1.332 1.3986"/>
 				</effectItem>
 					<effectItem>
 					<filter class="unit" ids="34 93 160"/>
-					<operation stat="10" operator="*" value="1 1.2 1.3 1.4"/>
+					<operation stat="10" operator="*" value="1 1.2 1.332 1.3986"/>
 				</effectItem>		
 				<effectItem>
 					<filter class="unit" ids="163 171"/>
-					<operation stat="12" operator="*" value="1 1.2 1.3 1.4"/>
+					<operation stat="12" operator="*" value="1 1.2 1.332 1.3986"/>
 				</effectItem>		
 				<effectItem>
 					<filter class="unit" ids="30 89"/>
-					<operation stat="13" operator="*" value="1 1.2 1.3 1.4"/>
+					<operation stat="13" operator="*" value="1 1.2 1.332 1.3986"/>
 				</effectItem>
 				<effectItem>
 					<filter class="unit" ids="15 32 90"/>
-					<operation stat="15" operator="*" value="1 1.2 1.3 1.4"/>
+					<operation stat="15" operator="*" value="1 1.2 1.332 1.3986"/>
 				</effectItem>
 				<effectItem>
 					<filter class="unit" ids="15 32 90 162 170 34 93 160 161 169 163 171"/>
-					<operation stat="19" operator="*" value="1 1.2 1.3 1.4"/>
+					<operation stat="19" operator="*" value="1 1.2 1.332 1.3986"/>
 				</effectItem>
 				<effectItem>
 					<filter class="unit" ids="15 32 90 162 170 34 93 160 163 171"/>
-					<operation stat="20" operator="*" value="1 1.2 1.3 1.4"/>
+					<operation stat="20" operator="*" value="1 1.2 1.332 1.3986"/>
 				</effectItem>
 				<effectItem>
 					<filter class="unit" ids="34 93 160"/>
-					<operation stat="29" operator="*" value="1 1.2 1.3 1.4"/>
+					<operation stat="29" operator="*" value="1 1.2 1.332 1.3986"/>
 				</effectItem>
 						
 			</attackValueEffect>

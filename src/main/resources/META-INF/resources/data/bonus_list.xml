@@ -174,7 +174,7 @@
     <!--Spearmen and Skirmishers +2 Line of Sight.-->
     <item id="58"/>
      
-    <!--Villagers cost -10/15/20/25% in Dark/Feudal/Castle/Imperial Age.-->
+    <!--Villagers cost -5/10/15/20% in Dark/Feudal/Castle/Imperial Age.-->
     <item id="59"/>
      
     <!--Camel Riders attack 20% faster-->
@@ -540,7 +540,7 @@
     <!--Transport Ships have +5 line of sight and cost -50% less.-->
     <item id="180"/>
      
-    <!--Economic upgrades cost 40% less food.-->
+    <!--Economic upgrades cost 33% less food.-->
     <item id="181"/>
      
     <!--Stables and Archery Ranges cost -75 wood.-->

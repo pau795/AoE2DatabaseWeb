@@ -1415,7 +1415,7 @@
 	</item>
 	<item id="159">
 		<baseInfo trainingBuildingID="22" ageID="90" classID="14"/>
-		<stats hitPoints="90" attack="50" meleeArmor="2" pierceArmor="6" range="12" minimumRange="5" lineOfSight="14" reloadTime="6.5" speed="0.7" blastRadius="0.80" attackDelay="0.21" accuracy="100" numberProjectiles="1" projectileSpeed="4" garrisonCapacity="-" populationTaken="1" trainingTime="56" workRate="-" healRate="0" hillBonus="1.25" hillReduction="0.75" bonusReduction="1" chargeAttack="-" chargeReload="-" relics="-" ignoreArmor="-" resistArmorIgnore="1"/>
+		<stats hitPoints="90" attack="50" meleeArmor="2" pierceArmor="6" range="12" minimumRange="5" lineOfSight="14" reloadTime="6.5" speed="0.7" blastRadius="0.7" attackDelay="0.21" accuracy="100" numberProjectiles="1" projectileSpeed="4" garrisonCapacity="-" populationTaken="1" trainingTime="56" workRate="-" healRate="0" hillBonus="1.25" hillReduction="0.75" bonusReduction="1" chargeAttack="-" chargeReload="-" relics="-" ignoreArmor="-" resistArmorIgnore="1"/>
 		<cost>
 			<resource name="Wood">225</resource>
 			<resource name="Gold">225</resource>
@@ -1451,7 +1451,7 @@
 	</item>
 	<item id="163">
 		<baseInfo trainingBuildingID="22" ageID="19" classID="7"/>
-		<stats hitPoints="200" attack="4" meleeArmor="-2" pierceArmor="140" range="-" minimumRange="-" lineOfSight="4" reloadTime="3" speed="0.6" blastRadius="-" attackDelay="0" accuracy="100" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="1" trainingTime="36" workRate="-" healRate="0" hillBonus="1.25" hillReduction="0.75" bonusReduction="1" chargeAttack="-" chargeReload="-" relics="-" ignoreArmor="-" resistArmorIgnore="-"/>
+		<stats hitPoints="180" attack="4" meleeArmor="-2" pierceArmor="140" range="-" minimumRange="-" lineOfSight="4" reloadTime="3" speed="0.6" blastRadius="-" attackDelay="0" accuracy="100" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="1" trainingTime="36" workRate="-" healRate="0" hillBonus="1.25" hillReduction="0.75" bonusReduction="1" chargeAttack="-" chargeReload="-" relics="-" ignoreArmor="-" resistArmorIgnore="-"/>
 		<cost>
 			<resource name="Food">130</resource>
 			<resource name="Gold">95</resource>
@@ -1523,7 +1523,7 @@
 	</item>
 	<item id="171">
 		<baseInfo trainingBuildingID="22" ageID="90" classID="7"/>
-		<stats hitPoints="250" attack="4" meleeArmor="-2" pierceArmor="150" range="-" minimumRange="-" lineOfSight="4" reloadTime="3" speed="0.6" blastRadius="1.5" attackDelay="0" accuracy="100" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="1" trainingTime="36" workRate="-" healRate="0" hillBonus="1.25" hillReduction="0.75" bonusReduction="1" chargeAttack="-" chargeReload="-" relics="-" ignoreArmor="-" resistArmorIgnore="-"/>
+		<stats hitPoints="220" attack="4" meleeArmor="-2" pierceArmor="150" range="-" minimumRange="-" lineOfSight="4" reloadTime="3" speed="0.6" blastRadius="1.5" attackDelay="0" accuracy="100" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="1" trainingTime="36" workRate="-" healRate="0" hillBonus="1.25" hillReduction="0.75" bonusReduction="1" chargeAttack="-" chargeReload="-" relics="-" ignoreArmor="-" resistArmorIgnore="-"/>
 		<cost>
 			<resource name="Food">130</resource>
 			<resource name="Gold">95</resource>

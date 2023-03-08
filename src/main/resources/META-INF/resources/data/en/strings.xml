@@ -842,8 +842,8 @@
     <string name="bonus_tech_tree_description_58">Spearmen and Skirmishers have +2 Line of Sight.</string>
     <string name="bonus_item_description_58">\@ have +2 Line of Sight.</string> 
     
-    <string name="bonus_tech_tree_description_59">Villagers cost -10/15/20/25% in Dark/Feudal/Castle/Imperial Age.</string>
-    <string name="bonus_item_description_59">Villagers cost -10/15/20/25% in Dark/Feudal/Castle/Imperial Age.</string> 
+    <string name="bonus_tech_tree_description_59">Villagers cost -5/10/15/20% in Dark/Feudal/Castle/Imperial Age.</string>
+    <string name="bonus_item_description_59">Villagers cost -5/10/15/20% in Dark/Feudal/Castle/Imperial Age.</string> 
     
     <string name="bonus_tech_tree_description_60">Camel Riders attack 20% faster.</string>
     <string name="bonus_item_description_60">\@ attack 20% faster.</string> 
@@ -1208,8 +1208,8 @@
     <string name="bonus_tech_tree_description_180">Transport Ships have +5 line of sight and cost -50% less.</string>
     <string name="bonus_item_description_180">\@ have +5 line of sight and cost -50% less.</string> 
     
-    <string name="bonus_tech_tree_description_181">Economic upgrades cost 40% less food.</string>
-    <string name="bonus_item_description_181">\@ cost 40% less food.</string> 
+    <string name="bonus_tech_tree_description_181">Economic upgrades cost 33% less food.</string>
+    <string name="bonus_item_description_181">\@ cost 33% less food.</string> 
     
     <string name="bonus_tech_tree_description_182">Stables and Archery Ranges cost -75 wood.</string>
     <string name="bonus_item_description_182">\@ cost -75 wood.</string> 

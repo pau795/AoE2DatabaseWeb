@@ -833,8 +833,8 @@
     <string name="bonus_tech_tree_description_58">Los Lanceros y los Hostigadores tienen +2 de Campo de Visión.</string>
     <string name="bonus_item_description_58">\@ tienen +2 de Campo de Visión.</string> 
     
-    <string name="bonus_tech_tree_description_59">Los Aldeanos cuestan un 10/15/20/25% menos en la Edad Alta/Feudal/Castillos/Imperial.</string>
-    <string name="bonus_item_description_59">Los Aldeanos cuestan un 10/15/20/25% menos en la Edad Alta/Feudal/Castillos/Imperial.</string> 
+    <string name="bonus_tech_tree_description_59">Los Aldeanos cuestan un 5/10/15/20% menos en la Edad Alta/Feudal/Castillos/Imperial.</string>
+    <string name="bonus_item_description_59">Los Aldeanos cuestan un 5/10/15/20% menos en la Edad Alta/Feudal/Castillos/Imperial.</string> 
     
     <string name="bonus_tech_tree_description_60">Los Jinetes de Camello atacan un 20% más rápido.</string>
     <string name="bonus_item_description_60">\@ atacan un 20% más rápido.</string> 
@@ -1199,8 +1199,8 @@
     <string name="bonus_tech_tree_description_180">Los Barcos de Transporte tienen +5 de línea de visión y cuestan un 50% menos.</string>
     <string name="bonus_item_description_180">\@ tienen +5 de línea de visión y cuestan un 50% menos.</string> 
     
-    <string name="bonus_tech_tree_description_181">Las mejoras económicas cuestan un 40% menos de comida.</string>
-    <string name="bonus_item_description_181">La tecnología de \@ cuesta un 40% menos de comida.</string> 
+    <string name="bonus_tech_tree_description_181">Las mejoras económicas cuestan un 33% menos de comida.</string>
+    <string name="bonus_item_description_181">La tecnología de \@ cuesta un 33% menos de comida.</string> 
     
     <string name="bonus_tech_tree_description_182">Los Establos y las Galerias de Tiro con Arco cuestan -75 de madera</string>
     <string name="bonus_item_description_182">\@ cuestan -75 de madera.</string> 
