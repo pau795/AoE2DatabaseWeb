@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <list>
 	<item id="1">
-		<units>1 153</units>
+		<units>1</units>
 		<techs>1 2 3 4 19 20 21 90</techs>
 	</item>
 	<item id="2"/>
@@ -20,8 +20,8 @@
 	</item>
 	<item id="7"/>
 	<item id="8">
-		<units>4 10 11 12 24 25 26 50 80 81 82 83 84 113</units>
-		<techs>16 17 49 50 51 52 53 119 120 121 122</techs>
+		<units>4 10 11 12 24 25 26 50 80 81 82 83 84 113 153</units>
+		<techs>16 17 49 50 51 52 53 119 120 121 122 244</techs>
 	</item>
 	<item id="9"/>
 	<item id="10"/>
@@ -75,7 +75,7 @@
 		<units>136 142</units>
 	</item>
 	<item id="33">
-		<units>150 152</units>
+		<units>11 25 82 150 152</units>
 	</item>
 	<item id="34">
 		<techs>6 23 92</techs>

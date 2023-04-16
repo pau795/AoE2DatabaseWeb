@@ -150,7 +150,7 @@
 		<uniqueBuildings/>
 	</item>
 	<item id="19">
-		<bonus bonusList="87 88 89 90" teamBonus="91"/>
+		<bonus bonusList="87 88 89 90 213" teamBonus="91"/>
 		<uniqueUnits>
 			<unit unitID="59" eliteUnitID="122"/>
 		</uniqueUnits>
@@ -215,7 +215,7 @@
 		<uniqueBuildings/>
 	</item>
 	<item id="27">
-		<bonus bonusList="123 124 125 126" teamBonus="127"/>
+		<bonus bonusList="123 124 125 126 214" teamBonus="127"/>
 		<uniqueUnits>
 			<unit unitID="67" eliteUnitID="130"/>
 			<unit unitID="23"/>
@@ -328,7 +328,7 @@
 		<uniqueBuildings buildingID="34"/>
 	</item>
 	<item id="40">
-		<bonus bonusList="196 197 198 210" teamBonus="199"/>
+		<bonus bonusList="196 197 198 210 211" teamBonus="199"/>
 		<uniqueUnits>
 			<unit unitID="164" eliteUnitID="172"/>
 			<unit unitID="165" eliteUnitID="173"/>
@@ -337,7 +337,7 @@
 		<uniqueBuildings/>
 	</item>
 	<item id="41">
-		<bonus bonusList="200 201 202 203" teamBonus="204"/>
+		<bonus bonusList="200 201 202 203 212" teamBonus="204"/>
 		<uniqueUnits>
 			<unit unitID="166" eliteUnitID="174"/>
 			<unit unitID="168"/>

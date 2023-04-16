@@ -7,11 +7,11 @@
 		<category name="unit_group1_category4" ids="72 73 74 75 76 77 78 79 168 80 81 82 83 84 85 86 87 169 88 89 90 154 91 92 93 94 95 141 170 96 97 171 98 99 100 101 159 102 103 104 172 173 105 157 106 142 143 151 153 107 108 109 110 144 111 174 112 113 175 114 115 116 117 118 119 120 145 121 122 123 124 125 126 158 127 128 152 129 130 146 148 131 132 133 134"/>
 	</group >
 	<group alphabeticalOrder="false">
-		<category name="unit_group2_category1" ids="1 153"/>
+		<category name="unit_group2_category1" ids="1"/>
 		<category name="unit_group2_category2" ids="9"/>
 		<category name="unit_group2_category3" ids="2 3 5 6 16 72 7 17 73 8 18 74 19 77 20 78 21 79 75 76"/>
 		<category name="unit_group2_category4" ids="22 23"/>
-		<category name="unit_group2_category5" ids="4 10 24 80 81 11 25 82 12 26 83 50 113 84"/>
+		<category name="unit_group2_category5" ids="4 10 24 80 81 11 25 82 12 26 83 50 113 84 153"/>
 		<category name="unit_group2_category6" ids="13 27 85 14 28 86 29 87 161 169 30 89 31 88"/>
 		<category name="unit_group2_category7" ids="15 32 90 154 33 91 92 160 34 93 94 35 95 135 141 162 170 51 114 147"/>
 		<category name="unit_group2_category8" ids="36 96 97 163 171 37 98 99 38 100 39 101 159"/>

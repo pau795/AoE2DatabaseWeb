@@ -39,6 +39,8 @@ public class TechTreeView extends BaseView {
     static int blacksmithWidth = boxWidth * 5;
     static int universityWidth = boxWidth * 7;
     static int castleWidth = boxWidth * 8;
+    static int donjonWidth = boxWidth * 2;
+
     static int monasteryWidth = boxWidth * 8;
     static int miningCampWidth = boxWidth * 2;
     static int marketWidth = boxWidth * 2;
@@ -307,10 +309,13 @@ public class TechTreeView extends BaseView {
         TechTreeEmptyBox barracksLine4 = new TechTreeEmptyBox(true);
         barracksLine4.setTopLeftLine();
         barracksLine4.setTopRightLine();
+        TechTreeEmptyBox barracksLine5 = new TechTreeEmptyBox(true);
+        barracksLine5.setTopLeftLine();
+        barracksLine5.setTopRightLine();
 
         TechTreeSlotLayout barracksLayout = new TechTreeSlotLayout(boxSet);
         barracksLayout.addFistRow(barracks);
-        barracksLayout.addSecondRow(militia, barracksLine1, barracksLine2, barracksLine3, barracksLine4);
+        barracksLayout.addSecondRow(militia, barracksLine1, barracksLine2, barracksLine3, barracksLine4, barracksLine5);
 
         //STABLE
         Div stableLayout = new TechTreeConnector(stableWidth, false);
@@ -402,8 +407,8 @@ public class TechTreeView extends BaseView {
 
         //DONJON
         Div donjonLayout = new Div();
-        donjonLayout.setWidth(columnWidth + "px");
-        donjonLayout.setHeight(sectionHeight + "px");
+        donjonLayout.setWidth(donjonWidth + "px");
+        donjonLayout.setHeight(donjonWidth + "px");
 
         //HOUSE WONDER
         TechTreeBox house = new TechTreeBox(Database.getBuilding(2), false, language);
@@ -530,17 +535,18 @@ public class TechTreeView extends BaseView {
         TechTreeBox spearman = new TechTreeBox(Database.getUnit(11), false, language);
         TechTreeBox eagleScout = new TechTreeBox(Database.getUnit(12), false, language);
         TechTreeBox supplies = new TechTreeBox(Database.getTechnology(17), false, language);
-        supplies.removeBottomLine();
         TechTreeEmptyBox barracksLine1 = new TechTreeEmptyBox(true);
         TechTreeEmptyBox barracksLine2 = new TechTreeEmptyBox(true);
         TechTreeEmptyBox barracksLine3 = new TechTreeEmptyBox(true);
         TechTreeEmptyBox barracksLine4 = new TechTreeEmptyBox(true);
-        TechTreeEmptyBox barracksLine5 = new TechTreeEmptyBox(false);
+        TechTreeEmptyBox barracksLine5 = new TechTreeEmptyBox(true);
         TechTreeEmptyBox barracksLine6 = new TechTreeEmptyBox(true);
+        TechTreeEmptyBox barracksLine7 = new TechTreeEmptyBox(true);
+        TechTreeEmptyBox barracksLine8 = new TechTreeEmptyBox(true);
 
         TechTreeSlotLayout barracksLayout = new TechTreeSlotLayout(boxSet);
-        barracksLayout.addFistRow(manAtArms, spearman, eagleScout, supplies, barracksLine1);
-        barracksLayout.addSecondRow(barracksLine2, barracksLine3, barracksLine4, barracksLine5, barracksLine6);
+        barracksLayout.addFistRow(manAtArms, spearman, eagleScout, supplies, barracksLine1, barracksLine2);
+        barracksLayout.addSecondRow(barracksLine3, barracksLine4, barracksLine5, barracksLine6, barracksLine7, barracksLine8);
 
         //STABLE
         TechTreeBox stable = new TechTreeBox(Database.getBuilding(15), false, language);
@@ -663,9 +669,12 @@ public class TechTreeView extends BaseView {
         TechTreeBox donjon = new TechTreeBox(Database.getBuilding(33), false, language);
         donjon.removeTopLine();
         TechTreeBox serjeant = new TechTreeBox(Database.getUnit(150), true, language);
+        serjeant.setTopRightLine();
         TechTreeSlotLayout donjonLayout = new TechTreeSlotLayout(boxSet);
+        TechTreeBox spearman1 = new TechTreeBox(Database.getUnit(11), false, language);
+        spearman1.setTopLeftLine();
         donjonLayout.addFistRow(donjon);
-        donjonLayout.addSecondRow(serjeant);
+        donjonLayout.addSecondRow(serjeant, spearman1);
 
         //HOUSE WONDER
         Div houseLayout = new Div();
@@ -775,8 +784,9 @@ public class TechTreeView extends BaseView {
         TechTreeBox longSwordsman = new TechTreeBox(Database.getUnit(24), false, language);
         TechTreeBox pikeman = new TechTreeBox(Database.getUnit(25), false, language);
         TechTreeBox eagleWarrior = new TechTreeBox(Database.getUnit(26), false, language);
+        TechTreeBox gambesons = new TechTreeBox(Database.getTechnology(244), false, language);
+        gambesons.removeBottomLine();
         TechTreeBox squires = new TechTreeBox(Database.getTechnology(52), false, language);
-        squires.removeTopLine();
         squires.removeBottomLine();
         TechTreeBox arson = new TechTreeBox(Database.getTechnology(53), false, language);
         arson.removeBottomLine();
@@ -785,10 +795,11 @@ public class TechTreeView extends BaseView {
         TechTreeEmptyBox barracksLine3 = new TechTreeEmptyBox(true);
         TechTreeEmptyBox barracksLine4 = new TechTreeEmptyBox(false);
         TechTreeEmptyBox barracksLine5 = new TechTreeEmptyBox(false);
+        TechTreeEmptyBox barracksLine6 = new TechTreeEmptyBox(false);
 
         TechTreeSlotLayout barracksLayout = new TechTreeSlotLayout(boxSet);
-        barracksLayout.addFistRow(longSwordsman, pikeman, eagleWarrior, squires, arson);
-        barracksLayout.addSecondRow(barracksLine1, barracksLine2, barracksLine3, barracksLine4, barracksLine5);
+        barracksLayout.addFistRow(longSwordsman, pikeman, eagleWarrior, gambesons, squires, arson);
+        barracksLayout.addSecondRow(barracksLine1, barracksLine2, barracksLine3, barracksLine4, barracksLine5, barracksLine6);
 
         //STABLE
 
@@ -1008,9 +1019,11 @@ public class TechTreeView extends BaseView {
         //DONJON
         TechTreeEmptyBox donjonLine1 = new TechTreeEmptyBox(true);
         TechTreeEmptyBox donjonLine2 = new TechTreeEmptyBox(true);
+        TechTreeEmptyBox donjonLine3 = new TechTreeEmptyBox(true);
+        TechTreeBox pikeman1 = new TechTreeBox(Database.getUnit(25), false, language);
         TechTreeSlotLayout donjonLayout = new TechTreeSlotLayout(boxSet);
-        donjonLayout.addFistRow(donjonLine1);
-        donjonLayout.addSecondRow(donjonLine2);
+        donjonLayout.addFistRow(donjonLine1, pikeman1);
+        donjonLayout.addSecondRow(donjonLine2, donjonLine3);
 
         //HOUSE WONDER
         Div houseLayout = new Div();
@@ -1142,15 +1155,19 @@ public class TechTreeView extends BaseView {
         condottiero.removeBottomLine();
         TechTreeBox champion = new TechTreeBox(Database.getUnit(81), false, language);
         champion.removeBottomLine();
+        TechTreeBox flemishMilitia = new TechTreeBox(Database.getUnit(153), true, language);
+        flemishMilitia.removeBottomLine();
+        flemishMilitia.removeTopLine();
         TechTreeEmptyBox barracksLine1 = new TechTreeEmptyBox(false);
         TechTreeEmptyBox barracksLine2 = new TechTreeEmptyBox(false);
         TechTreeEmptyBox barracksLine3 = new TechTreeEmptyBox(false);
         TechTreeEmptyBox barracksLine4 = new TechTreeEmptyBox(false);
         TechTreeEmptyBox barracksLine5 = new TechTreeEmptyBox(false);
+        TechTreeEmptyBox barracksLine6 = new TechTreeEmptyBox(false);
 
         TechTreeSlotLayout barracksLayout = new TechTreeSlotLayout(boxSet);
-        barracksLayout.addFistRow(twoHandedSwordsman, halberdier, eliteEagleWarrior, condottiero, barracksLine1);
-        barracksLayout.addSecondRow(champion, barracksLine2, barracksLine3, barracksLine4, barracksLine5);
+        barracksLayout.addFistRow(twoHandedSwordsman, halberdier, eliteEagleWarrior, condottiero, flemishMilitia, barracksLine1);
+        barracksLayout.addSecondRow(champion, barracksLine2, barracksLine3, barracksLine4, barracksLine5, barracksLine6);
 
         //STABLE
         hussar = new TechTreeBox(Database.getUnit(90), false, language);
@@ -1369,10 +1386,13 @@ public class TechTreeView extends BaseView {
         //DONJON
         TechTreeBox eliteSerjeant = new TechTreeBox(Database.getUnit(152), true, language);
         eliteSerjeant.removeBottomLine();
+        TechTreeBox halberdier1 = new TechTreeBox(Database.getUnit(82), false, language);
+        halberdier1.removeBottomLine();
         TechTreeEmptyBox donjonLine2 = new TechTreeEmptyBox(false);
+        TechTreeEmptyBox donjonLine3 = new TechTreeEmptyBox(false);
         TechTreeSlotLayout donjonLayout = new TechTreeSlotLayout(boxSet);
-        donjonLayout.addFistRow(eliteSerjeant);
-        donjonLayout.addSecondRow(donjonLine2);
+        donjonLayout.addFistRow(eliteSerjeant, halberdier1);
+        donjonLayout.addSecondRow(donjonLine2, donjonLine3);
 
         //HOUSE WONDER
         TechTreeBox wonder = new TechTreeBox(Database.getBuilding(28), false, language);
@@ -1384,18 +1404,17 @@ public class TechTreeView extends BaseView {
         houseLayout.addSecondRow(houseLine1);
 
         //TOWN CENTER
-        TechTreeBox flemishMilitia = new TechTreeBox(Database.getUnit(153), true, language);
-        flemishMilitia.removeBottomLine();
-        flemishMilitia.removeTopLine();
+
         TechTreeEmptyBox townCenterLine1 = new TechTreeEmptyBox(false);
         TechTreeEmptyBox townCenterLine2 = new TechTreeEmptyBox(false);
         TechTreeEmptyBox townCenterLine3 = new TechTreeEmptyBox(false);
         TechTreeEmptyBox townCenterLine4 = new TechTreeEmptyBox(false);
         TechTreeEmptyBox townCenterLine5 = new TechTreeEmptyBox(false);
+        TechTreeEmptyBox townCenterLine6 = new TechTreeEmptyBox(false);
 
         TechTreeSlotLayout townCenterLayout = new TechTreeSlotLayout(boxSet);
-        townCenterLayout.addFistRow(flemishMilitia, townCenterLine1, townCenterLine2);
-        townCenterLayout.addSecondRow(townCenterLine3, townCenterLine4, townCenterLine5);
+        townCenterLayout.addFistRow(townCenterLine1, townCenterLine2, townCenterLine3);
+        townCenterLayout.addSecondRow(townCenterLine4, townCenterLine5, townCenterLine6);
 
         //FEITORIA
         TechTreeBox feitoria = new TechTreeBox(Database.getBuilding(29), false, language);

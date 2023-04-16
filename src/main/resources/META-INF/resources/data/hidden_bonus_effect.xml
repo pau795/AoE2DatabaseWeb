@@ -559,7 +559,7 @@
 			<statEffect>
 				<effectItem>
 					<filter/>
-					<operation stat="1" operator="+" value="0 0 20 20"/>
+					<operation stat="1" operator="+" value="0 0 25 25"/>
 				</effectItem>
 				<effectItem>
 					<filter/>

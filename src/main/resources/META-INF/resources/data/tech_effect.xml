@@ -943,7 +943,7 @@
 					<operation stat="8" operator="*" value="0.9"/>
 				</effectItem>
 				<effectItem>
-					<filter class="unit" ids="13 27 31 42 161 54 61 62 70 85 105 169 117 124 125 133 138 144"/>
+					<filter class="unit" ids="13 27 42 161 54 61 62 70 85 105 169 117 124 125 133 138 144"/>
 					<operation stat="8" operator="*" value="0.85"/>
 				</effectItem>
 				<effectItem>
@@ -1087,8 +1087,12 @@
 		<effects>
 			<statEffect>
 				<effectItem>
-					<filter/>
+					<filter class="unit" ids="7 17 73"/>
 					<operation stat="5" operator="+" value="1"/>
+				</effectItem>
+				<effectItem>
+					<filter class="building" ids="31"/>
+					<operation stat="10" operator="+" value="0.5"/>
 				</effectItem>
 			</statEffect>
 			<costEffect/>
@@ -1102,7 +1106,7 @@
 			<statEffect>
 				<effectItem>
 					<filter/>
-					<operation stat="8" operator="*" value="0.8"/>
+					<operation stat="8" operator="*" value="0.75"/>
 				</effectItem>
 			</statEffect>
 			<costEffect/>
@@ -1127,16 +1131,16 @@
 	</item>
 	<item id="66">
 		<effects>
-			<statEffect>
-				<effectItem>
-					<filter/>
-					<operation stat="17" operator="*" value="0.5"/>
-				</effectItem>
-			</statEffect>
+			<statEffect/>
 			<costEffect/>
 			<ecoEffect/>
 			<attackValueEffect/>
-			<armorValueEffect/>
+			<armorValueEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="34" operator="+" value="3"/>
+				</effectItem>
+			</armorValueEffect>
 		</effects>
 	</item>
 	<item id="67">
@@ -1182,10 +1186,19 @@
 					<filter/>
 					<operation stat="6" operator="-" value="1"/>
 				</effectItem>
+				<effectItem>
+					<filter class="unit" ids="31"/>
+					<operation stat="2" operator="+" value="1"/>
+				</effectItem>
 			</statEffect>
 			<costEffect/>
 			<ecoEffect/>
-			<attackValueEffect/>
+			<attackValueEffect>
+				<effectItem>
+					<filter class="unit" ids="31"/>
+					<operation stat="2" operator="+" value="1"/>
+				</effectItem>
+			</attackValueEffect>
 			<armorValueEffect/>
 		</effects>
 	</item>
@@ -1326,7 +1339,7 @@
 			<statEffect>
 				<effectItem>
 					<filter/>
-					<operation stat="13" operator="+" value="5"/>
+					<operation stat="13" operator="+" value="8"/>
 				</effectItem>
 			</statEffect>
 			<costEffect/>
@@ -1445,7 +1458,12 @@
 	</item>
 	<item id="85">
 		<effects>
-			<statEffect/>
+			<statEffect>
+				<effectItem>
+					<filter class="unit" ids="23"/>
+					<operation stat="5" operator="+" value="1"/>
+				</effectItem>
+			</statEffect>
 			<costEffect/>
 			<ecoEffect/>
 			<attackValueEffect/>
@@ -2262,6 +2280,10 @@
 			<costEffect/>
 			<ecoEffect/>
 			<attackValueEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="13" operator="+" value="3"/>
+				</effectItem>
 				<effectItem>
 					<filter/>
 					<operation stat="20" operator="+" value="15"/>
@@ -3181,12 +3203,17 @@
 			<statEffect>
 				<effectItem>
 					<filter/>
-					<operation stat="19" operator="*" value="2"/>
+					<operation stat="2" operator="+" value="1"/>
 				</effectItem>
 			</statEffect>
 			<costEffect/>
 			<ecoEffect/>
-			<attackValueEffect/>
+			<attackValueEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="2" operator="+" value="1"/>
+				</effectItem>
+			</attackValueEffect>
 			<armorValueEffect/>
 		</effects>
 	</item>
@@ -3605,7 +3632,7 @@
 			<statEffect>
 				<effectItem>
 					<filter/>
-					<operation stat="18" operator="*" value="0.3333"/>
+					<operation stat="19" operator="+" value="0.5"/>
 				</effectItem>
 			</statEffect>
 			<costEffect/>
@@ -3729,6 +3756,25 @@
 				<effectItem>
 					<filter/>
 					<operation stat="1" operator="+" value="4"/>
+				</effectItem>
+			</armorValueEffect>
+		</effects>
+	</item>	
+	<item id="244">
+		<effects>
+			<statEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="4" operator="+" value="1"/>
+				</effectItem>
+			</statEffect>
+			<costEffect/>
+			<ecoEffect/>
+			<attackValueEffect/>
+			<armorValueEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="2" operator="+" value="1"/>
 				</effectItem>
 			</armorValueEffect>
 		</effects>

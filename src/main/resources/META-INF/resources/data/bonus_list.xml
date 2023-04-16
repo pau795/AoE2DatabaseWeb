@@ -15,7 +15,7 @@
     <!--Relics generate +33% gold.-->
     <item id="5"/>
      
-    <!--Villagers move 10% faster.-->
+    <!--Villagers move 5/10/10/10% faster in Dark/Feudal/Castle/Imperial Age.-->
     <item id="6"/>
      
     <!--Stable units cost -15/20% in Castle/Imperial Age.-->
@@ -36,7 +36,7 @@
     <!--Shepherds work 25% faster.-->
     <item id="12"/>
      
-    <!--Archery Ranges work 20% faster.-->
+    <!--Archery Ranges work 10% faster.-->
     <item id="13"/>
      
     <!--Free Lumber Camp upgrades.-->
@@ -111,7 +111,7 @@
     <!--Pikeman upgrade is free.-->
     <item id="37"/>
      
-    <!--Towers and Outposts have +3 line of sight.-->
+    <!--Outposts have +3 line of sight and cost no stone.-->
     <item id="38"/>
      
     <!--Foragers work 15% faster.-->
@@ -135,7 +135,7 @@
     <!--Infantry have +1/2/3 attack against Standard Buildings in Feudal/Castle/Imperial Age.-->
     <item id="45"/>
      
-    <!--Hunters have +5 attack against wild boar; Hunters carry +15 meat.-->
+    <!--Hunters have +5 attack against wild boar; Hunters carry +15 meat; hunt lasts 20% longer.-->
     <item id="46"/>
      
     <!--Loom technology can be researched instantly.-->
@@ -159,7 +159,7 @@
     <!--Stables work 20% faster.-->
     <item id="53"/>
      
-    <!--Start with a free llama.-->
+    <!--Military units cost 15/20/25/30% less food in Dark/Feudal/Castle/Imperial Age.-->
     <item id="54"/>
      
     <!--Villagers are affected by Infantry Blacksmith upgrades starting in Castle Age.-->
@@ -474,7 +474,7 @@
     <!--Palisade Walls have +33% hit points.-->
     <item id="158"/>
      
-    <!--Start with +150 food.-->
+    <!--Each Town Center probice +100 food.-->
     <item id="159"/>
      
     <!--Spearman-line and Skirmishers move 10% faster.-->
@@ -525,7 +525,7 @@
     <!--Relics generate both food (30/min) and gold (30/min).-->
     <item id="175"/>
      
-    <!--Castles and Town Centers (except the first Town Center in nomad starts) are built twice as fast.-->
+    <!--Town Centers (except the first Town Center in nomad starts) are built twice as fast; Castles are built 50% faster.-->
     <item id="176"/>
      
     <!--Land military units (except Siege Weapons) receive 33% less bonus damage.-->
@@ -567,7 +567,7 @@
     <!--Markets work 80% faster.-->
     <item id="189"/>
      
-    <!--Villagers regenerate 5/10/15/20 HP per minute in the Dark/Feudal/Castle/Imperial Age.-->
+    <!--Villagers regenerate 0/10/15/20 HP per minute in the Dark/Feudal/Castle/Imperial Age.-->
     <item id="190"/>
      
     <!--Mills are replaced by Folwarks.-->
@@ -627,7 +627,19 @@
 	<!--Camel and Elephant units are trained 25% faster.-->
     <item id="209"/>
 	
-	<!--Monks have +3 melee and +3 pierce armor-->
+	<!--Monks have +3 melee and +3 pierce armor.-->
 	<item id="210"/>
-     
+	
+	<!--Cavalry have +2 attack against Skirmishers.-->
+	<item id="211"/>
+	
+	<!--Siege units cost -33% wood.-->
+	<item id="212"/>
+	
+	<!--Scale Mail Armor, Chain Mail Armor and Plate Mail Armor technologies are free.-->
+	<item id="213"/>
+	
+	<!--Receive +20 gold for each technology researched.-->
+	<item id="214"/>
+	
 </list>

@@ -95,5 +95,11 @@
      
     <!--Hussite Wagon-->
     <item id="32" image="u_hussite_wagon"/>
+	
+	<!--Skirmishers-->
+    <item id="33" image="u_elite_skirmisher"/>
+	
+	<!--Mounted unit Resistance-->
+    <item id="34" image="t_bloodlines"/>
      
 </list>

@@ -278,7 +278,9 @@ public class DamageCalculator {
                     if (type == 1 && !Double.isNaN(u.getCalculatedStat(Database.IGNORE_ARMOR))
                             && Double.isNaN(r.getCalculatedStat(Database.RESIST_ARMOR_IGNORE))) armorValue = 0;
                     double multiplier = type == 1 || type == 2 || type == 31 ? 1 : r.getCalculatedStat(Database.BONUS_REDUCTION);
-                    double partialDamage = Math.max(0.0f, (attackValue - armorValue) * multiplier);
+                    double partialDamage;
+                    if (attackValue < 0 && armorValue != 1000.0f) partialDamage = (attackValue - armorValue) * multiplier;
+                    else partialDamage = Math.max(0.0f, (attackValue - armorValue) * multiplier);
                     damage += partialDamage ;
                     AttackValues at = new AttackValues(type, attackValue, armorValue, multiplier, partialDamage);
                     values.add(at);

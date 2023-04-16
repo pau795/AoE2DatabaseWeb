@@ -683,8 +683,8 @@
     <string name="bonus_tech_tree_description_5">Relics generate +33% gold.</string>
     <string name="bonus_item_description_5">Relics generate +33% gold.</string> 
     
-    <string name="bonus_tech_tree_description_6">Villagers move 10% faster.</string>
-    <string name="bonus_item_description_6">Villagers move 10% faster.</string> 
+    <string name="bonus_tech_tree_description_6">Villagers move 5/10/10/10% faster in Dark/Feudal/Castle/Imperial Age.</string>
+    <string name="bonus_item_description_6">Villagers move 5/10/10/10% faster in Dark/Feudal/Castle/Imperial Age.</string> 
     
     <string name="bonus_tech_tree_description_7">Stable units cost -15/20% in Castle/Imperial Age.</string>
     <string name="bonus_item_description_7">\@ cost -15/20% in Castle/Imperial Age.</string> 
@@ -704,8 +704,8 @@
     <string name="bonus_tech_tree_description_12">Shepherds work 25% faster.</string>
     <string name="bonus_item_description_12">Shepherds work 25% faster.</string> 
     
-    <string name="bonus_tech_tree_description_13">Archery Ranges work 20% faster.</string>
-    <string name="bonus_item_description_13">\@ are trained 20% faster.|\@ work 20% faster.|\@ is researched 20% faster.</string> 
+    <string name="bonus_tech_tree_description_13">Archery Ranges work 10% faster.</string>
+    <string name="bonus_item_description_13">\@ are trained 10% faster.|\@ work 10% faster.|\@ is researched 10% faster.</string> 
     
     <string name="bonus_tech_tree_description_14">Free Lumber Camp upgrades.</string>
     <string name="bonus_item_description_14">\@ research is free.</string> 
@@ -779,8 +779,8 @@
     <string name="bonus_tech_tree_description_37">Pikeman upgrade is free.</string>
     <string name="bonus_item_description_37">Pikeman upgrade is free.</string> 
     
-    <string name="bonus_tech_tree_description_38">Towers and Outposts have +3 line of sight.</string>
-    <string name="bonus_item_description_38">\@ have +3 line of sight.</string> 
+    <string name="bonus_tech_tree_description_38">Outposts have +3 line of sight and cost no stone.</string>
+    <string name="bonus_item_description_38">\@ have +3 line of sight and cost no stone.</string> 
     
     <string name="bonus_tech_tree_description_39">Foragers work 15% faster.</string>
     <string name="bonus_item_description_39">Foragers work 15% faster.</string> 
@@ -801,10 +801,10 @@
     <string name="bonus_item_description_44">\@ cost -20/25/30/35% in Dark/Feudal/Castle/Imperial Age.</string> 
     
     <string name="bonus_tech_tree_description_45">Infantry have +1/2/3 attack against Standard Buildings in Feudal/Castle/Imperial Age.</string>
-    <string name="bonus_item_description_45">\@ have +1/2/3 attack against Standard Buildings in Feudal/Castle/Imperial.</string> 
+    <string name="bonus_item_description_45">\@ have +1/2/3 attack against Standard Buildings in Feudal/Castle/Imperial Age.</string> 
     
-    <string name="bonus_tech_tree_description_46">Hunters have +5 attack against wild boar; Hunters carry +15 meat.</string>
-    <string name="bonus_item_description_46">Hunters have +5 attack against wild boar; Hunters carry +15 meat.</string> 
+    <string name="bonus_tech_tree_description_46">Hunters have +5 attack against wild boar; Hunters carry +15 meat; hunt lasts 20% longer.</string>
+    <string name="bonus_item_description_46">Hunters have +5 attack against wild boar; Hunters carry +15 meat; hunt lasts 20% longer.</string> 
     
     <string name="bonus_tech_tree_description_47">Loom technology can be researched instantly.</string>
     <string name="bonus_item_description_47">\@ technology can be researched instantly.</string> 
@@ -827,8 +827,8 @@
     <string name="bonus_tech_tree_description_53">Stables work 20% faster.</string>
     <string name="bonus_item_description_53">\@ are trained 20% faster.|\@ work 20% faster.|\@ is researched 20% faster.</string> 
     
-    <string name="bonus_tech_tree_description_54">Start with a free llama.</string>
-    <string name="bonus_item_description_54">Start with a free llama.</string> 
+    <string name="bonus_tech_tree_description_54">Military units cost 15/20/25/30% less food in Dark/Feudal/Castle/Imperial Age</string>
+    <string name="bonus_item_description_54">\@ cost 15/20/25/30% less food in Dark/Feudal/Castle/Imperial Age</string> 
     
     <string name="bonus_tech_tree_description_55">Villagers are affected by Infantry Blacksmith upgrades starting in Castle Age.</string>
     <string name="bonus_item_description_55">Villagers are affected by Infantry Blacksmith upgrades starting in Castle Age.||\@ affects Villagers starting in Castle Age.</string> 
@@ -839,8 +839,8 @@
     <string name="bonus_tech_tree_description_57">Buildings cost -15% stone.</string>
     <string name="bonus_item_description_57">\@ cost -15% stone.</string> 
     
-    <string name="bonus_tech_tree_description_58">Spearmen and Skirmishers have +2 Line of Sight.</string>
-    <string name="bonus_item_description_58">\@ have +2 Line of Sight.</string> 
+    <string name="bonus_tech_tree_description_58">Start with a free Llama.</string>
+    <string name="bonus_item_description_58">Start with a free Llama.</string> 
     
     <string name="bonus_tech_tree_description_59">Villagers cost -5/10/15/20% in Dark/Feudal/Castle/Imperial Age.</string>
     <string name="bonus_item_description_59">Villagers cost -5/10/15/20% in Dark/Feudal/Castle/Imperial Age.</string> 
@@ -947,8 +947,8 @@
     <string name="bonus_tech_tree_description_93">Barracks units have +1/2/3 pierce armor in Feudal/Castle/Imperial Age.</string>
     <string name="bonus_item_description_93">\@ have +1/2/3 pierce armor in Feudal/Castle/Imperial Age.</string> 
     
-    <string name="bonus_tech_tree_description_94">Gold Mines last 30% longer</string>
-    <string name="bonus_item_description_94">Gold Mines last 30% longer.</string> 
+    <string name="bonus_tech_tree_description_94">Gold Miners drop off 15% more gold.</string>
+    <string name="bonus_item_description_94">Gold Miners drop off 15% more gold.</string> 
     
     <string name="bonus_tech_tree_description_95">University research is 80% faster.</string>
     <string name="bonus_item_description_95">\@ are trained 80% faster.|\@ work 80% faster.|\@ is researched 80% faster.</string> 
@@ -1025,8 +1025,8 @@
     <string name="bonus_tech_tree_description_119">Farmers work 10% faster.</string>
     <string name="bonus_item_description_119">Farmers work 10% faster.|Farms work 10% faster.|</string> 
     
-    <string name="bonus_tech_tree_description_120">Supplies technology is free.</string>
-    <string name="bonus_item_description_120">Supplies technology is free.</string> 
+    <string name="bonus_tech_tree_description_120">Supplies and Gambesons technologies are free.</string>
+    <string name="bonus_item_description_120">\@ technology is free.</string> 
     
     <string name="bonus_tech_tree_description_121">Siege Workshop units cost -15%.</string>
     <string name="bonus_item_description_121">\@ cost -15%.</string> 
@@ -1142,8 +1142,8 @@
     <string name="bonus_tech_tree_description_158">Palisade Walls have +33% hit points.</string>
     <string name="bonus_item_description_158">\@ have +33% hit points.</string> 
     
-    <string name="bonus_tech_tree_description_159">Start with +150 food.</string>
-    <string name="bonus_item_description_159">Start with +150 food.</string> 
+    <string name="bonus_tech_tree_description_159">Each Town Center provides +100 food.</string>
+    <string name="bonus_item_description_159">Each Town Center provides +100 food.</string> 
     
     <string name="bonus_tech_tree_description_160">Spearman-line and Skirmishers move 10% faster.</string>
     <string name="bonus_item_description_160">\@ move 10% faster.</string> 
@@ -1193,14 +1193,14 @@
     <string name="bonus_tech_tree_description_175">Relics generate both food (30/min) and gold (30/min).</string>
     <string name="bonus_item_description_175">Relics generate both food (30/min) and gold (30/min).</string> 
     
-    <string name="bonus_tech_tree_description_176">Castles and Town Centers (except the first Town Center in nomad starts) are built twice as fast.</string>
-    <string name="bonus_item_description_176">\@ is built twice as fast.</string> 
+    <string name="bonus_tech_tree_description_176">Town Centers (except the first Town Center in nomad starts) are built twice as fast; Castles are built 50% faster.</string>
+    <string name="bonus_item_description_176">Town Centers (except the first Town Center in nomad starts) are built twice as fast; Castles are built 50% faster.</string> 
     
     <string name="bonus_tech_tree_description_177">Land military units (except Siege Weapons) receive 33% less bonus damage.</string>
     <string name="bonus_item_description_177">\@ receive 33% less bonus damage.</string> 
     
-    <string name="bonus_tech_tree_description_178">Farm upgrades provide twice the amount of food.</string>
-    <string name="bonus_item_description_178">|\@ food upgrades provide twice the amount of food.|\@ research provide twice the amount of food.</string> 
+    <string name="bonus_tech_tree_description_178">Farm upgrades provide 125% more food.</string>
+    <string name="bonus_item_description_178">|\@ food upgrades provide 125% more food.|\@ research provide 125% more food.</string> 
     
     <string name="bonus_tech_tree_description_179">Can build Donjon.</string>
     <string name="bonus_item_description_179">Can build Donjon.</string> 
@@ -1235,8 +1235,8 @@
     <string name="bonus_tech_tree_description_189">Markets work 80% faster.</string>
     <string name="bonus_item_description_189">\@ are created 80% faster.|\@ work 80% faster.|\@ technology is researched 80% faster.</string> 
     
-    <string name="bonus_tech_tree_description_190">Villagers regenerate 5/10/15/20 HP per minute in the Dark/Feudal/Castle/Imperial Age.</string>
-    <string name="bonus_item_description_190">Villagers regenerate 5/10/15/20 HP per minute in the Dark/Feudal/Castle/Imperial Age.</string> 
+    <string name="bonus_tech_tree_description_190">Villagers regenerate 10/15/20 HP per minute in the Feudal/Castle/Imperial Age.</string>
+    <string name="bonus_item_description_190">Villagers regenerate 10/15/20 HP per minute in the Feudal/Castle/Imperial Age.</string> 
     
     <string name="bonus_tech_tree_description_191">Mills are replaced by Folwarks.</string>
     <string name="bonus_item_description_191">Mills are replaced by Folwarks.</string> 
@@ -1297,6 +1297,18 @@
 	
 	<string name="bonus_tech_tree_description_210">Monks have +3 melee and +3 pierce armor.</string>
 	<string name="bonus_item_description_210">\@ have +3 melee and +3 pierce armor.</string>
+	
+	<string name="bonus_tech_tree_description_211">Cavalry have +2 attack against Skirmishers.</string>
+	<string name="bonus_item_description_211">\@ have +2 attack against Skirmishers.</string>
+	
+	<string name="bonus_tech_tree_description_212">Siege units cost 33% less wood.</string>
+	<string name="bonus_item_description_212">\@ cost 33% less wood.</string>
+ 
+	<string name="bonus_tech_tree_description_213">Scale Mail Armor, Chain Mail Armor and Plate Mail Armor technologies are free.</string>
+    <string name="bonus_item_description_213">Blacksmith armor upgrades are free.||\@ research is free.</string> 
+ 
+	<string name="bonus_tech_tree_description_214">Receive +20 gold for each technology researched (except aging up).</string>
+    <string name="bonus_item_description_214">Receive +20 gold when \@ technology is researched.</string> 
  
     <!--building_description.xml-->
      
@@ -1494,9 +1506,9 @@
     <string name="building_description_extra_32"/> 
     
     <string name="building_description_nominative_33">Donjons</string>
-    <string name="building_description_quick_33">Small fortification used to train Serjeants</string>
+    <string name="building_description_quick_33">Small fortification used to train Serjeants and Spear-line units</string>
     <string name="building_description_brief_33"/>
-    <string name="building_description_long_33">Sicilian Unique Building. Small fortification structure which replaces the Towers. Used to create Serjeants. It can also be built by Serjeants.</string>
+    <string name="building_description_long_33">Sicilian Unique Building. Small fortification structure which replaces the Towers. Used to create Serjeants and Spear-line units. It can also be built by Serjeants. It functions as a prerequisite for Archery Range and Stable.</string>
     <string name="building_description_extra_33"/> 
     
     <string name="building_description_nominative_34">Folwarks</string>
@@ -2430,16 +2442,16 @@
     <string name="tech_description_extra_62">Battle Elephants receive +1 melee/+1 pierce armor.</string> 
     
     <string name="tech_description_nominative_63">Greek Fire</string>
-    <string name="tech_description_quick_63">Fire Ships +1 range</string>
+    <string name="tech_description_quick_63">Fire Ships +1 range; Bombard Towers +0.5 blast radius</string>
     <string name="tech_description_brief_63"/>
-    <string name="tech_description_long_63">Byzantines Castle Age Unique Technology. Fire Ships have +1 range.</string>
-    <string name="tech_description_extra_63">Fire Ships get +1 range.</string> 
+    <string name="tech_description_long_63">Byzantines Castle Age Unique Technology. Fire Ships have +1 range; Bombard Towers receive +0.5 blast radius (+5 damage to adjacent units).</string>
+    <string name="tech_description_extra_63">Fire Ships have +1 range; Bombard Towers receive +0.5 blast radius (+5 damage to adjacent units).</string> 
     
     <string name="tech_description_nominative_64">Stronghold</string>
-    <string name="tech_description_quick_64">Towers and Castles fire 25% faster</string>
+    <string name="tech_description_quick_64">Towers and Castles fire 33% faster; Castles heal nearby Infantry units</string>
     <string name="tech_description_brief_64"/>
-    <string name="tech_description_long_64">Celts Castle Age Unique Technology. Makes your castles and towers stronger by making them fire +25% faster.</string>
-    <string name="tech_description_extra_64">Makes your castles and towers stronger by making them fire +25% faster.</string> 
+    <string name="tech_description_long_64">Celts Castle Age Unique Technology. Makes your castles and towers stronger by making them fire +33% faster; Castles heal allied Infantry units (30 HP per minute) in a 7 tile radius.</string>
+    <string name="tech_description_extra_64">Makes your castles and towers stronger by making them fire +33% faster; Castles heal allied Infantry units (30 HP per minute) in a 7 tile radius.</string> 
     
     <string name="tech_description_nominative_65">Great Wall</string>
     <string name="tech_description_quick_65">Walls and Towers +30% HP</string>
@@ -2448,10 +2460,10 @@
     <string name="tech_description_extra_65">Makes your walls and towers stronger by giving them +30% hit points.</string> 
     
     <string name="tech_description_nominative_66">Royal Heirs</string>
-    <string name="tech_description_quick_66">Shotel Warriors are created twice as fast</string>
+    <string name="tech_description_quick_66">Shotel Warriors and Camel units receive -3 damage from Mounted Units</string>
     <string name="tech_description_brief_66"/>
-    <string name="tech_description_long_66">Ethiopians Castle Age Unique Technology. Shotel Warriors are created twice as fast.</string>
-    <string name="tech_description_extra_66">Shotel Warriors are created twice as fast.</string> 
+    <string name="tech_description_long_66">Ethiopians Castle Age Unique Technology. Shotel Warriors and Camel units receive -3 damage from Mounted Units.</string>
+    <string name="tech_description_extra_66">Shotel Warriors and Camel units receive -3 damage from Mounted Units.</string> 
     
     <string name="tech_description_nominative_67">Bearded Axe</string>
     <string name="tech_description_quick_67">Throwing Axemen +1 range</string>
@@ -2472,10 +2484,10 @@
     <string name="tech_description_extra_69">Allows Tarkans to be created at Stables.</string> 
     
     <string name="tech_description_nominative_70">Andean Sling</string>
-    <string name="tech_description_quick_70">Removes minimum range for Skirmishers and Slingers</string>
+    <string name="tech_description_quick_70">Removes minimum range for Skirmishers and Slingers; Slingers +1 attack</string>
     <string name="tech_description_brief_70"/>
-    <string name="tech_description_long_70">Incas Castle Age Unique Technology. Upgrades your Skirmishers and Slingers by removing their minimum range.</string>
-    <string name="tech_description_extra_70">Upgrades your Skirmishers and Slingers by removing their minimum range.</string> 
+    <string name="tech_description_long_70">Incas Castle Age Unique Technology. Upgrades your Skirmishers and Slingers by removing their minimum range; Slingers get +1 attack.</string>
+    <string name="tech_description_extra_70">Upgrades your Skirmishers and Slingers by removing their minimum range; Slingers get +1 attack.</string> 
     
     <string name="tech_description_nominative_71">Grand Trunk Road</string>
     <string name="tech_description_quick_71">All gold production +10% faster</string>
@@ -2520,10 +2532,10 @@
     <string name="tech_description_extra_77">Upgrades your Docks to Harbors, which fire arrows.</string> 
     
     <string name="tech_description_nominative_78">Tigui</string>
-    <string name="tech_description_quick_78">Town centers fire 5 extra arrows, even empty</string>
+    <string name="tech_description_quick_78">Town centers fire 8 extra arrows, even empty</string>
     <string name="tech_description_brief_78"/>
-    <string name="tech_description_long_78">Malians Castle Age Unique Technology. Town Centers fire 5 extra arrows, even empty.</string>
-    <string name="tech_description_extra_78">Town Centers fire 5 extra arrows, even empty.</string> 
+    <string name="tech_description_long_78">Malians Castle Age Unique Technology. Town Centers fire 8 extra arrows, even empty.</string>
+    <string name="tech_description_extra_78">Town Centers fire 8 extra arrows, even empty.</string> 
     
     <string name="tech_description_nominative_79">Hul\'che Javelineers</string>
     <string name="tech_description_quick_79">Skirmishers fire 1 extra projectile</string>
@@ -2586,10 +2598,10 @@
     <string name="tech_description_extra_88">Battle Elephants receive +100 HP.</string> 
     
     <string name="tech_description_nominative_89">Chieftains</string>
-    <string name="tech_description_quick_89">Infantry get extra attack against Cavalry</string>
+    <string name="tech_description_quick_89">Infantry get extra attack against Cavalry; Infantry generate gold when killing Villagers, Trade Units and Monks</string>
     <string name="tech_description_brief_89"/>
-    <string name="tech_description_long_89">Vikings Castle Age Unique Technology. Infantry get +5 attack against Cavalry, +4 attack against Camel Riders.</string>
-    <string name="tech_description_extra_89">Infantry get +5 attack against Cavalry, +4 attack against Camel Riders.</string> 
+    <string name="tech_description_long_89">Vikings Castle Age Unique Technology. Infantry get +5 attack against Cavalry, +4 attack against Camel Riders; Infantry generate gold when killing Villagers (5 gold), Trade Units (20 gold) and Monks (20 gold).</string>
+    <string name="tech_description_extra_89">Infantry get +5 attack against Cavalry, +4 attack against Camel Riders; Infantry generate gold when killing Villagers (5 gold), Trade Units (20 gold) and Monks (20 gold).</string> 
     
     <string name="tech_description_nominative_90">Imperial Age</string>
     <string name="tech_description_quick_90"/>
@@ -2893,8 +2905,8 @@
     
     <string name="tech_description_nominative_140">Sappers</string>
     <string name="tech_description_quick_140"/>
-    <string name="tech_description_brief_140">Villagers get extra attack against buildings.</string>
-    <string name="tech_description_long_140">Villagers have +15 attack against All Buildings, and +15 attack against Stone Defense; Villagers chop down trees in one strike.</string>
+    <string name="tech_description_brief_140">Villagers get extra attack against buildings and rams.</string>
+    <string name="tech_description_long_140">Villagers have +15 attack against All Buildings, +15 attack against Stone Defense and +3 attack against Rams; Villagers chop down trees in one strike.</string>
     <string name="tech_description_extra_140"/> 
     
     <string name="tech_description_nominative_141">Conscription</string>
@@ -3275,11 +3287,11 @@
     <string name="tech_description_long_203">Vietnamese Imperial Age Unique Technology. Lumberjacks slowly generate gold (1.5 gold per minute).</string>
     <string name="tech_description_extra_203">Lumberjacks slowly generate gold (1.5 gold per minute).</string> 
     
-    <string name="tech_description_nominative_204">Berserkergang</string>
-    <string name="tech_description_quick_204">Berserks regenerate faster</string>
+    <string name="tech_description_nominative_204">Bogsveigar</string>
+    <string name="tech_description_quick_204">Archer-line and Longboats +1 attack</string>
     <string name="tech_description_brief_204"/>
-    <string name="tech_description_long_204">Vikings Imperial Age Unique Technology. Berserks regenerate twice as fast.</string>
-    <string name="tech_description_extra_204">Berserks regenerate twice as fast.</string> 
+    <string name="tech_description_long_204">Vikings Imperial Age Unique Technology. Archer-line and Longboats receive +1 attack.</string>
+    <string name="tech_description_extra_204">Archer-line and Longboats receive +1 attack.</string> 
     
     <string name="tech_description_nominative_205">Elite Steppe Lancer</string>
     <string name="tech_description_quick_205"/>
@@ -3366,10 +3378,10 @@
     <string name="tech_description_extra_218">Farmers will slowly generate gold (0.93 gold per minute).</string> 
     
     <string name="tech_description_nominative_219">First Crusade</string>
-    <string name="tech_description_quick_219">Each Town Center (max 5) spawns 7 Serjeants; units are more resistant to conversion</string>
+    <string name="tech_description_quick_219">Each Town Center (max 5) spawns 5 Serjeants; units are more resistant to conversion</string>
     <string name="tech_description_brief_219"/>
-    <string name="tech_description_long_219">Sicilian Castle Age Unique Technology. Each Town Center (max 5) spawns a one-time batch of 7 Serjeants; Units are more resistant to conversion: min. conversion time +2s, max. conversion time +5s, conversion chance reduced by 66%.</string>
-    <string name="tech_description_extra_219">Each Town Center (max 5) spawns a one-time batch of 7 Serjeants; Units are more resistant to conversion: min. conversion time +2s, max. conversion time +5s, conversion chance reduced by 66%.</string> 
+    <string name="tech_description_long_219">Sicilian Castle Age Unique Technology. Each Town Center (max 5) spawns a one-time batch of 5 Serjeants; Units are more resistant to conversion: min. conversion time +2s, max. conversion time +5s, conversion chance reduced by 66%.</string>
+    <string name="tech_description_extra_219">Each Town Center (max 5) spawns a one-time batch of 5 Serjeants; Units are more resistant to conversion: min. conversion time +2s, max. conversion time +5s, conversion chance reduced by 66%.</string> 
     
     <string name="tech_description_nominative_220">Elite Coustillier</string>
     <string name="tech_description_quick_220"/>
@@ -3386,8 +3398,8 @@
     <string name="tech_description_nominative_222">Flemish Revolution</string>
     <string name="tech_description_quick_222">Upgrades all the Villagers into Flemish Militia</string>
     <string name="tech_description_brief_222"/>
-    <string name="tech_description_long_222">Burgundian Imperial Age Unique Unit. Upgrades all the existing Villagers into Flemish Militia. Lets you create Flemish Militia at the Town Center.</string>
-    <string name="tech_description_extra_222">Upgrades all the existing Villagers into Flemish Militia. Lets you create Flemish Militia at the Town Center.</string> 
+    <string name="tech_description_long_222">Burgundian Imperial Age Unique Unit. Upgrades all the existing Villagers into Flemish Militia. Lets you create Flemish Militia at the Barracks. Total cost is increased by 10 food and 5 gold per villager converted.</string>
+    <string name="tech_description_extra_222">Upgrades all the existing Villagers into Flemish Militia. Lets you create Flemish Militia at the Barracks. Total cost is increased by 10 food and 5 gold per villager converted.</string> 
     
     <string name="tech_description_nominative_223">Hauberk</string>
     <string name="tech_description_quick_223">Knight-line +1/+2 armor</string>
@@ -3450,10 +3462,10 @@
     <string name="tech_description_extra_232">Rathas and Elephant units attack 20% faster.</string> 
 	
 	<string name="tech_description_nominative_233">Medical Corps</string>
-    <string name="tech_description_quick_233">Elephant units regenerate 20 HP per minute</string>
+    <string name="tech_description_quick_233">Elephant units regenerate 30 HP per minute</string>
     <string name="tech_description_brief_233"/>
-    <string name="tech_description_long_233">Dravidian Castle Age Unique Technology. Elephant units regenerate 20 HP per minute.</string>
-    <string name="tech_description_extra_233">Elephant units regenerate 20 HP per minute.</string>
+    <string name="tech_description_long_233">Dravidian Castle Age Unique Technology. Elephant units regenerate 30 HP per minute.</string>
+    <string name="tech_description_extra_233">Elephant units regenerate 30 HP per minute.</string>
 
 	<string name="tech_description_nominative_234">Kshatriyas</string>
     <string name="tech_description_quick_234">Military units cost 25% less food</string>
@@ -3498,10 +3510,10 @@
     <string name="tech_description_extra_240"/> 
 	
 	<string name="tech_description_nominative_241">Mahayana</string>
-    <string name="tech_description_quick_241">Villagers take 10% less population space</string>
+    <string name="tech_description_quick_241">Villagers and Monks take 10% less population space</string>
     <string name="tech_description_brief_241"/>
-    <string name="tech_description_long_241">Bengali Imperial Age Unique Technology. Villagers take 10% less population space.</string>
-    <string name="tech_description_extra_241">Villagers take 10% less population space.</string> 	
+    <string name="tech_description_long_241">Bengali Imperial Age Unique Technology. Villagers and Monks take 10% less population space.</string>
+    <string name="tech_description_extra_241">Villagers and Monks take 10% less population space.</string> 	
 	
 	<string name="tech_description_nominative_242">Wootz Steel</string>
     <string name="tech_description_quick_242">Infantry and Cavalry attacks ignore armor.</string>
@@ -3514,6 +3526,12 @@
     <string name="tech_description_brief_243"/>
     <string name="tech_description_long_243">Gurjara Imperial Age Unique Technology. Camel Riders and Elephant Archers get +4 melee armor.</string>
     <string name="tech_description_extra_243">Camel Riders and Elephant Archers get +4 melee armor.</string>
+	
+	<string name="tech_description_nominative_244">Gambesons</string>
+    <string name="tech_description_quick_244"/>
+    <string name="tech_description_brief_244"/>
+    <string name="tech_description_long_244">Militia-line gets +1 pierce armor.</string>
+    <string name="tech_description_extra_244"/> 
     
     <!--tech_list.xml-->
      
@@ -3761,6 +3779,7 @@
     <string name="tech_name_241">Mahayana</string>
     <string name="tech_name_242">Wootz Steel</string>
     <string name="tech_name_243">Frontier Guards</string>
+    <string name="tech_name_244">Gambesons</string>
      
     <!--type_list.xml-->
      
@@ -3797,6 +3816,8 @@
     <string name="type_name_30">Mamelukes</string>
     <string name="type_name_31">Ignore Armor (Leitis)</string>
     <string name="type_name_32">Hussite Wagon</string>
+    <string name="type_name_33">Skirmishers</string>
+    <string name="type_name_34">Mounted Unit Resistance</string>
      
     <!--unit_description.xml-->
      

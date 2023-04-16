@@ -6,8 +6,8 @@ import java.util.*;
 public class Database {
 
     //DATABASE CONSTANTS
-    public final static String APP_VERSION = "v2.1";
-    public final static int PATCH_VERSION = 78174;
+    public final static String APP_VERSION = "v2.2";
+    public final static int PATCH_VERSION = 81058;
     public final static String BASE_DIR = "META-INF/resources/";
 
 

@@ -163,7 +163,7 @@
 		<building id="12" upgrades="14 34 107"/>
 		<building id="20" upgrades="40 41 109"/>
 		<building id="21" upgrades="42 43 44 45 46 113 114 118"/>
-		<building id="26" upgrades="65 197 202"/>
+		<building id="26" upgrades="65 197 202 63"/>
 	</item>
 	<item id="32">
 		<building id="1" upgrades="4 21"/>
@@ -177,7 +177,7 @@
 		<building id="12" upgrades="14 34 107"/>
 		<building id="20" upgrades="41 109"/>
 		<building id="21" upgrades="42 44 45 46 114 116"/>
-		<building id="26" upgrades="141"/>
+		<building id="26" upgrades="139 141"/>
 	</item>
 	<item id="34">
 		<building id="1" upgrades="4 21"/>

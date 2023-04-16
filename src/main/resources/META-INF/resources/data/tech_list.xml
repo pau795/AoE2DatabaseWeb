@@ -609,7 +609,7 @@
     <!--Paper Money-->
     <item id="203" image="t_imperial_ut"/>
      
-    <!--Berserkergang-->
+    <!--Bogsveigar-->
     <item id="204" image="t_imperial_ut"/>
      
     <!--Elite Steppe Lancer-->
@@ -728,5 +728,8 @@
 	
 	<!--Frontier Guards-->
     <item id="243" image="t_imperial_ut"/>
+	
+	<!--Gambesons-->
+    <item id="244" image="t_gambesons"/>
 	
 </list>

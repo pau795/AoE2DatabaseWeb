@@ -674,8 +674,8 @@
     <string name="bonus_tech_tree_description_5">Las Reliquias generan un 33% más oro.</string>
     <string name="bonus_item_description_5">Las Reliquias generan un 33% más oro.</string> 
     
-    <string name="bonus_tech_tree_description_6">Los Aldeanos se mueven un 10% más rápido.</string>
-    <string name="bonus_item_description_6">Los Aldeanos se mueven un 10% más rápido.</string> 
+    <string name="bonus_tech_tree_description_6">Los Aldeanos se mueven un 5/10/10/10% más rápido en la Edad Alta/Feudal/Castillos/Imperial.</string>
+    <string name="bonus_item_description_6">Los Aldeanos se mueven un 5/10/10/10% más rápido en la Edad Alta/Feudal/Castillos/Imperial.</string> 
     
     <string name="bonus_tech_tree_description_7">Las unidades del Establo cuestan un 15/20% menos en la Edad Castillos/Imperial.</string>
     <string name="bonus_item_description_7">\@ cuestan un 15/20% menos en la Edad Castillos/Imperial.</string> 
@@ -770,8 +770,8 @@
     <string name="bonus_tech_tree_description_37">La mejora de Piquero es gratuita.</string>
     <string name="bonus_item_description_37">La mejora de Piquero es gratuita.</string> 
     
-    <string name="bonus_tech_tree_description_38">Las Torres y los Puestos de Avanzada tienen +3  de campo de visión.</string>
-    <string name="bonus_item_description_38">\@ tienen +3 de campo de visión.</string> 
+    <string name="bonus_tech_tree_description_38">Los Puestos de Avanzada tienen +3  de campo de visión y no cuestan piedra.</string>
+    <string name="bonus_item_description_38">\@ tienen +3  de campo de visión y no cuestan piedra.</string> 
     
     <string name="bonus_tech_tree_description_39">Los Recolectores trabajan un 15% más rápido.</string>
     <string name="bonus_item_description_39">Los Recolectores trabajan un 15% más rápido.</string> 
@@ -794,8 +794,8 @@
     <string name="bonus_tech_tree_description_45">La Infantería tiene un +1/2/3 de ataque contra Edificios Estandar en la Edad Feudal/Castillos/Imperial.</string>
     <string name="bonus_item_description_45">\@ tienen +1/2/3 de ataque contra Edificios Estandar en la Edad Feudal/Castillos/Imperial.</string> 
     
-    <string name="bonus_tech_tree_description_46">Los Cazadores tienen +5 de ataque contra Jabalíes; Los Cazadores cargan +15 de carne.</string>
-    <string name="bonus_item_description_46">Los Cazadores tienen +5 de ataque contra Jabalíes; Los Cazadores cargan +15 de carne.</string> 
+    <string name="bonus_tech_tree_description_46">Los Cazadores tienen +5 de ataque contra Jabalíes; los Cazadores cargan +15 de alimento; la caza dura un 20% más.</string>
+    <string name="bonus_item_description_46">Los Cazadores tienen +5 de ataque contra Jabalíes; los Cazadores cargan +15 de alimento; la caza dura un 20% más.</string> 
     
     <string name="bonus_tech_tree_description_47">La tecnología de Telar se puede desarrollar al instante.</string>
     <string name="bonus_item_description_47">La tecnología de Telar se puede desarrollar al instante.</string> 
@@ -818,8 +818,8 @@
     <string name="bonus_tech_tree_description_53">Los Establos trabajan un 20% más rápido.</string>
     <string name="bonus_item_description_53">\@ se crean un 20% más rápido.|\@ funcionan un 20% más rápido.|La tecnología de \@ se desarrolla un 20% más rápido.</string> 
     
-    <string name="bonus_tech_tree_description_54">Empiezan con una Llama gratuita.</string>
-    <string name="bonus_item_description_54">Empiezan con una Llama gratuita.</string> 
+    <string name="bonus_tech_tree_description_54">Las unidades militares cuestan un 15/20/25/30% menos en la Edad Alta/Feudal/Castillos/Imperial.</string>
+    <string name="bonus_item_description_54">\@ cuestan un 15/20/25/30% menos en la Edad Alta/Feudal/Castillos/Imperial.</string> 
     
     <string name="bonus_tech_tree_description_55">Las mejoras para la Infantería de la Herrería afectan a los Aldeanos a partir de la Edad de los Castillos.</string>
     <string name="bonus_item_description_55">Las mejoras para Infantería de la Herrería afectan a \@ a partir de la Edad de los Castillos.||La tecnología de \@ afecta a los Aldeanos a partir de la Edad de los Castillos.</string> 
@@ -830,8 +830,8 @@
     <string name="bonus_tech_tree_description_57">Los edificios cuestan un 15% menos de piedra.</string>
     <string name="bonus_item_description_57">\@ cuestan un 15% menos de piedra.</string> 
     
-    <string name="bonus_tech_tree_description_58">Los Lanceros y los Hostigadores tienen +2 de Campo de Visión.</string>
-    <string name="bonus_item_description_58">\@ tienen +2 de Campo de Visión.</string> 
+    <string name="bonus_tech_tree_description_58">Empiezan con una Llama gratuita.</string>
+    <string name="bonus_item_description_58">Empiezan con una Llama gratuita.</string> 
     
     <string name="bonus_tech_tree_description_59">Los Aldeanos cuestan un 5/10/15/20% menos en la Edad Alta/Feudal/Castillos/Imperial.</string>
     <string name="bonus_item_description_59">Los Aldeanos cuestan un 5/10/15/20% menos en la Edad Alta/Feudal/Castillos/Imperial.</string> 
@@ -938,8 +938,8 @@
     <string name="bonus_tech_tree_description_93">Las unidades de los Cuarteles tienen +1/2/3 de armadura antiproyectil en la Edad Feudal/Castillos/Imperial.</string>
     <string name="bonus_item_description_93">\@ tienen +1/2/3 de armadura antiproyectil en la Edad Feudal/Castillos/Imperial.</string> 
     
-    <string name="bonus_tech_tree_description_94">Las Minas de Oro duran un 30% más.</string>
-    <string name="bonus_item_description_94">Las Minas de Oro duran un 30% más.</string> 
+    <string name="bonus_tech_tree_description_94">Los Mineros de oro depositan un 15% más de recursos.</string>
+    <string name="bonus_item_description_94">Los Mineros de oro depositan un 15% más de recursos.</string> 
     
     <string name="bonus_tech_tree_description_95">Las Universidades trabajan un 80% más rápido</string>
     <string name="bonus_item_description_95">\@ se crean un 80% más rápido.|\@ funcionan un 80% más rápido.|La tecnología de \@ se desarrolla un 80% más rápido.</string> 
@@ -1016,8 +1016,8 @@
     <string name="bonus_tech_tree_description_119">Los Agricultores trabajan un 10% más rápido.</string>
     <string name="bonus_item_description_119">Los Agricultores trabajan un 10% más rápido.|Las Granjas trabajan un 10% más rápido.|</string> 
     
-    <string name="bonus_tech_tree_description_120">La tecnología de Suministros es gratuita.</string>
-    <string name="bonus_item_description_120">La tecnología de Suministros es gratuita.</string> 
+    <string name="bonus_tech_tree_description_120">La tecnologías de Suministros y Gambesones son gratuita.</string>
+    <string name="bonus_item_description_120">La tecnología de \@ es gratuita.</string> 
     
     <string name="bonus_tech_tree_description_121">Las unidades del Taller de Maquinaria de Asedio cuestan un 15% menos.</string>
     <string name="bonus_item_description_121">\@ cuestan un 15% menos.</string> 
@@ -1133,13 +1133,13 @@
     <string name="bonus_tech_tree_description_158">Las Empalizadas tienen un 33% más de puntos de resistencia.</string>
     <string name="bonus_item_description_158">\@ tienen un 33% más de puntos de resistencia.</string> 
     
-    <string name="bonus_tech_tree_description_159">Empiezan con +150 de alimento.</string>
-    <string name="bonus_item_description_159">Empiezan con +150 de alimento.</string> 
+    <string name="bonus_tech_tree_description_159">Cada Centro Urbano proporciona +100 de alimento.</string>
+    <string name="bonus_item_description_159">Cada Centro Urbano proporciona +100 de alimento.</string> 
     
-    <string name="bonus_tech_tree_description_160">La linea de Lancero y los Hostigadores se mueven un 10% más rápido.</string>
+    <string name="bonus_tech_tree_description_160">La línea de Lancero y los Hostigadores se mueven un 10% más rápido.</string>
     <string name="bonus_item_description_160">\@ se mueven un 10% más rápido.</string> 
     
-    <string name="bonus_tech_tree_description_161">Cada Reliquia guardada otorga +1 de ataque a la linea de Caballero y a los Leitis (máximo +4).</string>
+    <string name="bonus_tech_tree_description_161">Cada Reliquia guardada otorga +1 de ataque a la línea de Caballero y a los Leitis (máximo +4).</string>
     <string name="bonus_item_description_161">\@ obtiene +1 de ataque por cada reliquia guardada (máximo +4).</string> 
     
     <string name="bonus_tech_tree_description_162">Los Monasterios trabajan un 20% más rápido.</string>
@@ -1181,17 +1181,17 @@
     <string name="bonus_tech_tree_description_174">Las unidades de pólvora tienen un +25% más de ataque y daño de bonificación.</string>
     <string name="bonus_item_description_174">\@ tienen un +25% más de ataque y daño de bonificación.</string> 
     
-    <string name="bonus_tech_tree_description_175">Las Reliquias generan tanto comida (30/min) como oro (30/min).</string>
-    <string name="bonus_item_description_175">Las Reliquias generan tanto comida (30/min) como oro (30/min).</string> 
+    <string name="bonus_tech_tree_description_175">Las Reliquias generan tanto alimento (30/min) como oro (30/min).</string>
+    <string name="bonus_item_description_175">Las Reliquias generan tanto alimento (30/min) como oro (30/min).</string> 
     
-    <string name="bonus_tech_tree_description_176">Los Castillos y los Centros Urbanos (excepto el primer Centro Urbano en partidas nómadas) se construyen el doble de rápido.</string>
-    <string name="bonus_item_description_176">\@ se construyen un 50% más rápido.</string> 
+    <string name="bonus_tech_tree_description_176">Los Centros Urbanos (excepto el primer Centro Urbano en partidas nómadas) se construyen el doble de rápido; los Castillos se construyen un 50% más rápido.</string>
+    <string name="bonus_item_description_176">Los Centros Urbanos (excepto el primer Centro Urbano en partidas nómadas) se construyen el doble de rápido; los Castillos se construyen un 50% más rápido.</string> 
     
     <string name="bonus_tech_tree_description_177">Unidades militares terrestres (excepto las Armas de Asedio) reciben un 33% menos de daño de bonificación.</string>
     <string name="bonus_item_description_177">\@ reciben un 33% menos de daño de bonificación.</string> 
     
-    <string name="bonus_tech_tree_description_178">Las mejoras de las Granjas proporcionan el doble de comida.</string>
-    <string name="bonus_item_description_178">|Las mejoras de comida de \@ proporcionan el doble de comida.|La tecnología de \@ proporciona el doble de comida.</string> 
+    <string name="bonus_tech_tree_description_178">Las mejoras de las Granjas proporcionan un 125% más de alimento.</string>
+    <string name="bonus_item_description_178">|Las mejoras de alimento de \@ proporcionan un 125% más de alimento.|La tecnología de \@ proporciona un 125% más de alimento.</string> 
     
     <string name="bonus_tech_tree_description_179">Se pueden construir Donjons</string>
     <string name="bonus_item_description_179">Se pueden construir Donjons</string> 
@@ -1226,8 +1226,8 @@
     <string name="bonus_tech_tree_description_189">Los Mercados funcionan un 80% más rápido.</string>
     <string name="bonus_item_description_189">\@ se crean un 80% más rápido.|\@ funcionan un 80% más rápido.|La tecnología de \@ se desarrolla un 80% más rápido.</string> 
     
-    <string name="bonus_tech_tree_description_190">Los Aldeanos regeneran 5/10/15/20 HP por minuto en la Edad Alta/Feudal/Castillos/Imperial.</string>
-    <string name="bonus_item_description_190">Los Aldeanos regeneran 5/10/15/20 HP por minuto en la Edad Alta/Feudal/Castillos/Imperial.</string> 
+    <string name="bonus_tech_tree_description_190">Los Aldeanos regeneran 10/15/20 HP por minuto en la Edad Feudal/Castillos/Imperial.</string>
+    <string name="bonus_item_description_190">Los Aldeanos regeneran 10/15/20 HP por minuto en la Edad Feudal/Castillos/Imperial.</string> 
     
     <string name="bonus_tech_tree_description_191">Se reemplazan los Molinos por Folwark.</string>
     <string name="bonus_item_description_191">Se reemplazan los Molinos por Folwark.</string> 
@@ -1288,6 +1288,19 @@
 	
 	<string name="bonus_tech_tree_description_210">Los Monjes tienen +3 de armadura melé y +3 de armadura antiproyectil.</string>
 	<string name="bonus_item_description_210">\@ tienen +3 de armadura melé y +3 de armadura antiproyectil.</string>
+	
+	<string name="bonus_tech_tree_description_211">La caballería tiene +2 de ataque contra Hostigadores.</string>
+	<string name="bonus_item_description_211">\@ tiene +2 de ataque contra Hostigadores.</string>
+	
+	<string name="bonus_tech_tree_description_212">Las unidades de Asedio cuestan un 33% menos de madera</string>
+	<string name="bonus_item_description_212">\@ cuestan un 33% menos de madera.</string>
+		
+	<string name="bonus_tech_tree_description_213">Las tecnologías de armadura para Infantería en la Herrería son gratuitas.</string>
+    <string name="bonus_item_description_213">Las mejoras de armadura en la Herrería son gratuitas.||La tecnología de \@ es gratuita.</string> 
+ 
+	<string name="bonus_tech_tree_description_214">Reciben +20 de oro por cada tecnología desarrollada (excepto subir de edad).</string>
+    <string name="bonus_item_description_214">Reciben +20 de oro cuando la tecnología de \@ se desarrolla.</string> 
+ 
  
     <!--building_description.xml-->
      
@@ -1485,9 +1498,9 @@
     <string name="building_description_extra_32"/> 
     
     <string name="building_description_nominative_33">Los Donjons</string>
-    <string name="building_description_quick_33">Pequeña fortificación para crear Serjeants</string>
+    <string name="building_description_quick_33">Pequeña fortificación para crear Serjeants y Lanceros</string>
     <string name="building_description_brief_33"/>
-    <string name="building_description_long_33">Edificio Único Siciliano. Pequeña estructura de fortificación que substituye a las Torres. Utilizado para crear Serjeants. También puede ser construido por Serjeants.</string>
+    <string name="building_description_long_33">Edificio Único Siciliano. Pequeña estructura de fortificación que substituye a las Torres. Utilizado para crear Serjeants y unidades de la línea de Lancero. También puede ser construido por Serjeants. Funciona como prerrequisito para las Galerías de Tiro con Arco y los Establos.</string>
     <string name="building_description_extra_33"/> 
     
     <string name="building_description_nominative_34">Los Folwarks</string>
@@ -2425,16 +2438,16 @@
     <string name="tech_description_extra_62">Los Elefantes de Combate obtienen +1 de armadura de melé y +1 de armadura antiproyectil.</string> 
     
     <string name="tech_description_nominative_63">Fuego Griego</string>
-    <string name="tech_description_quick_63">Barcos Incendiarios +1 alcance</string>
+    <string name="tech_description_quick_63">Barcos Incendiarios +1 alcance; Torres de Bombardeo +0.5 de área de impacto</string>
     <string name="tech_description_brief_63"/>
-    <string name="tech_description_long_63">Tecnología Única Bizantina en la Edad de los Castillos. Los Barcos Incendiarios obtienen +1 de alcance.</string>
-    <string name="tech_description_extra_63">Los Barcos Incendiarios obtienen +1 de alcance.</string> 
+    <string name="tech_description_long_63">Tecnología Única Bizantina en la Edad de los Castillos. Los Barcos Incendiarios obtienen +1 de alcance; las Torres de Bombardeo obtienen +0.5 de área de impacto (+5 de daño a las unidades adyacentes).</string>
+    <string name="tech_description_extra_63">Los Barcos Incendiarios obtienen +1 de alcance; las Torres de Bombardeo obtienen +0.5 de área de impacto (+5 de daño a las unidades adyacentes).</string> 
     
     <string name="tech_description_nominative_64">Bastión</string>
-    <string name="tech_description_quick_64">Torres y Castillos disparan 25% más rápido</string>
+    <string name="tech_description_quick_64">Torres y Castillos disparan 33% más rápido; los Castillos curan las unidades de Infantería cercanas</string>
     <string name="tech_description_brief_64"/>
-    <string name="tech_description_long_64">Tecnología Única Celta en la Edad de los Castillos. Los Castillos y las Torres disparan un 25% más rápido.</string>
-    <string name="tech_description_extra_64">Los Castillos y las Torres disparan un 25% más rápido.</string> 
+    <string name="tech_description_long_64">Tecnología Única Celta en la Edad de los Castillos. Los Castillos y las Torres disparan un 33% más rápido; los Castillos curan las unidades de Infantería (30 HP por minuto) en un radio de 7 casillas.</string>
+    <string name="tech_description_extra_64">Los Castillos y las Torres disparan un 33% más rápido; los Castillos curan las unidades de Infantería (30 HP por minuto) en un radio de 7 casillas.</string> 
     
     <string name="tech_description_nominative_65">Gran Muralla</string>
     <string name="tech_description_quick_65">Muros y Torres +30% HP</string>
@@ -2442,11 +2455,11 @@
     <string name="tech_description_long_65">Tecnología Única China en la Edad de los Castillos. Los Muros y las Torres obtienen un 30% más de puntos de resistencia.</string>
     <string name="tech_description_extra_65">Los Muros y las Torres obtienen un 30% más de puntos de resistencia.</string> 
     
-    <string name="tech_description_nominative_66">Centralización</string>
-    <string name="tech_description_quick_66">Shotelai se crean el doble de rápido</string>
+    <string name="tech_description_nominative_66">Herederos Regios</string>
+    <string name="tech_description_quick_66">Shotelai y unidades a camello reciben -3 de daño de las unidades montadas</string>
     <string name="tech_description_brief_66"/>
-    <string name="tech_description_long_66">Tecnología Única Etíope en la Edad de los Castillos. Los Shotelai se crean el doble de rápido.</string>
-    <string name="tech_description_extra_66">Los Shotelai se crean el doble de rápido.</string> 
+    <string name="tech_description_long_66">Tecnología Única Etíope en la Edad de los Castillos. Los Shotelai y las unidades a camello reciben -3 de daño de las unidades montadas.</string>
+    <string name="tech_description_extra_66">Los Shotelai y las unidades a camello reciben -3 de daño de las unidades montadas.</string> 
     
     <string name="tech_description_nominative_67">Hacha de Arista</string>
     <string name="tech_description_quick_67">Lanzadores de Hachas +1 alcance</string>
@@ -2467,10 +2480,10 @@
     <string name="tech_description_extra_69">Permite reclutar Tarcanos en los Establos.</string> 
     
     <string name="tech_description_nominative_70">Huaracas</string>
-    <string name="tech_description_quick_70">Elimina alcance mínimo para Hostigadores y Honderos</string>
+    <string name="tech_description_quick_70">Elimina alcance mínimo para Hostigadores y Honderos; Honderos +1 ataque</string>
     <string name="tech_description_brief_70"/>
-    <string name="tech_description_long_70">Tecnología Única Inca en la Edad de los Castillos. Elimina el alcance mínimo de los Hostigadores y los Honderos.</string>
-    <string name="tech_description_extra_70">Elimina el alcance mínimo de los Hostigadores y los Honderos.</string> 
+    <string name="tech_description_long_70">Tecnología Única Inca en la Edad de los Castillos. Elimina el alcance mínimo de los Hostigadores y los Honderos; los Honderos obtienen +1 de ataque.</string>
+    <string name="tech_description_extra_70">Elimina el alcance mínimo de los Hostigadores y los Honderos; los Honderos obtienen +1 de ataque.</string> 
     
     <string name="tech_description_nominative_71">Camino del Gran Tronco</string>
     <string name="tech_description_quick_71">Toda producción de oro es un 10% más rápido</string>
@@ -2515,10 +2528,10 @@
     <string name="tech_description_extra_77">Mejora los Muelles a Puertos, que disparan flechas.</string> 
     
     <string name="tech_description_nominative_78">Gran Asamblea</string>
-    <string name="tech_description_quick_78">Centros Urbanos disparan 5 flechas adicionales</string>
+    <string name="tech_description_quick_78">Centros Urbanos disparan 8 flechas adicionales</string>
     <string name="tech_description_brief_78"/>
-    <string name="tech_description_long_78">Tecnología Única Malí en la Edad de los Castillos. Los Centros Urbanos disparan 5 flechas adicionales, incluso cuando están vacios.</string>
-    <string name="tech_description_extra_78">Los Centros Urbanos disparan 5 flechas adicionales, incluso cuando están vacios.</string> 
+    <string name="tech_description_long_78">Tecnología Única Malí en la Edad de los Castillos. Los Centros Urbanos disparan 8 flechas adicionales, incluso cuando no tienen unidades guarecidas.</string>
+    <string name="tech_description_extra_78">Los Centros Urbanos disparan 8 flechas adicionales, incluso cuando no tienen unidades guarecidas.</string> 
     
     <string name="tech_description_nominative_79">Lanzadores Hul\'che</string>
     <string name="tech_description_quick_79">Hostigadores disparan 1 proyectil extra</string>
@@ -2557,10 +2570,10 @@
     <string name="tech_description_extra_84">Reemplaza el 40% del coste de piedra de las Torres y Los Castillos por madera.</string> 
     
     <string name="tech_description_nominative_85">Inquisición</string>
-    <string name="tech_description_quick_85">Monjes convierten más rápido</string>
+    <string name="tech_description_quick_85">Monjes y Misioneros convierten más rápido; Misioneros +1 de alcance</string>
     <string name="tech_description_brief_85"/>
-    <string name="tech_description_long_85">Tecnología Única Española en la Edad de los Castillos. Los Monjes y los Misioneros convierten más rápido: tiempos de conversión min/max -1s para unidades, -7s para edificios.</string>
-    <string name="tech_description_extra_85">Los Monjes y los Misioneros convierten más rápido: tiempos de conversión min/max -1s para unidades, -7s para edificios.</string> 
+    <string name="tech_description_long_85">Tecnología Única Española en la Edad de los Castillos. Los Monjes y los Misioneros convierten más rápido: tiempos de conversión min/max -1s para unidades, -7s para edificios; los Misioneros obtienen +1 de alcance.</string>
+    <string name="tech_description_extra_85">Los Monjes y los Misioneros convierten más rápido: tiempos de conversión min/max -1s para unidades, -7s para edificios; los Misioneros obtienen +1 de alcance.</string> 
     
     <string name="tech_description_nominative_86">Blindaje</string>
     <string name="tech_description_quick_86">Armas de asedio +4 armadura melé</string>
@@ -2581,10 +2594,10 @@
     <string name="tech_description_extra_88">Los Elefantes de Combate obtienen +100 puntos de reistencia.</string> 
     
     <string name="tech_description_nominative_89">Hérsires</string>
-    <string name="tech_description_quick_89">Infantería obtiene ataque adicional contra Caballería</string>
+    <string name="tech_description_quick_89">Infantería obtiene ataque adicional contra Caballería; Infantería obtiene oro al matar Aldeanos, Carretas de Merancías y Monjes</string>
     <string name="tech_description_brief_89"/>
-    <string name="tech_description_long_89">Tecnología Única Vikinga en la Edad de los Castillos. La Infantería obtiene +5 de ataque contra Caballería, y +4 de ataque contra Jinetes de Camello.</string>
-    <string name="tech_description_extra_89">La Infantería obtiene +5 de ataque contra Caballería, y +4 de ataque contra Jinetes de Camello.</string> 
+    <string name="tech_description_long_89">Tecnología Única Vikinga en la Edad de los Castillos. La Infantería obtiene +5 de ataque contra Caballería, y +4 de ataque contra Jinetes de Camello; la Infantería obtiene oro al matar Aldeanos (5 de oro), Carretas de Merancías (20 de oro) y Monjes (20 de oro).</string>
+    <string name="tech_description_extra_89">La Infantería obtiene +5 de ataque contra Caballería, y +4 de ataque contra Jinetes de Camello; la Infantería obtiene oro al matar Aldeanos (5 de oro), Carretas de Merancías (20 de oro) y Monjes (20 de oro).</string> 
     
     <string name="tech_description_nominative_90">Edad Imperial</string>
     <string name="tech_description_quick_90"/>
@@ -2888,8 +2901,8 @@
     
     <string name="tech_description_nominative_140">Zapadores</string>
     <string name="tech_description_quick_140"/>
-    <string name="tech_description_brief_140">Los Aldeanos obtienen ataque extra contra los edificios.</string>
-    <string name="tech_description_long_140">Los Aldeanos obtienen +15 de ataque contra Todos los Edificios, y +15 de ataque contra Defensa de Piedra; los Aldeanos derriban los árboles de un golpe.</string>
+    <string name="tech_description_brief_140">Los Aldeanos obtienen ataque extra contra edificios y arietes.</string>
+    <string name="tech_description_long_140">Los Aldeanos obtienen +15 de ataque contra Todos los Edificios, +15 de ataque contra Defensa de Piedra y +3 de ataque contra Arietes; los Aldeanos derriban los árboles de un golpe.</string>
     <string name="tech_description_extra_140"/> 
     
     <string name="tech_description_nominative_141">Leva</string>
@@ -3253,10 +3266,10 @@
     <string name="tech_description_extra_200">Los Aldeanos obtienen +40 puntos de resistencia, +6 de ataque, +2 de armadura melé y +2 de armadura antiproyectil.</string> 
     
     <string name="tech_description_nominative_201">Almenas</string>
-    <string name="tech_description_quick_201">Castillos +3 rango; Infanteía guarecida puede disparar flechas</string>
+    <string name="tech_description_quick_201">Castillos +3 alcance; Infanteía guarecida puede disparar flechas</string>
     <string name="tech_description_brief_201"/>
-    <string name="tech_description_long_201">Tecnología Única Teutónica en la Edad Imperial. Los Castillos obtienen +3 de rango; La Infantería guarecida puede disparar flechas adicionales.</string>
-    <string name="tech_description_extra_201">Los Castillos obtienen +3 de rango; La Infantería guarecida puede disparar flechas adicionales.</string> 
+    <string name="tech_description_long_201">Tecnología Única Teutónica en la Edad Imperial. Los Castillos obtienen +3 de alcance; La Infantería guarecida puede disparar flechas adicionales.</string>
+    <string name="tech_description_extra_201">Los Castillos obtienen +3 de alcance; La Infantería guarecida puede disparar flechas adicionales.</string> 
     
     <string name="tech_description_nominative_202">Artillería</string>
     <string name="tech_description_quick_202">Torres de Bombardeo, Cañones de Asedio, Galeones Artillados +2 alcance</string>
@@ -3270,11 +3283,11 @@
     <string name="tech_description_long_203">Tecnología Única Vietnamita en la Edad Imperial. Los Leñadores generan oro lentamente (1.5 de oro por minuto).</string>
     <string name="tech_description_extra_203">Los Leñadores generan oro lentamente (1.5 de oro por minuto).</string> 
     
-    <string name="tech_description_nominative_204">Trance Frenético</string>
-    <string name="tech_description_quick_204">Berserkers se regeneran más rápido</string>
+    <string name="tech_description_nominative_204">Bogsveigar</string>
+    <string name="tech_description_quick_204">Línea de Arquero y Drakkares +1 de ataque </string>
     <string name="tech_description_brief_204"/>
-    <string name="tech_description_long_204">Tecnología Única Vikinga en la Edad Imperial. Los Berserkers se regeneran el doble de rápido.</string>
-    <string name="tech_description_extra_204">Los Berserkers se regeneran el doble de rápido.</string> 
+    <string name="tech_description_long_204">Tecnología Única Vikinga en la Edad Imperial. La línea de Arquero y los Drakkares obtienen +1 de ataque.</string>
+    <string name="tech_description_extra_204">La línea de Arquero y los Drakkares obtienen +1 de ataque.</string> 
     
     <string name="tech_description_nominative_205">Lancero Estepario de Élite</string>
     <string name="tech_description_quick_205"/>
@@ -3381,11 +3394,11 @@
     <string name="tech_description_nominative_222">Revolución Flamenca</string>
     <string name="tech_description_quick_222">Mejora todos los Aldeanos a Milicias Flamencas</string>
     <string name="tech_description_brief_222"/>
-    <string name="tech_description_long_222">Tecnología Única Borgoñesa en la Edad Imperial. Mejora todos los Aldeanos a Milicias Flamencas. Permite crear Milicias Flamencas en el Centro Urbano.</string>
-    <string name="tech_description_extra_222">Upgrades all the existing Villagers into Flemish Militia. Mejora todos los Aldeanos a Milicias Flamencas. Permite crear Milicias Flamencas en el Centro Urbano.</string> 
+    <string name="tech_description_long_222">Tecnología Única Borgoñesa en la Edad Imperial. Mejora todos los Aldeanos a Milicias Flamencas. Permite crear Milicias Flamencas en los Cuarteles. El coste total se incrementa en 10 de alimento y 5 de oro por cada Aldeano convertido.</string>
+    <string name="tech_description_extra_222">Mejora todos los Aldeanos a Milicias Flamencas. Permite crear Milicias Flamencas en los Cuarteles. El coste total se incrementa en 10 de alimento y 5 de oro por cada Aldeano convertido.</string> 
     
     <string name="tech_description_nominative_223">Cota de Malla</string>
-    <string name="tech_description_quick_223">Linea de Caballero +1/+2 armadura</string>
+    <string name="tech_description_quick_223">Línea de Caballero +1/+2 armadura</string>
     <string name="tech_description_brief_223"/>
     <string name="tech_description_long_223">Tecnología Única Siciliana en la Edad Imperial. La línea de Caballero obtiene +1 de armadura melé y +2 de armadura de antiproyectil.</string>
     <string name="tech_description_extra_223">La línea de Caballero obtiene +1 de armadura melé y +2 de armadura de antiproyectil.</string> 
@@ -3445,10 +3458,10 @@
     <string name="tech_description_extra_232">Los Rathas y las unidades en Elefante atacan un 20% más rápido.</string> 
 	
 	<string name="tech_description_nominative_233">Cuerpo de Médicos</string>
-    <string name="tech_description_quick_233">Unidades en Elefante regeneran 20 HP por minuto</string>
+    <string name="tech_description_quick_233">Unidades en Elefante regeneran 30 HP por minuto</string>
     <string name="tech_description_brief_233"/>
-    <string name="tech_description_long_233">Tecnología Única Dravídica en la Edad de los Castillos. Las unidades en Elefante regeneran 20 HP por minuto.</string>
-    <string name="tech_description_extra_233">Las unidades en Elefante regeneran 20 HP por minuto.</string>
+    <string name="tech_description_long_233">Tecnología Única Dravídica en la Edad de los Castillos. Las unidades en Elefante regeneran 30 HP por minuto.</string>
+    <string name="tech_description_extra_233">Las unidades en Elefante regeneran 30 HP por minuto.</string>
 
 	<string name="tech_description_nominative_234">Chatrias</string>
     <string name="tech_description_quick_234">Unidades militares cuestan un 25% menos de alimento</string>
@@ -3493,10 +3506,10 @@
     <string name="tech_description_extra_240"/> 
 	
 	<string name="tech_description_nominative_241">Mahāyāna</string>
-    <string name="tech_description_quick_241">Aldeanos ocupan un 10% menos de espacio de población</string>
+    <string name="tech_description_quick_241">Aldeanos y Monjes ocupan un 10% menos de espacio de población</string>
     <string name="tech_description_brief_241"/>
-    <string name="tech_description_long_241">Tecnología Única Bengalí en la Edad Imperial.Los Aldeanos ocupan un 10% menos de espacio de población.</string>
-    <string name="tech_description_extra_241">Los Aldeanos ocupan un 10% menos de espacio de población.</string> 	
+    <string name="tech_description_long_241">Tecnología Única Bengalí en la Edad Imperial. Los Aldeanos y los Monjes ocupan un 10% menos de espacio de población.</string>
+    <string name="tech_description_extra_241">Los Aldeanos y los Monjes ocupan un 10% menos de espacio de población.</string> 	
 	
 	<string name="tech_description_nominative_242">Acero Wootz</string>
     <string name="tech_description_quick_242">Infantería y Caballería ignoran la armadura</string>
@@ -3510,6 +3523,11 @@
     <string name="tech_description_long_243">Tecnología Única Gurjara en la Edad Imperial. Los Jinetes de Camello y los Arqueros en Elefante obtienen +4 armadura de melé.</string>
     <string name="tech_description_extra_243">Los Jinetes de Camello y los Arqueros en Elefante obtienen +4 armadura de melé.</string>
 	
+	<string name="tech_description_nominative_244">Gambesones</string>
+    <string name="tech_description_quick_244"/>
+    <string name="tech_description_brief_244"/>
+    <string name="tech_description_long_244">La línea de Espadachín obtiene +1 de armadura antiproyectil.</string>
+    <string name="tech_description_extra_244"/> 
  
     <!--tech_list.xml-->
      
@@ -3579,7 +3597,7 @@
     <string name="tech_name_63">Fuego Griego</string>
     <string name="tech_name_64">Bastión</string>
     <string name="tech_name_65">Gran Muralla</string>
-    <string name="tech_name_66">Centralización</string>
+    <string name="tech_name_66">Herederos Regios</string>
     <string name="tech_name_67">Hacha de Arista</string>
     <string name="tech_name_68">Anarquía</string>
     <string name="tech_name_69">Razias</string>
@@ -3757,6 +3775,7 @@
     <string name="tech_name_241">Mahāyāna</string>
     <string name="tech_name_242">Acero Wootz</string>
     <string name="tech_name_243">Guardas Fronterizos</string>
+    <string name="tech_name_244">Gambesones</string>
      
     <!--type_list.xml-->
      
@@ -3793,6 +3812,8 @@
     <string name="type_name_30">Mamelucos</string>
     <string name="type_name_31">Ignorar Armad. (Leitis)</string>
     <string name="type_name_32">Carreta de Guerra Husita</string>
+    <string name="type_name_33">Hostigadores</string>
+    <string name="type_name_34">Resistencia a Unidades Montadas</string>
      
     <!--unit_description.xml-->
      

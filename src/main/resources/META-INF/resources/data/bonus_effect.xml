@@ -115,27 +115,27 @@
 		</effects>
 	</item>
 	<item id="6">
-		<info civ="2" globalFilter="none" teamBonus="false" staggered="false"/>
+		<info civ="2" globalFilter="none" teamBonus="false" staggered="true"/>
 		<effects>
 			<statEffect>
 				<effectItem>
 					<filter/>
-					<operation stat="9" operator="*" value="1.1"/>
+					<operation stat="9" operator="*" value="1.05 1.1 1.1 1.1"/>
 				</effectItem>
 			</statEffect>
 			<costEffect/>
 			<ecoEffect>
 				<effectItem>
 					<filter/>
-					<operation stat="6" operator="*" value="1.0288"/>
+					<operation stat="6" operator="*" value="1.0288 1.0288 1.0288 1.0288"/>
 				</effectItem>
 				<effectItem>
 					<filter class="techRequirement" requiredTech="3" ids="@"/>
-					<operation stat="6" operator="*" value="0.9915"/>
+					<operation stat="6" operator="*" value="0.9915 0.9915 0.9915 0.9915"/>
 				</effectItem>
 				<effectItem>
 					<filter class="techRequirement" requiredTech="20" ids="@"/>
-					<operation stat="6" operator="*" value="0.9803"/>
+					<operation stat="6" operator="*" value="0.9803 0.9803 0.9803 0.9803"/>
 				</effectItem>
 			</ecoEffect>
 			<attackValueEffect/>
@@ -241,15 +241,15 @@
 			<statEffect>
 				<effectItem>
 					<filter class="unit" ids="@"/>
-					<operation stat="17" operator="/" value="1.2"/>
+					<operation stat="17" operator="/" value="1.1"/>
 				</effectItem>
 				<effectItem>
 					<filter class="tech" ids="@"/>
-					<operation stat="17" operator="/" value="1.2"/>
+					<operation stat="17" operator="/" value="1.1"/>
 				</effectItem>
 				<effectItem>
 					<filter class="class" ids="2"/>
-					<operation stat="18" operator="*" value="1.2"/>
+					<operation stat="18" operator="*" value="1.1"/>
 				</effectItem>
 			</statEffect>
 			<costEffect/>
@@ -634,7 +634,12 @@
 					<operation stat="7" operator="+" value="3"/>
 				</effectItem>
 			</statEffect>
-			<costEffect/>
+			<costEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="Stone" operator="@" value="0"/>
+				</effectItem>
+			</costEffect>
 			<ecoEffect/>
 			<attackValueEffect/>
 			<armorValueEffect/>
@@ -872,10 +877,15 @@
 		</effects>
 	</item>
 	<item id="54">
-		<info civ="12" globalFilter="none" teamBonus="false" staggered="false"/>
+		<info civ="12" globalFilter="none" teamBonus="false" staggered="true"/>
 		<effects>
 			<statEffect/>
-			<costEffect/>
+			<costEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="Food" operator="*" value="0.85 0.80 0.75 0.7"/>
+				</effectItem>
+			</costEffect>
 			<ecoEffect/>
 			<attackValueEffect/>
 			<armorValueEffect/>
@@ -1591,18 +1601,8 @@
 	<item id="94">
 		<info civ="20" globalFilter="tech" teamBonus="false" staggered="false"/>
 		<effects>
-			<statEffect>
-				<effectItem>
-					<filter/>
-					<operation stat="17" operator="*" value="0"/>
-				</effectItem>
-			</statEffect>
-			<costEffect>
-				<effectItem>
-					<filter/>
-					<operation stat="All" operator="*" value="0"/>
-				</effectItem>
-			</costEffect>
+			<statEffect/>
+			<costEffect/>
 			<ecoEffect/>
 			<attackValueEffect/>
 			<armorValueEffect/>
@@ -2917,8 +2917,12 @@
 		<effects>
 			<statEffect>
 				<effectItem>
-					<filter/>
+					<filter class="building" ids="1"/>
 					<operation stat="17" operator="*" value="0.5"/>
+				</effectItem>
+				<effectItem>
+					<filter class="building" ids="26"/>
+					<operation stat="17" operator="*" value="0.6667"/>
 				</effectItem>
 			</statEffect>
 			<costEffect/>
@@ -3158,7 +3162,7 @@
 			<statEffect>
 				<effectItem>
 					<filter/>
-					<operation stat="19" operator="@" value="0.083 0.166 0.25 0.333"/>
+					<operation stat="19" operator="@" value="0 0.166 0.25 0.333"/>
 				</effectItem>
 			</statEffect>
 			<costEffect/>
@@ -3504,6 +3508,66 @@
 					<operation stat="2" operator="+" value="3"/>
 				</effectItem>
 			</armorValueEffect>
+		</effects>
+	</item>
+	<item id="211">
+		<info civ="40" globalFilter="none" teamBonus="false" staggered="false"/>
+		<effects>
+			<statEffect/>
+			<costEffect/>
+			<ecoEffect/>
+			<attackValueEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="33" operator="+" value="2"/>
+				</effectItem>
+			</attackValueEffect>
+			<armorValueEffect/>
+		</effects>
+	</item>
+	<item id="212">
+		<info civ="41" globalFilter="none" teamBonus="false" staggered="false"/>
+		<effects>
+			<statEffect/>
+			<costEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="Wood" operator="*" value="0.66"/>
+				</effectItem>
+			</costEffect>
+			<ecoEffect/>
+			<attackValueEffect/>
+			<armorValueEffect/>
+		</effects>
+	</item>
+	<item id="213">
+		<info civ="19" globalFilter="tech" teamBonus="false" staggered="false"/>
+		<effects>
+			<statEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="17" operator="*" value="0"/>
+				</effectItem>
+			</statEffect>
+			<costEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="All" operator="*" value="0"/>
+				</effectItem>
+			</costEffect>
+			<ecoEffect/>
+			<attackValueEffect/>
+			<armorValueEffect/>
+		</effects>
+	</item>
+	<item id="214">
+		<info civ="27" globalFilter="none" teamBonus="false" staggered="false"/>
+		<effects>
+			<statEffect/>
+			<costEffect/>
+			<ecoEffect/>
+			<attackValueEffect/>
+			<armorValueEffect/>
 		</effects>
 	</item>
 </list>
