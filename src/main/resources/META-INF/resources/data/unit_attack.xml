@@ -3,6 +3,7 @@
 	<item id="1">
 		<entry nameID="unit_attack_values">
 			<value type="1">3</value>
+			<value type="13">0</value>
 			<value type="20">3</value>
 			<value type="22">6</value>
 			<value type="24">0</value>
