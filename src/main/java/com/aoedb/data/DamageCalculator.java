@@ -259,8 +259,8 @@ public class DamageCalculator {
         }
 
         private int getNumHitsDone(double time, double reload){
-            BigDecimal time1 = new BigDecimal(time).setScale(4, RoundingMode.HALF_UP);
-            BigDecimal reload1 = new BigDecimal(reload).setScale(4, RoundingMode.HALF_UP);
+            BigDecimal time1 = new BigDecimal(time).setScale(8, RoundingMode.HALF_UP);
+            BigDecimal reload1 = new BigDecimal(reload).setScale(8, RoundingMode.HALF_UP);
             return time1.divide(reload1, 0, RoundingMode.FLOOR).intValue() + 1;
         }
 
