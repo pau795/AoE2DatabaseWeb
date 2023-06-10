@@ -1614,4 +1614,38 @@
 			<value type="31">0</value>
 		</entry>
 	</item>
+	<item id="176">
+		<entry nameID="unit_armor_values">
+			<value type="1">2</value>
+			<value type="2">3</value>
+			<value type="9">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="177">
+		<entry nameID="unit_armor_values">
+			<value type="1">1</value>
+			<value type="2">6</value>			
+			<value type="16">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="178">
+		<entry nameID="unit_armor_values">
+			<value type="1">2</value>
+			<value type="2">2</value>
+			<value type="5">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
+	<item id="179">
+		<entry nameID="unit_armor_values">
+			<value type="1">3</value>
+			<value type="2">3</value>
+			<value type="9">0</value>
+			<value type="18">0</value>
+			<value type="31">0</value>
+		</entry>
+	</item>
 </list>

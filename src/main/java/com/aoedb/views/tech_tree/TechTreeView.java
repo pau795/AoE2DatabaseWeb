@@ -71,6 +71,8 @@ public class TechTreeView extends BaseView {
     Set<TechTreeBox> boxSet;
     Select<EntityElement> civSelector;
     TechTreeBox uniqueUnit, eliteUniqueUnit, castleUniqueTech, imperialUniqueTech, hussar, mill;
+    TechTreeBox twoHandedSwordsman, champion;
+
 
     @Override
     public void initView() {
@@ -237,7 +239,16 @@ public class TechTreeView extends BaseView {
         else mill.setEntity(Database.getBuilding(4));
         if (civID == 34 || civID == 39) hussar.setEntity(Database.getUnit(154));
         else hussar.setEntity(Database.getUnit(90));
-
+        if(civID == 43){
+            twoHandedSwordsman.setEntity(Database.getUnit(178));
+            twoHandedSwordsman.removeBottomLine();
+            champion.setVisible(false);
+        }
+        else{
+            twoHandedSwordsman.setEntity(Database.getUnit(80));
+            twoHandedSwordsman.restoreBottomLine();
+            champion.setVisible(true);
+        }
 
         for (TechTreeBox box: boxSet) {
             box.setAvailable(box.getEntity().isAvailableTo(civID));
@@ -1145,7 +1156,7 @@ public class TechTreeView extends BaseView {
 
         //BARRACKS
 
-        TechTreeBox twoHandedSwordsman = new TechTreeBox(Database.getUnit(80), false, language);
+        twoHandedSwordsman = new TechTreeBox(Database.getUnit(80), false, language);
         TechTreeBox halberdier = new TechTreeBox(Database.getUnit(82), false, language);
         halberdier.removeBottomLine();
         TechTreeBox eliteEagleWarrior = new TechTreeBox(Database.getUnit(83), false, language);
@@ -1153,7 +1164,7 @@ public class TechTreeView extends BaseView {
         TechTreeBox condottiero = new TechTreeBox(Database.getUnit(84), true, language);
         condottiero.removeTopLine();
         condottiero.removeBottomLine();
-        TechTreeBox champion = new TechTreeBox(Database.getUnit(81), false, language);
+        champion = new TechTreeBox(Database.getUnit(81), false, language);
         champion.removeBottomLine();
         TechTreeBox flemishMilitia = new TechTreeBox(Database.getUnit(153), true, language);
         flemishMilitia.removeBottomLine();
@@ -1178,7 +1189,7 @@ public class TechTreeView extends BaseView {
         eliteBattleElephant.removeBottomLine();
         TechTreeBox eliteSteppeLancer = new TechTreeBox(Database.getUnit(141), false, language);
         eliteSteppeLancer.removeBottomLine();
-        TechTreeBox eliteShrivamshaRider = new TechTreeBox(Database.getUnit(170), false, language);
+        TechTreeBox eliteShrivamshaRider = new TechTreeBox(Database.getUnit(170), true, language);
         eliteShrivamshaRider.removeBottomLine();
         TechTreeBox paladin = new TechTreeBox(Database.getUnit(92), false, language);
         paladin.removeBottomLine();
@@ -1262,7 +1273,9 @@ public class TechTreeView extends BaseView {
         dryDock.removeBottomLine();
         TechTreeEmptyBox dockLine1 = new TechTreeEmptyBox(false);
         TechTreeEmptyBox dockLine2 = new TechTreeEmptyBox(false);
-        TechTreeEmptyBox dockLine3 = new TechTreeEmptyBox(false);
+        TechTreeBox dromon = new TechTreeBox(Database.getUnit(177), false, language);
+        dromon.removeTopLine();
+        dromon.removeBottomLine();
         TechTreeBox eliteCannonGalleon = new TechTreeBox(Database.getUnit(76), false, language);
         eliteCannonGalleon.removeBottomLine();
         TechTreeEmptyBox dockLine4 = new TechTreeEmptyBox(false);
@@ -1274,7 +1287,7 @@ public class TechTreeView extends BaseView {
 
         TechTreeSlotLayout dockLayout = new TechTreeSlotLayout(boxSet);
         dockLayout.addFistRow(fastFireShip, heavyDemoShip, galleon, cannonGalleon, eliteLongboat, eliteTurtleShip, eliteCaravel, thiridasai, shipwright, dryDock);
-        dockLayout.addSecondRow(dockLine1, dockLine2, dockLine3, eliteCannonGalleon, dockLine4, dockLine5, dockLine6, dockLine7, dockLine8, dockLine9);
+        dockLayout.addSecondRow(dockLine1, dockLine2, dromon, eliteCannonGalleon, dockLine4, dockLine5, dockLine6, dockLine7, dockLine8, dockLine9);
 
         TechTreeBox architecture = new TechTreeBox(Database.getTechnology(113), false, language);
         architecture.removeBottomLine();

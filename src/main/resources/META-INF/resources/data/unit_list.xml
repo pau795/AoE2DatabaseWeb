@@ -524,6 +524,18 @@
      
 	<!--Elite Chakram Thrower-->
     <item id="175" image="u_chakram_thrower"/>
+	
+	<!--Centurion-->
+    <item id="176" image="u_centurion"/>
+	
+	<!--Dromon-->
+    <item id="177" image="u_dromon"/>
+	
+	<!--Legionary-->
+    <item id="178" image="u_legionary"/>
+	
+	<!--Elite Centurion-->
+    <item id="179" image="u_centurion"/>
      
  
 </list>

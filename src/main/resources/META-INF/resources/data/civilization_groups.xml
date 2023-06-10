@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <list>
 	<group alphabeticalOrder="true">
-		<category name="civilization_group1_category1" ids="1 40 2 38 3 32 36 4 5 6 7 33 41 8 9 10 42 11 12 13 14 15 16 17 34 18 19 20 21 22 23 39 24 25 37 26 27 35 28 29 30 31"/>
+		<category name="civilization_group1_category1" ids="1 40 2 38 3 32 36 4 5 6 7 33 41 8 9 10 42 11 12 13 14 15 16 17 34 18 19 20 21 22 23 39 24 43 25 37 26 27 35 28 29 30 31"/>
 	</group>
 	<group alphabeticalOrder="false">
 		<category name="civilization_group2_category1" ids="3 5 6 7 9 10 15 22 23 25 28 29 31"/>
@@ -13,5 +13,6 @@
 		<category name="civilization_group2_category7" ids="36 37"/>
 		<category name="civilization_group2_category8" ids="38 39"/>
 		<category name="civilization_group2_category9" ids="13 40 41 42"/>
+		<category name="civilization_group2_category10" ids="43"/>
 	</group>
 </list>

@@ -355,4 +355,13 @@
 		<uniqueTechs castleTech="234" imperialTech="243"/>
 		<uniqueBuildings/>
 	</item>
+	<item id="43">
+		<bonus bonusList="215 216 217 218" teamBonus="219"/>
+		<uniqueUnits>
+			<unit unitID="176" eliteUnitID="179"/>
+			<unit unitID="178"/>
+		</uniqueUnits>
+		<uniqueTechs castleTech="245" imperialTech="248"/>
+		<uniqueBuildings/>
+	</item>
 </list>

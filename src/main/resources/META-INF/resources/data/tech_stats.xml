@@ -2174,4 +2174,40 @@
 		</cost>
 		<development requiredTechID="17" nextUpgradeID="0"/>
 	</item>	
+	<item id="245">
+		<baseInfo researchBuildingID="26" ageID="19"/>
+		<stats trainingTime="45"/>
+		<cost>
+			<resource name="Wood">400</resource>
+			<resource name="Gold">300</resource>
+		</cost>
+		<development requiredTechID="0" nextUpgradeID="0"/>
+	</item>	
+	<item id="246">
+		<baseInfo researchBuildingID="8" ageID="90"/>
+		<stats trainingTime="100"/>
+		<cost>
+			<resource name="Food">800</resource>
+			<resource name="Gold">400</resource>
+		</cost>
+		<development requiredTechID="49" nextUpgradeID="0"/>
+	</item>	
+	<item id="247">
+		<baseInfo researchBuildingID="26" ageID="90"/>
+		<stats trainingTime="60"/>
+		<cost>
+			<resource name="Food">1100</resource>
+			<resource name="Gold">900</resource>
+		</cost>
+		<development requiredTechID="0" nextUpgradeID="0"/>
+	</item>	
+	<item id="248">
+		<baseInfo researchBuildingID="26" ageID="90"/>
+		<stats trainingTime="60"/>
+		<cost>
+			<resource name="Food">700</resource>
+			<resource name="Gold">800</resource>
+		</cost>
+		<development requiredTechID="0" nextUpgradeID="0"/>
+	</item>	
 </list>

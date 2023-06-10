@@ -590,4 +590,16 @@
 	<item id="244">
 		<building id="26" upgrades="141"/>
 	</item>
+	<item id="245">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="246">
+		<building id="26" upgrades="141"/>
+	</item>
+	<item id="247">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="248">
+		<building id="26" upgrades="60 141"/>
+	</item>
 </list>

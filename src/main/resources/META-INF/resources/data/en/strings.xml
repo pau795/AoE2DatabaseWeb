@@ -725,8 +725,8 @@
     <string name="bonus_tech_tree_description_19">Camel Riders, Skirmishers, Spear-line cost -25%.</string>
     <string name="bonus_item_description_19">\@ cost -25%.</string> 
     
-    <string name="bonus_tech_tree_description_20">Fire Ships attack 20% faster.</string>
-    <string name="bonus_item_description_20">\@ attack 20% faster.</string> 
+    <string name="bonus_tech_tree_description_20">Fire Ships and Dromons attack 25% faster.</string>
+    <string name="bonus_item_description_20">\@ attack 25% faster.</string> 
     
     <string name="bonus_tech_tree_description_21">Town Watch and Town Patrol technologies are free.</string>
     <string name="bonus_item_description_21">\@ technology is free.</string> 
@@ -1310,6 +1310,21 @@
 	<string name="bonus_tech_tree_description_214">Receive +20 gold for each technology researched (except aging up).</string>
     <string name="bonus_item_description_214">Receive +20 gold when \@ technology is researched.</string> 
  
+	<string name="bonus_tech_tree_description_215">Villagers gather, build, and repair 5% faster.</string>
+    <string name="bonus_item_description_215">\@ gather, build, and repair 5% faster.|\@ work 5% faster.|</string> 
+	
+	<string name="bonus_tech_tree_description_216">Galley-line have +1 attack; War Galleys have +1 melee and +1 pierce armor; Galleons and Dromons have +2 melee and +2 pierce armor.</string>
+    <string name="bonus_item_description_216">Galley-line have +1 attack; War Galleys have +1 melee and +1 pierce armor; Galleons and Dromons have +2 melee and +2 pierce armor.</string> 
+	
+	<string name="bonus_tech_tree_description_217">Infantry receives double effect from Blacksmith armor upgrades.</string>
+    <string name="bonus_item_description_217">\@ receives double effect from Blacksmith armor upgrades.||\@ technology provides double the effect to Infantry units.</string> 
+	
+	<string name="bonus_tech_tree_description_218">Scorpions cost 60% less gold and benefit from Ballistics research.</string>
+    <string name="bonus_item_description_218">\@ costs 60% less gold and benefit from Ballistics research.||\@ technology affects Scorpions.</string> 
+	
+	<string name="bonus_tech_tree_description_219">Scorpion-line minimum range is reduced to 1.</string>
+    <string name="bonus_item_description_219">\@ minimum range is reduced to 1.</string> 
+	
     <!--building_description.xml-->
      
     
@@ -1607,6 +1622,7 @@
     <string name="civilization_name_40">Bengalis</string>
     <string name="civilization_name_41">Dravidians</string>
     <string name="civilization_name_42">Gurjaras</string>
+    <string name="civilization_name_43">Romans</string>
      
     <!--civilization_style.xml-->
      
@@ -1653,6 +1669,7 @@
     <string name="civilization_style_40">Elephant and Naval civilization</string>
     <string name="civilization_style_41">Infantry and Naval civilization</string>
     <string name="civilization_style_42">Cavalry and Camel civilization</string>
+    <string name="civilization_style_43">Infantry civilization</string>
      
     <!--class_list.xml-->
      
@@ -1839,6 +1856,7 @@
     <string name="history_name_76">The Bengalis</string>
     <string name="history_name_77">The Dravidians</string>
     <string name="history_name_78">The Gurjaras</string>
+    <string name="history_name_79">The Romans</string>
      
     <!--performance_list.xml-->
      
@@ -1925,6 +1943,8 @@
 	<string name="performance_name_80">Rathas</string>
 	<string name="performance_name_81">Urumi Swordsmen</string>
 	<string name="performance_name_82">Chakram Throwers</string>
+	<string name="performance_name_83">Dromons</string>
+	<string name="performance_name_84">Centurions</string>
      
     <!--stat_list.xml-->
      
@@ -2780,7 +2800,7 @@
     <string name="tech_description_nominative_119">Two-Handed Swordsman</string>
     <string name="tech_description_quick_119"/>
     <string name="tech_description_brief_119"/>
-    <string name="tech_description_long_119">Upgrades your Long Swordsmen and lets you build Two-Handed Swordsmen.</string>
+    <string name="tech_description_long_119">Upgrades your Long Swordsmen and lets you create Two-Handed Swordsmen.</string>
     <string name="tech_description_extra_119"/> 
     
     <string name="tech_description_nominative_120">Champion</string>
@@ -3532,6 +3552,31 @@
     <string name="tech_description_brief_244"/>
     <string name="tech_description_long_244">Militia-line gets +1 pierce armor.</string>
     <string name="tech_description_extra_244"/> 
+	
+	<string name="tech_description_nominative_245">Ballistas</string>
+    <string name="tech_description_quick_245">Scorpions and Galley-line fire 33% faster</string>
+    <string name="tech_description_brief_245"/>
+    <string name="tech_description_long_245">Romans Castle Age Unique Technology. Scorpions and Galley-line fire 33% faster.</string>
+    <string name="tech_description_extra_245">Scorpions and Galley-line fire 33% faster.</string> 
+	
+	<string name="tech_description_nominative_246">Legionary</string>
+    <string name="tech_description_quick_246"></string>
+    <string name="tech_description_brief_246"/>
+    <string name="tech_description_long_246">Upgrades your Long Swordsmen and lets you create Legionaries.</string>
+    <string name="tech_description_extra_246"/>
+	
+	<string name="tech_description_nominative_247">Elite Centurion</string>
+    <string name="tech_description_quick_247"></string>
+    <string name="tech_description_brief_247"/>
+    <string name="tech_description_long_247">Upgrades your Centurions and lets you create Elite Centurions.</string>
+    <string name="tech_description_extra_247"/>
+	
+	<string name="tech_description_nominative_248">Comitatenses</string>
+    <string name="tech_description_quick_248">Militia-line, Knight-line, and Centurions train 50% faster and receive a charge attack</string>
+    <string name="tech_description_brief_248"/>
+    <string name="tech_description_long_248">Romans Imperial Age Unique Tecnology. Militia-line, Knight-line, and Centurions train 50% faster and receive +5 charge attack, which recharges over 20 seconds.</string>
+    <string name="tech_description_extra_248">Militia-line, Knight-line, and Centurions train 50% faster and receive +5 charge attack, which recharges over 20 seconds.</string>
+	
     
     <!--tech_list.xml-->
      
@@ -3780,6 +3825,11 @@
     <string name="tech_name_242">Wootz Steel</string>
     <string name="tech_name_243">Frontier Guards</string>
     <string name="tech_name_244">Gambesons</string>
+    <string name="tech_name_245">Ballistas</string>
+    <string name="tech_name_246">Legionary</string>
+    <string name="tech_name_247">Elite Centurion</string>
+    <string name="tech_name_248">Comitatenses</string>
+	
      
     <!--type_list.xml-->
      
@@ -4872,6 +4922,30 @@
     <string name="unit_description_long_175">Gurjara Unique Unit. Ranged Infantry which throws piercing Chakrams. Pierced units will receive 100% damage instead of the usual 50%.</string>
     <string name="unit_description_extra_175"/>	
 	
+	<string name="unit_description_nominative_176">Centurion</string>
+    <string name="unit_description_quick_176">Boosting Cavalry</string>
+    <string name="unit_description_brief_176"/>
+    <string name="unit_description_long_176">Roman Unique Unit. Heavily armored Cavalry which boosts nearby Militia-line units; within a 10 tile range, it increases their movement speed by 10%, and attack rate by 25%.</string>
+    <string name="unit_description_extra_176"/>	
+	
+	<string name="unit_description_nominative_177">Dromon</string>
+    <string name="unit_description_quick_177"></string>
+    <string name="unit_description_brief_177"/>
+    <string name="unit_description_long_177">Long range warship with an area of effect attack. Powerful against buildings. Weak against other ships.</string>
+    <string name="unit_description_extra_177"/>	
+	
+	<string name="unit_description_nominative_178">Legionary</string>
+    <string name="unit_description_quick_178">Infantry</string>
+    <string name="unit_description_brief_178"/>
+    <string name="unit_description_long_178">Roman Unique Unit. Basic infantry swordsman. Quick and cheap to create. Effective against Buildings and trash units.</string>
+    <string name="unit_description_extra_178"/>	
+	
+	<string name="unit_description_nominative_179">Elite Centurion</string>
+    <string name="unit_description_quick_179">Boosting Cavalry</string>
+    <string name="unit_description_brief_179"/>
+    <string name="unit_description_long_179">Roman Unique Unit. Heavily armored Cavalry which boosts nearby Militia-line units; within a 12 tile range, it increases their movement speed by 15%, and attack rate by 33%.</string>
+    <string name="unit_description_extra_179"/>	
+	
  
     <!--unit_list.xml-->
      
@@ -5050,6 +5124,10 @@
     <string name="unit_name_173">Elite Ratha (Melee)</string>
     <string name="unit_name_174">Elite Urumi Swordsman</string>
     <string name="unit_name_175">Elite Chakram Thrower</string>
+    <string name="unit_name_176">Centurion</string>
+    <string name="unit_name_177">Dromon</string>
+    <string name="unit_name_178">Legionary</string>
+    <string name="unit_name_179">Elite Centurion</string>
 	
 	<!--unit_groups.xml-->	
 	
@@ -5110,6 +5188,7 @@
 	<string name="civilization_group2_category7">Lords of the West</string>
 	<string name="civilization_group2_category8">Dawn of the Dukes</string>
 	<string name="civilization_group2_category9">Dynasties of India</string>
+	<string name="civilization_group2_category10">Return of Rome</string>
 	
 	
 	

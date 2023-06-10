@@ -368,7 +368,7 @@
 
     <string name="required_technology">Tecnología Requerida</string>
     <string name="required_building">Edificio Requerido</string>
-    <string name="upgraded_from">Mejorado de</string>
+    <string name="upgraded_from">Mejora Anterior</string>
     <string name="next_upgrade">Siguiente Mejora</string>
 	
 	<string name="type_entities_unit_attack">Unidades que inflingen daño de %s</string>
@@ -716,8 +716,8 @@
     <string name="bonus_tech_tree_description_19">Los Jinetes en Camello, los Hostigadores y la línea de Lancero cuestan un 25% menos.</string>
     <string name="bonus_item_description_19">\@ cuestan un 25% menos.</string> 
     
-    <string name="bonus_tech_tree_description_20">Los Barcos incendiarios atacan un 20% más rápido.</string>
-    <string name="bonus_item_description_20">\@ atacan un 20% más rápido.</string> 
+    <string name="bonus_tech_tree_description_20">Los Barcos Incendiarios y los Dromones atacan un 25% más rápido.</string>
+    <string name="bonus_item_description_20">\@ atacan un 25% más rápido.</string> 
     
     <string name="bonus_tech_tree_description_21">Las Tecnologías de Guardia Urbana y Patrulla Urbana son gratuitas.</string>
     <string name="bonus_item_description_21">La Tecnología de \@ es gratuita.</string> 
@@ -1301,6 +1301,20 @@
 	<string name="bonus_tech_tree_description_214">Reciben +20 de oro por cada tecnología desarrollada (excepto subir de edad).</string>
     <string name="bonus_item_description_214">Reciben +20 de oro cuando la tecnología de \@ se desarrolla.</string> 
  
+	<string name="bonus_tech_tree_description_215">Los Aldeanos recolectan, construyen, y reparan un 5% más rápido.</string>
+    <string name="bonus_item_description_215">\@ recolectan, construyen, y reparan un 5% más rápido.|\@ trabajan un 5% más rápido.|</string> 
+	
+	<string name="bonus_tech_tree_description_216">La línea de Galera tiene +1 de ataque; Las Galeras de Guerra tienen +1 de armadura melé y +1 de armadura antiproyectil; los Galeones y los Dromones tienen +2 de armadura melé y +2 de armadura antiproyectil.</string>
+    <string name="bonus_item_description_216">La línea de Galera tiene +1 de ataque; Las Galeras de Guerra tienen +1 de armadura melé y +1 de armadura antiproyectil; los Galeones y los Dromones tienen +2 de armadura melé y +2 de armadura antiproyectil.</string> 
+	
+	<string name="bonus_tech_tree_description_217">La Infantería recibe el doble de efecto de las tecnologías de armadura de la Herrería.</string>
+    <string name="bonus_item_description_217">\@ recibe el doble de efecto de las tecnologías de armadura de la Herrería.||La tecnología de \@ proporciona el doble de efecto a las unidades de Infantería.</string> 
+	
+	<string name="bonus_tech_tree_description_218">Los Escorpiones cuestan un 60% menos de oro y se benefician de la tecnología de Balística.</string>
+    <string name="bonus_item_description_218">\@ cuestan un 60% menos de oro y se benefician de la tecnología de Balística.||La tecnología de \@ afecta a los Escorpiones.</string> 
+	
+	<string name="bonus_tech_tree_description_219">El alcance mínimo de la línea de Escorpión se reduce a 1.</string>
+    <string name="bonus_item_description_219">El alcance mínimo de \@ se reduce a 1.</string> 
  
     <!--building_description.xml-->
      
@@ -1599,6 +1613,7 @@
 	<string name="civilization_name_40">Bengalíes</string>
     <string name="civilization_name_41">Dravídicos</string>
     <string name="civilization_name_42">Gurjara</string>
+    <string name="civilization_name_43">Romanos</string>
      
     <!--civilization_style.xml-->
      
@@ -1833,6 +1848,7 @@
     <string name="history_name_76">Los Bengalíes</string>
     <string name="history_name_77">Los Dravídicos</string>
     <string name="history_name_78">Los Gurjara</string>
+    <string name="history_name_79">Los Romanos</string>
 	
 	
     <!--performance_list.xml-->
@@ -1920,6 +1936,8 @@
 	<string name="performance_name_80">Rathas</string>
 	<string name="performance_name_81">Espadachines Urumi</string>
 	<string name="performance_name_82">Lanzadores de Chakram</string>
+	<string name="performance_name_83">Dromones</string>
+	<string name="performance_name_84">Centuriones</string>
      
     <!--stat_list.xml-->
      
@@ -3528,6 +3546,30 @@
     <string name="tech_description_brief_244"/>
     <string name="tech_description_long_244">La línea de Espadachín obtiene +1 de armadura antiproyectil.</string>
     <string name="tech_description_extra_244"/> 
+	
+	<string name="tech_description_nominative_245">Balistas</string>
+    <string name="tech_description_quick_245">Escorpiones y la línea de Galera disparan un 33% más rápido</string>
+    <string name="tech_description_brief_245"/>
+    <string name="tech_description_long_245">Tecnología Única Romana en la Edad de los Castillos. Los Escorpiones y la línea de Galera disparan un 33% más rápido.</string>
+    <string name="tech_description_extra_245">Los Escorpiones y la línea de Galera disparan un 33% más rápido.</string> 
+	
+	<string name="tech_description_nominative_246">Legionary</string>
+    <string name="tech_description_quick_246"></string>
+    <string name="tech_description_brief_246"/>
+    <string name="tech_description_long_246">Mejora tus Espadachines de Espada Larga y permite crear Legionarios.</string>
+    <string name="tech_description_extra_246"/>
+	
+	<string name="tech_description_nominative_247">Centurión de Élite</string>
+    <string name="tech_description_quick_247"></string>
+    <string name="tech_description_brief_247"/>
+    <string name="tech_description_long_247">Mejora tus Centuriones y permite crear Centuriones de Élite.</string>
+    <string name="tech_description_extra_247"/>
+	
+	<string name="tech_description_nominative_248">Comitatenses</string>
+    <string name="tech_description_quick_248">Línea de Espadachín, Línea de Jinete y Centuriones se crean un 50% más rápido y reciben daño de carga</string>
+    <string name="tech_description_brief_248"/>
+    <string name="tech_description_long_248">Tecnología Única Romana en la Edad Imperial. La Línea de Espadachín, la Línea de Jinete y los Centuriones se crean un 50% más rápido y reciben 5 de daño de carga, que se recarga tras 20 segundos.</string>
+    <string name="tech_description_extra_248">La Línea de Espadachín, la Línea de Jinete y los Centuriones se crean un 50% más rápido y reciben 5 de daño de carga, que se recarga tras 20 segundos.</string>
  
     <!--tech_list.xml-->
      
@@ -3776,6 +3818,10 @@
     <string name="tech_name_242">Acero Wootz</string>
     <string name="tech_name_243">Guardas Fronterizos</string>
     <string name="tech_name_244">Gambesones</string>
+	<string name="tech_name_245">Balistas</string>
+    <string name="tech_name_246">Legionario</string>
+    <string name="tech_name_247">Centurión de Élite</string>
+    <string name="tech_name_248">Comitatenses</string>
      
     <!--type_list.xml-->
      
@@ -4772,101 +4818,125 @@
     <string name="unit_description_long_159">Unidad Única Bohemia. Arma de asedio poderosa y móvil de largo alcance. Eficaz contra Edificios y contra otras unidades de asedio.</string>
     <string name="unit_description_extra_159"/> 
 	
-	<string name="unit_description_nominative_160">Exploradores a Camello</string>
+	<string name="unit_description_nominative_160">Los Exploradores a Camello</string>
     <string name="unit_description_quick_160">Jinete de Camello disponible en la Edad Feudal</string>
     <string name="unit_description_brief_160"/>
     <string name="unit_description_long_160">Unidad Única Gurjara. Utilizada por los Gurjara como unidad exploradora inicial. Unidad montada y rápida que es muy eficaz contra otras unidades montadas.</string>
     <string name="unit_description_extra_160"/>
 	
-	<string name="unit_description_nominative_161">Arqueros en Elefante</string>
+	<string name="unit_description_nominative_161">Los Arqueros en Elefante</string>
     <string name="unit_description_quick_161"/>
     <string name="unit_description_brief_161"/>
     <string name="unit_description_long_161">Arquero montado muy resistente y con armadura antiproyectil elevada. Eficaz contra otros Arqueros.</string>
     <string name="unit_description_extra_161"/>
 	
-	<string name="unit_description_nominative_162">Jinetes Shrivamsha</string>
+	<string name="unit_description_nominative_162">Los Jinetes Shrivamsha</string>
     <string name="unit_description_quick_162">Caballería Ligera que puede esquivar proyectiles</string>
     <string name="unit_description_brief_162"/>
     <string name="unit_description_long_162">Unidad Única Gurjara. Caballería rápida que puede esquivar proyectiles. Puede esquivar hasta 5 proyectiles, que se van recargando a lo largo de 20 segundos (1 proyectil cada 4 segundos).</string>
     <string name="unit_description_extra_162"/>
 		
-	<string name="unit_description_nominative_163">Elefantes Blindados</string>
+	<string name="unit_description_nominative_163">Los Elefantes Blindados</string>
     <string name="unit_description_quick_163"/>
     <string name="unit_description_brief_163"/>
     <string name="unit_description_long_163">Caballería lenta con muchos puntos de resistencía y una mucha armadura antiproyectil, utilizada para destruir edificios enemigos. No se puede convertir desde distancia.</string>
     <string name="unit_description_extra_163"/>
 	
-	<string name="unit_description_nominative_164">Rathas (Distancia)</string>
+	<string name="unit_description_nominative_164">Los Rathas (Distancia)</string>
     <string name="unit_description_quick_164">Carruaje que puede cambiar entre ataques a distancia y melé</string>
     <string name="unit_description_brief_164"/>
     <string name="unit_description_long_164">Unidad Única Bengalí. Carruaje que puede cambiar entre ataques a distancia y melé.</string>
     <string name="unit_description_extra_164"/>
 	
-	<string name="unit_description_nominative_165">Rathas (Melé)</string>
+	<string name="unit_description_nominative_165">Los Rathas (Melé)</string>
     <string name="unit_description_quick_165">Carruaje que puede cambiar entre ataques a distancia y melé</string>
     <string name="unit_description_brief_165"/>
     <string name="unit_description_long_165">Unidad Única Bengalí. Carruaje que puede cambiar entre ataques a distancia y melé.</string>
     <string name="unit_description_extra_165"/>
 	
-	<string name="unit_description_nominative_166">Espadachines Urumi</string>
+	<string name="unit_description_nominative_166">Los Espadachines Urumi</string>
     <string name="unit_description_quick_166">Infantería de Carga</string>
     <string name="unit_description_brief_166"/>
     <string name="unit_description_long_166">Unidad Única Dravídica. Infantería que puede cargar su ataque, inflingiendo daño en área en la carga. Eficaz contra otras unidades de Infantería.</string>
     <string name="unit_description_extra_166"/>
 	
-	<string name="unit_description_nominative_167">Lanzadores de Chakrams</string>
+	<string name="unit_description_nominative_167">Los Lanzadores de Chakrams</string>
     <string name="unit_description_quick_167">Infantería a distancia penetrate</string>
     <string name="unit_description_brief_167"/>
     <string name="unit_description_long_167">Unidad Única Gurjara. Infatería a distancia que lanza Chakrams penetrantes. Las unidades penetradas recibirán un 100% del daño, en vez del 50% típico.</string>
     <string name="unit_description_extra_167"/>	
 	
-	<string name="unit_description_nominative_168">Thirisadai</string>
+	<string name="unit_description_nominative_168">Los Thirisadai</string>
     <string name="unit_description_quick_168">Barco de Guerra Pesado</string>
     <string name="unit_description_brief_168"/>
     <string name="unit_description_long_168">Unidad Única Dravídica. Barco de Guerra pesado que dispara múltiples proyectiles. Eficaz contra la línea de Galera.</string>
     <string name="unit_description_extra_168"/>	
 	
-	<string name="unit_description_nominative_169">Arqueros en Elefante  de Élite</string>
+	<string name="unit_description_nominative_169">Los Arqueros en Elefante de Élite</string>
     <string name="unit_description_quick_169"/>
     <string name="unit_description_brief_169"/>
     <string name="unit_description_long_169">Arquero montado muy resistente y con armadura antiproyectil elevada. Eficaz contra otros Arqueros.</string>
     <string name="unit_description_extra_169"/>
 	
-	<string name="unit_description_nominative_170">Jinetes Shrivamsha de Élite</string>
+	<string name="unit_description_nominative_170">Los Jinetes Shrivamsha de Élite</string>
     <string name="unit_description_quick_170">Caballería Ligera que puede esquivar proyectiles</string>
     <string name="unit_description_brief_170"/>
     <string name="unit_description_long_170">Unidad Única Gurjara. Caballería rápida que puede esquivar proyectiles. Puede esquivar hasta 7 proyectiles, que se van recargando a lo largo de 20 segundos (1 proyectil cada 2.86 segundos).</string>
     <string name="unit_description_extra_170"/>
 		
-	<string name="unit_description_nominative_171">Elefantes de Asedio</string>
+	<string name="unit_description_nominative_171">Los Elefantes de Asedio</string>
     <string name="unit_description_quick_171"/>
     <string name="unit_description_brief_171"/>
     <string name="unit_description_long_171">Caballería lenta con muchos puntos de resistencía y una mucha armadura antiproyectil, utilizada para destruir edificios enemigos. No se puede convertir desde distancia.</string>
     <string name="unit_description_extra_171"/>
 	
-	<string name="unit_description_nominative_172">Rathas de Élite (Distancia)</string>
+	<string name="unit_description_nominative_172">Los Rathas de Élite (Distancia)</string>
     <string name="unit_description_quick_172">Carruaje que puede cambiar entre ataques a distancia y melé</string>
     <string name="unit_description_brief_172"/>
     <string name="unit_description_long_172">Unidad Única Bengalí. Carruaje que puede cambiar entre ataques a distancia y melé.</string>
     <string name="unit_description_extra_172"/>
 	
-	<string name="unit_description_nominative_173">Rathas de Élite (Melé)</string>
+	<string name="unit_description_nominative_173">Los Rathas de Élite (Melé)</string>
     <string name="unit_description_quick_173">Carruaje que puede cambiar entre ataques a distancia y melé</string>
     <string name="unit_description_brief_173"/>
     <string name="unit_description_long_173">Unidad Única Bengalí. Carruaje que puede cambiar entre ataques a distancia y melé.</string>
     <string name="unit_description_extra_173"/>
 	
-	<string name="unit_description_nominative_174">Espadachines Urumi de Élite</string>
+	<string name="unit_description_nominative_174">Los Espadachines Urumi de Élite</string>
     <string name="unit_description_quick_174">Infantería de Carga</string>
     <string name="unit_description_brief_174"/>
     <string name="unit_description_long_174">Unidad Única Dravídica. Infantería que puede cargar su ataque, inflingiendo daño en área en la carga. Eficaz contra otras unidades de Infantería.</string>
     <string name="unit_description_extra_174"/>
 	
-	<string name="unit_description_nominative_175">Lanzadores de Chakrams de Élite</string>
+	<string name="unit_description_nominative_175">Los Lanzadores de Chakrams de Élite</string>
     <string name="unit_description_quick_175">Infantería a distancia penetrate</string>
     <string name="unit_description_brief_175"/>
     <string name="unit_description_long_175">Unidad Única Gurjara. Infatería a distancia que lanza Chakrams penetrantes. Las unidades penetradas recibirán un 100% del daño, en vez del 50% típico.</string>
     <string name="unit_description_extra_175"/>	
+	
+	<string name="unit_description_nominative_176">Los Centuriones</string>
+    <string name="unit_description_quick_176">Caballería de Aumento</string>
+    <string name="unit_description_brief_176"/>
+    <string name="unit_description_long_176">Unidad Única Romana. Caballería fuertemente blindada que aumenta las características de las unidades de la línea de Espadachín cercanas; con un alcance de 10 casillas, incrementa la velocidad de movimiento en un 10%, y la velocidad de ataque en un 25%.</string>
+    <string name="unit_description_extra_176"/>	
+	
+	<string name="unit_description_nominative_177">Los Dromones</string>
+    <string name="unit_description_quick_177"></string>
+    <string name="unit_description_brief_177"/>
+    <string name="unit_description_long_177">Barco de Guerra con largo alance y área de efecto. Efectivo contra Edificios. Débil contra otros barcos.</string>
+    <string name="unit_description_extra_177"/>	
+	
+	<string name="unit_description_nominative_178">Los Legionarios</string>
+    <string name="unit_description_quick_178">Infantería</string>
+    <string name="unit_description_brief_178"/>
+    <string name="unit_description_long_178">Unidad Única Romana. Infantería básica de Espadachín. Unidad barata y rápida de crear. Eficaz contra Edificios y unidades que no cuestan oro.</string>
+    <string name="unit_description_extra_178"/>	
+	
+	<string name="unit_description_nominative_179">Los Centuriones de Élite</string>
+    <string name="unit_description_quick_179">Caballería de Aumento</string>
+    <string name="unit_description_brief_179"/>
+    <string name="unit_description_long_179">Unidad Única Romana. Caballería fuertemente blindada que aumenta las características de las unidades de la línea de Espadachín cercanas; con un alcance de 12 casillas, incrementa la velocidad de movimiento en un 15%, y la velocidad de ataque en un 33%.</string>
+    <string name="unit_description_extra_179"/>	
  
     <!--unit_list.xml-->
      
@@ -5046,6 +5116,10 @@
     <string name="unit_name_173">Ratha de Élite (Melé)</string>
     <string name="unit_name_174">Espadachín Urumi de Élite</string>
     <string name="unit_name_175">Lanzador de Chakrams de Élite</string>
+	<string name="unit_name_176">Centurión</string>
+    <string name="unit_name_177">Dromón</string>
+    <string name="unit_name_178">Legionario</string>
+    <string name="unit_name_179">Centurión de Élite</string>
 	
 	<!--unit_groups.xml-->	
 	
@@ -5106,6 +5180,7 @@
 	<string name="civilization_group2_category7">Lords of the West</string>
 	<string name="civilization_group2_category8">Dawn of the Dukes</string>
 	<string name="civilization_group2_category9">Dynasties of India</string>
+	<string name="civilization_group2_category10">Return of Rome</string>
 	
 	<!--building_groups.xml-->	
 	

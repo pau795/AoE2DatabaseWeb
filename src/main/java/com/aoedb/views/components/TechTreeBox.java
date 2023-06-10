@@ -139,6 +139,8 @@ public class TechTreeBox extends Div {
         this.e = e;
         if (e.getType().equals(Database.UNIT) && e.getEntityID() == 90) box.getStyle().set("background-color", "teal");
         if (e.getType().equals(Database.UNIT) && e.getEntityID() == 154) box.getStyle().set("background-color", "purple");
+        if (e.getType().equals(Database.UNIT) && e.getEntityID() == 80) box.getStyle().set("background-color", "teal");
+        if (e.getType().equals(Database.UNIT) && e.getEntityID() == 178) box.getStyle().set("background-color", "purple");
         name.setText(e.getName().getTranslatedString(language));
         icon.setSrc(e.getNameElement().getImage());
         setupPopup();
@@ -152,8 +154,16 @@ public class TechTreeBox extends Div {
         topLine.addClassNames("tech-tree-box-line-not-active");
     }
 
+    public void restoreTopLine(){
+        topLine.removeClassNames("tech-tree-box-line-not-active");
+    }
+
     public void removeBottomLine(){
         bottomLine.addClassNames("tech-tree-box-line-not-active");
+    }
+
+    public void restoreBottomLine(){
+        bottomLine.removeClassName("tech-tree-box-line-not-active");
     }
 
     public void setTopRightLine(){

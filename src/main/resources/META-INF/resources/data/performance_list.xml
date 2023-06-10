@@ -246,6 +246,10 @@
 	<!--Chakram Throwers-->
     <item id="82" image="u_chakram_thrower"/>
 	
+	<!--Dromons-->
+    <item id="83" image="u_dromon"/>
 	
+	<!--Centurions-->
+    <item id="84" image="u_centurion"/>
      
 </list>

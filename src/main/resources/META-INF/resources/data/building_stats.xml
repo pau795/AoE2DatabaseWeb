@@ -250,7 +250,7 @@
 	</item>
 	<item id="31">
 		<baseInfo builderUnitID="1" ageID="90" classID="11"/>
-		<stats hitPoints="2220" attack="120" meleeArmor="3" pierceArmor="9" range="8" minimumRange="1" lineOfSight="10" reloadTime="6" blastRadius="0" attackDelay="0" accuracy="92" numberProjectiles="1" projectileSpeed="3" garrisonCapacity="5" populationTaken="-" trainingTime="80" workRate="-" healRate="0.1" hillBonus="1.25" hillReduction="0.75"/>
+		<stats hitPoints="2220" attack="120" meleeArmor="3" pierceArmor="9" range="8" minimumRange="1" lineOfSight="10" reloadTime="6" blastRadius="0" attackDelay="0" accuracy="100" numberProjectiles="1" projectileSpeed="3" garrisonCapacity="5" populationTaken="-" trainingTime="80" workRate="-" healRate="0.1" hillBonus="1.25" hillReduction="0.75"/>
 		<cost>
 			<resource name="Gold">100</resource>
 			<resource name="Stone">125</resource>

@@ -732,4 +732,16 @@
 	<!--Gambesons-->
     <item id="244" image="t_gambesons"/>
 	
+	<!--Ballistas-->
+    <item id="245" image="t_castle_ut"/>
+	
+	<!--Legionary-->
+    <item id="246" image="t_legionary"/>
+	
+	<!--Elite Centurion-->
+    <item id="247" image="t_elite_uu"/>
+	
+	<!--Comitatenses-->
+    <item id="248" image="t_imperial_ut"/>
+	
 </list>

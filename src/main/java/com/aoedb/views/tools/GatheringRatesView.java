@@ -36,12 +36,13 @@ public class GatheringRatesView extends OneColumnView {
         civID = 1;
         ageID = 0;
         civ = Database.getCivilization(civID);
-        ecoUpgrades = civ.getUpgradesIds();
+        List<Integer> allEcoUpgrades = civ.getUpgradesIds();
+        ecoUpgrades = new ArrayList<>();
         statNames = Database.getEcoList();
         gatheringRates = Database.getGatheringRates();
         List<EntityElement> civNames = new ArrayList<>(Database.getList(Database.CIVILIZATION_LIST));
         civNames.sort(EntityElement.getAlphabeticalComparator(language));
-        AgeCivSelector selector = new AgeCivSelector(ageID, civID, civNames, ecoUpgrades, language);
+        AgeCivSelector selector = new AgeCivSelector(ageID, civID, civNames, allEcoUpgrades, language);
         selector.setOnChangeListener(new AgeCivSelector.OnChangeListener() {
             @Override
             public void onAgeChanged(int age) {
@@ -62,6 +63,7 @@ public class GatheringRatesView extends OneColumnView {
                 calculateEco();
             }
         });
+        ecoUpgrades.clear();
         ratesList = new Div();
         ratesList.addClassNames("gathering-rates-list");
         Div container = new Div(selector, ratesList);

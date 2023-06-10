@@ -52,7 +52,7 @@
 			<ecoEffect>
 				<effectItem>
 					<filter/>
-					<operation stat="6" operator="*" value="1.1279"/>
+					<operation stat="6" operator="*" value="1.1135"/>
 				</effectItem>
 			</ecoEffect>
 			<attackValueEffect/>
@@ -347,7 +347,7 @@
 			<ecoEffect>
 				<effectItem>
 					<filter/>
-					<operation stat="6" operator="*" value="1.0499"/>
+					<operation stat="6" operator="*" value="1.0557"/>
 				</effectItem>
 			</ecoEffect>
 			<attackValueEffect/>
@@ -1968,11 +1968,11 @@
 		<effects>
 			<statEffect>
 				<effectItem>
-					<filter class="unit" ids="37 38 56 64 98 99 100 101 102 103 119 127 155 157 159"/>
+					<filter class="unit" ids="37 38 56 64 75 76 177 98 99 100 101 102 103 119 127 155 157 159"/>
 					<operation stat="5" operator="+" value="1"/>
 				</effectItem>
 				<effectItem>
-					<filter class="unit" ids="37 38 56 64 98 99 100 101 102 103 119 127 155 157 159"/>
+					<filter class="unit" ids="37 38 56 75 76 177 64 98 99 100 101 102 103 119 127 155 157 159"/>
 					<operation stat="7" operator="+" value="1"/>
 				</effectItem>
 			</statEffect>
@@ -1980,7 +1980,7 @@
 			<ecoEffect/>
 			<attackValueEffect>
 				<effectItem>
-					<filter class="unit" ids="36 37 38 56 64 96 97 98 99 100 101 103 119 127 155 157 159 163 171"/>
+					<filter class="unit" ids="36 37 38 56 75 76 177 64 96 97 98 99 100 101 103 119 127 155 157 159 163 171"/>
 					<operation stat="20" operator="*" value="1.2"/>
 				</effectItem>
 				<effectItem>
@@ -3779,5 +3779,58 @@
 			</armorValueEffect>
 		</effects>
 	</item>	
-	
+	<item id="245">
+		<effects>
+			<statEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="8" operator="*" value="0.75"/>
+				</effectItem>
+			</statEffect>
+			<costEffect/>
+			<ecoEffect/>
+			<attackValueEffect/>
+			<armorValueEffect/>
+		</effects>
+	</item>
+	<item id="246">
+		<effects>
+			<statEffect/>			
+			<costEffect/>
+			<ecoEffect/>
+			<attackValueEffect/>
+			<armorValueEffect/>
+		</effects>
+	</item>
+	<item id="247">
+		<effects>
+			<statEffect/>			
+			<costEffect/>
+			<ecoEffect/>
+			<attackValueEffect/>
+			<armorValueEffect/>
+		</effects>
+	</item>
+	<item id="248">
+		<effects>
+			<statEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="17" operator="*" value="0.666667"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="23" operator="@" value="5"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="24" operator="@" value="20"/>
+				</effectItem>
+			</statEffect>			
+			<costEffect/>
+			<ecoEffect/>
+			<attackValueEffect/>
+			<armorValueEffect/>
+		</effects>
+	</item>
 </list>
