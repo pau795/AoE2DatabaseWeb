@@ -234,8 +234,8 @@
 		<baseInfo builderUnitID="1" ageID="90" classID="2"/>
 		<stats hitPoints="2700" attack="-" meleeArmor="3" pierceArmor="10" range="-" minimumRange="-" lineOfSight="6" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="-" trainingTime="120" workRate="0.01" healRate="-" hillBonus="1.25" hillReduction="0.75"/>
 		<cost>
-			<resource name="Gold">250</resource>
-			<resource name="Stone">250</resource>
+			<resource name="Gold">350</resource>
+			<resource name="Stone">300</resource>
 		</cost>
 		<development requiredBuildingID="0" requiredTechID="0" previousUpgradeID="0" nextUpgradeID="0"/>
 	</item>

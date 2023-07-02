@@ -279,7 +279,7 @@
     <!--Barracks units have +1/2/3 pierce armor in Feudal/Castle/Imperial Age.-->
     <item id="93"/>
      
-    <!--Gold Mines last 30% longer-->
+    <!--Villagers drop off 10% more gold-->
     <item id="94"/>
      
     <!--University research is 80% faster.-->
@@ -423,7 +423,7 @@
     <!--Reveal enemy positions at the start of the game.-->
     <item id="141"/>
      
-    <!--Economy upgrades cost no wood.-->
+    <!--Economic upgrades cost no wood and are researched twice as fast.-->
     <item id="142"/>
      
     <!--Archery Range units +20% hit points.-->
@@ -645,7 +645,7 @@
 	<!--Villagers gather, build, and repair 5% faster.-->
 	<item id="215"/>
 	
-	<!--Galley-line have +1 attack; War Galleys have +1 melee and +1 pierce armor; Galleons and Dromons have +2 melee and +2 pierce armor.-->
+	<!--Galley-line and Dromons +1 melee and +1 pierce armor.-->
 	<item id="216"/>
 	
 	<!--Infantry receives double effect from Blacksmith armor upgrades.-->
@@ -656,5 +656,8 @@
 	
 	<!--Scorpion-line minimum range is reduced to 1.-->
 	<item id="219"/>
+	
+	<!--Monks move 20% faster.-->
+	<item id="220"/>
 	
 </list>

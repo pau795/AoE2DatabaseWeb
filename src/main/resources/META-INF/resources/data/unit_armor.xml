@@ -1242,8 +1242,8 @@
 	</item>
 	<item id="137">
 		<entry nameID="unit_armor_values">
-			<value type="1">0</value>
-			<value type="2">0</value>
+			<value type="1">2</value>
+			<value type="2">1</value>
 			<value type="5">0</value>
 			<value type="18">0</value>
 			<value type="31">0</value>
@@ -1297,8 +1297,8 @@
 	</item>
 	<item id="143">
 		<entry nameID="unit_armor_values">
-			<value type="1">0</value>
-			<value type="2">1</value>
+			<value type="1">2</value>
+			<value type="2">2</value>
 			<value type="5">0</value>
 			<value type="18">0</value>
 			<value type="31">0</value>

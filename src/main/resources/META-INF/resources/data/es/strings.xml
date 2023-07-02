@@ -746,8 +746,8 @@
     <string name="bonus_tech_tree_description_29">Empiezan con 3 aldeanos más, pero con -50 de madera y -200 de alimento.</string>
     <string name="bonus_item_description_29">Empiezan con 3 aldeanos más, pero con -50 de madera y -200 de alimento.</string> 
     
-    <string name="bonus_tech_tree_description_30">Las tecnologías cuestan un 10/15/20% menos en la Edad Feudal/Castillos/Imperial (excepto avanzar de edad).</string>
-    <string name="bonus_item_description_30">La tecnología de \@ cuesta un 10/15/20% menos en la Edad Feudal/Castillos/Imperial.</string> 
+    <string name="bonus_tech_tree_description_30">Las tecnologías cuestan un 5/10/15% menos en la Edad Feudal/Castillos/Imperial (excepto avanzar de edad).</string>
+    <string name="bonus_item_description_30">La tecnología de \@ cuesta un 5/10/15% menos en la Edad Feudal/Castillos/Imperial.</string> 
     
     <string name="bonus_tech_tree_description_31">Los Centros Urbanos proporcionan 10 de población</string>
     <string name="bonus_item_description_31">Los Centros Urbanos proporcionan 10 de población</string> 
@@ -893,8 +893,8 @@
     <string name="bonus_tech_tree_description_78">Los Canteros trabajan un 20% más rápido.</string>
     <string name="bonus_item_description_78">Los Canteros trabajan un 20% más rápido.</string> 
     
-    <string name="bonus_tech_tree_description_79">Las unidades militares (excepto unidades de asedio) cuestan un 20% menos de madera.</string>
-    <string name="bonus_item_description_79">\@ cuestan un 20% menos de madera.</string> 
+    <string name="bonus_tech_tree_description_79">La Infantería, los Arqueros, y los Arqueros a Caballo cuestan un 50% menos de madera; los Barcos de Guerra cuestan un 20% menos de madera.</string>
+    <string name="bonus_item_description_79">La Infantería, los Arqueros, y los Arqueros a Caballo cuestan un 50% menos de madera; los Barcos de Guerra cuestan un 20% menos de madera.</string> 
     
     <string name="bonus_tech_tree_description_80">Las mejoras de torres son gratuitas (Las Torres de Bombardeo requieren la Química).</string>
     <string name="bonus_item_description_80">La tecnología de \@ es gratuita.</string> 
@@ -914,8 +914,8 @@
     <string name="bonus_tech_tree_description_85">La Caballería de Exploración, La Caballería Ligera y Los Húsares cuestan un 15% menos.</string>
     <string name="bonus_item_description_85">\@ cuestan un 15% menos.</string> 
     
-    <string name="bonus_tech_tree_description_86">Los arqueros a pie tienen +2 de campo de visión.</string>
-    <string name="bonus_item_description_86">\@ tienen +2 de campo de visión.</string> 
+    <string name="bonus_tech_tree_description_86">Los Arqueros a Caballo se crean un 25% más rápido.</string>
+    <string name="bonus_item_description_86">\@ se crean un 25% más rápido.</string> 
     
     <string name="bonus_tech_tree_description_87">Se avanza a la siguiente edad un 66% más rápido.</string>
     <string name="bonus_item_description_87">La tecnología de \@ se desarrolla un 66% más rápido.</string> 
@@ -938,8 +938,8 @@
     <string name="bonus_tech_tree_description_93">Las unidades de los Cuarteles tienen +1/2/3 de armadura antiproyectil en la Edad Feudal/Castillos/Imperial.</string>
     <string name="bonus_item_description_93">\@ tienen +1/2/3 de armadura antiproyectil en la Edad Feudal/Castillos/Imperial.</string> 
     
-    <string name="bonus_tech_tree_description_94">Los Mineros de oro depositan un 15% más de recursos.</string>
-    <string name="bonus_item_description_94">Los Mineros de oro depositan un 15% más de recursos.</string> 
+    <string name="bonus_tech_tree_description_94">Los Mineros de oro depositan un 10% más de recursos.</string>
+    <string name="bonus_item_description_94">Los Mineros de oro depositan un 10% más de recursos.</string> 
     
     <string name="bonus_tech_tree_description_95">Las Universidades trabajan un 80% más rápido</string>
     <string name="bonus_item_description_95">\@ se crean un 80% más rápido.|\@ funcionan un 80% más rápido.|La tecnología de \@ se desarrolla un 80% más rápido.</string> 
@@ -1082,8 +1082,8 @@
     <string name="bonus_tech_tree_description_141">Se revelan las posiciones de los enemigos al empezar la partida.</string>
     <string name="bonus_item_description_141">Se revelan las posiciones de los enemigos al empezar la partida.</string> 
     
-    <string name="bonus_tech_tree_description_142">Las mejoras económicas no cuestan madera.</string>
-    <string name="bonus_item_description_142">La tecnología de \@ no cuesta madera.</string> 
+    <string name="bonus_tech_tree_description_142">Las mejoras económicas no cuestan madera y se desarrollan el doble de rápido.</string>
+    <string name="bonus_item_description_142">La tecnología de \@ no cuesta madera y se desarrolla el doble de rápido.</string> 
     
     <string name="bonus_tech_tree_description_143">Las unidades de la Galería de Tiro con Arco tienen un 20% más de puntos de resistencia.</string>
     <string name="bonus_item_description_143">\@ tienen un 20% más de puntos de resistencia.</string> 
@@ -1283,8 +1283,8 @@
 	<string name="bonus_tech_tree_description_208">Los Pesqueros se pueden guerecer en los Muelles.</string>
 	<string name="bonus_item_description_208">Los Pesqueros se pueden guerecer en los Muelles.</string>
 
-	<string name="bonus_tech_tree_description_209">Las unidades en Camello y en Elefante se generan un 25% más rápido.</string>
-	<string name="bonus_item_description_209">\@ se generan un 25% más rápido.</string>
+	<string name="bonus_tech_tree_description_209">Las unidades en Camello y en Elefante se crean un 25% más rápido.</string>
+	<string name="bonus_item_description_209">\@ se crean un 25% más rápido.</string>
 	
 	<string name="bonus_tech_tree_description_210">Los Monjes tienen +3 de armadura melé y +3 de armadura antiproyectil.</string>
 	<string name="bonus_item_description_210">\@ tienen +3 de armadura melé y +3 de armadura antiproyectil.</string>
@@ -1304,8 +1304,8 @@
 	<string name="bonus_tech_tree_description_215">Los Aldeanos recolectan, construyen, y reparan un 5% más rápido.</string>
     <string name="bonus_item_description_215">\@ recolectan, construyen, y reparan un 5% más rápido.|\@ trabajan un 5% más rápido.|</string> 
 	
-	<string name="bonus_tech_tree_description_216">La línea de Galera tiene +1 de ataque; Las Galeras de Guerra tienen +1 de armadura melé y +1 de armadura antiproyectil; los Galeones y los Dromones tienen +2 de armadura melé y +2 de armadura antiproyectil.</string>
-    <string name="bonus_item_description_216">La línea de Galera tiene +1 de ataque; Las Galeras de Guerra tienen +1 de armadura melé y +1 de armadura antiproyectil; los Galeones y los Dromones tienen +2 de armadura melé y +2 de armadura antiproyectil.</string> 
+	<string name="bonus_tech_tree_description_216">La línea de Galera y los Dromones tienen +1 de armadura melé y +1 de armadura antiproyectil.</string>
+    <string name="bonus_item_description_216">\@ tienen +1 de armadura melé y +1 de armadura antiproyectil.</string> 
 	
 	<string name="bonus_tech_tree_description_217">La Infantería recibe el doble de efecto de las tecnologías de armadura de la Herrería.</string>
     <string name="bonus_item_description_217">\@ recibe el doble de efecto de las tecnologías de armadura de la Herrería.||La tecnología de \@ proporciona el doble de efecto a las unidades de Infantería.</string> 
@@ -1315,6 +1315,9 @@
 	
 	<string name="bonus_tech_tree_description_219">El alcance mínimo de la línea de Escorpión se reduce a 1.</string>
     <string name="bonus_item_description_219">El alcance mínimo de \@ se reduce a 1.</string> 
+	
+	<string name="bonus_tech_tree_description_220">Los Monjes se mueven un 20% más rápido.</string>
+    <string name="bonus_item_description_220">\@ se mueven un 20% más rápido.</string> 
  
     <!--building_description.xml-->
      
@@ -2236,7 +2239,7 @@
     <string name="tech_description_nominative_26">Red Agallera</string>
     <string name="tech_description_quick_26"/>
     <string name="tech_description_brief_26">"</string>
-    <string name="tech_description_long_26">Los Pesqueros trabajan un 25% más rápido (Afecta a la pesca, y a la construcción de Trampas para Peces).</string>
+    <string name="tech_description_long_26">Los Pesqueros trabajan un 20% más rápido (Afecta a la pesca, y a la construcción de Trampas para Peces).</string>
     <string name="tech_description_extra_26"/> 
     
     <string name="tech_description_nominative_27">Carenado</string>
@@ -2449,17 +2452,17 @@
     <string name="tech_description_long_61">Tecnología Única Britana en la Edad de los Castillos. Los Arqueros a pie obtienen +1 de alcance; las Torres obtienen +2 de ataque.</string>
     <string name="tech_description_extra_61">Los Arqueros a pie obtienen +1 de alcance; las Torres obtienen +2 de ataque.</string> 
     
-    <string name="tech_description_nominative_62">Howdah</string>
-    <string name="tech_description_quick_62">Elefantes de Combate +1/+1 armadura</string>
+	<string name="tech_description_nominative_62">Caballería Manipur</string>
+    <string name="tech_description_quick_62">Caballería +4 ataque contra Arqueros</string>
     <string name="tech_description_brief_62"/>
-    <string name="tech_description_long_62">Tecnología Única Birmana en la Edad de los Castillos. Los Elefantes de Combate obtienen +1 de armadura de melé y +1 de armadura antiproyectil.</string>
-    <string name="tech_description_extra_62">Los Elefantes de Combate obtienen +1 de armadura de melé y +1 de armadura antiproyectil.</string> 
+    <string name="tech_description_long_62">Tecnología Única Birmana en la Edad Imperial. La Caballería obtiene +4 de ataque contra Arqueros.</string>
+    <string name="tech_description_extra_62">La Caballería obtiene +4 de ataque contra Arqueros.</string> 
     
     <string name="tech_description_nominative_63">Fuego Griego</string>
-    <string name="tech_description_quick_63">Barcos Incendiarios +1 alcance; Torres de Bombardeo +0.5 de área de impacto</string>
+    <string name="tech_description_quick_63">Barcos Incendiarios +1 alcance; Torres de Bombardeo +0.5 de área de impacto; Dromones +0.2 de área de impacto</string>
     <string name="tech_description_brief_63"/>
-    <string name="tech_description_long_63">Tecnología Única Bizantina en la Edad de los Castillos. Los Barcos Incendiarios obtienen +1 de alcance; las Torres de Bombardeo obtienen +0.5 de área de impacto (+5 de daño a las unidades adyacentes).</string>
-    <string name="tech_description_extra_63">Los Barcos Incendiarios obtienen +1 de alcance; las Torres de Bombardeo obtienen +0.5 de área de impacto (+5 de daño a las unidades adyacentes).</string> 
+    <string name="tech_description_long_63">Tecnología Única Bizantina en la Edad de los Castillos. Los Barcos Incendiarios obtienen +1 de alcance; las Torres de Bombardeo obtienen +0.5 de área de impacto (25% de daño en área); los Dromones obtienen +0.2 de área de impatco.</string>
+    <string name="tech_description_extra_63">Los Barcos Incendiarios obtienen +1 de alcance; las Torres de Bombardeo obtienen +0.5 de área de impacto (25% de daño en área); los Dromones obtienen +0.2 de área de impatco</string> 
     
     <string name="tech_description_nominative_64">Bastión</string>
     <string name="tech_description_quick_64">Torres y Castillos disparan 33% más rápido; los Castillos curan las unidades de Infantería cercanas</string>
@@ -2504,10 +2507,10 @@
     <string name="tech_description_extra_70">Elimina el alcance mínimo de los Hostigadores y los Honderos; los Honderos obtienen +1 de ataque.</string> 
     
     <string name="tech_description_nominative_71">Camino del Gran Tronco</string>
-    <string name="tech_description_quick_71">Toda producción de oro es un 10% más rápido</string>
+    <string name="tech_description_quick_71">Toda producción de oro es un 10% más rápido; tarifa del Mercado reducida al 10%</string>
     <string name="tech_description_brief_71"/>
-    <string name="tech_description_long_71">Tecnología Única Hindostana en la Edad de los Castillos. Toda la producción de oro es un 10% más rápido (Comercio, minería, reliquias).</string>
-    <string name="tech_description_extra_71">Toda la producción de oro es un 10% más rápido (Comercio, minería, reliquias).</string> 
+    <string name="tech_description_long_71">Tecnología Única Hindostana en la Edad de los Castillos. Toda la producción de oro es un 10% más rápido (Comercio, minería, reliquias); la tarifa de comercio en el Mercado se reduce a un 10%.</string>
+    <string name="tech_description_extra_71">Toda la producción de oro es un 10% más rápido (Comercio, minería, reliquias); la tarifa de comercio en el Mercado se reduce a un 10%.</string> 
     
     <string name="tech_description_nominative_72">Escudo Pavés</string>
     <string name="tech_description_quick_72">Arqueros a pie y Condottieri +1/+1 armadura</string>
@@ -3139,11 +3142,11 @@
     <string name="tech_description_long_176">Tecnología Única Britana en la Edad Imperial. Los Lanzapiedras obtienen +0.5 de área de impacto, y atacan con 100% de precisión contra unidades.</string>
     <string name="tech_description_extra_176">Los Lanzapiedras obtienen +0.5 de área de impacto, y atacan con 100% de precisión contra unidades.</string> 
     
-    <string name="tech_description_nominative_177">Caballería Manipur</string>
-    <string name="tech_description_quick_177">Caballería +5 ataque contra Arqueros</string>
+	<string name="tech_description_nominative_177">Howdah</string>
+    <string name="tech_description_quick_177">Elefantes de Combate +1/+1 armadura</string>
     <string name="tech_description_brief_177"/>
-    <string name="tech_description_long_177">Tecnología Única Birmana en la Edad Imperial. La Caballería obtiene +5 de ataque contra Arqueros.</string>
-    <string name="tech_description_extra_177">La Caballería obtiene +5 de ataque contra Arqueros.</string> 
+    <string name="tech_description_long_177">Tecnología Única Birmana en la Edad de los Castillos. Los Elefantes de Combate obtienen +1 de armadura de melé y +1 de armadura antiproyectil.</string>
+    <string name="tech_description_extra_177">Los Elefantes de Combate obtienen +1 de armadura de melé y +1 de armadura antiproyectil.</string> 
     
     <string name="tech_description_nominative_178">Logística</string>
     <string name="tech_description_quick_178">Catafactas obtienen daño en área y +6 ataque contra Infantería</string>
@@ -3548,10 +3551,10 @@
     <string name="tech_description_extra_244"/> 
 	
 	<string name="tech_description_nominative_245">Balistas</string>
-    <string name="tech_description_quick_245">Escorpiones y la línea de Galera disparan un 33% más rápido</string>
+    <string name="tech_description_quick_245">Escorpiones disparan un 33% más rápido; línea de Galera +2 ataque</string>
     <string name="tech_description_brief_245"/>
-    <string name="tech_description_long_245">Tecnología Única Romana en la Edad de los Castillos. Los Escorpiones y la línea de Galera disparan un 33% más rápido.</string>
-    <string name="tech_description_extra_245">Los Escorpiones y la línea de Galera disparan un 33% más rápido.</string> 
+    <string name="tech_description_long_245">Tecnología Única Romana en la Edad de los Castillos. Los Escorpiones disparan un 33% más rápido; la línea de Galera obtiene +2 de ataque.</string>
+    <string name="tech_description_extra_245">Los Escorpiones disparan un 33% más rápido; la línea de Galera obtiene +2 de ataque.</string> 
 	
 	<string name="tech_description_nominative_246">Legionary</string>
     <string name="tech_description_quick_246"></string>

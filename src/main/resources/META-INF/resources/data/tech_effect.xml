@@ -424,18 +424,18 @@
 			<statEffect>
 				<effectItem>
 					<filter class="unit" ids="2"/>
-					<operation stat="18" operator="*" value="1.25"/>
+					<operation stat="18" operator="*" value="1.20"/>
 				</effectItem>
 				<effectItem>
 					<filter class="building" ids="19"/>
-					<operation stat="17" operator="/" value="1.25"/>
+					<operation stat="17" operator="/" value="1.20"/>
 				</effectItem>
 			</statEffect>
 			<costEffect/>
 			<ecoEffect>
 				<effectItem>
 					<filter/>
-					<operation stat="11" operator="*" value="1.25"/>
+					<operation stat="11" operator="*" value="1.20"/>
 				</effectItem>
 			</ecoEffect>
 			<attackValueEffect/>
@@ -1058,29 +1058,16 @@
 	</item>
 	<item id="62">
 		<effects>
-			<statEffect>
-				<effectItem>
-					<filter/>
-					<operation stat="3" operator="+" value="1"/>
-				</effectItem>
-				<effectItem>
-					<filter/>
-					<operation stat="4" operator="+" value="1"/>
-				</effectItem>
-			</statEffect>
+			<statEffect/>
 			<costEffect/>
 			<ecoEffect/>
-			<attackValueEffect/>
-			<armorValueEffect>
+			<attackValueEffect>
 				<effectItem>
 					<filter/>
-					<operation stat="1" operator="+" value="1"/>
+					<operation stat="3" operator="+" value="4"/>
 				</effectItem>
-				<effectItem>
-					<filter/>
-					<operation stat="2" operator="+" value="1"/>
-				</effectItem>
-			</armorValueEffect>
+			</attackValueEffect>
+			<armorValueEffect/>
 		</effects>
 	</item>
 	<item id="63">
@@ -1089,6 +1076,10 @@
 				<effectItem>
 					<filter class="unit" ids="7 17 73"/>
 					<operation stat="5" operator="+" value="1"/>
+				</effectItem>
+				<effectItem>
+					<filter class="unit" ids="177"/>
+					<operation stat="10" operator="+" value="0.2"/>
 				</effectItem>
 				<effectItem>
 					<filter class="building" ids="31"/>
@@ -1945,7 +1936,7 @@
 					<operation stat="1" operator="+" value="1"/>
 				</effectItem>
 				<effectItem>
-					<filter class="unit" ids="38 100 103"/>
+					<filter class="unit" ids="38 100 103 44 107"/>
 					<operation stat="2" operator="+" value="1"/>
 				</effectItem>
 				<effectItem>
@@ -1968,11 +1959,11 @@
 		<effects>
 			<statEffect>
 				<effectItem>
-					<filter class="unit" ids="37 38 56 64 75 76 177 98 99 100 101 102 103 119 127 155 157 159"/>
+					<filter class="unit" ids="20 37 38 56 64 75 76 177 78 98 99 100 101 102 103 119 127 155 157 159"/>
 					<operation stat="5" operator="+" value="1"/>
 				</effectItem>
 				<effectItem>
-					<filter class="unit" ids="37 38 56 75 76 177 64 98 99 100 101 102 103 119 127 155 157 159"/>
+					<filter class="unit" ids="20 37 38 56 75 76 177 78 64 98 99 100 101 102 103 119 127 155 157 159"/>
 					<operation stat="7" operator="+" value="1"/>
 				</effectItem>
 			</statEffect>
@@ -2659,16 +2650,29 @@
 	</item>
 	<item id="177">
 		<effects>
-			<statEffect/>
-			<costEffect/>
-			<ecoEffect/>
-			<attackValueEffect>
+			<statEffect>
 				<effectItem>
 					<filter/>
-					<operation stat="3" operator="+" value="5"/>
+					<operation stat="3" operator="+" value="1"/>
 				</effectItem>
-			</attackValueEffect>
-			<armorValueEffect/>
+				<effectItem>
+					<filter/>
+					<operation stat="4" operator="+" value="1"/>
+				</effectItem>
+			</statEffect>
+			<costEffect/>
+			<ecoEffect/>
+			<attackValueEffect/>
+			<armorValueEffect>
+				<effectItem>
+					<filter/>
+					<operation stat="1" operator="+" value="1"/>
+				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="2" operator="+" value="1"/>
+				</effectItem>
+			</armorValueEffect>
 		</effects>
 	</item>
 	<item id="178">
@@ -3783,13 +3787,22 @@
 		<effects>
 			<statEffect>
 				<effectItem>
-					<filter/>
+					<filter class="unit" ids="38 100"/>
 					<operation stat="8" operator="*" value="0.75"/>
+				</effectItem>
+				<effectItem>
+					<filter class="unit" ids="6 16 72"/>
+					<operation stat="2" operator="+" value="2"/>
 				</effectItem>
 			</statEffect>
 			<costEffect/>
 			<ecoEffect/>
-			<attackValueEffect/>
+			<attackValueEffect>
+				<effectItem>
+					<filter class="unit" ids="6 16 72"/>
+					<operation stat="2" operator="+" value="2"/>
+				</effectItem>
+			</attackValueEffect>
 			<armorValueEffect/>
 		</effects>
 	</item>

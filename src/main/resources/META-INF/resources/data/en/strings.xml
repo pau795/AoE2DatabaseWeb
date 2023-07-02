@@ -755,8 +755,8 @@
     <string name="bonus_tech_tree_description_29">Start with +3 Villagers but -50 wood, -200 food.</string>
     <string name="bonus_item_description_29">Start with +3 Villagers but -50 wood, -200 food.</string> 
     
-    <string name="bonus_tech_tree_description_30">Technologies cost -10/15/20% in Feudal/Castle/Imperial Age (except aging up).</string>
-    <string name="bonus_item_description_30">\@ research costs -10/15/20% in Feudal/Castle/Imperial Age.</string> 
+    <string name="bonus_tech_tree_description_30">Technologies cost 5/10/15% less in Feudal/Castle/Imperial Age (except aging up).</string>
+    <string name="bonus_item_description_30">\@ research costs 5/10/15% less in Feudal/Castle/Imperial Age.</string> 
     
     <string name="bonus_tech_tree_description_31">Town Centers support 10 population.</string>
     <string name="bonus_item_description_31">Town Centers support 10 population.</string> 
@@ -902,8 +902,8 @@
     <string name="bonus_tech_tree_description_78">Stone miners work 20% faster.</string>
     <string name="bonus_item_description_78">Stone miners work 20% faster.</string> 
     
-    <string name="bonus_tech_tree_description_79">Military units (except Siege units) cost -20% wood.</string>
-    <string name="bonus_item_description_79">\@ cost 20% less wood.</string> 
+    <string name="bonus_tech_tree_description_79">Infantry, Archers and Cavalry Archers cost -50% wood; Warships  cost -20% wood.</string>
+    <string name="bonus_item_description_79">Infantry, Archers and Cavalry Archers cost -50% wood; Warships  cost -20% wood.</string> 
     
     <string name="bonus_tech_tree_description_80">Tower upgrades are free (Bombard Tower requires Chemistry).</string>
     <string name="bonus_item_description_80">\@ upgrade is free.</string> 
@@ -923,8 +923,8 @@
     <string name="bonus_tech_tree_description_85">Scout Cavalry, Light Cavalry, Hussar cost -15%.</string>
     <string name="bonus_item_description_85">\@ cost -15%.</string> 
     
-    <string name="bonus_tech_tree_description_86">Foot Archers have +2 line of sight.</string>
-    <string name="bonus_item_description_86">\@ have +2 line of sight.</string> 
+    <string name="bonus_tech_tree_description_86">Cavalry Archers are trained 25% faster.</string>
+    <string name="bonus_item_description_86">\@ are trained 25% faster.</string> 
     
     <string name="bonus_tech_tree_description_87">Advancing to the next age is 66% faster.</string>
     <string name="bonus_item_description_87">\@ is researched 66% faster.</string> 
@@ -947,8 +947,8 @@
     <string name="bonus_tech_tree_description_93">Barracks units have +1/2/3 pierce armor in Feudal/Castle/Imperial Age.</string>
     <string name="bonus_item_description_93">\@ have +1/2/3 pierce armor in Feudal/Castle/Imperial Age.</string> 
     
-    <string name="bonus_tech_tree_description_94">Gold Miners drop off 15% more gold.</string>
-    <string name="bonus_item_description_94">Gold Miners drop off 15% more gold.</string> 
+    <string name="bonus_tech_tree_description_94">Gold Miners drop off 10% more gold.</string>
+    <string name="bonus_item_description_94">Gold Miners drop off 10% more gold.</string> 
     
     <string name="bonus_tech_tree_description_95">University research is 80% faster.</string>
     <string name="bonus_item_description_95">\@ are trained 80% faster.|\@ work 80% faster.|\@ is researched 80% faster.</string> 
@@ -1085,14 +1085,14 @@
     <string name="bonus_tech_tree_description_139">Light Cavalry and Hussar upgrades are free.</string>
     <string name="bonus_item_description_139">\@ upgrade is free.</string> 
     
-    <string name="bonus_tech_tree_description_140">Gunpowder units are created 25% faster.</string>
+    <string name="bonus_tech_tree_description_140">Gunpowder units are trained 25% faster.</string>
     <string name="bonus_item_description_140">\@ are trained 25% faster.</string> 
     
     <string name="bonus_tech_tree_description_141">Reveal enemy positions at the start of the game.</string>
     <string name="bonus_item_description_141">Reveal enemy positions at the start of the game.</string> 
     
-    <string name="bonus_tech_tree_description_142">Economy upgrades cost no wood.</string>
-    <string name="bonus_item_description_142">\@ research cost no wood.</string> 
+    <string name="bonus_tech_tree_description_142">Economic upgrades cost no wood and are researched twice as fast.</string>
+    <string name="bonus_item_description_142">\@ research cost no wood and is researched twice as fast.</string> 
     
     <string name="bonus_tech_tree_description_143">Archery Range units +20% hit points.</string>
     <string name="bonus_item_description_143">\@ have +20% hit points.</string> 
@@ -1313,8 +1313,8 @@
 	<string name="bonus_tech_tree_description_215">Villagers gather, build, and repair 5% faster.</string>
     <string name="bonus_item_description_215">\@ gather, build, and repair 5% faster.|\@ work 5% faster.|</string> 
 	
-	<string name="bonus_tech_tree_description_216">Galley-line have +1 attack; War Galleys have +1 melee and +1 pierce armor; Galleons and Dromons have +2 melee and +2 pierce armor.</string>
-    <string name="bonus_item_description_216">Galley-line have +1 attack; War Galleys have +1 melee and +1 pierce armor; Galleons and Dromons have +2 melee and +2 pierce armor.</string> 
+	<string name="bonus_tech_tree_description_216">Galley-line and Dromons have +1 melee and +1 pierce armor.</string>
+    <string name="bonus_item_description_216">\@ have +1 melee and +1 pierce armor.</string> 
 	
 	<string name="bonus_tech_tree_description_217">Infantry receives double effect from Blacksmith armor upgrades.</string>
     <string name="bonus_item_description_217">\@ receives double effect from Blacksmith armor upgrades.||\@ technology provides double the effect to Infantry units.</string> 
@@ -1324,6 +1324,9 @@
 	
 	<string name="bonus_tech_tree_description_219">Scorpion-line minimum range is reduced to 1.</string>
     <string name="bonus_item_description_219">\@ minimum range is reduced to 1.</string> 
+	
+	<string name="bonus_tech_tree_description_220">Monks move 20% faster.</string>
+    <string name="bonus_item_description_220">\@ move 20% faster.</string> 
 	
     <!--building_description.xml-->
      
@@ -2242,7 +2245,7 @@
     <string name="tech_description_nominative_26">Gillnets</string>
     <string name="tech_description_quick_26"/>
     <string name="tech_description_brief_26"/>
-    <string name="tech_description_long_26">Fishing Ships work 25% faster (It affects fishing and building Fish Traps).</string>
+    <string name="tech_description_long_26">Fishing Ships work 20% faster (It affects fishing and building Fish Traps).</string>
     <string name="tech_description_extra_26"/> 
     
     <string name="tech_description_nominative_27">Careening</string>
@@ -2455,17 +2458,17 @@
     <string name="tech_description_long_61">Britons Castle Age Unique Technology. Foot archers have +1 range; towers have +2 attack.</string>
     <string name="tech_description_extra_61">Foot archers get +1 range; towers get +2 attack.</string> 
     
-    <string name="tech_description_nominative_62">Howdah</string>
-    <string name="tech_description_quick_62">Battle Elephants +1/+1 armor</string>
+	<string name="tech_description_nominative_62">Manipur Cavalry</string>
+    <string name="tech_description_quick_62">Cavalry +4 attack against Archers</string>
     <string name="tech_description_brief_62"/>
-    <string name="tech_description_long_62">Burmese Castle Age Unique Technology. Battle Elephants receive +1 melee/+1 pierce armor.</string>
-    <string name="tech_description_extra_62">Battle Elephants receive +1 melee/+1 pierce armor.</string> 
+    <string name="tech_description_long_62">Burmese Imperial Age Unique Technology. Cavalry have +4 attack against Archers.</string>
+    <string name="tech_description_extra_62">Cavalry have +4 attack against Archers.</string> 
     
     <string name="tech_description_nominative_63">Greek Fire</string>
-    <string name="tech_description_quick_63">Fire Ships +1 range; Bombard Towers +0.5 blast radius</string>
+    <string name="tech_description_quick_63">Fire Ships +1 range; Bombard Towers +0.5 blast radius; Dromons +0.2 blast radius</string>
     <string name="tech_description_brief_63"/>
-    <string name="tech_description_long_63">Byzantines Castle Age Unique Technology. Fire Ships have +1 range; Bombard Towers receive +0.5 blast radius (+5 damage to adjacent units).</string>
-    <string name="tech_description_extra_63">Fire Ships have +1 range; Bombard Towers receive +0.5 blast radius (+5 damage to adjacent units).</string> 
+    <string name="tech_description_long_63">Byzantines Castle Age Unique Technology. Fire Ships have +1 range; Bombard Towers receive +0.5 blast radius (25% area of effect damage); Dromons receive +0.2 blast radius.</string>
+    <string name="tech_description_extra_63">Fire Ships have +1 range; Bombard Towers receive +0.5 blast radius (25% area of effect damage); Dromons receive +0.2 blast radius</string> 
     
     <string name="tech_description_nominative_64">Stronghold</string>
     <string name="tech_description_quick_64">Towers and Castles fire 33% faster; Castles heal nearby Infantry units</string>
@@ -2510,10 +2513,10 @@
     <string name="tech_description_extra_70">Upgrades your Skirmishers and Slingers by removing their minimum range; Slingers get +1 attack.</string> 
     
     <string name="tech_description_nominative_71">Grand Trunk Road</string>
-    <string name="tech_description_quick_71">All gold production +10% faster</string>
+    <string name="tech_description_quick_71">All gold production +10% faster; Market commodity fee reduced to 10%</string>
     <string name="tech_description_brief_71"/>
-    <string name="tech_description_long_71">Hindustanis Castle Age Unique Technology. All gold income +10% faster (Trade, mines, relics).</string>
-    <string name="tech_description_extra_71">All gold income +10% faster (Trade, mines, relics).</string> 
+    <string name="tech_description_long_71">Hindustanis Castle Age Unique Technology. All gold income +10% faster (Trade, mines, relics); Market commodity fee reduced to 10%</string>
+    <string name="tech_description_extra_71">All gold income +10% faster (Trade, mines, relics); Market commodity fee reduced to 10%.</string> 
     
     <string name="tech_description_nominative_72">Pavise</string>
     <string name="tech_description_quick_72">Foot Archers and Condottieri +1/+1 armor</string>
@@ -3145,12 +3148,12 @@
     <string name="tech_description_long_176">Britons Imperial Age Unique Technology. Improves your Trebuchets by giving them +0.5 blast radius and 100% accuracy against units.</string>
     <string name="tech_description_extra_176">Trebuchets get +0.5 blast radius and fire with 100% accuracy against units.</string> 
     
-    <string name="tech_description_nominative_177">Manipur Cavalry</string>
-    <string name="tech_description_quick_177">Cavalry +5 attack against Archers</string>
+	<string name="tech_description_nominative_177">Howdah</string>
+    <string name="tech_description_quick_177">Battle Elephants +1/+1 armor</string>
     <string name="tech_description_brief_177"/>
-    <string name="tech_description_long_177">Burmese Imperial Age Unique Technology. Cavalry have +5 attack against Archers.</string>
-    <string name="tech_description_extra_177">Cavalry have +5 attack against Archers.</string> 
-    
+    <string name="tech_description_long_177">Burmese Castle Age Unique Technology. Battle Elephants receive +1 melee/+1 pierce armor.</string>
+    <string name="tech_description_extra_177">Battle Elephants receive +1 melee/+1 pierce armor.</string> 
+	    
     <string name="tech_description_nominative_178">Logistica</string>
     <string name="tech_description_quick_178">Cataphracts do trample damage, +6 attack against infantry</string>
     <string name="tech_description_brief_178"/>
@@ -3554,10 +3557,10 @@
     <string name="tech_description_extra_244"/> 
 	
 	<string name="tech_description_nominative_245">Ballistas</string>
-    <string name="tech_description_quick_245">Scorpions and Galley-line fire 33% faster</string>
+    <string name="tech_description_quick_245">Scorpions fire 33% faster; Galley-line +2 attack</string>
     <string name="tech_description_brief_245"/>
-    <string name="tech_description_long_245">Romans Castle Age Unique Technology. Scorpions and Galley-line fire 33% faster.</string>
-    <string name="tech_description_extra_245">Scorpions and Galley-line fire 33% faster.</string> 
+    <string name="tech_description_long_245">Romans Castle Age Unique Technology. Scorpions fire 33% faster; Galley-line receive +2 attack.</string>
+    <string name="tech_description_extra_245">Scorpions fire 33% faster; Galley-line receive +2 attack.</string> 
 	
 	<string name="tech_description_nominative_246">Legionary</string>
     <string name="tech_description_quick_246"></string>

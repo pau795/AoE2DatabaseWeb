@@ -172,6 +172,8 @@
 		<entry nameID="building_armor_values">
 			<value type="1">0</value>
 			<value type="2">0</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
 			<value type="31">0</value>
 		</entry>
 	</item>
