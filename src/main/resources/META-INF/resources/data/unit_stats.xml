@@ -601,7 +601,7 @@
 		<stats hitPoints="80" attack="14" meleeArmor="7" pierceArmor="2" range="-" minimumRange="-" lineOfSight="3" reloadTime="2" speed="0.8" blastRadius="-" attackDelay="0" accuracy="100" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="1" trainingTime="12" workRate="-" healRate="0" hillBonus="1.25" hillReduction="0.75" bonusReduction="1" chargeAttack="-" chargeReload="-" relics="-" ignoreArmor="-" resistArmorIgnore="-"/>
 		<cost>
 			<resource name="Food">85</resource>
-			<resource name="Gold">35</resource>
+			<resource name="Gold">30</resource>
 		</cost>
 		<development requiredTechID="0" previousUpgradeID="0" nextUpgradeID="131"/>
 	</item>
@@ -1167,7 +1167,7 @@
 		<stats hitPoints="100" attack="17" meleeArmor="10" pierceArmor="2" range="-" minimumRange="-" lineOfSight="5" reloadTime="2" speed="0.8" blastRadius="-" attackDelay="0" accuracy="100" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="1" trainingTime="12" workRate="-" healRate="0" hillBonus="1.25" hillReduction="0.75" bonusReduction="1" chargeAttack="-" chargeReload="-" relics="-" ignoreArmor="-" resistArmorIgnore="-"/>
 		<cost>
 			<resource name="Food">85</resource>
-			<resource name="Gold">35</resource>
+			<resource name="Gold">30</resource>
 		</cost>
 		<development requiredTechID="170" previousUpgradeID="68" nextUpgradeID="0"/>
 	</item>

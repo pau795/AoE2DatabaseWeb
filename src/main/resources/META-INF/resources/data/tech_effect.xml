@@ -2255,8 +2255,12 @@
 		<effects>
 			<statEffect>
 				<effectItem>
-					<filter/>
+					<filter class="building" ids="26"/>
 					<operation stat="1" operator="*" value="1.21"/>
+				</effectItem>
+				<effectItem>
+					<filter class="building" ids="33"/>
+					<operation stat="1" operator="*" value="1.44"/>
 				</effectItem>
 			</statEffect>
 			<costEffect/>
