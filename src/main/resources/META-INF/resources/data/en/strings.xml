@@ -785,8 +785,8 @@
     <string name="bonus_tech_tree_description_39">Foragers work 15% faster.</string>
     <string name="bonus_item_description_39">Foragers work 15% faster.</string> 
     
-    <string name="bonus_tech_tree_description_40">Castles cost -25%.</string>
-    <string name="bonus_item_description_40">Castles cost -25%.</string> 
+    <string name="bonus_tech_tree_description_40">Castles cost 15/25% less in Castle/Imperial Age.</string>
+    <string name="bonus_item_description_40">Castles cost 15/25% less in Castle/Imperial Age.</string> 
     
     <string name="bonus_tech_tree_description_41">Cavalry have +20% hit points, starting in Feudal Age.</string>
     <string name="bonus_item_description_41">\@ have +20% hit points starting in Feudal Age.</string> 
@@ -3868,7 +3868,7 @@
     <string name="type_name_29">Fishing Ships</string>
     <string name="type_name_30">Mamelukes</string>
     <string name="type_name_31">Ignore Armor (Leitis)</string>
-    <string name="type_name_32">Hussite Wagon</string>
+    <string name="type_name_32">Heavy Siege</string>
     <string name="type_name_33">Skirmishers</string>
     <string name="type_name_34">Mounted Unit Resistance</string>
      

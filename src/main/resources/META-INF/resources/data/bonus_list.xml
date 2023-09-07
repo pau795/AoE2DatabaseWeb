@@ -117,7 +117,7 @@
     <!--Foragers work 15% faster.-->
     <item id="39"/>
      
-    <!--Castles cost -25%.-->
+    <!--Castles cost -15/25% in Castle/Imperial Age.-->
     <item id="40"/>
      
     <!--Cavalry have +20% hit points, starting in Feudal Age.-->

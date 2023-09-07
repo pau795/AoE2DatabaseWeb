@@ -677,8 +677,8 @@
     <string name="bonus_tech_tree_description_6">Los Aldeanos se mueven un 5/10/10/10% más rápido en la Edad Alta/Feudal/Castillos/Imperial.</string>
     <string name="bonus_item_description_6">Los Aldeanos se mueven un 5/10/10/10% más rápido en la Edad Alta/Feudal/Castillos/Imperial.</string> 
     
-    <string name="bonus_tech_tree_description_7">Las unidades del Establo cuestan un 15/20% menos en la Edad Castillos/Imperial.</string>
-    <string name="bonus_item_description_7">\@ cuestan un 15/20% menos en la Edad Castillos/Imperial.</string> 
+    <string name="bonus_tech_tree_description_7">Las unidades del Establo cuestan un 15/20% menos en la Edad de los Castillos/Imperial.</string>
+    <string name="bonus_item_description_7">\@ cuestan un 15/20% menos en la Edad de los Castillos/Imperial.</string> 
     
     <string name="bonus_tech_tree_description_8">Los barcos se mueven un 10% más rápido.</string>
     <string name="bonus_item_description_8">\@ se mueve un 10% más rápido.</string> 
@@ -689,8 +689,8 @@
     <string name="bonus_tech_tree_description_10">Los Centros Urbanos cuestan un 50% menos de madera a partir de la Edad de los Castillos.</string>
     <string name="bonus_item_description_10">Los Centros Urbanos cuestan un 50% menos de madera a partir de la Edad de los Castillos.</string> 
     
-    <string name="bonus_tech_tree_description_11">Los arqueros a pie (excepto Hostigadores) tienen +1/2 de alcance en la Edad Castillos/Imperial.</string>
-    <string name="bonus_item_description_11">\@ tienen +1/2 de alcance en la Edad Castillos/Imperial.</string> 
+    <string name="bonus_tech_tree_description_11">Los arqueros a pie (excepto Hostigadores) tienen +1/2 de alcance en la Edad de los Castillos/Imperial.</string>
+    <string name="bonus_item_description_11">\@ tienen +1/2 de alcance en la Edad de los Castillos/Imperial.</string> 
     
     <string name="bonus_tech_tree_description_12">Los Pastores trabajan un 25% más rápido.</string>
     <string name="bonus_item_description_12">Los Pastores trabajan un 25% más rápido.</string> 
@@ -776,8 +776,8 @@
     <string name="bonus_tech_tree_description_39">Los Recolectores trabajan un 15% más rápido.</string>
     <string name="bonus_item_description_39">Los Recolectores trabajan un 15% más rápido.</string> 
     
-    <string name="bonus_tech_tree_description_40">Los Castillos cuestan un 25% menos.</string>
-    <string name="bonus_item_description_40">Los Castillos cuestan un 25% menos.</string> 
+    <string name="bonus_tech_tree_description_40">Los Castillos cuestan un 15/25% menos en la Edad de los Castillos/Imperial.</string>
+    <string name="bonus_item_description_40">Los Castillos cuestan un 15/25% menos en la Edad de los Castillos/Imperial.</string> 
     
     <string name="bonus_tech_tree_description_41">La Caballería tiene un 20% más de puntos de resistencia a partir de la Eadad Feudal.</string>
     <string name="bonus_item_description_41">\@ tienen un 20% más de puntos de resistencia a partir de la Eadad Feudal.</string> 
@@ -809,8 +809,8 @@
     <string name="bonus_tech_tree_description_50">No necesitan Casas, pero comienzan con -100 de madera.</string>
     <string name="bonus_item_description_50">\@ no son necesarias.</string> 
     
-    <string name="bonus_tech_tree_description_51">Los Arqueros a Caballo cuestan un 10/20% menos en la Edad Castillos/Imperial.</string>
-    <string name="bonus_item_description_51">\@ cuestan un 10/20% menos en la Edad Castillos/Imperial.</string> 
+    <string name="bonus_tech_tree_description_51">Los Arqueros a Caballo cuestan un 10/20% menos en la Edad de los Castillos/Imperial.</string>
+    <string name="bonus_item_description_51">\@ cuestan un 10/20% menos en la Edad de los Castillos/Imperial.</string> 
     
     <string name="bonus_tech_tree_description_52">Los Lanzapiedras tienen un 35% más de precisión.</string>
     <string name="bonus_item_description_52">\@ tienen un 35% más de precisión.</string> 
@@ -926,8 +926,8 @@
     <string name="bonus_tech_tree_description_89">Las Trampas para Peces proporcionan el triple de alimento.</string>
     <string name="bonus_item_description_89">Las Trampas para Peces proporcionan el triple de alimento.</string> 
     
-    <string name="bonus_tech_tree_description_90">Los Elefantes de Combate cuestan un 30/40% menos en la Edad Castillos/Imperial.</string>
-    <string name="bonus_item_description_90">\@ cuestan un 30/40% menos en la Edad Castillos/Imperial.</string> 
+    <string name="bonus_tech_tree_description_90">Los Elefantes de Combate cuestan un 30/40% menos en la Edad de los Castillos/Imperial.</string>
+    <string name="bonus_item_description_90">\@ cuestan un 30/40% menos en la Edad de los Castillos/Imperial.</string> 
     
     <string name="bonus_tech_tree_description_91">Los Muelles tienen un 100% más de campo de visión.</string>
     <string name="bonus_item_description_91">\@ tienen un +100% más de campo de visión.</string> 
@@ -1055,8 +1055,8 @@
     <string name="bonus_tech_tree_description_132">Los Centros Urbanos pueden guarecer 10 unidades más.</string>
     <string name="bonus_item_description_132">Los Centros Urbanos pueden guarecer 10 unidades más.</string> 
     
-    <string name="bonus_tech_tree_description_133">Las unidades de los Cuarteles y los Establos tienen +1/2 de armadura melé en la Edad Castillos/Imperial.</string>
-    <string name="bonus_item_description_133">\@ tienen +1/2 de armadura melé en la Edad Castillos/Imperial.</string> 
+    <string name="bonus_tech_tree_description_133">Las unidades de los Cuarteles y los Establos tienen +1/2 de armadura melé en la Edad de los Castillos/Imperial.</string>
+    <string name="bonus_item_description_133">\@ tienen +1/2 de armadura melé en la Edad de los Castillos/Imperial.</string> 
     
     <string name="bonus_tech_tree_description_134">Las unidades y los edificios son más resistentes a la conversión.</string>
     <string name="bonus_item_description_134">\@ son más resistentes a la conversión.</string> 
@@ -3860,7 +3860,7 @@
     <string name="type_name_29">Pesqueros</string>
     <string name="type_name_30">Mamelucos</string>
     <string name="type_name_31">Ignorar Armad. (Leitis)</string>
-    <string name="type_name_32">Carreta de Guerra Husita</string>
+    <string name="type_name_32">Asedio Pesado</string>
     <string name="type_name_33">Hostigadores</string>
     <string name="type_name_34">Resistencia a Unidades Montadas</string>
      

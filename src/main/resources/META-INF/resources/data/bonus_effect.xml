@@ -660,13 +660,13 @@
 		</effects>
 	</item>
 	<item id="40">
-		<info civ="9" globalFilter="none" teamBonus="false" staggered="false"/>
+		<info civ="9" globalFilter="none" teamBonus="false" staggered="true"/>
 		<effects>
 			<statEffect/>
 			<costEffect>
 				<effectItem>
 					<filter/>
-					<operation stat="All" operator="*" value="0.75"/>
+					<operation stat="All" operator="*" value="0.85 0.85 0.85 0.75"/>
 				</effectItem>
 			</costEffect>
 			<ecoEffect/>
