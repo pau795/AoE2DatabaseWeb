@@ -39,3 +39,7 @@ public abstract class BaseView extends Div implements HasDynamicTitle, BeforeEnt
         }
     }
 }
+
+
+
+
