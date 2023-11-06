@@ -106,10 +106,14 @@ public class CivilizationView extends TwoColumnView {
         if (civ.getUniqueBuildingList().size() > 0){
             Label uniqueBuildings = new Label(Database.getString("civilization_unique_buildings", language));
             uniqueBuildings.addClassNames("title");
-            CivilizationEntityButton uniqueBuilding1 = new CivilizationEntityButton(Database.getBuilding(civ.getUniqueBuildingList().get(0)), civID, language);
-            entitiesLayout.add(uniqueBuildings, new Hr(), uniqueBuilding1);
+            entitiesLayout.add(uniqueBuildings, new Hr());
+            for (int buildingID: civ.getUniqueBuildingList()){
+                CivilizationEntityButton uniqueBuilding = new CivilizationEntityButton(Database.getBuilding(buildingID), civID, language);
+                entitiesLayout.add(uniqueBuilding, new Hr());
+
+            }
         }
-        entitiesLayout.add(new Hr());
+        else entitiesLayout.add(new Hr());
         return entitiesLayout;
     }
 

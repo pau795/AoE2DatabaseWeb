@@ -912,11 +912,13 @@ public class Reader {
 
                 //UNIQUE BUILDINGS
                 Element buildingSection = (Element) item.getElementsByTagName("uniqueBuildings").item(0);
-                NamedNodeMap buildingList = buildingSection.getAttributes();
-                for (int j = 0; j < buildingList.getLength(); ++j) {
-                    Attr attr = (Attr) buildingList.item(j);
-                    int buildingID = Integer.parseInt(attr.getValue());
-                    civ.addUniqueBuilding(buildingID);
+                NamedNodeMap uniqueBuildingsAttributes = buildingSection.getAttributes();
+                Node buildingIDs = uniqueBuildingsAttributes.getNamedItem("buildingIDs");
+                if (buildingIDs != null){
+                    String[] ids = ((Attr) buildingIDs).getValue().split(" ");
+                    for (String id: ids){
+                        civ.addUniqueBuilding(Integer.parseInt(id));
+                    }
                 }
                 civ.setBonuses(bc);
 
