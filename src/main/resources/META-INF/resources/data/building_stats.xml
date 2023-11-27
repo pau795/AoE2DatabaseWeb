@@ -2,7 +2,7 @@
 <list>
 	<item id="1">
 		<baseInfo builderUnitID="1" ageID="-1" classID="2"/>
-		<stats hitPoints="2400" attack="5" meleeArmor="3" pierceArmor="5" range="6" minimumRange="-" lineOfSight="8" reloadTime="2" attackDelay="0" accuracy="100" numberProjectiles="0" projectileSpeed="7" garrisonCapacity="15" populationTaken="5" trainingTime="150" workRate="1" healRate="0.1" hillBonus="1.25" hillReduction="0.75"/>
+		<stats hitPoints="2400" attack="5" meleeArmor="3" pierceArmor="5" range="6" minimumRange="-" lineOfSight="8" reloadTime="2" attackDelay="0" accuracy="100" numberProjectiles="0" projectileSpeed="7" garrisonCapacity="15" populationTaken="5" trainingTime="150" workRate="1" healRate="0.1" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1"/>
 		<cost>
 			<resource name="Wood">275</resource>
 			<resource name="Stone">100</resource>
@@ -11,7 +11,7 @@
 	</item>
 	<item id="2">
 		<baseInfo builderUnitID="1" ageID="-1" classID="2"/>
-		<stats hitPoints="550" attack="-" meleeArmor="-2" pierceArmor="7" range="-" minimumRange="-" lineOfSight="2" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="0" populationTaken="5" trainingTime="25" workRate="-" healRate="-" hillBonus="1.25" hillReduction="0.75"/>
+		<stats hitPoints="550" attack="-" meleeArmor="-2" pierceArmor="7" range="-" minimumRange="-" lineOfSight="2" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="0" populationTaken="5" trainingTime="25" workRate="-" healRate="-" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1"/>
 		<cost>
 			<resource name="Wood">25</resource>
 		</cost>
@@ -19,7 +19,7 @@
 	</item>
 	<item id="3">
 		<baseInfo builderUnitID="1" ageID="-1" classID="2"/>
-		<stats hitPoints="600" attack="-" meleeArmor="0" pierceArmor="7" range="-" minimumRange="-" lineOfSight="6" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="-" trainingTime="35" workRate="1" healRate="-" hillBonus="1.25" hillReduction="0.75"/>
+		<stats hitPoints="600" attack="-" meleeArmor="0" pierceArmor="7" range="-" minimumRange="-" lineOfSight="6" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="-" trainingTime="35" workRate="1" healRate="-" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1"/>
 		<cost>
 			<resource name="Wood">100</resource>
 		</cost>
@@ -27,7 +27,7 @@
 	</item>
 	<item id="4">
 		<baseInfo builderUnitID="1" ageID="-1" classID="2"/>
-		<stats hitPoints="600" attack="-" meleeArmor="0" pierceArmor="7" range="-" minimumRange="-" lineOfSight="6" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="0" populationTaken="-" trainingTime="35" workRate="1" healRate="-" hillBonus="1.25" hillReduction="0.75"/>
+		<stats hitPoints="600" attack="-" meleeArmor="0" pierceArmor="7" range="-" minimumRange="-" lineOfSight="6" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="0" populationTaken="-" trainingTime="35" workRate="1" healRate="-" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1"/>
 		<cost>
 			<resource name="Wood">100</resource>
 		</cost>
@@ -35,7 +35,7 @@
 	</item>
 	<item id="5">
 		<baseInfo builderUnitID="1" ageID="-1" classID="2"/>
-		<stats hitPoints="600" attack="-" meleeArmor="0" pierceArmor="7" range="-" minimumRange="-" lineOfSight="6" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="-" trainingTime="35" workRate="1" healRate="-" hillBonus="1.25" hillReduction="0.75"/>
+		<stats hitPoints="600" attack="-" meleeArmor="0" pierceArmor="7" range="-" minimumRange="-" lineOfSight="6" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="-" trainingTime="35" workRate="1" healRate="-" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1"/>
 		<cost>
 			<resource name="Wood">100</resource>
 		</cost>
@@ -43,7 +43,7 @@
 	</item>
 	<item id="6">
 		<baseInfo builderUnitID="1" ageID="-1" classID="2"/>
-		<stats hitPoints="1800" attack="-" meleeArmor="0" pierceArmor="7" range="-" minimumRange="-" lineOfSight="6" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="10" populationTaken="-" trainingTime="35" workRate="1" healRate="-" hillBonus="1.25" hillReduction="0.75"/>
+		<stats hitPoints="1800" attack="-" meleeArmor="0" pierceArmor="7" range="-" minimumRange="-" lineOfSight="6" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="10" populationTaken="-" trainingTime="35" workRate="1" healRate="-" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1"/>
 		<cost>
 			<resource name="Wood">150</resource>
 		</cost>
@@ -51,7 +51,7 @@
 	</item>
 	<item id="7">
 		<baseInfo builderUnitID="1" ageID="-1" classID="2"/>
-		<stats hitPoints="480" attack="-" meleeArmor="0" pierceArmor="0" range="-" minimumRange="-" lineOfSight="1" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="-" trainingTime="15" workRate="0.4" healRate="-" hillBonus="1.25" hillReduction="0.75"/>
+		<stats hitPoints="480" attack="-" meleeArmor="0" pierceArmor="0" range="-" minimumRange="-" lineOfSight="1" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="-" trainingTime="15" workRate="0.4" healRate="-" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1"/>
 		<cost>
 			<resource name="Wood">60</resource>
 		</cost>
@@ -59,7 +59,7 @@
 	</item>
 	<item id="8">
 		<baseInfo builderUnitID="1" ageID="-1" classID="2"/>
-		<stats hitPoints="1200" attack="-" meleeArmor="0" pierceArmor="7" range="-" minimumRange="-" lineOfSight="6" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="10" populationTaken="0" trainingTime="50" workRate="1" healRate="-" hillBonus="1.25" hillReduction="0.75"/>
+		<stats hitPoints="1200" attack="-" meleeArmor="0" pierceArmor="7" range="-" minimumRange="-" lineOfSight="6" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="10" populationTaken="0" trainingTime="50" workRate="1" healRate="-" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1"/>
 		<cost>
 			<resource name="Wood">175</resource>
 		</cost>
@@ -67,7 +67,7 @@
 	</item>
 	<item id="9">
 		<baseInfo builderUnitID="1" ageID="-1" classID="2"/>
-		<stats hitPoints="500" attack="-" meleeArmor="0" pierceArmor="0" range="-" minimumRange="-" lineOfSight="6" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="-" trainingTime="15" workRate="-" healRate="-" hillBonus="1.25" hillReduction="0.75"/>
+		<stats hitPoints="500" attack="-" meleeArmor="0" pierceArmor="0" range="-" minimumRange="-" lineOfSight="6" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="-" trainingTime="15" workRate="-" healRate="-" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1"/>
 		<cost>
 			<resource name="Wood">25</resource>
 			<resource name="Stone">5</resource>
@@ -76,7 +76,7 @@
 	</item>
 	<item id="10">
 		<baseInfo builderUnitID="1" ageID="-1" classID="18"/>
-		<stats hitPoints="150" attack="-" meleeArmor="2" pierceArmor="5" range="-" minimumRange="-" lineOfSight="2" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="-" trainingTime="7" workRate="-" healRate="-" hillBonus="1.25" hillReduction="0.75"/>
+		<stats hitPoints="150" attack="-" meleeArmor="2" pierceArmor="5" range="-" minimumRange="-" lineOfSight="2" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="-" trainingTime="7" workRate="-" healRate="-" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1"/>
 		<cost>
 			<resource name="Wood">3</resource>
 		</cost>
@@ -84,7 +84,7 @@
 	</item>
 	<item id="11">
 		<baseInfo builderUnitID="1" ageID="-1" classID="19"/>
-		<stats hitPoints="240" attack="-" meleeArmor="2" pierceArmor="2" range="-" minimumRange="-" lineOfSight="6" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="-" trainingTime="30" workRate="-" healRate="-" hillBonus="1.25" hillReduction="0.75"/>
+		<stats hitPoints="240" attack="-" meleeArmor="2" pierceArmor="2" range="-" minimumRange="-" lineOfSight="6" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="-" trainingTime="30" workRate="-" healRate="-" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1"/>
 		<cost>
 			<resource name="Wood">30</resource>
 		</cost>
@@ -92,7 +92,7 @@
 	</item>
 	<item id="12">
 		<baseInfo builderUnitID="1" ageID="2" classID="2"/>
-		<stats hitPoints="1800" attack="-" meleeArmor="1" pierceArmor="8" range="-" minimumRange="-" lineOfSight="6" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="-" trainingTime="40" workRate="1" healRate="-" hillBonus="1.25" hillReduction="0.75"/>
+		<stats hitPoints="1800" attack="-" meleeArmor="1" pierceArmor="8" range="-" minimumRange="-" lineOfSight="6" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="-" trainingTime="40" workRate="1" healRate="-" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1"/>
 		<cost>
 			<resource name="Wood">150</resource>
 		</cost>
@@ -100,7 +100,7 @@
 	</item>
 	<item id="13">
 		<baseInfo builderUnitID="1" ageID="2" classID="2"/>
-		<stats hitPoints="1800" attack="-" meleeArmor="1" pierceArmor="8" range="-" minimumRange="-" lineOfSight="6" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="10" populationTaken="-" trainingTime="60" workRate="1" healRate="-" hillBonus="1.25" hillReduction="0.75"/>
+		<stats hitPoints="1800" attack="-" meleeArmor="1" pierceArmor="8" range="-" minimumRange="-" lineOfSight="6" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="10" populationTaken="-" trainingTime="60" workRate="1" healRate="-" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1"/>
 		<cost>
 			<resource name="Wood">175</resource>
 		</cost>
@@ -108,7 +108,7 @@
 	</item>
 	<item id="14">
 		<baseInfo builderUnitID="1" ageID="2" classID="2"/>
-		<stats hitPoints="1500" attack="-" meleeArmor="1" pierceArmor="8" range="-" minimumRange="-" lineOfSight="6" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="10" populationTaken="0" trainingTime="50" workRate="1" healRate="-" hillBonus="1.25" hillReduction="0.75"/>
+		<stats hitPoints="1500" attack="-" meleeArmor="1" pierceArmor="8" range="-" minimumRange="-" lineOfSight="6" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="10" populationTaken="0" trainingTime="50" workRate="1" healRate="-" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1"/>
 		<cost>
 			<resource name="Wood">175</resource>
 		</cost>
@@ -116,7 +116,7 @@
 	</item>
 	<item id="15">
 		<baseInfo builderUnitID="1" ageID="2" classID="2"/>
-		<stats hitPoints="1500" attack="-" meleeArmor="1" pierceArmor="8" range="-" minimumRange="-" lineOfSight="6" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="10" populationTaken="0" trainingTime="50" workRate="1" healRate="-" hillBonus="1.25" hillReduction="0.75"/>
+		<stats hitPoints="1500" attack="-" meleeArmor="1" pierceArmor="8" range="-" minimumRange="-" lineOfSight="6" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="10" populationTaken="0" trainingTime="50" workRate="1" healRate="-" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1"/>
 		<cost>
 			<resource name="Wood">175</resource>
 		</cost>
@@ -124,7 +124,7 @@
 	</item>
 	<item id="16">
 		<baseInfo builderUnitID="1" ageID="2" classID="18"/>
-		<stats hitPoints="1080" attack="-" meleeArmor="8" pierceArmor="10" range="-" minimumRange="-" lineOfSight="2" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="-" trainingTime="10" workRate="-" healRate="-" hillBonus="1.25" hillReduction="0.75"/>
+		<stats hitPoints="1080" attack="-" meleeArmor="8" pierceArmor="10" range="-" minimumRange="-" lineOfSight="2" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="-" trainingTime="10" workRate="-" healRate="-" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1"/>
 		<cost>
 			<resource name="Stone">5</resource>
 		</cost>
@@ -132,7 +132,7 @@
 	</item>
 	<item id="17">
 		<baseInfo builderUnitID="1" ageID="2" classID="19"/>
-		<stats hitPoints="1650" attack="-" meleeArmor="6" pierceArmor="6" range="-" minimumRange="-" lineOfSight="6" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="-" trainingTime="70" workRate="-" healRate="-" hillBonus="1.25" hillReduction="0.75"/>
+		<stats hitPoints="1650" attack="-" meleeArmor="6" pierceArmor="6" range="-" minimumRange="-" lineOfSight="6" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="-" trainingTime="70" workRate="-" healRate="-" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1"/>
 		<cost>
 			<resource name="Stone">30</resource>
 		</cost>
@@ -140,7 +140,7 @@
 	</item>
 	<item id="18">
 		<baseInfo builderUnitID="1" ageID="2" classID="11"/>
-		<stats hitPoints="850" attack="5" meleeArmor="1" pierceArmor="7" range="8" minimumRange="1" lineOfSight="10" reloadTime="2" attackDelay="0" accuracy="100" numberProjectiles="1" projectileSpeed="7" garrisonCapacity="5" populationTaken="-" trainingTime="80" workRate="-" healRate="0.1" hillBonus="1.25" hillReduction="0.75"/>
+		<stats hitPoints="850" attack="5" meleeArmor="1" pierceArmor="7" range="8" minimumRange="1" lineOfSight="10" reloadTime="2" attackDelay="0" accuracy="100" numberProjectiles="1" projectileSpeed="7" garrisonCapacity="5" populationTaken="-" trainingTime="80" workRate="-" healRate="0.1" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1"/>
 		<cost>
 			<resource name="Wood">50</resource>
 			<resource name="Stone">125</resource>
@@ -149,7 +149,7 @@
 	</item>
 	<item id="19">
 		<baseInfo builderUnitID="2" ageID="2" classID="2"/>
-		<stats hitPoints="50" attack="-" meleeArmor="0" pierceArmor="0" range="-" minimumRange="-" lineOfSight="1" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="-" trainingTime="40" workRate="1" healRate="-" hillBonus="1.25" hillReduction="0.75"/>
+		<stats hitPoints="50" attack="-" meleeArmor="0" pierceArmor="0" range="-" minimumRange="-" lineOfSight="1" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="-" trainingTime="40" workRate="1" healRate="-" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1"/>
 		<cost>
 			<resource name="Wood">100</resource>
 		</cost>
@@ -157,7 +157,7 @@
 	</item>
 	<item id="20">
 		<baseInfo builderUnitID="1" ageID="19" classID="2"/>
-		<stats hitPoints="2100" attack="-" meleeArmor="2" pierceArmor="9" range="-" minimumRange="-" lineOfSight="6" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="10" populationTaken="-" trainingTime="40" workRate="1" healRate="-" hillBonus="1.25" hillReduction="0.75"/>
+		<stats hitPoints="2100" attack="-" meleeArmor="2" pierceArmor="9" range="-" minimumRange="-" lineOfSight="6" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="10" populationTaken="-" trainingTime="40" workRate="1" healRate="-" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1"/>
 		<cost>
 			<resource name="Wood">175</resource>
 		</cost>
@@ -165,7 +165,7 @@
 	</item>
 	<item id="21">
 		<baseInfo builderUnitID="1" ageID="19" classID="2"/>
-		<stats hitPoints="2100" attack="-" meleeArmor="2" pierceArmor="9" range="-" minimumRange="-" lineOfSight="6" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="-" trainingTime="60" workRate="1" healRate="-" hillBonus="1.25" hillReduction="0.75"/>
+		<stats hitPoints="2100" attack="-" meleeArmor="2" pierceArmor="9" range="-" minimumRange="-" lineOfSight="6" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="-" trainingTime="60" workRate="1" healRate="-" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1"/>
 		<cost>
 			<resource name="Wood">200</resource>
 		</cost>
@@ -173,7 +173,7 @@
 	</item>
 	<item id="22">
 		<baseInfo builderUnitID="1" ageID="19" classID="2"/>
-		<stats hitPoints="1800" attack="-" meleeArmor="2" pierceArmor="9" range="-" minimumRange="-" lineOfSight="6" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="10" populationTaken="0" trainingTime="40" workRate="1" healRate="-" hillBonus="1.25" hillReduction="0.75"/>
+		<stats hitPoints="1800" attack="-" meleeArmor="2" pierceArmor="9" range="-" minimumRange="-" lineOfSight="6" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="10" populationTaken="0" trainingTime="40" workRate="1" healRate="-" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1"/>
 		<cost>
 			<resource name="Wood">200</resource>
 		</cost>
@@ -181,7 +181,7 @@
 	</item>
 	<item id="23">
 		<baseInfo builderUnitID="1" ageID="19" classID="18"/>
-		<stats hitPoints="3000" attack="-" meleeArmor="12" pierceArmor="12" range="-" minimumRange="-" lineOfSight="2" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="-" trainingTime="10" workRate="-" healRate="-" hillBonus="1.25" hillReduction="0.75"/>
+		<stats hitPoints="3000" attack="-" meleeArmor="12" pierceArmor="12" range="-" minimumRange="-" lineOfSight="2" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="-" trainingTime="10" workRate="-" healRate="-" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1"/>
 		<cost>
 			<resource name="Stone">5</resource>
 		</cost>
@@ -189,7 +189,7 @@
 	</item>
 	<item id="24">
 		<baseInfo builderUnitID="1" ageID="19" classID="19"/>
-		<stats hitPoints="4000" attack="-" meleeArmor="6" pierceArmor="6" range="-" minimumRange="-" lineOfSight="6" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="-" trainingTime="70" workRate="-" healRate="-" hillBonus="1.25" hillReduction="0.75"/>
+		<stats hitPoints="4000" attack="-" meleeArmor="6" pierceArmor="6" range="-" minimumRange="-" lineOfSight="6" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="-" trainingTime="70" workRate="-" healRate="-" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1"/>
 		<cost>
 			<resource name="Stone">30</resource>
 		</cost>
@@ -197,7 +197,7 @@
 	</item>
 	<item id="25">
 		<baseInfo builderUnitID="1" ageID="19" classID="11"/>
-		<stats hitPoints="1500" attack="7" meleeArmor="2" pierceArmor="8" range="8" minimumRange="1" lineOfSight="10" reloadTime="2" attackDelay="0" accuracy="100" numberProjectiles="1" projectileSpeed="7" garrisonCapacity="5" populationTaken="-" trainingTime="80" workRate="-" healRate="0.1" hillBonus="1.25" hillReduction="0.75"/>
+		<stats hitPoints="1500" attack="7" meleeArmor="2" pierceArmor="8" range="8" minimumRange="1" lineOfSight="10" reloadTime="2" attackDelay="0" accuracy="100" numberProjectiles="1" projectileSpeed="7" garrisonCapacity="5" populationTaken="-" trainingTime="80" workRate="-" healRate="0.1" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1"/>
 		<cost>
 			<resource name="Wood">50</resource>
 			<resource name="Stone">125</resource>
@@ -206,7 +206,7 @@
 	</item>
 	<item id="26">
 		<baseInfo builderUnitID="1" ageID="19" classID="2"/>
-		<stats hitPoints="4800" attack="11" meleeArmor="8" pierceArmor="11" range="8" minimumRange="1" lineOfSight="11" reloadTime="2" attackDelay="0" accuracy="100" numberProjectiles="5" projectileSpeed="7" garrisonCapacity="20" populationTaken="20" trainingTime="200" workRate="1" healRate="0.2" hillBonus="1.25" hillReduction="0.75"/>
+		<stats hitPoints="4800" attack="11" meleeArmor="8" pierceArmor="11" range="8" minimumRange="1" lineOfSight="11" reloadTime="2" attackDelay="0" accuracy="100" numberProjectiles="5" projectileSpeed="7" garrisonCapacity="20" populationTaken="20" trainingTime="200" workRate="1" healRate="0.2" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1"/>
 		<cost>
 			<resource name="Stone">650</resource>
 		</cost>
@@ -214,7 +214,7 @@
 	</item>
 	<item id="27">
 		<baseInfo builderUnitID="1" ageID="19" classID="2"/>
-		<stats hitPoints="2000" attack="3" meleeArmor="3" pierceArmor="10" range="7" minimumRange="0" lineOfSight="10" reloadTime="3" attackDelay="0" accuracy="100" numberProjectiles="4" projectileSpeed="7" garrisonCapacity="10" populationTaken="-" trainingTime="35" workRate="1" healRate="-" hillBonus="1.25" hillReduction="0.75"/>
+		<stats hitPoints="2000" attack="3" meleeArmor="3" pierceArmor="10" range="7" minimumRange="0" lineOfSight="10" reloadTime="3" attackDelay="0" accuracy="100" numberProjectiles="4" projectileSpeed="7" garrisonCapacity="10" populationTaken="-" trainingTime="35" workRate="1" healRate="-" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1"/>
 		<cost>
 			<resource name="Wood">150</resource>
 		</cost>
@@ -222,7 +222,7 @@
 	</item>
 	<item id="28">
 		<baseInfo builderUnitID="1" ageID="90" classID="2"/>
-		<stats hitPoints="4800" attack="-" meleeArmor="3" pierceArmor="10" range="-" minimumRange="-" lineOfSight="8" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="-" trainingTime="3500" workRate="-" healRate="-" hillBonus="1.25" hillReduction="0.75"/>
+		<stats hitPoints="4800" attack="-" meleeArmor="3" pierceArmor="10" range="-" minimumRange="-" lineOfSight="8" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="-" trainingTime="3500" workRate="-" healRate="-" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1"/>
 		<cost>
 			<resource name="Wood">1000</resource>
 			<resource name="Gold">1000</resource>
@@ -232,7 +232,7 @@
 	</item>
 	<item id="29">
 		<baseInfo builderUnitID="1" ageID="90" classID="2"/>
-		<stats hitPoints="2700" attack="-" meleeArmor="3" pierceArmor="10" range="-" minimumRange="-" lineOfSight="6" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="-" trainingTime="120" workRate="0.01" healRate="-" hillBonus="1.25" hillReduction="0.75"/>
+		<stats hitPoints="2700" attack="-" meleeArmor="3" pierceArmor="10" range="-" minimumRange="-" lineOfSight="6" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="-" trainingTime="120" workRate="0.01" healRate="-" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1"/>
 		<cost>
 			<resource name="Gold">350</resource>
 			<resource name="Stone">300</resource>
@@ -241,7 +241,7 @@
 	</item>
 	<item id="30">
 		<baseInfo builderUnitID="1" ageID="90" classID="11"/>
-		<stats hitPoints="2250" attack="8" meleeArmor="3" pierceArmor="9" range="8" minimumRange="1" lineOfSight="10" reloadTime="2" attackDelay="0" accuracy="100" numberProjectiles="1" projectileSpeed="7" garrisonCapacity="5" populationTaken="-" trainingTime="80" workRate="-" healRate="0.1" hillBonus="1.25" hillReduction="0.75"/>
+		<stats hitPoints="2250" attack="8" meleeArmor="3" pierceArmor="9" range="8" minimumRange="1" lineOfSight="10" reloadTime="2" attackDelay="0" accuracy="100" numberProjectiles="1" projectileSpeed="7" garrisonCapacity="5" populationTaken="-" trainingTime="80" workRate="-" healRate="0.1" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1"/>
 		<cost>
 			<resource name="Wood">50</resource>
 			<resource name="Stone">125</resource>
@@ -250,7 +250,7 @@
 	</item>
 	<item id="31">
 		<baseInfo builderUnitID="1" ageID="90" classID="11"/>
-		<stats hitPoints="2220" attack="120" meleeArmor="3" pierceArmor="9" range="8" minimumRange="1" lineOfSight="10" reloadTime="6" blastRadius="0" attackDelay="0" accuracy="100" numberProjectiles="1" projectileSpeed="3" garrisonCapacity="5" populationTaken="-" trainingTime="80" workRate="-" healRate="0.1" hillBonus="1.25" hillReduction="0.75"/>
+		<stats hitPoints="2220" attack="120" meleeArmor="3" pierceArmor="9" range="8" minimumRange="1" lineOfSight="10" reloadTime="6" blastRadius="0" attackDelay="0" accuracy="100" numberProjectiles="1" projectileSpeed="3" garrisonCapacity="5" populationTaken="-" trainingTime="80" workRate="-" healRate="0.1" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1"/>
 		<cost>
 			<resource name="Gold">100</resource>
 			<resource name="Stone">125</resource>
@@ -259,7 +259,7 @@
 	</item>
 	<item id="32">
 		<baseInfo builderUnitID="1" ageID="19" classID="2"/>
-		<stats hitPoints="2600" attack="10" meleeArmor="8" pierceArmor="11" range="7" minimumRange="1" lineOfSight="10" reloadTime="2" attackDelay="0" accuracy="100" numberProjectiles="5" projectileSpeed="7" garrisonCapacity="20" populationTaken="20" trainingTime="150" workRate="1" healRate="0.2" hillBonus="1.25" hillReduction="0.75"/>
+		<stats hitPoints="2600" attack="10" meleeArmor="8" pierceArmor="11" range="7" minimumRange="1" lineOfSight="10" reloadTime="2" attackDelay="0" accuracy="100" numberProjectiles="5" projectileSpeed="7" garrisonCapacity="20" populationTaken="20" trainingTime="150" workRate="1" healRate="0.2" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1"/>
 		<cost>
 			<resource name="Stone">350</resource>
 		</cost>
@@ -267,7 +267,7 @@
 	</item>
 	<item id="33">
 		<baseInfo builderUnitID="1" ageID="2" classID="11"/>
-		<stats hitPoints="1250" attack="5" meleeArmor="1" pierceArmor="7" range="8" minimumRange="1" lineOfSight="10" reloadTime="2" attackDelay="0" accuracy="100" numberProjectiles="1" projectileSpeed="7" garrisonCapacity="10" populationTaken="-" trainingTime="90" workRate="-" healRate="0.1" hillBonus="1.25" hillReduction="0.75"/>
+		<stats hitPoints="1250" attack="5" meleeArmor="1" pierceArmor="7" range="8" minimumRange="1" lineOfSight="10" reloadTime="2" attackDelay="0" accuracy="100" numberProjectiles="1" projectileSpeed="7" garrisonCapacity="10" populationTaken="-" trainingTime="90" workRate="-" healRate="0.1" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1"/>
 		<cost>
 			<resource name="Wood">75</resource>
 			<resource name="Stone">175</resource>
@@ -276,7 +276,7 @@
 	</item>
 	<item id="34">
 		<baseInfo builderUnitID="1" ageID="-1" classID="2"/>
-		<stats hitPoints="1000" attack="-" meleeArmor="0" pierceArmor="7" range="-" minimumRange="-" lineOfSight="6" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="-" trainingTime="40" workRate="1" healRate="-" hillBonus="1.25" hillReduction="0.75"/>
+		<stats hitPoints="1000" attack="-" meleeArmor="0" pierceArmor="7" range="-" minimumRange="-" lineOfSight="6" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="-" trainingTime="40" workRate="1" healRate="-" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1"/>
 		<cost>
 			<resource name="Wood">125</resource>
 		</cost>
@@ -284,11 +284,28 @@
 	</item>
 	<item id="35">
 		<baseInfo builderUnitID="1" ageID="90" classID="2"/>
-		<stats hitPoints="2700" attack="-" meleeArmor="3" pierceArmor="10" range="10" minimumRange="-" lineOfSight="6" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="-" trainingTime="60" workRate="1" healRate="1" hillBonus="1.25" hillReduction="0.75"/>
+		<stats hitPoints="2700" attack="-" meleeArmor="3" pierceArmor="10" range="10" minimumRange="-" lineOfSight="6" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="-" trainingTime="60" workRate="1" healRate="1" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1"/>
 		<cost>
 			<resource name="Wood">175</resource>
 			<resource name="Stone">50</resource>
 		</cost>
 		<development requiredBuildingID="0" requiredTechID="0" previousUpgradeID="0" nextUpgradeID="0"/>
 	</item>
+		<item id="36">
+		<baseInfo builderUnitID="1" ageID="-1" classID="2"/>
+		<stats hitPoints="300" attack="-" meleeArmor="1" pierceArmor="2" range="-" minimumRange="-" lineOfSight="4" reloadTime="-" speed="0.8" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="0" trainingTime="25" workRate="1" healRate="1" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1"/>
+		<cost>
+			<resource name="Wood">100</resource>
+			<resource name="Food">20</resource>
+		</cost>
+		<development requiredBuildingID="0" requiredTechID="0" previousUpgradeID="0" nextUpgradeID="0"/>
+	</item>	
+	<item id="30">
+		<baseInfo builderUnitID="1" ageID="19" classID="2"/>
+		<stats hitPoints="2400" attack="5" meleeArmor="4" pierceArmor="10" range="6" minimumRange="1" lineOfSight="10" reloadTime="2" attackDelay="0" accuracy="100" numberProjectiles="0" projectileSpeed="7" garrisonCapacity="10" populationTaken="-" trainingTime="40" workRate="-" healRate="0.4" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1"/>
+		<cost>
+			<resource name="Wood">200</resource>			
+		</cost>
+		<development requiredBuildingID="0" requiredTechID="0" previousUpgradeID="0" nextUpgradeID="0"/>
+	</item>	
 </list>

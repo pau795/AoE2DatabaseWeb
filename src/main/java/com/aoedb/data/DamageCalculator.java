@@ -198,8 +198,8 @@ public class DamageCalculator {
             if(hasAttack) {
 
                 if (elevation == FLAT) hillMultiplier = 1.0;
-                else if (elevation == DOWNHILL) hillMultiplier = u.getCalculatedStat(Database.HILL_BONUS);
-                else hillMultiplier = u.getCalculatedStat(Database.HILL_REDUCTION);
+                else if (elevation == DOWNHILL) hillMultiplier = u.getCalculatedStat(Database.HILL_BONUS) / r.getCalculatedStat(Database.DOWN_HILL_RESIST);
+                else hillMultiplier = u.getCalculatedStat(Database.HILL_REDUCTION) * r.getCalculatedStat(Database.UP_HILL_RESIST);
 
                 hillDamage = damageSum * hillMultiplier;
                 finalDamage = Math.max(1.0, hillDamage);

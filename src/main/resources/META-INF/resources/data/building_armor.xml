@@ -333,4 +333,23 @@
 			<value type="31">3</value>
 		</entry>
 	</item>
+	<item id="36">
+		<entry nameID="building_armor_values">
+			<value type="1">1</value>
+			<value type="2">2</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+			<value type="31">1</value>
+		</entry>
+	</item>
+	<item id="37">
+		<entry nameID="building_armor_values">
+			<value type="1">4</value>
+			<value type="2">10</value>
+			<value type="19">0</value>
+			<value type="20">0</value>
+			<value type="22">0</value>
+			<value type="31">4</value>
+		</entry>
+	</item>
 </list>

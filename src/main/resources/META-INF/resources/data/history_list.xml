@@ -236,5 +236,11 @@
 	
 	<!--The Romans-->
     <item id="79" image="c_romans"/>
+	
+	<!--The Armenians-->
+    <item id="80" image="c_armenians"/>
+	
+	<!--The Georgians-->
+    <item id="81" image="c_georgians"/>
      
 </list>

@@ -169,4 +169,17 @@
 	</item>
 	<item id="34"/>
 	<item id="35"/>
+	<item id="36"/>
+	<item id="37">
+		<entry nameID="building_attack_values">
+			<value type="2">5</value>
+		</entry>
+		<entry nameID="projectile_attack_values">
+			<value type="2">5</value>
+			<value type="10">1</value>
+			<value type="16">5</value>
+			<value type="29">5</value>
+			<value type="20">5</value>
+		</entry>
+	</item>
 </list>

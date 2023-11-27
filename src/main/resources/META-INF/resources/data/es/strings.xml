@@ -168,7 +168,7 @@
     <string name="gm_damage_table1_halb1">3 contra Melé (0+3)</string>
     <string name="gm_damage_table1_cata2">18 contra Infantería (12+6)</string>
     <string name="gm_damage_table1_halb2">0 contra Infantería</string>
-    <string name="gm_damage_table1_cata3">0 contra Aruqeros</string>
+    <string name="gm_damage_table1_cata3">0 contra Arqueros</string>
     <string name="gm_damage_table1_halb3">4 contra Proyectil (0+4)</string>
     <string name="gm_damage_table1_cata4">0 contra Todos los Edificios</string>
     <string name="gm_damage_table1_halb4">0 contra Lanceros</string>
@@ -974,10 +974,10 @@
     <string name="bonus_tech_tree_description_105">Los Centros Urbanos y los Muelles tienen el doble de puntos de resistencia.</string>
     <string name="bonus_item_description_105">\@ tienen el doble de puntos de resistencia.</string> 
     
-    <string name="bonus_tech_tree_description_106">Los Centros Urbanos y los Muelles trabajan un 10/15/20% más rápido en la Edad Feudal/Castillos/Imperial.</string>
-    <string name="bonus_item_description_106">\@ se crean un 10/15/20% más rápido en la Edad Feudal/Castillos/Imperial.|\@ funcionan un 10/15/20% más rápido en la Edad Feudal/Castillos/Imperial.|La tecnología de \@ se desarrolla un 10/15/20% más rápido en la Edad Feudal/Castillos/Imperial.</string> 
+    <string name="bonus_tech_tree_description_106">Los Centros Urbanos y los Muelles trabajan un 5/10/15/20% más rápido en la Edad Alta/Feudal/Castillos/Imperial.</string>
+    <string name="bonus_item_description_106">\@ se crean un 5/10/15/20% más rápido en la Edad Alta/Feudal/Castillos/Imperial.|\@ funcionan un 5/10/15/20% más rápido en la Edad Alta/Feudal/Castillos/Imperial.|La tecnología de \@ se desarrolla un 5/10/15/20% más rápido en la Edad Alta/Feudal/Castillos/Imperial.</string> 
     
-    <string name="bonus_tech_tree_description_107">Los Caballeros tienen +2 de ataque contra Arqueros.</string>
+    <string name="bonus_tech_tree_description_107">La línea de Caballero tiene +2 de ataque contra Arqueros.</string>
     <string name="bonus_item_description_107">\@ tienen +2 de ataque contra Arqueros.</string> 
     
     <string name="bonus_tech_tree_description_108">Todas las unidades cuestan un 20% menos de oro.</string>
@@ -1004,8 +1004,8 @@
     <string name="bonus_tech_tree_description_115">La línea de Galera dispara un 25% más rápido.</string>
     <string name="bonus_item_description_115">\@ disparan un 25% más rápido.</string> 
     
-    <string name="bonus_tech_tree_description_116">Las unidades en Camello tienen +10 puntos de resistencia.</string>
-    <string name="bonus_item_description_116">\@ tienen +10 puntos de resistencia.</string> 
+    <string name="bonus_tech_tree_description_116">Las unidades en Camello tienen +25% puntos de resistencia .</string>
+    <string name="bonus_item_description_116">\@ tienen +25% puntos de resistencia.</string> 
     
     <string name="bonus_tech_tree_description_117"/>
     <string name="bonus_item_description_117"/> 
@@ -1013,8 +1013,8 @@
     <string name="bonus_tech_tree_description_118">Los arqueros a pie tienen +3 de ataque contra Edificios Estandar.</string>
     <string name="bonus_item_description_118">\@ tienen +3 de ataque contra Edificios Estandar.</string> 
     
-    <string name="bonus_tech_tree_description_119">Los Agricultores trabajan un 10% más rápido.</string>
-    <string name="bonus_item_description_119">Los Agricultores trabajan un 10% más rápido.|Las Granjas trabajan un 10% más rápido.|</string> 
+    <string name="bonus_tech_tree_description_119">Los Agricultores trabajan un 15% más rápido.</string>
+    <string name="bonus_item_description_119">Los Agricultores trabajan un 15% más rápido.|Las Granjas trabajan un 10% más rápido.|</string> 
     
     <string name="bonus_tech_tree_description_120">La tecnologías de Suministros y Gambesones son gratuita.</string>
     <string name="bonus_item_description_120">La tecnología de \@ es gratuita.</string> 
@@ -1148,8 +1148,8 @@
     <string name="bonus_tech_tree_description_163">El ganado contiene un 50% más de alimento.</string>
     <string name="bonus_item_description_163">El ganado contiene un 50% más de alimento.</string> 
     
-    <string name="bonus_tech_tree_description_164">Las unidades infligen un 25% más de daño cuando luchan desde una posición elevada.</string>
-    <string name="bonus_item_description_164">\@ infligen un 25% más de daño cuando luchan desde una posición elevada.</string> 
+    <string name="bonus_tech_tree_description_164">Las unidades infligen un 25% más de daño al combatir desde una posición elevada.</string>
+    <string name="bonus_item_description_164">\@ infligen un 25% más de daño al combatir desde una posición elevada.</string> 
     
     <string name="bonus_tech_tree_description_165">Las tecnologías de Dactilera y Tácticas de los Partos son gratuitas.</string>
     <string name="bonus_item_description_165">La tecnología de \@ es gratuita.</string> 
@@ -1196,8 +1196,8 @@
     <string name="bonus_tech_tree_description_179">Se pueden construir Donjons</string>
     <string name="bonus_item_description_179">Se pueden construir Donjons</string> 
     
-    <string name="bonus_tech_tree_description_180">Los Barcos de Transporte tienen +5 de línea de visión y cuestan un 50% menos.</string>
-    <string name="bonus_item_description_180">\@ tienen +5 de línea de visión y cuestan un 50% menos.</string> 
+    <string name="bonus_tech_tree_description_180">Los Barcos de Transporte tienen +5 de campo de visión y cuestan un 50% menos.</string>
+    <string name="bonus_item_description_180">\@ tienen +5 de campo de visión y cuestan un 50% menos.</string> 
     
     <string name="bonus_tech_tree_description_181">Las mejoras económicas cuestan un 33% menos de comida.</string>
     <string name="bonus_item_description_181">La tecnología de \@ cuesta un 33% menos de comida.</string> 
@@ -1318,6 +1318,51 @@
 	
 	<string name="bonus_tech_tree_description_220">Los Monjes se mueven un 20% más rápido.</string>
     <string name="bonus_item_description_220">\@ se mueven un 20% más rápido.</string> 
+ 
+	<string name="bonus_tech_tree_description_221">Los Arqueros a Caballo tienen +2 de ataque contra Arqueros.</string>
+    <string name="bonus_item_description_221">\@ tienen +2 de ataque contra Arqueros.</string> 
+	
+	<string name="bonus_tech_tree_description_222">Las Unidades Montadas generan 5 de oro al matar unidades militares enemigas.</string>
+    <string name="bonus_item_description_222">\@ generan 5 de oro al matar unidades militares enemigas.</string> 
+	
+	<string name="bonus_tech_tree_description_223">La tecnología de Tácticas de los Partos está disponible en la Edad de los Castillos.</string>
+    <string name="bonus_item_description_223">La tecnología de \@ está disponible en la Edad de los Castillos.</string> 
+	
+	<string name="bonus_tech_tree_description_224">Se pueden construir Caravasares en la Edad Imperial.</string>
+    <string name="bonus_item_description_224">Se pueden construir Caravasares en la Edad Imperial.</string> 
+ 
+	<string name="bonus_tech_tree_description_225">Los Carros de Mulas cuestan un 25% menos.</string>
+    <string name="bonus_item_description_225">\@ los cuestan un 25% menos.</string> 		
+	
+	<string name="bonus_tech_tree_description_226">Las tecnologías de los Carros de Mulas son un 25% más efectivas.</string>
+    <string name="bonus_item_description_226">|Las tecnologías de \@ technologies  son un 25% más efectivas.|La tecnología de \@ es un 25% más efectiva.</string> 		
+ 
+	<string name="bonus_tech_tree_description_227">La primera Iglesia Fortificada construida recibe una reliquia gratuita.</string>
+    <string name="bonus_item_description_227">La primera Iglesia Fortificada construida recibe una reliquia gratuita.</string> 		
+ 
+	<string name="bonus_tech_tree_description_228">Las unidades de los cuarteles (excepto Hombre de Armas), están disponibles una edad antes.</string>
+    <string name="bonus_item_description_228">\@ está disponible una edad antes.||la tecnología de \@ está disponible una edad antes.</string> 		
+ 
+	<string name="bonus_tech_tree_description_229">La línea de Galera dispara dos proyectiles.</string>
+    <string name="bonus_item_description_229">\@ dispara dos proyectiles.</string> 		
+ 
+	<string name="bonus_tech_tree_description_230">La Infatería tiene +2 de campo de visión.</string>
+    <string name="bonus_item_description_230">\@ tiene +2 de campo de visión.</string> 		
+ 
+	<string name="bonus_tech_tree_description_231">Comienzan con un Carro de Mulas gratuito, pero con -50 de comida.</string>
+    <string name="bonus_item_description_231">Comienzan con un Carro de Mulas gratuito, pero con -50 de comida.</string> 	
+	
+	<string name="bonus_tech_tree_description_232">Las Iglesias Fortificadas proporcionan a los Aldeanos con un incremento del 10% del ratio de trabajo, dentro de un radio de 10 casillas.</string>
+    <string name="bonus_item_description_232">\@ trabajan un 10 más rápido dentro del radio de 10 casillas de una Iglesia Fortificada.|\@ proporcionan a los Aldeanos con un incremento del 10% del ratio de trabajo, dentro de un radio de 10 casillas.|</string> 
+ 
+	<string name="bonus_tech_tree_description_233">Las Unidades y los Edificios reciben un 15% menos de daño al combatir desde una posición elevada.</string>
+    <string name="bonus_item_description_233">\@ reciben un 15% menos de daño al combatir desde una posición elevada.</string> 
+ 
+	<string name="bonus_tech_tree_description_234">Las unidades de Caballeria regeneran 5/10/15 de HP por minuto en la edad Feudal/Castillos/Imperial.</string>
+    <string name="bonus_item_description_234">\@ regeneran 5/10/15 de HP por minuto en la edad Feudal/Castillos/Imperial.</string> 
+	
+	<string name="bonus_tech_tree_description_235">Los Edificios cuestan un 50% menos recursos para repararlos.</string>
+    <string name="bonus_item_description_235">\@  cuestan un 50% menos recursos para repararlos.</string> 
  
     <!--building_description.xml-->
      
@@ -1530,7 +1575,19 @@
     <string name="building_description_quick_35">Edificio económico que cura y aumenta la velocidad de las Carretas de Mercancías cercanas.</string>
     <string name="building_description_brief_35"/>
     <string name="building_description_long_35">Edificio Único Indostano. Edificio Económico. Cura (60 HP por minuto) e incrementa la velocidad de movimiento (un 20%) de las Carretas de Merancías que se encuentren en un radio de 10 casillas.</string>
-    <string name="building_description_extra_35"/> 
+    <string name="building_description_extra_35"/>
+
+	<string name="building_description_nominative_36">Los Carros de Mulas</string>
+    <string name="building_description_quick_36">Punto de recogida móvil. Se usa para recoger madera, oro, piedra y caza.</string>
+    <string name="building_description_brief_36"/>
+    <string name="building_description_long_36">Edificio Único Armenio y Georgiano. Punto de recogida móvil. Se usa para recoger madera, oro, piedra y caza. Se pueden desarrollar tecnologías para mejorar la recolección de madera, oro y piera.</string>
+    <string name="building_description_extra_36"/> 	
+	
+	<string name="building_description_nominative_37">Iglesias Fortificadas</string>
+    <string name="building_description_quick_37">Usadas para crear y mejorar Monjes. Los Aldeanos y los Monjes pueden guarecerse dentro para protegerse.</string>
+    <string name="building_description_brief_37"/>
+    <string name="building_description_long_37">Edificio Único Armenio y Georgiano. Usadas para crear y mejorar Monjes. Las reliquias guarecidas dentro generan oro (1oro/2s). Los Aldeanos y los Monjes pueden guarecerse dentro para protegerse. Los Aldeanos y las Reliquias guarecidas proporcionan proyectiles adicionales.</string>
+    <string name="building_description_extra_37"/> 
  
     <!--building_list.xml-->
      
@@ -1570,6 +1627,8 @@
     <string name="building_name_33">Donjon</string>
     <string name="building_name_34">Folwark</string>
 	<string name="building_name_35">Caravasar</string>
+	<string name="building_name_35">Carro de Mulas</string>
+	<string name="building_name_35">Iglesia Fortificada</string>
      
     <!--civilization_list.xml-->
      
@@ -1617,6 +1676,8 @@
     <string name="civilization_name_41">Dravídicos</string>
     <string name="civilization_name_42">Gurjara</string>
     <string name="civilization_name_43">Romanos</string>
+    <string name="civilization_name_44">Armenios</string>
+    <string name="civilization_name_45">Georgianos</string>
      
     <!--civilization_style.xml-->
      
@@ -1663,6 +1724,10 @@
 	<string name="civilization_style_40">Civilización de Elefantes y Naval</string>
     <string name="civilization_style_41">Civilización de Infantería y Naval</string>
     <string name="civilization_style_42">Civilización de Caballería y Camellos</string>
+    <string name="civilization_style_42">Civilización de Caballería y Camellos</string>
+    <string name="civilization_style_43">Civilización de Infantería</string>
+    <string name="civilization_style_44">Civilización Defensiva y de Caballería</string>
+    <string name="civilization_style_45">Civilización de Infantería y Naval</string>
      
      
     <!--class_list.xml-->
@@ -1852,6 +1917,8 @@
     <string name="history_name_77">Los Dravídicos</string>
     <string name="history_name_78">Los Gurjara</string>
     <string name="history_name_79">Los Romanos</string>
+    <string name="history_name_79">Los Armenios</string>
+    <string name="history_name_79">Los Georgianos</string>
 	
 	
     <!--performance_list.xml-->
@@ -1941,6 +2008,9 @@
 	<string name="performance_name_82">Lanzadores de Chakram</string>
 	<string name="performance_name_83">Dromones</string>
 	<string name="performance_name_84">Centuriones</string>
+	<string name="performance_name_85">Sacerdotes Guerreros</string>
+	<string name="performance_name_86">Arqueros con Arco Compuesto</string>
+	<string name="performance_name_87">Monaspas</string>
      
     <!--stat_list.xml-->
      
@@ -1972,6 +2042,8 @@
     <string name="stat_name_25">Reliquias</string>
 	<string name="stat_name_26">Ignorar Armadura</string>
     <string name="stat_name_27">Resiste Ignorar Armadura</string>
+    <string name="stat_name_28">Resist. Colina Arriba</string>
+    <string name="stat_name_29">Resist. Colina Abajo</string>
 	
      
     <!--taunt_list.xml-->
@@ -2446,7 +2518,7 @@
     <string name="tech_description_long_60">Tecnología Única Bereber en la Edad de los Castillos. Los Castillos de todo el Equipo trabajan un 25% más rápido</string>
     <string name="tech_description_extra_60">Los Castillos de todo el Equipo trabajan un 25% más rápido</string> 
     
-    <string name="tech_description_nominative_61">Yeomen</string>
+    <string name="tech_description_nominative_61">Hidalgos</string>
     <string name="tech_description_quick_61">Arqueros a pie +1 alcance; Torres +2 ataque</string>
     <string name="tech_description_brief_61"/>
     <string name="tech_description_long_61">Tecnología Única Britana en la Edad de los Castillos. Los Arqueros a pie obtienen +1 de alcance; las Torres obtienen +2 de ataque.</string>
@@ -2536,11 +2608,11 @@
     <string name="tech_description_long_75">Tecnología Única Coreana en la Edad de los Castillos. Torres de Guardia, Torres de Vigilancia y Torres del Homenaje obtienen +2 de alcance.</string>
     <string name="tech_description_extra_75">Torres de Guardia, Torres de Vigilancia y Torres del Homenaje obtienen +2 de alcance.</string> 
     
-    <string name="tech_description_nominative_76">Mercenarios</string>
-    <string name="tech_description_quick_76">Huszár Magiares no cuestan oro</string>
+    <string name="tech_description_nominative_76">Ejército Corviniano</string>
+    <string name="tech_description_quick_76">El coste de oro de los Húszar Magiares se reemplaza por comida adicional.</string>
     <string name="tech_description_brief_76"/>
-    <string name="tech_description_long_76">Tecnología Única Magiar en la Edad de los Castillos. Elimina el coste de oro de los Huszár Magiares.</string>
-    <string name="tech_description_extra_76">Elimina el coste de oro de los Huszár Magiares.</string> 
+    <string name="tech_description_long_76">Tecnología Única Magiar en la Edad de los Castillos. El coste de oro de los Húszar Magiares se reemplaza por comida adicional.</string>
+    <string name="tech_description_extra_76">El coste de oro de los Húszar Magiares se reemplaza por comida adicional.</string> 
     
     <string name="tech_description_nominative_77">Talasocracia</string>
     <string name="tech_description_quick_77">Mejora los Muelles a Puertos</string>
@@ -2578,11 +2650,11 @@
     <string name="tech_description_long_82">Tecnología Única Portuguesa en la Edad de los Castillos. Los barcos obtienen +1 de armadura melé. y +1 de armadura antiproyectil.</string>
     <string name="tech_description_extra_82"> Los barcos obtienen +1 de armadura melé. y +1 de armadura antiproyectil.</string> 
     
-    <string name="tech_description_nominative_83">Fanatismo</string>
-    <string name="tech_description_quick_83">Jinetes de Camello y Mamelucos +20 HP</string>
+    <string name="tech_description_nominative_83">Bimaristán</string>
+    <string name="tech_description_quick_83">Monjes curan en área</string>
     <string name="tech_description_brief_83"/>
-    <string name="tech_description_long_83">Tecnología Única Sarracena en la Edad de los Castillos. Los Jinetes de Camello y los Mamelucos obtienen +20 puntos de resistencia.</string>
-    <string name="tech_description_extra_83">Los Jinetes de Camello y los Mamelucos obtienen +20 puntos de resistencia.</string> 
+    <string name="tech_description_long_83">Tecnología Única Sarracena en la Edad de los Castillos. Los Monjes curan en un área de 5 casillas (75 HP/min).</string>
+    <string name="tech_description_extra_83">Los Monjes curan en un área de 5 casillas (75 HP/min).</string> 
     
     <string name="tech_description_nominative_84">Detinets</string>
     <string name="tech_description_quick_84">Reemplaza el 40% del coste de piedra de Torres y Castillos por madera</string>
@@ -2857,7 +2929,7 @@
     <string name="tech_description_nominative_129">Caballero</string>
     <string name="tech_description_quick_129"/>
     <string name="tech_description_brief_129"/>
-    <string name="tech_description_long_129">Mejora los Caballeros y permite crear Caballeros.</string>
+    <string name="tech_description_long_129">Mejora los Jinetes y permite crear Caballeros.</string>
     <string name="tech_description_extra_129"/> 
     
     <string name="tech_description_nominative_130">Paladín</string>
@@ -3136,7 +3208,7 @@
     <string name="tech_description_long_175">Tecnología Única Bereber en la Edad Imperial. Las tropas en Camello regeneran 1 de HP cada 4 segundos.</string>
     <string name="tech_description_extra_175">Las tropas en Camello regeneran 1 de HP cada 4 segundos.</string> 
     
-    <string name="tech_description_nominative_176">Warwolf</string>
+    <string name="tech_description_nominative_176">Lobo de Guerra</string>
     <string name="tech_description_quick_176">Lanzapiedras obtienen area de impacto y 100% precisión</string>
     <string name="tech_description_brief_176"/>
     <string name="tech_description_long_176">Tecnología Única Britana en la Edad Imperial. Los Lanzapiedras obtienen +0.5 de área de impacto, y atacan con 100% de precisión contra unidades.</string>
@@ -3256,11 +3328,11 @@
     <string name="tech_description_long_195">Tecnología Única Mongola en la Edad Imperial. Las unidades del Taller de Maquinaria de Asedio se mueven un 50% más rápido.</string>
     <string name="tech_description_extra_195">Las unidades del Taller de Maquinaria de Asedio se mueven un 50% más rápido.</string> 
     
-    <string name="tech_description_nominative_196">Mahouts</string>
-    <string name="tech_description_quick_196">Elefantes de Guerra se mueven 30% más rápido</string>
+    <string name="tech_description_nominative_196">Ciudadelas</string>
+    <string name="tech_description_quick_196">Castillos disparan balas y reciben un 25% menos de daño de bonificación.</string>
     <string name="tech_description_brief_196"/>
-    <string name="tech_description_long_196">Tecnología Única Persa en la Edad Imperial. Los Elefantes de Guerra se mueven un 30% más rápido.</string>
-    <string name="tech_description_extra_196">Los Elefantes de Guerra se mueven un 30% más rápido.</string> 
+    <string name="tech_description_long_196">Tecnología Única Persa en la Edad Imperial. Los Castillos disparan balas (+4 de ataque, +3 de ataque contra Arietes, y +3 de ataque contra Infantería)y reciben un 25% menos de daño de bonificación.</string>
+    <string name="tech_description_extra_196">Los Castillos disparan balas (+4 de ataque, +3 de ataque contra Arietes, y +3 de ataque contra Infantería)y reciben un 25% menos de daño de bonificación.</string> 
     
     <string name="tech_description_nominative_197">Arcabuz</string>
     <string name="tech_description_quick_197">Balística para unidades de pólvora</string>
@@ -3493,7 +3565,7 @@
 	<string name="tech_description_nominative_235">Arquero en Elefante de Élite</string>
     <string name="tech_description_quick_235"/>
     <string name="tech_description_brief_235"/>
-    <string name="tech_description_long_235">Mejora los Aruqeros en Elefante y permite crear Arqueros en Elefante de Élite.</string>
+    <string name="tech_description_long_235">Mejora los Arqueros en Elefante y permite crear Arqueros en Elefante de Élite.</string>
     <string name="tech_description_extra_235"/> 
 	
 	<string name="tech_description_nominative_236">Jinete Shrivamsha de Élite</string>
@@ -3573,6 +3645,48 @@
     <string name="tech_description_brief_248"/>
     <string name="tech_description_long_248">Tecnología Única Romana en la Edad Imperial. La Línea de Espadachín, la Línea de Jinete y los Centuriones se crean un 50% más rápido y reciben 5 de daño de carga, que se recarga tras 20 segundos.</string>
     <string name="tech_description_extra_248">La Línea de Espadachín, la Línea de Jinete y los Centuriones se crean un 50% más rápido y reciben 5 de daño de carga, que se recarga tras 20 segundos.</string>
+		
+	<string name="tech_description_nominative_249">Flota de Cilicia</string>
+    <string name="tech_description_quick_249">Buques de Demolición +33% área de efecto; línea de Galera y Dromones +1 alcance</string>
+    <string name="tech_description_brief_249"/>
+    <string name="tech_description_long_249">Tecnología única Armenia en la Edad de los Castillos. Los Buques de Demolición obtienen +33% de área de efecto; la línea de Galera y Dromones obtienen +1 de alcance.</string>
+    <string name="tech_description_extra_249">Los Buques de Demolición obtienen +33% de área de efecto; la línea de Galera y Dromones obtienen +1 de alcance.</string>
+	
+	<string name="tech_description_nominative_250">Torres Esvanas</string>
+    <string name="tech_description_quick_250">Edificios defensivos +2 de ataque; Torres disparan flechas que atraviesan múltipes unidades</string>
+    <string name="tech_description_brief_250"/>
+    <string name="tech_description_long_250">Tecnología única Georgiana en la Edad de los Castillos. Los Edificios defensivos obtienen +2 de ataque; las Torres disparan flechas que atraviesan múltipes unidades.</string>
+    <string name="tech_description_extra_250">Los Edificios defensivos obtienen +2 de ataque; las Torres disparan flechas que atraviesan múltipes unidades.</string>
+ 
+	<string name="tech_description_nominative_251">Savar</string>
+    <string name="tech_description_quick_251"/>
+    <string name="tech_description_brief_251"/>
+    <string name="tech_description_long_251">Mejora los Caballeros y permite crear Savares.</string>
+    <string name="tech_description_extra_251"/> 
+	
+	<string name="tech_description_nominative_252">Arquero con Arco Compuesto de Élite</string>
+    <string name="tech_description_quick_252"/>
+    <string name="tech_description_brief_252"/>
+    <string name="tech_description_long_252">Mejora los Arqueros con Arco Compuesto y permite crear Arqueros con Arco Compuesto de Élite.</string>
+    <string name="tech_description_extra_252"/> 
+	
+	<string name="tech_description_nominative_253">Elite Monaspa</string>
+    <string name="tech_description_quick_253"/>
+    <string name="tech_description_brief_253"/>
+    <string name="tech_description_long_253">Mejora los Monaspas y permite crear Monaspas de Élite.</string>
+    <string name="tech_description_extra_253"/> 
+	
+	<string name="tech_description_nominative_254">Relicarios</string>
+    <string name="tech_description_quick_254">Infantería (excepto línea de Lancero) +30 HP; Sarcedotes Guerreros curan el doble de rápido.</string>
+    <string name="tech_description_brief_254"/>
+    <string name="tech_description_long_254">Tecnología única Armenia en la Edad Imperial. La Infantería (excepto la línea de Lancero) obtiene +30 HP; Los Sarcedotes Guerreros curan el doble de rápido.</string>
+    <string name="tech_description_extra_254">La Infantería (excepto la línea de Lancero) obtiene +30 HP; Los Sarcedotes Guerreros curan el doble de rápido.</string>
+	
+	<string name="tech_description_nominative_255">Caballería Aznauri</string>
+    <string name="tech_description_quick_255">Unidades de Caballería ocupan un 15% menos de población.</string>
+    <string name="tech_description_brief_255"/>
+    <string name="tech_description_long_255">Tecnología única Georgiana en la Edad Imperial. Las Unidades de Caballería ocupan un 15% menos de población.</string>
+    <string name="tech_description_extra_255">Las Unidades de Caballería ocupan un 15% menos de población.</string>
  
     <!--tech_list.xml-->
      
@@ -3637,8 +3751,8 @@
     <string name="tech_name_58">Ganadería</string>
     <string name="tech_name_59">Atlatl</string>
     <string name="tech_name_60">Alcazabas</string>
-    <string name="tech_name_61">Yeomen</string>
-    <string name="tech_name_62">Howdah</string>
+    <string name="tech_name_61">Hidalgos</string>
+    <string name="tech_name_62">Caballería Manipur</string>
     <string name="tech_name_63">Fuego Griego</string>
     <string name="tech_name_64">Bastión</string>
     <string name="tech_name_65">Gran Muralla</string>
@@ -3652,14 +3766,14 @@
     <string name="tech_name_73">Yasama</string>
     <string name="tech_name_74">Colmillos de Acero</string>
     <string name="tech_name_75">Eupseong</string>
-    <string name="tech_name_76">Mercenarios</string>
+    <string name="tech_name_76">Ejército Corviniano</string>
     <string name="tech_name_77">Talasocracia</string>
     <string name="tech_name_78">Gran Asamblea</string>
     <string name="tech_name_79">Lanzadores Hul\'che</string>
     <string name="tech_name_80">Nómadas</string>
     <string name="tech_name_81">Kamandaran</string>
     <string name="tech_name_82">Carracas</string>
-    <string name="tech_name_83">Fanatismo</string>
+    <string name="tech_name_83">Bimaristán</string>
     <string name="tech_name_84">Detinets</string>
     <string name="tech_name_85">Inquisición</string>
     <string name="tech_name_86">Blindaje</string>
@@ -3752,7 +3866,7 @@
     <string name="tech_name_173">Berserk de Élite</string>
     <string name="tech_name_174">Guerras Floridas</string>
     <string name="tech_name_175">Camellos Magrebíes</string>
-    <string name="tech_name_176">Warwolf</string>
+    <string name="tech_name_176">Lobo de Guerra</string>
     <string name="tech_name_177">Caballería Manipur</string>
     <string name="tech_name_178">Logística</string>
     <string name="tech_name_179">Furor Celta</string>
@@ -3772,7 +3886,7 @@
     <string name="tech_name_193">Farimba</string>
     <string name="tech_name_194">El Dorado</string>
     <string name="tech_name_195">Instrucción Militar</string>
-    <string name="tech_name_196">Mahouts</string>
+    <string name="tech_name_196">Citadels</string>
     <string name="tech_name_197">Arcabuz</string>
     <string name="tech_name_198">Contrapesos</string>
     <string name="tech_name_199">Druzhina</string>
@@ -3825,6 +3939,13 @@
     <string name="tech_name_246">Legionario</string>
     <string name="tech_name_247">Centurión de Élite</string>
     <string name="tech_name_248">Comitatenses</string>
+	<string name="tech_name_249">Flota de Cilicia</string>
+    <string name="tech_name_250">Torres Esvanas</string>
+    <string name="tech_name_251">Savar</string>
+    <string name="tech_name_252">Arquero con Arco Compuesto de Élite</string>
+    <string name="tech_name_253">Monaspa de Élite</string>
+    <string name="tech_name_254">Relicarios</string>
+    <string name="tech_name_255">Caballería de Aznauri</string>
      
     <!--type_list.xml-->
      
@@ -4920,7 +5041,7 @@
 	<string name="unit_description_nominative_176">Los Centuriones</string>
     <string name="unit_description_quick_176">Caballería de Aumento</string>
     <string name="unit_description_brief_176"/>
-    <string name="unit_description_long_176">Unidad Única Romana. Caballería fuertemente blindada que aumenta las características de las unidades de la línea de Espadachín cercanas; con un alcance de 10 casillas, incrementa la velocidad de movimiento en un 10%, y la velocidad de ataque en un 25%.</string>
+    <string name="unit_description_long_176">Unidad Única Romana. Caballería fuertemente blindada que aumenta las características de las unidades de la línea de Espadachín cercanas; con un alcance de 10 casillas, incrementa la velocidad de movimiento en un 10%, y la velocidad de ataque en un 20%.</string>
     <string name="unit_description_extra_176"/>	
 	
 	<string name="unit_description_nominative_177">Los Dromones</string>
@@ -4938,8 +5059,44 @@
 	<string name="unit_description_nominative_179">Los Centuriones de Élite</string>
     <string name="unit_description_quick_179">Caballería de Aumento</string>
     <string name="unit_description_brief_179"/>
-    <string name="unit_description_long_179">Unidad Única Romana. Caballería fuertemente blindada que aumenta las características de las unidades de la línea de Espadachín cercanas; con un alcance de 12 casillas, incrementa la velocidad de movimiento en un 15%, y la velocidad de ataque en un 33%.</string>
+    <string name="unit_description_long_179">Unidad Única Romana. Caballería fuertemente blindada que aumenta las características de las unidades de la línea de Espadachín cercanas; con un alcance de 12 casillas, incrementa la velocidad de movimiento en un 15%, y la velocidad de ataque en un 20%.</string>
     <string name="unit_description_extra_179"/>	
+	
+	<string name="unit_description_nominative_180">Los Sacerdotes Guerreros</string>
+    <string name="unit_description_quick_180">Monje de Infatería</string>
+    <string name="unit_description_brief_180"/>
+    <string name="unit_description_long_180">Unidad Única Armenia. Infantería capaz de curar unidades aliadas (2 HP por segundo), y recoger reliquias.</string>
+    <string name="unit_description_extra_180"/>	
+	
+	<string name="unit_description_nominative_181">Los Arqueros con Arco Compuesto</string>
+    <string name="unit_description_quick_181">Arquero que ignora armadura</string>
+    <string name="unit_description_brief_181"/>
+    <string name="unit_description_long_181">Unidad Única Armenia. Arquero que ignora la armadura. Fuerte contra Infantería y unidades con mucha armadura antiproyectil. Débil contra Arqueros y Armas de Asedio.</string>
+    <string name="unit_description_extra_181"/>	
+	
+	<string name="unit_description_nominative_182">Los Monaspas</string>
+    <string name="unit_description_quick_182">Caballería de Horda</string>
+    <string name="unit_description_brief_182"/>
+    <string name="unit_description_long_182">Unidad Única Georgiana. Caballería con pocos puntos de resistencia y mucho ataque. Se fortalece cuando hay otros Monaspas o unidades de la línea de Caballero cerca (+1 de ataque por cada 5 unidades cercanas, máximo +4 de ataque con 20 unidades cercanas). </string>
+    <string name="unit_description_extra_182"/>	
+	
+	<string name="unit_description_nominative_183">Los Savares</string>
+    <string name="unit_description_quick_183">Caballería</string>
+    <string name="unit_description_brief_183"/>
+    <string name="unit_description_long_183">Unidad Única Persa. Caballería pesada y rápida. Es cara, pero poderosa.</string>
+    <string name="unit_description_extra_183"/> 
+	
+	<string name="unit_description_nominative_184">Los Arqueros con Arco Compuesto de Élite</string>
+    <string name="unit_description_quick_184">Arquero que ignora armadura</string>
+    <string name="unit_description_brief_184"/>
+    <string name="unit_description_long_184">Unidad Única Armenia. Arquero que ignora la armadura. Fuerte contra Infantería y unidades con mucha armadura antiproyectil. Débil contra Arqueros y Armas de Asedio.</string>
+    <string name="unit_description_extra_184"/>	
+	
+	<string name="unit_description_nominative_185">Los Monaspas de Élite</string>
+    <string name="unit_description_quick_185">Caballería de Horda</string>
+    <string name="unit_description_brief_185"/>
+    <string name="unit_description_long_185">Unidad Única Georgiana. Caballería con pocos puntos de resistencia y mucho ataque. Se fortalece cuando hay otros Monaspas o unidades de la línea de Caballero cerca (+1 de ataque por cada 5 unidades cercanas, máximo +4 de ataque con 20 unidades cercanas). </string>
+    <string name="unit_description_extra_185"/>	
  
     <!--unit_list.xml-->
      
@@ -5122,7 +5279,13 @@
 	<string name="unit_name_176">Centurión</string>
     <string name="unit_name_177">Dromón</string>
     <string name="unit_name_178">Legionario</string>
-    <string name="unit_name_179">Centurión de Élite</string>
+    <string name="unit_name_179">Centurión de Élite</string>	
+	<string name="unit_name_180">Sacerdote Guerrero</string>
+    <string name="unit_name_181">Arquero con Arco Compuesto</string>
+    <string name="unit_name_182">Monaspa</string>
+    <string name="unit_name_183">Savar</string>
+    <string name="unit_name_184">Arquero con Arco Compuesto de Élite</string>
+    <string name="unit_name_185">Monaspa de Élite</string>
 	
 	<!--unit_groups.xml-->	
 	
@@ -5146,7 +5309,7 @@
 	
 	<string name="unit_group3_category1">Todas las Unidades</string>
 	
-	<!--tech_groups.xml-->	
+	<!--tech_groups.xml-->
 	
 	
 	<string name="tech_group2_category2">Campamento Maderero</string>
@@ -5184,6 +5347,7 @@
 	<string name="civilization_group2_category8">Dawn of the Dukes</string>
 	<string name="civilization_group2_category9">Dynasties of India</string>
 	<string name="civilization_group2_category10">Return of Rome</string>
+	<string name="civilization_group2_category11">Mountain Royals</string>
 	
 	<!--building_groups.xml-->	
 	

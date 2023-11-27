@@ -119,6 +119,8 @@ public class Database {
     public final static String RELICS = "Relics";
     public final static String IGNORE_ARMOR = "Ignore Armor";
     public final static String RESIST_ARMOR_IGNORE = "Resist Armor Ignore";
+    public final static String UP_HILL_RESIST = "Up Hill Resist";
+    public final static String DOWN_HILL_RESIST = "Down Hill Resist";
 
     //ECO STATS
 

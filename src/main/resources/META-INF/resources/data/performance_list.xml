@@ -251,5 +251,14 @@
 	
 	<!--Centurions-->
     <item id="84" image="u_centurion"/>
+	
+	<!--Warrior Priests-->
+    <item id="85" image="u_warrior_priest"/>
+	
+	<!--Composite Bowmen-->
+    <item id="86" image="u_composite_bowman"/>
+	
+	<!--Monaspas-->
+    <item id="87" image="u_monaspa"/>
      
 </list>

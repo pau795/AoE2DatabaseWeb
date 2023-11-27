@@ -246,7 +246,7 @@
     <!--Carrack-->
     <item id="82" image="t_castle_ut"/>
      
-    <!--Zealotry-->
+    <!--Bimaristan-->
     <item id="83" image="t_castle_ut"/>
      
     <!--Detinets-->
@@ -585,7 +585,7 @@
     <!--Drill-->
     <item id="195" image="t_imperial_ut"/>
      
-    <!--Mahouts-->
+    <!--Citadels-->
     <item id="196" image="t_imperial_ut"/>
      
     <!--Arquebus-->
@@ -743,5 +743,26 @@
 	
 	<!--Comitatenses-->
     <item id="248" image="t_imperial_ut"/>
+	
+	<!--Cilician Fleet-->
+    <item id="249" image="t_castle_ut"/>
+	
+	<!--Svan Towers-->
+    <item id="250" image="t_castle_ut"/>
+	
+	<!--Savar-->
+    <item id="251" image="t_savar"/>
+	
+	<!--Elite Composite Bowman-->
+    <item id="252" image="t_elite_uu"/>
+	
+	<!--Elite Monaspa-->
+    <item id="253" image="t_elite_uu"/>
+	
+	<!--Fereters-->
+    <item id="254" image="t_imperial_ut"/>
+	
+	<!--Aznauri Cavalry-->
+    <item id="255" image="t_imperial_ut"/>
 	
 </list>

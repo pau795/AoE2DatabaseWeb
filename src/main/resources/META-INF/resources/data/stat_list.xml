@@ -80,5 +80,11 @@
 	
 	<!--Resist Armor Ignore-->
     <item id="27" addition="false"/>
+	
+	<!--Up Hill Resist-->
+    <item id="28" addition="false"/>
+	
+	<!--Down Hill Resist-->
+    <item id="29" addition="false"/>
      
 </list>

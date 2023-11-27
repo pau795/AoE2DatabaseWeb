@@ -315,7 +315,7 @@
     <!--Town Centers and Docks have +100% hit points.-->
     <item id="105"/>
      
-    <!--Town Centers and Docks work +10/15/20% faster in Feudal/Castle/Imperial Age.-->
+    <!--Town Centers and Docks work +5/10/15/20% faster in Feudal/Castle/Imperial Age.-->
     <item id="106"/>
      
     <!--Knights have +2 attack against Archers.-->
@@ -345,7 +345,7 @@
     <!--Galleys fire 25% faster.-->
     <item id="115"/>
      
-    <!--Camel units +10 hit points.-->
+    <!--Camel units +25% hit points.-->
     <item id="116"/>
      
     <!---->
@@ -354,7 +354,7 @@
     <!--Foot Archers have +3 attack against Standard Buildings.-->
     <item id="118"/>
      
-    <!--Farmers work 10% faster.-->
+    <!--Farmers work 15% faster.-->
     <item id="119"/>
      
     <!--Supplies technology is free.-->
@@ -660,4 +660,48 @@
 	<!--Monks move 20% faster.-->
 	<item id="220"/>
 	
+	<!--Cavalry Archers +2 attack against Archers-->
+	<item id="221"/>
+	
+	<!--Cavalry generates 5 gold when killing enemy military units.-->
+	<item id="222"/>
+	
+	<!--Parthian Tactics available in Castle Age.-->
+	<item id="223"/>
+	
+	<!--Can build Caravanserai in Imperial Age.-->
+	<item id="224"/>
+	
+	<!--Mule Carts cost 25% less.-->
+	<item id="225"/>
+	
+	<!--Mule Cart technologies are 25% more effective.-->
+	<item id="226"/>
+	
+	<!--First Fortified Church recives a free Relic.-->
+	<item id="227"/>
+	
+	<!--Barracks units (except Man-at-Arms), are available one age earlier.-->
+	<item id="228"/>
+	
+	<!--Galley-line fires two projectiles.-->
+	<item id="229"/>
+	
+	<!--Infantry +2 line of sight-->
+	<item id="230"/>
+	
+	<!--Start with a free Mule Cart, but -50 food.-->
+	<item id="231"/>
+	
+	<!--Fortified Churches provide Villagers with 10% more work rate within 10 tile radius.-->
+	<item id="232"/>
+	
+	<!--Units and Buildings receive -15% damage when fighting from higher elevation-->
+	<item id="233"/>
+	
+	<!--Cavalry regenerates 5/10/15 HP per minute in Feudal/Castle/Imperial Age.-->
+	<item id="234"/>
+	
+	<!--Buildings cost -50% less resources to repair-->
+	<item id="235"/>
 </list>

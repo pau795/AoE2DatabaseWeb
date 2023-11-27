@@ -128,5 +128,11 @@
      
 	<!--Romans-->
     <item id="43" image="c_romans"/> 
+	
+	<!--Armenians-->
+    <item id="44" image="c_armenians"/> 
+	
+	<!--Georgians-->
+    <item id="45" image="c_georgians"/> 
 	 
 </list>

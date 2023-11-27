@@ -602,4 +602,30 @@
 	<item id="248">
 		<building id="26" upgrades="60 141"/>
 	</item>
+	<item id="249">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="248">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="250">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="251">
+		<building id="26" upgrades="141"/>
+	</item>
+	<item id="252">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="253">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="254">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	<item id="255">
+		<building id="26" upgrades="60 141"/>
+	</item>
+	
+	
 </list>

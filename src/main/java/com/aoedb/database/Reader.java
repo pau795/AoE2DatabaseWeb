@@ -43,10 +43,8 @@ public class Reader {
         HashMap<String, HashMap<String, String>> b = new HashMap<>();
         HashMap<String, String> enMap = readLangMap(Database.ENGLISH);
         HashMap<String, String> esMap = readLangMap(Database.SPANISH);
-        HashMap<String, String> deMap = readLangMap(Database.DEUTSCH);
         b.put(Database.ENGLISH, enMap);
         b.put(Database.SPANISH, esMap);
-        b.put(Database.DEUTSCH, deMap);
         return b;
     }
 
@@ -54,10 +52,8 @@ public class Reader {
         HashMap<String, List<String>> map = new HashMap<>();
         List<String> enHistory = readHistoryText(Database.ENGLISH);
         List<String> esHistory = readHistoryText(Database.SPANISH);
-        List<String> deHistory = readHistoryText(Database.DEUTSCH);
         map.put(Database.ENGLISH, enHistory);
         map.put(Database.SPANISH, esHistory);
-        map.put(Database.DEUTSCH, deHistory);
         return map;
     }
 

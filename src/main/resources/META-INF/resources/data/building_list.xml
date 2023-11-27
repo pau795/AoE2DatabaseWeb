@@ -104,5 +104,11 @@
 	
 	<!--Caravanserai-->
     <item id="35" image="b_caravanserai"/>
+	
+	<!--Mule Cart-->
+    <item id="36" image="b_mule_cart"/>
+	
+	<!--Fortified Church-->
+    <item id="37" image="b_fortified_church"/>
      
 </list>

@@ -536,6 +536,23 @@
 	
 	<!--Elite Centurion-->
     <item id="179" image="u_centurion"/>
-     
+    
+	<!--Warrior Priest-->
+    <item id="180" image="u_warrior_priest"/>
+	
+	<!--Composite Bowman-->
+    <item id="181" image="u_composite_bowman"/>
+	
+	<!--Monaspa-->
+    <item id="182" image="u_monaspa"/>	
+	
+	<!--Savar-->
+    <item id="183" image="u_savar"/>
+	
+	<!--Elite Composite Bowman-->
+    <item id="184" image="u_composite_bowman"/>
+	
+	<!--Elite Monaspa-->
+    <item id="185" image="u_monaspa"/>
  
 </list>
