@@ -6,20 +6,18 @@ import java.util.*;
 public class Database {
 
     //DATABASE CONSTANTS
-    public final static String APP_VERSION = "v2.5";
-    public final static int PATCH_VERSION = 93001;
+    public final static String APP_VERSION = "v2.6";
+    public final static int PATCH_VERSION = 95810;
     public final static String BASE_DIR = "META-INF/resources/";
 
 
     //LANGUAGES
     public final static String SPANISH = "es";
     public final static String ENGLISH = "en";
-    public final static String DEUTSCH = "de";
     public final static String DEFAULT_LANGUAGE = ENGLISH;
 
     public final static String ENGLISH_FLAG = "\uD83C\uDDEC\uD83C\uDDE7 English";
     public final static String SPANISH_FLAG = "\uD83C\uDDEA\uD83C\uDDF8 Español";
-    public final static String DEUTSCH_FLAG = "\uD83C\uDDE9\uD83C\uDDEA Deutsch";
     public final static String DEFAULT_FLAG = ENGLISH_FLAG;
 
     //TYPES

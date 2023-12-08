@@ -3777,7 +3777,7 @@
     <string name="tech_name_80">Nomads</string>
     <string name="tech_name_81">Kamandaran</string>
     <string name="tech_name_82">Carrack</string>
-    <string name="tech_name_83">Bimaristán</string>
+    <string name="tech_name_83">Bimaristan</string>
     <string name="tech_name_84">Detinets</string>
     <string name="tech_name_85">Inquisition</string>
     <string name="tech_name_86">Ironclad</string>
@@ -5037,31 +5037,31 @@
     <string name="unit_description_long_174">Dravidian Unique Unit. Infantry that can charge its attack, dealing splash damage when charging. Effective against other Infantry units.</string>
     <string name="unit_description_extra_174"/>
 	
-	<string name="unit_description_nominative_175">Elite Chakram Thrower</string>
+	<string name="unit_description_nominative_175">Elite Chakram Throwers</string>
     <string name="unit_description_quick_175">Piercing ranged Infantry</string>
     <string name="unit_description_brief_175"/>
     <string name="unit_description_long_175">Gurjara Unique Unit. Ranged Infantry which throws piercing Chakrams. Pierced units will receive 100% damage instead of the usual 50%.</string>
     <string name="unit_description_extra_175"/>	
 	
-	<string name="unit_description_nominative_176">Centurion</string>
+	<string name="unit_description_nominative_176">Centurions</string>
     <string name="unit_description_quick_176">Boosting Cavalry</string>
     <string name="unit_description_brief_176"/>
     <string name="unit_description_long_176">Roman Unique Unit. Heavily armored Cavalry which boosts nearby Militia-line units; within a 10 tile range, it increases their movement speed by 10%, and attack rate by 20%.</string>
     <string name="unit_description_extra_176"/>	
 	
-	<string name="unit_description_nominative_177">Dromon</string>
+	<string name="unit_description_nominative_177">Dromons</string>
     <string name="unit_description_quick_177"></string>
     <string name="unit_description_brief_177"/>
     <string name="unit_description_long_177">Long range warship with an area of effect attack. Powerful against buildings. Weak against other ships.</string>
     <string name="unit_description_extra_177"/>	
 	
-	<string name="unit_description_nominative_178">Legionary</string>
+	<string name="unit_description_nominative_178">Legionaries</string>
     <string name="unit_description_quick_178">Infantry</string>
     <string name="unit_description_brief_178"/>
     <string name="unit_description_long_178">Roman Unique Unit. Basic infantry swordsman. Quick and cheap to create. Effective against Buildings and trash units.</string>
     <string name="unit_description_extra_178"/>	
 	
-	<string name="unit_description_nominative_179">Elite Centurion</string>
+	<string name="unit_description_nominative_179">Elite Centurions</string>
     <string name="unit_description_quick_179">Boosting Cavalry</string>
     <string name="unit_description_brief_179"/>
     <string name="unit_description_long_179">Roman Unique Unit. Heavily armored Cavalry which boosts nearby Militia-line units; within a 12 tile range, it increases their movement speed by 15%, and attack rate by 20%.</string>

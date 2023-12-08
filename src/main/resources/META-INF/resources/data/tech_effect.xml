@@ -3019,7 +3019,7 @@
 			<statEffect>
 				<effectItem>
 					<filter/>
-					<operation stat="3" operator="+" value="4"/>
+					<operation stat="2" operator="+" value="4"/>
 				</effectItem>
 				<effectItem>
 					<filter/>
@@ -3030,15 +3030,15 @@
 			<ecoEffect/>
 			<attackValueEffect>
 				<effectItem>
-					<filter/>
+					<filter class="building" affectsSecondaryProjectile="true" ids="26"/>
 					<operation stat="2" operator="+" value="4"/>
 				</effectItem>
 				<effectItem>
-					<filter/>
+					<filter class="building" affectsSecondaryProjectile="true" ids="26"/>
 					<operation stat="5" operator="+" value="3"/>
 				</effectItem>
 				<effectItem>
-					<filter/>
+					<filter class="building" affectsSecondaryProjectile="true" ids="26"/>
 					<operation stat="13" operator="+" value="3"/>
 				</effectItem>
 			</attackValueEffect>

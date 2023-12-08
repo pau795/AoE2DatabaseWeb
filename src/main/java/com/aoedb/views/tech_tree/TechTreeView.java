@@ -64,13 +64,13 @@ public class TechTreeView extends BaseView {
     Component castleShortcut;
     Component monasteryShortcut;
     Component townCenterShortcut;
-    Component lumberCampShortcut;
+    Component ecoShortcut;
     Component rightShortcut;
 
 
     Set<TechTreeBox> boxSet;
     Select<EntityElement> civSelector;
-    TechTreeBox uniqueUnit, eliteUniqueUnit, castleUniqueTech, imperialUniqueTech, hussar, mill;
+    TechTreeBox uniqueUnit, eliteUniqueUnit, castleUniqueTech, imperialUniqueTech, hussar, mill, monastery, missionary;
     TechTreeBox twoHandedSwordsman, champion;
 
 
@@ -195,7 +195,7 @@ public class TechTreeView extends BaseView {
         townCenter.setSrc("images/b_town_center.png");
         townCenter.addClassNames("tech-tree-shortcut-image");
         Image lumberCamp = new Image();
-        lumberCamp.addClickListener(event -> lumberCampShortcut.getElement().executeJs("$0.scrollIntoView({behavior: \"smooth\", block: \"center\", inline: \"center\"});", lumberCampShortcut.getElement()));
+        lumberCamp.addClickListener(event -> ecoShortcut.getElement().executeJs("$0.scrollIntoView({behavior: \"smooth\", block: \"center\", inline: \"center\"});", ecoShortcut.getElement()));
         lumberCamp.setSrc("images/b_lumber_camp.png");
         lumberCamp.addClassNames("tech-tree-shortcut-image");
         Image right = new Image();
@@ -237,6 +237,10 @@ public class TechTreeView extends BaseView {
 
         if (civID == 39) mill.setEntity(Database.getBuilding(34));
         else mill.setEntity(Database.getBuilding(4));
+        if (civID == 44 || civID == 45) monastery.setEntity(Database.getBuilding(37));
+        else monastery.setEntity(Database.getBuilding(20));
+        if (civID == 44 ) missionary.setEntity(Database.getUnit(180));
+        else missionary.setEntity(Database.getUnit(23));
         if (civID == 34 || civID == 39) hussar.setEntity(Database.getUnit(154));
         else hussar.setEntity(Database.getUnit(90));
         if(civID == 43){
@@ -458,25 +462,25 @@ public class TechTreeView extends BaseView {
         caravanseraiLayout.setWidth(columnWidth + "px");
         caravanseraiLayout.setHeight(sectionHeight + "px");
 
-        //MINING CAMP
+
+        //ECO
         TechTreeBox miningCamp = new TechTreeBox(Database.getBuilding(5), false, language);
         miningCamp.removeTopLine();
-        TechTreeEmptyBox miningCampLine1 = new TechTreeEmptyBox(true);
-        miningCampLine1.setTopRightLine();
-        TechTreeEmptyBox miningCampLine2 = new TechTreeEmptyBox(true);
-        miningCampLine2.setTopLeftLine();
-        TechTreeSlotLayout miningCampLayout = new TechTreeSlotLayout(boxSet);
-        miningCampLayout.addFistRow(miningCamp);
-        miningCampLayout.addSecondRow(miningCampLine1, miningCampLine2);
-
-        //LUMBER CAMP
+        TechTreeBox muleCart = new TechTreeBox(Database.getBuilding(36), false, language);
+        muleCart.removeTopLine();
         TechTreeBox lumberCamp = new TechTreeBox(Database.getBuilding(3), false, language);
-        lumberCampShortcut = lumberCamp;
         lumberCamp.removeTopLine();
-        TechTreeEmptyBox lumberCampLine1 = new TechTreeEmptyBox(true);
-        TechTreeSlotLayout lumberCampLayout = new TechTreeSlotLayout(boxSet);
-        lumberCampLayout.addFistRow(lumberCamp);
-        lumberCampLayout.addSecondRow(lumberCampLine1);
+        ecoShortcut = muleCart;
+        TechTreeEmptyBox ecoLine1 = new TechTreeEmptyBox(true);
+        ecoLine1.setTopRightLine();
+        TechTreeEmptyBox ecoLine2 = new TechTreeEmptyBox(true);
+        ecoLine2.setTopLeftLine();
+        ecoLine2.setTopRightLine();
+        TechTreeEmptyBox ecoLine3 = new TechTreeEmptyBox(true);
+        ecoLine3.setTopLeftLine();
+        TechTreeSlotLayout ecoLayout = new TechTreeSlotLayout(boxSet);
+        ecoLayout.addFistRow(miningCamp, muleCart, lumberCamp);
+        ecoLayout.addSecondRow(ecoLine1, ecoLine2, ecoLine3);
 
         //MARKET
         Div marketLayout = new TechTreeConnector(marketWidth, true);
@@ -505,7 +509,7 @@ public class TechTreeView extends BaseView {
         Div container = new Div(shieldLayoutInit, archeryRangeLayout, barracksLayout, stableLayout,
                 siegeWorkshopLayout, blacksmithLayout, dockLayout, universityLayout, towersLayout,
                 castleLayout, monasteryLayout, krepostLayout, donjonLayout, houseLayout,
-                townCenterLayout, feitoriaLayout, caravanseraiLayout, miningCampLayout, lumberCampLayout,
+                townCenterLayout, feitoriaLayout, caravanseraiLayout, ecoLayout,
                 marketLayout, millLayout, farmLayout, shieldLayoutEnd);
         container.addClassNames("tech-tree-age-container", "tech-tree-dark-background");
 
@@ -981,13 +985,13 @@ public class TechTreeView extends BaseView {
         castleLayout.addSecondRow(uniqueUnit, petard, castleLine1, castleUniqueTech, castleLine2, castleLine3, castleLine4, castleLine5);
 
         //MONASTERY
-        TechTreeBox monastery = new TechTreeBox(Database.getBuilding(20), false, language);
+        monastery = new TechTreeBox(Database.getBuilding(20), false, language);
         monasteryShortcut = monastery;
         monastery.removeTopLine();
         TechTreeBox monk = new TechTreeBox(Database.getUnit(22), false, language);
         monk.removeBottomLine();
         monk.setTopRightLine();
-        TechTreeBox missionary = new TechTreeBox(Database.getUnit(23), true, language);
+        missionary = new TechTreeBox(Database.getUnit(23), true, language);
         missionary.removeBottomLine();
         missionary.setTopRightLine();
         missionary.setTopLeftLine();
