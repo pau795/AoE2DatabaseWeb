@@ -70,7 +70,7 @@ public class TechTreeView extends BaseView {
 
     Set<TechTreeBox> boxSet;
     Select<EntityElement> civSelector;
-    TechTreeBox uniqueUnit, eliteUniqueUnit, castleUniqueTech, imperialUniqueTech, hussar, mill, monastery, missionary;
+    TechTreeBox uniqueUnit, eliteUniqueUnit, castleUniqueTech, imperialUniqueTech, hussar, mill, monastery, missionary, paladin;
     TechTreeBox twoHandedSwordsman, champion;
 
 
@@ -235,6 +235,8 @@ public class TechTreeView extends BaseView {
         castleUniqueTech.setEntity(Database.getTechnology(civ.getUniqueTechList().get(0)));
         imperialUniqueTech.setEntity(Database.getTechnology(civ.getUniqueTechList().get(1)));
 
+        if (civID == 23) paladin.setEntity(Database.getUnit(183));
+        else paladin.setEntity(Database.getUnit(92));
         if (civID == 39) mill.setEntity(Database.getBuilding(34));
         else mill.setEntity(Database.getBuilding(4));
         if (civID == 44 || civID == 45) monastery.setEntity(Database.getBuilding(37));
@@ -1195,7 +1197,7 @@ public class TechTreeView extends BaseView {
         eliteSteppeLancer.removeBottomLine();
         TechTreeBox eliteShrivamshaRider = new TechTreeBox(Database.getUnit(170), true, language);
         eliteShrivamshaRider.removeBottomLine();
-        TechTreeBox paladin = new TechTreeBox(Database.getUnit(92), false, language);
+        paladin = new TechTreeBox(Database.getUnit(92), false, language);
         paladin.removeBottomLine();
         TechTreeBox imperialCamel = new TechTreeBox(Database.getUnit(94), true, language);
         imperialCamel.removeBottomLine();

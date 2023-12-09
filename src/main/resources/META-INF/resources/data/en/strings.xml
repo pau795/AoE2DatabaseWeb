@@ -2047,8 +2047,8 @@
     <string name="stat_name_25">Relics</string>
     <string name="stat_name_26">Ignore Armor</string>
     <string name="stat_name_27">Resist Armor Ignore</string>
-    <string name="stat_name_27">Up Hill Resist</string>
-    <string name="stat_name_27">Down Hill Resist</string>
+    <string name="stat_name_28">Up Hill Resist</string>
+    <string name="stat_name_29">Down Hill Resist</string>
      
     <!--taunt_list.xml-->
      

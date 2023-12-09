@@ -141,6 +141,8 @@ public class TechTreeBox extends Div {
         if (e.getType().equals(Database.UNIT) && e.getEntityID() == 154) box.getStyle().set("background-color", "purple");
         if (e.getType().equals(Database.UNIT) && e.getEntityID() == 80) box.getStyle().set("background-color", "teal");
         if (e.getType().equals(Database.UNIT) && e.getEntityID() == 178) box.getStyle().set("background-color", "purple");
+        if (e.getType().equals(Database.UNIT) && e.getEntityID() == 183) box.getStyle().set("background-color", "purple");
+        if (e.getType().equals(Database.UNIT) && e.getEntityID() == 92) box.getStyle().set("background-color", "teal");
         name.setText(e.getName().getTranslatedString(language));
         icon.setSrc(e.getNameElement().getImage());
         setupPopup();

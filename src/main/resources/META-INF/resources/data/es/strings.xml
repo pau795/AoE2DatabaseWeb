@@ -1627,8 +1627,8 @@
     <string name="building_name_33">Donjon</string>
     <string name="building_name_34">Folwark</string>
 	<string name="building_name_35">Caravasar</string>
-	<string name="building_name_35">Carro de Mulas</string>
-	<string name="building_name_35">Iglesia Fortificada</string>
+	<string name="building_name_36">Carro de Mulas</string>
+	<string name="building_name_37">Iglesia Fortificada</string>
      
     <!--civilization_list.xml-->
      
@@ -1723,7 +1723,6 @@
     <string name="civilization_style_39">Civilización de Caballería</string>
 	<string name="civilization_style_40">Civilización de Elefantes y Naval</string>
     <string name="civilization_style_41">Civilización de Infantería y Naval</string>
-    <string name="civilization_style_42">Civilización de Caballería y Camellos</string>
     <string name="civilization_style_42">Civilización de Caballería y Camellos</string>
     <string name="civilization_style_43">Civilización de Infantería</string>
     <string name="civilization_style_44">Civilización Defensiva y de Caballería</string>
@@ -1917,8 +1916,8 @@
     <string name="history_name_77">Los Dravídicos</string>
     <string name="history_name_78">Los Gurjara</string>
     <string name="history_name_79">Los Romanos</string>
-    <string name="history_name_79">Los Armenios</string>
-    <string name="history_name_79">Los Georgianos</string>
+    <string name="history_name_80">Los Armenios</string>
+    <string name="history_name_81">Los Georgianos</string>
 	
 	
     <!--performance_list.xml-->
