@@ -961,10 +961,10 @@
 		<baseInfo researchBuildingID="20" ageID="90"/>
 		<stats trainingTime="60"/>
 		<cost>
-			<resource name="Food">750</resource>
-			<resource name="Gold">1000</resource>
+			<resource name="Food">550</resource>
+			<resource name="Gold">750</resource>
 		</cost>
-		<development requiredTechID="0" nextUpgradeID="0"/>
+		<development requiredTechID="256" nextUpgradeID="0"/>
 	</item>
 	<item id="110">
 		<baseInfo researchBuildingID="20" ageID="90"/>
@@ -1136,7 +1136,7 @@
 	</item>
 	<item id="129">
 		<baseInfo researchBuildingID="15" ageID="90"/>
-		<stats trainingTime="100"/>
+		<stats trainingTime="80"/>
 		<cost>
 			<resource name="Food">300</resource>
 			<resource name="Gold">300</resource>
@@ -2230,7 +2230,7 @@
 	</item>	
 	<item id="251">
 		<baseInfo researchBuildingID="26" ageID="90"/>
-		<stats trainingTime="150"/>
+		<stats trainingTime="160"/>
 		<cost>
 			<resource name="Food">1000</resource>
 			<resource name="Gold">600</resource>
@@ -2272,5 +2272,14 @@
 			<resource name="Gold">250</resource>
 		</cost>
 		<development requiredTechID="0" nextUpgradeID="0"/>
+	</item>
+	<item id="256">
+		<baseInfo researchBuildingID="20" ageID="19"/>
+		<stats trainingTime="40"/>
+		<cost>
+			<resource name="Food">100</resource>
+			<resource name="Gold">150</resource>
+		</cost>
+		<development requiredTechID="0" nextUpgradeID="109"/>
 	</item>
 </list>

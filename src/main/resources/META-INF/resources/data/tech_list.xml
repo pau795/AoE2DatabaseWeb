@@ -765,4 +765,7 @@
 	<!--Aznauri Cavalry-->
     <item id="255" image="t_imperial_ut"/>
 	
+	<!--Devotion-->
+    <item id="256" image="t_devotion"/>
+	
 </list>

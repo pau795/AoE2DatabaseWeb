@@ -1927,7 +1927,7 @@
 			<ecoEffect/>
 			<attackValueEffect>
 				<effectItem>
-					<filter class="class" ids="6 10 13"/>
+					<filter class="class" ids="6 13"/>
 					<operation stat="2" operator="+" value="1"/>
 				</effectItem>
 				<effectItem>
@@ -1935,10 +1935,14 @@
 					<operation stat="1" operator="+" value="1"/>
 				</effectItem>
 				<effectItem>
-					<filter class="unit" ids="38 100 103 44 107"/>
+					<filter class="unit" ids="38 100 103 44 107 6 16 19 21 72 77 79 168"/>
 					<operation stat="2" operator="+" value="1"/>
 				</effectItem>
 				<effectItem>
+					<filter class="unit" affectsSecondaryProjectile="true" ids="177"/>
+					<operation stat="1" operator="+" value="1"/>
+				</effectItem>
+					<effectItem>
 					<filter class="unit" affectsSecondaryProjectile="true" ids="56 119"/>
 					<operation stat="2" operator="+" value="1"/>
 				</effectItem>
@@ -1970,17 +1974,34 @@
 			<ecoEffect/>
 			<attackValueEffect>
 				<effectItem>
-					<filter class="unit" ids="36 37 38 56 75 76 177 64 96 97 98 99 100 101 103 119 127 155 157 159 163 171"/>
+					<filter class="unit" ids="36 37 38 56 75 76 96 97 98 99 100 101 103 119 155 157 159 163 171"/>
 					<operation stat="20" operator="*" value="1.2"/>
 				</effectItem>
 				<effectItem>
-					<filter class="unit" ids="40"/>
-					<operation stat="20" operator="+" value="200"/>
+					<filter class="unit" affectsSecondaryProjectile="true" ids="64 127 177"/>
+					<operation stat="20" operator="*" value="1.2"/>
 				</effectItem>
 				<effectItem>
-					<filter class="unit" ids="148"/>
-					<operation stat="20" operator="+" value="80"/>
+					<filter class="unit" affectsSecondaryProjectile="true" ids="177"/>
+					<operation stat="21" operator="*" value="1.2"/>
 				</effectItem>
+				<effectItem>
+					<filter class="unit" affectsSecondaryProjectile="true" ids="177"/>
+					<operation stat="23" operator="*" value="1.2"/>
+				</effectItem>
+				<effectItem>
+					<filter class="unit" ids="40 148"/>
+					<operation stat="20" operator="*" value="1.4"/>
+				</effectItem>
+				<effectItem>
+					<filter class="unit" ids="40"/>
+					<operation stat="21" operator="*" value="1.4"/>
+				</effectItem>
+				<effectItem>
+					<filter class="unit" ids="40"/>
+					<operation stat="23" operator="*" value="1.4"/>
+				</effectItem>
+
 			</attackValueEffect>
 			<armorValueEffect/>
 		</effects>
@@ -3871,7 +3892,7 @@
 			<statEffect>
 				<effectItem>
 					<filter class="unit" ids="8 18 74"/>
-					<operation stat="10" operator="*" value="1.33"/>
+					<operation stat="10" operator="*" value="1.2"/>
 				</effectItem>
 				<effectItem>
 					<filter class="unit" ids="6 16 72 177"/>
@@ -3960,6 +3981,15 @@
 					<operation stat="16" operator="*" value="0.85"/>
 				</effectItem>
 			</statEffect>			
+			<costEffect/>
+			<ecoEffect/>
+			<attackValueEffect/>
+			<armorValueEffect/>
+		</effects>
+	</item>
+	<item id="256">
+		<effects>
+			<statEffect/>
 			<costEffect/>
 			<ecoEffect/>
 			<attackValueEffect/>

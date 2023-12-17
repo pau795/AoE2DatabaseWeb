@@ -41,7 +41,7 @@ public class TechTreeView extends BaseView {
     static int castleWidth = boxWidth * 8;
     static int donjonWidth = boxWidth * 2;
 
-    static int monasteryWidth = boxWidth * 8;
+    static int monasteryWidth = boxWidth * 9;
     static int miningCampWidth = boxWidth * 2;
     static int marketWidth = boxWidth * 2;
 
@@ -180,7 +180,7 @@ public class TechTreeView extends BaseView {
         university.addClassNames("tech-tree-shortcut-image");
         Image towers = new Image();
         towers.addClickListener(event -> towersShortcut.getElement().executeJs("$0.scrollIntoView({behavior: \"smooth\", block: \"center\", inline: \"center\"});", towersShortcut.getElement()));
-        towers.setSrc("images/b_tower.png");
+        towers.setSrc("images/b_keep.png");
         towers.addClassNames("tech-tree-shortcut-image");
         Image castle = new Image();
         castle.addClickListener(event -> castleShortcut.getElement().executeJs("$0.scrollIntoView({behavior: \"smooth\", block: \"center\", inline: \"center\"});", castleShortcut.getElement()));
@@ -997,6 +997,9 @@ public class TechTreeView extends BaseView {
         missionary.removeBottomLine();
         missionary.setTopRightLine();
         missionary.setTopLeftLine();
+        TechTreeBox devotion = new TechTreeBox(Database.getTechnology(256), false, language);
+        devotion.setTopRightLine();
+        devotion.setTopLeftLine();
         TechTreeBox redemption = new TechTreeBox(Database.getTechnology(36), false, language);
         redemption.removeBottomLine();
         redemption.setTopRightLine();
@@ -1023,7 +1026,7 @@ public class TechTreeView extends BaseView {
 
         TechTreeSlotLayout monasteryLayout = new TechTreeSlotLayout(boxSet);
         monasteryLayout.addFistRow(monastery);
-        monasteryLayout.addSecondRow(monk, missionary, redemption, atonement, herbalMedicine, heresy, sanctity, fervor);
+        monasteryLayout.addSecondRow(monk, missionary, devotion, redemption, atonement, herbalMedicine, heresy, sanctity, fervor);
 
         //KREPOST
         TechTreeBox krepost = new TechTreeBox(Database.getBuilding(32), false, language);
@@ -1371,10 +1374,6 @@ public class TechTreeView extends BaseView {
         castleLayout.addSecondRow(castleLine1, castleLine2, castleLine3, castleLine4, castleLine5, castleLine6, castleLine7, castleLine8);
 
         //MONASTERY
-        TechTreeBox faith = new TechTreeBox(Database.getTechnology(109), false, language);
-        faith.removeBottomLine();
-        faith.removeTopLine();
-
         TechTreeBox illumination = new TechTreeBox(Database.getTechnology(110), false, language);
         illumination.removeBottomLine();
         illumination.removeTopLine();
@@ -1382,6 +1381,9 @@ public class TechTreeView extends BaseView {
         TechTreeBox blockPrinting = new TechTreeBox(Database.getTechnology(111), false, language);
         blockPrinting.removeBottomLine();
         blockPrinting.removeTopLine();
+
+        TechTreeBox faith = new TechTreeBox(Database.getTechnology(109), false, language);
+        faith.removeBottomLine();
 
         TechTreeBox theocracy = new TechTreeBox(Database.getTechnology(112), false, language);
         theocracy.removeBottomLine();
@@ -1392,7 +1394,7 @@ public class TechTreeView extends BaseView {
         TechTreeEmptyBox monasteryLine4 = new TechTreeEmptyBox(false);
 
         TechTreeSlotLayout monasteryLayout = new TechTreeSlotLayout(boxSet);
-        monasteryLayout.addFistRow(faith, illumination, blockPrinting, theocracy, monasteryLine1, monasteryLine2, monasteryLine3, monasteryLine4);
+        monasteryLayout.addFistRow(illumination, blockPrinting, faith, theocracy, monasteryLine1, monasteryLine2, monasteryLine3, monasteryLine4);
 
         //KREPOST
         TechTreeBox eliteKonnik = new TechTreeBox(Database.getUnit(142), true, language);

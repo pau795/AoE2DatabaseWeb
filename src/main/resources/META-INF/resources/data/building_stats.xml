@@ -278,7 +278,7 @@
 		<baseInfo builderUnitID="1" ageID="-1" classID="2"/>
 		<stats hitPoints="1000" attack="-" meleeArmor="0" pierceArmor="7" range="-" minimumRange="-" lineOfSight="6" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="-" trainingTime="40" workRate="1" healRate="-" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1" bonusReduction="1"/>
 		<cost>
-			<resource name="Wood">125</resource>
+			<resource name="Wood">100</resource>
 		</cost>
 		<development requiredBuildingID="0" requiredTechID="0" previousUpgradeID="0" nextUpgradeID="0"/>
 	</item>
@@ -291,11 +291,11 @@
 		</cost>
 		<development requiredBuildingID="0" requiredTechID="0" previousUpgradeID="0" nextUpgradeID="0"/>
 	</item>
-		<item id="36">
+	<item id="36">
 		<baseInfo builderUnitID="1" ageID="-1" classID="2"/>
 		<stats hitPoints="300" attack="-" meleeArmor="1" pierceArmor="2" range="-" minimumRange="-" lineOfSight="4" reloadTime="-" speed="0.8" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="0" trainingTime="25" workRate="1" healRate="1" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1" bonusReduction="1"/>
 		<cost>
-			<resource name="Wood">100</resource>
+			<resource name="Wood">80</resource>
 			<resource name="Food">20</resource>
 		</cost>
 		<development requiredBuildingID="0" requiredTechID="0" previousUpgradeID="0" nextUpgradeID="0"/>

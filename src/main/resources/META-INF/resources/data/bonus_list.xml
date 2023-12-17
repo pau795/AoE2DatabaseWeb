@@ -90,10 +90,10 @@
     <!--Technologies cost -10/15/20% in Feudal/Castle/Imperial Age (except aging up).-->
     <item id="30"/>
      
-    <!--Town Centers support 10 population.-->
+    <!--Town Centers support 15 population.-->
     <item id="31"/>
      
-    <!--Town Centers have +5 line of sight.-->
+    <!--Town Centers have +7 line of sight.-->
     <item id="32"/>
      
     <!--Demolition Ships have +50% hit points.-->
@@ -174,7 +174,7 @@
     <!--Spearmen and Skirmishers +2 Line of Sight.-->
     <item id="58"/>
      
-    <!--Villagers cost -5/10/15/20% in Dark/Feudal/Castle/Imperial Age.-->
+    <!--Villagers cost -8/13/18/23% in Dark/Feudal/Castle/Imperial Age.-->
     <item id="59"/>
      
     <!--Camel Riders attack 20% faster-->
@@ -663,7 +663,7 @@
 	<!--Cavalry Archers +2 attack against Archers-->
 	<item id="221"/>
 	
-	<!--Cavalry generates 5 gold when killing enemy military units.-->
+	<!--On Nomadic maps, the first Town Center spawns a Hunnic Horse.-->
 	<item id="222"/>
 	
 	<!--Parthian Tactics available in Castle Age.-->
@@ -675,7 +675,7 @@
 	<!--Mule Carts cost 25% less.-->
 	<item id="225"/>
 	
-	<!--Mule Cart technologies are 25% more effective.-->
+	<!--Mule Cart technologies are 40% more effective.-->
 	<item id="226"/>
 	
 	<!--First Fortified Church recives a free Relic.-->
@@ -684,7 +684,7 @@
 	<!--Barracks units (except Man-at-Arms), are available one age earlier.-->
 	<item id="228"/>
 	
-	<!--Galley-line fires two projectiles.-->
+	<!--Galley-line and Dromons fire an additional projecitle-->
 	<item id="229"/>
 	
 	<!--Infantry +2 line of sight-->

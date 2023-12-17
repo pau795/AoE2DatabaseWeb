@@ -626,6 +626,8 @@
 	<item id="255">
 		<building id="26" upgrades="60 141"/>
 	</item>
-	
+	<item id="256">
+		<building id="26" upgrades="229"/>
+	</item>
 	
 </list>

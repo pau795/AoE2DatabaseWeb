@@ -1530,5 +1530,10 @@
 		<uniqueTechList ids="60"/>
 		<hiddenBonusList/>
 	</item>
-	
+		<item id="256">
+		<bonusList ids="3 16 30 214"/>
+		<teamBonusList ids="162 111"/>
+		<uniqueTechList ids="229"/>
+		<hiddenBonusList/>
+	</item>
 </list>

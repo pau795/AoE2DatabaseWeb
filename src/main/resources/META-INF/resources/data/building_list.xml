@@ -52,7 +52,7 @@
     <item id="17" image="b_gate"/>
      
     <!--Watch Tower-->
-    <item id="18" image="b_tower"/>
+    <item id="18" image="b_watch_tower"/>
      
     <!--Fish Trap-->
     <item id="19" image="b_fish_trap"/>
@@ -73,7 +73,7 @@
     <item id="24" image="b_gate"/>
      
     <!--Guard Tower-->
-    <item id="25" image="b_tower"/>
+    <item id="25" image="b_guard_tower"/>
      
     <!--Castle-->
     <item id="26" image="b_castle"/>
@@ -88,7 +88,7 @@
     <item id="29" image="b_feitoria"/>
      
     <!--Keep-->
-    <item id="30" image="b_tower"/>
+    <item id="30" image="b_keep"/>
      
     <!--Bombard Tower-->
     <item id="31" image="b_bombard_tower"/>

@@ -749,11 +749,11 @@
     <string name="bonus_tech_tree_description_30">Las tecnologías cuestan un 5/10/15% menos en la Edad Feudal/Castillos/Imperial (excepto avanzar de edad).</string>
     <string name="bonus_item_description_30">La tecnología de \@ cuesta un 5/10/15% menos en la Edad Feudal/Castillos/Imperial.</string> 
     
-    <string name="bonus_tech_tree_description_31">Los Centros Urbanos proporcionan 10 de población</string>
-    <string name="bonus_item_description_31">Los Centros Urbanos proporcionan 10 de población</string> 
+    <string name="bonus_tech_tree_description_31">Los Centros Urbanos proporcionan 15 de población</string>
+    <string name="bonus_item_description_31">Los Centros Urbanos proporcionan 15 de población</string> 
     
-    <string name="bonus_tech_tree_description_32">Los Centros Urbanos tienen +5 de campo de visión</string>
-    <string name="bonus_item_description_32">Los Centros Urbanos tienen +5 de campo de visión</string> 
+    <string name="bonus_tech_tree_description_32">Los Centros Urbanos tienen +7 de campo de visión</string>
+    <string name="bonus_item_description_32">Los Centros Urbanos tienen +7 de campo de visión</string> 
     
     <string name="bonus_tech_tree_description_33">Los Buques de Demolición tienen un 50% más de puntos de resistencia.</string>
     <string name="bonus_item_description_33">\@ tienen un 50% más de puntos de resistencia.</string> 
@@ -818,8 +818,8 @@
     <string name="bonus_tech_tree_description_53">Los Establos trabajan un 20% más rápido.</string>
     <string name="bonus_item_description_53">\@ se crean un 20% más rápido.|\@ funcionan un 20% más rápido.|La tecnología de \@ se desarrolla un 20% más rápido.</string> 
     
-    <string name="bonus_tech_tree_description_54">Las unidades militares cuestan un 15/20/25/30% menos en la Edad Alta/Feudal/Castillos/Imperial.</string>
-    <string name="bonus_item_description_54">\@ cuestan un 15/20/25/30% menos en la Edad Alta/Feudal/Castillos/Imperial.</string> 
+    <string name="bonus_tech_tree_description_54">Las unidades militares cuestan un 10/15/20/25% menos en la Edad Alta/Feudal/Castillos/Imperial.</string>
+    <string name="bonus_item_description_54">\@ cuestan un 10/15/20/25% menos en la Edad Alta/Feudal/Castillos/Imperial.</string> 
     
     <string name="bonus_tech_tree_description_55">Las mejoras para la Infantería de la Herrería afectan a los Aldeanos a partir de la Edad de los Castillos.</string>
     <string name="bonus_item_description_55">Las mejoras para Infantería de la Herrería afectan a \@ a partir de la Edad de los Castillos.||La tecnología de \@ afecta a los Aldeanos a partir de la Edad de los Castillos.</string> 
@@ -833,8 +833,8 @@
     <string name="bonus_tech_tree_description_58">Empiezan con una Llama gratuita.</string>
     <string name="bonus_item_description_58">Empiezan con una Llama gratuita.</string> 
     
-    <string name="bonus_tech_tree_description_59">Los Aldeanos cuestan un 5/10/15/20% menos en la Edad Alta/Feudal/Castillos/Imperial.</string>
-    <string name="bonus_item_description_59">Los Aldeanos cuestan un 5/10/15/20% menos en la Edad Alta/Feudal/Castillos/Imperial.</string> 
+    <string name="bonus_tech_tree_description_59">Los Aldeanos cuestan un 8/13/18/23% menos en la Edad Alta/Feudal/Castillos/Imperial.</string>
+    <string name="bonus_item_description_59">Los Aldeanos cuestan un  8/13/18/23% menos en la Edad Alta/Feudal/Castillos/Imperial.</string> 
     
     <string name="bonus_tech_tree_description_60">Los Jinetes de Camello atacan un 20% más rápido.</string>
     <string name="bonus_item_description_60">\@ atacan un 20% más rápido.</string> 
@@ -1319,11 +1319,11 @@
 	<string name="bonus_tech_tree_description_220">Los Monjes se mueven un 20% más rápido.</string>
     <string name="bonus_item_description_220">\@ se mueven un 20% más rápido.</string> 
  
-	<string name="bonus_tech_tree_description_221">Los Arqueros a Caballo tienen +2 de ataque contra Arqueros.</string>
-    <string name="bonus_item_description_221">\@ tienen +2 de ataque contra Arqueros.</string> 
+	<string name="bonus_tech_tree_description_221">Los Arqueros a Caballo tienen +2 de ataque contra Arqueros (excepto Hostigadores).</string>
+    <string name="bonus_item_description_221">\@ tienen +2 de ataque contra Arqueros (excepto Hostigadores).</string> 
 	
-	<string name="bonus_tech_tree_description_222">Las Unidades Montadas generan 5 de oro al matar unidades militares enemigas.</string>
-    <string name="bonus_item_description_222">\@ generan 5 de oro al matar unidades militares enemigas.</string> 
+	<string name="bonus_tech_tree_description_222">En los mapas nómadas, el primer Centro Urbano genera un Caballo Huno.</string>
+    <string name="bonus_item_description_222">En los mapas nómadas, el primer Centro Urbano genera un Caballo Huno.</string> 
 	
 	<string name="bonus_tech_tree_description_223">La tecnología de Tácticas de los Partos está disponible en la Edad de los Castillos.</string>
     <string name="bonus_item_description_223">La tecnología de \@ está disponible en la Edad de los Castillos.</string> 
@@ -1334,20 +1334,20 @@
 	<string name="bonus_tech_tree_description_225">Los Carros de Mulas cuestan un 25% menos.</string>
     <string name="bonus_item_description_225">\@ los cuestan un 25% menos.</string> 		
 	
-	<string name="bonus_tech_tree_description_226">Las tecnologías de los Carros de Mulas son un 25% más efectivas.</string>
-    <string name="bonus_item_description_226">|Las tecnologías de \@ technologies  son un 25% más efectivas.|La tecnología de \@ es un 25% más efectiva.</string> 		
+	<string name="bonus_tech_tree_description_226">Las tecnologías de los Carros de Mulas son un 40% más efectivas.</string>
+    <string name="bonus_item_description_226">|Las tecnologías de \@ son un 40% más efectivas.|La tecnología de \@ es un 40% más efectiva.</string> 		
  
 	<string name="bonus_tech_tree_description_227">La primera Iglesia Fortificada construida recibe una reliquia gratuita.</string>
     <string name="bonus_item_description_227">La primera Iglesia Fortificada construida recibe una reliquia gratuita.</string> 		
  
 	<string name="bonus_tech_tree_description_228">Las unidades de los cuarteles (excepto Hombre de Armas), están disponibles una edad antes.</string>
-    <string name="bonus_item_description_228">\@ está disponible una edad antes.||la tecnología de \@ está disponible una edad antes.</string> 		
+    <string name="bonus_item_description_228">\@ están disponible una edad antes.||la tecnología de \@ está disponible una edad antes.</string> 		
  
-	<string name="bonus_tech_tree_description_229">La línea de Galera dispara dos proyectiles.</string>
-    <string name="bonus_item_description_229">\@ dispara dos proyectiles.</string> 		
+	<string name="bonus_tech_tree_description_229">La línea de Galera y los Dromones disparan un proyectil adicional.</string>
+    <string name="bonus_item_description_229">\@ disparan un proyectil adicional.</string> 		
  
 	<string name="bonus_tech_tree_description_230">La Infatería tiene +2 de campo de visión.</string>
-    <string name="bonus_item_description_230">\@ tiene +2 de campo de visión.</string> 		
+    <string name="bonus_item_description_230">\@ tienen +2 de campo de visión.</string> 		
  
 	<string name="bonus_tech_tree_description_231">Comienzan con un Carro de Mulas gratuito, pero con -50 de comida.</string>
     <string name="bonus_item_description_231">Comienzan con un Carro de Mulas gratuito, pero con -50 de comida.</string> 	
@@ -1361,8 +1361,8 @@
 	<string name="bonus_tech_tree_description_234">Las unidades de Caballeria regeneran 5/10/15 de HP por minuto en la edad Feudal/Castillos/Imperial.</string>
     <string name="bonus_item_description_234">\@ regeneran 5/10/15 de HP por minuto en la edad Feudal/Castillos/Imperial.</string> 
 	
-	<string name="bonus_tech_tree_description_235">Los Edificios cuestan un 50% menos recursos para repararlos.</string>
-    <string name="bonus_item_description_235">\@  cuestan un 50% menos recursos para repararlos.</string> 
+	<string name="bonus_tech_tree_description_235">Los Edificios cuestan un 25% menos recursos para repararlos.</string>
+    <string name="bonus_item_description_235">\@  cuestan un 25% menos recursos para repararlos.</string> 
  
     <!--building_description.xml-->
      
@@ -2807,8 +2807,8 @@
     
     <string name="tech_description_nominative_109">Fe</string>
     <string name="tech_description_quick_109"/>
-    <string name="tech_description_brief_109">Las unidades son más resistentes a la conversión</string>
-    <string name="tech_description_long_109">Las unidades y los edificios son más resistentes a la conversión: tiempo mínimo de conversión +2s, tiempo máximo de conversión +5s y la posiblidad de conversión se reduce un 66%.</string>
+    <string name="tech_description_brief_109">Las unidades son un 50% más dificiles de convertir</string>
+    <string name="tech_description_long_109">Las unidades son un 50% más dificiles de convertir: tiempo mínimo de conversión +4s, tiempo máximo de conversión +4s.</string>
     <string name="tech_description_extra_109"/> 
     
     <string name="tech_description_nominative_110">Iluminación</string>
@@ -3466,10 +3466,10 @@
     <string name="tech_description_extra_218">Los Granjeros generan oro lentamente (0.93 de oro por minuto).</string> 
     
     <string name="tech_description_nominative_219">Primera Cruzada</string>
-    <string name="tech_description_quick_219">Cada Centro Urbano (máx 5) genera 7 Serjeants; las unidades son más resistentes a la conversión</string>
+    <string name="tech_description_quick_219">Cada Centro Urbano (máx 5) genera 7 Serjeants; las unidades son un 50% más dificiles de convertir</string>
     <string name="tech_description_brief_219"/>
-    <string name="tech_description_long_219">Tecnología Única Siciliana en la Edad de los Castillos. Cada Centro Urbano (máx 5) genera un lote único de 7 Serjeants; las unidades son más resistentes a la conversión: tiempo mínimo de conversión +2s, tiempo máximo de conversión +5s y la posiblidad de conversión se reduce un 66%.</string>
-    <string name="tech_description_extra_219">Cada Centro Urbano (máx 5) genera un lote único de 7 Serjeants; las unidades son más resistentes a la conversión: tiempo mínimo de conversión +2s, tiempo máximo de conversión +5s y la posiblidad de conversión se reduce un 66%.</string> 
+    <string name="tech_description_long_219">Tecnología Única Siciliana en la Edad de los Castillos. Cada Centro Urbano (máx 5) genera un lote único de 7 Serjeants; las unidades son un 50% más dificiles de convertir: tiempo mínimo de conversión +4s, tiempo máximo de conversión +4s.</string>
+    <string name="tech_description_extra_219">Cada Centro Urbano (máx 5) genera un lote único de 7 Serjeants; las unidades son un 50% más dificiles de convertir: tiempo mínimo de conversión +4s, tiempo máximo de conversión +4s.</string> 
     
     <string name="tech_description_nominative_220">Coustillier de Élite</string>
     <string name="tech_description_quick_220"/>
@@ -3646,10 +3646,10 @@
     <string name="tech_description_extra_248">La Línea de Espadachín, la Línea de Jinete y los Centuriones se crean un 50% más rápido y reciben 5 de daño de carga, que se recarga tras 20 segundos.</string>
 		
 	<string name="tech_description_nominative_249">Flota de Cilicia</string>
-    <string name="tech_description_quick_249">Buques de Demolición +33% área de efecto; línea de Galera y Dromones +1 alcance</string>
+    <string name="tech_description_quick_249">Buques de Demolición +20% área de efecto; línea de Galera y Dromones +1 alcance</string>
     <string name="tech_description_brief_249"/>
-    <string name="tech_description_long_249">Tecnología única Armenia en la Edad de los Castillos. Los Buques de Demolición obtienen +33% de área de efecto; la línea de Galera y Dromones obtienen +1 de alcance.</string>
-    <string name="tech_description_extra_249">Los Buques de Demolición obtienen +33% de área de efecto; la línea de Galera y Dromones obtienen +1 de alcance.</string>
+    <string name="tech_description_long_249">Tecnología única Armenia en la Edad de los Castillos. Los Buques de Demolición obtienen un 20% más de área de efecto; la línea de Galera y Dromones obtienen +1 de alcance.</string>
+    <string name="tech_description_extra_249">Los Buques de Demolición obtienen un 20% más de área de efecto; la línea de Galera y Dromones obtienen +1 de alcance.</string>
 	
 	<string name="tech_description_nominative_250">Torres Esvanas</string>
     <string name="tech_description_quick_250">Edificios defensivos +2 de ataque; Torres disparan flechas que atraviesan múltipes unidades</string>
@@ -3686,6 +3686,12 @@
     <string name="tech_description_brief_255"/>
     <string name="tech_description_long_255">Tecnología única Georgiana en la Edad Imperial. Las Unidades de Caballería ocupan un 15% menos de población.</string>
     <string name="tech_description_extra_255">Las Unidades de Caballería ocupan un 15% menos de población.</string>
+ 
+    <string name="tech_description_nominative_256">Devoción</string>
+    <string name="tech_description_quick_256"/>
+    <string name="tech_description_brief_256">Las unidades son un 15% más dificiles de convertir</string>
+    <string name="tech_description_long_256">Las unidades son un 15% más dificiles de convertir: tiempo mínimo de conversión +1s, tiempo máximo de conversión +1s.</string>
+    <string name="tech_description_extra_256"/> 
  
     <!--tech_list.xml-->
      
@@ -3945,6 +3951,7 @@
     <string name="tech_name_253">Monaspa de Élite</string>
     <string name="tech_name_254">Relicarios</string>
     <string name="tech_name_255">Caballería de Aznauri</string>
+    <string name="tech_name_256">Devoción</string>
      
     <!--type_list.xml-->
      
@@ -4974,7 +4981,7 @@
 	<string name="unit_description_nominative_165">Los Rathas (Melé)</string>
     <string name="unit_description_quick_165">Carruaje que puede cambiar entre ataques a distancia y melé</string>
     <string name="unit_description_brief_165"/>
-    <string name="unit_description_long_165">Unidad Única Bengalí. Carruaje que puede cambiar entre ataques a distancia y melé.</string>
+    <string name="unit_description_long_165">Unidad Única Bengalí. Carruaje que puede cambiar entre ataques a distancia y melé. Inflinge un 20% de daño en área en modo melé.</string>
     <string name="unit_description_extra_165"/>
 	
 	<string name="unit_description_nominative_166">Los Espadachines Urumi</string>
@@ -5022,7 +5029,7 @@
 	<string name="unit_description_nominative_173">Los Rathas de Élite (Melé)</string>
     <string name="unit_description_quick_173">Carruaje que puede cambiar entre ataques a distancia y melé</string>
     <string name="unit_description_brief_173"/>
-    <string name="unit_description_long_173">Unidad Única Bengalí. Carruaje que puede cambiar entre ataques a distancia y melé.</string>
+    <string name="unit_description_long_173">Unidad Única Bengalí. Carruaje que puede cambiar entre ataques a distancia y melé. Inflinge un 20% de daño en área en modo melé.</string>
     <string name="unit_description_extra_173"/>
 	
 	<string name="unit_description_nominative_174">Los Espadachines Urumi de Élite</string>

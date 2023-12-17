@@ -82,7 +82,7 @@
 		<uniqueBuildings/>
 	</item>
 	<item id="11">
-		<bonus bonusList="50 51 52" teamBonus="53"/>
+		<bonus bonusList="50 51 52 222" teamBonus="53"/>
 		<uniqueUnits>
 			<unit unitID="51" eliteUnitID="114"/>
 		</uniqueUnits>
@@ -182,7 +182,7 @@
 		<uniqueBuildings/>
 	</item>
 	<item id="23">
-		<bonus bonusList="104 105 106 222 223 224" teamBonus="107"/>
+		<bonus bonusList="104 105 106 223 224" teamBonus="107"/>
 		<uniqueUnits>
 			<unit unitID="63" eliteUnitID="126"/>
 			<unit unitID="183"/>

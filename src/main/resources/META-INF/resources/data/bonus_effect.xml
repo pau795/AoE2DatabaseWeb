@@ -530,7 +530,7 @@
 			<statEffect>
 				<effectItem>
 					<filter/>
-					<operation stat="16" operator="+" value="5"/>
+					<operation stat="16" operator="+" value="10"/>
 				</effectItem>
 			</statEffect>
 			<costEffect/>
@@ -545,7 +545,7 @@
 			<statEffect>
 				<effectItem>
 					<filter/>
-					<operation stat="7" operator="+" value="5"/>
+					<operation stat="7" operator="+" value="7"/>
 				</effectItem>
 			</statEffect>
 			<costEffect/>
@@ -882,7 +882,7 @@
 			<costEffect>
 				<effectItem>
 					<filter/>
-					<operation stat="Food" operator="*" value="0.85 0.80 0.75 0.7"/>
+					<operation stat="Food" operator="*" value="0.9 0.85 0.8 0.75"/>
 				</effectItem>
 			</costEffect>
 			<ecoEffect/>
@@ -1027,7 +1027,7 @@
 			<costEffect>
 				<effectItem>
 					<filter/>
-					<operation stat="All" operator="*" value="0.95 0.9 0.85 0.8"/>
+					<operation stat="All" operator="*" value="0.92 0.87 0.82 0.77"/>
 				</effectItem>
 			</costEffect>
 			<ecoEffect/>
@@ -3770,6 +3770,10 @@
 					<filter/>
 					<operation stat="3" operator="+" value="2"/>
 				</effectItem>
+				<effectItem>
+					<filter/>
+					<operation stat="33" operator="-" value="2"/>
+				</effectItem>
 			</attackValueEffect>
 			<armorValueEffect/>
 		</effects>
@@ -3827,27 +3831,23 @@
 			<ecoEffect>
 				<effectItem>
 					<filter class="techRequirement" requiredTech="5" ids="@"/>
-					<operation stat="1" operator="*" value="1.04167"/>
+					<operation stat="1" operator="*" value="1.06667"/>
 				</effectItem>
 				<effectItem>
 					<filter class="techRequirement" requiredTech="22" ids="@"/>
-					<operation stat="1" operator="*" value="1.04167"/>
-				</effectItem>
-				<effectItem>
-					<filter class="techRequirement" requiredTech="5" ids="@"/>
-					<operation stat="1" operator="*" value="1.02273"/>
-				</effectItem>
+					<operation stat="1" operator="*" value="1.06667"/>
+				</effectItem>				
 				<effectItem>
 					<filter class="techRequirement" requiredTech="7" ids="@"/>
-					<operation stat="9" operator="*" value="1.03261"/>
+					<operation stat="9" operator="*" value="1.05217"/>
 				</effectItem>
 				<effectItem>
 					<filter class="techRequirement" requiredTech="24" ids="@"/>
-					<operation stat="9" operator="*" value="1.03261"/>
+					<operation stat="9" operator="*" value="1.05217"/>
 				</effectItem>
 				<effectItem>
 					<filter class="techRequirement" requiredTech="8" ids="@"/>
-					<operation stat="9" operator="*" value="1.03261"/>
+					<operation stat="9" operator="*" value="1.05217"/>
 				</effectItem>
 			</ecoEffect>
 			<attackValueEffect/>

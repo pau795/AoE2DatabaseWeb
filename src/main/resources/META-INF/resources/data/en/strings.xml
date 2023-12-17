@@ -758,11 +758,11 @@
     <string name="bonus_tech_tree_description_30">Technologies cost 5/10/15% less in Feudal/Castle/Imperial Age (except aging up).</string>
     <string name="bonus_item_description_30">\@ research costs 5/10/15% less in Feudal/Castle/Imperial Age.</string> 
     
-    <string name="bonus_tech_tree_description_31">Town Centers support 10 population.</string>
-    <string name="bonus_item_description_31">Town Centers support 10 population.</string> 
+    <string name="bonus_tech_tree_description_31">Town Centers support 15 population.</string>
+    <string name="bonus_item_description_31">Town Centers support 15 population.</string> 
     
-    <string name="bonus_tech_tree_description_32">Town Centers have +5 line of sight.</string>
-    <string name="bonus_item_description_32">Town Centers have +5 line of sight.</string> 
+    <string name="bonus_tech_tree_description_32">Town Centers have +7 line of sight.</string>
+    <string name="bonus_item_description_32">Town Centers have +7 line of sight.</string> 
     
     <string name="bonus_tech_tree_description_33">Demolition Ships have +50% hit points.</string>
     <string name="bonus_item_description_33">\@ have +50% hit points.</string> 
@@ -827,8 +827,8 @@
     <string name="bonus_tech_tree_description_53">Stables work 20% faster.</string>
     <string name="bonus_item_description_53">\@ are trained 20% faster.|\@ work 20% faster.|\@ is researched 20% faster.</string> 
     
-    <string name="bonus_tech_tree_description_54">Military units cost 15/20/25/30% less food in Dark/Feudal/Castle/Imperial Age</string>
-    <string name="bonus_item_description_54">\@ cost 15/20/25/30% less food in Dark/Feudal/Castle/Imperial Age</string> 
+    <string name="bonus_tech_tree_description_54">Military units cost 10/15/20/25% less food in Dark/Feudal/Castle/Imperial Age</string>
+    <string name="bonus_item_description_54">\@ cost 10/15/20/25% less food in Dark/Feudal/Castle/Imperial Age</string> 
     
     <string name="bonus_tech_tree_description_55">Villagers are affected by Infantry Blacksmith upgrades starting in Castle Age.</string>
     <string name="bonus_item_description_55">Villagers are affected by Infantry Blacksmith upgrades starting in Castle Age.||\@ affects Villagers starting in Castle Age.</string> 
@@ -842,8 +842,8 @@
     <string name="bonus_tech_tree_description_58">Start with a free Llama.</string>
     <string name="bonus_item_description_58">Start with a free Llama.</string> 
     
-    <string name="bonus_tech_tree_description_59">Villagers cost -5/10/15/20% in Dark/Feudal/Castle/Imperial Age.</string>
-    <string name="bonus_item_description_59">Villagers cost -5/10/15/20% in Dark/Feudal/Castle/Imperial Age.</string> 
+    <string name="bonus_tech_tree_description_59">Villagers cost  8/13/18/23% less in Dark/Feudal/Castle/Imperial Age.</string>
+    <string name="bonus_item_description_59">Villagers cost 8/13/18/23% less in Dark/Feudal/Castle/Imperial Age.</string> 
     
     <string name="bonus_tech_tree_description_60">Camel Riders attack 20% faster.</string>
     <string name="bonus_item_description_60">\@ attack 20% faster.</string> 
@@ -1328,11 +1328,11 @@
 	<string name="bonus_tech_tree_description_220">Monks move 20% faster.</string>
     <string name="bonus_item_description_220">\@ move 20% faster.</string> 
 	
-	<string name="bonus_tech_tree_description_221">Cavalry Archers have +2 attack against Archers.</string>
-    <string name="bonus_item_description_221">\@ have +2 attack against Archers.</string> 
+	<string name="bonus_tech_tree_description_221">Cavalry Archers have +2 attack against Archers (except Skirmishers).</string>
+    <string name="bonus_item_description_221">\@ have +2 attack against Archers (except Skirmishers).</string> 
 	
-	<string name="bonus_tech_tree_description_222">Mounted Units generate 5 gold when killing enemy military units.</string>
-    <string name="bonus_item_description_222">\@ generate 5 gold when killing enemy military units</string> 
+	<string name="bonus_tech_tree_description_222">On Nomadic maps, the first Town Center spawns a Hunnic Horse.</string>
+    <string name="bonus_item_description_222">On Nomadic maps, the first Town Center spawns a Hunnic Horse.</string> 
 	
 	<string name="bonus_tech_tree_description_223">Parthian Tactics technology is available in Castle Age.</string>
     <string name="bonus_item_description_223">\@ technology is available in Castle Age.</string> 
@@ -1343,8 +1343,8 @@
 	<string name="bonus_tech_tree_description_225">Mule Carts cost 25% less.</string>
     <string name="bonus_item_description_225">\@ cost 25% less.</string> 		
 	
-	<string name="bonus_tech_tree_description_226">Mule Carts technologies are 25% more effective.</string>
-    <string name="bonus_item_description_226">|\@ technologies are 25% more effective.|\@ technology is 25% more effective.</string> 		
+	<string name="bonus_tech_tree_description_226">Mule Carts technologies are 40% more effective.</string>
+    <string name="bonus_item_description_226">|\@ technologies are 40% more effective.|\@ technology is 40% more effective.</string> 		
 	
 	<string name="bonus_tech_tree_description_227">The first Fortified Church contructed receives a free relic.</string>
     <string name="bonus_item_description_227">The first Fortified Church constructed receives a free relic.</string> 		
@@ -1352,7 +1352,7 @@
 	<string name="bonus_tech_tree_description_228">Barracks units (except Man-at-Arms), are available one age earlier.</string>
     <string name="bonus_item_description_228">\@ is available one age earlier.||\@ research is available one age earlier.</string> 		
 	
-	<string name="bonus_tech_tree_description_229">Galley-line fires two projectiles.</string>
+	<string name="bonus_tech_tree_description_229">Galley-line and Dromons fire and additional projectile.</string>
     <string name="bonus_item_description_229">\@ fire two projectiles.</string> 		
 	
 	<string name="bonus_tech_tree_description_230">Infantry have +2 line of sight.</string>
@@ -1370,8 +1370,8 @@
 	<string name="bonus_tech_tree_description_234">Cavalry units regenerate 5/10/15 HP per minute in Feudal/Castle/Imperial Age.</string>
     <string name="bonus_item_description_234">\@ regenerate 5/10/15 HP per minute in Feudal/Castle/Imperial Age.</string> 
 	
-	<string name="bonus_tech_tree_description_235">Buildings cost 50% less resources to repair.</string>
-    <string name="bonus_item_description_235">\@ cost 50% less resources to repair.</string> 
+	<string name="bonus_tech_tree_description_235">Buildings cost 25% less resources to repair.</string>
+    <string name="bonus_item_description_235">\@ cost 25% less resources to repair.</string> 
 	
     <!--building_description.xml-->
      
@@ -1838,7 +1838,7 @@
 	<string name ="hidden_bonus_name_20">Palisade Walls and Gates upgrade</string>
 	<string name ="hidden_bonus_name_21">Serjeant upgrade</string>
 	<string name ="hidden_bonus_name_22">Donjon upgrade</string>
-	<string name ="hidden_bonus_name_23">Heavy Scorpion proyectile</string>
+	<string name ="hidden_bonus_name_23">Heavy Scorpion projectile</string>
 	<string name ="hidden_bonus_name_24">Camel Scout upgrade</string>
      
     <!--history_list.xml-->
@@ -2812,8 +2812,8 @@
     
     <string name="tech_description_nominative_109">Faith</string>
     <string name="tech_description_quick_109"/>
-    <string name="tech_description_brief_109">Unit are more resistant to conversion</string>
-    <string name="tech_description_long_109">Units and Buildings resist conversion: min. conversion time +2s, max. conversion time +5s, conversion chance reduced by 66%.</string>
+    <string name="tech_description_brief_109">Units are 50% harder to convert.</string>
+    <string name="tech_description_long_109">Units are 50% harder to convert: minimum conversion time +4s, maximum conversion time +4s.</string>
     <string name="tech_description_extra_109"/> 
     
     <string name="tech_description_nominative_110">Illumination</string>
@@ -3471,10 +3471,10 @@
     <string name="tech_description_extra_218">Farmers will slowly generate gold (0.93 gold per minute).</string> 
     
     <string name="tech_description_nominative_219">First Crusade</string>
-    <string name="tech_description_quick_219">Each Town Center (max 5) spawns 5 Serjeants; units are more resistant to conversion</string>
+    <string name="tech_description_quick_219">Each Town Center (max 5) spawns 5 Serjeants; units 50% harder to convert.</string>
     <string name="tech_description_brief_219"/>
-    <string name="tech_description_long_219">Sicilian Castle Age Unique Technology. Each Town Center (max 5) spawns a one-time batch of 5 Serjeants; Units are more resistant to conversion: min. conversion time +2s, max. conversion time +5s, conversion chance reduced by 66%.</string>
-    <string name="tech_description_extra_219">Each Town Center (max 5) spawns a one-time batch of 5 Serjeants; Units are more resistant to conversion: min. conversion time +2s, max. conversion time +5s, conversion chance reduced by 66%.</string> 
+    <string name="tech_description_long_219">Sicilian Castle Age Unique Technology. Each Town Center (max 5) spawns a one-time batch of 5 Serjeants; Units are 50% harder to convert: minimum conversion time +4s, maximum conversion time +4s.</string>
+    <string name="tech_description_extra_219">Each Town Center (max 5) spawns a one-time batch of 5 Serjeants; Units are 50% harder to convert: minimum conversion time +4s, maximum conversion time +4s.</string> 
     
     <string name="tech_description_nominative_220">Elite Coustillier</string>
     <string name="tech_description_quick_220"/>
@@ -3651,10 +3651,10 @@
     <string name="tech_description_extra_248">Militia-line, Knight-line, and Centurions train 50% faster and receive +5 charge attack, which recharges over 20 seconds.</string>
 	
 	<string name="tech_description_nominative_249">Cilician Fleet</string>
-    <string name="tech_description_quick_249">Demolition Ships +33% blast radius; Galley-line and Dromons +1 range</string>
+    <string name="tech_description_quick_249">Demolition Ships +20% blast radius; Galley-line and Dromons +1 range</string>
     <string name="tech_description_brief_249"/>
-    <string name="tech_description_long_249">Armenian Castle Age Unique Tecnology. Demolition Ships get 33% more blast radius; Galley-line and Dromons get +1 range.</string>
-    <string name="tech_description_extra_249">Demolition Ships get 33% more blast radius; Galley-line and Dromons get +1 range.</string>
+    <string name="tech_description_long_249">Armenian Castle Age Unique Tecnology. Demolition Ships get 20% more blast radius; Galley-line and Dromons get +1 range.</string>
+    <string name="tech_description_extra_249">Demolition Ships get 20% more blast radius; Galley-line and Dromons get +1 range.</string>
 	
 	<string name="tech_description_nominative_250">Svan Towers</string>
     <string name="tech_description_quick_250">Defensive buildings +2 attack; Towers fire arrows that pierce through multiple units</string>
@@ -3691,6 +3691,12 @@
     <string name="tech_description_brief_255"/>
     <string name="tech_description_long_255">Georgian Imperial Age Unique Tecnology. Cavalry units take 15% less population space.</string>
     <string name="tech_description_extra_255">Cavalry units take 15% less population space.</string>
+	
+	 <string name="tech_description_nominative_256">Devotion</string>
+    <string name="tech_description_quick_256"/>
+    <string name="tech_description_brief_256">Units are 15% harder to convert.</string>
+    <string name="tech_description_long_256">Units are 15% harder to convert: minimum conversion time +1s, maximum conversion time +1s.</string>
+    <string name="tech_description_extra_256"/> 
     
     <!--tech_list.xml-->
      
@@ -3950,6 +3956,7 @@
     <string name="tech_name_253">Elite Monaspa</string>
     <string name="tech_name_254">Fereters</string>
     <string name="tech_name_255">Aznauri Cavalry</string>
+	<string name="tech_name_256">Devotion</string>
 	
      
     <!--type_list.xml-->
@@ -4980,7 +4987,7 @@
 	<string name="unit_description_nominative_165">Rathas (Melee)</string>
     <string name="unit_description_quick_165">Charriot that can switch between ranged and melee attack</string>
     <string name="unit_description_brief_165"/>
-    <string name="unit_description_long_165">Bengali Unique Unit. Charriot that can switch between ranged and melee attack.</string>
+    <string name="unit_description_long_165">Bengali Unique Unit. Charriot that can switch between ranged and melee attack. Deals 20% of trample damage in melee mode.</string>
     <string name="unit_description_extra_165"/>
 	
 	<string name="unit_description_nominative_166">Urumi Swordsmen</string>
@@ -5028,7 +5035,7 @@
 	<string name="unit_description_nominative_173">Elite Rathas (Melee)</string>
     <string name="unit_description_quick_173">Charriot that can switch between ranged and melee attack</string>
     <string name="unit_description_brief_173"/>
-    <string name="unit_description_long_173">Bengali Unique Unit. Charriot that can switch between ranged and melee attack.</string>
+    <string name="unit_description_long_173">Bengali Unique Unit. Charriot that can switch between ranged and melee attack. Deals 20% of trample damage in melee mode.</string>
     <string name="unit_description_extra_173"/>
 	
 	<string name="unit_description_nominative_174">Elite Urumi Swordsmen</string>
