@@ -30,6 +30,9 @@
 			<value type="29">8</value>
 			<value type="20">6</value>
 		</entry>
+		<entry nameID="projectile_attack_values">
+			<value type="27">0</value>
+		</entry>
 	</item>
 	<item id="7">
 		<entry nameID="unit_attack_values">
@@ -122,6 +125,9 @@
 			<value type="16">9</value>
 			<value type="29">9</value>
 			<value type="20">7</value>
+		</entry>
+		<entry nameID="projectile_attack_values">
+			<value type="27">0</value>
 		</entry>
 	</item>
 	<item id="17">
@@ -679,6 +685,9 @@
 			<value type="16">11</value>
 			<value type="29">11</value>
 			<value type="20">8</value>
+		</entry>
+		<entry nameID="projectile_attack_values">
+			<value type="27">0</value>
 		</entry>
 	</item>
 	<item id="73">

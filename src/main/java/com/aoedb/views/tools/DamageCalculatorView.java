@@ -494,10 +494,7 @@ public class DamageCalculatorView extends OneColumnView {
 
     private void setupAgeLayout(){
         String ageString = Utils.getMaxAge(unit1, unit2, language);
-        if (ageString.equals(Database.getString("dark_age", language))) selector.showDarkAge();
-        else if (ageString.equals(Database.getString("feudal_age", language))) selector.showFeudalAge();
-        else if (ageString.equals(Database.getString("castle_age", language))) selector.showCastleAge();
-        else if (ageString.equals(Database.getString("imperial_age", language))) selector.showImperialAge();
+        selector.showDarkAge();
         selector.selectInitialAge(Utils.convertAge(ageString, language));
     }
 
