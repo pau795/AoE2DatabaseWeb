@@ -2072,7 +2072,7 @@
     <string name="taunt_name_22">¡Deja de tocarme!</string>
     <string name="taunt_name_23">¡Grupo de saqueo!</string>
     <string name="taunt_name_24">¡Demonios!</string>
-    <string name="taunt_name_25">¡Venga, pegame!</string>
+    <string name="taunt_name_25">¡Venga, pégame!</string>
     <string name="taunt_name_26">¡No, la Maravilla no!</string>
     <string name="taunt_name_27">¿Dos horas de partida para morir así?</string>
     <string name="taunt_name_28">Ya, deberías ver como acabó el otro.</string>
@@ -2835,7 +2835,7 @@
     <string name="tech_description_long_113">Los edificios obtienen +10% de puntos de resistencia, +1 de armadura melé (incluye armadura especial de Leitis), +1 de armadura antiproyectil, y +3 de armadura de Todos los Edificios.</string>
     <string name="tech_description_extra_113"/> 
     
-    <string name="tech_description_nominative_114">" Química"</string>
+    <string name="tech_description_nominative_114">Química</string>
     <string name="tech_description_quick_114"/>
     <string name="tech_description_brief_114">Las unidades con alcance, edificios y armas de asedio obtienen +1 de ataque. Requerido para unidades y edificios de pólvora.</string>
     <string name="tech_description_long_114">Unidades y edificios que disparan proyectiles (excepto unidades de polvora) obtienen +1 de ataque. Requerido para crear unidades y edificios de pólvora (Artilleros Manuales, Galeones Artillados, Cañones de Asedio, y Torres de Bombardeo).</string>
