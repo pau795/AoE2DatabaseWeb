@@ -252,6 +252,7 @@ public class MainLayout extends AppLayout implements BeforeEnterObserver, AppShe
     protected void afterNavigation() {
         super.afterNavigation();
         viewTitle.setText(getCurrentPageTitle());
+        if (getContent() instanceof  TechTreeView) this.setDrawerOpened(false);
         if((getContent() instanceof ListView) || (getContent() instanceof TechTreeView)){
             contextMenu.removeAll();
             contextMenu.addItem(Database.getString("android", language), event->androidApp());

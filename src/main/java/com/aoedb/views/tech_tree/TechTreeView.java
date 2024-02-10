@@ -11,9 +11,11 @@ import com.aoedb.data.EntityElement;
 import com.aoedb.database.Database;
 import com.aoedb.database.Utils;
 import com.vaadin.flow.component.Component;
+import com.vaadin.flow.component.button.Button;
+import com.vaadin.flow.component.combobox.ComboBox;
 import com.vaadin.flow.component.dependency.CssImport;
 import com.vaadin.flow.component.html.*;
-import com.vaadin.flow.component.select.Select;
+import com.vaadin.flow.component.icon.VaadinIcon;
 import com.vaadin.flow.data.renderer.ComponentRenderer;
 import com.vaadin.flow.router.BeforeEnterEvent;
 import com.vaadin.flow.router.Route;
@@ -69,7 +71,11 @@ public class TechTreeView extends BaseView {
 
 
     Set<TechTreeBox> boxSet;
-    Select<EntityElement> civSelector;
+    ComboBox<EntityElement> civSelector;
+
+    Div sidebar, topBar;
+
+    boolean sidebarExpanded;
     TechTreeBox uniqueUnit, eliteUniqueUnit, castleUniqueTech, imperialUniqueTech, hussar, mill, monastery, missionary, paladin;
     TechTreeBox twoHandedSwordsman, champion;
 
@@ -78,31 +84,43 @@ public class TechTreeView extends BaseView {
     public void initView() {
         removeClassNames("view-main-layout");
         boxSet = new HashSet<>();
-        Div topBar = getTopBar();
-        Div techTreeCivInfo = getCivInfoLayout();
+        sidebar = getCivInfoLayout();
+        topBar = getTopBar();
 
         Div darkContainer = darkAgeLayout();
         Div feudalContainer = feudalAgeLayout();
         Div castleContainer = castleAgeLayout();
         Div imperialContainer = imperialAgeLayout();
-        Div techTreeFigureContainer = new Div();
-        techTreeFigureContainer.addClassNames("tech-tree-figure-container");
-        techTreeFigureContainer.add(darkContainer, feudalContainer, castleContainer, imperialContainer);
+
+
+        Div techTreeYScroller = new Div();
+        techTreeYScroller.addClassNames("tech-tree-y-scroller");
+        techTreeYScroller.add(darkContainer, feudalContainer, castleContainer, imperialContainer);
+
+        Div techTreeXScroller = new Div();
+        techTreeXScroller.addClassNames("tech-tree-x-scroller");
+        techTreeXScroller.add(techTreeYScroller);
+
+        Div testDiv= new Div();
+        testDiv.addClassNames("test-div");
 
         Div techTreeContainer = new Div();
         techTreeContainer.addClassNames("tech-tree-container");
-        techTreeContainer.add(techTreeCivInfo, techTreeFigureContainer);
+        techTreeContainer.add(techTreeYScroller);
+
         Div mainContainer = new Div();
-        mainContainer.add(topBar, techTreeContainer);
+        mainContainer.add(topBar, sidebar, techTreeContainer);
         mainContainer.addClassNames("tech-tree-main-container");
+
         addClassNames("tech-tree-view");
         add(mainContainer);
         setupSelector();
     }
 
     private Div getCivInfoLayout() {
+        sidebarExpanded = true;
         Div civInfoLayout = new Div();
-        civInfoLayout.addClassNames("tech-tree-civ-info-layout", "tech-tree-feudal-background");
+        civInfoLayout.addClassNames("tech-tree-civ-info-layout", "tech-tree-feudal-background", "tech-tree-sidebar-expanded");
         civInfoSpan = new Span();
         civInfoSpan.addClassNames("tech-tree-civ-info-text");
         civName = new Label();
@@ -133,13 +151,17 @@ public class TechTreeView extends BaseView {
     private Div getTopBar(){
         Div bar = new Div();
         bar.addClassNames("tech-tree-top-bar");
-        Div civSelectorLayout = new Div();
-        civSelectorLayout.addClassNames("tech-tree-top-bar-selector-layout");
-        civSelector = new Select<>();
-        civSelector.addClassNames("tech-tree-civ-selector");
-        civSelectorLayout.add(civSelector);
+        Button collapseSidebar = new Button(VaadinIcon.LINES.create());
+        collapseSidebar.addClickListener(event -> {
+            String addClass = sidebarExpanded ? "tech-tree-sidebar-collapsed" : "tech-tree-sidebar-expanded";
+            String removeClass = sidebarExpanded ? "tech-tree-sidebar-expanded" : "tech-tree-sidebar-collapsed";
+            this.sidebar.removeClassName(removeClass);
+            this.sidebar.addClassNames(addClass);
+            this.sidebarExpanded = !sidebarExpanded;
+        });
+        civSelector = new ComboBox<>();
         Div shortcutLayout = shortCutLayout();
-        bar.add(civSelectorLayout, shortcutLayout);
+        bar.add(collapseSidebar, civSelector, shortcutLayout);
         return bar;
     }
 
@@ -211,6 +233,8 @@ public class TechTreeView extends BaseView {
     }
 
     private void setupSelector(){
+        civSelector.addClassNames("tech-tree-civ-selector");
+        civSelector.getElement().getStyle().set("--vaadin-combo-box-overlay-width","300px");
         civSelector.setRenderer(new ComponentRenderer<>(item-> Utils.getEntityItemRow(item, false, language)));
         civSelector.setItemLabelGenerator(entityElement -> entityElement.getName().getTranslatedString(language));
         civNames = new ArrayList<>(Database.getList(Database.CIVILIZATION_LIST));
@@ -340,11 +364,13 @@ public class TechTreeView extends BaseView {
         //SIEGE WORKSHOP
 
         Div siegeWorkshopLayout = new Div();
+        siegeWorkshopLayout.setClassName("tech-tree-padding");
         siegeWorkshopLayout.setWidth(siegeWorkshopWidth + "px");
         siegeWorkshopLayout.setHeight(sectionHeight + "px");
 
         //BLACKSMITH
         Div blacksmithLayout = new Div();
+        blacksmithLayout.setClassName("tech-tree-padding");
         blacksmithLayout.setWidth(blacksmithWidth + "px");
         blacksmithLayout.setHeight(sectionHeight + "px");
 
@@ -389,6 +415,7 @@ public class TechTreeView extends BaseView {
 
         //UNIVERSITY
         Div universityLayout = new Div();
+        universityLayout.setClassName("tech-tree-padding");
         universityLayout.setWidth(universityWidth + "px");
         universityLayout.setHeight(sectionHeight + "px");
 
@@ -409,23 +436,27 @@ public class TechTreeView extends BaseView {
 
         //CASTLE
         Div castleLayout = new Div();
+        castleLayout.setClassName("tech-tree-padding");
         castleLayout.setWidth(castleWidth + "px");
         castleLayout.setHeight(sectionHeight + "px");
 
         //MONASTERY
         Div monasteryLayout = new Div();
+        monasteryLayout.setClassName("tech-tree-padding");
         monasteryLayout.setWidth(monasteryWidth + "px");
         monasteryLayout.setHeight(sectionHeight + "px");
 
         //KREPOST
         Div krepostLayout = new Div();
+        krepostLayout.setClassName("tech-tree-padding");
         krepostLayout.setWidth(columnWidth + "px");
         krepostLayout.setHeight(sectionHeight + "px");
 
         //DONJON
         Div donjonLayout = new Div();
+        donjonLayout.setClassName("tech-tree-padding");
         donjonLayout.setWidth(donjonWidth + "px");
-        donjonLayout.setHeight(donjonWidth + "px");
+        donjonLayout.setHeight(sectionHeight + "px");
 
         //HOUSE WONDER
         TechTreeBox house = new TechTreeBox(Database.getBuilding(2), false, language);
@@ -456,11 +487,13 @@ public class TechTreeView extends BaseView {
 
         //FEITORIA
         Div feitoriaLayout = new Div();
+        feitoriaLayout.setClassName("tech-tree-padding");
         feitoriaLayout.setWidth(columnWidth + "px");
         feitoriaLayout.setHeight(sectionHeight + "px");
 
         //CARAVANSERAI
         Div caravanseraiLayout = new Div();
+        caravanseraiLayout.setClassName("tech-tree-padding");
         caravanseraiLayout.setWidth(columnWidth + "px");
         caravanseraiLayout.setHeight(sectionHeight + "px");
 
@@ -650,6 +683,7 @@ public class TechTreeView extends BaseView {
 
         //UNIVERSITY
         Div universityLayout = new Div();
+        universityLayout.setClassName("tech-tree-padding");
         universityLayout.setWidth(universityWidth + "px");
         universityLayout.setHeight(sectionHeight + "px");
 
@@ -669,16 +703,19 @@ public class TechTreeView extends BaseView {
 
         //CASTLE
         Div castleLayout = new Div();
+        castleLayout.setClassName("tech-tree-padding");
         castleLayout.setWidth(castleWidth + "px");
         castleLayout.setHeight(sectionHeight + "px");
 
         //MONASTERY
         Div monasteryLayout = new Div();
+        monasteryLayout.setClassName("tech-tree-padding");
         monasteryLayout.setWidth(monasteryWidth + "px");
         monasteryLayout.setHeight(sectionHeight + "px");
 
         //KREPOST
         Div krepostLayout = new Div();
+        krepostLayout.setClassName("tech-tree-padding");
         krepostLayout.setWidth(columnWidth + "px");
         krepostLayout.setHeight(sectionHeight + "px");
 
@@ -695,6 +732,7 @@ public class TechTreeView extends BaseView {
 
         //HOUSE WONDER
         Div houseLayout = new Div();
+        houseLayout.setClassName("tech-tree-padding");
         houseLayout.setWidth(columnWidth + "px");
         houseLayout.setHeight(sectionHeight + "px");
 
@@ -714,11 +752,13 @@ public class TechTreeView extends BaseView {
 
         //FEITORIA
         Div feitoriaLayout = new Div();
+        feitoriaLayout.setClassName("tech-tree-padding");
         feitoriaLayout.setWidth(columnWidth + "px");
         feitoriaLayout.setHeight(sectionHeight + "px");
 
         //CARAVANSERAI
         Div caravanseraiLayout = new Div();
+        caravanseraiLayout.setClassName("tech-tree-padding");
         caravanseraiLayout.setWidth(columnWidth + "px");
         caravanseraiLayout.setHeight(sectionHeight + "px");
 
@@ -758,6 +798,7 @@ public class TechTreeView extends BaseView {
 
         //FARM
         Div farmLayout = new Div();
+        farmLayout.setClassName("tech-tree-padding");
         farmLayout.setWidth(columnWidth + "px");
         farmLayout.setHeight(sectionHeight + "px");
 
@@ -1047,6 +1088,7 @@ public class TechTreeView extends BaseView {
 
         //HOUSE WONDER
         Div houseLayout = new Div();
+        houseLayout.setClassName("tech-tree-padding");
         houseLayout.setWidth(columnWidth + "px");
         houseLayout.setHeight(sectionHeight + "px");
 
@@ -1076,6 +1118,7 @@ public class TechTreeView extends BaseView {
 
         //CARAVANSERAI
         Div caravanseraiLayout = new Div();
+        caravanseraiLayout.setClassName("tech-tree-padding");
         caravanseraiLayout.setWidth(columnWidth + "px");
         caravanseraiLayout.setHeight(sectionHeight + "px");
 
@@ -1117,6 +1160,7 @@ public class TechTreeView extends BaseView {
 
         //FARM
         Div farmLayout = new Div();
+        farmLayout.setClassName("tech-tree-padding");
         farmLayout.setWidth(columnWidth + "px");
         farmLayout.setHeight(sectionHeight + "px");
 
@@ -1392,9 +1436,10 @@ public class TechTreeView extends BaseView {
         TechTreeEmptyBox monasteryLine2 = new TechTreeEmptyBox(false);
         TechTreeEmptyBox monasteryLine3 = new TechTreeEmptyBox(false);
         TechTreeEmptyBox monasteryLine4 = new TechTreeEmptyBox(false);
+        TechTreeEmptyBox monasteryLine5 = new TechTreeEmptyBox(false);
 
         TechTreeSlotLayout monasteryLayout = new TechTreeSlotLayout(boxSet);
-        monasteryLayout.addFistRow(illumination, blockPrinting, faith, theocracy, monasteryLine1, monasteryLine2, monasteryLine3, monasteryLine4);
+        monasteryLayout.addFistRow(illumination, blockPrinting, faith, theocracy, monasteryLine1, monasteryLine2, monasteryLine3, monasteryLine4, monasteryLine5);
 
         //KREPOST
         TechTreeBox eliteKonnik = new TechTreeBox(Database.getUnit(142), true, language);
@@ -1457,6 +1502,7 @@ public class TechTreeView extends BaseView {
 
         //MINING CAMP
         Div miningCampLayout = new Div();
+        miningCampLayout.setClassName("tech-tree-padding");
         miningCampLayout.setWidth(miningCampWidth + "px");
         miningCampLayout.setHeight(sectionHeight + "px");
 
@@ -1490,6 +1536,7 @@ public class TechTreeView extends BaseView {
 
         //FARM
         Div farmLayout = new Div();
+        farmLayout.setClassName("tech-tree-padding");
         farmLayout.setWidth(columnWidth + "px");
         farmLayout.setHeight(sectionHeight + "px");
 
