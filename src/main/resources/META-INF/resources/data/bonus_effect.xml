@@ -1938,7 +1938,7 @@
 		</effects>
 	</item>
 	<item id="117">
-		<info civ="-1" globalFilter="none" teamBonus="false" staggered="true"/>
+		<info civ="0" globalFilter="none" teamBonus="false" staggered="true"/>
 		<effects>
 			<statEffect/>
 			<costEffect/>

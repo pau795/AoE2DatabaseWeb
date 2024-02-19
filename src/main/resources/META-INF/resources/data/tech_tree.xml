@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<techTree>
+	<entity civ="0" type="none" id="0" age="0"/>
+	
+	<techTree name="Archery Range">
+		<entity civ="0" type="buidling" id="14" age="2"/>
+		
+		<techTree name="Archer">
+			<entity civ="0" type="unit" id="13" age="2"/>
+			
+			<techTree name="Crossbowman">
+				<entity civ="0" type="unit" id="27" age="3"/>
+				
+				<techTree name="Arbalester">
+					<entity civ="0" type="unit" id="85" age="4"/>
+					
+				</techTree>
+				
+			</techTree>
+			
+		</techTree>
+		
+		<techTree name="Skirmisher">
+			<entity civ="0" type="unit" id="14" age="2"/>
+			
+			<techTree name="Elite Skirmisher">
+				<entity civ="0" type="unit" id="28" age="3"/>
+				
+				<techTree name="Imperial Skirmisher">
+					<entity civ="30" type="special_unit" id="86" age="4"/>
+					
+				</techTree>
+				
+			</techTree>	
+			
+		</techTree>
+		
+		<techTree name="Cavalry Archer / Elephant Archer">
+			<entity civ="0" type="unit" id="29" age="3"/>
+			<entity civ="40" type="unit" id="161" age="3"/>
+			<entity civ="41" type="unit" id="161" age="3"/>
+			<entity civ="42" type="unit" id="161" age="3"/>
+			
+			<techTree name="Heavy Cavalry Archer">
+				<entity civ="0" type="unit" id="87" age="4"/>
+				<entity civ="40" type="unit" id="169" age="4"/>
+				<entity civ="41" type="unit" id="169" age="4"/>
+				<entity civ="42" type="unit" id="169" age="4"/>
+			</techTree>
+			
+		</techTree>
+				
+		<techTree name="Genitour">
+			<entity civ="2" type="special_unit" id="30" age="3"/>
+			
+			<techTree name="Elite Genitour">
+				<entity civ="2" type="special_unit" id="89" age="4"/>
+			</techTree>
+				
+		</techTree>
+		
+		<techTree name="Hand Cannoneer">
+			<entity civ="0" type="unit" id="88" age="4"/>
+		</techTree>
+		
+		<techTree name="Slinger">
+			<entity civ="12" type="unit" id="31" age="3"/>
+		</techTree>	
+		
+		<techTree name="Thumb Ring">
+			<entity civ="0" type="tech" id="56" age="3"/>
+		</techTree>
+		
+		<techTree name="Pathian Tactics">
+			<entity civ="0" type="tech" id="127" age="4"/>
+		</techTree>
+		
+	</techTree>
+</techTree>

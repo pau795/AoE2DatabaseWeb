@@ -1295,6 +1295,42 @@ public class Reader {
         return new HashMap<>();
     }
 
+
+    public TechTree readTechTree(){
+        try {
+            DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
+            DocumentBuilder docBuilder = builderFactory.newDocumentBuilder();
+            Document doc = docBuilder.parse(getData(Database.TECH_TREE));
+            Element root = (Element) doc.getElementsByTagName("techTree").item(0);
+            return getRecursiveTechTree(root);
+        } catch (ParserConfigurationException | IOException | SAXException e) {
+            e.printStackTrace();
+        }
+        return new TechTree();
+    }
+
+    public TechTree getRecursiveTechTree(Element root){
+        TechTree techTree = new TechTree();
+        NodeList nodeList = root.getChildNodes();
+        for (int i = 0; i < nodeList.getLength(); ++i) {
+            Node node = nodeList.item(i);
+                if (node.getNodeType() == Node.ELEMENT_NODE) {
+                    Element elem = (Element) node;
+                    if (elem.getNodeName().equals("entity")) {
+                        int civID = Integer.parseInt(elem.getAttribute("civ"));
+                        String entityType = elem.getAttribute("type");
+                        int entityID = Integer.parseInt(elem.getAttribute("id"));
+                        int ageID = Integer.parseInt(elem.getAttribute("age"));
+                        techTree.addCivNode(civID, new TechTree.TechTreeNode(entityID, entityType, ageID));
+                    }
+                    if (elem.getNodeName().equals("techTree")) {
+                        techTree.addChild(getRecursiveTechTree(elem));
+                    }
+                }
+        }
+        return techTree;
+    }
+
     public LinkedHashMap<String, List<Integer>> readTechTreeQuestions() {
         try {
             LinkedHashMap<String, List<Integer>> b = new LinkedHashMap<>();

@@ -74,6 +74,8 @@ public class Database {
     public final static String TECH_GROUPS = "tech_groups";
     public final static String TECH_LIST = "tech_list";
     public final static String TECH_STATS = "tech_stats";
+
+    public final static String TECH_TREE = "tech_tree";
     public final static String TECH_TREE_QUIZ = "tech_tree_quiz";
     public final static String TECH_UPGRADES = "tech_upgrades";
     public final static String TYPE_LIST = "type_list";
