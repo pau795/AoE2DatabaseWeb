@@ -40,7 +40,7 @@ public class TechTreeView extends BaseView {
     static int siegeWorkshopWidth = boxWidth * 5;
     static int blacksmithWidth = boxWidth * 5;
     static int universityWidth = boxWidth * 7;
-    static int castleWidth = boxWidth * 8;
+    static int castleWidth = boxWidth * 7;
     static int donjonWidth = boxWidth * 2;
 
     static int monasteryWidth = boxWidth * 9;
@@ -76,7 +76,7 @@ public class TechTreeView extends BaseView {
     Div sidebar, topBar;
 
     boolean sidebarExpanded;
-    TechTreeBox uniqueUnit, eliteUniqueUnit, castleUniqueTech, imperialUniqueTech, hussar, mill, monastery, missionary, paladin;
+    TechTreeBox uniqueUnit, eliteUniqueUnit, castleUniqueTech, imperialUniqueTech, hussar, mill, monastery, missionary, paladin, houfnice, bombardCannon;
     TechTreeBox twoHandedSwordsman, champion;
 
 
@@ -278,6 +278,16 @@ public class TechTreeView extends BaseView {
             twoHandedSwordsman.setEntity(Database.getUnit(80));
             twoHandedSwordsman.restoreBottomLine();
             champion.setVisible(true);
+        }
+        if (civID == 35){
+            houfnice.setEntity(Database.getUnit(148));
+            houfnice.removeTopLine();
+            bombardCannon.removeBottomLine();
+        }
+        else{
+            houfnice.setEntity(Database.getUnit(159));
+            houfnice.restoreTopLine();
+            bombardCannon.restoreBottomLine();
         }
 
         for (TechTreeBox box: boxSet) {
@@ -1003,9 +1013,6 @@ public class TechTreeView extends BaseView {
         petard.removeBottomLine();
         petard.setTopRightLine();
         petard.setTopLeftLine();
-        TechTreeEmptyBox castleLine1 = new TechTreeEmptyBox(true);
-        castleLine1.setTopRightLine();
-        castleLine1.setTopLeftLine();
         TechTreeBox castleUniqueTech = new TechTreeBox(Database.getTechnology(59), false, language);
         this.castleUniqueTech = castleUniqueTech;
         castleUniqueTech.setTopRightLine();
@@ -1025,7 +1032,7 @@ public class TechTreeView extends BaseView {
 
         TechTreeSlotLayout castleLayout = new TechTreeSlotLayout(boxSet);
         castleLayout.addFistRow(castle);
-        castleLayout.addSecondRow(uniqueUnit, petard, castleLine1, castleUniqueTech, castleLine2, castleLine3, castleLine4, castleLine5);
+        castleLayout.addSecondRow(uniqueUnit, petard, castleUniqueTech, castleLine2, castleLine3, castleLine4, castleLine5);
 
         //MONASTERY
         monastery = new TechTreeBox(Database.getBuilding(20), false, language);
@@ -1266,7 +1273,7 @@ public class TechTreeView extends BaseView {
         TechTreeBox onager = new TechTreeBox(Database.getUnit(98), false, language);
         TechTreeBox heavyScorpion = new TechTreeBox(Database.getUnit(100), false, language);
         heavyScorpion.removeBottomLine();
-        TechTreeBox bombardCannon = new TechTreeBox(Database.getUnit(101), false, language);
+        bombardCannon = new TechTreeBox(Database.getUnit(101), false, language);
         bombardCannon.removeTopLine();
         TechTreeBox siegeRam = new TechTreeBox(Database.getUnit(97), false, language);
         siegeRam.removeBottomLine();
@@ -1274,7 +1281,7 @@ public class TechTreeView extends BaseView {
         TechTreeBox siegeOnager = new TechTreeBox(Database.getUnit(99), false, language);
         siegeOnager.removeBottomLine();
         TechTreeEmptyBox siegeWorkshopLine1 = new TechTreeEmptyBox(false);
-        TechTreeBox houfnice = new TechTreeBox(Database.getUnit(159), true, language);
+        houfnice = new TechTreeBox(Database.getUnit(159), true, language);
         houfnice.removeBottomLine();
 
         TechTreeSlotLayout siegeWorkshopLayout = new TechTreeSlotLayout(boxSet);
@@ -1390,8 +1397,6 @@ public class TechTreeView extends BaseView {
         TechTreeBox trebuchet = new TechTreeBox(Database.getUnit(102), false, language);
         trebuchet.removeBottomLine();
         trebuchet.removeTopLine();
-        TechTreeBox flamingCamel = new TechTreeBox(Database.getUnit(148), true, language);
-        flamingCamel.removeBottomLine();
         TechTreeBox imperialUniqueTech = new TechTreeBox(Database.getTechnology(174), false, language);
         this.imperialUniqueTech = imperialUniqueTech;
         imperialUniqueTech.removeBottomLine();
@@ -1411,11 +1416,10 @@ public class TechTreeView extends BaseView {
         TechTreeEmptyBox castleLine5 = new TechTreeEmptyBox(false);
         TechTreeEmptyBox castleLine6 = new TechTreeEmptyBox(false);
         TechTreeEmptyBox castleLine7 = new TechTreeEmptyBox(false);
-        TechTreeEmptyBox castleLine8 = new TechTreeEmptyBox(false);
 
         TechTreeSlotLayout castleLayout = new TechTreeSlotLayout(boxSet);
-        castleLayout.addFistRow(eliteUniqueUnit, trebuchet, flamingCamel, imperialUniqueTech, hoardings, sappers, conscription, spies);
-        castleLayout.addSecondRow(castleLine1, castleLine2, castleLine3, castleLine4, castleLine5, castleLine6, castleLine7, castleLine8);
+        castleLayout.addFistRow(eliteUniqueUnit, trebuchet, imperialUniqueTech, hoardings, sappers, conscription, spies);
+        castleLayout.addSecondRow(castleLine1, castleLine2, castleLine3, castleLine4, castleLine5, castleLine6, castleLine7);
 
         //MONASTERY
         TechTreeBox illumination = new TechTreeBox(Database.getTechnology(110), false, language);

@@ -424,7 +424,7 @@
 	<string name="cheat_codes_units">&lt;b&gt;how do you turn this on:&lt;/b&gt; Cobra Car.\n\n&lt;b&gt;to smithereens:&lt;/b&gt; Saboteador.\n\n&lt;b&gt;furious the monkey boy:&lt;/b&gt; Hijo del Mono Feroz.\n\n&lt;b&gt;i love the monkey head:&lt;/b&gt; VDML.\n\n&lt;b&gt;i don’t exist:&lt;/b&gt; Pingüino.\n\n&lt;b&gt;catzor:&lt;/b&gt; Tiburogatito volador.\n\n&lt;b&gt;alpaca simulator:&lt;/b&gt; Alfred la Alpaca.</string>
 	<string name="cheat_codes_various">&lt;b&gt;aegis:&lt;/b&gt; Construcción, creación de unidades y recolección de recursos instantáneas.\n\n&lt;b&gt;natural wonders:&lt;/b&gt; Controla al jugador Gaia (animales), pero es irreversible.\n\n&lt;b&gt;marco:&lt;/b&gt; Revela el mapa.\n\n&lt;b&gt;polo:&lt;/b&gt; Elimina la niebla de guerra.\n\n&lt;b&gt;i r winner:&lt;/b&gt; Gana la partida.\n\n&lt;b&gt;torpedo#:&lt;/b&gt; Destruye al jugador indicado por #.\n\n&lt;b&gt;woof woof:&lt;/b&gt; Convierte los halcones ambientales en perros voladores.\n\n&lt;b&gt;wimpywimpywimpy:&lt;/b&gt; Autodestrucción.\n\n&lt;b&gt;black death:&lt;/b&gt; Destruye a todos los oponentes.</string>
 	<string name="non_cheat_codes">&lt;b&gt;!mute:&lt;/b&gt; Desactiva los sonidos de burlas.\n\n&lt;b&gt;!nomute:&lt;/b&gt; Revierte el efecto de !mute.</string>
-	<string name="event_cheat_codes">&lt;b&gt;photon man:&lt;/b&gt; Crea un Photon Man (Evento de Aniversario de Age of Empires).\n\n&lt;b&gt;going above and beyond:&lt;/b&gt; Apila las tecnologías hasta 256 veces (Evento de Grandes Tecnologías Medievales).\n\n&lt;b&gt;tech tech one two free:&lt;/b&gt; Elimina el coste de todas las tecnologías (Evento de Grandes Tecnologías Medievales).\n\n&lt;b&gt;yes we khan:&lt;/b&gt; Convierte todos los Mangudai en Genghis Khan durante la campaña de Gengis Khan (Evento de Civilización Mongola).\n\n&lt;b&gt;put on your capes:&lt;/b&gt; Convierte toda la Infantería en Caballeros Teutónicos de Élite (solo en partidas de un jugador) (Evento de Civilización Teutónica).\n\n&lt;b&gt;grab your pitchforks:&lt;/b&gt; Transforma todos tus Aldeanos en Milicias Flamencas (Evento de las Mujeres de la Historia).\n\n&lt;b&gt;cameleon:&lt;/b&gt; Transforma todas las unidades de Camello en Camellos Llameantes (Evento de Celebración de las Edades).\n\n&lt;b&gt;my cpu can handle it:&lt;/b&gt; La capacidad de población de todos los jugadores se incrementa a 1000 (Evento de Cooperación Alegre).\n\n&lt;b&gt;sharing is caring:&lt;/b&gt; El ingreso de recursos de cada jugador se distribuye a todo el equipo (Evento de Cooperación Alegre).</string>
+	<string name="event_cheat_codes">&lt;b&gt;photon man:&lt;/b&gt; Crea un Photon Man (Evento de Aniversario de Age of Empires).\n\n&lt;b&gt;going above and beyond:&lt;/b&gt; Apila las tecnologías hasta 256 veces (Evento de Grandes Tecnologías Medievales).\n\n&lt;b&gt;tech tech one two free:&lt;/b&gt; Elimina el coste de todas las tecnologías (Evento de Grandes Tecnologías Medievales).\n\n&lt;b&gt;yes we khan:&lt;/b&gt; Convierte todos los Mangudai en Genghis Khan durante la campaña de Gengis Khan (Evento de Civilización Mongola).\n\n&lt;b&gt;put on your capes:&lt;/b&gt; Convierte toda la Infantería en Caballeros Teutónicos de Élite (solo en partidas de un jugador) (Evento de Civilización Teutónica).\n\n&lt;b&gt;grab your pitchforks:&lt;/b&gt; Transforma todos tus Aldeanos en Milicias Flamencas (Evento de las Mujeres de la Historia).\n\n&lt;b&gt;cameleon:&lt;/b&gt; Transforma todas las unidades de Camello en Camellos Llameantes (Evento de Celebración de las Edades).\n\n&lt;b&gt;my cpu can handle it:&lt;/b&gt; La capacidad de población de todos los jugadores se incrementa a 1000 (Evento de Cooperación Alegre).\n\n&lt;b&gt;sharing is caring:&lt;/b&gt; El ingreso de recursos de cada jugador se distribuye a todo el equipo (Evento de Cooperación Alegre).\n\n&lt;b&gt;flemish reformation:&lt;/b&gt; Transforma todos los Aldeanos en Monjes (Evento de Vencedores y Vencidos).</string>
 
     <!--ECONOMY CALCULATOR STRINGS-->
     <string name="ec_units">UNIDADES</string>
@@ -1349,8 +1349,8 @@
 	<string name="bonus_tech_tree_description_230">La Infatería tiene +2 de campo de visión.</string>
     <string name="bonus_item_description_230">\@ tienen +2 de campo de visión.</string> 		
  
-	<string name="bonus_tech_tree_description_231">Comienzan con un Carro de Mulas gratuito, pero con -50 de comida.</string>
-    <string name="bonus_item_description_231">Comienzan con un Carro de Mulas gratuito, pero con -50 de comida.</string> 	
+	<string name="bonus_tech_tree_description_231">Comienzan con un Carro de Mulas gratuito.</string>
+    <string name="bonus_item_description_231">Comienzan con un Carro de Mulas gratuito.</string> 	
 	
 	<string name="bonus_tech_tree_description_232">Las Iglesias Fortificadas proporcionan a los Aldeanos con un incremento del 10% del ratio de trabajo, dentro de un radio de 10 casillas.</string>
     <string name="bonus_item_description_232">\@ trabajan un 10 más rápido dentro del radio de 10 casillas de una Iglesia Fortificada.|\@ proporcionan a los Aldeanos con un incremento del 10% del ratio de trabajo, dentro de un radio de 10 casillas.|</string> 
@@ -1358,8 +1358,8 @@
 	<string name="bonus_tech_tree_description_233">Las Unidades y los Edificios reciben un 15% menos de daño al combatir desde una posición elevada.</string>
     <string name="bonus_item_description_233">\@ reciben un 15% menos de daño al combatir desde una posición elevada.</string> 
  
-	<string name="bonus_tech_tree_description_234">Las unidades de Caballeria regeneran 5/10/15 de HP por minuto en la edad Feudal/Castillos/Imperial.</string>
-    <string name="bonus_item_description_234">\@ regeneran 5/10/15 de HP por minuto en la edad Feudal/Castillos/Imperial.</string> 
+	<string name="bonus_tech_tree_description_234">Las unidades de Caballeria regeneran un 15% de HP por minuto a partir de la Edad Feudal.</string>
+    <string name="bonus_item_description_234">\@ regeneran un 15% de HP por minuto a partir de la Edad Feudal.</string> 
 	
 	<string name="bonus_tech_tree_description_235">Los Edificios cuestan un 25% menos recursos para repararlos.</string>
     <string name="bonus_item_description_235">\@  cuestan un 25% menos recursos para repararlos.</string> 
@@ -3456,8 +3456,8 @@
     <string name="tech_description_nominative_217">Tácticas de Asedio Timúridas</string>
     <string name="tech_description_quick_217">Lanzapiedras +2 alcance, habilita Camellos Llameantes</string>
     <string name="tech_description_brief_217"/>
-    <string name="tech_description_long_217">Tecnología Única Tártara en la Edad Imperial. Los Lanzapiedras obtienen +2 de alcance; Permite crear Camellos Llameantes en el Castillo.</string>
-    <string name="tech_description_extra_217">Los Lanzapiedras obtienen +2 de alcance; Permite crear Camellos Llameantes en el Castillo.</string> 
+    <string name="tech_description_long_217">Tecnología Única Tártara en la Edad Imperial. Los Lanzapiedras obtienen +2 de alcance.</string>
+    <string name="tech_description_extra_217">Los Lanzapiedras obtienen +2 de alcance.</string> 
     
     <string name="tech_description_nominative_218">Viñedos de Borgoña</string>
     <string name="tech_description_quick_218">Granjeros generan oro lentamente</string>
@@ -5083,7 +5083,7 @@
 	<string name="unit_description_nominative_182">Los Monaspas</string>
     <string name="unit_description_quick_182">Caballería de Horda</string>
     <string name="unit_description_brief_182"/>
-    <string name="unit_description_long_182">Unidad Única Georgiana. Caballería con pocos puntos de resistencia y mucho ataque. Se fortalece cuando hay otros Monaspas o unidades de la línea de Caballero cerca (+1 de ataque por cada 5 unidades cercanas, máximo +4 de ataque con 20 unidades cercanas). </string>
+    <string name="unit_description_long_182">Unidad Única Georgiana. Caballería con pocos puntos de resistencia y mucho ataque. Se fortalece cuando hay otros Monaspas o unidades de la línea de Caballero cerca (+1 de ataque por cada 7 unidades cercanas, máximo +4 de ataque con 28 unidades cercanas). </string>
     <string name="unit_description_extra_182"/>	
 	
 	<string name="unit_description_nominative_183">Los Savares</string>
@@ -5101,7 +5101,7 @@
 	<string name="unit_description_nominative_185">Los Monaspas de Élite</string>
     <string name="unit_description_quick_185">Caballería de Horda</string>
     <string name="unit_description_brief_185"/>
-    <string name="unit_description_long_185">Unidad Única Georgiana. Caballería con pocos puntos de resistencia y mucho ataque. Se fortalece cuando hay otros Monaspas o unidades de la línea de Caballero cerca (+1 de ataque por cada 5 unidades cercanas, máximo +4 de ataque con 20 unidades cercanas). </string>
+    <string name="unit_description_long_185">Unidad Única Georgiana. Caballería con pocos puntos de resistencia y mucho ataque. Se fortalece cuando hay otros Monaspas o unidades de la línea de Caballero cerca (+1 de ataque por cada 7 unidades cercanas, máximo +4 de ataque con 28 unidades cercanas). </string>
     <string name="unit_description_extra_185"/>	
  
     <!--unit_list.xml-->

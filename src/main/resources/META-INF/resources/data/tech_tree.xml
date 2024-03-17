@@ -46,6 +46,7 @@
 				<entity civ="40" type="unit" id="169" age="4"/>
 				<entity civ="41" type="unit" id="169" age="4"/>
 				<entity civ="42" type="unit" id="169" age="4"/>
+				
 			</techTree>
 			
 		</techTree>
@@ -55,24 +56,29 @@
 			
 			<techTree name="Elite Genitour">
 				<entity civ="2" type="special_unit" id="89" age="4"/>
+				
 			</techTree>
 				
 		</techTree>
 		
 		<techTree name="Hand Cannoneer">
 			<entity civ="0" type="unit" id="88" age="4"/>
+			
 		</techTree>
 		
 		<techTree name="Slinger">
 			<entity civ="12" type="unit" id="31" age="3"/>
+			
 		</techTree>	
 		
 		<techTree name="Thumb Ring">
 			<entity civ="0" type="tech" id="56" age="3"/>
+			
 		</techTree>
 		
 		<techTree name="Pathian Tactics">
 			<entity civ="0" type="tech" id="127" age="4"/>
+			
 		</techTree>
 		
 	</techTree>

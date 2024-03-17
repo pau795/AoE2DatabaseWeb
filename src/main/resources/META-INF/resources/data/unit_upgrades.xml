@@ -909,9 +909,8 @@
 	</item>
 	<item id="148">
 		<building id="15" upgrades="18 58"/>
-		<building id="21" upgrades="115"/>
 		<building id="20" upgrades="256"/>
-		<building id="26" upgrades="217"/>
+		<building id="21" upgrades="115"/>				
 	</item>
 	<item id="149">
 		<building id="15" upgrades="58"/>

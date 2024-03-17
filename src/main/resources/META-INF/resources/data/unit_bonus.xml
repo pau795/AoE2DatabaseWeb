@@ -884,8 +884,8 @@
 	</item>
 	<item id="148">
 		<bonusList ids="164"/>
-		<teamBonusList ids="62 134 62 209"/>
-		<uniqueTechList ids="217"/>
+		<teamBonusList ids="28 62 134 209"/>
+		<uniqueTechList/>
 		<hiddenBonusList/>
 	</item>
 	<item id="149">

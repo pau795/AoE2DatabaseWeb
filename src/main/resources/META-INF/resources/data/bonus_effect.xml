@@ -3993,8 +3993,40 @@
 		<effects>
 			<statEffect>
 				<effectItem>
-					<filter/>
-					<operation stat="19" operator="@" value="0 0.083 0.167 0.25"/>
+					<filter class="unit" ids="15"/>
+					<operation stat="19" operator="@" value="0 0.1125 0.1125 0.1125"/>
+				</effectItem>	
+				<effectItem>
+					<filter class="unit"  ids="29 30"/>
+					<operation stat="19" operator="@" value="0 0.125 0.125 0.125"/>
+				</effectItem>
+				<effectItem>
+					<filter class="unit"  ids="89"/>
+					<operation stat="19" operator="@" value="0 0.1375 0.1375 0.1375"/>
+				</effectItem>	
+				<effectItem>
+					<filter class="unit" ids="32 87"/>
+					<operation stat="19" operator="@" value="0 0.15 0.15 0.15"/>
+				</effectItem>
+				<effectItem>
+					<filter class="unit" ids="90 182"/>
+					<operation stat="19" operator="@" value="0 0.1875 0.1875 0.1875"/>
+				</effectItem>
+				<effectItem>
+					<filter class="unit"  ids="33"/>
+					<operation stat="19" operator="@" value="0 0.25 0.25 0.25"/>
+				</effectItem>
+				<effectItem>
+					<filter class="unit"  ids="185"/>
+					<operation stat="19" operator="@" value="0 0.225 0.225 0.225"/>
+				</effectItem>	
+				<effectItem>
+					<filter class="unit"  ids="91"/>
+					<operation stat="19" operator="@" value="0 0.3 0.3 0.3"/>
+				</effectItem>											
+				<effectItem>
+					<filter class="techRequirement" requiredTech="18" ids="@" />
+					<operation stat="19" operator="+" value="0 0.05 0.05 0.05"/>
 				</effectItem>	
 			</statEffect>
 			<costEffect/>

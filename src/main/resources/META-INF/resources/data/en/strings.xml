@@ -297,7 +297,7 @@
     <string name="cheat_codes_units">&lt;b&gt;how do you turn this on:&lt;/b&gt; Cobra Car.\n\n&lt;b&gt;to smithereens:&lt;/b&gt; Saboteur.\n\n&lt;b&gt;furious the monkey boy:&lt;/b&gt; Furious the Monkey Boy.\n\n&lt;b&gt;i love the monkey head:&lt;/b&gt; VDML.\n\n&lt;b&gt;i don’t exist:&lt;/b&gt; Penguin.\n\n&lt;b&gt;catzor:&lt;/b&gt; Sharkatzor.\n\n&lt;b&gt;alpaca simulator:&lt;/b&gt; Alfred the Alpaca.</string>
     <string name="cheat_codes_various">&lt;b&gt;aegis:&lt;/b&gt; Instant building, unit creation, and resource gathering.\n\n&lt;b&gt;natural wonders:&lt;/b&gt; Control the gaia player (animals), but it is irreversible.\n\n&lt;b&gt;marco:&lt;/b&gt; Reveal the map.\n\n&lt;b&gt;polo:&lt;/b&gt; Remove the Fog of War.\n\n&lt;b&gt;i r winner:&lt;/b&gt; Win the game.\n\n&lt;b&gt;torpedo#:&lt;/b&gt; Destroys the indicated player by #.\n\n&lt;b&gt;woof woof:&lt;/b&gt; Turns hawks into flying dogs.\n\n&lt;b&gt;wimpywimpywimpy:&lt;/b&gt; Destroy yourself.\n\n&lt;b&gt;black death:&lt;/b&gt; Destroy all the opponents</string>
     <string name="non_cheat_codes">&lt;b&gt;!mute:&lt;/b&gt; Turns off the taunts sound.\n\n&lt;b&gt;!nomute:&lt;/b&gt; Reverts the effect of !mute.</string>
-    <string name="event_cheat_codes">&lt;b&gt;photon man:&lt;/b&gt; Creates a Photon Man (Age of Empires anniversary event).\n\n&lt;b&gt;going above and beyond:&lt;/b&gt; Stack technologies and researches up to 256 times (Greatest medieval technologies event).\n\n&lt;b&gt;tech tech one two free:&lt;/b&gt; Removes the cost of all technologies (Greatest medieval technologies event).\n\n&lt;b&gt;yes we khan:&lt;/b&gt; Turns all of your Mangudai into Genghis Khan during the Genghis Khan campaign (Mongolian civ event).\n\n&lt;b&gt;put on your capes:&lt;/b&gt; Turns all of your infantry units into Elite Teutonic Knights (Single Player only) (Teutons civ event).\n\n&lt;b&gt;grab your pitchforks:&lt;/b&gt; Turns all of your Villagers into Flemish Militia (Women of History event).\n\n&lt;b&gt;cameleon:&lt;/b&gt; Turns all of your Camel units into Flaming Camels (Celebrating the Ages event).\n\n&lt;b&gt;my cpu can handle it:&lt;/b&gt; All players’ population cap increased to 1000 (Jolly Co-operation event).\n\n&lt;b&gt;sharing is caring:&lt;/b&gt; Every player’s resource income on a team is distributed to the entire team. (Jolly Co-operation event).</string>
+    <string name="event_cheat_codes">&lt;b&gt;photon man:&lt;/b&gt; Creates a Photon Man (Age of Empires anniversary event).\n\n&lt;b&gt;going above and beyond:&lt;/b&gt; Stack technologies and researches up to 256 times (Greatest medieval technologies event).\n\n&lt;b&gt;tech tech one two free:&lt;/b&gt; Removes the cost of all technologies (Greatest medieval technologies event).\n\n&lt;b&gt;yes we khan:&lt;/b&gt; Turns all of your Mangudai into Genghis Khan during the Genghis Khan campaign (Mongolian civ event).\n\n&lt;b&gt;put on your capes:&lt;/b&gt; Turns all of your infantry units into Elite Teutonic Knights (Single Player only) (Teutons civ event).\n\n&lt;b&gt;grab your pitchforks:&lt;/b&gt; Turns all of your Villagers into Flemish Militia (Women of History event).\n\n&lt;b&gt;cameleon:&lt;/b&gt; Turns all of your Camel units into Flaming Camels (Celebrating the Ages event).\n\n&lt;b&gt;my cpu can handle it:&lt;/b&gt; All players’ population cap increased to 1000 (Jolly Co-operation event).\n\n&lt;b&gt;sharing is caring:&lt;/b&gt; Every player’s resource income on a team is distributed to the entire team. (Jolly Co-operation event).\n\n&lt;b&gt;flemish reformation:&lt;/b&gt; Transforms all the Villagers into Monks (Victors and Vanquished event).</string>
 
 
     <string name="dark_age">Dark Age</string>
@@ -1358,8 +1358,8 @@
 	<string name="bonus_tech_tree_description_230">Infantry have +2 line of sight.</string>
     <string name="bonus_item_description_230">\@ have +2 line of sight.</string> 		
 	
-	<string name="bonus_tech_tree_description_231">Start with a free Mule Cart, but -50 food.</string>
-    <string name="bonus_item_description_231">Start with a free Mule Cart, but -50 food.</string> 	
+	<string name="bonus_tech_tree_description_231">Start with a free Mule Cart.</string>
+    <string name="bonus_item_description_231">Start with a free Mule Cart.</string> 	
 	
 	<string name="bonus_tech_tree_description_232">Fortified Churches provide Villagers with 10% more work rate within 10 tile radius.</string>
     <string name="bonus_item_description_232">\@ work 10% faster within a 10 tile radius of a Fortified Church.|\@ provide Villagers with 10% more work rate within 10 tile radius.|</string> 
@@ -1367,8 +1367,8 @@
 	<string name="bonus_tech_tree_description_233">Units and Buildings receive 15% less damage when fighting form higher elevation.</string>
     <string name="bonus_item_description_233">\@ receive 15% less damage when fighting form higher elevation.</string> 
 	
-	<string name="bonus_tech_tree_description_234">Cavalry units regenerate 5/10/15 HP per minute in Feudal/Castle/Imperial Age.</string>
-    <string name="bonus_item_description_234">\@ regenerate 5/10/15 HP per minute in Feudal/Castle/Imperial Age.</string> 
+	<string name="bonus_tech_tree_description_234">Cavalry units regenerate 15% HP per minute starting in Feudal Age.</string>
+    <string name="bonus_item_description_234">\@ regenerate 15% HP per minute starting in Feudal Age.</string> 
 	
 	<string name="bonus_tech_tree_description_235">Buildings cost 25% less resources to repair.</string>
     <string name="bonus_item_description_235">\@ cost 25% less resources to repair.</string> 
@@ -3459,10 +3459,10 @@
     <string name="tech_description_extra_216">Spearman-line and Skirmishers get +2 pierce armor.</string> 
     
     <string name="tech_description_nominative_217">Timurid Siegecraft</string>
-    <string name="tech_description_quick_217">Trebuchets +2 range, enables Flaming Camels</string>
+    <string name="tech_description_quick_217">Trebuchets +2 range</string>
     <string name="tech_description_brief_217"/>
-    <string name="tech_description_long_217">Tatar Imperial Age Unique Technology. Trebuchets get +2 range; enables Flaming camels in the Castle.</string>
-    <string name="tech_description_extra_217">Trebuchets get +2 range; enables Flaming camels in the Castle.</string> 
+    <string name="tech_description_long_217">Tatar Imperial Age Unique Technology. Trebuchets get +2 range.</string>
+    <string name="tech_description_extra_217">Trebuchets get +2 range.</string> 
     
     <string name="tech_description_nominative_218">Burgundian Vineyards</string>
     <string name="tech_description_quick_218">Farmers slowly generate gold</string>
@@ -5089,7 +5089,7 @@
 	<string name="unit_description_nominative_182">Monaspas</string>
     <string name="unit_description_quick_182">Horde Cavalry</string>
     <string name="unit_description_brief_182"/>
-    <string name="unit_description_long_182">Georgian Unique Unit. Cavalry with low HP and high attack. Becomes stronger when other Monaspas or Knight-line units are nearby (+1 attack per 5 nearby units, max. +4 attack with 20 nearby units).</string>
+    <string name="unit_description_long_182">Georgian Unique Unit. Cavalry with low HP and high attack. Becomes stronger when other Monaspas or Knight-line units are nearby (+1 attack per 7 nearby units, max. +4 attack with 28 nearby units).</string>
     <string name="unit_description_extra_182"/>	
 	
 	<string name="unit_description_nominative_183">Savars</string>
@@ -5107,7 +5107,7 @@
 	<string name="unit_description_nominative_185">Elite Monaspas</string>
     <string name="unit_description_quick_185">Horde Cavalry</string>
     <string name="unit_description_brief_185"/>
-    <string name="unit_description_long_185">Georgian Unique Unit. Cavalry with low HP and high attack. Becomes stronger when other Monaspas or Knight-line units are nearby (+1 attack per 5 nearby units, max. +4 attack with 20 nearby units).</string>
+    <string name="unit_description_long_185">Georgian Unique Unit. Cavalry with low HP and high attack. Becomes stronger when other Monaspas or Knight-line units are nearby (+1 attack per 7 nearby units, max. +4 attack with 28 nearby units).</string>
     <string name="unit_description_extra_185"/>	
 	
  

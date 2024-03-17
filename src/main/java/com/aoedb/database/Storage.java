@@ -28,7 +28,7 @@ public class Storage {
     private final List<EcoElement> gatheringRates;
     private final List<Integer> ecoUpgrades;
 
-    private final TechTree techTree;
+    //private final TechTree techTree;
     private final LinkedHashMap<String, List<Integer>> techTreeQuizQuestions;
 
     private final List<HashMap<Integer, Integer>> unitOrder;
@@ -101,7 +101,7 @@ public class Storage {
         performanceGroups = r.readGroupLists(Database.PERFORMANCE_GROUPS, performanceList);
         historyGroups = r.readGroupLists(Database.HISTORY_GROUPS, historyList);
 
-        techTree = r.readTechTree();
+        //techTree = r.readTechTree();
 
         bonusMap = r.readBonuses(Database.BONUS_LIST);
         hiddenBonusMap = r.readBonuses(Database.HIDDEN_BONUS);
