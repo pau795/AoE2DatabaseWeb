@@ -267,7 +267,7 @@
     <!--Fish Traps provide three times more food.-->
     <item id="89"/>
      
-    <!--Battle Elephants cost -30/40% in Castle/Imperial Age.-->
+    <!--Battle Elephants cost -25/35% in Castle/Imperial Age.-->
     <item id="90"/>
      
     <!--Docks have +100% line of sight.-->
@@ -300,7 +300,7 @@
     <!--Cavalry Archers, Mangudai fire 25% faster.-->
     <item id="100"/>
      
-    <!--Light Cavalry, Hussar and Steppe Lancers have +30% hit points.-->
+    <!--Light Cavalry, Hussar and Steppe Lancers have 20/30% more HP in Castle/Imperial Age.-->
     <item id="101"/>
      
     <!--Hunters work 40% faster.-->
@@ -375,7 +375,7 @@
     <!--Gunpowder units fire 18% faster.-->
     <item id="125"/>
      
-    <!--Cannon Galleons fire with ballistics, cannonballs move 133% faster.-->
+    <!--Cannon Galleons fire with ballistics, cannonballs move twice as fast.-->
     <item id="126"/>
      
     <!--Trade units generate +25% gold.-->
@@ -525,7 +525,7 @@
     <!--Relics generate both food (30/min) and gold (30/min).-->
     <item id="175"/>
      
-    <!--Town Centers (except the first Town Center in nomad starts) are built twice as fast; Castles are built 50% faster.-->
+    <!--Town Centers (except the first Town Center in nomad starts) are built twice as fast; Fortifications are built 50% faster.-->
     <item id="176"/>
      
     <!--Land military units (except Siege Weapons) receive 33% less bonus damage.-->

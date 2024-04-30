@@ -926,8 +926,8 @@
     <string name="bonus_tech_tree_description_89">Las Trampas para Peces proporcionan el triple de alimento.</string>
     <string name="bonus_item_description_89">Las Trampas para Peces proporcionan el triple de alimento.</string> 
     
-    <string name="bonus_tech_tree_description_90">Los Elefantes de Combate cuestan un 30/40% menos en la Edad de los Castillos/Imperial.</string>
-    <string name="bonus_item_description_90">\@ cuestan un 30/40% menos en la Edad de los Castillos/Imperial.</string> 
+    <string name="bonus_tech_tree_description_90">Los Elefantes de Combate cuestan un 25/35% menos en la Edad de los Castillos/Imperial.</string>
+    <string name="bonus_item_description_90">\@ cuestan un 25/35% menos en la Edad de los Castillos/Imperial.</string> 
     
     <string name="bonus_tech_tree_description_91">Los Muelles tienen un 100% más de campo de visión.</string>
     <string name="bonus_item_description_91">\@ tienen un +100% más de campo de visión.</string> 
@@ -959,8 +959,8 @@
     <string name="bonus_tech_tree_description_100">Los Arqueros a Caballo y los Mangudai disparan un 25% más rápido.</string>
     <string name="bonus_item_description_100">\@ disparan un 25% más rápido.</string> 
     
-    <string name="bonus_tech_tree_description_101">La Caballería Ligera, los Húsares, y los Lanceros Estaparios tienen un 30%  más de puntos de resistencia.</string>
-    <string name="bonus_item_description_101">\@ tienen un 30% más de puntos de resistencia.</string> 
+    <string name="bonus_tech_tree_description_101">La Caballería Ligera, los Húsares, y los Lanceros Estaparios tienen un 20/30% más de puntos de resistencia en la Edad de los Castillos/Imperial.</string>
+    <string name="bonus_item_description_101">\@ tienen un 20/30% más de puntos de resistencia en la Edad de los Castillos/Imperial.</string> 
     
     <string name="bonus_tech_tree_description_102">Los Cazadores trabajan un 40% más rápido.</string>
     <string name="bonus_item_description_102">Los Cazadores trabajan un 40% más rápido.</string> 
@@ -1034,8 +1034,8 @@
     <string name="bonus_tech_tree_description_125">Las unidades de pólvora disparan un 18% más rápido.</string>
     <string name="bonus_item_description_125">\@ disparan un 18% más rápido.</string> 
     
-    <string name="bonus_tech_tree_description_126">Los Galeones Artillados disparan con Balística por defecto, y sus proyectiles se mueven un 133% más rápido.</string>
-    <string name="bonus_item_description_126">\@ disparan con Balística por defecto, y sus proyectiles se mueven un 133% más rápido.</string> 
+    <string name="bonus_tech_tree_description_126">Los Galeones Artillados se ven afectados por la Balística por defecto, y sus proyectiles se mueven el doble de rápido.</string>
+    <string name="bonus_item_description_126">\@ se ven afectados por la Balística por defecto, y sus proyectiles se mueven el doble de rápido.</string> 
     
     <string name="bonus_tech_tree_description_127">Las unidades comerciales generan un 25% más de oro.</string>
     <string name="bonus_item_description_127">\@ generan un 25% más de oro.</string> 
@@ -1184,8 +1184,8 @@
     <string name="bonus_tech_tree_description_175">Las Reliquias generan tanto alimento (30/min) como oro (30/min).</string>
     <string name="bonus_item_description_175">Las Reliquias generan tanto alimento (30/min) como oro (30/min).</string> 
     
-    <string name="bonus_tech_tree_description_176">Los Centros Urbanos (excepto el primer Centro Urbano en partidas nómadas) se construyen el doble de rápido; los Castillos se construyen un 50% más rápido.</string>
-    <string name="bonus_item_description_176">Los Centros Urbanos (excepto el primer Centro Urbano en partidas nómadas) se construyen el doble de rápido; los Castillos se construyen un 50% más rápido.</string> 
+    <string name="bonus_tech_tree_description_176">Los Centros Urbanos (excepto el primer Centro Urbano en partidas nómadas) se construyen el doble de rápido; las Fortificaciones se construyen un 50% más rápido.</string>
+    <string name="bonus_item_description_176">Los Centros Urbanos (excepto el primer Centro Urbano en partidas nómadas) se construyen el doble de rápido; las Fortificaciones se construyen un 50% más rápido.</string> 
     
     <string name="bonus_tech_tree_description_177">Unidades militares terrestres (excepto las Armas de Asedio) reciben un 33% menos de daño de bonificación.</string>
     <string name="bonus_item_description_177">\@ reciben un 33% menos de daño de bonificación.</string> 
@@ -1358,8 +1358,8 @@
 	<string name="bonus_tech_tree_description_233">Las Unidades y los Edificios reciben un 15% menos de daño al combatir desde una posición elevada.</string>
     <string name="bonus_item_description_233">\@ reciben un 15% menos de daño al combatir desde una posición elevada.</string> 
  
-	<string name="bonus_tech_tree_description_234">Las unidades de Caballeria regeneran un 15% de HP por minuto a partir de la Edad Feudal.</string>
-    <string name="bonus_item_description_234">\@ regeneran un 15% de HP por minuto a partir de la Edad Feudal.</string> 
+	<string name="bonus_tech_tree_description_234">Las unidades de Caballeria regeneran 5/10/15 de HP por minuto en la Edad Feudal/Castillos/Imperial.</string>
+    <string name="bonus_item_description_234">\@ regeneran 5/10/15 de HP por minuto en la Edad Feudal/Castillos/Imperial.</string> 
 	
 	<string name="bonus_tech_tree_description_235">Los Edificios cuestan un 25% menos recursos para repararlos.</string>
     <string name="bonus_item_description_235">\@  cuestan un 25% menos recursos para repararlos.</string> 

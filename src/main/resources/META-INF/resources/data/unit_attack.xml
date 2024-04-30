@@ -1625,7 +1625,7 @@
 		<entry nameID="unit_attack_values">
 			<value type="2">5</value>
 			<value type="3">0</value>
-			<value type="6">0</value>
+			<value type="6">1</value>
 			<value type="19">0</value>
 			<value type="20">0</value>			
 			<value type="34">-3</value>
@@ -1708,7 +1708,7 @@
 		<entry nameID="unit_attack_values">
 			<value type="2">6</value>
 			<value type="3">0</value>
-			<value type="6">0</value>
+			<value type="6">2</value>
 			<value type="19">0</value>
 			<value type="20">0</value>
 			<value type="34">-3</value>

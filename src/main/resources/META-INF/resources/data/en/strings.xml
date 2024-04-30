@@ -935,8 +935,8 @@
     <string name="bonus_tech_tree_description_89">Fish Traps provide three times more food.</string>
     <string name="bonus_item_description_89">Fish Traps provide three times more food.</string> 
     
-    <string name="bonus_tech_tree_description_90">Battle Elephants cost -30/40% in Castle/Imperial Age.</string>
-    <string name="bonus_item_description_90">\@ cost -30/40% in Castle/Imperial Age.</string> 
+    <string name="bonus_tech_tree_description_90">Battle Elephants cost 25/35% less in Castle/Imperial Age.</string>
+    <string name="bonus_item_description_90">\@ cost 25/35% less in Castle/Imperial Age.</string> 
     
     <string name="bonus_tech_tree_description_91">Docks have +100% line of sight.</string>
     <string name="bonus_item_description_91">\@ have +100% line of sight.</string> 
@@ -968,8 +968,8 @@
     <string name="bonus_tech_tree_description_100">Cavalry Archers, Mangudai fire 25% faster.</string>
     <string name="bonus_item_description_100">\@ fire 25% faster.</string> 
     
-    <string name="bonus_tech_tree_description_101">Light Cavalry, Hussar and Steppe Lancers have +30% hit points.</string>
-    <string name="bonus_item_description_101">\@ have +30% hit points.</string> 
+    <string name="bonus_tech_tree_description_101">Light Cavalry, Hussar and Steppe Lancers have 20/30% more HP in Castle/Imperial Age.</string>
+    <string name="bonus_item_description_101">\@ have 20/30% more HP in Castle/Imperial Age.</string> 
     
     <string name="bonus_tech_tree_description_102">Hunters work 40% faster.</string>
     <string name="bonus_item_description_102">Hunters work 40% faster.</string> 
@@ -1043,8 +1043,8 @@
     <string name="bonus_tech_tree_description_125">Gunpowder units fire 18% faster.</string>
     <string name="bonus_item_description_125">\@ fire 18% faster.</string> 
     
-    <string name="bonus_tech_tree_description_126">Cannon Galleons fire with ballistics, cannonballs move 133% faster.</string>
-    <string name="bonus_item_description_126">\@ are affected by ballistics and the projectiles move 133% faster.</string> 
+    <string name="bonus_tech_tree_description_126">Cannon Galleons are affected by ballistics, the projectiles move twice as fast.</string>
+    <string name="bonus_item_description_126">\@ are affected by ballistics and the projectiles twice as fast.</string> 
     
     <string name="bonus_tech_tree_description_127">Trade units generate +25% gold.</string>
     <string name="bonus_item_description_127">\@ generate 25% more gold.</string> 
@@ -1193,8 +1193,8 @@
     <string name="bonus_tech_tree_description_175">Relics generate both food (30/min) and gold (30/min).</string>
     <string name="bonus_item_description_175">Relics generate both food (30/min) and gold (30/min).</string> 
     
-    <string name="bonus_tech_tree_description_176">Town Centers (except the first Town Center in nomad starts) are built twice as fast; Castles are built 50% faster.</string>
-    <string name="bonus_item_description_176">Town Centers (except the first Town Center in nomad starts) are built twice as fast; Castles are built 50% faster.</string> 
+    <string name="bonus_tech_tree_description_176">Town Centers (except the first Town Center in nomad starts) are built twice as fast; Fortifications are built 50% faster.</string>
+    <string name="bonus_item_description_176">Town Centers (except the first Town Center in nomad starts) are built twice as fast; Fortifications are built 50% faster.</string> 
     
     <string name="bonus_tech_tree_description_177">Land military units (except Siege Weapons) receive 33% less bonus damage.</string>
     <string name="bonus_item_description_177">\@ receive 33% less bonus damage.</string> 
@@ -1367,8 +1367,8 @@
 	<string name="bonus_tech_tree_description_233">Units and Buildings receive 15% less damage when fighting form higher elevation.</string>
     <string name="bonus_item_description_233">\@ receive 15% less damage when fighting form higher elevation.</string> 
 	
-	<string name="bonus_tech_tree_description_234">Cavalry units regenerate 15% HP per minute starting in Feudal Age.</string>
-    <string name="bonus_item_description_234">\@ regenerate 15% HP per minute starting in Feudal Age.</string> 
+	<string name="bonus_tech_tree_description_234">Cavalry units regenerate 5/10/15 HP per minute in Feudal/Castle/Imperial Age.</string>
+    <string name="bonus_item_description_234">\@ regenerate 5/10/15 HP per minute in Feudal/Castle/Imperial Age.</string> 
 	
 	<string name="bonus_tech_tree_description_235">Buildings cost 25% less resources to repair.</string>
     <string name="bonus_item_description_235">\@ cost 25% less resources to repair.</string> 

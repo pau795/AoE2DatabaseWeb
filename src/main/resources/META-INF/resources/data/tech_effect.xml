@@ -1990,7 +1990,7 @@
 					<operation stat="23" operator="*" value="1.2"/>
 				</effectItem>
 				<effectItem>
-					<filter class="unit" ids="40 148"/>
+					<filter class="unit" ids="40 148 8 18 74"/>
 					<operation stat="20" operator="*" value="1.4"/>
 				</effectItem>
 				<effectItem>

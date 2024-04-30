@@ -142,7 +142,7 @@
 		<baseInfo builderUnitID="1" ageID="2" classID="11"/>
 		<stats hitPoints="850" attack="5" meleeArmor="1" pierceArmor="7" range="8" minimumRange="1" lineOfSight="10" reloadTime="2" attackDelay="0" accuracy="100" numberProjectiles="1" projectileSpeed="7" garrisonCapacity="5" populationTaken="-" trainingTime="80" workRate="-" healRate="0.1" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1" bonusReduction="1"/>
 		<cost>
-			<resource name="Wood">50</resource>
+			<resource name="Wood">35</resource>
 			<resource name="Stone">125</resource>
 		</cost>
 		<development requiredBuildingID="0" requiredTechID="0" previousUpgradeID="0" nextUpgradeID="25"/>
@@ -199,7 +199,7 @@
 		<baseInfo builderUnitID="1" ageID="19" classID="11"/>
 		<stats hitPoints="1500" attack="7" meleeArmor="2" pierceArmor="8" range="8" minimumRange="1" lineOfSight="10" reloadTime="2" attackDelay="0" accuracy="100" numberProjectiles="1" projectileSpeed="7" garrisonCapacity="5" populationTaken="-" trainingTime="80" workRate="-" healRate="0.1" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1" bonusReduction="1"/>
 		<cost>
-			<resource name="Wood">50</resource>
+			<resource name="Wood">35</resource>
 			<resource name="Stone">125</resource>
 		</cost>
 		<development requiredBuildingID="0" requiredTechID="47" previousUpgradeID="18" nextUpgradeID="30"/>
@@ -243,7 +243,7 @@
 		<baseInfo builderUnitID="1" ageID="90" classID="11"/>
 		<stats hitPoints="2250" attack="8" meleeArmor="3" pierceArmor="9" range="8" minimumRange="1" lineOfSight="10" reloadTime="2" attackDelay="0" accuracy="100" numberProjectiles="1" projectileSpeed="7" garrisonCapacity="5" populationTaken="-" trainingTime="80" workRate="-" healRate="0.1" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1" bonusReduction="1"/>
 		<cost>
-			<resource name="Wood">50</resource>
+			<resource name="Wood">35</resource>
 			<resource name="Stone">125</resource>
 		</cost>
 		<development requiredBuildingID="0" requiredTechID="117" previousUpgradeID="25" nextUpgradeID="0"/>
@@ -267,9 +267,9 @@
 	</item>
 	<item id="33">
 		<baseInfo builderUnitID="1" ageID="2" classID="11"/>
-		<stats hitPoints="1250" attack="5" meleeArmor="1" pierceArmor="7" range="8" minimumRange="1" lineOfSight="10" reloadTime="2" attackDelay="0" accuracy="100" numberProjectiles="1" projectileSpeed="7" garrisonCapacity="10" populationTaken="-" trainingTime="90" workRate="-" healRate="0.1" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1" bonusReduction="1"/>
+		<stats hitPoints="1250" attack="5" meleeArmor="1" pierceArmor="7" range="8" minimumRange="1" lineOfSight="10" reloadTime="2" attackDelay="0" accuracy="100" numberProjectiles="1" projectileSpeed="7" garrisonCapacity="10" populationTaken="-" trainingTime="125" workRate="-" healRate="0.1" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1" bonusReduction="1"/>
 		<cost>
-			<resource name="Wood">75</resource>
+			<resource name="Wood">50</resource>
 			<resource name="Stone">175</resource>
 		</cost>
 		<development requiredBuildingID="0" requiredTechID="0" previousUpgradeID="0" nextUpgradeID="0"/>
