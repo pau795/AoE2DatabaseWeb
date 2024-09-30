@@ -859,7 +859,7 @@
 		<hiddenBonusList ids="4"/>
 	</item>
 	<item id="144">
-		<bonusList ids="2 157 41 81 100 164 143"/>
+		<bonusList ids="2 157 41 81 100 164 143 221"/>
 		<teamBonusList ids="86 166 134"/>
 		<uniqueTechList ids="60 215 191 219 213 87"/>
 		<hiddenBonusList/>

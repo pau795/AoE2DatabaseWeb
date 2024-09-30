@@ -255,7 +255,7 @@
     <!--Scout Cavalry, Light Cavalry, Hussar cost -15%.-->
     <item id="85"/>
      
-    <!--Foot Archers have +2 line of sight.-->
+    <!--Cavalry Archers are trained 25% faster.-->
     <item id="86"/>
      
     <!--Advancing to the next age is 66% faster.-->
