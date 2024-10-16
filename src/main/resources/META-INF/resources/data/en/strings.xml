@@ -671,8 +671,8 @@
     <string name="bonus_tech_tree_description_1">Villagers have +3 carry capacity.</string>
     <string name="bonus_item_description_1">Villagers have +3 carry capacity.</string> 
     
-    <string name="bonus_tech_tree_description_2">Military units are created 11% faster.</string>
-    <string name="bonus_item_description_2">\@ are created 11% faster.</string> 
+    <string name="bonus_tech_tree_description_2">Military units are created 15% faster.</string>
+    <string name="bonus_item_description_2">\@ are created 15% faster.</string> 
     
     <string name="bonus_tech_tree_description_3">Monks get +5 hit points for each researched Monastery technology.</string>
     <string name="bonus_item_description_3">\@ get +5 hit points for each researched Monastery technology.</string> 
@@ -725,8 +725,8 @@
     <string name="bonus_tech_tree_description_19">Camel Riders, Skirmishers, Spear-line cost -25%.</string>
     <string name="bonus_item_description_19">\@ cost -25%.</string> 
     
-    <string name="bonus_tech_tree_description_20">Fire Ships and Dromons attack 25% faster.</string>
-    <string name="bonus_item_description_20">\@ attack 25% faster.</string> 
+    <string name="bonus_tech_tree_description_20">Fire Ships and Dromons attack 20% faster.</string>
+    <string name="bonus_item_description_20">\@ attack 20% faster.</string> 
     
     <string name="bonus_tech_tree_description_21">Town Watch and Town Patrol technologies are free.</string>
     <string name="bonus_item_description_21">\@ technology is free.</string> 
@@ -974,7 +974,7 @@
     <string name="bonus_tech_tree_description_102">Hunters work 40% faster.</string>
     <string name="bonus_item_description_102">Hunters work 40% faster.</string> 
     
-    <string name="bonus_tech_tree_description_103">Scout-Line have +2 line of sight.</string>
+    <string name="bonus_tech_tree_description_103">Scout-line have +2 line of sight.</string>
     <string name="bonus_item_description_103">\@ have +2 line of sight.</string> 
     
     <string name="bonus_tech_tree_description_104">Start with +50 wood and food.</string>
@@ -1319,8 +1319,8 @@
 	<string name="bonus_tech_tree_description_217">Infantry receives double effect from Blacksmith armor upgrades.</string>
     <string name="bonus_item_description_217">\@ receives double effect from Blacksmith armor upgrades.||\@ technology provides double the effect to Infantry units.</string> 
 	
-	<string name="bonus_tech_tree_description_218">Scorpions cost 60% less gold and benefit from Ballistics research.</string>
-    <string name="bonus_item_description_218">\@ costs 60% less gold and benefit from Ballistics research.||\@ technology affects Scorpions.</string> 
+	<string name="bonus_tech_tree_description_218">Scorpions cost 60% less gold.</string>
+    <string name="bonus_item_description_218">\@ costs 60% less gold.</string> 
 	
 	<string name="bonus_tech_tree_description_219">Scorpion-line minimum range is reduced to 1.</string>
     <string name="bonus_item_description_219">\@ minimum range is reduced to 1.</string> 
@@ -1372,6 +1372,9 @@
 	
 	<string name="bonus_tech_tree_description_235">Buildings cost 25% less resources to repair.</string>
     <string name="bonus_item_description_235">\@ cost 25% less resources to repair.</string> 
+	
+	<string name="bonus_tech_tree_description_236">Bloodlines and Scout-line upgrades cost 50% less food.</string>
+    <string name="bonus_item_description_236">\@ technology cost 50% less food.</string> 
 	
     <!--building_description.xml-->
      

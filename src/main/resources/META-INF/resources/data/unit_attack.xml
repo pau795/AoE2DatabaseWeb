@@ -325,7 +325,7 @@
 		<entry nameID="unit_attack_values">
 			<value type="1">2</value>
 			<value type="12">40</value>
-			<value type="20">125</value>
+			<value type="20">150</value>
 		</entry>
 	</item>
 	<item id="37">
@@ -939,7 +939,7 @@
 		<entry nameID="unit_attack_values">
 			<value type="1">3</value>
 			<value type="12">50</value>
-			<value type="20">150</value>
+			<value type="20">160</value>
 		</entry>
 	</item>
 	<item id="97">
@@ -1616,7 +1616,7 @@
 			<value type="1">4</value>
 			<value type="12">25</value>
 			<value type="19">0</value>
-			<value type="20">75</value>
+			<value type="20">90</value>
 			<value type="33">0</value>
 			<value type="34">-3</value>
 		</entry>

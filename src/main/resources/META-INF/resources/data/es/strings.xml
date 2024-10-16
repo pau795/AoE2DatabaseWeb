@@ -662,8 +662,8 @@
     <string name="bonus_tech_tree_description_1">Los Aldeanos tienen +3 de capacidad de carga.</string>
     <string name="bonus_item_description_1">Los Aldeanos tienen +3 de capacidad de carga.</string> 
     
-    <string name="bonus_tech_tree_description_2">Las unidades militares se crean un 11% más rápido.</string>
-    <string name="bonus_item_description_2">\@ se crean un 11% más rápido.</string> 
+    <string name="bonus_tech_tree_description_2">Las unidades militares se crean un 15% más rápido.</string>
+    <string name="bonus_item_description_2">\@ se crean un 15% más rápido.</string> 
     
     <string name="bonus_tech_tree_description_3">Los Monjes obtienen +5 puntos de resistencia por cada tecnología del Monsasterio desarrollada.</string>
     <string name="bonus_item_description_3">\@ obtienen +5 puntos de resistencia por cada tecnología del Monsasterio desarrollada.</string> 
@@ -716,8 +716,8 @@
     <string name="bonus_tech_tree_description_19">Los Jinetes en Camello, los Hostigadores y la línea de Lancero cuestan un 25% menos.</string>
     <string name="bonus_item_description_19">\@ cuestan un 25% menos.</string> 
     
-    <string name="bonus_tech_tree_description_20">Los Barcos Incendiarios y los Dromones atacan un 25% más rápido.</string>
-    <string name="bonus_item_description_20">\@ atacan un 25% más rápido.</string> 
+    <string name="bonus_tech_tree_description_20">Los Barcos Incendiarios y los Dromones atacan un 20% más rápido.</string>
+    <string name="bonus_item_description_20">\@ atacan un 20% más rápido.</string> 
     
     <string name="bonus_tech_tree_description_21">Las Tecnologías de Guardia Urbana y Patrulla Urbana son gratuitas.</string>
     <string name="bonus_item_description_21">La Tecnología de \@ es gratuita.</string> 
@@ -1363,6 +1363,9 @@
 	
 	<string name="bonus_tech_tree_description_235">Los Edificios cuestan un 25% menos recursos para repararlos.</string>
     <string name="bonus_item_description_235">\@  cuestan un 25% menos recursos para repararlos.</string> 
+	
+	<string name="bonus_tech_tree_description_236">La tecnología de Puereza de Sangre y las mejoras de la línea de Caballeria Ligera cuestan un 50% menos de alimento.</string>
+    <string name="bonus_item_description_236">La tecnología de \@ cuesta un 50% menos de alimento.</string> 
  
     <!--building_description.xml-->
      

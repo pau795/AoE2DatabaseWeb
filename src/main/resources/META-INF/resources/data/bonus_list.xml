@@ -3,7 +3,7 @@
     <!--Villagers have +3 carry capacity.-->
     <item id="1"/>
      
-    <!--Military units are created 11% faster.-->
+    <!--Military units are created 15% faster.-->
     <item id="2"/>
      
     <!--Monks get +5 hit points for each researched Monastery technology.-->
@@ -57,7 +57,7 @@
     <!--Camel Riders, Skirmishers, Spear-line cost -25%.-->
     <item id="19"/>
      
-    <!--Fire Ships attack 25% faster.-->
+    <!--Fire Ships attack 20% faster.-->
     <item id="20"/>
      
     <!--Town Watch and Town Patrol technologies are free.-->
@@ -306,7 +306,7 @@
     <!--Hunters work 40% faster.-->
     <item id="102"/>
      
-    <!--Scout-Line have +2 line of sight.-->
+    <!--Scout-line have +2 line of sight.-->
     <item id="103"/>
      
     <!--Start with +50 wood and food.-->
@@ -704,4 +704,7 @@
 	
 	<!--Buildings cost -50% less resources to repair-->
 	<item id="235"/>
+	
+	<!--Bloodlines and Scout-line upgrades cost 50% less food.-->
+	<item id="236"/>
 </list>

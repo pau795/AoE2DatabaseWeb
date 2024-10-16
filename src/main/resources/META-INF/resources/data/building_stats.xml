@@ -84,7 +84,7 @@
 	</item>
 	<item id="11">
 		<baseInfo builderUnitID="1" ageID="-1" classID="19"/>
-		<stats hitPoints="240" attack="-" meleeArmor="2" pierceArmor="2" range="-" minimumRange="-" lineOfSight="6" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="-" trainingTime="30" workRate="-" healRate="-" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1" bonusReduction="1"/>
+		<stats hitPoints="240" attack="-" meleeArmor="2" pierceArmor="4" range="-" minimumRange="-" lineOfSight="6" reloadTime="-" attackDelay="-" accuracy="-" numberProjectiles="-" projectileSpeed="-" garrisonCapacity="-" populationTaken="-" trainingTime="30" workRate="-" healRate="-" hillBonus="1.25" hillReduction="0.75" upHillResist="1" downHillResist="1" bonusReduction="1"/>
 		<cost>
 			<resource name="Wood">30</resource>
 		</cost>

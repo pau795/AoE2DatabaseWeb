@@ -320,7 +320,7 @@
 		<uniqueBuildings/>
 	</item>
 	<item id="39">
-		<bonus bonusList="190 191 192" teamBonus="193"/>
+		<bonus bonusList="190 191 192 236" teamBonus="193"/>
 		<uniqueUnits>
 			<unit unitID="156" eliteUnitID="158"/>
 			<unit unitID="154"/>
